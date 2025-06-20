@@ -41,4 +41,4 @@ for _, row in source_df.iterrows():
 
         total_stretch_length = dist_bw_st_n_ls + dist_bw_ls_xing + crossing_length + dist_bw_xing_end + dist_bw_ls_end + row['distance']
     except:
-        print("nan")
+        print("nan not a number")
