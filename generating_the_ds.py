@@ -1,3 +1,4 @@
+
 import pandas as pd
 from math import radians, sin, cos, sqrt, atan2
 
@@ -5,7 +6,7 @@ def categorize_value(value):
     value = str(value)  # Ensure value is string
     if any(sub in value.lower() for sub in ['re', 're ']):  # Check for 'Re' or 'RE'
         return 'CROSSING'
-    elif any(sub in value.lower() for sub in ['cul', 'culvert', 'bridge']):  # Check for 'cul', 'Culvert', 'Bridge'
+    elif any(sub in value.lower() for sub in ['cul', 'culvert', 'bridge', 'canal']):  # Check for 'cul', 'Culvert', 'Bridge'
         return 'ROAD STRUCTURE'
     elif any(
             sub in value.lower() for sub in ['gp', 'gram panchyat', 'grampanchayat']):  # Check for 'GP', 'Gp', etc.
@@ -36,8 +37,8 @@ def calculate_road_width(row):
 
 def calculate_road_chainage(row):
     chainage = ''
-    if 'kms' in str(row['end_point_name']).lower():
-        chainage = row['end_point_name'] + ", " + row['end_loca_phpto']
+    if 'kms' in str(str(row['end_point_name'])).lower():
+        chainage = str(row['end_point_name']) + ", https://fieldsurvey.rbt-ltd.com/app/" + row['end_loca_phpto']
     else:
         chainage = 'NA'
     return chainage
@@ -45,10 +46,12 @@ def calculate_road_chainage(row):
 
 def calculate_structure(row):
     structure = ''
-    if 'cul' in row['end_point_name'].lower():
+    if 'cul' in str(row['end_point_name']).lower():
         structure = 'CULVERT'
-    elif 'bri' in row['end_point_name'].lower():
+    elif 'bri' in str(row['end_point_name']).lower():
         structure = 'BRIDGE'
+    elif 'canal' in str(row['end_point_name']).lower():
+        structure = 'CANAL'
     else:
         structure = ''
     return structure
@@ -56,7 +59,7 @@ def calculate_structure(row):
 
 def calculate_xing_length(row):
     xing_length = 0
-    if 'cul' in row['end_point_name'].lower() or 'bri' in row['end_point_name'].lower():
+    if 'cul' in str(row['end_point_name']).lower() or 'bri' in str(row['end_point_name']).lower() or 'canal' in str(row['end_point_name']).lower():
         xing1 = row['crossing_Start'].strip('POINT()').split(' ')
         xing2 = row['crossing_end'].strip('POINT()').split(' ')
         xing_length = haversine_distance(xing1[1], xing1[0], xing2[1], xing2[0])
@@ -65,17 +68,18 @@ def calculate_xing_length(row):
 
 def calculate_protec(row):
     protection = ''
-    if 'cul' in row['end_point_name'].lower():
+    if 'cul' in str(row['end_point_name']).lower():
         protection = 'DWC+PCC'
-    elif 'bri' in row['end_point_name'].lower():
+    elif 'bri' in str(row['end_point_name']).lower() or 'canal' in str(row['end_point_name']).lower():
         protection = 'GI+PCC'
     else:
         protection = ''
+    return protection
 
 
 def calculate_protec_length(row):
     xing_length = 0
-    if 'cul' in row['end_point_name'].lower() or 'bri' in row['end_point_name'].lower():
+    if 'cul' in str(row['end_point_name']).lower() or 'bri' in str(row['end_point_name']).lower() or 'canal' in str(row['end_point_name']).lower():
         xing1 = row['crossing_Start'].strip('POINT()').split(' ')
         xing2 = row['crossing_end'].strip('POINT()').split(' ')
         xing_length = haversine_distance(xing1[1], xing1[0], xing2[1], xing2[0])
@@ -83,48 +87,53 @@ def calculate_protec_length(row):
     else:
         return 0
 
+def change_point_name(value):
+    if str(value).upper() == "RE":
+        return 'ROAD CROSS EDGE'
+    else:
+        return str(value).upper()
 
-cols= ['POINT NAME','TYPE','POSITION','OFFSET','SPAN_CONTINUITY','CHAINAGE','DISTENCE(M)','LATITUDE','LONGITUDE','ROUTE NAME','ROUTE TYPE',
+cols= ['POINT NAME','TYPE','POSITION','OFFSET','SPAN_CONTINUITY','CHAINAGE','DISTENCE(M)',"START_COORDINATE", 'CROSSING_START','CROSSING_END','END_COORDINATE','ROUTE NAME','ROUTE TYPE',
        'OFC TYPE','LAYING TYPE','ROUTE ID','ROUTE MARKER','MANHOLE','ROAD NAME','ROAD WIDTH(m)','ROAD SURFACE','OFC POSITION','APRX DISTANCE FROM RCL(m)',
        'AUTHORITY NAME','ROAD CHAINAGE','ROAD STRUTURE TYPE','LENGTH (IN Mtr.)','PROTECTION TYPE','PROTECTION FOR','PROTECTION LENGTH (IN Mtr.)','UTILITY NAME',
        'SIDE OF THE ROAD','SOIL TYPE','TERRAIN','REMARKS']
 boq_ = pd.DataFrame(columns=cols)
-boq_.rename(columns={"LATITUDE":"CROSSING_START", "LONGITUDE":"CROSSING_END"}, inplace=True)
 
 porsa_survey = pd.read_excel('porsa_block_survey_data.xlsx', sheet_name='Sheet1')
 span = porsa_survey.sort_values('span_name').span_name.unique()
 for s in span:
     print(s)
-    temp_df = porsa_survey[porsa_survey.span_name == 's'].sort_values('SEQ')
+    temp_df = porsa_survey[porsa_survey.span_name == s].sort_values('SEQ')
     temp_df.insert(11, "chainage", "NA")
     new_row = temp_df.iloc[[0]].copy()
     new_row['chainage'] = 0
     new_row['distance'] = 0
     new_row['SEQ'] = 0
+    new_row['end_point_name'] = "GP " + s.split('TO')[0]
     pd.DataFrame(new_row)
     temp_df = pd.concat([temp_df, new_row])
     temp_df = temp_df.sort_values('SEQ')
-    temp_df['chainage'].replace('NA', 0, inplace=True)
+    # temp_df['chainage'].replace('NA', 0, inplace=True)
 
-    cols = ['POINT NAME', 'TYPE', 'POSITION', 'OFFSET', 'SPAN_CONTINUITY', 'CHAINAGE', 'DISTENCE(M)', 'LATITUDE',
-            'LONGITUDE', 'ROUTE NAME', 'ROUTE TYPE',
+    cols = ['POINT NAME', 'TYPE', 'POSITION', 'OFFSET', 'SPAN_CONTINUITY', 'CHAINAGE', 'DISTENCE(M)', "START_COORDINATE", 'CROSSING_START',
+            'CROSSING_END', "END_COORDINATE",'ROUTE NAME', 'ROUTE TYPE',
             'OFC TYPE', 'LAYING TYPE', 'ROUTE ID', 'ROUTE MARKER', 'MANHOLE', 'ROAD NAME', 'ROAD WIDTH(m)',
             'ROAD SURFACE', 'OFC POSITION', 'APRX DISTANCE FROM RCL(m)',
             'AUTHORITY NAME', 'ROAD CHAINAGE', 'ROAD STRUTURE TYPE', 'LENGTH (IN Mtr.)', 'PROTECTION TYPE',
             'PROTECTION FOR', 'PROTECTION LENGTH (IN Mtr.)', 'UTILITY NAME',
             'SIDE OF THE ROAD', 'SOIL TYPE', 'TERRAIN', 'REMARKS']
     boq_ds_df = pd.DataFrame(columns=cols)
-    boq_ds_df.rename(columns={"LATITUDE": "CROSSING_START", "LONGITUDE": "CROSSING_END"}, inplace=True)
-
-    boq_ds_df['POINT NAME'] = temp_df['end_point_name'].str.upper()
+    boq_ds_df['POINT NAME'] = temp_df['end_point_name'].apply(change_point_name)
     boq_ds_df['TYPE'] = temp_df['end_point_name'].apply(categorize_value)
     boq_ds_df['POSITION'] = temp_df['ofc_laying']
     boq_ds_df['OFFSET'] = 'NA'
     boq_ds_df['SPAN_CONTINUITY'] = temp_df['SEQ']
     boq_ds_df['CHAINAGE'] = pd.DataFrame([0.0] + [sum(list(temp_df['distance'])[:i + 1]) for i in range(1, len(list(temp_df['distance'])))]).values
     boq_ds_df['DISTENCE(M)'] = temp_df['distance']
+    boq_ds_df['START_COORDINATE'] = temp_df['start_loc_cordinate']
     boq_ds_df['CROSSING_START'] = temp_df['crossing_Start']
     boq_ds_df['CROSSING_END'] = temp_df['crossing_end']
+    boq_ds_df['END_COORDINATE'] = temp_df['end_loca_coordinate']
     boq_ds_df['ROUTE NAME'] = temp_df['span_name']
     boq_ds_df['ROUTE TYPE'] = temp_df['scope']
     boq_ds_df['OFC TYPE'] = '24F'
@@ -149,7 +158,6 @@ for s in span:
     boq_ds_df['SOIL TYPE'] = temp_df['strata_typ']
     boq_ds_df['TERRAIN'] = temp_df['terrain_ty']
     boq_ds_df['REMARKS'] = "NA"
-
     boq_ = pd.concat([boq_, boq_ds_df])
 
-boq_.to_excel('mapped_output.xlsx', index=False)
+boq_.to_excel('mapped_output.xlsx', index=False, sheet_name='Details Sheet')
