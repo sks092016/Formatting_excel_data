@@ -160,5 +160,5 @@ for s in span:
     boq_ds_df['REMARKS'] = "NA"
     boq_ = pd.concat([boq_, boq_ds_df])
 
-with pd.ExcelWriter('mapped_output.xlsx', engine='openpyxl', mode='w') as writer:
+with pd.ExcelWriter('excel_files/mapped_output.xlsx', engine='openpyxl', mode='w') as writer:
     boq_.to_excel(writer, sheet_name='Details Sheet', index=False)
