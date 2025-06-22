@@ -1,5 +1,5 @@
 import pandas as pd
-porsa_survey = pd.read_excel('porsa_block_survey_data.xlsx', sheet_name='Sheet1')
+porsa_survey = pd.read_excel('excel_files/porsa_block_survey_data.xlsx', sheet_name='Sheet1')
 cols = ['ROUTE NAME','ROUTE TYPE','RING NO','ROUTE ID','TOTAL ROUTE LENGTH','NHAI','PWD NH','PWD','ZILA PARISHAD','GP','MPRRDA','MUNICIPALITY','FOREST','RAILWAY XINGS(LEN)',
 'RAILWAY XINGS(NOs)','GAIL XING(LEN)','GAIL XING(NOs)','ADANI XING(LEN)','ADANI XING(NOs)','IOCL XING(LEN)','IOCL XING(NOs)','HPCL XING(LEN)','HPCL XING(NOs)','OTHERS']
 

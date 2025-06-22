@@ -1,6 +1,6 @@
 import pandas as pd
 
-porsa_survey = pd.read_excel('porsa_block_survey_data.xlsx', sheet_name='Sheet1')
+porsa_survey = pd.read_excel('excel_files/porsa_block_survey_data.xlsx', sheet_name='Sheet1')
 cols = ['FROM','TO','ROUTE NAME','RING NO.','ROUTE TYPE','OFC TYPE','LAYING TYPE','ROUTE ID','TOTAL LENGTH(KM)','OH','UG']
 span_details = pd.DataFrame(columns = cols)
 
