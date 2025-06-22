@@ -8,7 +8,7 @@ span_ = porsa_survey[['from_gp_na', 'to_gp_name', 'span_name', 'ring_no', 'scope
 span_dis= porsa_survey.groupby('span_name').agg({'distance': 'sum'})
 merged_df = pd.merge(span_, span_dis, on=['span_name'], how='inner')
 
-porsa_details = pd.read_excel('excel_files/mapped_output.xlsx', sheet_name='Details Sheet')
+porsa_details = pd.read_excel('excel_files/mapped_output_Porsa.xlsx', sheet_name='Details Sheet')
 
 porsa_protection = porsa_details[['ROUTE NAME', 'ROAD STRUTURE TYPE', 'LENGTH (IN Mtr.)', 'PROTECTION TYPE','PROTECTION FOR', 'PROTECTION LENGTH (IN Mtr.)']]
 
@@ -36,5 +36,5 @@ protection_details['LENGTH (IN Mtr) OF GI'] = protection_['GI+PCC']
 protection_details['LENGTH (IN Mtr) OF DWC+PCC'] = protection_['DWC+PCC']
 protection_details['LENGTH (IN Mtr) OF ANCORING'] = (protection_['NO OF CULVERT'] + protection_['NO OF CANAL'] + protection_['NO OF BRIDGE'])*8
 
-with pd.ExcelWriter('excel_files/mapped_output.xlsx', engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
+with pd.ExcelWriter('excel_files/mapped_output_Porsa.xlsx', engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
     protection_details.to_excel(writer, sheet_name='Protection Details', index=False)

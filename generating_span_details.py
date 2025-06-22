@@ -21,5 +21,5 @@ span_details['OH'] = 0
 span_details['UG'] = merged_df['distance']
 
 
-with pd.ExcelWriter('excel_files/mapped_output.xlsx', engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
+with pd.ExcelWriter('excel_files/mapped_output_Porsa.xlsx', engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
     span_details.to_excel(writer, sheet_name='Span Details', index=False)

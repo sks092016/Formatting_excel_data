@@ -171,7 +171,7 @@ def main():
 
         # Saving the output to a new Excel file
         output_df.to_excel('mapped_tarana_output.xlsx', index=False)
-        logging.info("Saved mapped data to mapped_output.xlsx")
+        logging.info("Saved mapped data to mapped_output_Porsa.xlsx")
 
     except FileNotFoundError as e:
         logging.error(f"File not found: {e}")

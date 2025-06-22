@@ -36,6 +36,6 @@ row_details['HPCL XING(LEN)'] = 0
 row_details['HPCL XING(NOs)'] = 0
 row_details['OTHERS'] = 0
 
-with pd.ExcelWriter('excel_files/mapped_output.xlsx', engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
+with pd.ExcelWriter('excel_files/mapped_output_Porsa.xlsx', engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
     row_details.to_excel(writer, sheet_name='RoW', index=False)
 
