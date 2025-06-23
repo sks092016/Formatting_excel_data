@@ -19,7 +19,7 @@ p_agg = porsa_protection.pivot_table(values='PROTECTION LENGTH (IN Mtr.)', index
 protection_ = pd.merge(r_agg, p_agg, on= 'ROUTE NAME', how='outer')
 
 merged_df.rename(columns={'span_name' : 'ROUTE NAME'} ,inplace=True)
-protection_ = pd.merge(protection_, merged_df, on='ROUTE NAME', how='inner')
+protection_ = pd.merge(protection_, merged_df, on='ROUTE NAME', how='outer')
 
 protection_details['ROUTE NAME'] = protection_['ROUTE NAME']
 protection_details['ROUTE TYPE'] = protection_['scope']
