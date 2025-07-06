@@ -99,7 +99,7 @@ cols= ['POINT NAME','TYPE','POSITION','OFFSET','SPAN_CONTINUITY','CHAINAGE','DIS
        'SIDE OF THE ROAD','SOIL TYPE','TERRAIN','REMARKS']
 boq_ = pd.DataFrame(columns=cols)
 
-porsa_survey = pd.read_excel('excel_files/porsa_block_survey_data.xlsx', sheet_name='Sheet1')
+porsa_survey = pd.read_excel('References/porsa_block_survey_data.xlsx', sheet_name='Sheet1')
 span = porsa_survey.sort_values('span_name').span_name.unique()
 for s in span:
     print(s)
@@ -160,5 +160,5 @@ for s in span:
     boq_ds_df['REMARKS'] = "NA"
     boq_ = pd.concat([boq_, boq_ds_df])
 
-with pd.ExcelWriter('excel_files/Porsa Block/mapped_output_Porsa.xlsx', engine='openpyxl', mode='w') as writer:
+with pd.ExcelWriter('References/Porsa Block/mapped_output_Porsa.xlsx', engine='openpyxl', mode='w') as writer:
     boq_.to_excel(writer, sheet_name='Details Sheet', index=False)
