@@ -44,8 +44,20 @@ else:
         return 'Culvert'
     elif difflib.SequenceMatcher(None, value.lower(), "road").ratio() > 0.6:
         return 'Road'
+    else:
+        return value.capitalize()
 
-
+def categorize_value(value):
+    value = str(value)  # Ensure value is string
+    if any(sub in value.lower() for sub in ['re', 're ']):  # Check for 'Re' or 'RE'
+        return 'CROSSING'
+    elif any(sub in value.lower() for sub in ['cul', 'culvert', 'bridge', 'canal']):  # Check for 'cul', 'Culvert', 'Bridge'
+        return 'ROAD STRUCTURE'
+    elif any(
+            sub in value.lower() for sub in ['gp', 'gram panchyat', 'grampanchayat']):  # Check for 'GP', 'Gp', etc.
+        return 'ASSET'
+    else:
+        return 'LANDMARK'
 
 if is_structure_same:
     cols= ['SPAN_CONTINUITY', 'POINT NAME','TYPE','POSITION','OFFSET','CHAINAGE','DISTENCE(M)','LATITUDE',"LONGITUDE",'ROUTE NAME','ROUTE TYPE',
