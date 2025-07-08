@@ -6,10 +6,14 @@ from tkinter import filedialog
 import time
 import difflib
 import numpy as np
+import shutil
+from pathlib import Path
 
 root = tk.Tk()
 root.withdraw()
+
 ######################################### CONSTANTS #############################################################
+#ROAD WIDTHS
 PMGY = 4
 SH = 15
 NH = 40
@@ -19,10 +23,21 @@ ODR = 6
 MDR = 6
 Nagar_Parishad = 4
 OTHERS = 6
+
+#RM & MH INTERVAL
 rm_interval = 200
 mh_interval = 1800
 
-######################################### To Be Used ###########################################################
+#PROTECTION
+culvert_protection = 'DWC + PCC'
+bridge_protection = 'GI + Clamping'
+hard_rock = 'DWC + PCC'
+
+#VERSION
+version = 1.0
+#PATH
+folder_path = 'D:\\bharat_net_data\\'
+######################################### To Be Used #############################################################
 # pd.DataFrame([0.0] + [sum(list(temp_df['distance'])[:i + 1]) for i in range(1, len(list(temp_df['distance'])))]).values
 
 ######################################### Reference Files ########################################################
@@ -30,7 +45,7 @@ mh_interval = 1800
 base_url = "https://fieldsurvey.rbt-ltd.com/app"
 gdf_reference = gpd.read_file("References/tarana_shape_file.shp")
 
-######################################## Reading the Shape File ###################################################
+######################################## Reading the Shape File ##################################################
 
 shapefile_path = filedialog.askopenfilename(
     title="Select a shape file",
@@ -38,7 +53,19 @@ shapefile_path = filedialog.askopenfilename(
 )
 gdf_working = gpd.read_file(shapefile_path)
 
-###################################### Checking the Structure of the Files ########################################
+###################################### Creating the Directory for file store #####################################
+blockName =  gdf_working['block_name'][0]
+districtName = gdf_working['district_n'][0]
+
+dir_path = Path(folder_path + districtName +"-"+ blockName + version)
+
+# If it exists, delete it
+if dir_path.exists() and dir_path.is_dir():
+    shutil.rmtree(dir_path)  # Deletes the entire folder and its contents
+
+# Now create it fresh
+dir_path.mkdir(parents=True, exist_ok=False)
+###################################### Checking the Structure of the Files #######################################
 
 is_structure_same = set(gdf_reference.columns) == set(gdf_working.columns)
 if not is_structure_same:
@@ -51,7 +78,7 @@ if not is_structure_same:
 else:
     print(gdf_working.columns)
 
-###################################### Creating the Details Sheet ##################################################
+###################################### Creating the Details Sheet ################################################
 def haversine_distance(lat1, lon1, lat2, lon2):
     """Calculate the distance between two lat-long points using the Haversine formula."""
     # Convert latitude and longitude to radians
@@ -89,35 +116,36 @@ def categorize_value(value):
     else:
         return 'Landmark'
 
-def calculate_offset(row):
+def calculate_offset_width(row, param):
     value = str(row['road_autho']).upper()
     if any(sub in value for sub in ['PMGY', 'SH', 'NH', 'Nagar Parishad', 'Grampanchyat', 'GP', 'PWD', 'ODR', 'MDR']):
         value = globals()[value]
-        return value/2 + 0.2 * value
+        if param == 'offset':
+            return value/2 + 0.2 * value
+        if param == 'width':
+            return value
     else:
-        return OTHERS/2 + 0.2 * OTHERS
+        if param == 'offset':
+            return OTHERS / 2 + 0.2 * OTHERS
+        if param == 'width':
+            return OTHERS
+    return None
 
-def calculate_road_width(row):
-    value = str(row['road_autho']).upper()
-    if any(sub in value for sub in ['PMGY', 'SH', 'NH', 'Nagar Parishad', 'Grampanchyat', 'GP', 'PWD', 'ODR', 'MDR']):
-        value = globals()[value]
-        return value
-    else:
-        return OTHERS
-
-def finding_latitude(row):
+def finding_lat_lon(row,lat_lon):
     value = str(row['end_point_']).lower()
-    if any(sub in value for sub in ['culvert', 'bridge', 'road crossing']):
-        return row['start_lat']
-    else:
-        return row['lat']
+    att = lat_lon
+    if att == 'lat':
+        if any(sub in value for sub in ['culvert', 'bridge', 'road crossing']):
+            return row['start_lat']
+        else:
+            return row['lat']
+    elif att == 'lon':
+        if any(sub in value for sub in ['culvert', 'bridge', 'road crossing']):
+            return row['start_lon']
+        else:
+            return row['Long']
+    return None
 
-def finding_longitude(row):
-    value = str(row['end_point_']).lower()
-    if any(sub in value for sub in ['culvert', 'bridge', 'road crossing']):
-        return row['start_lon']
-    else:
-        return row['Long']
 
 def calculating_rms(row, df):
     # Track cumulative distances
@@ -154,49 +182,54 @@ def calculate_road_chainage(row):
         chainage = ''
     return chainage
 
-def calculate_structure(row):
-    value = str(row['end_point_'])
-    length = float(row['distance'])
-    structure = ''
-    if difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.5 and length <= 20:
-        structure = 'CULVERT'
-    elif difflib.SequenceMatcher(None, value.lower(), "bridge").ratio() > 0.5 and length > 20:
-        structure = 'BRIDGE'
-    else:
-        structure = ''
-    return structure
-
 def calculate_protec(row, param):
     value = str(row['end_point_'])
     length = float(row['distance'])
     strata = str(row['strata_typ'])
-    protection = ''
     if difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.5 and length <= 20:
-        if param == 'struct' or :
+        if param == 'struct' or 'for':
             return 'Culvert'
         if param == 'type':
-            return 'DWC+PCC'
-        if param == 'for':
-
-        protection = 'DWC+PCC'
+            return culvert_protection
+        if param == 'length':
+            return length + 6
     elif difflib.SequenceMatcher(None, value.lower(), "bridge").ratio() > 0.5 and length > 20:
-        protection = 'GI+Clamping'
+        if param == 'struct' or 'for':
+            return 'Bridge'
+        if param == 'type':
+            return bridge_protection
+        if param == 'length':
+            return length + 6
     elif strata == 'hard_rock':
-        protection = 'DWC+PCC'
-    return protection
+        if param == 'for':
+            return 'Hard Rock'
+        if param == 'length':
+            return length + 6
+    return ''
 
-def calculate_protection_for(row):
-    value = str(row['end_point_'])
-    length = float(row['distance'])
-    strata = str(row['strata_typ'])
-    protection_for = ''
-    if difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.5 and length <= 20:
-        protection_for = 'CULVERT'
-    elif difflib.SequenceMatcher(None, value.lower(), "bridge").ratio() > 0.5 and length > 20:
-        protection_for = 'BRIDGE'
-    else:
-        structure = ''
-    return structure
+def finding_utility(row):
+    side = row['ofc_laying']
+    value = str(row['end_point_']).lower()
+    if row['ofc_laying'] == 'LHS':
+        if 'rjil' in value:
+            return "Reliance Jio"
+        elif 'airtel' in value:
+            return "Airtel"
+        elif 'bsnl' in value:
+            return 'BSNL'
+        elif 'gas' in value:
+            return 'Gas PipeLine ' + value
+        elif 'hpcl' in value:
+            return 'HPCL Pipeline'
+        elif 'iocl' in value:
+            return 'IOCL Pipeline'
+        elif 'railway' in value:
+            return 'railway'
+        elif 'petrol' in value:
+            return 'Petroleum Pipeline ' + value
+        elif 'gail' in value:
+            return 'Gail Xing'
+    return None
 
 if is_structure_same:
     cols= ['SPAN_CONTINUITY', 'POINT NAME','TYPE','POSITION','OFFSET','CHAINAGE','DISTENCE(M)','LATITUDE',"LONGITUDE",'ROUTE NAME','ROUTE TYPE',
@@ -210,16 +243,15 @@ if is_structure_same:
         print(s)
         temp_df = gdf_working[gdf_working.span_name == s].sort_values('Sequqnce')
         boq_ds_df = pd.DataFrame(columns=cols)
-
         boq_ds_df['SPAN_CONTINUITY'] = temp_df['Sequqnce']
         boq_ds_df['POINT NAME'] = temp_df['end_point_'].apply(change_point_name)
         boq_ds_df['TYPE'] = temp_df['end_point_name'].apply(categorize_value)
         boq_ds_df['POSITION'] = temp_df['ofc_laying']
-        boq_ds_df['OFFSET'] = temp_df.apply(calculate_offset(), axis=1)
+        boq_ds_df['OFFSET'] = temp_df.apply(calculate_offset_width, axis=1, args=('offset'))
         boq_ds_df['CHAINAGE'] = temp_df['distance'].cumsum().shift(fill_value=0)
         boq_ds_df['DISTENCE(M)'] = temp_df['distance']
-        boq_ds_df['LATITUDE'] = temp_df.apply(finding_latitude(), axis=1)
-        boq_ds_df['LONGITUDE'] = temp_df.apply(finding_longitude(), axis=1)
+        boq_ds_df['LATITUDE'] = temp_df.apply(finding_lat_lon, axis=1, args=('lat'))
+        boq_ds_df['LONGITUDE'] = temp_df.apply(finding_lat_lon, axis=1, args=('lon'))
         boq_ds_df['ROUTE NAME'] = temp_df['span_name']
         boq_ds_df['ROUTE TYPE'] = temp_df['scope']
         boq_ds_df['OFC TYPE'] = '48F'
@@ -228,7 +260,7 @@ if is_structure_same:
         boq_ds_df['ROUTE MARKER'] = temp_df.apply(calculating_rms, axis=1, args=(temp_df))
         boq_ds_df['MANHOLE'] = temp_df.apply(calculating_mhs, axis=1, args=(temp_df))
         boq_ds_df['ROAD NAME'] = temp_df['road_name']
-        boq_ds_df['ROAD WIDTH(m)'] = temp_df.apply(calculate_road_width, axis=1)
+        boq_ds_df['ROAD WIDTH(m)'] = temp_df.apply(calculate_offset_width, axis=1, args=('width'))
         boq_ds_df['ROAD SURFACE'] = temp_df['road_surfa']
         boq_ds_df['OFC POSITION'] = temp_df['ofc_laying']
         boq_ds_df['APRX DISTANCE FROM RCL(m)'] = ''
@@ -239,341 +271,15 @@ if is_structure_same:
         boq_ds_df['PROTECTION TYPE'] = temp_df.apply(calculate_protec, axis=1, args=('type'))
         boq_ds_df['PROTECTION FOR'] = temp_df.apply(calculate_protec, axis=1, args=('for'))
         boq_ds_df['PROTECTION LENGTH (IN Mtr.)'] = temp_df.apply(calculate_protec, axis=1, args=('len'))
-        boq_ds_df['UTILITY NAME'] = "NA"
-        boq_ds_df['SIDE OF THE ROAD'] = "NA"
+        boq_ds_df['UTILITY NAME'] = temp_df.apply(finding_utility, axis=1)
+        boq_ds_df['SIDE OF THE ROAD'] = temp_df['ofc_laying'] if boq_ds_df['UTILITY NAME'] else None
         boq_ds_df['SOIL TYPE'] = temp_df['strata_typ']
-        boq_ds_df['TERRAIN'] = temp_df['terrain_ty']
         boq_ds_df['REMARKS'] = "NA"
         boq_ = pd.concat([boq_, boq_ds_df])
 
-    with pd.ExcelWriter('References/Porsa Block/mapped_output_Porsa.xlsx', engine='openpyxl', mode='w') as writer:
+    with pd.ExcelWriter(str(dir_path)+f"\\{districtName}-{blockName}-{version}.xlsx", engine='openpyxl', mode='w') as writer:
         boq_.to_excel(writer, sheet_name='Details Sheet', index=False)
 
-
-
-
-# def finding_utility_lhs(row):
-#     if row['OFC POSITION'] == 'LHS':
-#         if 'rjil' in str(row['POINT NAME']).lower():
-#             return "Reliance Jio"
-#         elif 'airtel' in str(row['POINT NAME']).lower():
-#             return "Airtel"
-#         elif 'bsnl' in str(row['POINT NAME']).lower():
-#             return 'BSNL'
-#         elif 'gas' in str(row['POINT NAME']).lower():
-#             return 'Gas PipeLine ' + str(row['POINT NAME'])
-#         elif 'hpcl' in str(row['POINT NAME']).lower():
-#             return 'HPCL Pipeline'
-#         elif 'iocl' in str(row['POINT NAME']).lower():
-#             return 'IOCL Pipeline'
-#         elif 'railway' in str(row['POINT NAME']).lower():
-#             return 'railway'
-#         elif 'petrol' in str(row['POINT NAME']).lower():
-#             return 'Petroleum Pipeline ' + str(row['POINT NAME'])
-#         elif 'gail' in str(row['POINT NAME']).lower():
-#             return 'Gail Xing'
-#     else:
-#         return 'NA'
-#
-#
-# def finding_utility_rhs(row):
-#     if row['OFC POSITION'] == 'RHS':
-#         if 'rjil' in str(row['POINT NAME']).lower():
-#             return "Reliance Jio"
-#         elif 'airtel' in str(row['POINT NAME']).lower():
-#             return "Airtel"
-#         elif 'bsnl' in str(row['POINT NAME']).lower():
-#             return 'BSNL'
-#         elif 'gas' in str(row['POINT NAME']).lower():
-#             return 'Gas PipeLine ' + str(row['POINT NAME'])
-#         elif 'hpcl' in str(row['POINT NAME']).lower():
-#             return 'HPCL Pipeline'
-#         elif 'iocl' in str(row['POINT NAME']).lower():
-#             return 'IOCL Pipeline'
-#         elif 'railway' in str(row['POINT NAME']).lower():
-#             return 'railway'
-#         elif 'petrol' in str(row['POINT NAME']).lower():
-#             return 'Petroleum Pipeline ' + str(row['POINT NAME'])
-#         elif 'gail' in str(row['POINT NAME']).lower():
-#             return 'Gail Xing'
-#     else:
-#         return 'NA'
-#
-#
-# def utility_checked(row):
-#     value = row['POINT NAME']
-#     if any(sub in value.lower() for sub in ['rjil', 'airtel', 'bsnl', 'gas', 'hpcl', 'iocl', 'adani', 'railway', 'petrol', 'gail']):
-#         return "Route Marker"
-#     else:
-#         return "NA"
-#
-#
-# def road_authority(row):
-#     if 'pmgy' in str(row['AUTHORITY NAME']).lower():
-#         return f"PMGSY-{str(row['ROAD NAME']).upper()} (MPRRDA)"
-#     elif 'pwd' in str(row['AUTHORITY NAME']).lower() or 'sh' in str(row['AUTHORITY NAME']).lower() or 'odr' in str(row['AUTHORITY NAME']).lower():
-#         return f"PWD-(Ujjain)"
-#     elif 'NHAI' in str(row['AUTHORITY NAME']).lower():
-#         return f"NHAI-Ujjain"
-#     elif 'nagar' in str(row['AUTHORITY NAME']).lower():
-#         return f"Nagar Parishad-Tarana"
-#     else:
-#         return row['AUTHORITY NAME']
-#
-#
-# def road_auth_add(row):
-#     if 'pmgy' in str(row['AUTHORITY NAME']).lower():
-#         return f"General Manager, (PMGSY) MPRRDA, Ujjain"
-#     elif 'pwd' in str(row['AUTHORITY NAME']).lower() or 'sh' in str(row['AUTHORITY NAME']).lower() or 'odr' in str(row['AUTHORITY NAME']).lower():
-#         return f"Executive Engineer,  PWD-(Ujjain)"
-#     elif 'NHAI' in str(row['AUTHORITY NAME']).lower():
-#         return f"Project Director, NHAI-Ujjain"
-#     elif 'nagar' in str(row['AUTHORITY NAME']).lower():
-#         return f"CMO, Nagar Parishad-Tarana"
-#     else:
-#         return f"{row['AUTHORITY NAME']}, Ujjain"
-#
-#
-# def nearest_landmark(value):
-#     if any(sub in value.lower() for sub in ['school', 'college', 'temple', 'gp', 'gram', 'kms']):
-#         return value.upper()
-#     else:
-#         return "NA"
-#
-#
-
-#
-#
-# def structure_xing_lat(row):
-#     if any(sub in str(row['POINT NAME']).lower() for sub in ['cul', 'bri', 'canal']):
-#         try:
-#             return str(row['CROSSING_START']).strip('POINT()').split(' ')[1]
-#         except:
-#             return 'NA'
-#     else:
-#         return "NA"
-#
-#
-# def structure_xing_long(row):
-#     if any(sub in str(row['POINT NAME']).lower() for sub in ['cul', 'bri', 'canal']):
-#         try:
-#             return str(row['CROSSING_END']).strip('POINT()').split(' ')[0]
-#         except:
-#             return 'NA'
-#     else:
-#         return "NA"
-#
-#
-# def landmark_lat(value):
-#     try:
-#         return value.strip('POINT()').split(' ')[1]
-#     except:
-#         return "NA"
-#
-#
-# def landmark_long(value):
-#     try:
-#         return value.strip('POINT()').split(' ')[0]
-#     except:
-#         return "NA"
-#
-#
-# def landmark(value):
-#     if any(sub not in str(value).lower() for sub in
-#            ['cul', 'bri', 'canal', 'rjil', 'airtel', 'bsnl', 'gas', 'hpcl', 'iocl', 'railway', 'petroleum', 'gail', 'rod', 'road', 'kacha']):
-#         return str(value).upper()
-#     else:
-#         return ""
-#
-
-#
-#
-
-#
-#
-
-#
-#
-
-#
-#
-# def calculate_structure(row):
-#     structure = ''
-#     if 'cul' in str(row['end_point_name']).lower():
-#         structure = 'CULVERT'
-#     elif 'bri' in str(row['end_point_name']).lower():
-#         structure = 'BRIDGE'
-#     elif 'canal' in str(row['end_point_name']).lower():
-#         structure = 'CANAL'
-#     else:
-#         structure = ''
-#     return structure
-#
-#
-# def calculate_xing_length(row):
-#     xing_length = 0
-#     if 'cul' in str(row['end_point_name']).lower() or 'bri' in str(row['end_point_name']).lower() or 'canal' in str(row['end_point_name']).lower():
-#         xing1 = row['crossing_Start'].strip('POINT()').split(' ')
-#         xing2 = row['crossing_end'].strip('POINT()').split(' ')
-#         xing_length = haversine_distance(xing1[1], xing1[0], xing2[1], xing2[0])
-#     return xing_length
-#
-#
-# def calculate_protec(row):
-#     protection = ''
-#     if 'cul' in str(row['end_point_name']).lower():
-#         protection = 'DWC+PCC'
-#     elif 'bri' in str(row['end_point_name']).lower() or 'canal' in str(row['end_point_name']).lower():
-#         protection = 'GI+PCC'
-#     else:
-#         protection = ''
-#     return protection
-#
-#
-# def calculate_protec_length(row):
-#     xing_length = 0
-#     if 'cul' in str(row['end_point_name']).lower() or 'bri' in str(row['end_point_name']).lower() or 'canal' in str(row['end_point_name']).lower():
-#         xing1 = row['crossing_Start'].strip('POINT()').split(' ')
-#         xing2 = row['crossing_end'].strip('POINT()').split(' ')
-#         xing_length = haversine_distance(xing1[1], xing1[0], xing2[1], xing2[0])
-#         return xing_length + 2
-#     else:
-#         return 0
-#
-# def change_point_name(value):
-#     if str(value).upper() == "RE":
-#         return 'ROAD CROSS EDGE'
-#     else:
-#         return str(value).upper()
-#
-# def categorize_value(value):
-#     value = str(value)  # Ensure value is string
-#     if any(sub in value.lower() for sub in ['re', 're ']):  # Check for 'Re' or 'RE'
-#         return 'CROSSING'
-#     elif any(sub in value.lower() for sub in ['cul', 'culvert', 'bridge', 'canal']):  # Check for 'cul', 'Culvert', 'Bridge'
-#         return 'ROAD STRUCTURE'
-#     elif any(
-#             sub in value.lower() for sub in ['gp', 'gram panchyat', 'grampanchayat']):  # Check for 'GP', 'Gp', etc.
-#         return 'ASSET'
-#     else:
-#         return 'LANDMARK'
-#
-#
-# def haversine_distance(lat1, lon1, lat2, lon2):
-#     """Calculate the distance between two lat-long points using the Haversine formula."""
-#     # Convert latitude and longitude to radians
-#     lat1, lon1, lat2, lon2 = map(radians, [float(lat1), float(lon1), float(lat2), float(lon2)])
-#     # Haversine formula
-#     dlat = lat2 - lat1
-#     dlon = lon2 - lon1
-#     a = sin(dlat / 2) ** 2 + cos(lat1) * cos(lat2) * sin(dlon / 2) ** 2
-#     c = 2 * atan2(sqrt(a), sqrt(1 - a))
-#     r = 6371e3  # Earth's radius in meters
-#     return c * r
-#
-#
-# def calculate_road_width(row):
-#     re1 = row['road_edge_'].strip('POINT()').split(' ')
-#     re2 = row['road_edg_3'].strip('POINT()').split(' ')
-#     road_width = haversine_distance(re1[1], re1[0], re2[1], re2[0])
-#     return road_width
-#
-#
-# def calculate_road_chainage(row):
-#     chainage = ''
-#     if 'kms' in str(str(row['end_point_name'])).lower():
-#         chainage = str(row['end_point_name'])
-#     else:
-#         chainage = 'NA'
-#     return chainage
-#
-#
-# def calculate_structure(row):
-#     structure = ''
-#     if 'cul' in str(row['end_point_name']).lower():
-#         structure = 'CULVERT'
-#     elif 'bri' in str(row['end_point_name']).lower():
-#         structure = 'BRIDGE'
-#     elif 'canal' in str(row['end_point_name']).lower():
-#         structure = 'CANAL'
-#     else:
-#         structure = ''
-#     return structure
-#
-#
-# def calculate_xing_length(row):
-#     xing_length = 0
-#     if 'cul' in str(row['end_point_name']).lower() or 'bri' in str(row['end_point_name']).lower() or 'canal' in str(row['end_point_name']).lower():
-#         xing1 = row['crossing_Start'].strip('POINT()').split(' ')
-#         xing2 = row['crossing_end'].strip('POINT()').split(' ')
-#         xing_length = haversine_distance(xing1[1], xing1[0], xing2[1], xing2[0])
-#     return xing_length
-#
-#
-# def calculate_protec(row):
-#     protection = ''
-#     if 'cul' in str(row['end_point_name']).lower():
-#         protection = 'DWC+PCC'
-#     elif 'bri' in str(row['end_point_name']).lower() or 'canal' in str(row['end_point_name']).lower():
-#         protection = 'GI+PCC'
-#     else:
-#         protection = ''
-#     return protection
-#
-#
-# def calculate_protec_length(row):
-#     xing_length = 0
-#     if 'cul' in str(row['end_point_name']).lower() or 'bri' in str(row['end_point_name']).lower() or 'canal' in str(row['end_point_name']).lower():
-#         xing1 = row['crossing_Start'].strip('POINT()').split(' ')
-#         xing2 = row['crossing_end'].strip('POINT()').split(' ')
-#         xing_length = haversine_distance(xing1[1], xing1[0], xing2[1], xing2[0])
-#         return xing_length + 2
-#     else:
-#         return 0
-#
-# def change_point_name(value):
-#     if str(value).upper() == "RE":
-#         return 'ROAD CROSS EDGE'
-#     else:
-#         return str(value).upper()
-#
-# def calculate_cordinate(row):
-#     return f"POINT({str(row['lat'])} {str(row['lat'])})"
-#
-# def finding_utility(row):
-#     if 'rjil' in str(row['end_point_name']).lower():
-#         return "Reliance Jio"
-#     elif 'airtel' in str(row['end_point_name']).lower():
-#         return "Airtel"
-#     elif 'bsnl' in str(row['end_point_name']).lower():
-#         return 'BSNL'
-#     elif 'gas' in str(row['end_point_name']).lower():
-#         return 'Gas PipeLine'
-#     elif 'hpcl' in str(row['end_point_name']).lower():
-#         return 'HPCL Pipeline'
-#     elif 'iocl' in str(row['end_point_name']).lower():
-#         return 'IOCL Pipeline'
-#     else:
-#         return ''
-#
-# def calc_len(row):
-#     value = str(row['end_point_name'])
-#     if any(sub in value.lower() for sub in ['cul', 'culvert', 'bridge', 'canal']):
-#         return row['crossing_l']
-#     else:
-#         return ''
-#
-# def calc_len_proc(row):
-#     value = str(row['end_point_name'])
-#     if any(sub in value.lower() for sub in ['cul', 'culvert', 'bridge', 'canal']):
-#         return row['crossing_l'] + 2
-#     else:
-#         return 0
-#
-#
-
-
-#
 # #################################################################################################################
 #
 # survey = pd.read_excel('References/Tarana Block/Tarana_block_survey.xlsx', sheet_name='Sheet1')
