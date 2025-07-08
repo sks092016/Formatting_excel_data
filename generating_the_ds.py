@@ -5,9 +5,26 @@ import tkinter as tk
 from tkinter import filedialog
 import time
 import difflib
+import numpy as np
 
 root = tk.Tk()
 root.withdraw()
+######################################### CONSTANTS #############################################################
+PMGY = 4
+SH = 15
+NH = 40
+Grampanchyat = GP = 6
+PWD = 6
+ODR = 6
+MDR = 6
+Nagar_Parishad = 4
+OTHERS = 6
+rm_interval = 200
+mh_interval = 1800
+
+######################################### To Be Used ###########################################################
+# pd.DataFrame([0.0] + [sum(list(temp_df['distance'])[:i + 1]) for i in range(1, len(list(temp_df['distance'])))]).values
+
 ######################################### Reference Files ########################################################
 
 base_url = "https://fieldsurvey.rbt-ltd.com/app"
@@ -35,29 +52,151 @@ else:
     print(gdf_working.columns)
 
 ###################################### Creating the Details Sheet ##################################################
- def change_point_name(value):
-    if str(value).upper() == "RE":
+def haversine_distance(lat1, lon1, lat2, lon2):
+    """Calculate the distance between two lat-long points using the Haversine formula."""
+    # Convert latitude and longitude to radians
+    lat1, lon1, lat2, lon2 = map(radians, [float(lat1), float(lon1), float(lat2), float(lon2)])
+    # Haversine formula
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+    a = sin(dlat / 2) ** 2 + cos(lat1) * cos(lat2) * sin(dlon / 2) ** 2
+    c = 2 * atan2(sqrt(a), sqrt(1 - a))
+    r = 6371e3  # Earth's radius in meters
+    return c * r
+
+def change_point_name(value):
+    if any(sub in value.lower() for sub in ['re', 're ',  ' re']):
         return 'Road Edge'
-    elif str(value).upper() == "RE":
-        return 'Culvert Edge'
-    elif difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.6:
+    elif str(value).upper() == "SE":
+        return 'Segment Edge'
+    elif difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.5:
         return 'Culvert'
-    elif difflib.SequenceMatcher(None, value.lower(), "road").ratio() > 0.6:
-        return 'Road'
+    elif difflib.SequenceMatcher(None, value.lower(), "bridge").ratio() > 0.5:
+        return 'Bridge'
     else:
         return value.capitalize()
 
 def categorize_value(value):
     value = str(value)  # Ensure value is string
-    if any(sub in value.lower() for sub in ['re', 're ']):  # Check for 'Re' or 'RE'
-        return 'CROSSING'
-    elif any(sub in value.lower() for sub in ['cul', 'culvert', 'bridge', 'canal']):  # Check for 'cul', 'Culvert', 'Bridge'
-        return 'ROAD STRUCTURE'
-    elif any(
-            sub in value.lower() for sub in ['gp', 'gram panchyat', 'grampanchayat']):  # Check for 'GP', 'Gp', etc.
-        return 'ASSET'
+    if any(sub in value.lower() for sub in ['road crossing']):  # Check for 'Re' or 'RE'
+        return 'Road Crossing'
+    elif difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.5:
+        return 'Crossing'
+    elif difflib.SequenceMatcher(None, value.lower(), "bridge").ratio() > 0.5:
+        return 'Crossing'
+    elif any(sub in value.lower() for sub in ['gp', 'gram panchyat', 'grampanchayat']):  # Check for 'GP', 'Gp', etc.
+        return 'Gram Panchyat'
     else:
-        return 'LANDMARK'
+        return 'Landmark'
+
+def calculate_offset(row):
+    value = str(row['road_autho']).upper()
+    if any(sub in value for sub in ['PMGY', 'SH', 'NH', 'Nagar Parishad', 'Grampanchyat', 'GP', 'PWD', 'ODR', 'MDR']):
+        value = globals()[value]
+        return value/2 + 0.2 * value
+    else:
+        return OTHERS/2 + 0.2 * OTHERS
+
+def calculate_road_width(row):
+    value = str(row['road_autho']).upper()
+    if any(sub in value for sub in ['PMGY', 'SH', 'NH', 'Nagar Parishad', 'Grampanchyat', 'GP', 'PWD', 'ODR', 'MDR']):
+        value = globals()[value]
+        return value
+    else:
+        return OTHERS
+
+def finding_latitude(row):
+    value = str(row['end_point_']).lower()
+    if any(sub in value for sub in ['culvert', 'bridge', 'road crossing']):
+        return row['start_lat']
+    else:
+        return row['lat']
+
+def finding_longitude(row):
+    value = str(row['end_point_']).lower()
+    if any(sub in value for sub in ['culvert', 'bridge', 'road crossing']):
+        return row['start_lon']
+    else:
+        return row['Long']
+
+def calculating_rms(row, df):
+    # Track cumulative distances
+    cum_distance_start = 0
+    rm_list = []
+    for d in df['Distance']:
+        cum_distance_end = cum_distance_start + d
+        # Count new RMs in this segment
+        rm_start_count = cum_distance_start // rm_interval
+        rm_end_count = cum_distance_end // rm_interval
+        new_rms = int(rm_end_count - rm_start_count)
+        rm_list.append(new_rms)
+        cum_distance_start = cum_distance_end
+    return rm_list
+
+def calculating_mhs(row, df):
+    cum_distance_start = 0
+    mh_list = []
+    for d in df['Distance']:
+        cum_distance_end = cum_distance_start + d
+        # Count new MHs in this segment
+        mh_start_count = cum_distance_start // mh_interval
+        mh_end_count = cum_distance_end // mh_interval
+        new_mhs = int(mh_end_count - mh_start_count)
+        mh_list.append(new_mhs)
+        cum_distance_start = cum_distance_end
+    return mh_list
+
+def calculate_road_chainage(row):
+    chainage = ''
+    if 'kms' in str(str(row['end_point_'])).lower():
+        chainage = str(row['end_point_'])
+    else:
+        chainage = ''
+    return chainage
+
+def calculate_structure(row):
+    value = str(row['end_point_'])
+    length = float(row['distance'])
+    structure = ''
+    if difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.5 and length <= 20:
+        structure = 'CULVERT'
+    elif difflib.SequenceMatcher(None, value.lower(), "bridge").ratio() > 0.5 and length > 20:
+        structure = 'BRIDGE'
+    else:
+        structure = ''
+    return structure
+
+def calculate_protec(row, param):
+    value = str(row['end_point_'])
+    length = float(row['distance'])
+    strata = str(row['strata_typ'])
+    protection = ''
+    if difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.5 and length <= 20:
+        if param == 'struct' or :
+            return 'Culvert'
+        if param == 'type':
+            return 'DWC+PCC'
+        if param == 'for':
+
+        protection = 'DWC+PCC'
+    elif difflib.SequenceMatcher(None, value.lower(), "bridge").ratio() > 0.5 and length > 20:
+        protection = 'GI+Clamping'
+    elif strata == 'hard_rock':
+        protection = 'DWC+PCC'
+    return protection
+
+def calculate_protection_for(row):
+    value = str(row['end_point_'])
+    length = float(row['distance'])
+    strata = str(row['strata_typ'])
+    protection_for = ''
+    if difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.5 and length <= 20:
+        protection_for = 'CULVERT'
+    elif difflib.SequenceMatcher(None, value.lower(), "bridge").ratio() > 0.5 and length > 20:
+        protection_for = 'BRIDGE'
+    else:
+        structure = ''
+    return structure
 
 if is_structure_same:
     cols= ['SPAN_CONTINUITY', 'POINT NAME','TYPE','POSITION','OFFSET','CHAINAGE','DISTENCE(M)','LATITUDE',"LONGITUDE",'ROUTE NAME','ROUTE TYPE',
@@ -72,37 +211,34 @@ if is_structure_same:
         temp_df = gdf_working[gdf_working.span_name == s].sort_values('Sequqnce')
         boq_ds_df = pd.DataFrame(columns=cols)
 
-
+        boq_ds_df['SPAN_CONTINUITY'] = temp_df['Sequqnce']
         boq_ds_df['POINT NAME'] = temp_df['end_point_'].apply(change_point_name)
         boq_ds_df['TYPE'] = temp_df['end_point_name'].apply(categorize_value)
         boq_ds_df['POSITION'] = temp_df['ofc_laying']
-        boq_ds_df['OFFSET'] = 'NA'
-        boq_ds_df['SPAN_CONTINUITY'] = temp_df['SEQ']
-        boq_ds_df['CHAINAGE'] = pd.DataFrame([0.0] + [sum(list(temp_df['distance'])[:i + 1]) for i in range(1, len(list(temp_df['distance'])))]).values
+        boq_ds_df['OFFSET'] = temp_df.apply(calculate_offset(), axis=1)
+        boq_ds_df['CHAINAGE'] = temp_df['distance'].cumsum().shift(fill_value=0)
         boq_ds_df['DISTENCE(M)'] = temp_df['distance']
-        boq_ds_df['START_COORDINATE'] = temp_df['start_loc_cordinate']
-        boq_ds_df['CROSSING_START'] = temp_df['crossing_Start']
-        boq_ds_df['CROSSING_END'] = temp_df['crossing_end']
-        boq_ds_df['END_COORDINATE'] = temp_df['end_loca_coordinate']
+        boq_ds_df['LATITUDE'] = temp_df.apply(finding_latitude(), axis=1)
+        boq_ds_df['LONGITUDE'] = temp_df.apply(finding_longitude(), axis=1)
         boq_ds_df['ROUTE NAME'] = temp_df['span_name']
         boq_ds_df['ROUTE TYPE'] = temp_df['scope']
-        boq_ds_df['OFC TYPE'] = '24F'
+        boq_ds_df['OFC TYPE'] = '48F'
         boq_ds_df['LAYING TYPE'] = 'UG'
         boq_ds_df['ROUTE ID'] = temp_df['span_id']
-        boq_ds_df['ROUTE MARKER'] = 'NOT VISIBLE'
-        boq_ds_df['MANHOLE'] = 'NOT VISIBLE'
+        boq_ds_df['ROUTE MARKER'] = temp_df.apply(calculating_rms, axis=1, args=(temp_df))
+        boq_ds_df['MANHOLE'] = temp_df.apply(calculating_mhs, axis=1, args=(temp_df))
         boq_ds_df['ROAD NAME'] = temp_df['road_name']
         boq_ds_df['ROAD WIDTH(m)'] = temp_df.apply(calculate_road_width, axis=1)
         boq_ds_df['ROAD SURFACE'] = temp_df['road_surfa']
         boq_ds_df['OFC POSITION'] = temp_df['ofc_laying']
-        boq_ds_df['APRX DISTANCE FROM RCL(m)'] = 'NA'
+        boq_ds_df['APRX DISTANCE FROM RCL(m)'] = ''
         boq_ds_df['AUTHORITY NAME'] = temp_df['road_autho']
         boq_ds_df['ROAD CHAINAGE'] = temp_df.apply(calculate_road_chainage, axis=1)
-        boq_ds_df['ROAD STRUTURE TYPE'] = temp_df.apply(calculate_structure, axis=1)
-        boq_ds_df['LENGTH (IN Mtr.)'] = temp_df.apply(calculate_xing_length, axis=1)
-        boq_ds_df['PROTECTION TYPE'] = temp_df.apply(calculate_protec, axis=1)
-        boq_ds_df['PROTECTION FOR'] = temp_df.apply(calculate_structure, axis=1)
-        boq_ds_df['PROTECTION LENGTH (IN Mtr.)'] = temp_df.apply(calculate_protec_length, axis=1)
+        boq_ds_df['ROAD STRUTURE TYPE'] = temp_df.apply(calculate_protec, axis=1, args=('struct'))
+        boq_ds_df['LENGTH (IN Mtr.)'] = temp_df['distance']
+        boq_ds_df['PROTECTION TYPE'] = temp_df.apply(calculate_protec, axis=1, args=('type'))
+        boq_ds_df['PROTECTION FOR'] = temp_df.apply(calculate_protec, axis=1, args=('for'))
+        boq_ds_df['PROTECTION LENGTH (IN Mtr.)'] = temp_df.apply(calculate_protec, axis=1, args=('len'))
         boq_ds_df['UTILITY NAME'] = "NA"
         boq_ds_df['SIDE OF THE ROAD'] = "NA"
         boq_ds_df['SOIL TYPE'] = temp_df['strata_typ']
@@ -205,17 +341,7 @@ if is_structure_same:
 #         return "NA"
 #
 #
-# def calculate_structure(row):
-#     structure = ''
-#     if 'cul' in str(row['POINT NAME']).lower():
-#         structure = 'CULVERT'
-#     elif 'bri' in str(row['POINT NAME']).lower():
-#         structure = 'BRIDGE'
-#     elif 'canal' in str(row['POINT NAME']).lower():
-#         structure = 'CANAL'
-#     else:
-#         structure = ''
-#     return structure
+
 #
 #
 # def structure_xing_lat(row):
@@ -259,46 +385,16 @@ if is_structure_same:
 #     else:
 #         return ""
 #
-# def categorize_value(value):
-#     value = str(value)  # Ensure value is string
-#     if any(sub in value.lower() for sub in ['re', 're ']):  # Check for 'Re' or 'RE'
-#         return 'CROSSING'
-#     elif any(sub in value.lower() for sub in ['cul', 'culvert', 'bridge', 'canal']):  # Check for 'cul', 'Culvert', 'Bridge'
-#         return 'ROAD STRUCTURE'
-#     elif any(
-#             sub in value.lower() for sub in ['gp', 'gram panchyat', 'grampanchayat']):  # Check for 'GP', 'Gp', etc.
-#         return 'ASSET'
-#     else:
-#         return 'LANDMARK'
+
 #
 #
-# def haversine_distance(lat1, lon1, lat2, lon2):
-#     """Calculate the distance between two lat-long points using the Haversine formula."""
-#     # Convert latitude and longitude to radians
-#     lat1, lon1, lat2, lon2 = map(radians, [float(lat1), float(lon1), float(lat2), float(lon2)])
-#     # Haversine formula
-#     dlat = lat2 - lat1
-#     dlon = lon2 - lon1
-#     a = sin(dlat / 2) ** 2 + cos(lat1) * cos(lat2) * sin(dlon / 2) ** 2
-#     c = 2 * atan2(sqrt(a), sqrt(1 - a))
-#     r = 6371e3  # Earth's radius in meters
-#     return c * r
+
 #
 #
-# def calculate_road_width(row):
-#     re1 = row['road_edge_'].strip('POINT()').split(' ')
-#     re2 = row['road_edg_3'].strip('POINT()').split(' ')
-#     road_width = haversine_distance(re1[1], re1[0], re2[1], re2[0])
-#     return road_width
+
 #
 #
-# def calculate_road_chainage(row):
-#     chainage = ''
-#     if 'kms' in str(str(row['end_point_name'])).lower():
-#         chainage = str(row['end_point_name']) + ", https://fieldsurvey.rbt-ltd.com/app/" + row['end_loca_phpto']
-#     else:
-#         chainage = 'NA'
-#     return chainage
+
 #
 #
 # def calculate_structure(row):
