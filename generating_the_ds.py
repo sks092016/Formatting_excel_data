@@ -35,9 +35,11 @@ hard_rock = 'DWC + PCC'
 
 #VERSION
 version = 1.0
+
 #PATH
 folder_path = 'D:\\bharat_net_data\\'
-######################################### To Be Used #############################################################
+
+################################################ To Be Used ########################################################
 # pd.DataFrame([0.0] + [sum(list(temp_df['distance'])[:i + 1]) for i in range(1, len(list(temp_df['distance'])))]).values
 
 ######################################### Reference Files ########################################################
@@ -77,6 +79,11 @@ if not is_structure_same:
     print(col_diff)
 else:
     print(gdf_working.columns)
+###################################### Creating the Common Span Details #########################################
+
+span_ = gdf_working[['from_gp_na', 'to_gp_name', 'span_name', 'ring_no', 'scope', 'span_id']].drop_duplicates()
+span_dis = gdf_working.groupby('span_name').agg({'distance': 'sum'})
+boq_sd_df = pd.merge(span_, span_dis, on=['span_name'], how='inner')
 
 ###################################### Creating the Details Sheet ################################################
 def haversine_distance(lat1, lon1, lat2, lon2):
@@ -280,132 +287,83 @@ if is_structure_same:
     with pd.ExcelWriter(str(dir_path)+f"\\{districtName}-{blockName}-{version}.xlsx", engine='openpyxl', mode='w') as writer:
         boq_.to_excel(writer, sheet_name='Details Sheet', index=False)
 
-# #################################################################################################################
-#
-# survey = pd.read_excel('References/Tarana Block/Tarana_block_survey.xlsx', sheet_name='Sheet1')
-# cols = ['FROM','TO','ROUTE NAME','RING NO.','ROUTE TYPE','OFC TYPE','LAYING TYPE','ROUTE ID','TOTAL LENGTH(KM)','OH','UG']
-# span_details = pd.DataFrame(columns = cols)
-#
-# span_ = survey[['from_gp_na', 'to_gp_name', 'span_name', 'ring_no', 'scope', 'span_id']].drop_duplicates()
-# span_dis= survey.groupby('span_name').agg({'distance': 'sum'})
-# merged_df = pd.merge(span_, span_dis, on=['span_name'], how='inner')
-#
-# span_details['FROM'] = merged_df['from_gp_na']
-# span_details['TO'] = merged_df['to_gp_name']
-# span_details['ROUTE NAME'] = merged_df['span_name']
-# span_details['RING NO.'] = merged_df['ring_no']
-# span_details['ROUTE TYPE'] = merged_df['scope']
-# span_details['OFC TYPE'] = '48F'
-# span_details['LAYING TYPE'] = 'UG'
-# span_details['ROUTE ID'] = merged_df['span_id']
-# span_details['TOTAL LENGTH(KM)'] = merged_df['distance']
-# span_details['OH'] = 0
-# span_details['UG'] = merged_df['distance']
-#
-#
-# with pd.ExcelWriter('References/Tarana Block/Tarana-BoQ.xlsx', engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
-#     span_details.to_excel(writer, sheet_name='Span Details', index=False)
-#
-# ####################################################################################################################
-#
-# import pandas as pd
-#
-# def finding_pipeline(row, df, auth):
-#     span_ = row['span_name']
-#     df = df[df.span_name == span_]
-#     count = df['end_point_'].str.contains(auth,case=False, na=False).sum()
-#     return count
-# def finding_xing_length(row, df, auth):
-#     span_ = row['span_name']
-#     df = df[df.span_name == span_]
-#     mask = df['end_point_'].str.contains(auth,case=False, na=False)
-#     length = df.loc[mask, 'crossing_l'].sum()
-#     return length
-#
-# _survey = pd.read_excel('References/Tarana Block/Tarana_block_survey.xlsx', sheet_name='Sheet1')
-# cols = ['ROUTE NAME','ROUTE TYPE','RING NO','ROUTE ID','TOTAL ROUTE LENGTH','NHAI','PWD NH','PWD','NAGAR PARISHAD','GP','MPRRDA','MUNICIPALITY','FOREST','SH','ODR','RAILWAY XINGS(LEN)',
-# 'RAILWAY XINGS(NOs)','GAS XING(LEN)','GAS XING(NOs)','ADANI XING(LEN)','ADANI XING(NOs)','IOCL XING(LEN)','IOCL XING(NOs)','HPCL XING(LEN)','HPCL XING(NOs)','OTHERS']
-#
-# row_details = pd.DataFrame(columns = cols)
-#
-# span_ = _survey[['from_gp_na', 'to_gp_name', 'span_name', 'ring_no', 'scope', 'span_id']].drop_duplicates()
-# span_dis= _survey.groupby('span_name').agg({'distance': 'sum'})
-# merged_df = pd.merge(span_, span_dis, on=['span_name'], how='inner')
-# df2 = _survey.pivot_table(values='distance', index='span_name', columns='road_autho', aggfunc='sum', fill_value=0).reset_index()
-# row_ = pd.merge(merged_df, df2, on=['span_name'], how='inner')
-#
-# row_details['ROUTE NAME'] = row_['span_name']
-# row_details['ROUTE TYPE'] = row_['scope']
-# row_details['RING NO'] = row_['ring_no']
-# row_details['ROUTE ID'] = row_['span_id']
-# row_details['TOTAL ROUTE LENGTH'] = row_['distance']
-# row_details['NHAI'] = row_['NHAI']
-# row_details['PWD NH'] = 0
-# row_details['PWD'] = row_['PWD']
-# row_details['NAGAR PARISHAD'] = row_['Nagar Parishad']
-# row_details['GP'] = row_['Grampanchyat']
-# row_details['SH'] = row_['SH']
-# row_details['ODR'] = row_['ODR']
-# row_details['MPRRDA'] = row_['PMGY']
-# row_details['MUNICIPALITY'] = 0
-# row_details['FOREST'] = row_['Forest']
-# row_details['RAILWAY XINGS(LEN)'] = row_.apply(finding_xing_length, axis=1, args=(_survey, 'railway'))
-# row_details['RAILWAY XINGS(NOs)'] = row_.apply(finding_pipeline, axis=1, args=(_survey, 'railway'))
-# row_details['GAS XING(LEN)'] = row_.apply(finding_xing_length, axis=1, args=(_survey, 'gas'))
-# row_details['GAS XING(NOs)'] = row_.apply(finding_pipeline, axis=1, args=(_survey, 'gas'))
-# row_details['ADANI XING(LEN)'] = row_.apply(finding_xing_length, axis=1, args=(_survey, 'adani'))
-# row_details['ADANI XING(NOs)'] = row_.apply(finding_pipeline, axis=1, args=(_survey, 'adani'))
-# row_details['IOCL XING(LEN)'] = row_.apply(finding_xing_length, axis=1, args=(_survey, 'iocl'))
-# row_details['IOCL XING(NOs)'] = row_.apply(finding_pipeline, axis=1, args=(_survey, 'iocl'))
-# row_details['HPCL XING(LEN)'] = row_.apply(finding_xing_length, axis=1, args=(_survey, 'hpcl'))
-# row_details['HPCL XING(NOs)'] = row_.apply(finding_pipeline, axis=1, args=(_survey, 'hpcl'))
-# row_details['OTHERS'] = 0
-#
-# with pd.ExcelWriter('References/Tarana Block/Tarana-BoQ.xlsx', engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
-#     row_details.to_excel(writer, sheet_name='RoW', index=False)
-#
-# ###################################################################################################################################
-#
-#
-# import pandas as pd
-# cols = ['ROUTE NAME','ROUTE TYPE','TOTAL ROUTE LENGTH','NO OF CULVERT','LENGTH (IN Mtr) OF CULVERT','NO OF BRIDGE','LENGTH (IN Mtr) OF BRIDE',
-# 'LENGTH (IN Mtr) OF PCC','LENGTH (IN Mtr) OF DWC','LENGTH (IN Mtr) OF GI','LENGTH (IN Mtr) OF DWC+PCC','LENGTH (IN Mtr) OF ANCORING']
-# protection_details = pd.DataFrame(columns = cols)
-#
-# survey = pd.read_excel('References/Porsa Block/porsa_block_survey_data.xlsx', sheet_name='Sheet1')
-# span_ = survey[['from_gp_na', 'to_gp_name', 'span_name', 'ring_no', 'scope', 'span_id']].drop_duplicates()
-# span_dis = survey.groupby('span_name').agg({'distance': 'sum'})
-# merged_df = pd.merge(span_, span_dis, on=['span_name'], how='inner')
-#
-# _details = pd.read_excel('References/Porsa Block/Porsa-BoQ.xlsx', sheet_name='Details Sheet')
-#
-# _protection = _details[['ROUTE NAME', 'ROAD STRUTURE TYPE', 'LENGTH (IN Mtr.)', 'PROTECTION TYPE','PROTECTION FOR', 'PROTECTION LENGTH (IN Mtr.)']]
-#
-# r_agg = _protection.groupby(['ROUTE NAME', 'ROAD STRUTURE TYPE'])['LENGTH (IN Mtr.)'].agg(['count', 'sum']).unstack(fill_value=0)
-# r_agg.columns = ['NO OF BRIDGE','NO OF CULVERT', 'LENGTH (IN Mtr) OF BRIDGE','LENGTH (IN Mtr) OF CULVERT']  # Rename columns
-# r_agg = r_agg.reset_index()
-# p_agg = _protection.pivot_table(values='PROTECTION LENGTH (IN Mtr.)', index='ROUTE NAME', columns='PROTECTION TYPE', aggfunc='sum', fill_value=0).reset_index()
-# protection_ = pd.merge(r_agg, p_agg, on= 'ROUTE NAME', how='outer')
-#
-# merged_df.rename(columns={'span_name' : 'ROUTE NAME'} ,inplace=True)
-# protection_ = pd.merge(protection_, merged_df, on='ROUTE NAME', how='outer')
-#
-# protection_details['ROUTE NAME'] = protection_['ROUTE NAME']
-# protection_details['ROUTE TYPE'] = protection_['scope']
-# protection_details['TOTAL ROUTE LENGTH'] = protection_['distance']
-# protection_details['NO OF CULVERT'] = protection_['NO OF CULVERT']
-# protection_details['LENGTH (IN Mtr) OF CULVERT'] = protection_['LENGTH (IN Mtr) OF CULVERT']
-# protection_details['NO OF BRIDGE'] = protection_['NO OF BRIDGE']
-# protection_details['LENGTH (IN Mtr) OF BRIDE'] = protection_['LENGTH (IN Mtr) OF BRIDGE']
-# protection_details['LENGTH (IN Mtr) OF PCC'] = 0
-# protection_details['LENGTH (IN Mtr) OF DWC'] = protection_['NO OF CULVERT'] * 6 + protection_['LENGTH (IN Mtr) OF CULVERT']
-# protection_details['LENGTH (IN Mtr) OF GI'] = protection_['NO OF BRIDGE'] * 6 + protection_['LENGTH (IN Mtr) OF BRIDGE']
-# protection_details['LENGTH (IN Mtr) OF DWC+PCC'] = protection_['DWC+PCC']
-#
-# protection_details['LENGTH (IN Mtr) OF ANCORING'] = 0
-#
-# with pd.ExcelWriter('References/Porsa Block/Porsa-BoQ.xlsx', engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
-#     protection_details.to_excel(writer, sheet_name='Protection Details', index=False)
+# ############################################## Generating the Span Details ########################################
+
+cols = ['FROM','TO','ROUTE NAME','RING NO.','ROUTE TYPE','OFC TYPE','LAYING TYPE','ROUTE ID','TOTAL LENGTH(KM)','OH','UG']
+span_details = pd.DataFrame(columns = cols)
+
+span_details['FROM'] = boq_sd_df['from_gp_na']
+span_details['TO'] = boq_sd_df['to_gp_name']
+span_details['ROUTE NAME'] = boq_sd_df['span_name']
+span_details['RING NO.'] = boq_sd_df['ring_no']
+span_details['ROUTE TYPE'] = 'OFC to be laid for Ring Formation (in Km)'
+span_details['OFC TYPE'] = '48F'
+span_details['LAYING TYPE'] = 'UG'
+span_details['ROUTE ID'] = boq_sd_df['span_id']
+span_details['TOTAL LENGTH(KM)'] = boq_sd_df['distance']
+span_details['OH'] = 0
+span_details['UG'] = boq_sd_df['distance']
+
+with pd.ExcelWriter(str(dir_path)+f"\\{districtName}-{blockName}-{version}.xlsx", engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
+    span_details.to_excel(writer, sheet_name='Span Details', index=False)
+
+# ############################################# Generating the RoW Details #########################################
+
+authorities = gdf_working['road_autho'].unique()
+
+cols = ['ROUTE NAME','ROUTE TYPE','RING NO','ROUTE ID','TOTAL ROUTE LENGTH'] + authorities
+
+row_details = pd.DataFrame(columns = cols)
+
+df2 = gdf_working.pivot_table(values='distance', index='span_name', columns='road_autho', aggfunc='sum', fill_value=0).reset_index()
+row_ = pd.merge(boq_sd_df, df2, on=['span_name'], how='inner')
+
+row_details['ROUTE NAME'] = row_['span_name']
+row_details['ROUTE TYPE'] = row_['scope']
+row_details['RING NO'] = row_['ring_no']
+row_details['ROUTE ID'] = row_['span_id']
+row_details['TOTAL ROUTE LENGTH'] = row_['distance']
+for auths in authorities:
+    row_details[auths] = row_[auths]
+row_details['OTHERS'] = 0
+
+with pd.ExcelWriter(str(dir_path)+f"\\{districtName}-{blockName}-{version}.xlsx", engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
+    row_details.to_excel(writer, sheet_name='RoW', index=False)
+
+####################################### Generating the Protection Details ###########################################
+
+cols = ['ROUTE NAME','ROUTE TYPE','TOTAL ROUTE LENGTH','NO OF CULVERT','LENGTH (IN Mtr) OF CULVERT','NO OF BRIDGE','LENGTH (IN Mtr) OF BRIDE',
+'LENGTH (IN Mtr) OF PCC','LENGTH (IN Mtr) OF DWC','LENGTH (IN Mtr) OF GI','LENGTH (IN Mtr) OF DWC+PCC',"Soil Detail", 	"LENGTH (IN Mtr) OF DWC+PCC (HARD ROCK)",'LENGTH (IN Mtr) OF ANCORING']
+protection_details = pd.DataFrame(columns = cols)
+
+_details = pd.read_excel(str(dir_path)+f"\\{districtName}-{blockName}-{version}.xlsx", sheet_name='Details Sheet')
+
+_protection = _details[['ROUTE NAME', 'ROAD STRUTURE TYPE', 'LENGTH (IN Mtr.)', 'PROTECTION TYPE','PROTECTION FOR', 'PROTECTION LENGTH (IN Mtr.)']]
+r_agg = _protection.groupby(['ROUTE NAME', 'ROAD STRUTURE TYPE'])['LENGTH (IN Mtr.)'].agg(['count', 'sum']).unstack(fill_value=0)
+r_agg.columns = ['NO OF BRIDGE','NO OF CULVERT', 'LENGTH (IN Mtr) OF BRIDGE','LENGTH (IN Mtr) OF CULVERT']  # Rename columns
+r_agg = r_agg.reset_index()
+p_agg = _protection.pivot_table(values='PROTECTION LENGTH (IN Mtr.)', index='ROUTE NAME', columns='PROTECTION TYPE', aggfunc='sum', fill_value=0).reset_index()
+protection_ = pd.merge(r_agg, p_agg, on= 'ROUTE NAME', how='outer')
+
+merged_df.rename(columns={'span_name' : 'ROUTE NAME'} ,inplace=True)
+protection_ = pd.merge(protection_, merged_df, on='ROUTE NAME', how='outer')
+
+protection_details['ROUTE NAME'] = protection_['ROUTE NAME']
+protection_details['ROUTE TYPE'] = protection_['scope']
+protection_details['TOTAL ROUTE LENGTH'] = protection_['distance']
+protection_details['NO OF CULVERT'] = protection_['NO OF CULVERT']
+protection_details['LENGTH (IN Mtr) OF CULVERT'] = protection_['LENGTH (IN Mtr) OF CULVERT']
+protection_details['NO OF BRIDGE'] = protection_['NO OF BRIDGE']
+protection_details['LENGTH (IN Mtr) OF BRIDE'] = protection_['LENGTH (IN Mtr) OF BRIDGE']
+protection_details['LENGTH (IN Mtr) OF PCC'] = 0
+protection_details['LENGTH (IN Mtr) OF DWC'] = protection_['NO OF CULVERT'] * 6 + protection_['LENGTH (IN Mtr) OF CULVERT']
+protection_details['LENGTH (IN Mtr) OF GI'] = protection_['NO OF BRIDGE'] * 6 + protection_['LENGTH (IN Mtr) OF BRIDGE']
+protection_details['LENGTH (IN Mtr) OF DWC+PCC'] = protection_['DWC+PCC']
+
+protection_details['LENGTH (IN Mtr) OF ANCORING'] = 0
+
+with pd.ExcelWriter('References/Porsa Block/Porsa-BoQ.xlsx', engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
+    protection_details.to_excel(writer, sheet_name='Protection Details', index=False)
 #
 # ###########################################################################################################################################
 #
