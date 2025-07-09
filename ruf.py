@@ -68,4 +68,4 @@ def get_village_google(lat, lon, api_key):
     return data
 
 
-print(get_village_google(23.39504, 76.01335, " AIzaSyDfghbjBrINIBgxB8V1SxTQ16Ty2D2hFfA"))
+print(get_village_google(23.39504, 76.01335, " ))

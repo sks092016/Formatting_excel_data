@@ -40,7 +40,7 @@ version = 1.0
 folder_path = 'D:\\bharat_net_data\\'
 
 #APIKEY
-api_key = "AIzaSyDfghbjBrINIBgxB8V1SxTQ16Ty2D2hFfA"
+api_key = ''
 
 #DEFAULT LAT-LONG
 lat = 0
