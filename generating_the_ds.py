@@ -39,7 +39,29 @@ version = 1.0
 #PATH
 folder_path = 'D:\\bharat_net_data\\'
 
+#APIKEY
+api_key = "AIzaSyDfghbjBrINIBgxB8V1SxTQ16Ty2D2hFfA"
+
+#DEFAULT LAT-LONG
+lat = 0
+lon = 0
+place_id = ''
+############################################### API URLS ##########################################################
+#GOOGLE
+place_url = f"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={lat},{lon}&radius=50&key={api_key}"
+roads_place_id_url = f"https://roads.googleapis.com/v1/nearestRoads?points={lat},{lon}&key={api_key}"
+road_name_url = f"https://maps.googleapis.com/maps/api/place/details/json?place_id={place_id}&fields=name&key={api_key}"
+
+#OPENSM
+url = f"https://nominatim.openstreetmap.org/reverse?lat={lat}&lon={lon}&format=json"
+headers_village_name = {
+    'User-Agent': 'village-lookup-script'
+}
+headers_road_name = {
+    'User-Agent': 'road-name-fetcher-script'
+}
 ################################################ To Be Used ########################################################
+
 # pd.DataFrame([0.0] + [sum(list(temp_df['distance'])[:i + 1]) for i in range(1, len(list(temp_df['distance'])))]).values
 
 ######################################### Reference Files ########################################################
@@ -369,55 +391,55 @@ protection_details['LENGTH (IN Mtr) OF ANCORING'] = 0
 with pd.ExcelWriter(str(dir_path)+f"\\{districtName}-{blockName}-{version}.xlsx", engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
     protection_details.to_excel(writer, sheet_name='Protection Details', index=False)
 #
-# ###########################################################################################################################################
+##################################################### RoW PreSurvey ######################################################
 #
-# cols = ['SrNo', 'FROM  AND TO GP','NHSHNo','RoadWidth','RowBoundaryLmt','KMStoneFromA','KMStoneToB','SuveryDist','LatAuth','LongAuth','LandmarkRHS',
-# 'VlgTwnPoint','OFClaying','RdCrossing Req','ReasonRdCrossing','UtilityLHS','UtilityRHS',   'UtilityChecked',   'RowAuthorityName', 'AuthorityAddress', 'FeasibilityOfROWApproval', 'TypeOfOverlapArea',
-# 'NearestLandmark', 'LengthOfOverlapArea','ExpansionInProg','ExpansionPlanned','TypeOfCrossing','LatCrossing','LongCrossing','LatLandmark','LongLandmark',
-# 'LengthOfCrossing','SoilType','RouteRdSidePts','AlternateReq','AlternateProp','AlternatePathLgh','Remarks']
-#
-# row_in_dep = pd.DataFrame(columns=cols)
-#
-#
-# row_in_dep['SrNo'] = _ds['SPAN_CONTINUITY']
-# row_in_dep['FROM  AND TO GP'] = _ds['ROUTE NAME']
-# # row_in_dep['NHSHNo'] = _ds['ROUTE KMS PHOTO']
-# row_in_dep['NHSHNo'] = _ds['ROAD CHAINAGE']
-# row_in_dep['RoadWidth'] = _ds['ROAD WIDTH(m)']
-# row_in_dep['RowBoundaryLmt'] = 'NA'
-# row_in_dep['KMStoneFromA'] = 'NA'
-# row_in_dep['KMStoneToB'] = _ds['ROAD CHAINAGE']
-# row_in_dep['SuveryDist'] = _ds['DISTENCE(M)']
-# row_in_dep['LatAuth'] = _ds['START_COORDINATE'].apply(find_lat)
-# row_in_dep['LongAuth'] = _ds['START_COORDINATE'].apply(find_long)
-# row_in_dep['LandmarkRHS'] = _ds['POINT NAME'].apply(landmark)
-# row_in_dep['VlgTwnPoint'] = _ds['ROAD NAME']
-# row_in_dep['OFClaying'] = _ds['OFC POSITION']
-# row_in_dep['RdCrossing Req'] = _ds['ROAD NAME'].apply(road_xing_req)
-# row_in_dep['ReasonRdCrossing'] = _ds['ROAD NAME'].apply(road_xing_reas)
-# row_in_dep['UtilityLHS'] = _ds.apply(finding_utility_lhs, axis=1)
-# row_in_dep['UtilityRHS'] = _ds.apply(finding_utility_rhs, axis=1)
-# row_in_dep['UtilityChecked'] = _ds.apply(utility_checked, axis=1)
-# row_in_dep['RowAuthorityName'] = _ds.apply(road_authority, axis=1)
-# row_in_dep['AuthorityAddress'] = _ds.apply(road_auth_add, axis=1)
-# row_in_dep['FeasibilityOfROWApproval'] = 'Yes'
-# row_in_dep['TypeOfOverlapArea'] = 'NA'
-# row_in_dep['NearestLandmark'] = _ds['POINT NAME'].apply(nearest_landmark)
-# row_in_dep['LengthOfOverlapArea'] = 'NA'
-# row_in_dep['ExpansionInProg'] = 'NA'
-# row_in_dep['ExpansionPlanned'] = 'NA'
-# row_in_dep['TypeOfCrossing'] = _ds.apply(calculate_structure, axis=1)
-# row_in_dep['LatCrossing'] = _ds.apply(structure_xing_lat, axis=1)
-# row_in_dep['LongCrossing'] = _ds.apply(structure_xing_long, axis=1)
-# row_in_dep['LatLandmark'] = _ds['END_COORDINATE'].apply(landmark_lat)
-# row_in_dep['LongLandmark'] = _ds['END_COORDINATE'].apply(landmark_long)
-# row_in_dep['LengthOfCrossing'] = _ds['LENGTH (IN Mtr.)']
-# row_in_dep['SoilType'] = _ds['SOIL TYPE']
-# row_in_dep['RouteRdSidePts'] = 'NA'
-# row_in_dep['AlternateReq'] = 'NA'
-# row_in_dep['AlternateProp'] = 'NA'
-# row_in_dep['AlternatePathLgh'] = 'NA'
-# row_in_dep['Remarks'] = ''
-#
-# with pd.ExcelWriter('References/Tarana Block/Tarana_RoW.xlsx', engine='openpyxl', mode='w') as writer:
-#     row_in_dep.to_excel(writer, sheet_name='PreSurvey', index=False)
+cols = ['SrNo','Ring No','GP Name','Span Name','NHSHNo','RoadWidth','RowBoundaryLmt','KMStoneFromA','KMStoneToB','SuveryDist','st_Lat_Long_Auth','end_lat_LongAuth','LandmarkRHS',
+'VlgTwnPoint','OFClaying','RdCrossing Req','ReasonRdCrossing','UtilityLHS','UtilityChecked','RowAuthorityName', 'AuthorityAddress', 'FeasibilityOfROWApproval', 'TypeOfOverlapArea',
+'NearestLandmark', 'LengthOfOverlapArea','ExpansionInProg','ExpansionPlanned','TypeOfCrossing','LatCrossing','LongCrossing','LatLandmark','LongLandmark',
+'LengthOfCrossing','Remarks']
+
+row_in_dep = pd.DataFrame(columns=cols)
+
+
+row_in_dep['SrNo'] = _ds['SPAN_CONTINUITY']
+row_in_dep['FROM  AND TO GP'] = _ds['ROUTE NAME']
+# row_in_dep['NHSHNo'] = _ds['ROUTE KMS PHOTO']
+row_in_dep['NHSHNo'] = _ds['ROAD CHAINAGE']
+row_in_dep['RoadWidth'] = _ds['ROAD WIDTH(m)']
+row_in_dep['RowBoundaryLmt'] = 'NA'
+row_in_dep['KMStoneFromA'] = 'NA'
+row_in_dep['KMStoneToB'] = _ds['ROAD CHAINAGE']
+row_in_dep['SuveryDist'] = _ds['DISTENCE(M)']
+row_in_dep['LatAuth'] = _ds['START_COORDINATE'].apply(find_lat)
+row_in_dep['LongAuth'] = _ds['START_COORDINATE'].apply(find_long)
+row_in_dep['LandmarkRHS'] = _ds['POINT NAME'].apply(landmark)
+row_in_dep['VlgTwnPoint'] = _ds['ROAD NAME']
+row_in_dep['OFClaying'] = _ds['OFC POSITION']
+row_in_dep['RdCrossing Req'] = _ds['ROAD NAME'].apply(road_xing_req)
+row_in_dep['ReasonRdCrossing'] = _ds['ROAD NAME'].apply(road_xing_reas)
+row_in_dep['UtilityLHS'] = _ds.apply(finding_utility_lhs, axis=1)
+row_in_dep['UtilityRHS'] = _ds.apply(finding_utility_rhs, axis=1)
+row_in_dep['UtilityChecked'] = _ds.apply(utility_checked, axis=1)
+row_in_dep['RowAuthorityName'] = _ds.apply(road_authority, axis=1)
+row_in_dep['AuthorityAddress'] = _ds.apply(road_auth_add, axis=1)
+row_in_dep['FeasibilityOfROWApproval'] = 'Yes'
+row_in_dep['TypeOfOverlapArea'] = 'NA'
+row_in_dep['NearestLandmark'] = _ds['POINT NAME'].apply(nearest_landmark)
+row_in_dep['LengthOfOverlapArea'] = 'NA'
+row_in_dep['ExpansionInProg'] = 'NA'
+row_in_dep['ExpansionPlanned'] = 'NA'
+row_in_dep['TypeOfCrossing'] = _ds.apply(calculate_structure, axis=1)
+row_in_dep['LatCrossing'] = _ds.apply(structure_xing_lat, axis=1)
+row_in_dep['LongCrossing'] = _ds.apply(structure_xing_long, axis=1)
+row_in_dep['LatLandmark'] = _ds['END_COORDINATE'].apply(landmark_lat)
+row_in_dep['LongLandmark'] = _ds['END_COORDINATE'].apply(landmark_long)
+row_in_dep['LengthOfCrossing'] = _ds['LENGTH (IN Mtr.)']
+row_in_dep['SoilType'] = _ds['SOIL TYPE']
+row_in_dep['RouteRdSidePts'] = 'NA'
+row_in_dep['AlternateReq'] = 'NA'
+row_in_dep['AlternateProp'] = 'NA'
+row_in_dep['AlternatePathLgh'] = 'NA'
+row_in_dep['Remarks'] = ''
+
+with pd.ExcelWriter('References/Tarana Block/Tarana_RoW.xlsx', engine='openpyxl', mode='w') as writer:
+    row_in_dep.to_excel(writer, sheet_name='PreSurvey', index=False)
