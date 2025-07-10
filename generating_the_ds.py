@@ -439,9 +439,6 @@ cols_row_ps = ['SrNo', 'Ring No', 'GP Name', 'Span Name', 'NHSHNo', 'RoadWidth',
         'st_Lat_Long_xing', 'end_lat_Long_xing', 'LatLandmark', 'LongLandmark',
         'LengthOfCrossing', 'Remarks']
 
-row_in_dep = pd.DataFrame(columns=cols_row_ps)
-_ds = gdf_working  # assigning the detail sheet df to _ds
-
 span = gdf_working.sort_values('span_name').span_name.unique()
 row_pre_survey = pd.DataFrame(columns=cols_row_ps)
 for s in span:
@@ -609,7 +606,7 @@ row_pre_survey['NearestLandmark'] = row_pre_survey_temp.apply(finding_landmark, 
 row_pre_survey['LatLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1)
 row_pre_survey['LongLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1)
 
-with pd.ExcelWriter('References/Tarana Block/Tarana_RoW.xlsx', engine='openpyxl', mode='w') as writer:
-    row_in_dep.to_excel(writer, sheet_name='PreSurvey', index=False)
+with pd.ExcelWriter(str(dir_path) + f"\\{districtName}-{blockName}-{version}.xlsx", engine='openpyxl', mode='w') as writer:
+    row_pre_survey.to_excel(writer, sheet_name='PreSurvey', index=False)
 
 
