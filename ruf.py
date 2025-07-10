@@ -52,20 +52,10 @@ print(get_village_name(23.340705, 76.037812))
 import requests
 
 def get_village_google(lat, lon, api_key):
-    # url = f"https://maps.googleapis.com/maps/api/address/json?latlng={lat},{lon}&key={api_key}"
-    place_url = f"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={lat},{lon}&radius=50&key={api_key}"
-    roads_place_id_url = f"https://roads.googleapis.com/v1/nearestRoads?points={lat},{lon}&key={api_key}"
-    road_name_url = f"https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJS5ruWblmYzkRJwP4yaegmNQ&fields=name&key={api_key}"
-    response = requests.get(url)
+    place_url = f"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={lat},{lon}&radius=30&key={api_key}"
+    response = requests.get(place_url)
     data = response.json()
+    name = []
+    return data['results'][0]['name']
 
-    # if data['status'] == 'OK':
-    #     for result in data['results']:
-    #         for component in result['address_components']:
-    #             if 'locality' in component['types'] or 'sublocality' in component['types']:
-    #                 return component['long_name']
-    # data['results'][0]['name']
-    return data
-
-
-print(get_village_google(23.39504, 76.01335, " ))
+print(get_village_google(23.39504, 76.01335, ""))

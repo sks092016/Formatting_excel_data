@@ -10,6 +10,8 @@ import shutil
 from pathlib import Path
 import re
 
+import requests
+
 root = tk.Tk()
 root.withdraw()
 
@@ -555,21 +557,57 @@ for s in span:
     row_pre_survey = pd.concat([row_pre_survey, output_df])
 
 def finding_road_name(row):
-    return None
+    lat, lon = row['st_Lat_Long_Auth'].split(',')
+    roads_place_id_url = f"https://roads.googleapis.com/v1/nearestRoads?points={lat},{lon}&key={api_key}"
+    response_pid = requests.get(roads_place_id_url)
+    data = response_pid.json()
+    road_name = []
+    for loc in data['snappedPoints']:
+        place_id = loc["placeId"]
+        road_name_url = f"https://maps.googleapis.com/maps/api/place/details/json?place_id={place_id}&fields=name&key={api_key}"
+        response_pname = requests.get(road_name_url)
+        data = response_pname.json()
+        if data['result']['name'] == 'Unnamed Road':
+            road_name.append('')
+        else:
+            road_name.append(data['result']['name'])
+    return ", ".join(road_name)
 
-def finding_landmark(row, param):
-    return None
+def finding_landmark(row, value):
+    lat, lon = row['st_Lat_Long_Auth'].split(',')
+    place_url = f"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={lat},{lon}&radius=100&type=establishment&key={api_key}"
+    response = requests.get(place_url)
+    data = response.json()
+    landmark = []
+    for r in data['results']:
+        landmark.append(r['name'])
+    if value == 'name':
+        return ', '.join(landmark)
 
 def finding_village(row):
-    return None
+    lat1, lon1 = row['st_Lat_Long_Auth'].split(',')
+    place_url = f"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={lat1},{lon1}&radius=20&key={api_key}"
+    response_1 = requests.get(place_url)
+    data_1 = response_1.json()
+    lat2, lon2 = row['end_Lat_Long_Auth'].split(',')
+    place_url = f"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={lat2},{lon2}&radius=20&key={api_key}"
+    response_2 = requests.get(place_url)
+    data_2 = response_2.json()
+    name = []
+    for r in data_1['results']:
+        name.append(r['name'])
+    for r in data_2['results']:
+        name.append(r['name'])
+    return ', '.join(name)
 
 row_pre_survey_temp = row_pre_survey
+
 row_pre_survey['NHSHNo'] = row_pre_survey_temp.apply(finding_road_name, axis=1)
-row_pre_survey['LandmarkRHS'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('name'))
+row_pre_survey['LandmarkRHS'] = row_pre_survey_temp.apply(finding_landmark, axis=1)
 row_pre_survey['VlgTwnPoint'] = row_pre_survey_temp.apply(finding_village, axis=1)
-row_pre_survey['NearestLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('name'))
-row_pre_survey['LatLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('lat'))
-row_pre_survey['LongLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('long'))
+row_pre_survey['NearestLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1)
+row_pre_survey['LatLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1)
+row_pre_survey['LongLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1)
 
 with pd.ExcelWriter('References/Tarana Block/Tarana_RoW.xlsx', engine='openpyxl', mode='w') as writer:
     row_in_dep.to_excel(writer, sheet_name='PreSurvey', index=False)
