@@ -43,7 +43,7 @@ version = '1.0'
 folder_path = 'D:\\bharat_net_data\\'
 
 # APIKEY
-api_key = ''
+api_key = 'AIzaSyBpsTQbW0ax0c18wGhC46wLkIPNvOH1sb4'
 
 # DEFAULT LAT-LONG
 lat = 0
@@ -127,16 +127,19 @@ def haversine_distance(lat1, lon1, lat2, lon2):
 
 
 def change_point_name(value):
-    if any(sub in value.lower() for sub in ['re', 're ', ' re']):
-        return 'Road Edge'
-    elif str(value).upper() == "SE":
-        return 'Segment Edge'
-    elif difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.5:
-        return 'Culvert'
-    elif difflib.SequenceMatcher(None, value.lower(), "bridge").ratio() > 0.5:
-        return 'Bridge'
+    if value is not None:
+        if any(sub in value.lower() for sub in ['re', 're ', ' re']):
+            return 'Road Edge'
+        elif str(value).upper() == "SE":
+            return 'Segment Edge'
+        elif difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.5:
+            return 'Culvert'
+        elif difflib.SequenceMatcher(None, value.lower(), "bridge").ratio() > 0.5:
+            return 'Bridge'
+        else:
+            return value.capitalize()
     else:
-        return value.capitalize()
+        return 'NA'
 
 
 def categorize_value(value):
@@ -155,8 +158,10 @@ def categorize_value(value):
 
 def calculate_offset_width(row, param):
     value = str(row['road_autho']).upper()
+    keywords = ['PMGY', 'SH', 'NH', 'Nagar Parishad', 'Grampanchyat', 'GP', 'PWD', 'ODR', 'MDR']
+    matched = next((sub for sub in keywords if sub in value), None)
     if any(sub in value for sub in ['PMGY', 'SH', 'NH', 'Nagar Parishad', 'Grampanchyat', 'GP', 'PWD', 'ODR', 'MDR']):
-        value = globals()[value]
+        value = globals()[matched]
         if param == 'offset':
             return value / 2 + 0.2 * value
         if param == 'width':
@@ -189,8 +194,8 @@ def calculating_rms(row, df):
     # Track cumulative distances
     cum_distance_start = 0
     rm_list = []
-    for d in df['Distance']:
-        cum_distance_end = cum_distance_start + d
+    for d in df['distance']:
+        cum_distance_end = cum_distance_start + float(d)
         # Count new RMs in this segment
         rm_start_count = cum_distance_start // rm_interval
         rm_end_count = cum_distance_end // rm_interval
@@ -203,8 +208,8 @@ def calculating_rms(row, df):
 def calculating_mhs(row, df):
     cum_distance_start = 0
     mh_list = []
-    for d in df['Distance']:
-        cum_distance_end = cum_distance_start + d
+    for d in df['distance']:
+        cum_distance_end = cum_distance_start + float(d)
         # Count new MHs in this segment
         mh_start_count = cum_distance_start // mh_interval
         mh_end_count = cum_distance_end // mh_interval
@@ -278,12 +283,12 @@ def finding_utility(row):
 
 if is_structure_same:
     cols_ds = ['SPAN_CONTINUITY', 'POINT NAME', 'TYPE', 'POSITION', 'OFFSET', 'CHAINAGE', 'DISTENCE(M)', 'LATITUDE',
-            "LONGITUDE", 'ROUTE NAME', 'ROUTE TYPE',
-            'OFC TYPE', 'LAYING TYPE', 'ROUTE ID', 'ROUTE MARKER', 'MANHOLE', 'ROAD NAME', 'ROAD WIDTH(m)',
-            'ROAD SURFACE', 'OFC POSITION', 'APRX DISTANCE FROM RCL(m)',
-            'AUTHORITY NAME', 'ROAD CHAINAGE', 'ROAD STRUTURE TYPE', 'LENGTH (IN Mtr.)', 'PROTECTION TYPE',
-            'PROTECTION FOR', 'PROTECTION LENGTH (IN Mtr.)', 'UTILITY NAME',
-            'SIDE OF THE ROAD', 'SOIL TYPE', 'REMARKS']
+               "LONGITUDE", 'ROUTE NAME', 'ROUTE TYPE',
+               'OFC TYPE', 'LAYING TYPE', 'ROUTE ID', 'ROUTE MARKER', 'MANHOLE', 'ROAD NAME', 'ROAD WIDTH(m)',
+               'ROAD SURFACE', 'OFC POSITION', 'APRX DISTANCE FROM RCL(m)',
+               'AUTHORITY NAME', 'ROAD CHAINAGE', 'ROAD STRUTURE TYPE', 'LENGTH (IN Mtr.)', 'PROTECTION TYPE',
+               'PROTECTION FOR', 'PROTECTION LENGTH (IN Mtr.)', 'UTILITY NAME',
+               'SIDE OF THE ROAD', 'SOIL TYPE', 'REMARKS']
 
     boq_ = pd.DataFrame(columns=cols_ds)
     span = gdf_working.sort_values('span_name').span_name.unique()
@@ -295,32 +300,32 @@ if is_structure_same:
         boq_ds_df['POINT NAME'] = temp_df['end_point_'].apply(change_point_name)
         boq_ds_df['TYPE'] = temp_df['end_point_'].apply(categorize_value)
         boq_ds_df['POSITION'] = temp_df['ofc_laying']
-        boq_ds_df['OFFSET'] = temp_df.apply(calculate_offset_width, axis=1, args=('offset'))
+        boq_ds_df['OFFSET'] = temp_df.apply(calculate_offset_width, axis=1, args=('offset',))
         boq_ds_df['CHAINAGE'] = temp_df['distance'].cumsum().shift(fill_value=0)
         boq_ds_df['DISTENCE(M)'] = temp_df['distance']
-        boq_ds_df['LATITUDE'] = temp_df.apply(finding_lat_lon, axis=1, args=('lat'))
-        boq_ds_df['LONGITUDE'] = temp_df.apply(finding_lat_lon, axis=1, args=('lon'))
+        boq_ds_df['LATITUDE'] = temp_df.apply(finding_lat_lon, axis=1, args=('lat',))
+        boq_ds_df['LONGITUDE'] = temp_df.apply(finding_lat_lon, axis=1, args=('lon',))
         boq_ds_df['ROUTE NAME'] = temp_df['span_name']
         boq_ds_df['ROUTE TYPE'] = temp_df['scope']
         boq_ds_df['OFC TYPE'] = '48F'
         boq_ds_df['LAYING TYPE'] = 'UG'
         boq_ds_df['ROUTE ID'] = temp_df['span_id']
-        boq_ds_df['ROUTE MARKER'] = temp_df.apply(calculating_rms, axis=1, args=(temp_df))
-        boq_ds_df['MANHOLE'] = temp_df.apply(calculating_mhs, axis=1, args=(temp_df))
+        boq_ds_df['ROUTE MARKER'] = temp_df.apply(calculating_rms, axis=1, args=(temp_df,))
+        boq_ds_df['MANHOLE'] = temp_df.apply(calculating_mhs, axis=1, args=(temp_df,))
         boq_ds_df['ROAD NAME'] = temp_df['road_name']
-        boq_ds_df['ROAD WIDTH(m)'] = temp_df.apply(calculate_offset_width, axis=1, args=('width'))
+        boq_ds_df['ROAD WIDTH(m)'] = temp_df.apply(calculate_offset_width, axis=1, args=('width',))
         boq_ds_df['ROAD SURFACE'] = temp_df['road_surfa']
         boq_ds_df['OFC POSITION'] = temp_df['ofc_laying']
         boq_ds_df['APRX DISTANCE FROM RCL(m)'] = ''
         boq_ds_df['AUTHORITY NAME'] = temp_df['road_autho']
         boq_ds_df['ROAD CHAINAGE'] = temp_df.apply(calculate_road_chainage, axis=1)
-        boq_ds_df['ROAD STRUTURE TYPE'] = temp_df.apply(calculate_protec, axis=1, args=('struct'))
+        boq_ds_df['ROAD STRUTURE TYPE'] = temp_df.apply(calculate_protec, axis=1, args=('struct',))
         boq_ds_df['LENGTH (IN Mtr.)'] = temp_df['distance']
-        boq_ds_df['PROTECTION TYPE'] = temp_df.apply(calculate_protec, axis=1, args=('type'))
-        boq_ds_df['PROTECTION FOR'] = temp_df.apply(calculate_protec, axis=1, args=('for'))
-        boq_ds_df['PROTECTION LENGTH (IN Mtr.)'] = temp_df.apply(calculate_protec, axis=1, args=('len'))
+        boq_ds_df['PROTECTION TYPE'] = temp_df.apply(calculate_protec, axis=1, args=('type',))
+        boq_ds_df['PROTECTION FOR'] = temp_df.apply(calculate_protec, axis=1, args=('for',))
+        boq_ds_df['PROTECTION LENGTH (IN Mtr.)'] = temp_df.apply(calculate_protec, axis=1, args=('len',))
         boq_ds_df['UTILITY NAME'] = temp_df.apply(finding_utility, axis=1)
-        boq_ds_df['SIDE OF THE ROAD'] = temp_df['ofc_laying'] if boq_ds_df['UTILITY NAME'] else None
+        boq_ds_df['SIDE OF THE ROAD'] = temp_df['ofc_laying'] if not boq_ds_df['UTILITY NAME'].empty else None
         boq_ds_df['SOIL TYPE'] = temp_df['strata_typ']
         boq_ds_df['REMARKS'] = "NA"
         boq_ = pd.concat([boq_, boq_ds_df])
@@ -329,10 +334,11 @@ if is_structure_same:
                         mode='w') as writer:
         boq_.to_excel(writer, sheet_name='Details Sheet', index=False)
 
-# ############################################## Generating the Span Details ########################################
+    # ############################################## Generating the Span Details ########################################
 
-    cols_sd = ['FROM', 'TO', 'ROUTE NAME', 'RING NO.', 'ROUTE TYPE', 'OFC TYPE', 'LAYING TYPE', 'ROUTE ID', 'TOTAL LENGTH(KM)',
-            'OH', 'UG']
+    cols_sd = ['FROM', 'TO', 'ROUTE NAME', 'RING NO.', 'ROUTE TYPE', 'OFC TYPE', 'LAYING TYPE', 'ROUTE ID',
+               'TOTAL LENGTH(KM)',
+               'OH', 'UG']
     span_details = pd.DataFrame(columns=cols_sd)
 
     span_details['FROM'] = boq_sd_df['from_gp_na']
@@ -351,11 +357,11 @@ if is_structure_same:
                         if_sheet_exists='replace') as writer:
         span_details.to_excel(writer, sheet_name='Span Details', index=False)
 
-# ############################################# Generating the RoW Details #########################################
+    # ############################################# Generating the RoW Details #########################################
 
     authorities = gdf_working['road_autho'].unique()
 
-    cols_row = ['ROUTE NAME', 'ROUTE TYPE', 'RING NO', 'ROUTE ID', 'TOTAL ROUTE LENGTH'] + authorities
+    cols_row = ['ROUTE NAME', 'ROUTE TYPE', 'RING NO', 'ROUTE ID', 'TOTAL ROUTE LENGTH'] + list(authorities)
 
     row_details = pd.DataFrame(columns=cols_row)
 
@@ -376,12 +382,14 @@ if is_structure_same:
                         if_sheet_exists='replace') as writer:
         row_details.to_excel(writer, sheet_name='RoW', index=False)
 
-####################################### Generating the Protection Details ###########################################
+    ####################################### Generating the Protection Details ###########################################
 
-    cols_pro = ['ROUTE NAME', 'ROUTE TYPE', 'TOTAL ROUTE LENGTH', 'NO OF CULVERT', 'LENGTH (IN Mtr) OF CULVERT', 'NO OF BRIDGE',
-            'LENGTH (IN Mtr) OF BRIDE',
-            'LENGTH (IN Mtr) OF PCC', 'LENGTH (IN Mtr) OF DWC', 'LENGTH (IN Mtr) OF GI', 'LENGTH (IN Mtr) OF DWC+PCC',
-            "Soil Detail", "LENGTH (IN Mtr) OF DWC+PCC (HARD ROCK)", 'LENGTH (IN Mtr) OF ANCORING']
+    cols_pro = ['ROUTE NAME', 'ROUTE TYPE', 'TOTAL ROUTE LENGTH', 'NO OF CULVERT', 'LENGTH (IN Mtr) OF CULVERT',
+                'NO OF BRIDGE',
+                'LENGTH (IN Mtr) OF BRIDE',
+                'LENGTH (IN Mtr) OF PCC', 'LENGTH (IN Mtr) OF DWC', 'LENGTH (IN Mtr) OF GI',
+                'LENGTH (IN Mtr) OF DWC+PCC',
+                "Soil Detail", "LENGTH (IN Mtr) OF DWC+PCC (HARD ROCK)", 'LENGTH (IN Mtr) OF ANCORING']
     protection_details = pd.DataFrame(columns=cols_pro)
 
     _details = pd.read_excel(str(dir_path) + f"\\{districtName}-{blockName}-{version}.xlsx", sheet_name='Details Sheet')
@@ -423,9 +431,9 @@ if is_structure_same:
         protection_details.to_excel(writer, sheet_name='Protection Details', index=False)
 
 
-#
-##################################################### RoW PreSurvey ######################################################
-#
+    #
+    ##################################################### RoW PreSurvey ######################################################
+    #
 
     def extract_coords(geom):
         coords = re.findall(r"x\d+\s+y\d+", geom)
@@ -433,12 +441,12 @@ if is_structure_same:
 
 
     cols_row_ps = ['SrNo', 'Ring No', 'GP Name', 'Span Name', 'NHSHNo', 'RoadWidth', 'RowBoundaryLmt', 'KMStoneFromA',
-            'KMStoneToB', 'SuveryDist', 'st_Lat_Long_Auth', 'end_lat_Long_Auth', 'LandmarkRHS',
-            'VlgTwnPoint', 'OFClaying', 'RdCrossing Req', 'ReasonRdCrossing', 'UtilityLHS', 'UtilityChecked',
-            'RowAuthorityName', 'AuthorityAddress', 'FeasibilityOfROWApproval', 'TypeOfOverlapArea',
-            'NearestLandmark', 'LengthOfOverlapArea', 'ExpansionInProg', 'ExpansionPlanned', 'TypeOfCrossing',
-            'st_Lat_Long_xing', 'end_lat_Long_xing', 'LatLandmark', 'LongLandmark',
-            'LengthOfCrossing', 'Remarks']
+                   'KMStoneToB', 'SuveryDist', 'st_Lat_Long_Auth', 'end_lat_Long_Auth', 'LandmarkRHS',
+                   'VlgTwnPoint', 'OFClaying', 'RdCrossing Req', 'ReasonRdCrossing', 'UtilityLHS', 'UtilityChecked',
+                   'RowAuthorityName', 'AuthorityAddress', 'FeasibilityOfROWApproval', 'TypeOfOverlapArea',
+                   'NearestLandmark', 'LengthOfOverlapArea', 'ExpansionInProg', 'ExpansionPlanned', 'TypeOfCrossing',
+                   'st_Lat_Long_xing', 'end_lat_Long_xing', 'LatLandmark', 'LongLandmark',
+                   'LengthOfCrossing', 'Remarks']
 
     span = gdf_working.sort_values('span_name').span_name.unique()
     row_pre_survey = pd.DataFrame(columns=cols_row_ps)
@@ -453,8 +461,9 @@ if is_structure_same:
         output_df = None
 
         for _, row in temp_df.iterrows():
-            p_n, s_n, dist, auth, geom, ofc_side = row["end_point_"], row["span_name"], row["distance"], row["road_autho"], \
-            row["Geometry"], row['ofc_laying']
+            p_n, s_n, dist, auth, geom, ofc_side = row["end_point_"], row["span_name"], row["distance"], row[
+                "road_autho"], \
+                row["Geometry"], row['ofc_laying']
             coords = extract_coords(geom)
             if not any(sub in p_n for sub in ['culvert', 'bridge']):
                 if group is None:
@@ -501,7 +510,7 @@ if is_structure_same:
                     group = {
                         'SrNo': '',
                         'FROM AND TO GP': s_n,
-                        'NHSHNo': '',#TODO Find Road Nmme
+                        'NHSHNo': '',  # TODO Find Road Nmme
                         'RoadWidth': globals()[auth.upper()],
                         'RowBoundaryLmt': '',
                         'KMStoneFromA': "",
@@ -509,8 +518,8 @@ if is_structure_same:
                         'SuveryDist': dist,
                         'st_Lat_Long_Auth': f"{coords[0][1]},{coords[0][0]}",
                         'end_lat_Long_Auth': f"{coords[-1][1]},{coords[-1][0]}",
-                        'LandmarkRHS': "",#TODO Find LandMark
-                        'VlgTwnPoint': "",#TODO Find Village from-to
+                        'LandmarkRHS': "",  # TODO Find LandMark
+                        'VlgTwnPoint': "",  # TODO Find Village from-to
                         'OFClaying': ofc_side,
                         'RdCrossing Req': '',
                         'ReasonRdCrossing': '',
@@ -521,15 +530,15 @@ if is_structure_same:
                         'AuthorityAddress': f"{blockName}, {districtName}",
                         'FeasibilityOfROWApproval': 'Yes',
                         'TypeOfOverlapArea': '',
-                        'NearestLandmark': "",#TODO Find LandMark
+                        'NearestLandmark': "",  # TODO Find LandMark
                         'LengthOfOverlapArea': '',
                         'ExpansionInProg': '',
                         'ExpansionPlanned': '',
                         'TypeOfCrossing': '',
                         'st_Lat_Long_xing': '',
                         'end_lat_Long_xing': '',
-                        'LatLandmark': '',#TODO Latitude of LandMark
-                        'LongLandmark': '',#TODO Longitude of the LandMark
+                        'LatLandmark': '',  # TODO Latitude of LandMark
+                        'LongLandmark': '',  # TODO Longitude of the LandMark
                         'LengthOfCrossing': '',
                         'Remarks': ''
                     }
@@ -554,6 +563,7 @@ if is_structure_same:
             output_df.reset_index(drop=True, inplace=True)
         row_pre_survey = pd.concat([row_pre_survey, output_df])
 
+
     def finding_road_name(row):
         lat, lon = row['st_Lat_Long_Auth'].split(',')
         roads_place_id_url = f"https://roads.googleapis.com/v1/nearestRoads?points={lat},{lon}&key={api_key}"
@@ -571,6 +581,7 @@ if is_structure_same:
                 road_name.append(data['result']['name'])
         return ", ".join(road_name)
 
+
     def finding_landmark(row, value):
         lat, lon = row['st_Lat_Long_Auth'].split(',')
         place_url = f"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={lat},{lon}&radius=100&type=establishment&key={api_key}"
@@ -581,6 +592,7 @@ if is_structure_same:
             landmark.append(r['name'])
         if value == 'name':
             return ', '.join(landmark)
+
 
     def finding_village(row):
         lat1, lon1 = row['st_Lat_Long_Auth'].split(',')
@@ -598,6 +610,7 @@ if is_structure_same:
             name.append(r['name'])
         return ', '.join(name)
 
+
     row_pre_survey_temp = row_pre_survey
 
     row_pre_survey['NHSHNo'] = row_pre_survey_temp.apply(finding_road_name, axis=1)
@@ -607,7 +620,6 @@ if is_structure_same:
     row_pre_survey['LatLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1)
     row_pre_survey['LongLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1)
 
-    with pd.ExcelWriter(str(dir_path) + f"\\{districtName}-{blockName}-{version}.xlsx", engine='openpyxl', mode='w') as writer:
+    with pd.ExcelWriter(str(dir_path) + f"\\{districtName}-{blockName}-{version}.xlsx", engine='openpyxl',
+                        mode='w') as writer:
         row_pre_survey.to_excel(writer, sheet_name='PreSurvey', index=False)
-
-
