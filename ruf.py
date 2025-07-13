@@ -31,31 +31,35 @@ print(tabulate(gdf_reference.head(),headers = 'keys', tablefmt = 'psql'))
 
 # print(gdf_reference['road_autho'].unique())
 
-import requests
+# import requests
+#
+# def get_village_name(lat, lon):
+#     url = f"https://nominatim.openstreetmap.org/reverse?lat={lat}&lon={lon}&format=json"
+#     headers = {
+#         'User-Agent': 'village-lookup-script'
+#     }
+#     response = requests.get(url, headers=headers)
+#     data = response.json()
+#
+#     # Try extracting village or locality name
+#     address = data.get('address', {})
+#     village = address.get('village') or address.get('hamlet') or address.get('town') or address.get('city')
+#     return address
+#
+# # Example usage
+# print(get_village_name(23.340705, 76.037812))
+#
+# import requests
+#
+# def get_village_google(lat, lon, api_key):
+#     place_url = f"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={lat},{lon}&radius=30&key={api_key}"
+#     response = requests.get(place_url)
+#     data = response.json()
+#     name = []
+#     return data['results'][0]['name']
+#
+# print(get_village_google(23.39504, 76.01335, ""))
 
-def get_village_name(lat, lon):
-    url = f"https://nominatim.openstreetmap.org/reverse?lat={lat}&lon={lon}&format=json"
-    headers = {
-        'User-Agent': 'village-lookup-script'
-    }
-    response = requests.get(url, headers=headers)
-    data = response.json()
-
-    # Try extracting village or locality name
-    address = data.get('address', {})
-    village = address.get('village') or address.get('hamlet') or address.get('town') or address.get('city')
-    return address
-
-# Example usage
-print(get_village_name(23.340705, 76.037812))
-
-import requests
-
-def get_village_google(lat, lon, api_key):
-    place_url = f"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={lat},{lon}&radius=30&key={api_key}"
-    response = requests.get(place_url)
-    data = response.json()
-    name = []
-    return data['results'][0]['name']
-
-print(get_village_google(23.39504, 76.01335, ""))
+value = 'cul'
+value2 = difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.5
+print(value2)

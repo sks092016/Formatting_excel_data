@@ -25,6 +25,7 @@ PWD = 6
 ODR = 6
 MDR = 6
 Nagar_Parishad = 4
+MPRRDA = 4
 OTHERS = 6
 
 # RM & MH INTERVAL
@@ -40,7 +41,10 @@ hard_rock = 'DWC + PCC'
 version = '1.0'
 
 # PATH
-folder_path = 'D:\\bharat_net_data\\'
+# for Windows
+# folder_path = 'D:\\bharat_net_data\\'
+# for Mac
+folder_path = '/Users/subhashsoni/Documents/Bharatnet_OFC_planning/'
 
 # APIKEY
 api_key = 'AIzaSyBpsTQbW0ax0c18wGhC46wLkIPNvOH1sb4'
@@ -108,9 +112,9 @@ else:
 ###################################### Creating the Common Span Details #########################################
 
 span_ = gdf_working[['from_gp_na', 'to_gp_name', 'span_name', 'ring_no', 'scope', 'span_id']].drop_duplicates()
+gdf_working['distance'] = pd.to_numeric(gdf_working['distance'], errors='coerce')
 span_dis = gdf_working.groupby('span_name').agg({'distance': 'sum'})
 boq_sd_df = pd.merge(span_, span_dis, on=['span_name'], how='inner')
-
 
 ###################################### Creating the Details Sheet ################################################
 def haversine_distance(lat1, lon1, lat2, lon2):
@@ -190,7 +194,7 @@ def finding_lat_lon(row, lat_lon):
     return None
 
 
-def calculating_rms(row, df):
+def calculating_rms(df):
     # Track cumulative distances
     cum_distance_start = 0
     rm_list = []
@@ -202,10 +206,11 @@ def calculating_rms(row, df):
         new_rms = int(rm_end_count - rm_start_count)
         rm_list.append(new_rms)
         cum_distance_start = cum_distance_end
-    return rm_list
+    rm_df = pd.DataFrame(rm_list, columns=['rm'], index=df.index)
+    return rm_df
 
 
-def calculating_mhs(row, df):
+def calculating_mhs(df):
     cum_distance_start = 0
     mh_list = []
     for d in df['distance']:
@@ -216,7 +221,8 @@ def calculating_mhs(row, df):
         new_mhs = int(mh_end_count - mh_start_count)
         mh_list.append(new_mhs)
         cum_distance_start = cum_distance_end
-    return mh_list
+    mh_df = pd.DataFrame(mh_list, columns=['mh'], index=df.index)
+    return mh_df
 
 
 def calculate_road_chainage(row):
@@ -233,53 +239,63 @@ def calculate_protec(row, param):
     length = float(row['distance'])
     strata = str(row['strata_typ'])
     if difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.5 and length <= 20:
-        if param == 'struct' or 'for':
+        if param == 'struct' or param == 'for':
             return 'Culvert'
-        if param == 'type':
+        elif param == 'type':
             return culvert_protection
-        if param == 'length':
+        elif param == 'len':
             return length + 6
+        elif param == 'length':
+            return length
     elif difflib.SequenceMatcher(None, value.lower(), "bridge").ratio() > 0.5 and length > 20:
-        if param == 'struct' or 'for':
+        if param == 'struct' or param == 'for':
             return 'Bridge'
-        if param == 'type':
+        elif param == 'type':
             return bridge_protection
-        if param == 'length':
+        elif param == 'len':
             return length + 6
-    elif strata == 'hard_rock':
+        elif param == 'length':
+            return length
+
+    if strata == 'hard_rock' or strata == 'Hard Rock':
         if param == 'for':
             return 'Hard Rock'
-        if param == 'type':
+        elif param == 'type':
             return hard_rock
-        if param == 'length':
+        elif param == 'len':
             return length + 6
+        elif param == 'length':
+            return None
     return ''
 
 
-def finding_utility(row):
+def finding_utility(row, param):
     side = row['ofc_laying']
     value = str(row['end_point_']).lower()
-    if row['ofc_laying'] == 'LHS':
-        if 'rjil' in value:
-            return "Reliance Jio"
-        elif 'airtel' in value:
-            return "Airtel"
-        elif 'bsnl' in value:
-            return 'BSNL'
-        elif 'gas' in value:
-            return 'Gas PipeLine ' + value
-        elif 'hpcl' in value:
-            return 'HPCL Pipeline'
-        elif 'iocl' in value:
-            return 'IOCL Pipeline'
-        elif 'railway' in value:
-            return 'railway'
-        elif 'petrol' in value:
-            return 'Petroleum Pipeline ' + value
-        elif 'gail' in value:
-            return 'Gail Xing'
+    utility = None
+    if 'rjil' in value:
+        utility = "Reliance Jio"
+    elif 'airtel' in value:
+        utility = "Airtel"
+    elif 'bsnl' in value:
+        utility = 'BSNL'
+    elif 'gas' in value:
+        utility = 'Gas PipeLine ' + value
+    elif 'hpcl' in value:
+        utility = 'HPCL Pipeline'
+    elif 'iocl' in value:
+        utility = 'IOCL Pipeline'
+    elif 'railway' in value:
+        utility = 'railway'
+    elif 'petrol' in value:
+        utility = 'Petroleum Pipeline ' + value
+    elif 'gail' in value:
+        utility = 'Gail Xing'
+    if param == 'utility':
+        return utility
+    if param == 'side' and utility is not None:
+        return side
     return None
-
 
 if is_structure_same:
     cols_ds = ['SPAN_CONTINUITY', 'POINT NAME', 'TYPE', 'POSITION', 'OFFSET', 'CHAINAGE', 'DISTENCE(M)', 'LATITUDE',
@@ -301,7 +317,7 @@ if is_structure_same:
         boq_ds_df['TYPE'] = temp_df['end_point_'].apply(categorize_value)
         boq_ds_df['POSITION'] = temp_df['ofc_laying']
         boq_ds_df['OFFSET'] = temp_df.apply(calculate_offset_width, axis=1, args=('offset',))
-        boq_ds_df['CHAINAGE'] = temp_df['distance'].cumsum().shift(fill_value=0)
+        boq_ds_df['CHAINAGE'] = pd.DataFrame([sum(list(temp_df['distance'].astype(float))[:i - 1]) for i in range(1, len(list(temp_df['distance']))+1)]).values
         boq_ds_df['DISTENCE(M)'] = temp_df['distance']
         boq_ds_df['LATITUDE'] = temp_df.apply(finding_lat_lon, axis=1, args=('lat',))
         boq_ds_df['LONGITUDE'] = temp_df.apply(finding_lat_lon, axis=1, args=('lon',))
@@ -310,8 +326,8 @@ if is_structure_same:
         boq_ds_df['OFC TYPE'] = '48F'
         boq_ds_df['LAYING TYPE'] = 'UG'
         boq_ds_df['ROUTE ID'] = temp_df['span_id']
-        boq_ds_df['ROUTE MARKER'] = temp_df.apply(calculating_rms, axis=1, args=(temp_df,))
-        boq_ds_df['MANHOLE'] = temp_df.apply(calculating_mhs, axis=1, args=(temp_df,))
+        boq_ds_df['ROUTE MARKER'] = calculating_rms(temp_df)
+        boq_ds_df['MANHOLE'] = calculating_mhs(temp_df)
         boq_ds_df['ROAD NAME'] = temp_df['road_name']
         boq_ds_df['ROAD WIDTH(m)'] = temp_df.apply(calculate_offset_width, axis=1, args=('width',))
         boq_ds_df['ROAD SURFACE'] = temp_df['road_surfa']
@@ -320,17 +336,17 @@ if is_structure_same:
         boq_ds_df['AUTHORITY NAME'] = temp_df['road_autho']
         boq_ds_df['ROAD CHAINAGE'] = temp_df.apply(calculate_road_chainage, axis=1)
         boq_ds_df['ROAD STRUTURE TYPE'] = temp_df.apply(calculate_protec, axis=1, args=('struct',))
-        boq_ds_df['LENGTH (IN Mtr.)'] = temp_df['distance']
+        boq_ds_df['LENGTH (IN Mtr.)'] = temp_df.apply(calculate_protec, axis=1, args=('length',))
         boq_ds_df['PROTECTION TYPE'] = temp_df.apply(calculate_protec, axis=1, args=('type',))
         boq_ds_df['PROTECTION FOR'] = temp_df.apply(calculate_protec, axis=1, args=('for',))
         boq_ds_df['PROTECTION LENGTH (IN Mtr.)'] = temp_df.apply(calculate_protec, axis=1, args=('len',))
-        boq_ds_df['UTILITY NAME'] = temp_df.apply(finding_utility, axis=1)
-        boq_ds_df['SIDE OF THE ROAD'] = temp_df['ofc_laying'] if not boq_ds_df['UTILITY NAME'].empty else None
+        boq_ds_df['UTILITY NAME'] = temp_df.apply(finding_utility, axis=1, args=('utility',))
+        boq_ds_df['SIDE OF THE ROAD'] = temp_df.apply(finding_utility, axis=1, args=('side',))
         boq_ds_df['SOIL TYPE'] = temp_df['strata_typ']
         boq_ds_df['REMARKS'] = "NA"
         boq_ = pd.concat([boq_, boq_ds_df])
 
-    with pd.ExcelWriter(str(dir_path) + f"\\{districtName}-{blockName}-{version}.xlsx", engine='openpyxl',
+    with pd.ExcelWriter(str(dir_path) + f"/{districtName}-{blockName}-{version}.xlsx", engine='openpyxl',
                         mode='w') as writer:
         boq_.to_excel(writer, sheet_name='Details Sheet', index=False)
 
@@ -353,7 +369,7 @@ if is_structure_same:
     span_details['OH'] = 0
     span_details['UG'] = boq_sd_df['distance']
 
-    with pd.ExcelWriter(str(dir_path) + f"\\{districtName}-{blockName}-{version}.xlsx", engine='openpyxl', mode='a',
+    with pd.ExcelWriter(str(dir_path) + f"/{districtName}-{blockName}-{version}.xlsx", engine='openpyxl', mode='a',
                         if_sheet_exists='replace') as writer:
         span_details.to_excel(writer, sheet_name='Span Details', index=False)
 
@@ -378,7 +394,7 @@ if is_structure_same:
         row_details[auths] = row_[auths]
     row_details['OTHERS'] = 0
 
-    with pd.ExcelWriter(str(dir_path) + f"\\{districtName}-{blockName}-{version}.xlsx", engine='openpyxl', mode='a',
+    with pd.ExcelWriter(str(dir_path) + f"/{districtName}-{blockName}-{version}.xlsx", engine='openpyxl', mode='a',
                         if_sheet_exists='replace') as writer:
         row_details.to_excel(writer, sheet_name='RoW', index=False)
 
@@ -392,14 +408,18 @@ if is_structure_same:
                 "Soil Detail", "LENGTH (IN Mtr) OF DWC+PCC (HARD ROCK)", 'LENGTH (IN Mtr) OF ANCORING']
     protection_details = pd.DataFrame(columns=cols_pro)
 
-    _details = pd.read_excel(str(dir_path) + f"\\{districtName}-{blockName}-{version}.xlsx", sheet_name='Details Sheet')
+    _details = pd.read_excel(str(dir_path) + f"/{districtName}-{blockName}-{version}.xlsx", sheet_name='Details Sheet')
 
     _protection = _details[['ROUTE NAME', 'ROAD STRUTURE TYPE', 'LENGTH (IN Mtr.)', 'PROTECTION TYPE', 'PROTECTION FOR',
                             'PROTECTION LENGTH (IN Mtr.)']]
     r_agg = _protection.groupby(['ROUTE NAME', 'PROTECTION FOR'])['PROTECTION LENGTH (IN Mtr.)'].agg(
         ['count', 'sum']).unstack(fill_value=0)
-    r_agg.columns = ['NO OF BRIDGE', 'NO OF CULVERT', 'HARD ROCK', 'LENGTH (IN Mtr) OF BRIDGE',
-                     'LENGTH (IN Mtr) OF CULVERT', 'HARD ROCK (Length)']  # Rename columns
+    if len(r_agg.columns) == 4:
+        r_agg.columns = ['NO OF BRIDGE', 'NO OF CULVERT', 'LENGTH (IN Mtr) OF BRIDGE',
+                         'LENGTH (IN Mtr) OF CULVERT']  # Rename columns
+    else:
+        r_agg.columns = ['NO OF BRIDGE', 'NO OF CULVERT', 'HARD ROCK', 'LENGTH (IN Mtr) OF BRIDGE',
+                         'LENGTH (IN Mtr) OF CULVERT', 'HARD ROCK (Length)']  # Rename columns
     r_agg = r_agg.reset_index()
     p_agg = _protection.pivot_table(values='PROTECTION LENGTH (IN Mtr.)', index='ROUTE NAME', columns='PROTECTION TYPE',
                                     aggfunc='sum', fill_value=0).reset_index()
@@ -413,11 +433,11 @@ if is_structure_same:
     protection_details['ROUTE TYPE'] = 'OFC to be laid for Ring Formation (in Km)'
     protection_details['TOTAL ROUTE LENGTH'] = protection_['distance']
     protection_details['NO OF CULVERT'] = protection_['NO OF CULVERT']
-    protection_details['LENGTH (IN Mtr) OF CULVERT'] = protection_['LENGTH (IN Mtr) OF CULVERT'] - 6 * protection_[
-        'NO OF CULVERT']
+    protection_details['LENGTH (IN Mtr) OF CULVERT'] = protection_['LENGTH (IN Mtr) OF CULVERT'].astype(float) - 6 * protection_[
+        'NO OF CULVERT'].astype(float)
     protection_details['NO OF BRIDGE'] = protection_['NO OF BRIDGE']
-    protection_details['LENGTH (IN Mtr) OF BRIDE'] = protection_['LENGTH (IN Mtr) OF BRIDGE'] - 6 * protection_[
-        'NO OF BRIDGE']
+    protection_details['LENGTH (IN Mtr) OF BRIDE'] = protection_['LENGTH (IN Mtr) OF BRIDGE'].astype(float) - 6 * protection_[
+        'NO OF BRIDGE'].astype(float)
     protection_details['LENGTH (IN Mtr) OF PCC'] = 0
     protection_details['LENGTH (IN Mtr) OF DWC'] = protection_['LENGTH (IN Mtr) OF CULVERT']
     protection_details['LENGTH (IN Mtr) OF GI'] = protection_['LENGTH (IN Mtr) OF BRIDGE']
@@ -426,7 +446,7 @@ if is_structure_same:
     protection_details['HARD ROCK (Length)'] = protection_['HARD ROCK (Length)']
     protection_details['LENGTH (IN Mtr) OF ANCORING'] = 0
 
-    with pd.ExcelWriter(str(dir_path) + f"\\{districtName}-{blockName}-{version}.xlsx", engine='openpyxl', mode='a',
+    with pd.ExcelWriter(str(dir_path) + f"/{districtName}-{blockName}-{version}.xlsx", engine='openpyxl', mode='a',
                         if_sheet_exists='replace') as writer:
         protection_details.to_excel(writer, sheet_name='Protection Details', index=False)
 
@@ -436,8 +456,13 @@ if is_structure_same:
     #
 
     def extract_coords(geom):
-        coords = re.findall(r"x\d+\s+y\d+", geom)
-        return [tuple(coord.split()) for coord in coords]
+        try:
+            geom_str = str(geom)
+            coords = re.findall(r"x\d+\s+y\d+", geom_str)
+            return coords
+        except Exception as e:
+            print(f"Error processing geom: {geom} -> {e}")
+            return []
 
 
     cols_row_ps = ['SrNo', 'Ring No', 'GP Name', 'Span Name', 'NHSHNo', 'RoadWidth', 'RowBoundaryLmt', 'KMStoneFromA',
@@ -463,7 +488,7 @@ if is_structure_same:
         for _, row in temp_df.iterrows():
             p_n, s_n, dist, auth, geom, ofc_side = row["end_point_"], row["span_name"], row["distance"], row[
                 "road_autho"], \
-                row["Geometry"], row['ofc_laying']
+                row["geometry"], row['ofc_laying']
             coords = extract_coords(geom)
             if not any(sub in p_n for sub in ['culvert', 'bridge']):
                 if group is None:
@@ -620,6 +645,6 @@ if is_structure_same:
     row_pre_survey['LatLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1)
     row_pre_survey['LongLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1)
 
-    with pd.ExcelWriter(str(dir_path) + f"\\{districtName}-{blockName}-{version}.xlsx", engine='openpyxl',
+    with pd.ExcelWriter(str(dir_path) + f"/{districtName}-{blockName}-{version}.xlsx", engine='openpyxl',
                         mode='w') as writer:
         row_pre_survey.to_excel(writer, sheet_name='PreSurvey', index=False)
