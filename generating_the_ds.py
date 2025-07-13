@@ -138,13 +138,14 @@ def haversine_distance(lat1, lon1, lat2, lon2):
 
 def categorize_value(row):
     value = str(row['crossing_t'])  # Ensure value is string
+    value2 = str(row['end_point_'])
     if any(sub in value.lower() for sub in ['road']):  # Check for 'Re' or 'RE'
-        return 'Road Crossing'
+        return 'Road'
     elif difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.5:
         return 'Crossing'
     elif difflib.SequenceMatcher(None, value.lower(), "bridge").ratio() > 0.5:
         return 'Crossing'
-    elif any(sub in value.lower() for sub in ['gp', 'gram panchyat', 'grampanchayat']):  # Check for 'GP', 'Gp', etc.
+    elif any(sub in value2.lower() for sub in ['gp', 'gram panchyat', 'grampanchayat']):  # Check for 'GP', 'Gp', etc.
         return 'Gram Panchyat'
     else:
         return 'Landmark'
