@@ -235,7 +235,7 @@ def calculate_road_chainage(row):
 
 
 def calculate_protec(row, param):
-    value = str(row['end_point_'])
+    value = str(row['crossing_t'])
     length = float(row['distance'])
     strata = str(row['strata_typ'])
     if difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.5 and length <= 20:
@@ -313,7 +313,7 @@ if is_structure_same:
         temp_df = gdf_working[gdf_working.span_name == s].sort_values('Sequqnce')
         boq_ds_df = pd.DataFrame(columns=cols_ds)
         boq_ds_df['SPAN_CONTINUITY'] = temp_df['Sequqnce']
-        boq_ds_df['POINT NAME'] = temp_df['end_point_'].apply(change_point_name)
+        boq_ds_df['POINT NAME'] = temp_df.apply(change_point_name, axis=1)
         boq_ds_df['TYPE'] = temp_df['end_point_'].apply(categorize_value)
         boq_ds_df['POSITION'] = temp_df['ofc_laying']
         boq_ds_df['OFFSET'] = temp_df.apply(calculate_offset_width, axis=1, args=('offset',))
