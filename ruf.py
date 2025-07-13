@@ -10,6 +10,7 @@ from IPython.display import display
 from tabulate import tabulate
 from pathlib import Path
 import shutil
+import requests
 
 folder_path = 'D:\\bharat_net_data\\'
 gdf_reference = gpd.read_file("References/tarana_shape_file.shp")
@@ -60,6 +61,18 @@ print(tabulate(gdf_reference.head(),headers = 'keys', tablefmt = 'psql'))
 #
 # print(get_village_google(23.39504, 76.01335, ""))
 
-value = 'cul'
-value2 = difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.5
-print(value2)
+# value = 'cul'
+# value2 = difflib.SequenceMatcher(None, value.lower(), "culvert").ratio() > 0.5
+# print(value2)
+
+def finding_road_name(row):
+    api_key = 'AIzaSyBpsTQbW0ax0c18wGhC46wLkIPNvOH1sb4'
+    lat, lon = row.split(' ')[1],row.split(' ')[0]
+    place_url = f"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={lat},{lon}&radius=20&type=establishment&key={api_key}"
+    response = requests.get(place_url)
+    data = response.json()
+
+    return data
+
+d = finding_road_name('77.42462327900006 24.991348586000072')
+print(d)
