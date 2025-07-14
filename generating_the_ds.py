@@ -46,9 +46,9 @@ version = '1.0'
 
 # PATH
 # for Windows
-# folder_path = 'D:\\bharat_net_data\\'
+folder_path = 'D:\\bharat_net_data\\'
 # for Mac
-folder_path = '/Users/subhashsoni/Documents/Bharatnet_OFC_planning/'
+# folder_path = '/Users/subhashsoni/Documents/Bharatnet_OFC_planning/'
 
 # APIKEY
 api_key = 'AIzaSyBpsTQbW0ax0c18wGhC46wLkIPNvOH1sb4'
@@ -78,7 +78,7 @@ headers_road_name = {
 ######################################### Reference Files ########################################################
 
 base_url = "https://fieldsurvey.rbt-ltd.com/app"
-gdf_reference = gpd.read_file("References/tarana_shape_file.shp")
+gdf_reference = gpd.read_file("References/Formats/BoQ & RoW.shp")
 
 ######################################## Reading the Shape File ##################################################
 
@@ -101,7 +101,7 @@ if dir_path.exists() and dir_path.is_dir():
 # Now create it fresh
 dir_path.mkdir(parents=True, exist_ok=False)
 
-excel_file = str(dir_path) + f"/{districtName}-{blockName}-{version}.xlsx"
+excel_file = str(dir_path) + f"\\{districtName}-{blockName}-{version}.xlsx"
 ###################################### Checking the Structure of the Files #######################################
 
 is_structure_same = set(gdf_reference.columns) <= set(gdf_working.columns)
@@ -173,18 +173,19 @@ def calculate_offset_width(row, param):
 
 
 def finding_lat_lon(row, lat_lon):
-    value = str(row['end_point_']).lower()
+    value_end_point = str(row['end_point_']).lower()
+    value_crossing = str(row['crossing_t']).lower()
     att = lat_lon
     if att == 'lat':
-        if any(sub in value for sub in ['culvert', 'bridge', 'road crossing']):
-            return row['start_lat']
+        if any(sub in value_crossing for sub in ['culvert', 'bridge', 'road']):
+            return row['Start_Lat']
         else:
-            return row['lat']
+            return row['End_Lat']
     elif att == 'lon':
-        if any(sub in value for sub in ['culvert', 'bridge', 'road crossing']):
-            return row['start_lon']
+        if any(sub in value_crossing for sub in ['culvert', 'bridge', 'road']):
+            return row['Start_Long']
         else:
-            return row['Long']
+            return row['End_Long']
     return None
 
 
@@ -250,7 +251,6 @@ def calculate_protec(row, param):
             return length + 6
         elif param == 'length':
             return length
-
     if strata == 'hard_rock' or strata == 'Hard Rock':
         if param == 'for':
             return 'Hard Rock'
@@ -303,14 +303,19 @@ if is_structure_same:
     boq_ = pd.DataFrame(columns=cols_ds)
     span = gdf_working.sort_values('span_name').span_name.unique()
     for s in span:
-        print(s)
         temp_df = gdf_working[gdf_working.span_name == s].sort_values('Sequqnce')
         boq_ds_df = pd.DataFrame(columns=cols_ds)
         boq_ds_df['SPAN_CONTINUITY'] = temp_df['Sequqnce']
         boq_ds_df['POINT NAME'] = temp_df['end_point_']
-        boq_ds_df['TYPE'] = temp_df.apply(categorize_value, axis=1)
+        if 'Type' in temp_df.columns:
+            boq_ds_df['TYPE'] = temp_df['Type']
+        else:
+            boq_ds_df['TYPE'] = temp_df.apply(categorize_value, axis=1)
         boq_ds_df['POSITION'] = temp_df['ofc_laying']
-        boq_ds_df['OFFSET'] = temp_df.apply(calculate_offset_width, axis=1, args=('offset',))
+        if 'ROW_Limit' in temp_df.columns:
+            boq_ds_df['OFFSET'] = temp_df['ROW_Limit']
+        else:
+            boq_ds_df['OFFSET'] = temp_df.apply(calculate_offset_width, axis=1, args=('offset',))
         boq_ds_df['CHAINAGE'] = pd.DataFrame([sum(list(temp_df['distance'].astype(float))[:i - 1]) for i in range(1, len(list(temp_df['distance']))+1)]).values
         boq_ds_df['DISTENCE(M)'] = temp_df['distance']
         boq_ds_df['LATITUDE'] = temp_df.apply(finding_lat_lon, axis=1, args=('lat',))
@@ -323,10 +328,16 @@ if is_structure_same:
         boq_ds_df['ROUTE MARKER'] = calculating_rms(temp_df)
         boq_ds_df['MANHOLE'] = calculating_mhs(temp_df)
         boq_ds_df['ROAD NAME'] = temp_df['road_name']
-        boq_ds_df['ROAD WIDTH(m)'] = temp_df.apply(calculate_offset_width, axis=1, args=('width',))
+        if 'Road_Width' in temp_df.columns:
+            boq_ds_df['ROAD WIDTH(m)'] = temp_df['Road_Width']
+        else:
+            boq_ds_df['ROAD WIDTH(m)'] = temp_df.apply(calculate_offset_width, axis=1, args=('width',))
         boq_ds_df['ROAD SURFACE'] = temp_df['road_surfa']
         boq_ds_df['OFC POSITION'] = temp_df['ofc_laying']
-        boq_ds_df['APRX DISTANCE FROM RCL(m)'] = ''
+        if 'ROW_Limit' in temp_df.columns:
+            boq_ds_df['APRX DISTANCE FROM RCL(m)'] = temp_df['ROW_Limit']
+        else:
+            boq_ds_df['APRX DISTANCE FROM RCL(m)'] = ''
         boq_ds_df['AUTHORITY NAME'] = temp_df['road_autho']
         boq_ds_df['ROAD CHAINAGE'] = temp_df.apply(calculate_road_chainage, axis=1)
         boq_ds_df['ROAD STRUTURE TYPE'] = temp_df.apply(calculate_protec, axis=1, args=('struct',))
@@ -343,7 +354,7 @@ if is_structure_same:
     with pd.ExcelWriter(excel_file, engine='openpyxl',
                         mode='w') as writer:
         boq_.to_excel(writer, sheet_name='Details Sheet', index=False)
-
+    print('Details Sheet Created')
     # ############################################## Generating the Span Details ########################################
 
     cols_sd = ['FROM', 'TO', 'ROUTE NAME', 'RING NO.', 'ROUTE TYPE', 'OFC TYPE', 'LAYING TYPE', 'ROUTE ID',
@@ -366,7 +377,7 @@ if is_structure_same:
     with pd.ExcelWriter(excel_file, engine='openpyxl', mode='a',
                         if_sheet_exists='replace') as writer:
         span_details.to_excel(writer, sheet_name='Span Details', index=False)
-
+    print('Span Details Created')
     # ############################################# Generating the RoW Details #########################################
 
     authorities = gdf_working['road_autho'].unique()
@@ -391,7 +402,7 @@ if is_structure_same:
     with pd.ExcelWriter(excel_file, engine='openpyxl', mode='a',
                         if_sheet_exists='replace') as writer:
         row_details.to_excel(writer, sheet_name='RoW', index=False)
-
+    print('RoW Summery Created')
     ####################################### Generating the Protection Details ###########################################
 
     cols_pro = ['ROUTE NAME', 'ROUTE TYPE', 'TOTAL ROUTE LENGTH', 'NO OF CULVERT', 'LENGTH (IN Mtr) OF CULVERT',
@@ -444,7 +455,7 @@ if is_structure_same:
                         if_sheet_exists='replace') as writer:
         protection_details.to_excel(writer, sheet_name='Protection Details', index=False)
 
-
+    print('Protection Summery Created')
     #
     ##################################################### RoW PreSurvey ######################################################
     #
@@ -473,7 +484,6 @@ if is_structure_same:
     row_pre_survey = pd.DataFrame(columns=cols_row_ps)
     for s in span:
         temp_df = gdf_working[gdf_working.span_name == s].sort_values('Sequqnce')
-        print("temp_df =" + str(len(temp_df)))
         output = []
         group = None
         crossing_coords_start = []
@@ -484,7 +494,6 @@ if is_structure_same:
                 "road_autho"], \
                 row["geometry"], row['ofc_laying'], row['ring_no']
             coords = extract_coords(geom)
-            print(p_n)
             if not any(sub in p_n.lower() for sub in ['culvert', 'bridge']):
                 if group is None:
                     group = {
@@ -584,11 +593,11 @@ if is_structure_same:
         # Create output DataFrame
         output_df = pd.DataFrame(output)
         output_df.reset_index(drop=True, inplace=True)
-        print("output df ="+ str(len(output_df)))
         row_pre_survey = pd.concat([row_pre_survey, output_df])
 
 
     def finding_road_name(row):
+        print('*')
         lat, lon = row['st_Lat_Long_Auth'].split(',')[0],row['st_Lat_Long_Auth'].split(',')[1]
         roads_place_id_url = f"https://roads.googleapis.com/v1/nearestRoads?points={lat},{lon}&key={api_key}"
         response_pid = requests.get(roads_place_id_url)
@@ -610,6 +619,7 @@ if is_structure_same:
 
 
     def finding_landmark(row, value):
+        print('#')
         lat, lon = row['st_Lat_Long_Auth'].split(',')[0],row['st_Lat_Long_Auth'].split(',')[1]
         place_url = f"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={lat},{lon}&radius=20&type=establishment&key={api_key}"
         response = requests.get(place_url)
@@ -632,6 +642,7 @@ if is_structure_same:
             return None
 
     def finding_village(row):
+        print('~')
         lat1, lon1 = row['st_Lat_Long_Auth'].split(',')[0],row['st_Lat_Long_Auth'].split(',')[1]
         place_url = f"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={lat1},{lon1}&radius=20&key={api_key}"
         response_1 = requests.get(place_url)
@@ -663,6 +674,7 @@ if is_structure_same:
     with pd.ExcelWriter(excel_file, engine='openpyxl',
                         mode='a') as writer:
         row_pre_survey.to_excel(writer, sheet_name='PreSurvey', index=False)
+    print('RoW Pre Survey Created')
 ########################################### Generating the Other Sheets ###############################################
 ############### INDEX ####################
 data_ad = [
@@ -688,11 +700,11 @@ df_index = pd.DataFrame(data_ad)
 with pd.ExcelWriter(excel_file, engine='openpyxl',
                     mode='a') as writer:
     df_index.to_excel(writer, sheet_name='Index', index=False)
-
+print('Index Created')
 ################# ASSET DETAILS ####################
 # Create survey detail data as dictionary
-district_code = next((item["District Code"] for item in village_data["Report"] if item["District Name"] == districtName), None)
-blockCode = next((item["Sub-District Code"] for item in village_data["Report"] if item["Sub-District Name"] == blockName), None)
+district_code = next((item["District Code"] for item in village_data["Report"] if item["District Name"] == districtName.capitalize()), None)
+blockCode = next((item["Sub-District Code"] for item in village_data["Report"] if item["Sub-District Name"] == blockName.capitalize()), None)
 total_length = boq_sd_df['distance'].sum() / 1000
 # rings = boq_sd_df['ring_no'].unique()
 data_asset = {
@@ -731,12 +743,14 @@ df_asset = pd.DataFrame(data_asset)
 with pd.ExcelWriter(excel_file, engine='openpyxl',
                     mode='a') as writer:
     df_asset.to_excel(writer, sheet_name='Asset Details', index=False)
+print('Index Created')
 #################### Annexure -X
 data_annex = {}
 df_annex = pd.DataFrame(data_annex)
 with pd.ExcelWriter(excel_file, engine='openpyxl',
                     mode='a') as writer:
     df_annex.to_excel(writer, sheet_name='Annexure X', index=False)
+print('Annexure X Created')
 ###################  Table B
 
 # Define the column names exactly as per your table
@@ -758,7 +772,7 @@ df_table_b = pd.DataFrame(columns=columns_table_b)
 with pd.ExcelWriter(excel_file, engine='openpyxl',
                     mode='a') as writer:
     df_table_b.to_excel(writer, sheet_name='Table B', index=False)
-
+print('Table B Created')
 ###################  Gas Crossing
 # Define the columns exactly as shown in your table
 columns_gas = [
@@ -781,7 +795,7 @@ df_gas = pd.DataFrame(columns=columns_gas)
 with pd.ExcelWriter(excel_file, engine='openpyxl',
                     mode='a') as writer:
     df_gas.to_excel(writer, sheet_name='Gas Crossing', index=False)
-
+print('Gas Crossing Created')
 ###################### Railway Crossing
 # Define column names exactly as in your table
 columns_rlwy = [
@@ -812,7 +826,7 @@ df_rlwy = pd.DataFrame(columns=columns_rlwy)
 with pd.ExcelWriter(excel_file, engine='openpyxl',
                     mode='a') as writer:
     df_rlwy.to_excel(writer, sheet_name='Railway Crossing', index=False)
-
+print('Railway Crossing Created')
 ######################## GPON
 columns_gpon = [
     "Block/GP Name",
@@ -864,7 +878,7 @@ with pd.ExcelWriter(excel_file, engine='openpyxl',
                     mode='a') as writer:
     df_gpon.to_excel(writer, sheet_name='GPON', index=False)
 
-
+print('GPON Created')
 ############################ BoQ & BOM
 bom = {}
 df_bom = pd.DataFrame(bom)
@@ -876,7 +890,7 @@ df_boq = pd.DataFrame(bom)
 with pd.ExcelWriter(excel_file, engine='openpyxl',
                     mode='a') as writer:
     df_boq.to_excel(writer, sheet_name='BOQ', index=False)
-
+print('BOM BOQ Created')
 ############################# Formatting the Excel Sheet
 wb = load_workbook(excel_file)
 
@@ -919,3 +933,4 @@ for ws in wb.worksheets:
 
 # Save the formatted file
 wb.save(excel_file)
+print('Process Completed')
