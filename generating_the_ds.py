@@ -51,7 +51,7 @@ version = '1.0'
 folder_path = '/Users/subhashsoni/Documents/Bharatnet_OFC_planning/'
 
 # APIKEY
-api_key = None
+api_key = 'AIzaSyBpsTQbW0ax0c18wGhC46wLkIPNvOH1sb4'
 
 # DEFAULT LAT-LONG
 lat = 0
@@ -606,7 +606,7 @@ if is_structure_same:
                     road_name.append(data['result']['name'])
             return ", ".join(road_name)
         except:
-            return None
+            return road_name
 
 
     def finding_landmark(row, value):
@@ -620,17 +620,16 @@ if is_structure_same:
         try:
             for r in data['results']:
                 landmark.append(r['name'])
-                geometry_lat.append(r['geometry']['location']['lat'])
-                geometry_lng.append(r['geometry']['location']['lng'])
+                geometry_lat.append(str(r['geometry']['location']['lat']))
+                geometry_lng.append(str(r['geometry']['location']['lng']))
             if value == 'name':
                 return ', '.join(landmark)
             if value == 'lat':
-                return ', '.join(geometry_lat)
+                return ','.join(geometry_lat)
             if value == 'lng':
-                return ', '.join(geometry_lng)
+                return ','.join(geometry_lng)
         except:
             return None
-
 
     def finding_village(row):
         lat1, lon1 = row['st_Lat_Long_Auth'].split(',')[0],row['st_Lat_Long_Auth'].split(',')[1]
@@ -657,7 +656,7 @@ if is_structure_same:
         row_pre_survey['LandmarkRHS'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('name',))
         row_pre_survey['VlgTwnPoint'] = row_pre_survey_temp.apply(finding_village, axis=1)
         row_pre_survey['NearestLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('name', ))
-        row_pre_survey['LatLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('lat',) )
+        row_pre_survey['LatLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('lat',))
         row_pre_survey['LongLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('lng',))
     else:
         print("GOOGLE API KEY is Required for generating all the details")
