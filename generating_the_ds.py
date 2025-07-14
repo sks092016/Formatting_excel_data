@@ -51,7 +51,7 @@ folder_path = 'D:\\bharat_net_data\\'
 # folder_path = '/Users/subhashsoni/Documents/Bharatnet_OFC_planning/'
 
 # APIKEY
-api_key = 'AIzaSyBpsTQbW0ax0c18wGhC46wLkIPNvOH1sb4'
+api_key = None
 
 # DEFAULT LAT-LONG
 lat = 0
