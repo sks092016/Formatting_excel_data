@@ -462,11 +462,11 @@ if is_structure_same:
 
 
     cols_row_ps = ['SrNo', 'Ring No', 'GP Name', 'Span Name', 'NHSHNo', 'RoadWidth', 'RowBoundaryLmt', 'KMStoneFromA',
-                   'KMStoneToB', 'SuveryDist', 'st_Lat_Long_Auth', 'end_lat_Long_Auth', 'LandmarkRHS',
+                   'KMStoneToB', 'SuveryDist', 'st_Lat_Long_Auth', 'end_Lat_Long_Auth', 'LandmarkRHS',
                    'VlgTwnPoint', 'OFClaying', 'RdCrossing Req', 'ReasonRdCrossing', 'UtilityLHS', 'UtilityChecked',
                    'RowAuthorityName', 'AuthorityAddress', 'FeasibilityOfROWApproval', 'TypeOfOverlapArea',
                    'NearestLandmark', 'LengthOfOverlapArea', 'ExpansionInProg', 'ExpansionPlanned', 'TypeOfCrossing',
-                   'st_Lat_Long_xing', 'end_lat_Long_xing', 'LatLandmark', 'LongLandmark',
+                   'st_Lat_Long_xing', 'end_Lat_Long_xing', 'LatLandmark', 'LongLandmark',
                    'LengthOfCrossing', 'Remarks']
 
     span = gdf_working.sort_values('span_name').span_name.unique()
@@ -518,7 +518,7 @@ if is_structure_same:
                         'ExpansionPlanned': '',
                         'TypeOfCrossing': '',
                         'st_Lat_Long_xing': '',
-                        'end_lat_Long_xing': '',
+                        'end_Lat_Long_xing': '',
                         'LatLandmark': '',
                         'LongLandmark': '',
                         'LengthOfCrossing': '',
@@ -526,7 +526,7 @@ if is_structure_same:
                     }
                 elif group["RowAuthorityName"] == auth:
                      group["SuveryDist"] += dist
-                     group["end_lat_Long_Auth"] = f"{coords[-1].split(' ')[1]},{coords[-1].split(' ')[0]}"
+                     group["end_Lat_Long_Auth"] = f"{coords[-1].split(' ')[1]},{coords[-1].split(' ')[0]}"
                 else:
                     output.append(group)
                     group = {
@@ -560,7 +560,7 @@ if is_structure_same:
                         'ExpansionPlanned': '',
                         'TypeOfCrossing': '',
                         'st_Lat_Long_xing': '',
-                        'end_lat_Long_xing': '',
+                        'end_Lat_Long_xing': '',
                         'LatLandmark': '',  # TODO Latitude of LandMark
                         'LongLandmark': '',  # TODO Longitude of the LandMark
                         'LengthOfCrossing': '',
