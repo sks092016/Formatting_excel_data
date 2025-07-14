@@ -66,7 +66,7 @@ print(tabulate(gdf_reference.head(),headers = 'keys', tablefmt = 'psql'))
 # print(value2)
 
 def finding_road_name(row):
-    api_key = 'AIzaSyBpsTQbW0ax0c18wGhC46wLkIPNvOH1sb4'
+    api_key = ''
     lat, lon = row.split(' ')[1],row.split(' ')[0]
     place_url = f"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={lat},{lon}&radius=20&type=establishment&key={api_key}"
     response = requests.get(place_url)

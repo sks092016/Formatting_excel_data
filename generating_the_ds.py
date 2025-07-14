@@ -51,7 +51,7 @@ version = '1.0'
 folder_path = '/Users/subhashsoni/Documents/Bharatnet_OFC_planning/'
 
 # APIKEY
-api_key = 'AIzaSyBpsTQbW0ax0c18wGhC46wLkIPNvOH1sb4'
+api_key = None
 
 # DEFAULT LAT-LONG
 lat = 0
@@ -651,14 +651,16 @@ if is_structure_same:
         except:
             return None
     row_pre_survey_temp = row_pre_survey
-    row_pre_survey['RoadWidth'] = row_pre_survey_temp.apply(calculate_offset_width, axis=1, args=('width',))
-    row_pre_survey['NHSHNo'] = row_pre_survey_temp.apply(finding_road_name, axis=1)
-    row_pre_survey['LandmarkRHS'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('name',))
-    row_pre_survey['VlgTwnPoint'] = row_pre_survey_temp.apply(finding_village, axis=1)
-    row_pre_survey['NearestLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('name', ))
-    row_pre_survey['LatLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('lat',) )
-    row_pre_survey['LongLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('lng',))
-
+    if api_key is not None:
+        row_pre_survey['RoadWidth'] = row_pre_survey_temp.apply(calculate_offset_width, axis=1, args=('width',))
+        row_pre_survey['NHSHNo'] = row_pre_survey_temp.apply(finding_road_name, axis=1)
+        row_pre_survey['LandmarkRHS'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('name',))
+        row_pre_survey['VlgTwnPoint'] = row_pre_survey_temp.apply(finding_village, axis=1)
+        row_pre_survey['NearestLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('name', ))
+        row_pre_survey['LatLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('lat',) )
+        row_pre_survey['LongLandmark'] = row_pre_survey_temp.apply(finding_landmark, axis=1, args=('lng',))
+    else:
+        print("GOOGLE API KEY is Required for generating all the details")
     with pd.ExcelWriter(excel_file, engine='openpyxl',
                         mode='a') as writer:
         row_pre_survey.to_excel(writer, sheet_name='PreSurvey', index=False)
@@ -874,7 +876,7 @@ with pd.ExcelWriter(excel_file, engine='openpyxl',
 df_boq = pd.DataFrame(bom)
 with pd.ExcelWriter(excel_file, engine='openpyxl',
                     mode='a') as writer:
-    df_boq.to_excel(writer, sheet_name='BOM', index=False)
+    df_boq.to_excel(writer, sheet_name='BOQ', index=False)
 
 ############################# Formatting the Excel Sheet
 wb = load_workbook(excel_file)
