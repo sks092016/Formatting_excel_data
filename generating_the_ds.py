@@ -51,7 +51,7 @@ folder_path = 'D:\\bharat_net_data\\'
 # folder_path = '/Users/subhashsoni/Documents/Bharatnet_OFC_planning/'
 
 # APIKEY
-api_key = None
+api_key = ''
 
 # DEFAULT LAT-LONG
 lat = 0
@@ -78,7 +78,7 @@ headers_road_name = {
 ######################################### Reference Files ########################################################
 
 base_url = "https://fieldsurvey.rbt-ltd.com/app"
-gdf_reference = gpd.read_file("References/Formats/BoQ & RoW.shp")
+gdf_reference = gpd.read_file("References/Formats/OFC_NEW.shp")
 
 ######################################## Reading the Shape File ##################################################
 
@@ -307,7 +307,7 @@ if is_structure_same:
         boq_ds_df = pd.DataFrame(columns=cols_ds)
         boq_ds_df['SPAN_CONTINUITY'] = temp_df['Sequqnce']
         boq_ds_df['POINT NAME'] = temp_df['end_point_']
-        if 'Type' in temp_df.columns:
+        if 'Type' in temp_df.columns and not temp_df['Type'].isnull().all():
             boq_ds_df['TYPE'] = temp_df['Type']
         else:
             boq_ds_df['TYPE'] = temp_df.apply(categorize_value, axis=1)
@@ -446,9 +446,13 @@ if is_structure_same:
     protection_details['LENGTH (IN Mtr) OF PCC'] = 0
     protection_details['LENGTH (IN Mtr) OF DWC'] = protection_['LENGTH (IN Mtr) OF CULVERT']
     protection_details['LENGTH (IN Mtr) OF GI'] = protection_['LENGTH (IN Mtr) OF BRIDGE']
-    protection_details['LENGTH (IN Mtr) OF DWC+PCC'] = protection_['HARD ROCK (Length)']
+    if 'HARD ROCK (Length)' in protection_.columns:
+        protection_details['LENGTH (IN Mtr) OF DWC+PCC'] = protection_['HARD ROCK (Length)']
+        protection_details['HARD ROCK (Length)'] = protection_['HARD ROCK (Length)']
+    else:
+        protection_details['LENGTH (IN Mtr) OF DWC+PCC'] = ''
+        protection_details['HARD ROCK (Length)'] = ''
     protection_details['Soil Details'] = ''
-    protection_details['HARD ROCK (Length)'] = protection_['HARD ROCK (Length)']
     protection_details['LENGTH (IN Mtr) OF ANCORING'] = 0
 
     with pd.ExcelWriter(excel_file, engine='openpyxl', mode='a',
