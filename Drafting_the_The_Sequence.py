@@ -3,7 +3,7 @@ from shapely.geometry import LineString
 from shapely.geometry import Point
 from tabulate import tabulate
 import pandas as pd
-version = "1.0"
+version = "2.0"
 
 
 gdf = gpd.read_file('References/Formats/OFC_NEW.shp')
@@ -52,6 +52,14 @@ for s in span:
                 remaining = remaining.drop(idx)
                 found = True
                 break
+            elif row['start'] == current['start']:
+                r = current
+                print(f'{current.index[0]} is reversed')
+                print(current)
+            elif row['end'] == current['end']:
+                r = row
+                print(f'{row.index[0]} is reversed')
+                print(row)
         if not found:
             print("Warning: A disconnected segment remains. Stopping sequence generation.")
             break
