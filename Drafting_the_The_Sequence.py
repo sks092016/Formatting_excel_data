@@ -11,10 +11,10 @@ import networkx as nx
 # ║   WORK CREATING SEGMENT SEQUENCE & reversing Geometry        ║
 # ╚══════════════════════════════════════════════════════════════╝
 
-version = "3.0"
+version = "1.0"
 
 # Load the input shapefile
-gdf = gpd.read_file('References/Formats/OFC_NEW.shp')
+gdf = gpd.read_file('References/BHIND OFC/BHIND OFC.shp')
 
 # Create empty GeoDataFrames with correct structures
 gdf_new_sp = gdf.iloc[0:0].copy()
@@ -133,7 +133,7 @@ for s in span_list:
 
 # Save outputs
 gdf_new_sp.to_file(f'References/Output/OFC_NEW_{version}.shp')
-gdf_span.to_file(f'References/Output/OFC_NEW_SPAN{version}.shp')
+gdf_span.to_file(f'References/Output/OFC_NEW_SPAN_{version}.shp')
 print("✅ Sequence assigned and saved with original index preserved.")
 
 
@@ -141,16 +141,15 @@ print("✅ Sequence assigned and saved with original index preserved.")
 # ║                  WORK CREATING SPAN SEQUENCE                 ║
 # ╚══════════════════════════════════════════════════════════════╝
 
-
 # Load span-level geometry and segment-level geometry
-gdf_span = gpd.read_file("References/Output/OFC_NEW_SPAN3.0.shp")
-gdf_segments = gpd.read_file("References/Output/OFC_NEW_3.0.shp")
+gdf_span = gpd.read_file(f"References/Output/OFC_NEW_SPAN_{version}.shp")
+gdf_segments = gpd.read_file(f"References/Output/OFC_NEW_{version}.shp")
 
 # Ensure clean types
 gdf_span['ring'] = gdf_span['ring'].astype(str)
 gdf_span['span_name'] = gdf_span['span_name'].astype(str)
 gdf_segments['span_name'] = gdf_segments['span_name'].astype(str)
-gdf_segments['ring'] = gdf_segments['ring'].astype(str)
+gdf_segments['ring_no'] = gdf_segments['ring_no'].astype(str)
 
 # Add span_seq column to segments if missing
 if 'span_seq' not in gdf_segments.columns:
@@ -183,6 +182,10 @@ def dfs_order(G, start_node):
     dfs(start_node)
     return span_indices
 
+### Import start points
+from ring_start_point_cordinates import rings
+
+
 # MAIN LOGIC — iterate over each ring
 span_sequence_map = {}  # span_name -> sequence number
 unique_rings = sorted(gdf_span['ring'].unique())
@@ -197,8 +200,7 @@ for ring in unique_rings:
     G = build_span_graph(ring_df)
 
     # Ask user for starting coordinate
-    print("Please enter the START coordinate for this ring in format: x y")
-    coord_str = input(f"Start coordinate for RING {ring}: ")
+    coord_str = rings[f'{ring}']
     try:
         x_str, y_str = coord_str.strip().split()
         start_coord = (float(x_str), float(y_str))
@@ -223,8 +225,8 @@ for ring in unique_rings:
     print(f"✅ Completed ring {ring} with {len(ordered_indices)} spans.")
 
 # Save updated files
-gdf_segments.to_file("References/Output/OFC_NEW_3.0_with_spanseq.shp")
-gdf_span.to_file("References/Output/OFC_NEW_SPAN3.0_with_seq.shp")
+gdf_segments.to_file(f"References/Output/OFC_NEW_{version}_with_spanseq.shp")
+gdf_span.to_file(f"References/Output/OFC_NEW_SPAN_{version}_with_seq.shp")
 
 "✅ All rings processed. Span sequence updated and saved."
 
