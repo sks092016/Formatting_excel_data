@@ -11,10 +11,10 @@ import networkx as nx
 # ║   WORK CREATING SEGMENT SEQUENCE & reversing Geometry        ║
 # ╚══════════════════════════════════════════════════════════════╝
 
-version = "1.0"
+version = "Bhind_1.0"
 
 # Load the input shapefile
-gdf = gpd.read_file('References/BHIND OFC/BHIND OFC.shp')
+gdf = gpd.read_file('References/BHIND OFC/OFC_New.shp')
 
 # Create empty GeoDataFrames with correct structures
 gdf_new_sp = gdf.iloc[0:0].copy()
@@ -103,6 +103,7 @@ for s in span_list:
                 break
         if not found:
             print(f"Warning: Disconnected segment remains in span '{s}'.")
+            print(f"The Span {s} is disconnected at this point {current['end']}")
             break
 
     # Assign segment sequence
@@ -132,8 +133,8 @@ for s in span_list:
     gdf_new_sp = pd.concat([gdf_new_sp, temp_df])
 
 # Save outputs
-gdf_new_sp.to_file(f'References/Output/OFC_NEW_{version}.shp')
-gdf_span.to_file(f'References/Output/OFC_NEW_SPAN_{version}.shp')
+gdf_new_sp.to_file(f'References/Output/Temp/OFC_NEW_{version}.shp')
+gdf_span.to_file(f'References/Output/Temp/OFC_NEW_SPAN_{version}.shp')
 print("✅ Sequence assigned and saved with original index preserved.")
 
 
@@ -142,8 +143,8 @@ print("✅ Sequence assigned and saved with original index preserved.")
 # ╚══════════════════════════════════════════════════════════════╝
 
 # Load span-level geometry and segment-level geometry
-gdf_span = gpd.read_file(f"References/Output/OFC_NEW_SPAN_{version}.shp")
-gdf_segments = gpd.read_file(f"References/Output/OFC_NEW_{version}.shp")
+gdf_span = gpd.read_file(f"References/Output/Temp/OFC_NEW_SPAN_{version}.shp")
+gdf_segments = gpd.read_file(f"References/Output/Temp/OFC_NEW_{version}.shp")
 
 # Ensure clean types
 gdf_span['ring'] = gdf_span['ring'].astype(str)
@@ -209,12 +210,18 @@ for ring in unique_rings:
         continue
 
     # Check if provided point matches any node
-    if start_coord not in G.nodes:
-        print(f"❌ Start coordinate {start_coord} not found in this ring's geometry.")
-        continue
+    start_point = Point(start_coord)
+
+    # Find the closest node in G.nodes to the given start_coord
+    closest_node = min(G.nodes, key=lambda node: Point(node).distance(start_point))
+
+    # Optional: Warn if too far (e.g., more than 0.001 degrees)
+    if Point(closest_node).distance(start_point) > 0.001:
+        print(f"⚠️  Warning: Closest node {closest_node} is far from given start {start_coord}")
+        continue  # skip this ring if distance too far
 
     # Traverse and assign span sequence
-    ordered_indices = dfs_order(G, start_coord)
+    ordered_indices = dfs_order(G, closest_node)
 
     for seq, idx in enumerate(ordered_indices, 1):
         span_name = ring_df.loc[idx, 'span_name']
@@ -225,8 +232,8 @@ for ring in unique_rings:
     print(f"✅ Completed ring {ring} with {len(ordered_indices)} spans.")
 
 # Save updated files
-gdf_segments.to_file(f"References/Output/OFC_NEW_{version}_with_spanseq.shp")
-gdf_span.to_file(f"References/Output/OFC_NEW_SPAN_{version}_with_seq.shp")
+gdf_segments.to_file(f"References/Output/Final/Ofc_New_{version}_Seg_Span_Seq.shp")
+gdf_span.to_file(f"References/Output/Final/Spans_Geo_{version}.shp")
 
 "✅ All rings processed. Span sequence updated and saved."
 
