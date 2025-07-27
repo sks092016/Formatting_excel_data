@@ -1,20 +1,49 @@
 # Full corrected script based on your original logic with the first-segment-reversal fix included
-
 import geopandas as gpd
 import pandas as pd
-from shapely.geometry import LineString
+from shapely.geometry import LineString, MultiLineString
 from shapely.geometry import Point
 import networkx as nx
+import logging
+from pathlib import Path
+from datetime import datetime
+
+now = datetime.now()
+formatted = now.strftime("%d-%m-%y %H:%M:%S")
+
+######### Configuring Logs ##########
+# Create a logs directory (optional)
+log_dir = Path("logs")
+log_dir.mkdir(exist_ok=True)
+
+# Define log file
+log_file = log_dir / f"segment_span_sequence_{formatted}.log"
+
+# Configure logging
+logging.basicConfig(
+    filename=log_file,
+    filemode='a',  # Append mode
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+
+# Optional: also log to console
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+formatter = logging.Formatter('%(message)s')
+console.setFormatter(formatter)
+logging.getLogger('').addHandler(console)
+
 
 ############################ Reversing the Geometry and Filling up the sequence in Segments ################################
 # ╔══════════════════════════════════════════════════════════════╗
 # ║   WORK CREATING SEGMENT SEQUENCE & reversing Geometry        ║
 # ╚══════════════════════════════════════════════════════════════╝
 
-version = "Bhind_1.0"
+version = "Jaura_1.0"
 
 # Load the input shapefile
-gdf = gpd.read_file('References/BHIND OFC/OFC_New.shp')
+gdf = gpd.read_file('References/Jaura/OFC_NEW.shp')
 
 # Create empty GeoDataFrames with correct structures
 gdf_new_sp = gdf.iloc[0:0].copy()
@@ -23,24 +52,51 @@ gdf_new_sp["seg_seq"] = None
 gdf_span = gpd.GeoDataFrame(columns=['span_name', 'ring', 'start_cord', 'end_cord', 'span_seq', 'geometry'], geometry='geometry')
 
 # Helper function
-def get_start_end_coords(line):
-    coords = list(line.coords)
-    return coords[0], coords[-1]
+def get_start_end_coords(geom):
+    """
+    Returns the start and end coordinates of a LineString or MultiLineString.
+    For MultiLineString, considers the start of the first line and end of the last line.
+    """
+    try:
+        if isinstance(geom, LineString):
+            coords = list(geom.coords)
+            return coords[0], coords[-1]
+
+        elif isinstance(geom, MultiLineString):
+            lines = list(geom.geoms)
+            if not lines:
+                raise ValueError("Empty MultiLineString.")
+            start = list(lines[0].coords)[0]
+            end = list(lines[-1].coords)[-1]
+            logging.warning(f" ⚠️ The Geometry is multiline string starting at {start} & ending "
+                            f"at {end}")
+            return start, end
+
+        else:
+            raise TypeError(f"Unsupported geometry type: {type(geom)}")
+
+    except Exception as e:
+        logging.error(f"❌ Error in get_start_end_coords: {e}")
+        return None, None
 
 def merged_line_geometry(lines):
     merged_coords = []
     for line in lines:
-        coords = list(line.coords)
-        if not merged_coords:
-            merged_coords.extend(coords)
-        else:
-            merged_coords.extend(coords[1:])
+        try:
+            coords = list(line.coords)
+            if not merged_coords:
+                merged_coords.extend(coords)
+            else:
+                merged_coords.extend(coords[1:])
+        except:
+            continue
     return LineString(merged_coords)
 
 # Process each span
 span_list = gdf.sort_values('span_name').span_name.unique()
 for s in span_list:
     temp_df = gdf[gdf.span_name == s].sort_values('Sequqnce').copy()
+
     temp_df['start'] = temp_df.geometry.apply(lambda geom: get_start_end_coords(geom)[0])
     temp_df['end'] = temp_df.geometry.apply(lambda geom: get_start_end_coords(geom)[1])
 
@@ -102,8 +158,8 @@ for s in span_list:
                 found = True
                 break
         if not found:
-            print(f"Warning: Disconnected segment remains in span '{s}'.")
-            print(f"The Span {s} is disconnected at this point {current['end']}")
+            logging.warning(f"⚠️ Warning: Disconnected segment remains in span '{s}'.")
+            logging.warning(f"⚠️ The Span {s} is disconnected at this point {current['end']}")
             break
 
     # Assign segment sequence
@@ -132,10 +188,11 @@ for s in span_list:
     assert gdf_new_sp.crs == temp_df.crs, "CRS mismatch!"
     gdf_new_sp = pd.concat([gdf_new_sp, temp_df])
 
+
 # Save outputs
 gdf_new_sp.to_file(f'References/Output/Temp/OFC_NEW_{version}.shp')
 gdf_span.to_file(f'References/Output/Temp/OFC_NEW_SPAN_{version}.shp')
-print("✅ Sequence assigned and saved with original index preserved.")
+logging.info("✅ Sequence assigned and saved with original index preserved.")
 
 
 # ╔══════════════════════════════════════════════════════════════╗
@@ -158,14 +215,20 @@ if 'span_seq' not in gdf_segments.columns:
 
 # Helper functions
 def get_start_end_coords(line):
-    coords = list(line.coords)
-    return coords[0], coords[-1]
+    try:
+        coords = list(line.coords)
+        return coords[0], coords[-1]
+    except:
+        pass
 
 def build_span_graph(df):
     G = nx.DiGraph()
     for idx, row in df.iterrows():
-        start, end = get_start_end_coords(row['geometry'])
-        G.add_edge(start, end, index=idx)
+        try:
+            start, end = get_start_end_coords(row['geometry'])
+            G.add_edge(start, end, index=idx)
+        except:
+            pass
     return G
 
 def dfs_order(G, start_node):
@@ -191,10 +254,10 @@ from ring_start_point_cordinates import rings
 span_sequence_map = {}  # span_name -> sequence number
 unique_rings = sorted(gdf_span['ring'].unique())
 
-print(f"🔄 Found {len(unique_rings)} rings: {unique_rings}")
+logging.info(f"🔄 Found {len(unique_rings)} rings: {unique_rings}")
 
 for ring in unique_rings:
-    print(f"\n🔁 Processing ring: {ring}")
+    logging.info(f"\n🔁 Processing ring: {ring}")
 
     # Filter span geometries by ring
     ring_df = gdf_span[gdf_span['ring'] == ring].copy()
@@ -206,7 +269,7 @@ for ring in unique_rings:
         x_str, y_str = coord_str.strip().split()
         start_coord = (float(x_str), float(y_str))
     except Exception as e:
-        print(f"❌ Invalid input: {e}")
+        logging.error(f"❌ Invalid start point input: {e}")
         continue
 
     # Check if provided point matches any node
@@ -217,7 +280,7 @@ for ring in unique_rings:
 
     # Optional: Warn if too far (e.g., more than 0.001 degrees)
     if Point(closest_node).distance(start_point) > 0.001:
-        print(f"⚠️  Warning: Closest node {closest_node} is far from given start {start_coord}")
+        logging.warning(f"⚠️  Warning: Closest node {closest_node} is far from given start {start_coord}")
         continue  # skip this ring if distance too far
 
     # Traverse and assign span sequence
@@ -229,11 +292,11 @@ for ring in unique_rings:
         gdf_span.loc[gdf_span['span_name'] == span_name, 'span_seq'] = seq
         gdf_segments.loc[gdf_segments['span_name'] == span_name, 'span_seq'] = seq
 
-    print(f"✅ Completed ring {ring} with {len(ordered_indices)} spans.")
+    logging.info(f"✅ Completed ring {ring} with {len(ordered_indices)} spans.")
 
 # Save updated files
 gdf_segments.to_file(f"References/Output/Final/Ofc_New_{version}_Seg_Span_Seq.shp")
 gdf_span.to_file(f"References/Output/Final/Spans_Geo_{version}.shp")
 
-"✅ All rings processed. Span sequence updated and saved."
+logging.info("✅ All rings processed. Span sequence updated and saved.")
 

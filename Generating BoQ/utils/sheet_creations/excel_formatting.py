@@ -1,4 +1,4 @@
-from imports import *
+from .. imports import *
 def formatting_excel_file(excel_file):
     wb = load_workbook(excel_file)
 

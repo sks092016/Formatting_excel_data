@@ -1,4 +1,4 @@
-from methods import *
+from .methods import *
 def finding_road_name(row):
     print('*')
     lat, lon = row['st_Lat_Long_Auth'].split(',')[0], row['st_Lat_Long_Auth'].split(',')[1]
