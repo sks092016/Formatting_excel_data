@@ -1,10 +1,16 @@
 ### Specify the Ring Start Points ######
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '77.795264 26.3428229'
+BHQ_CORDINATE = '78.1303388 25.0365737'
 
 rings = {
+    'R1': BHQ_CORDINATE,
+    'R2': BHQ_CORDINATE,
+    'R3': BHQ_CORDINATE,
     'R4': BHQ_CORDINATE,
-    'R4-C1': '77.7819632 26.4500082',
+    'R5': BHQ_CORDINATE,
+    'R1-C1': '78.25498184 25.15893254',
+    'R4-C1': '77.9659749999 25.0044549994',
+    'R5-C1': '78.098529810668 25.138588616999',
 }
 # rings = {
 #     'RING-1':BHQ_CORDINATE

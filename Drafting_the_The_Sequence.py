@@ -40,10 +40,10 @@ logging.getLogger('').addHandler(console)
 # ║   WORK CREATING SEGMENT SEQUENCE & reversing Geometry        ║
 # ╚══════════════════════════════════════════════════════════════╝
 
-version = "Jaura_1.0"
+version = "Khaniadhana_1.0"
 
 # Load the input shapefile
-gdf = gpd.read_file('References/Jaura/OFC_NEW.shp')
+gdf = gpd.read_file('References/KHANIADHANA/OFC.shp')
 
 # Create empty GeoDataFrames with correct structures
 gdf_new_sp = gdf.iloc[0:0].copy()
