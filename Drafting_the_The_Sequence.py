@@ -9,7 +9,7 @@ from pathlib import Path
 from datetime import datetime
 
 now = datetime.now()
-formatted = now.strftime("%d-%m-%y %H:%M:%S")
+formatted = now.strftime("%d-%m-%y_%H-%M-%S")
 
 ######### Configuring Logs ##########
 # Create a logs directory (optional)
