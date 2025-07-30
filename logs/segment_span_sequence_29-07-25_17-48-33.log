@@ -1,0 +1,92 @@
+2025-07-29 17:48:34,454 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'AMUHAY - PATICHAK'.
+2025-07-29 17:48:34,455 - WARNING - \u26a0\ufe0f The Span AMUHAY - PATICHAK is disconnected at this point (78.02269961100006, 24.973494222000056)
+2025-07-29 17:48:34,468 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BAGHARI - T POINT PIPRODAUBARI'.
+2025-07-29 17:48:34,468 - WARNING - \u26a0\ufe0f The Span BAGHARI - T POINT PIPRODAUBARI is disconnected at this point (77.99734321300008, 25.060318636000034)
+2025-07-29 17:48:34,474 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.15012104300007, 24.859535064000056) & ending at (78.15268436200006, 24.859710241000073)
+2025-07-29 17:48:34,476 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.15012104300007, 24.859535064000056) & ending at (78.15268436200006, 24.859710241000073)
+2025-07-29 17:48:34,520 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BAMOURKHURD-ACHARONI'.
+2025-07-29 17:48:34,520 - WARNING - \u26a0\ufe0f The Span BAMOURKHURD-ACHARONI is disconnected at this point (78.23384362800005, 25.026444007000066)
+2025-07-29 17:48:34,541 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.23884341800004, 25.20029138600006) & ending at (78.24486732300005, 25.19807474600003)
+2025-07-29 17:48:34,542 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.23884341800004, 25.20029138600006) & ending at (78.24486732300005, 25.19807474600003)
+2025-07-29 17:48:34,621 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'CHAMROUA - POTHAYAI'.
+2025-07-29 17:48:34,621 - WARNING - \u26a0\ufe0f The Span CHAMROUA - POTHAYAI is disconnected at this point (78.16599849900007, 25.04317052300007)
+2025-07-29 17:48:34,634 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'DABIAJAGAN-  DEVRI'.
+2025-07-29 17:48:34,634 - WARNING - \u26a0\ufe0f The Span DABIAJAGAN-  DEVRI is disconnected at this point (78.12570802900007, 25.09793802400003)
+2025-07-29 17:48:34,638 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.20583465200008, 25.105372768000052) & ending at (78.20763824100004, 25.10739315400008)
+2025-07-29 17:48:34,640 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.20583465200008, 25.105372768000052) & ending at (78.20763824100004, 25.10739315400008)
+2025-07-29 17:48:34,653 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'DAVIAKALA-SUJWAHA'.
+2025-07-29 17:48:34,653 - WARNING - \u26a0\ufe0f The Span DAVIAKALA-SUJWAHA is disconnected at this point (78.20771393500007, 25.108768275000045)
+2025-07-29 17:48:34,695 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'DEVKHO - khaniyadhana'.
+2025-07-29 17:48:34,696 - WARNING - \u26a0\ufe0f The Span DEVKHO - khaniyadhana is disconnected at this point (78.12537180600003, 25.031458729000065)
+2025-07-29 17:48:34,734 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'DIDAWANI - KALIPHADI C'.
+2025-07-29 17:48:34,734 - WARNING - \u26a0\ufe0f The Span DIDAWANI - KALIPHADI C is disconnected at this point (78.10023255800007, 24.845103606000066)
+2025-07-29 17:48:34,765 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'GAJORA - MANPUR'.
+2025-07-29 17:48:34,765 - WARNING - \u26a0\ufe0f The Span GAJORA - MANPUR is disconnected at this point (78.20641557300007, 25.145099483000024)
+2025-07-29 17:48:34,814 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'GATAJHALKUI - ERAWANI'.
+2025-07-29 17:48:34,814 - WARNING - \u26a0\ufe0f The Span GATAJHALKUI - ERAWANI is disconnected at this point (78.06219069600007, 24.950693439000077)
+2025-07-29 17:48:34,883 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'GOODAR - HARSHAPURA'.
+2025-07-29 17:48:34,883 - WARNING - \u26a0\ufe0f The Span GOODAR - HARSHAPURA is disconnected at this point (78.10254508900005, 24.95696603600004)
+2025-07-29 17:48:34,942 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'GURIYA - BUDHONRAJAPUR'.
+2025-07-29 17:48:34,942 - WARNING - \u26a0\ufe0f The Span GURIYA - BUDHONRAJAPUR is disconnected at this point (77.97336596900004, 25.098218700000075)
+2025-07-29 17:48:34,959 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'HARSHAPURA - AMUHAY'.
+2025-07-29 17:48:34,959 - WARNING - \u26a0\ufe0f The Span HARSHAPURA - AMUHAY is disconnected at this point (78.11390126700007, 24.952277285000036)
+2025-07-29 17:48:35,046 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'IMALIYA-KHISLONI'.
+2025-07-29 17:48:35,046 - WARNING - \u26a0\ufe0f The Span IMALIYA-KHISLONI is disconnected at this point (78.21373369300005, 24.961090979000062)
+2025-07-29 17:48:35,235 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'KHADICHARA - DEVKHO'.
+2025-07-29 17:48:35,235 - WARNING - \u26a0\ufe0f The Span KHADICHARA - DEVKHO is disconnected at this point (78.01279743500004, 25.03578114800007)
+2025-07-29 17:48:35,276 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'KHANIYADHANA TO PANIHARA'.
+2025-07-29 17:48:35,276 - WARNING - \u26a0\ufe0f The Span KHANIYADHANA TO PANIHARA is disconnected at this point (78.10779537900004, 25.035121213000025)
+2025-07-29 17:48:35,362 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'KUTAWALI - KUMHRRA'.
+2025-07-29 17:48:35,362 - WARNING - \u26a0\ufe0f The Span KUTAWALI - KUMHRRA is disconnected at this point (78.16600740300004, 25.12370555800004)
+2025-07-29 17:48:35,514 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.21947956900004, 25.17164815500007) & ending at (78.22080536500005, 25.172901076000073)
+2025-07-29 17:48:35,514 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.22676743400007, 25.182521206000047) & ending at (78.22908490000003, 25.18637715600005)
+2025-07-29 17:48:35,515 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.21947956900004, 25.17164815500007) & ending at (78.22080536500005, 25.172901076000073)
+2025-07-29 17:48:35,515 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.22676743400007, 25.182521206000047) & ending at (78.22908490000003, 25.18637715600005)
+2025-07-29 17:48:35,633 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'MUHASA - PACHRAI'.
+2025-07-29 17:48:35,633 - WARNING - \u26a0\ufe0f The Span MUHASA - PACHRAI is disconnected at this point (77.96582946600006, 25.005712956000025)
+2025-07-29 17:48:35,639 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (77.96548271700004, 25.003422138000076) & ending at (77.96548337400003, 25.00342193700004)
+2025-07-29 17:48:35,640 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (77.96548271700004, 25.003422138000076) & ending at (77.96548337400003, 25.00342193700004)
+2025-07-29 17:48:35,642 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'MUHASA - PIPRODAALAM'.
+2025-07-29 17:48:35,642 - WARNING - \u26a0\ufe0f The Span MUHASA - PIPRODAALAM is disconnected at this point (77.96590034800005, 25.004442390000065)
+2025-07-29 17:48:35,712 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.16954118400008, 25.129949487000033) & ending at (78.17027500000006, 25.12927300000007)
+2025-07-29 17:48:35,713 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.16954118400008, 25.129949487000033) & ending at (78.17027500000006, 25.12927300000007)
+2025-07-29 17:48:35,738 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'NAGRELA - KUTAWALI'.
+2025-07-29 17:48:35,738 - WARNING - \u26a0\ufe0f The Span NAGRELA - KUTAWALI is disconnected at this point (78.16797812600004, 25.13653124700005)
+2025-07-29 17:48:35,839 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.16191759400004, 25.087801212000045) & ending at (78.16374050500008, 25.088555944000063)
+2025-07-29 17:48:35,839 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.16914232700003, 25.09195844900006) & ending at (78.17073546000006, 25.091293759000052)
+2025-07-29 17:48:35,839 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.17657264300004, 25.093980446000046) & ending at (78.17841001400006, 25.095367547000023)
+2025-07-29 17:48:35,840 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.16191759400004, 25.087801212000045) & ending at (78.16374050500008, 25.088555944000063)
+2025-07-29 17:48:35,840 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.16914232700003, 25.09195844900006) & ending at (78.17073546000006, 25.091293759000052)
+2025-07-29 17:48:35,841 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.17657264300004, 25.093980446000046) & ending at (78.17841001400006, 25.095367547000023)
+2025-07-29 17:48:35,902 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'PACHRAI - PIPRODAUBARI'.
+2025-07-29 17:48:35,902 - WARNING - \u26a0\ufe0f The Span PACHRAI - PIPRODAUBARI is disconnected at this point (78.00415937100007, 25.04454825700003)
+2025-07-29 17:48:35,982 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'PATICHAK - HARTHON'.
+2025-07-29 17:48:35,982 - WARNING - \u26a0\ufe0f The Span PATICHAK - HARTHON is disconnected at this point (77.98440897400008, 24.97910628300008)
+2025-07-29 17:48:35,993 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.03953335300008, 25.160133736000034) & ending at (78.04084570900005, 25.157648676000065)
+2025-07-29 17:48:35,994 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.03953335300008, 25.160133736000034) & ending at (78.04084570900005, 25.157648676000065)
+2025-07-29 17:48:36,006 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'PIPALKHEDA TO AMARPURA DEVARA'.
+2025-07-29 17:48:36,006 - WARNING - \u26a0\ufe0f The Span PIPALKHEDA TO AMARPURA DEVARA is disconnected at this point (78.04229461900007, 25.155248844000027)
+2025-07-29 17:48:36,058 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'PIPRODAUBARI - KHADICHARA'.
+2025-07-29 17:48:36,059 - WARNING - \u26a0\ufe0f The Span PIPRODAUBARI - KHADICHARA is disconnected at this point (78.00670559500008, 25.04454411300003)
+2025-07-29 17:48:36,108 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'RAHI - NAGRELA'.
+2025-07-29 17:48:36,108 - WARNING - \u26a0\ufe0f The Span RAHI - NAGRELA is disconnected at this point (78.10752059000004, 25.134003449000033)
+2025-07-29 17:48:36,124 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.10327022200005, 25.120499505000055) & ending at (78.10327394500007, 25.121730847000038)
+2025-07-29 17:48:36,124 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.10504018600005, 25.113849817000073) & ending at (78.10504018600005, 25.113849817000073)
+2025-07-29 17:48:36,125 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.10327022200005, 25.120499505000055) & ending at (78.10327394500007, 25.121730847000038)
+2025-07-29 17:48:36,125 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.10504018600005, 25.113849817000073) & ending at (78.10504018600005, 25.113849817000073)
+2025-07-29 17:48:36,136 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'RAHI TO SINAWALKALA'.
+2025-07-29 17:48:36,136 - WARNING - \u26a0\ufe0f The Span RAHI TO SINAWALKALA is disconnected at this point (78.10288372000008, 25.123003028000028)
+2025-07-29 17:48:36,269 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'SUJWAHA-GAJORA'.
+2025-07-29 17:48:36,269 - WARNING - \u26a0\ufe0f The Span SUJWAHA-GAJORA is disconnected at this point (78.20509882100004, 25.13344753900003)
+2025-07-29 17:48:36,348 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'T POINT KYARA-KHIRKIT'.
+2025-07-29 17:48:36,348 - WARNING - \u26a0\ufe0f The Span T POINT KYARA-KHIRKIT is disconnected at this point (78.25993029600005, 25.019810848000077)
+2025-07-29 17:48:36,562 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'VANOTA - DEVRI'.
+2025-07-29 17:48:36,562 - WARNING - \u26a0\ufe0f The Span VANOTA - DEVRI is disconnected at this point (78.10913323900007, 25.095033330000035)
+2025-07-29 17:48:36,662 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'khaniyadhana - GOLAKOT'.
+2025-07-29 17:48:36,662 - WARNING - \u26a0\ufe0f The Span khaniyadhana - GOLAKOT is disconnected at this point (78.12202664900008, 25.012725980000027)
+2025-07-29 17:48:36,886 - INFO - Created 3,645 records
+2025-07-29 17:48:36,898 - INFO - Created 110 records
+2025-07-29 17:48:36,899 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-07-29 17:48:37,134 - INFO - \U0001f504 Found 8 rings: ['R1', 'R1-C1', 'R2', 'R3', 'R4', 'R4-C1', 'R5', 'R5-C1']
+2025-07-29 17:48:37,135 - INFO - 
+\U0001f501 Processing ring: R1
