@@ -33,17 +33,56 @@ console.setLevel(logging.INFO)
 formatter = logging.Formatter('%(message)s')
 console.setFormatter(formatter)
 logging.getLogger('').addHandler(console)
+#### Checking the CRS of the shape file
 
+
+def ensure_epsg4326(input_file, output_file=None):
+    """
+    Check CRS of a shapefile and reproject to EPSG:4326 if needed.
+
+    Parameters
+    ----------
+    input_file : str
+        Path to the input shapefile.
+    output_file : str, optional
+        Path for the output shapefile. If None, overwrites input.
+    """
+    gdf = gpd.read_file(input_file)
+
+    # If CRS is missing, raise an error
+    if gdf.crs is None:
+        raise ValueError("❌ The shapefile has no CRS defined. Please set it manually.")
+
+    # If already in EPSG:4326, no change
+    if gdf.crs.to_epsg() == 4326:
+        print("✅ CRS is already EPSG:4326, no reprojection needed.")
+        return gdf
+
+    # Otherwise reproject
+    print(f"ℹ️ Reprojecting from {gdf.crs} → EPSG:4326")
+    gdf = gdf.to_crs(epsg=4326)
+
+    # Save output
+    if output_file is None:
+        output_file = input_file  # overwrite original
+    gdf.to_file(output_file)
+
+    print(f"✅ Saved reprojected file to {output_file}")
+    return gdf
 
 ############################ Reversing the Geometry and Filling up the sequence in Segments ################################
 # ╔══════════════════════════════════════════════════════════════╗
 # ║   WORK CREATING SEGMENT SEQUENCE & reversing Geometry        ║
 # ╚══════════════════════════════════════════════════════════════╝
 
-version = "Khaniadhana_1.0"
+version = "Guna_1.0"
+
+ensure_epsg4326("References/GUNA-SHP/GUNA-SHP.shp", "References/GUNA-SHP/GUNA-SHP_4326.shp")
 
 # Load the input shapefile
-gdf = gpd.read_file('References/KHANIADHANA/OFC_NEW.shp')
+gdf = gpd.read_file('References/GUNA-SHP/GUNA-SHP_4326.shp')
+
+
 
 # Create empty GeoDataFrames with correct structures
 gdf_new_sp = gdf.iloc[0:0].copy()
