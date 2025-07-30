@@ -43,7 +43,7 @@ logging.getLogger('').addHandler(console)
 version = "Khaniadhana_1.0"
 
 # Load the input shapefile
-gdf = gpd.read_file('References/KHANIADHANA/OFC.shp')
+gdf = gpd.read_file('References/KHANIADHANA/OFC_NEW.shp')
 
 # Create empty GeoDataFrames with correct structures
 gdf_new_sp = gdf.iloc[0:0].copy()
