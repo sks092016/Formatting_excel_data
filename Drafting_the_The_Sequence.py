@@ -144,27 +144,6 @@ for s in span_list:
 
     sorted_indices = []
     remaining = temp_df.copy()
-
-    # # === STEP 1: Handle possibly reversed first segment ===
-    # current_idx = remaining.index[0]
-    # current = remaining.loc[current_idx]
-    # current_start, current_end = current['start'], current['end']
-    #
-    # # Check if current start is not a true start (i.e., other segments connect to it)
-    # connected_to_start = remaining[
-    #     ((remaining['start'] == current_start) | (remaining['end'] == current_start)) &
-    #     (remaining.index != current_idx)
-    # ]
-    #
-    # if not connected_to_start.empty:
-    #     # Reverse the first segment
-    #     flipped_geom = LineString(list(current['geometry'].coords)[::-1])
-    #     temp_df.at[current_idx, 'geometry'] = flipped_geom
-    #     current = temp_df.loc[current_idx]
-    #     current['start'], current['end'] = get_start_end_coords(flipped_geom)
-    #
-    # sorted_indices.append(current_idx)
-    # remaining = remaining.drop(index=current_idx)
 #___________
     # === STEP 1: Find the true starting segment ===
     # Count how many times each endpoint appears
