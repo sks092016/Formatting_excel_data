@@ -7,6 +7,8 @@ import networkx as nx
 import logging
 from pathlib import Path
 from datetime import datetime
+from collections import Counter
+
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -75,12 +77,12 @@ def ensure_epsg4326(input_file, output_file=None):
 # ║   WORK CREATING SEGMENT SEQUENCE & reversing Geometry        ║
 # ╚══════════════════════════════════════════════════════════════╝
 
-version = "Guna_1.0"
+version = "Gyaraspur_4.0"
 
-ensure_epsg4326("References/GUNA-SHP/GUNA-SHP.shp", "References/GUNA-SHP/GUNA-SHP_4326.shp")
+#ensure_epsg4326("References/GUNA-SHP/GUNA-SHP.shp", "References/GUNA-SHP/GUNA-SHP_4326.shp")
 
 # Load the input shapefile
-gdf = gpd.read_file('References/GUNA-SHP/GUNA-SHP_4326.shp')
+gdf = gpd.read_file('References/TEMP/gyaraspurt.shp')
 
 
 
@@ -133,33 +135,61 @@ def merged_line_geometry(lines):
 
 # Process each span
 span_list = gdf.sort_values('span_name').span_name.unique()
-for s in span_list:
-    temp_df = gdf[gdf.span_name == s].sort_values('Sequqnce').copy()
 
+for s in span_list:
+    temp_df = gdf[gdf.span_name == s].copy()
+    temp_df['geometry'].to_clipboard(index=False, header=False)
     temp_df['start'] = temp_df.geometry.apply(lambda geom: get_start_end_coords(geom)[0])
     temp_df['end'] = temp_df.geometry.apply(lambda geom: get_start_end_coords(geom)[1])
 
     sorted_indices = []
     remaining = temp_df.copy()
 
-    # === STEP 1: Handle possibly reversed first segment ===
-    current_idx = remaining.index[0]
-    current = remaining.loc[current_idx]
-    current_start, current_end = current['start'], current['end']
+    # # === STEP 1: Handle possibly reversed first segment ===
+    # current_idx = remaining.index[0]
+    # current = remaining.loc[current_idx]
+    # current_start, current_end = current['start'], current['end']
+    #
+    # # Check if current start is not a true start (i.e., other segments connect to it)
+    # connected_to_start = remaining[
+    #     ((remaining['start'] == current_start) | (remaining['end'] == current_start)) &
+    #     (remaining.index != current_idx)
+    # ]
+    #
+    # if not connected_to_start.empty:
+    #     # Reverse the first segment
+    #     flipped_geom = LineString(list(current['geometry'].coords)[::-1])
+    #     temp_df.at[current_idx, 'geometry'] = flipped_geom
+    #     current = temp_df.loc[current_idx]
+    #     current['start'], current['end'] = get_start_end_coords(flipped_geom)
+    #
+    # sorted_indices.append(current_idx)
+    # remaining = remaining.drop(index=current_idx)
+#___________
+    # === STEP 1: Find the true starting segment ===
+    # Count how many times each endpoint appears
+    all_endpoints = list(temp_df['start']) +  list(temp_df['end'])
+    counts = Counter(all_endpoints)
 
-    # Check if current start is not a true start (i.e., other segments connect to it)
-    connected_to_start = remaining[
-        ((remaining['start'] == current_start) | (remaining['end'] == current_start)) &
-        (remaining.index != current_idx)
-    ]
+    # True start nodes are endpoints that appear only once
+    true_starts = [pt for pt, c in counts.items() if c == 1]
 
-    if not connected_to_start.empty:
-        # Reverse the first segment
+    start_node = true_starts[0]
+
+    # Find the row (segment) that touches the chosen start node
+    start_row = temp_df[
+        (temp_df['start'] == start_node) | (temp_df['end'] == start_node)].iloc[0]
+    current_idx = start_row.name
+    current = start_row.copy()
+
+    # If the segment is reversed (end == start_node), flip geometry
+    if current['end'] == start_node:
         flipped_geom = LineString(list(current['geometry'].coords)[::-1])
         temp_df.at[current_idx, 'geometry'] = flipped_geom
-        current = temp_df.loc[current_idx]
-        current['start'], current['end'] = get_start_end_coords(flipped_geom)
+        current['geometry'] = flipped_geom
+        current['start'], current['end'] = list(flipped_geom.coords)[0], list(flipped_geom.coords)[-1]
 
+    # Initialize sorted list with this true starting segment
     sorted_indices.append(current_idx)
     remaining = remaining.drop(index=current_idx)
 
