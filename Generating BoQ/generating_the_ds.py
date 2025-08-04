@@ -16,12 +16,12 @@ from utils.sheet_creations.details_sheet import *
 
 root = tk.Tk()
 root.withdraw()
-with open('../References/village_district_code.json', 'r') as f:
+with open('village_district_code.json', 'r') as f:
     village_data = json.load(f)
 
 # Reference Files
 base_url = "https://fieldsurvey.rbt-ltd.com/app"
-gdf_reference = gpd.read_file("../References/Formats/OFC_NEW.shp")
+gdf_reference = gpd.read_file("Formats/OFC_NEW.shp")
 
 # Reading the Shape File
 shapefile_path = filedialog.askopenfilename(
