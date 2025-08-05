@@ -8,11 +8,13 @@ from qgis.PyQt.QtCore import Qt
 import os
 
 # --- Settings ---
-layer_name = "row_clubbed_file"   # Name of the layer in QGIS
-output_folder = r" /Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs"
+layer_name = "row_clubbed_file"  # Name of the layer in QGIS
+output_folder = r"D:\bharat_net_data\slds"
+end_point_layer = "Vertices"
 
 # Ensure output folder exists
 os.makedirs(output_folder, exist_ok=True)
+
 
 # --- Helper: adjust extent to map frame aspect ratio ---
 def adjusted_extent(layer_extent, map_width, map_height, buffer=0.1):
@@ -52,6 +54,7 @@ def adjusted_extent(layer_extent, map_width, map_height, buffer=0.1):
 
     return QgsRectangle(xmin, ymin, xmax, ymax)
 
+
 # --- Load layer ---
 layer_list = QgsProject.instance().mapLayersByName(layer_name)
 if not layer_list:
@@ -59,6 +62,8 @@ if not layer_list:
 layer = layer_list[0]
 if not layer.isValid():
     raise Exception(f"❌ Layer '{layer_name}' is not valid")
+
+vertices_layer = QgsProject.instance().mapLayersByName(end_point_layer)
 
 # Get unique span values
 span_field_index = layer.fields().lookupField("span_name")
@@ -71,6 +76,7 @@ for span in unique_spans:
     # Filter layer to one span
     expr = f""""span_name" = '{span}'"""
     layer.setSubsetString(expr)
+    vertices_layer.setSubsetString(expr)
 
     # --- Create Layout ---
     layout = QgsPrintLayout(project)
@@ -152,3 +158,4 @@ for span in unique_spans:
 
 # Reset filter
 layer.setSubsetString("")
+
