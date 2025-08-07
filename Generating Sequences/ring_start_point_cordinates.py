@@ -30,14 +30,14 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Gyaraspur/gps.shp"
-segments_shape_file = "References/Gyaraspur/OFC_NEW.shp"
+gps_shape_file = "References/Guna/gp.shp"
+segments_shape_file = "References/Guna/guna-ofc-cleaned/guna-ofc-cleaned.shp"
 
-blockName = ""
+blockName = "Guna"
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '78.1103607000001 23.6753871999997'
+BHQ_CORDINATE = '77.3209214 24.6541872'
 
 rings = {
     'R1': BHQ_CORDINATE,
@@ -45,6 +45,9 @@ rings = {
     'R3': BHQ_CORDINATE,
     'R4': BHQ_CORDINATE,
     'R5': BHQ_CORDINATE,
-    'R2-C1': '78.18637172 23.81701463',
-    'R4-C1': '78.1958674 23.6143795',
+    'R2-C1': '77.44103999957 24.65035999991',
+    'R2-C2': '77.4350569356 24.7095372382',
+    'R1-C1': '77.4215984 24.80702203',
+    'R3-C1': '77.30533 24.62493',
+    'R5-C1': '77.267559531 25.029131777'
 }

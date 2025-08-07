@@ -9,10 +9,9 @@ from methods import *
 # ║   WORK CREATING SEGMENT SEQUENCE & reversing Geometry        ║
 # ╚══════════════════════════════════════════════════════════════╝
 
-ensure_epsg4326(segments_shape_file, "References/GUNA-SHP/GUNA-SHP_4326.shp")
-
 # Load the input shapefile
-gdf = gpd.read_file(segments_shape_file)
+#gdf = gpd.read_file(segments_shape_file)
+gdf = ensure_epsg4326(segments_shape_file, "References/Guna/GUNA-SHP_4326.shp")
 
 gdf_gp = gpd.read_file(gps_shape_file)
 
@@ -32,9 +31,9 @@ for s in span_list:
     temp_df['start'] = temp_df.geometry.apply(lambda geom: get_start_end_coords(geom)[0])
     temp_df['end'] = temp_df.geometry.apply(lambda geom: get_start_end_coords(geom)[1])
 
-    start_gp = smart_split(s)
+    start_gp = smart_split(s).lower()
     try:
-        s_c = gdf_gp[gdf_gp.name == start_gp].geometry.iloc[0]
+        s_c = gdf_gp[gdf_gp.name.str.lower() == start_gp].geometry.iloc[0]
     except:
         print(f"GP Cordinate not matching {start_gp} and {s}")
         s_c = None
@@ -49,7 +48,9 @@ for s in span_list:
 
     # True start nodes are endpoints that appear only once
     true_starts = [pt for pt, c in counts.items() if c == 1]
-
+    if start_gp.lower() == 'richhera':
+        print(true_starts)
+        print(gp_node)
     node1 = true_starts[0]
     node2 = true_starts[1]
 
@@ -79,17 +80,18 @@ for s in span_list:
         print("Node logic executed")
         if int(segment_of_node1.OBJECTID) < int(segment_of_node2.OBJECTID):
             start_row = segment_of_node1
-            start_node = node1
+            start_node = Point(node1)
         else:
             start_row = segment_of_node2
-            start_node = node2
+            start_node = Point(node2)
     # Find the row (segment) that touches the chosen start node
 
     current_idx = start_row.name
     current = start_row.copy()
 
     # If the segment is reversed (end == start_node), flip geometry
-    if current['end'] == start_node:
+    if current['end'] == (start_node.x, start_node.y):
+        print("geometry flipped")
         flipped_geom = LineString(list(current['geometry'].coords)[::-1])
         temp_df.at[current_idx, 'geometry'] = flipped_geom
         current['geometry'] = flipped_geom
