@@ -32,12 +32,17 @@ for s in span_list:
     temp_df['end'] = temp_df.geometry.apply(lambda geom: get_start_end_coords(geom)[1])
 
     start_gp = smart_split(s).lower()
-    try:
-        s_c = gdf_gp[gdf_gp.name.str.lower() == start_gp].geometry.iloc[0]
-    except:
-        print(f"GP Cordinate not matching {start_gp} and {s}")
-        s_c = None
-    gp_node = get_coords(s_c)
+    if start_gp in t_point_ring_spans.keys():
+        print("found it")
+        gp_node = t_point_ring_spans[start_gp]
+    else:
+        try:
+            s_c = gdf_gp[gdf_gp.name.str.lower() == start_gp].geometry.iloc[0]
+            gp_node = get_coords(s_c)
+        except:
+            print(f"GP Cordinate not matching {start_gp} and {s}")
+            gp_node = None
+
     sorted_indices = []
     remaining = temp_df.copy()
     #___________
@@ -48,9 +53,6 @@ for s in span_list:
 
     # True start nodes are endpoints that appear only once
     true_starts = [pt for pt, c in counts.items() if c == 1]
-    if start_gp.lower() == 'richhera':
-        print(true_starts)
-        print(gp_node)
     node1 = true_starts[0]
     node2 = true_starts[1]
 
@@ -59,7 +61,8 @@ for s in span_list:
             segment_of_gp_node = temp_df[
                 (temp_df['start'] == gp_node) | (temp_df['end'] == gp_node)].iloc[0]
             start_row = segment_of_gp_node
-            start_node = gp_node
+            start_node = Point(gp_node)
+            print(f"Actual Gp found {start_gp}")
         except:
             candidates = temp_df["start"].tolist() + temp_df["end"].tolist()
             candidate_points = [Point(x, y) for (x, y) in candidates]
@@ -69,7 +72,7 @@ for s in span_list:
                 (temp_df['start'] == nearest_coords) | (temp_df['end'] == nearest_coords)].iloc[0]
             start_row = segment_of_nearest_node
             start_node = nearest
-            print("Gp Node executed")
+            print(f"Nearest of {start_gp} Gp Node found")
     else:
         segment_of_node1 = temp_df[
             (temp_df['start'] == node1) | (temp_df['end'] == node1)].iloc[0]
@@ -77,7 +80,7 @@ for s in span_list:
         segment_of_node2 = temp_df[
             (temp_df['start'] == node2) | (temp_df['end'] == node2)].iloc[0]
 
-        print("Node logic executed")
+        print(f"GP not found Node logic executed for {start_gp}")
         if int(segment_of_node1.OBJECTID) < int(segment_of_node2.OBJECTID):
             start_row = segment_of_node1
             start_node = Point(node1)

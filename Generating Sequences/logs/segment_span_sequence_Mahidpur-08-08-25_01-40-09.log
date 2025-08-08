@@ -1,0 +1,44 @@
+2025-08-08 01:40:13,927 - INFO - Created 3,982 records
+2025-08-08 01:40:13,938 - INFO - Created 139 records
+2025-08-08 01:40:13,938 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-08-08 01:40:13,942 - INFO - Created 0 records
+2025-08-08 01:40:14,044 - INFO - 🔄 Found 12 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4', 'R4-C1', 'R5', 'R5-C1', 'R6', 'R6-C1']
+2025-08-08 01:40:14,044 - INFO - 
+🔁 Processing ring: R1
+2025-08-08 01:40:14,050 - INFO - ✅ Completed ring R1 with 10 spans.
+2025-08-08 01:40:14,050 - INFO - 
+🔁 Processing ring: R1-C1
+2025-08-08 01:40:14,055 - INFO - ✅ Completed ring R1-C1 with 10 spans.
+2025-08-08 01:40:14,055 - INFO - 
+🔁 Processing ring: R2
+2025-08-08 01:40:14,060 - INFO - ✅ Completed ring R2 with 11 spans.
+2025-08-08 01:40:14,060 - INFO - 
+🔁 Processing ring: R2-C1
+2025-08-08 01:40:14,064 - INFO - ✅ Completed ring R2-C1 with 7 spans.
+2025-08-08 01:40:14,064 - INFO - 
+🔁 Processing ring: R3
+2025-08-08 01:40:14,073 - INFO - ✅ Completed ring R3 with 19 spans.
+2025-08-08 01:40:14,073 - INFO - 
+🔁 Processing ring: R3-C1
+2025-08-08 01:40:14,078 - INFO - ✅ Completed ring R3-C1 with 11 spans.
+2025-08-08 01:40:14,078 - INFO - 
+🔁 Processing ring: R4
+2025-08-08 01:40:14,086 - INFO - ✅ Completed ring R4 with 15 spans.
+2025-08-08 01:40:14,086 - INFO - 
+🔁 Processing ring: R4-C1
+2025-08-08 01:40:14,090 - INFO - ✅ Completed ring R4-C1 with 10 spans.
+2025-08-08 01:40:14,090 - INFO - 
+🔁 Processing ring: R5
+2025-08-08 01:40:14,096 - INFO - ✅ Completed ring R5 with 11 spans.
+2025-08-08 01:40:14,096 - INFO - 
+🔁 Processing ring: R5-C1
+2025-08-08 01:40:14,100 - INFO - ✅ Completed ring R5-C1 with 9 spans.
+2025-08-08 01:40:14,100 - INFO - 
+🔁 Processing ring: R6
+2025-08-08 01:40:14,106 - INFO - ✅ Completed ring R6 with 12 spans.
+2025-08-08 01:40:14,106 - INFO - 
+🔁 Processing ring: R6-C1
+2025-08-08 01:40:14,110 - INFO - ✅ Completed ring R6-C1 with 9 spans.
+2025-08-08 01:40:14,258 - INFO - Created 3,982 records
+2025-08-08 01:40:14,266 - INFO - Created 139 records
+2025-08-08 01:40:14,266 - INFO - ✅ All rings processed. Span sequence updated and saved.

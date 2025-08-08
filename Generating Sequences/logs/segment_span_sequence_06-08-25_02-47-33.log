@@ -1,0 +1,5 @@
+2025-08-06 02:47:33,989 - INFO - Created 1,945 records
+2025-08-06 02:47:34,766 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'GADLA GIRD-BAJRANGGARH'.
+2025-08-06 02:47:34,766 - WARNING - ⚠️ The Span GADLA GIRD-BAJRANGGARH is disconnected at this point (77.32322464107216, 24.578556059717467)
+2025-08-06 02:47:34,785 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'GADLA GIRD-T POINT BAJRANGARH'.
+2025-08-06 02:47:34,785 - WARNING - ⚠️ The Span GADLA GIRD-T POINT BAJRANGARH is disconnected at this point (77.32341785552673, 24.57858723690209)

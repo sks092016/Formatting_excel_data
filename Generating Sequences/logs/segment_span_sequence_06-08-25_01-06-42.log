@@ -1,0 +1,51 @@
+2025-08-06 01:06:43,404 - INFO - Created 1,945 records
+2025-08-06 01:06:43,509 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BEHANTAGHAT-PAGARA'.
+2025-08-06 01:06:43,509 - WARNING - ⚠️ The Span BEHANTAGHAT-PAGARA is disconnected at this point (77.47690544436144, 24.66095054407864)
+2025-08-06 01:06:44,176 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'GADLA GIRD-BAJRANGGARH'.
+2025-08-06 01:06:44,176 - WARNING - ⚠️ The Span GADLA GIRD-BAJRANGGARH is disconnected at this point (77.32666398073165, 24.579205550381698)
+2025-08-06 01:06:44,195 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'GADLA GIRD-T POINT BAJRANGARH'.
+2025-08-06 01:06:44,195 - WARNING - ⚠️ The Span GADLA GIRD-T POINT BAJRANGARH is disconnected at this point (77.32669334123231, 24.579186100841994)
+2025-08-06 01:06:45,127 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'MAHUKHAN-KUNDOL'.
+2025-08-06 01:06:45,127 - WARNING - ⚠️ The Span MAHUKHAN-KUNDOL is disconnected at this point (77.4502608001231, 24.71024030032886)
+2025-08-06 01:06:45,186 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'MANPUR-MAHUKHAN'.
+2025-08-06 01:06:45,186 - WARNING - ⚠️ The Span MANPUR-MAHUKHAN is disconnected at this point (77.46494183617938, 24.736959533559485)
+2025-08-06 01:06:45,865 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'T POINT PAGARA-MAHUR'.
+2025-08-06 01:06:45,865 - WARNING - ⚠️ The Span T POINT PAGARA-MAHUR is disconnected at this point (77.45465889660522, 24.595231924345505)
+2025-08-06 01:06:46,379 - INFO - Created 1,945 records
+2025-08-06 01:06:46,390 - INFO - Created 99 records
+2025-08-06 01:06:46,390 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-08-06 01:06:46,392 - INFO - Created 6 records
+2025-08-06 01:06:46,451 - INFO - 🔄 Found 10 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R2-C2', 'R3', 'R3-C1', 'R4', 'R5', 'R5-C1']
+2025-08-06 01:06:46,451 - INFO - 
+🔁 Processing ring: R1
+2025-08-06 01:06:46,458 - INFO - ✅ Completed ring R1 with 12 spans.
+2025-08-06 01:06:46,458 - INFO - 
+🔁 Processing ring: R1-C1
+2025-08-06 01:06:46,463 - INFO - ✅ Completed ring R1-C1 with 9 spans.
+2025-08-06 01:06:46,463 - INFO - 
+🔁 Processing ring: R2
+2025-08-06 01:06:46,465 - INFO - ✅ Completed ring R2 with 1 spans.
+2025-08-06 01:06:46,466 - INFO - 
+🔁 Processing ring: R2-C1
+2025-08-06 01:06:46,470 - INFO - ✅ Completed ring R2-C1 with 7 spans.
+2025-08-06 01:06:46,470 - INFO - 
+🔁 Processing ring: R2-C2
+2025-08-06 01:06:46,471 - INFO - ✅ Completed ring R2-C2 with 1 spans.
+2025-08-06 01:06:46,473 - INFO - 
+🔁 Processing ring: R3
+2025-08-06 01:06:46,477 - INFO - ✅ Completed ring R3 with 8 spans.
+2025-08-06 01:06:46,477 - INFO - 
+🔁 Processing ring: R3-C1
+2025-08-06 01:06:46,478 - INFO - ✅ Completed ring R3-C1 with 0 spans.
+2025-08-06 01:06:46,478 - INFO - 
+🔁 Processing ring: R4
+2025-08-06 01:06:46,481 - INFO - ✅ Completed ring R4 with 7 spans.
+2025-08-06 01:06:46,481 - INFO - 
+🔁 Processing ring: R5
+2025-08-06 01:06:46,489 - INFO - ✅ Completed ring R5 with 17 spans.
+2025-08-06 01:06:46,489 - INFO - 
+🔁 Processing ring: R5-C1
+2025-08-06 01:06:46,491 - INFO - ✅ Completed ring R5-C1 with 4 spans.
+2025-08-06 01:06:46,564 - INFO - Created 1,945 records
+2025-08-06 01:06:46,569 - INFO - Created 99 records
+2025-08-06 01:06:46,569 - INFO - ✅ All rings processed. Span sequence updated and saved.

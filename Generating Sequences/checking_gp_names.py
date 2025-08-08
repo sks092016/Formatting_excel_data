@@ -34,3 +34,4 @@ if gp_repetions:
 spans = segments.span_name.tolist()
 consistancy =  check_gp_consistency(spans, gp_names)
 logging.info(consistancy)
+print(consistancy)

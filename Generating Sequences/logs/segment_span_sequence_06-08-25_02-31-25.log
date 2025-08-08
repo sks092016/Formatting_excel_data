@@ -1,0 +1,43 @@
+2025-08-06 02:31:25,476 - INFO - Created 1,945 records
+2025-08-06 02:31:26,296 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'GADLA GIRD-BAJRANGGARH'.
+2025-08-06 02:31:26,296 - WARNING - ⚠️ The Span GADLA GIRD-BAJRANGGARH is disconnected at this point (77.32322464107216, 24.578556059717467)
+2025-08-06 02:31:26,315 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'GADLA GIRD-T POINT BAJRANGARH'.
+2025-08-06 02:31:26,315 - WARNING - ⚠️ The Span GADLA GIRD-T POINT BAJRANGARH is disconnected at this point (77.32341785552673, 24.57858723690209)
+2025-08-06 02:31:28,495 - INFO - Created 1,945 records
+2025-08-06 02:31:28,503 - INFO - Created 99 records
+2025-08-06 02:31:28,503 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-08-06 02:31:28,505 - INFO - Created 2 records
+2025-08-06 02:31:28,563 - INFO - 🔄 Found 10 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R2-C2', 'R3', 'R3-C1', 'R4', 'R5', 'R5-C1']
+2025-08-06 02:31:28,564 - INFO - 
+🔁 Processing ring: R1
+2025-08-06 02:31:28,570 - INFO - ✅ Completed ring R1 with 12 spans.
+2025-08-06 02:31:28,570 - INFO - 
+🔁 Processing ring: R1-C1
+2025-08-06 02:31:28,574 - INFO - ✅ Completed ring R1-C1 with 9 spans.
+2025-08-06 02:31:28,574 - INFO - 
+🔁 Processing ring: R2
+2025-08-06 02:31:28,576 - INFO - ✅ Completed ring R2 with 1 spans.
+2025-08-06 02:31:28,576 - INFO - 
+🔁 Processing ring: R2-C1
+2025-08-06 02:31:28,580 - INFO - ✅ Completed ring R2-C1 with 7 spans.
+2025-08-06 02:31:28,580 - INFO - 
+🔁 Processing ring: R2-C2
+2025-08-06 02:31:28,581 - INFO - ✅ Completed ring R2-C2 with 1 spans.
+2025-08-06 02:31:28,581 - INFO - 
+🔁 Processing ring: R3
+2025-08-06 02:31:28,585 - INFO - ✅ Completed ring R3 with 8 spans.
+2025-08-06 02:31:28,585 - INFO - 
+🔁 Processing ring: R3-C1
+2025-08-06 02:31:28,585 - INFO - ✅ Completed ring R3-C1 with 0 spans.
+2025-08-06 02:31:28,586 - INFO - 
+🔁 Processing ring: R4
+2025-08-06 02:31:28,589 - INFO - ✅ Completed ring R4 with 7 spans.
+2025-08-06 02:31:28,589 - INFO - 
+🔁 Processing ring: R5
+2025-08-06 02:31:28,597 - INFO - ✅ Completed ring R5 with 17 spans.
+2025-08-06 02:31:28,597 - INFO - 
+🔁 Processing ring: R5-C1
+2025-08-06 02:31:28,599 - INFO - ✅ Completed ring R5-C1 with 4 spans.
+2025-08-06 02:31:28,672 - INFO - Created 1,945 records
+2025-08-06 02:31:28,681 - INFO - Created 99 records
+2025-08-06 02:31:28,682 - INFO - ✅ All rings processed. Span sequence updated and saved.

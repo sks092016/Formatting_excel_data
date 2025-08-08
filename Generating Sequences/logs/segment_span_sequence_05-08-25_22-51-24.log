@@ -1,0 +1,84 @@
+2025-08-05 22:51:25,082 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'AGARA GP-GUNA OLT'.
+2025-08-05 22:51:25,082 - WARNING - ⚠️ The Span AGARA GP-GUNA OLT is disconnected at this point (734896.9417000003, 2728642.579)
+2025-08-05 22:51:25,145 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BEHANTAGHAT-PAGARA'.
+2025-08-05 22:51:25,146 - WARNING - ⚠️ The Span BEHANTAGHAT-PAGARA is disconnected at this point (747066.2137999996, 2728429.5086)
+2025-08-05 22:51:26,116 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'EMJHARA-BEHANTAGHAT'.
+2025-08-05 22:51:26,116 - WARNING - ⚠️ The Span EMJHARA-BEHANTAGHAT is disconnected at this point (750626.3376283293, 2729753.5554198795)
+2025-08-05 22:51:26,148 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'GADLA GIRD-BAJRANGGARH'.
+2025-08-05 22:51:26,148 - WARNING - ⚠️ The Span GADLA GIRD-BAJRANGGARH is disconnected at this point (735271.7254999997, 2720267.8966000006)
+2025-08-05 22:51:26,166 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'GADLA GIRD-T POINT BAJRANGARH'.
+2025-08-05 22:51:26,166 - WARNING - ⚠️ The Span GADLA GIRD-T POINT BAJRANGARH is disconnected at this point (732451.7030999996, 2719380.2599)
+2025-08-05 22:51:26,262 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'GENHUKHEDA GIRD- T-POINT PIPROADA KALAN'.
+2025-08-05 22:51:26,262 - WARNING - ⚠️ The Span GENHUKHEDA GIRD- T-POINT PIPROADA KALAN is disconnected at this point (740311.3746999996, 2723685.7453000005)
+2025-08-05 22:51:26,441 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'GUNA OLT-RICHHERA'.
+2025-08-05 22:51:26,441 - WARNING - ⚠️ The Span GUNA OLT-RICHHERA is disconnected at this point (741646.0110999998, 2729158.6955999993)
+2025-08-05 22:51:26,480 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'Guna Olt-Goaplpur Taltaiya'.
+2025-08-05 22:51:26,481 - WARNING - ⚠️ The Span Guna Olt-Goaplpur Taltaiya is disconnected at this point (740073.2554782369, 2724488.4408198013)
+2025-08-05 22:51:26,566 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'JAMRA-GAJIPUR'.
+2025-08-05 22:51:26,566 - WARNING - ⚠️ The Span JAMRA-GAJIPUR is disconnected at this point (749927.1797643345, 2745637.90080872)
+2025-08-05 22:51:26,773 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'KHAJURI-LEHARGHAT'.
+2025-08-05 22:51:26,773 - WARNING - ⚠️ The Span KHAJURI-LEHARGHAT is disconnected at this point (755474.4789000007, 2748261.7871000003)
+2025-08-05 22:51:26,790 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'KHEJRABABA-Goaplpur Taltaiya'.
+2025-08-05 22:51:26,790 - WARNING - ⚠️ The Span KHEJRABABA-Goaplpur Taltaiya is disconnected at this point (738740.5710000005, 2719022.2566)
+2025-08-05 22:51:26,883 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'LEHARGHAT-JAMRA'.
+2025-08-05 22:51:26,883 - WARNING - ⚠️ The Span LEHARGHAT-JAMRA is disconnected at this point (754598.0632999991, 2747570.9344999995)
+2025-08-05 22:51:26,917 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'LEHARKOTA-JAMRA'.
+2025-08-05 22:51:26,917 - WARNING - ⚠️ The Span LEHARKOTA-JAMRA is disconnected at this point (748100.3129897381, 2745818.7406024607)
+2025-08-05 22:51:26,980 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'MAHUKHAN-KUNDOL'.
+2025-08-05 22:51:26,980 - WARNING - ⚠️ The Span MAHUKHAN-KUNDOL is disconnected at this point (747881.3184000002, 2735080.2946000006)
+2025-08-05 22:51:27,042 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'MANPUR-MAHUKHAN'.
+2025-08-05 22:51:27,042 - WARNING - ⚠️ The Span MANPUR-MAHUKHAN is disconnected at this point (749313.8297000022, 2738067.218800008)
+2025-08-05 22:51:27,093 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'MAVAN-PIPRODA KALAN'.
+2025-08-05 22:51:27,094 - WARNING - ⚠️ The Span MAVAN-PIPRODA KALAN is disconnected at this point (741164.0840999996, 2727158.6316)
+2025-08-05 22:51:27,112 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'MAYANA-PADMANKHEDI'.
+2025-08-05 22:51:27,113 - WARNING - ⚠️ The Span MAYANA-PADMANKHEDI is disconnected at this point (750458.0316999984, 2749982.445800001)
+2025-08-05 22:51:27,336 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'PIPRODA-GUNA OLT'.
+2025-08-05 22:51:27,336 - WARNING - ⚠️ The Span PIPRODA-GUNA OLT is disconnected at this point (739882.0191000013, 2724716.640700009)
+2025-08-05 22:51:27,444 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'RENJHAI-HINOTIYA'.
+2025-08-05 22:51:27,444 - WARNING - ⚠️ The Span RENJHAI-HINOTIYA is disconnected at this point (749230.4994000001, 2738136.9634000007)
+2025-08-05 22:51:27,466 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'RICHHERA-EMJHARA'.
+2025-08-05 22:51:27,466 - WARNING - ⚠️ The Span RICHHERA-EMJHARA is disconnected at this point (746343.991300013, 2734974.9633000004)
+2025-08-05 22:51:27,724 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'T POINT PAGARA-MAHUR'.
+2025-08-05 22:51:27,724 - WARNING - ⚠️ The Span T POINT PAGARA-MAHUR is disconnected at this point (747464.640100002, 2727053.5758)
+2025-08-05 22:51:27,956 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'T-POINT MAVAN-PIPRODA KALAN'.
+2025-08-05 22:51:27,956 - WARNING - ⚠️ The Span T-POINT MAVAN-PIPRODA KALAN is disconnected at this point (742462.8513000002, 2725021.150699999)
+2025-08-05 22:51:28,080 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'TORIYA-MAVAN'.
+2025-08-05 22:51:28,080 - WARNING - ⚠️ The Span TORIYA-MAVAN is disconnected at this point (740951.3389999995, 2728124.673199997)
+2025-08-05 22:51:28,242 - INFO - Created 1,945 records
+2025-08-05 22:51:28,248 - INFO - Created 99 records
+2025-08-05 22:51:28,248 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-08-05 22:51:28,251 - INFO - Created 23 records
+2025-08-05 22:51:28,314 - INFO - 🔄 Found 10 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R2-C2', 'R3', 'R3-C1', 'R4', 'R5', 'R5-C1']
+2025-08-05 22:51:28,314 - INFO - 
+🔁 Processing ring: R1
+2025-08-05 22:51:28,317 - WARNING - ⚠️  Warning: Closest node (734896.9417000003, 2728642.579) is far from given start (77.3209214, 24.6541872)
+2025-08-05 22:51:28,317 - INFO - 
+🔁 Processing ring: R1-C1
+2025-08-05 22:51:28,318 - WARNING - ⚠️  Warning: Closest node (744790.6357000005, 2745751.1241999995) is far from given start (77.4215984, 24.80702203)
+2025-08-05 22:51:28,318 - INFO - 
+🔁 Processing ring: R2
+2025-08-05 22:51:28,319 - WARNING - ⚠️  Warning: Closest node (739955.7186000071, 2724647.3160000024) is far from given start (77.3209214, 24.6541872)
+2025-08-05 22:51:28,319 - INFO - 
+🔁 Processing ring: R2-C1
+2025-08-05 22:51:28,320 - WARNING - ⚠️  Warning: Closest node (745881.1222999999, 2715624.7261999995) is far from given start (77.44103999957, 24.65035999991)
+2025-08-05 22:51:28,320 - INFO - 
+🔁 Processing ring: R2-C2
+2025-08-05 22:51:28,321 - WARNING - ⚠️  Warning: Closest node (749215.9380999999, 2731420.1795000006) is far from given start (77.4350569356, 24.7095372382)
+2025-08-05 22:51:28,321 - INFO - 
+🔁 Processing ring: R3
+2025-08-05 22:51:28,322 - WARNING - ⚠️  Warning: Closest node (735283.7838000003, 2710758.7392999995) is far from given start (77.3209214, 24.6541872)
+2025-08-05 22:51:28,322 - INFO - 
+🔁 Processing ring: R3-C1
+2025-08-05 22:51:28,323 - WARNING - ⚠️  Warning: Closest node (732451.7030999996, 2719380.2599) is far from given start (77.30533, 24.62493)
+2025-08-05 22:51:28,323 - INFO - 
+🔁 Processing ring: R4
+2025-08-05 22:51:28,324 - WARNING - ⚠️  Warning: Closest node (726018.9194, 2719125.9316000007) is far from given start (77.3209214, 24.6541872)
+2025-08-05 22:51:28,324 - INFO - 
+🔁 Processing ring: R5
+2025-08-05 22:51:28,327 - WARNING - ⚠️  Warning: Closest node (734896.9417000003, 2728642.579) is far from given start (77.3209214, 24.6541872)
+2025-08-05 22:51:28,327 - INFO - 
+🔁 Processing ring: R5-C1
+2025-08-05 22:51:28,327 - WARNING - ⚠️  Warning: Closest node (728803.4079999998, 2770089.6776) is far from given start (77.267559531, 25.029131777)
+2025-08-05 22:51:28,403 - INFO - Created 1,945 records
+2025-08-05 22:51:28,409 - INFO - Created 99 records
+2025-08-05 22:51:28,410 - INFO - ✅ All rings processed. Span sequence updated and saved.

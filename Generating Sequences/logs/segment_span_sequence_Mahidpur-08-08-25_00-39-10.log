@@ -1,0 +1,58 @@
+2025-08-08 00:39:10,727 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'ASADI TO SHRAWAN'.
+2025-08-08 00:39:10,727 - WARNING - ⚠️ The Span ASADI TO SHRAWAN is disconnected at this point (75.69862482800005, 23.67842743400007)
+2025-08-08 00:39:10,755 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'AZMABAD TO BAIJNATH'.
+2025-08-08 00:39:10,756 - WARNING - ⚠️ The Span AZMABAD TO BAIJNATH is disconnected at this point (75.70841101400003, 23.51709262600008)
+2025-08-08 00:39:11,016 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BARKHEDA MADAN TO PANKHEDI'.
+2025-08-08 00:39:11,016 - WARNING - ⚠️ The Span BARKHEDA MADAN TO PANKHEDI is disconnected at this point (75.58314350000006, 23.43658080000006)
+2025-08-08 00:39:12,942 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'LOTIYAJUNARDA TO ASADI'.
+2025-08-08 00:39:12,943 - WARNING - ⚠️ The Span LOTIYAJUNARDA TO ASADI is disconnected at this point (75.69811762000006, 23.67723556900006)
+2025-08-08 00:39:13,204 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'MAHIDPUR BLOCK TO PARWATKHEDA'.
+2025-08-08 00:39:13,204 - WARNING - ⚠️ The Span MAHIDPUR BLOCK TO PARWATKHEDA is disconnected at this point (75.65444381800006, 23.487703194000062)
+2025-08-08 00:39:13,775 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'PANKHEDI TO SARWANA UNEHEL'.
+2025-08-08 00:39:13,775 - WARNING - ⚠️ The Span PANKHEDI TO SARWANA UNEHEL is disconnected at this point (75.58328256700008, 23.43254679300003)
+2025-08-08 00:39:14,418 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'SEMALYA TO MAHIDPUR BLOCK'.
+2025-08-08 00:39:14,418 - WARNING - ⚠️ The Span SEMALYA TO MAHIDPUR BLOCK is disconnected at this point (75.65702968000005, 23.483690632000048)
+2025-08-08 00:39:15,027 - INFO - Created 3,982 records
+2025-08-08 00:39:15,037 - INFO - Created 140 records
+2025-08-08 00:39:15,037 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-08-08 00:39:15,039 - INFO - Created 7 records
+2025-08-08 00:39:15,139 - INFO - 🔄 Found 12 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4', 'R4-C1', 'R5', 'R5-C1', 'R6', 'R6-C1']
+2025-08-08 00:39:15,139 - INFO - 
+🔁 Processing ring: R1
+2025-08-08 00:39:15,141 - INFO - ✅ Completed ring R1 with 1 spans.
+2025-08-08 00:39:15,141 - INFO - 
+🔁 Processing ring: R1-C1
+2025-08-08 00:39:15,146 - INFO - ✅ Completed ring R1-C1 with 10 spans.
+2025-08-08 00:39:15,146 - INFO - 
+🔁 Processing ring: R2
+2025-08-08 00:39:15,152 - INFO - ✅ Completed ring R2 with 11 spans.
+2025-08-08 00:39:15,152 - INFO - 
+🔁 Processing ring: R2-C1
+2025-08-08 00:39:15,155 - INFO - ✅ Completed ring R2-C1 with 7 spans.
+2025-08-08 00:39:15,155 - INFO - 
+🔁 Processing ring: R3
+2025-08-08 00:39:15,164 - INFO - ✅ Completed ring R3 with 19 spans.
+2025-08-08 00:39:15,164 - INFO - 
+🔁 Processing ring: R3-C1
+2025-08-08 00:39:15,170 - INFO - ✅ Completed ring R3-C1 with 11 spans.
+2025-08-08 00:39:15,170 - INFO - 
+🔁 Processing ring: R4
+2025-08-08 00:39:15,177 - INFO - ✅ Completed ring R4 with 15 spans.
+2025-08-08 00:39:15,177 - INFO - 
+🔁 Processing ring: R4-C1
+2025-08-08 00:39:15,181 - INFO - ✅ Completed ring R4-C1 with 9 spans.
+2025-08-08 00:39:15,181 - INFO - 
+🔁 Processing ring: R5
+2025-08-08 00:39:15,186 - INFO - ✅ Completed ring R5 with 11 spans.
+2025-08-08 00:39:15,186 - INFO - 
+🔁 Processing ring: R5-C1
+2025-08-08 00:39:15,187 - INFO - ✅ Completed ring R5-C1 with 0 spans.
+2025-08-08 00:39:15,187 - INFO - 
+🔁 Processing ring: R6
+2025-08-08 00:39:15,193 - INFO - ✅ Completed ring R6 with 12 spans.
+2025-08-08 00:39:15,193 - INFO - 
+🔁 Processing ring: R6-C1
+2025-08-08 00:39:15,195 - INFO - ✅ Completed ring R6-C1 with 3 spans.
+2025-08-08 00:39:15,357 - INFO - Created 3,982 records
+2025-08-08 00:39:15,367 - INFO - Created 140 records
+2025-08-08 00:39:15,367 - INFO - ✅ All rings processed. Span sequence updated and saved.
