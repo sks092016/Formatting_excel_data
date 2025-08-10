@@ -156,9 +156,4 @@ if __name__ == "__main__":
     print("✅ JSON saved:", output_json)
 
     # Label Exoression in QGIS
-    # concat(
-    #     "Point Name", ' ',
-    #     'CH:', to_string(to_int("Chainage")), '\n',
-    #     round(x( $geometry ), 6), ', ',
-    # round(y( $geometry ), 6)
-    # )
+    # concat("Point Name", ' ','CH :', to_string(to_int("Chainage")),'\n',round(x( $geometry ), 6),', ',round(y( $geometry ), 6))

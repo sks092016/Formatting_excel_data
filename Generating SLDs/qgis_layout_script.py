@@ -13,9 +13,10 @@ from qgis.PyQt.QtGui import QFont, QColor
 from qgis.PyQt.QtCore import Qt
 import os
 import json
+from pathlib import Path
 
-district_name = 'GUNA'
-block_name = 'GUNA'
+district_name = 'VIDISHA'
+block_name = 'BASODA'
 
 # --- Settings ---
 file_path = "/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details.json"
@@ -23,8 +24,10 @@ with open(file_path, "r", encoding="utf-8") as f:
     span_dict = json.load(f)
 
 layer_name = "RoW Authorities"  # Name of the layer in QGIS
-output_folder = "/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs"
+output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
 end_point_layer = "output_points"
+block_dir = Path(output_folder)
+block_dir.mkdir(exist_ok=True)
 
 # Ensure output folder exists
 os.makedirs(output_folder, exist_ok=True)
@@ -243,8 +246,12 @@ for span in unique_spans:
     layout.addLayoutItem(picture)
 
     # --- Export PDF ---
+    ring_folder = f"{output_folder}/{ring}"
+    ring_dir = Path(ring_folder)
+    ring_dir.mkdir(exist_ok=True)
+
     exporter = QgsLayoutExporter(layout)
-    pdf_path = os.path.join(output_folder, f"{span}.pdf")
+    pdf_path = os.path.join(ring_folder, f"{ring}-{span_id}-{span}.pdf")
     result = exporter.exportToPdf(pdf_path, QgsLayoutExporter.PdfExportSettings())
     if result == QgsLayoutExporter.Success:
         print(f"✅ Exported {pdf_path}")
