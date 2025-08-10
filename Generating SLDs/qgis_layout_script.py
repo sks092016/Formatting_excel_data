@@ -257,6 +257,8 @@ for span in unique_spans:
         print(f"✅ Exported {pdf_path}")
     else:
         print(f"❌ Failed to export {pdf_path}")
+    break
 # Reset filter
 layer.setSubsetString("")
+vertices_layer.setSubsetString("")
 
