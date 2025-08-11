@@ -5,7 +5,7 @@ from qgis.core import (
 )
 from qgis.core import (
     QgsLayoutItemTextTable, QgsLayoutTableColumn, QgsLayoutTable,QgsLayoutItemPicture,
-    QgsLayoutPoint, QgsLayoutSize, QgsUnitTypes, QgsLayoutFrame, QgsLayoutMeasurement, QgsLayoutItemScaleBar
+    QgsLayoutPoint, QgsLayoutSize, QgsUnitTypes, QgsLayoutFrame, QgsLayoutMeasurement, QgsLayoutItemScaleBar, Qgis
 )
 from PyQt5.QtGui import QColor
 from PyQt5.QtCore import Qt
@@ -19,12 +19,14 @@ district_name = 'VIDISHA'
 block_name = 'BASODA'
 
 # --- Settings ---
-file_path = "/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details.json"
+#file_path = "/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details.json"
+file_path = "C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\output\\span_details.json"
 with open(file_path, "r", encoding="utf-8") as f:
     span_dict = json.load(f)
 
 layer_name = "RoW Authorities"  # Name of the layer in QGIS
-output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
+#output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
+output_folder = f"D:\\bharat_net_data\slds\\{block_name}"
 end_point_layer = "output_points"
 block_dir = Path(output_folder)
 block_dir.mkdir(exist_ok=True)
@@ -240,24 +242,30 @@ for span in unique_spans:
 
     # --- North Arrow (as SVG Picture) ---
     picture = QgsLayoutItemPicture(layout)
-    picture.setPicturePath("/Users/subhashsoni/Formatting_excel_data/Generating SLDs/North/north_simple.svg")
+    picture.setPicturePath("C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\\North\\north_simple.svg")
     picture.setFixedSize(QgsLayoutSize(10, 10, QgsUnitTypes.LayoutMillimeters))
     picture.attemptMove(QgsLayoutPoint(page_width - 15, page_height-15, QgsUnitTypes.LayoutMillimeters))
     layout.addLayoutItem(picture)
 
     # --- Export PDF ---
-    ring_folder = f"{output_folder}/{ring}"
+    ring_folder = f"{output_folder}\\{ring}"
     ring_dir = Path(ring_folder)
     ring_dir.mkdir(exist_ok=True)
+    
+    pdf_settings = QgsLayoutExporter.PdfExportSettings()
+    pdf_settings.forceVectorOutput = False  # Avoid converting text to outlines
+    pdf_settings.exportMetadata = True
+    pdf_settings.rasterizeWholeImage = False  # Don't rasterize
+    pdf_settings.simplifyGeometries = False  # Keep geometry intact
+    pdf_settings.textRenderFormat = Qgis.TextRenderFormat.AlwaysText
 
     exporter = QgsLayoutExporter(layout)
     pdf_path = os.path.join(ring_folder, f"{ring}-{span_id}-{span}.pdf")
-    result = exporter.exportToPdf(pdf_path, QgsLayoutExporter.PdfExportSettings())
+    result = exporter.exportToPdf(pdf_path, pdf_settings)
     if result == QgsLayoutExporter.Success:
         print(f"✅ Exported {pdf_path}")
     else:
         print(f"❌ Failed to export {pdf_path}")
-    break
 # Reset filter
 layer.setSubsetString("")
 vertices_layer.setSubsetString("")
