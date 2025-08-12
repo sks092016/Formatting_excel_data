@@ -27,20 +27,6 @@ def merge_consecutive(group):
     ring = ''
 
     for row in group.itertuples():
-        # if current_auth == row.road_autho:
-        #     # Extend current line (merge consecutive segments)
-        #     if list(current_geom.coords)[-1] == list(row.geometry.coords)[0]:
-        #         coords = list(current_geom.coords) + list(row.geometry.coords)[1:]
-        #         current_geom = LineString(coords)
-        #     elif list(current_geom.coords)[0] == list(row.geometry.coords)[0]:
-        #         coords = list(current_geom.coords)[-1:] + list(row.geometry.coords)[1:]
-        #         current_geom = LineString(coords)
-        #     elif list(current_geom.coords)[-1] == list(row.geometry.coords)[-1]:
-        #         coords = list(current_geom.coords) + list(row.geometry.coords)[-2:]
-        #         current_geom = LineString(coords)
-        #     else:
-        #         coords = list(current_geom.coords) + list(row.geometry.coords)[1:]
-        #         current_geom = LineString(coords)
         if current_auth == row.road_autho:
             new_geom = row.geometry
             if current_geom.coords[-1] == new_geom.coords[0]:
