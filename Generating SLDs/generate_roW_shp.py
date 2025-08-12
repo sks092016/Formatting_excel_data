@@ -27,9 +27,42 @@ def merge_consecutive(group):
     ring = ''
 
     for row in group.itertuples():
+        # if current_auth == row.road_autho:
+        #     # Extend current line (merge consecutive segments)
+        #     if list(current_geom.coords)[-1] == list(row.geometry.coords)[0]:
+        #         coords = list(current_geom.coords) + list(row.geometry.coords)[1:]
+        #         current_geom = LineString(coords)
+        #     elif list(current_geom.coords)[0] == list(row.geometry.coords)[0]:
+        #         coords = list(current_geom.coords)[-1:] + list(row.geometry.coords)[1:]
+        #         current_geom = LineString(coords)
+        #     elif list(current_geom.coords)[-1] == list(row.geometry.coords)[-1]:
+        #         coords = list(current_geom.coords) + list(row.geometry.coords)[-2:]
+        #         current_geom = LineString(coords)
+        #     else:
+        #         coords = list(current_geom.coords) + list(row.geometry.coords)[1:]
+        #         current_geom = LineString(coords)
         if current_auth == row.road_autho:
-            # Extend current line (merge consecutive segments)
-            coords = list(current_geom.coords) + list(row.geometry.coords)[1:]
+            new_geom = row.geometry
+            if current_geom.coords[-1] == new_geom.coords[0]:
+                # Case 1: Already aligned (end-to-start)
+                pass
+            elif current_geom.coords[-1] == new_geom.coords[-1]:
+                # Case 2: Reverse new so end matches start
+                new_geom = LineString(list(new_geom.coords)[::-1])
+            elif current_geom.coords[0] == new_geom.coords[-1]:
+                # Case 3: Reverse current so start matches end
+                current_geom = LineString(list(current_geom.coords)[::-1])
+            elif current_geom.coords[0] == new_geom.coords[0]:
+                # Case 4: Reverse both so they align
+                current_geom = LineString(list(current_geom.coords)[::-1])
+                new_geom = LineString(list(new_geom.coords)[::-1])
+            else:
+                # No match → skip or handle separately
+                print("No match found:")
+                print(new_geom)
+                print(current_geom)
+                continue
+            coords = list(current_geom.coords) + list(new_geom.coords)[1:]
             current_geom = LineString(coords)
         else:
             # Save previous block before switching

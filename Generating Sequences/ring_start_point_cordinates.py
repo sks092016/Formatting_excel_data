@@ -32,8 +32,8 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Mahidpur/mahidpur_gps.shp"
-segments_shape_file = "References/Mahidpur/Mahidpur.shp"
+gps_shape_file = "References/Guna/gp.shp"
+segments_shape_file = "References/Guna/gunaa/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 

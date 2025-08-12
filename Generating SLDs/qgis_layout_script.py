@@ -15,18 +15,18 @@ import os
 import json
 from pathlib import Path
 
-district_name = 'VIDISHA'
-block_name = 'BASODA'
+district_name = 'GUNA'
+block_name = 'GUNA'
 
 # --- Settings ---
-file_path = "/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details.json"
-# file_path = "C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\output\\span_details.json"
+#file_path = "/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details.json"
+file_path = "C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\output\\span_details.json"
 with open(file_path, "r", encoding="utf-8") as f:
     span_dict = json.load(f)
 
 layer_name = "RoW Authorities"  # Name of the layer in QGIS
-output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
-# output_folder = f"D:\\bharat_net_data\slds\\{block_name}"
+#output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
+output_folder = f"D:\\bharat_net_data\slds\\{block_name}"
 end_point_layer = "output_points"
 block_dir = Path(output_folder)
 block_dir.mkdir(exist_ok=True)
@@ -197,7 +197,7 @@ for span in unique_spans:
     frame = QgsLayoutFrame(layout, table_row)
     frame.setFixedSize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
     frame.attemptResize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
-    frame.attemptMove(QgsLayoutPoint(3, 60, QgsUnitTypes.LayoutMillimeters))
+    frame.attemptMove(QgsLayoutPoint(3, 50, QgsUnitTypes.LayoutMillimeters))
     table_row.addFrame(frame)
     table_row.update()
     layout.refresh()
@@ -214,16 +214,16 @@ for span in unique_spans:
     legend.setStyleFont(QgsLegendStyle.Subgroup, label_font)
     legend.setStyleFont(QgsLegendStyle.SymbolLabel, label_font)
     legend.setSymbolWidth(10)  # mm
-    legend.setSymbolHeight(5)  # mm
+    legend.setSymbolHeight(3)  # mm
     legend.setFrameEnabled(True)  # Draw border
     legend.setFrameStrokeWidth(QgsLayoutMeasurement(0.5, QgsUnitTypes.LayoutMillimeters))  # Thin border
     legend.setFrameStrokeColor(QColor(50, 50, 50))  # Dark gray
     legend.setBackgroundColor(QColor(255, 255, 255, 220))  # Semi-transparent white
-    legend.setBoxSpace(5.0)  # Padding inside legend box
-    legend.setColumnSpace(5.0)  # Space between columns
+    legend.setBoxSpace(2.0)  # Padding inside legend box
+    legend.setColumnSpace(2.0)  # Space between columns
     frame.attemptResize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
     # legend.adjustBoxSize()
-    legend.attemptMove(QgsLayoutPoint(3, 100, QgsUnitTypes.LayoutMillimeters))
+    legend.attemptMove(QgsLayoutPoint(3, 95, QgsUnitTypes.LayoutMillimeters))
     layout.addLayoutItem(legend)
     layout.refresh()
     # --- Scale Bar ---
@@ -242,10 +242,10 @@ for span in unique_spans:
 
     # --- North Arrow (as SVG Picture) ---
     picture = QgsLayoutItemPicture(layout)
-    # picture.setPicturePath("C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\\North\\north_simple.svg")
+    #picture.setPicturePath("C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\\North\\north_simple.svg")
     picture.setPicturePath("/Users/subhashsoni/Formatting_excel_data/Generating SLDs/North/north_simple.svg")
     picture.setFixedSize(QgsLayoutSize(10, 10, QgsUnitTypes.LayoutMillimeters))
-    picture.attemptMove(QgsLayoutPoint(page_width - 15, page_height-15, QgsUnitTypes.LayoutMillimeters))
+    picture.attemptMove(QgsLayoutPoint(page_width - 15, page_height-10, QgsUnitTypes.LayoutMillimeters))
     layout.addLayoutItem(picture)
 
     # --- Export PDF ---

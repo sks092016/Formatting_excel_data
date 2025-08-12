@@ -8,6 +8,7 @@ update_field = "road_autho"    # Field whose value you update
 # Mapping: if category == key, replace description with value
 replacement_map = {
     "Existing_OK": "Brown Field",
+    "Existing_To Be Replacement" : "Brown Field"
 }
 
 # --- SCRIPT ---
