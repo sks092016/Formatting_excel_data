@@ -1,0 +1,736 @@
+{
+    "PAGARA TO JHIRANYA UNHEL": {
+        "PMGSY": 15121.573999983993,
+        "Ring": "R2-C1",
+        "Span_id": "004"
+    },
+    "CHHITARDEVI TO GUDHA": {
+        "PMGSY": 5696.201302757712,
+        "SH-26B": 145.7432467896892,
+        "Ring": "R2-C1",
+        "Span_id": "002"
+    },
+    "GUDHA TO PAGARA": {
+        "PMGSY": 1722.5758165333773,
+        "SH-26B": 3172.1199674248546,
+        "Ring": "R2-C1",
+        "Span_id": "003"
+    },
+    "BANI TO NIPANIYABADAR": {
+        "PMGSY": 4986.487535574655,
+        "Ring": "R4",
+        "Span_id": "002"
+    },
+    "SAGWALI TO SEMALYA": {
+        "PMGSY": 7818.438517023148,
+        "Ring": "R1",
+        "Span_id": "009"
+    },
+    "SEMALYA TO MAHIDPUR BLOCK": {
+        "PMGSY": 10284.53367510128,
+        "Ring": "R1",
+        "Span_id": "010"
+    },
+    "BARUKHEDI TO TARNOD": {
+        "PMGSY": 9939.8280968422,
+        "Ring": "R1",
+        "Span_id": "007"
+    },
+    "GOGAPUR TO BAPAIYA": {
+        "MDR": 8.462216791513981,
+        "PMGSY": 5396.8278293666535,
+        "PWD": 1257.4943511783276,
+        "Ring": "R1-C1",
+        "Span_id": "003"
+    },
+    "KANAKHEDI EAKLASPUR TO GOGAPUR": {
+        "PMGSY": 3969.666310646927,
+        "PWD": 597.0581809156384,
+        "Ring": "R1-C1",
+        "Span_id": "002"
+    },
+    "T POINT SAGWALI TO ISANKHADI": {
+        "PMGSY": 3293.9426460417235,
+        "Ring": "R1",
+        "Span_id": "011"
+    },
+    "DELCHIKHURD TO BANJARI": {
+        "PMGSY": 3885.4193543383635,
+        "Ring": "R1",
+        "Span_id": "004"
+    },
+    "HARBAKHEDI TO DELCHIKHURD": {
+        "PMGSY": 3980.601143270863,
+        "Ring": "R1",
+        "Span_id": "003"
+    },
+    "DELCHIBUZURG TO BARUKHEDI": {
+        "PMGSY": 4533.8879785078625,
+        "Ring": "R1",
+        "Span_id": "006"
+    },
+    "MAHIDPUR BLOCK TO BANI": {
+        "PMGSY": 6247.9527662743385,
+        "Ring": "R4",
+        "Span_id": "001"
+    },
+    "PARWATKHEDA TO HARBAKHEDI": {
+        "PMGSY": 4757.862752209266,
+        "Ring": "R1",
+        "Span_id": "002"
+    },
+    "AKYAKOLI TO NARAYANKHEDI": {
+        "PMGSY": 2925.211382129177,
+        "Ring": "R6",
+        "Span_id": "010"
+    },
+    "BANJARI TO DELCHIBUZURG": {
+        "PMGSY": 4340.63339626186,
+        "Ring": "R1",
+        "Span_id": "005"
+    },
+    "NARAYANKHEDI TO MAHIDPUR BLOCK": {
+        "PMGSY": 2707.124789105074,
+        "Ring": "R6",
+        "Span_id": "012"
+    },
+    "BORKHEDA PITRAMAL TO AKYAKOLI": {
+        "PMGSY": 3429.67586889952,
+        "Ring": "R6",
+        "Span_id": "009"
+    },
+    "CHITAWAD TO MUDLAPARWAL": {
+        "PMGSY": 3193.300601080663,
+        "Ring": "R6",
+        "Span_id": "002"
+    },
+    "MUDLAPARWAL TO HEEDI": {
+        "PMGSY": 2963.371866291507,
+        "Ring": "R6",
+        "Span_id": "003"
+    },
+    "MAHIDPUR BLOCK TO PARWATKHEDA": {
+        "PMGSY": 5274.101809724398,
+        "PMGSY_Forest": 846.4935350260556,
+        "Ring": "R1",
+        "Span_id": "001"
+    },
+    "MAHIDPUR BLOCK TO CHITAWAD": {
+        "PMGSY": 7007.132593883991,
+        "Ring": "R6",
+        "Span_id": "001"
+    },
+    "HEEDI TO ANTRALIYA": {
+        "PMGSY": 3107.410860018413,
+        "Ring": "R6",
+        "Span_id": "004"
+    },
+    "GURADIYA PITRAMAL TO RANI PIPLEEYA": {
+        "PMGSY": 8904.115799326673,
+        "Ring": "R6",
+        "Span_id": "007"
+    },
+    "RANI PIPLEEYA TO BORKHEDA PITRAMAL": {
+        "PMGSY": 2701.3605833703386,
+        "Ring": "R6",
+        "Span_id": "008"
+    },
+    "DHULET TO MAHIDPUR BLOCK": {
+        "PMGSY": 4111.681707255445,
+        "PWD": 215.53428536227054,
+        "Ring": "R2",
+        "Span_id": "011"
+    },
+    "KADHAI TO DHULET": {
+        "PMGSY": 1262.6028331396935,
+        "PWD": 54.123539340308824,
+        "Ring": "R2",
+        "Span_id": "010"
+    },
+    "HATAI TO GURADIYA PITRAMAL": {
+        "PMGSY": 3600.374187748321,
+        "SH-65": 811.6973247183108,
+        "Ring": "R6-C1",
+        "Span_id": "009"
+    },
+    "ANTRALIYA TO JALODIYA UNEHEL": {
+        "PMGSY": 5724.123112163024,
+        "Ring": "R6",
+        "Span_id": "005"
+    },
+    "T-POINT ANTRALIYA TO BARKHEDA MADAN": {
+        "PMGSY": 4287.992608867433,
+        "Ring": "R6-C1",
+        "Span_id": "001"
+    },
+    "BARKHEDA MADAN TO PANKHEDI": {
+        "PMGSY": 2771.6694715880885,
+        "Ring": "R6-C1",
+        "Span_id": "002"
+    },
+    "JALODIYA UNEHEL TO GURADIYA PITRAMAL": {
+        "PMGSY": 2960.525295056261,
+        "Ring": "R6",
+        "Span_id": "006"
+    },
+    "GURADIYA SANGHA TO KADHAI": {
+        "PWD": 3681.8934972072125,
+        "Ring": "R2",
+        "Span_id": "009"
+    },
+    "PANKHEDI TO SARWANA UNEHEL": {
+        "PWD": 6462.739911720176,
+        "Ring": "R6-C1",
+        "Span_id": "003"
+    },
+    "PIPLYA SARANG TO GURADIYA SANGHA": {
+        "PMGSY": 6734.334764290473,
+        "PWD": 2586.386348535014,
+        "Ring": "R2",
+        "Span_id": "008"
+    },
+    "SARWANA UNEHEL TO DHOOMAHEDA": {
+        "PMGSY": 7668.733053967927,
+        "Ring": "R6-C1",
+        "Span_id": "004"
+    },
+    "PIPLYA MOLU TO HATAI": {
+        "PMGSY": 4774.911940740112,
+        "Ring": "R6-C1",
+        "Span_id": "008"
+    },
+    "ALOT JAGIR TO KARNAVAD": {
+        "PMGSY": 260.34129670162076,
+        "PWD": 2583.8043232329487,
+        "Ring": "R2-C1",
+        "Span_id": "006"
+    },
+    "JHIRANYA UNHEL TO ALOT JAGIR": {
+        "PMGSY": 2956.349672799018,
+        "PWD": 480.2494063637047,
+        "Ring": "R2-C1",
+        "Span_id": "005"
+    },
+    "DHOOMAHEDA TO DALLAHEDA": {
+        "PMGSY": 2949.026274207715,
+        "Ring": "R6-C1",
+        "Span_id": "005"
+    },
+    "DALLAHEDA TO MALIKHEDI": {
+        "PMGSY": 7121.656962943105,
+        "Ring": "R6-C1",
+        "Span_id": "006"
+    },
+    "KARNAVAD TO T POINT GURADIYA": {
+        "PMGSY": 794.7234179003082,
+        "Ring": "R2-C1",
+        "Span_id": "007"
+    },
+    "PIPLYA SARANG TO CHHITARDEVI": {
+        "PMGSY": 2751.4664484306363,
+        "PWD": 377.35770843930493,
+        "Ring": "R2-C1",
+        "Span_id": "001"
+    },
+    "MALIKHEDI TO PIPLYA MOLU": {
+        "PMGSY": 3583.2758994451724,
+        "SH-65": 2138.5840813320574,
+        "Ring": "R6-C1",
+        "Span_id": "007"
+    },
+    "DHANDA BHALLA TO PIPLYA SARANG": {
+        "PMGSY": 2689.51637977991,
+        "Ring": "R2",
+        "Span_id": "007"
+    },
+    "MELAKHEDI TO GHATIYA SAINDAS": {
+        "PMGSY": 2566.6734413576005,
+        "Ring": "R4-C1",
+        "Span_id": "002"
+    },
+    "BRAHMAN KHEDA TO JHUTAWAD": {
+        "PMGSY": 6025.417006087831,
+        "Ring": "R1-C1",
+        "Span_id": "007"
+    },
+    "PETLAWAD TO BRAHMAN KHEDA": {
+        "PMGSY": 362.0785976599153,
+        "PWD": 1284.776098817044,
+        "Ring": "R1-C1",
+        "Span_id": "006"
+    },
+    "GHATPIPLIYA TO RANAYRAPEER": {
+        "PMGSY": 2887.6679704314574,
+        "Ring": "R4",
+        "Span_id": "009"
+    },
+    "GOGAKHEDA TO GHATPIPLIYA": {
+        "PMGSY": 4444.191917873992,
+        "Ring": "R4",
+        "Span_id": "008"
+    },
+    "DUNGARIYA TO PIPLYABHIM": {
+        "PMGSY": 4144.811133432429,
+        "Ring": "R1-C1",
+        "Span_id": "009"
+    },
+    "JHUTAWAD TO DUNGARIYA": {
+        "PMGSY": 3336.9715805725214,
+        "Ring": "R1-C1",
+        "Span_id": "008"
+    },
+    "PIPLYABHIM TO T-POINT SAGWALI": {
+        "PMGSY": 9300.841674676061,
+        "Ring": "R1-C1",
+        "Span_id": "010"
+    },
+    "DHABLASIYA TO GOGAKHEDA": {
+        "PMGSY": 6490.287481934418,
+        "Ring": "R4",
+        "Span_id": "007"
+    },
+    "KOYAL TO PETLAWAD": {
+        "PWD": 2211.5011185833064,
+        "Ring": "R1-C1",
+        "Span_id": "005"
+    },
+    "KANTHARIYA TO DHABLASIYA": {
+        "PMGSY": 4946.386816368385,
+        "Ring": "R4",
+        "Span_id": "006"
+    },
+    "BAPAIYA TO KOYAL": {
+        "PMGSY": 2642.9450344360503,
+        "Ring": "R1-C1",
+        "Span_id": "004"
+    },
+    "TAROT TO KANTHARIYA": {
+        "PMGSY": 7101.957055627135,
+        "PWD": 2832.3763985161672,
+        "Ring": "R4",
+        "Span_id": "005"
+    },
+    "T POINT SAGWALI TO BAVALYA": {
+        "PMGSY": 1280.4924988928663,
+        "Ring": "R1-C1",
+        "Span_id": "011"
+    },
+    "TARNOD TO KANAKHEDI EAKLASPUR": {
+        "PMGSY": 3109.484564588493,
+        "Ring": "R1-C1",
+        "Span_id": "001"
+    },
+    "TARNOD TO SAGWALI": {
+        "PMGSY": 3065.4568487605957,
+        "Ring": "R1",
+        "Span_id": "008"
+    },
+    "GELAKHEDI TO JHARDA": {
+        "MDR": 2153.5337304486247,
+        "PWD": 1593.0709680889056,
+        "Ring": "R3",
+        "Span_id": "005"
+    },
+    "KHORIYAPADMA TO NEEMKHEDA": {
+        "PMGSY": 5503.868880805934,
+        "Ring": "R3",
+        "Span_id": "009"
+    },
+    "NAGPURA TO GELAKHEDI": {
+        "PWD": 2999.009573075733,
+        "Ring": "R3",
+        "Span_id": "004"
+    },
+    "NALKEDA TO KHORIYAPADMA": {
+        "PMGSY": 3016.260041798422,
+        "Ring": "R3",
+        "Span_id": "008"
+    },
+    "T-POINT DONGARKHEDA TO LASUDIYA NAHTA": {
+        "PMGSY": 3094.1735534721606,
+        "Ring": "R3",
+        "Span_id": "020"
+    },
+    "NIPANIYABADAR TO KACHARIYA": {
+        "PMGSY": 2257.1584156824347,
+        "PWD": 1218.3262970683538,
+        "Ring": "R4",
+        "Span_id": "003"
+    },
+    "JODMALAKHA TO LASUDIYA MANSOOR": {
+        "PMGSY": 4870.962165204594,
+        "Ring": "R4",
+        "Span_id": "013"
+    },
+    "PADLIYA TO JODMALAKHA": {
+        "PMGSY": 2258.103732381766,
+        "Ring": "R4",
+        "Span_id": "012"
+    },
+    "LASUDIYA MANSOOR TO KHORIYASUMRA": {
+        "PMGSY": 4295.1996557767025,
+        "Ring": "R4",
+        "Span_id": "014"
+    },
+    "BAGANI TO DUNGARKHEDI": {
+        "PMGSY": 3890.26207815383,
+        "PWD": 4360.1585523869235,
+        "Ring": "R3",
+        "Span_id": "015"
+    },
+    "GHATIYA JASSA TO KHEDAMADDA": {
+        "PMGSY": 4332.889628521103,
+        "Ring": "R3",
+        "Span_id": "011"
+    },
+    "KASON TO DONGARKHEDA": {
+        "PMGSY": 4449.771736865509,
+        "Ring": "R3",
+        "Span_id": "013"
+    },
+    "KHEDAMADDA TO KASON": {
+        "PMGSY": 693.1336140126538,
+        "Ring": "R3",
+        "Span_id": "012"
+    },
+    "GURADIYADASA TO NAGPURA": {
+        "PMGSY": 2323.927208697122,
+        "PWD": 1922.4809781133451,
+        "Ring": "R3",
+        "Span_id": "003"
+    },
+    "DUNGARKHEDI TO NIPANIYARAJU": {
+        "NH-752D": 51.1854544508753,
+        "PMGSY": 5749.805999084221,
+        "Ring": "R3",
+        "Span_id": "016"
+    },
+    "DONGARKHEDA TO BAGANI": {
+        "PMGSY": 639.225616141703,
+        "PWD": 2119.827696138144,
+        "Ring": "R3",
+        "Span_id": "014"
+    },
+    "MAHIDPUR BLOCK TO AKYALIMBA": {
+        "PMGSY": 9184.98282795015,
+        "Ring": "R3",
+        "Span_id": "001"
+    },
+    "AKYALIMBA TO GURADIYADASA": {
+        "PMGSY": 3287.7629994141043,
+        "Ring": "R3",
+        "Span_id": "002"
+    },
+    "AZMABAD TO BAIJNATH": {
+        "PMGSY": 3486.1202932237643,
+        "PWD": 1172.0651024294882,
+        "Ring": "R3",
+        "Span_id": "018"
+    },
+    "NIPANIYARAJU TO AZMABAD": {
+        "PMGSY": 1013.951049655958,
+        "PWD": 1258.1730493786217,
+        "Ring": "R3",
+        "Span_id": "017"
+    },
+    "DHANODIYA TO ALAKHEDA": {
+        "MDR": 1762.1806322376667,
+        "PMGSY": 4350.555856600331,
+        "Ring": "R5-C1",
+        "Span_id": "003"
+    },
+    "KHORIYASUMRA TO MAHIDPUR BLOCK": {
+        "PMGSY": 6387.2728058612465,
+        "Ring": "R4",
+        "Span_id": "015"
+    },
+    "ALAKHEDA TO KAMALYAKHEDI": {
+        "PMGSY": 2201.971157557929,
+        "PWD": 1059.169292089564,
+        "Ring": "R5-C1",
+        "Span_id": "004"
+    },
+    "KALLAPIPALYA TO PADIKHEDA": {
+        "PMGSY": 9773.35516260174,
+        "Ring": "R5-C1",
+        "Span_id": "006"
+    },
+    "KAMALYAKHEDI TO KALLAPIPALYA": {
+        "PMGSY": 249.39094582062714,
+        "PWD": 2064.141993738731,
+        "Ring": "R5-C1",
+        "Span_id": "005"
+    },
+    "SUHAGPURA TO DHANODIYA": {
+        "NH-752D": 33.57335556976543,
+        "PMGSY": 5029.200621487272,
+        "Ring": "R5-C1",
+        "Span_id": "002"
+    },
+    "BAIJNATH TO MAHIDPUR BLOCK": {
+        "PMGSY": 8259.495727977825,
+        "Ring": "R3",
+        "Span_id": "019"
+    },
+    "T POINT DHABLIKAMMA TO SUHAGPURA": {
+        "PMGSY": 2132.1814830448366,
+        "Ring": "R5-C1",
+        "Span_id": "001"
+    },
+    "BHIMAKHEDA TO KAJIKHEDI": {
+        "PMGSY": 1642.7007932617034,
+        "Ring": "R5",
+        "Span_id": "002"
+    },
+    "KAJIKHEDI TO DHABLIKAMMA": {
+        "PMGSY": 4496.98858234954,
+        "Ring": "R5",
+        "Span_id": "003"
+    },
+    "MAHIDPUR BLOCK TO BHIMAKHEDA": {
+        "PMGSY": 1359.9382102807028,
+        "Ring": "R5",
+        "Span_id": "001"
+    },
+    "DHABLIKAMMA TO JAWASIYAPANTH": {
+        "PMGSY": 2852.6913969154434,
+        "Ring": "R5",
+        "Span_id": "004"
+    },
+    "KHEDAKHAJURIYA TO JAWASIYAPANTH": {
+        "NH-752D": 592.0526348374041,
+        "PMGSY": 6698.130037435405,
+        "Ring": "R5-C1",
+        "Span_id": "009"
+    },
+    "PADIKHEDA TO PIPLYA NATH": {
+        "NH-752D": 63.81269234596539,
+        "PMGSY": 2688.1024931004713,
+        "Ring": "R5-C1",
+        "Span_id": "007"
+    },
+    "PIPLYA NATH TO KHEDAKHAJURIYA": {
+        "NH-752D": 44.152457619405475,
+        "PMGSY": 2935.0008046749535,
+        "Ring": "R5-C1",
+        "Span_id": "008"
+    },
+    "JAWASIYAPANTH TO ITAWA": {
+        "PMGSY": 2947.469186513286,
+        "Ring": "R5",
+        "Span_id": "005"
+    },
+    "SEKAKHEDI TO MAHIDPUR BLOCK": {
+        "PMGSY": 3569.0651233099725,
+        "Ring": "R5",
+        "Span_id": "011"
+    },
+    "MAHIDPUR BLOCK TO LAKHAKHEDI NAHARPUR": {
+        "PMGSY": 3545.7410569260655,
+        "Ring": "R2",
+        "Span_id": "001"
+    },
+    "BINPURA TO DHARAKHEDA": {
+        "PMGSY": 4212.437152975126,
+        "Ring": "R5",
+        "Span_id": "009"
+    },
+    "BISALKHEDI TO BINPURA": {
+        "PMGSY": 3331.770383217068,
+        "Ring": "R5",
+        "Span_id": "008"
+    },
+    "DHARAKHEDA TO SEKAKHEDI": {
+        "PMGSY": 5905.177605804313,
+        "Ring": "R5",
+        "Span_id": "010"
+    },
+    "SEKAKHEDI TO LAKHAKHEDI NAHARPUR": {
+        "PMGSY": 927.4850079685834,
+        "PWD": 1935.0094284218992,
+        "Ring": "R2",
+        "Span_id": "002"
+    },
+    "DONGLA TO BISALKHEDI": {
+        "PMGSY": 3968.0763899516037,
+        "Ring": "R5",
+        "Span_id": "007"
+    },
+    "ITAWA TO DONGLA": {
+        "PMGSY": 1476.7021195741902,
+        "Ring": "R5",
+        "Span_id": "006"
+    },
+    "LAKHAKHEDI NAHARPUR TO MAHU": {
+        "PWD": 2526.3525126347486,
+        "Ring": "R2",
+        "Span_id": "003"
+    },
+    "MAHU TO NARAYANA": {
+        "PWD": 3810.919026078976,
+        "Ring": "R2",
+        "Span_id": "004"
+    },
+    "NARAYANA TO PIPALYAHAMA": {
+        "PMGSY": 5252.374354447249,
+        "PWD": 75.78911255983704,
+        "Ring": "R2",
+        "Span_id": "005"
+    },
+    "T-POINT NARAYANA TO BALODA": {
+        "PMGSY": 1096.4626711815358,
+        "PWD": 1595.7896256641982,
+        "Ring": "R2",
+        "Span_id": "012"
+    },
+    "PIPALYAHAMA TO DHANDA BHALLA": {
+        "PMGSY": 2290.6021700397637,
+        "Ring": "R2",
+        "Span_id": "006"
+    },
+    "BANSINGH TO MAHUDIYA": {
+        "PMGSY": 13706.327944285205,
+        "Ring": "R3-C1",
+        "Span_id": "006"
+    },
+    "BHADWA TO MALYA": {
+        "PMGSY": 4389.601510796161,
+        "Ring": "R4-C1",
+        "Span_id": "004"
+    },
+    "MALYA TO TIPUKHEDA": {
+        "PMGSY": 580.2108483688639,
+        "PWD": 2304.0846386379058,
+        "Ring": "R4-C1",
+        "Span_id": "005"
+    },
+    "TIPUKHEDA TO MUNDLASONDHYA": {
+        "PMGSY": 2589.2425424976655,
+        "Ring": "R4-C1",
+        "Span_id": "006"
+    },
+    "INDOKH TO BANSINGH": {
+        "PMGSY": 3542.9771128356942,
+        "Ring": "R3-C1",
+        "Span_id": "005"
+    },
+    "PATAKEDI TO INDOKH": {
+        "PMGSY": 4899.898901718591,
+        "Ring": "R3-C1",
+        "Span_id": "004"
+    },
+    "MUNDLASONDHYA TO LOTIYAJUNARDA": {
+        "PMGSY": 3262.4231723635294,
+        "Ring": "R4-C1",
+        "Span_id": "007"
+    },
+    "GHATIYA SAINDAS TO BHADWA": {
+        "PMGSY": 3296.7044183809517,
+        "Ring": "R4-C1",
+        "Span_id": "003"
+    },
+    "BOLKEDANAU TO KARADIYAMANPUR": {
+        "PMGSY": 2981.7290025730886,
+        "PWD": 6979.078231666023,
+        "Ring": "R3-C1",
+        "Span_id": "008"
+    },
+    "MAHUDIYA TO BOLKEDANAU": {
+        "PMGSY": 1153.7339428027165,
+        "PWD": 2003.3533234843949,
+        "Ring": "R3-C1",
+        "Span_id": "007"
+    },
+    "ASADI TO SHRAWAN": {
+        "Grampanchayat": 157.84946444574675,
+        "PMGSY": 1948.4405782559006,
+        "Ring": "R4-C1",
+        "Span_id": "009"
+    },
+    "LOTIYAJUNARDA TO ASADI": {
+        "Grampanchayat": 153.97966435419517,
+        "PMGSY": 4337.911252629069,
+        "Ring": "R4-C1",
+        "Span_id": "008"
+    },
+    "SHRAWAN TO T POINT RANAYRAPEER": {
+        "PMGSY": 5598.884485426328,
+        "Ring": "R4-C1",
+        "Span_id": "010"
+    },
+    "RABDANIYA TO PATAKEDI": {
+        "PMGSY": 15.014174793188333,
+        "Ring": "R3-C1",
+        "Span_id": "003"
+    },
+    "MAKLA TO RABDANIYA": {
+        "PMGSY": 3966.594711229294,
+        "Ring": "R3-C1",
+        "Span_id": "002"
+    },
+    "RANAYRAPEER TO MELAKHEDI": {
+        "PMGSY": 2397.4721854956983,
+        "Ring": "R4-C1",
+        "Span_id": "001"
+    },
+    "RANAYRAPEER TO SAKRIYA": {
+        "PMGSY": 4528.843650854928,
+        "PWD": 7961.773962820019,
+        "Ring": "R4",
+        "Span_id": "010"
+    },
+    "T-POINT BAMNAYI TO MAKLA": {
+        "NH-752D": 5147.788655738537,
+        "PMGSY": 127.44353746712747,
+        "Ring": "R3-C1",
+        "Span_id": "001"
+    },
+    "KARADIYAMANPUR TO NAGGURADIYA": {
+        "PMGSY": 982.8751542103394,
+        "PWD": 2344.407241200516,
+        "Ring": "R3-C1",
+        "Span_id": "009"
+    },
+    "NAGGURADIYA TO KUNDIKHEDA": {
+        "PMGSY": 4533.21584078401,
+        "Ring": "R3-C1",
+        "Span_id": "010"
+    },
+    "SAKRIYA TO PADLIYA": {
+        "PMGSY": 7284.243449360384,
+        "Ring": "R4",
+        "Span_id": "011"
+    },
+    "T- POINT PADLIYA TO SUMRAKHEDA": {
+        "PMGSY": 2913.860460331749,
+        "Ring": "R4",
+        "Span_id": "016"
+    },
+    "BAMNAYI TO NALKEDA": {
+        "MDR": 233.37522798017926,
+        "NH-752D": 53.42653865449297,
+        "PMGSY": 1267.6378694567416,
+        "Ring": "R3",
+        "Span_id": "007"
+    },
+    "JHARDA TO BAMNAYI": {
+        "MDR": 3296.7734806072444,
+        "Ring": "R3",
+        "Span_id": "006"
+    },
+    "KACHARIYA TO TAROT": {
+        "PWD": 3158.327364519083,
+        "Ring": "R4",
+        "Span_id": "004"
+    },
+    "KUNDIKHEDA TO NALKEDA": {
+        "PMGSY": 5126.329442204599,
+        "Ring": "R3-C1",
+        "Span_id": "011"
+    },
+    "NEEMKHEDA TO GHATIYA JASSA": {
+        "PMGSY": 3069.544655464441,
+        "Ring": "R3",
+        "Span_id": "010"
+    }
+}

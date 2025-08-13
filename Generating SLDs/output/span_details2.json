@@ -1,0 +1,567 @@
+{
+    "T POIN SINGADHI TO GADA": {
+        "SH-23": 4033.827039659836,
+        "Ring": "R4",
+        "Span_id": "010"
+    },
+    "GUNA BLOCK TO RICHHERA": {
+        "Brown Field": 51.005757872097504,
+        "Grampanchyat": 6363.031473291214,
+        "NHAI": 45.21982315558211,
+        "PWD": 332.0956501066638,
+        "SH-20": 6658.216259338664,
+        "Ring": "R2",
+        "Span_id": "001"
+    },
+    "RICHHERA TO EMJHARA": {
+        "Brown Field": 11326.589097244538,
+        "Ring": "R2",
+        "Span_id": "002"
+    },
+    "PAGARA TO TORIYA": {
+        "Grampanchyat": 598.6392286433982,
+        "PMGSY": 5.194496685686332,
+        "SH-20": 3392.5830297328653,
+        "Ring": "R2",
+        "Span_id": "005"
+    },
+    "TORIYA TO MAVAN": {
+        "Brown Field": 273.37261449860245,
+        "Grampanchyat": 615.2963881791161,
+        "PMGSY": 124.8035446543416,
+        "SH-20": 3036.240822383273,
+        "Ring": "R2",
+        "Span_id": "006"
+    },
+    "PIPARIYA TO GUNA BLOCK": {
+        "Brown Field": 4306.333717513306,
+        "Grampanchyat": 14.710525521193988,
+        "PWD": 411.5039681841146,
+        "SH-20": 4158.2205622499405,
+        "Ring": "R1",
+        "Span_id": "016"
+    },
+    "SILAWATI TO PIPARIYA": {
+        "Grampanchyat": 4680.8691521233695,
+        "Ring": "R1",
+        "Span_id": "015"
+    },
+    "MAVAN TO PIPRODA KALAN": {
+        "Grampanchyat": 4602.10600295008,
+        "Ring": "R2",
+        "Span_id": "007"
+    },
+    "PIPRODA KALAN TO GUNA BLOCK": {
+        "Brown Field": 3288.6811315410246,
+        "Grampanchyat": 3017.4915477506884,
+        "PMGSY": 3533.789167471856,
+        "PWD": 369.1720848187159,
+        "SH-20": 716.835589598846,
+        "Ring": "R2",
+        "Span_id": "008"
+    },
+    "KAROD TO PARSODA": {
+        "Brown Field": 2133.065102020377,
+        "Grampanchyat": 3747.6584402359704,
+        "Ring": "R2-C1",
+        "Span_id": "003"
+    },
+    "PARSODA TO SIRSIKALAN": {
+        "Brown Field": 1480.6839238083196,
+        "Ring": "R2-C1",
+        "Span_id": "004"
+    },
+    "T POINTPARSODA TO DEVRIMAR": {
+        "Brown Field": 693.8795290412792,
+        "Grampanchyat": 373.7942100164862,
+        "Ring": "R2-C1",
+        "Span_id": "009"
+    },
+    "SIRSIKALAN TO BARKHEDA GIRD": {
+        "Brown Field": 4625.448532029922,
+        "Ring": "R2-C1",
+        "Span_id": "005"
+    },
+    "GOAPLPUR TALTAIYA TO SATANPUR": {
+        "Brown Field": 7799.01070143066,
+        "Ring": "R3",
+        "Span_id": "003"
+    },
+    "SATANPUR TO CHURAI": {
+        "Grampanchyat": 5364.3601227413665,
+        "PMGSY": 316.47717405350085,
+        "Ring": "R3",
+        "Span_id": "004"
+    },
+    "BARKHEDA GIRD TO GENHUKHEDA GIRD": {
+        "PMGSY": 3270.0295178468623,
+        "Ring": "R2-C1",
+        "Span_id": "006"
+    },
+    "GENHUKHEDA GIRD TO T-POINT PIPROADA KALAN": {
+        "Grampanchyat": 45.85751697441332,
+        "PMGSY": 5448.96517402401,
+        "Ring": "R2-C1",
+        "Span_id": "007"
+    },
+    "GUNA BLOCK TO KHEJRABABA": {
+        "Grampanchyat": 6488.675101747935,
+        "PWD": 396.0969975327607,
+        "SH-20": 752.9571593170479,
+        "Ring": "R3",
+        "Span_id": "001"
+    },
+    "KHEJRABABA TO GOAPLPUR TALTAIYA": {
+        "Brown Field": 4180.080582369139,
+        "Grampanchyat": 4403.535536884016,
+        "Ring": "R3",
+        "Span_id": "002"
+    },
+    "CHURAI TO TILLI KHEDA": {
+        "Grampanchyat": 63.69850932079728,
+        "PMGSY": 3153.3684586281147,
+        "Ring": "R3",
+        "Span_id": "005"
+    },
+    "TILLI KHEDA TO CHHIPON": {
+        "Brown Field": 2839.6642757885156,
+        "SH-23": 1493.0369250323367,
+        "Ring": "R3",
+        "Span_id": "006"
+    },
+    "T POINTCHHIPON TO DHURDHURU": {
+        "Brown Field": 2148.8504337914537,
+        "Ring": "R3",
+        "Span_id": "009"
+    },
+    "CHHIPON TO BAJRANGARH": {
+        "Brown Field": 403.63191201388844,
+        "SH-23": 3772.657646730143,
+        "SH-23_Forest": 7279.39851549132,
+        "Ring": "R3",
+        "Span_id": "007"
+    },
+    "GADLA GIRD TO T POINT BAJRANGARH": {
+        "Grampanchyat": 2545.0307563806305,
+        "Grampanchyat_Forest": 1427.18839436867,
+        "Ring": "R3-C1",
+        "Span_id": "012"
+    },
+    "VINAYAK KHEDI TO GADLA GIRD": {
+        "Brown Field": 6204.194387840322,
+        "Ring": "R3-C1",
+        "Span_id": "011"
+    },
+    "AGARA GP TO GUNA BLOCK": {
+        "Brown Field": 220.25304700734898,
+        "NHAI": 12532.475223737583,
+        "PMGSY_Forest": 8287.009989930099,
+        "PWD": 4052.263175647383,
+        "Ring": "R5",
+        "Span_id": "017"
+    },
+    "GUNA BLOCK TO BILONIA": {
+        "Brown Field": 5501.059482117228,
+        "Ring": "R1",
+        "Span_id": "001"
+    },
+    "PIPRODA KHURDA TO NEGMA GP": {
+        "NHAI": 1030.761757845571,
+        "PMGSY": 7428.809066048636,
+        "Ring": "R5",
+        "Span_id": "002"
+    },
+    "HARIPUR TO PURAPOSAR": {
+        "Brown Field": 209.0783604936875,
+        "Grampanchyat": 810.4281592331389,
+        "PMGSY": 3635.6354068988394,
+        "Ring": "R4",
+        "Span_id": "004"
+    },
+    "PURAPOSAR TO SAKHATPURA": {
+        "Grampanchyat": 816.4070489155479,
+        "PMGSY": 4449.385537642557,
+        "Ring": "R4",
+        "Span_id": "005"
+    },
+    "SINGADHI TO HARIPUR": {
+        "Brown Field": 296.8825340172791,
+        "PMGSY": 2557.602314453962,
+        "Ring": "R4",
+        "Span_id": "003"
+    },
+    "HILAGNA TO SINGADHI": {
+        "Grampanchyat": 156.49683554765537,
+        "NHAI": 1332.9277780321247,
+        "PMGSY": 2475.907844094973,
+        "SH-23": 3255.8161577472138,
+        "SH-23_Forest": 393.51516102075163,
+        "Ring": "R4",
+        "Span_id": "002"
+    },
+    "T POINT HILAGNA TO MAHUGADA": {
+        "Brown Field": 1482.726863366323,
+        "Ring": "R4",
+        "Span_id": "009"
+    },
+    "BAJRANGARH TO GUNA BLOCK": {
+        "PMGSY": 1314.4758249624938,
+        "PWD": 389.4877002050742,
+        "SH-20": 1341.5960838063452,
+        "SH-23": 6471.362702411683,
+        "Ring": "R3",
+        "Span_id": "008"
+    },
+    "GUNA BLOCK TO HILAGNA": {
+        "Brown Field": 2554.0134771657117,
+        "PWD": 386.1468901739297,
+        "SH-20": 1366.3828315084174,
+        "SH-23": 3972.9793550997492,
+        "Ring": "R4",
+        "Span_id": "001"
+    },
+    "GUNA BLOCK TO PIPRODA KHURDA": {
+        "PMGSY": 1473.2317124636115,
+        "Ring": "R5",
+        "Span_id": "001"
+    },
+    "SAKHATPURA TO GUNA BLOCK": {
+        "Brown Field": 688.1918373592335,
+        "PMGSY": 2716.765233526052,
+        "Ring": "R4",
+        "Span_id": "006"
+    },
+    "T POINT BAJRANGARH TO VINAYAK KHEDI": {
+        "Brown Field": 941.5514902884877,
+        "Ring": "R3-C1",
+        "Span_id": "010"
+    },
+    "T POINT HILAGNA TO PANJ": {
+        "NHAI": 150.8226324146151,
+        "NHAI_Forest": 5463.163356926373,
+        "Ring": "R4",
+        "Span_id": "008"
+    },
+    "T POINTSANDKHEDA TO MAJHOLA GP": {
+        "Brown Field": 7587.9508067332,
+        "Grampanchyat": 354.9117990183916,
+        "PMGSY": 145.90005493505262,
+        "Ring": "R5-C1",
+        "Span_id": "005"
+    },
+    "NAYAGAON GP TO SANDKHEDA": {
+        "Brown Field": 123.40979685867858,
+        "Grampanchyat": 2923.3433013701433,
+        "Ring": "R5-C1",
+        "Span_id": "002"
+    },
+    "KALECHARI TO SIRSI GP": {
+        "Grampanchyat": 41.90477479196181,
+        "PMGSY": 9694.00146084097,
+        "Ring": "R5",
+        "Span_id": "009"
+    },
+    "REHPURA TO KALECHARI": {
+        "Brown Field": 1529.614868093041,
+        "Grampanchyat": 4259.235360497921,
+        "Grampanchyat_Forest": 90.28166033329173,
+        "Ring": "R5",
+        "Span_id": "008"
+    },
+    "CHEKDEVPUR TO REHPURA": {
+        "Brown Field": 9774.51701038537,
+        "Grampanchyat": 89.22967077330185,
+        "PMGSY": 19201.677866468937,
+        "PMGSY_Forest": 13421.908112343988,
+        "Ring": "R5",
+        "Span_id": "007"
+    },
+    "KARILI GP TO MARKIMAHU GP": {
+        "Brown Field": 1880.436875936692,
+        "Grampanchyat": 3295.3089310291143,
+        "Ring": "R5",
+        "Span_id": "011"
+    },
+    "SIRSI GP TO KARILI GP": {
+        "Brown Field": 1694.9721613053653,
+        "PMGSY": 2621.842606788263,
+        "Ring": "R5",
+        "Span_id": "010"
+    },
+    "SANWADA GP TO SIRSI GP": {
+        "Brown Field": 1862.304322598449,
+        "Grampanchyat": 7287.090013500502,
+        "PMGSY": 149.8065674472947,
+        "Ring": "R5-C1",
+        "Span_id": "004"
+    },
+    "SIRSI GP TO NAYAGAON GP": {
+        "Brown Field": 2554.2565383603023,
+        "Ring": "R5-C1",
+        "Span_id": "001"
+    },
+    "SANDKHEDA TO SANWADA GP": {
+        "Brown Field": 50.50001800349267,
+        "Grampanchyat": 2434.560045508842,
+        "Ring": "R5-C1",
+        "Span_id": "003"
+    },
+    "MARKIMAHU GP TO UDAYPURI GP": {
+        "Grampanchyat": 480.1617338877662,
+        "PMGSY": 4890.112099674705,
+        "Ring": "R5",
+        "Span_id": "012"
+    },
+    "UDAYPURI GP TO KARKEKIMAHU": {
+        "Brown Field": 5112.210545166758,
+        "PWD": 5.574257231946787,
+        "Ring": "R5",
+        "Span_id": "013"
+    },
+    "KARKEKIMAHU TO KHERIKHATA": {
+        "Brown Field": 17979.70216867493,
+        "PWD": 242.04716302390207,
+        "Ring": "R5",
+        "Span_id": "014"
+    },
+    "SINGPUR TO TAKNERA": {
+        "Brown Field": 3682.5775786168847,
+        "Grampanchyat": 100.40663060050346,
+        "Ring": "R1-C1",
+        "Span_id": "004"
+    },
+    "TINSAIYAI TO SINGPUR": {
+        "Grampanchyat": 3736.0019694579923,
+        "Grampanchyat_Forest": 2046.8291939476849,
+        "Ring": "R1-C1",
+        "Span_id": "003"
+    },
+    "LEHARKOTA TO DUNGSARA": {
+        "Brown Field": 3154.6897229820033,
+        "Grampanchyat": 764.8884515070934,
+        "NHAI": 42.13183642447915,
+        "Ring": "R1-C1",
+        "Span_id": "001"
+    },
+    "LEHARKOTA TO JAMRA": {
+        "Brown Field": 6223.7929841703635,
+        "Ring": "R1",
+        "Span_id": "007"
+    },
+    "DUNGSARA TO TINSAIYAI": {
+        "Brown Field": 4282.270588600892,
+        "Grampanchyat": 2391.4751502597633,
+        "PMGSY": 162.9606648827387,
+        "Ring": "R1-C1",
+        "Span_id": "002"
+    },
+    "T POINTKARKEKIMAHU TO DHANWADI": {
+        "Brown Field": 3809.2001670215413,
+        "Grampanchyat_Forest": 5.528247257896987,
+        "PMGSY": 647.464723686521,
+        "Ring": "R5",
+        "Span_id": "018"
+    },
+    "KHUTIAWAD TO BHADORA": {
+        "Brown Field": 4401.160773540769,
+        "Ring": "R1",
+        "Span_id": "005"
+    },
+    "KHERIKHATA TO MAHODRA GP": {
+        "Brown Field": 3865.8845172511787,
+        "Ring": "R5",
+        "Span_id": "015"
+    },
+    "T POINTMAHODRA GP TO RAI GP": {
+        "Brown Field": 2080.835241207135,
+        "Grampanchyat": 343.59618521382765,
+        "Ring": "R5",
+        "Span_id": "019"
+    },
+    "MAHODRA GP TO AGARA GP": {
+        "Brown Field": 1552.8367334236282,
+        "PMGSY": 945.6714470131379,
+        "PMGSY_Forest": 6911.66047138007,
+        "Ring": "R5",
+        "Span_id": "016"
+    },
+    "BHADORA TO LEHARKOTA": {
+        "Brown Field": 3727.690641809804,
+        "Ring": "R1",
+        "Span_id": "006"
+    },
+    "DHAMNAR TO KHUTIAWAD": {
+        "Grampanchyat": 4825.721937047819,
+        "Ring": "R1",
+        "Span_id": "004"
+    },
+    "TARAWATA TO DHAMNAR": {
+        "Grampanchyat": 2351.245340271478,
+        "Ring": "R1",
+        "Span_id": "003"
+    },
+    "HINOTIYA TO RENJHAI": {
+        "Brown Field": 245.287902194933,
+        "Grampanchyat": 1096.7361585480483,
+        "PMGSY": 4727.222018325713,
+        "Ring": "R1",
+        "Span_id": "012"
+    },
+    "RENJHAI TO PURENI": {
+        "Brown Field": 3290.572922227133,
+        "Ring": "R1",
+        "Span_id": "013"
+    },
+    "T POINT RICHHERA TO MAHUKHAN": {
+        "Brown Field": 1911.7457583574328,
+        "Ring": "R2-C2",
+        "Span_id": "001"
+    },
+    "BILONIA TO TARAWATA": {
+        "Brown Field": 8618.2760905608,
+        "Ring": "R1",
+        "Span_id": "002"
+    },
+    "PURENI TO SILAWATI": {
+        "Brown Field": 6475.826138272703,
+        "Ring": "R1",
+        "Span_id": "014"
+    },
+    "BINDRA TO CHEKDEVPUR": {
+        "Brown Field": 1205.2355746652513,
+        "PMGSY": 5700.560084776429,
+        "Ring": "R5",
+        "Span_id": "006"
+    },
+    "UMARI TO BINDRA": {
+        "Grampanchyat": 5154.479007988207,
+        "Ring": "R5",
+        "Span_id": "005"
+    },
+    "MAKRAWADA GP TO UMARI": {
+        "Brown Field": 5294.903693319631,
+        "Ring": "R5",
+        "Span_id": "004"
+    },
+    "NEGMA GP TO MAKRAWADA GP": {
+        "Brown Field": 6357.5989664819435,
+        "Grampanchyat_Forest": 8.048422675132766,
+        "PMGSY": 528.5421994806819,
+        "PMGSY_Forest": 1208.7889400298477,
+        "Ring": "R5",
+        "Span_id": "003"
+    },
+    "EMJHARA TO BEHANTAGHAT": {
+        "Brown Field": 2954.9398047286654,
+        "SH-20": 3216.993085324548,
+        "Ring": "R2",
+        "Span_id": "003"
+    },
+    "MAGRANA TO EMJHARA": {
+        "Brown Field": 780.8453353687934,
+        "Grampanchyat": 4898.1403606977665,
+        "Ring": "R2-C2",
+        "Span_id": "006"
+    },
+    "BEHANTAGHAT TO PAGARA": {
+        "Brown Field": 266.6757071081073,
+        "Grampanchyat": 3324.9233957809565,
+        "PMGSY": 4415.120017517501,
+        "SH-20": 711.6607392121748,
+        "Ring": "R2",
+        "Span_id": "004"
+    },
+    "T POINT PAGARA TO MAHUR": {
+        "PMGSY": 7246.221040030478,
+        "Ring": "R2-C1",
+        "Span_id": "001"
+    },
+    "MAHUR TO KAROD": {
+        "Brown Field": 3294.47906782241,
+        "Ring": "R2-C1",
+        "Span_id": "002"
+    },
+    "T POINTKAROD TO MANGWAR": {
+        "Brown Field": 5612.164755414619,
+        "Grampanchyat": 16.188042950052637,
+        "Ring": "R2-C1",
+        "Span_id": "008"
+    },
+    "KHAJURI TO LEHARGHAT": {
+        "Brown Field": 287.92227069285957,
+        "Grampanchyat": 10.891866768550452,
+        "PMGSY": 15785.833202142947,
+        "Ring": "R1-C1",
+        "Span_id": "008"
+    },
+    "TAKNERA TO MAYANA": {
+        "Brown Field": 4397.6639417275965,
+        "Ring": "R1-C1",
+        "Span_id": "005"
+    },
+    "PADMANKHEDI TO KHAJURI": {
+        "Brown Field": 3457.3984499052685,
+        "Ring": "R1-C1",
+        "Span_id": "007"
+    },
+    "LEHARGHAT TO JAMRA": {
+        "PMGSY": 6463.9511246817865,
+        "Ring": "R1-C1",
+        "Span_id": "009"
+    },
+    "MAYANA TO PADMANKHEDI": {
+        "Grampanchyat": 59.59477222872395,
+        "MDR": 1131.809222009079,
+        "PMGSY": 2447.234187622483,
+        "Ring": "R1-C1",
+        "Span_id": "006"
+    },
+    "GAJIPUR TO UKAWAD": {
+        "Brown Field": 465.6992490370501,
+        "Grampanchyat": 1979.8421664636599,
+        "PMGSY": 3474.9667844905903,
+        "Ring": "R1",
+        "Span_id": "009"
+    },
+    "JAMRA TO GAJIPUR": {
+        "Brown Field": 4237.685488316305,
+        "Grampanchyat": 43.47537290048013,
+        "PMGSY": 53.362918569573495,
+        "Ring": "R1",
+        "Span_id": "008"
+    },
+    "UKAWAD TO MANPUR": {
+        "Brown Field": 465.9460257020181,
+        "Grampanchyat": 116.95598973866846,
+        "PMGSY": 5070.954347374363,
+        "Ring": "R1",
+        "Span_id": "010"
+    },
+    "MANPUR TO HINOTIYA": {
+        "Brown Field": 1938.923893547551,
+        "PMGSY": 1579.5288949904484,
+        "Ring": "R1",
+        "Span_id": "011"
+    },
+    "GAJNAI TO GOPALPUR": {
+        "Brown Field": 2454.3550967396227,
+        "Ring": "R2-C2",
+        "Span_id": "004"
+    },
+    "GOPALPUR TO MAGRANA": {
+        "Grampanchyat": 7324.47128725721,
+        "Ring": "R2-C2",
+        "Span_id": "005"
+    },
+    "KUNDOL TO GAJNAI": {
+        "Grampanchyat": 3633.369486479958,
+        "PMGSY": 156.42381420440393,
+        "Ring": "R2-C2",
+        "Span_id": "003"
+    },
+    "MAHUKHAN TO KUNDOL": {
+        "Grampanchyat": 7909.493411595883,
+        "Ring": "R2-C2",
+        "Span_id": "002"
+    }
+}
