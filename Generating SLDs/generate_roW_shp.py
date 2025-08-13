@@ -4,6 +4,8 @@ from pyproj import Geod
 import json
 from shapely.ops import transform
 import pyproj
+
+block = "MAHIDPUR"
 def line_length_meter(line):
     geod = Geod(ellps="WGS84")
     length_m = geod.line_length(
@@ -11,6 +13,9 @@ def line_length_meter(line):
         [p[1] for p in line.coords]  # latitudes
     )
     return length_m
+
+def reverse_geom(geom):
+    return LineString(list(geom.coords)[::-1])
 
 def merge_consecutive(group):
     """
@@ -25,8 +30,7 @@ def merge_consecutive(group):
     end_ch = 0
     current_length = 0
     ring = ''
-
-    for row in group.itertuples():
+    for idx, row in enumerate(group.itertuples()):
         if current_auth == row.road_autho:
             new_geom = row.geometry
             if current_geom.coords[-1] == new_geom.coords[0]:
@@ -38,15 +42,13 @@ def merge_consecutive(group):
             elif current_geom.coords[0] == new_geom.coords[-1]:
                 # Case 3: Reverse current so start matches end
                 current_geom = LineString(list(current_geom.coords)[::-1])
+                new_geom = LineString(list(new_geom.coords)[::-1])
             elif current_geom.coords[0] == new_geom.coords[0]:
                 # Case 4: Reverse both so they align
                 current_geom = LineString(list(current_geom.coords)[::-1])
                 new_geom = LineString(list(new_geom.coords)[::-1])
             else:
                 # No match → skip or handle separately
-                print("No match found:")
-                print(new_geom)
-                print(current_geom)
                 continue
             coords = list(current_geom.coords) + list(new_geom.coords)[1:]
             current_geom = LineString(coords)
@@ -55,12 +57,20 @@ def merge_consecutive(group):
             if current_geom is not None:
                 current_length = line_length_meter(current_geom)
                 end_ch += current_length
+                next_geom = group.iloc[current_idx + 1].geometry
+                if current_geom.coords[-1] == next_geom.coords[0]:
+                    pass  # Already correct
+                elif current_geom.coords[0] == next_geom.coords[0]:
+                    current_geom = reverse_geom(current_geom)
+                elif current_geom.coords[0] == next_geom.coords[-1]:
+                    current_geom = reverse_geom(current_geom)
                 merged.append((row.span_name, current_auth, row.span_id,ring,first_seq,current_length,st_ch,end_ch,current_geom))
             # Start a new merge block
             current_geom = row.geometry
             current_auth = row.road_autho
             first_seq = row.Sequqnce
             ring = row.ring_no
+            current_idx = idx
             if first_seq == 1:
                 st_ch = 0.0
             else:
@@ -161,12 +171,12 @@ def process_span_data(input_gdf, output_shapefile, output_json):
 if __name__ == "__main__":
     # Example: change these paths as needed
     input_file = "input/OFC_NEW.shp"
-    output_file = "output/RoW Authorities.shp"
+    output_file = f"output/RoW Authorities-{block}.shp"
     input_gdf = process_shapefile(input_file, output_file)
 
     input_shape_file = output_file
-    output_shape_file = "output/output_points.shp"
-    output_json = "output/span_details.json"
+    output_shape_file = f"output/output_points-{block}.shp"
+    output_json = f"output/span_details-{block}.json"
     gdf = gpd.read_file(input_shape_file)
 
     output_gdf, span_details = process_span_data(gdf, output_shape_file, output_json)

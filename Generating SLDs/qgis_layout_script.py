@@ -19,15 +19,16 @@ district_name = 'GUNA'
 block_name = 'GUNA'
 
 # --- Settings ---
-#file_path = "/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details.json"
-file_path = "C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\output\\span_details.json"
+file_path = "/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details2.json"
+# file_path = "C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\output\\span_details.json"
 with open(file_path, "r", encoding="utf-8") as f:
     span_dict = json.load(f)
 
-layer_name = "RoW Authorities"  # Name of the layer in QGIS
-#output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
-output_folder = f"D:\\bharat_net_data\slds\\{block_name}"
-end_point_layer = "output_points"
+layer_name = "RoW Authorities2"  # Name of the layer in QGIS
+output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
+
+# output_folder = f"D:\\bharat_net_data\slds\\{block_name}"
+end_point_layer = "output_points2"
 block_dir = Path(output_folder)
 block_dir.mkdir(exist_ok=True)
 
@@ -82,7 +83,6 @@ if not layer.isValid():
     raise Exception(f"❌ Layer '{layer_name}' is not valid")
 
 vertices_layer = QgsProject.instance().mapLayersByName(end_point_layer)[0]
-
 # Get unique span values
 span_field_index = layer.fields().lookupField("span_name")
 unique_spans = layer.uniqueValues(span_field_index)
@@ -197,7 +197,7 @@ for span in unique_spans:
     frame = QgsLayoutFrame(layout, table_row)
     frame.setFixedSize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
     frame.attemptResize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
-    frame.attemptMove(QgsLayoutPoint(3, 50, QgsUnitTypes.LayoutMillimeters))
+    frame.attemptMove(QgsLayoutPoint(3,57, QgsUnitTypes.LayoutMillimeters))
     table_row.addFrame(frame)
     table_row.update()
     layout.refresh()
@@ -243,13 +243,13 @@ for span in unique_spans:
     # --- North Arrow (as SVG Picture) ---
     picture = QgsLayoutItemPicture(layout)
     #picture.setPicturePath("C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\\North\\north_simple.svg")
-    picture.setPicturePath("/Users/subhashsoni/Formatting_excel_data/Generating SLDs/North/north_simple.svg")
-    picture.setFixedSize(QgsLayoutSize(10, 10, QgsUnitTypes.LayoutMillimeters))
-    picture.attemptMove(QgsLayoutPoint(page_width - 15, page_height-10, QgsUnitTypes.LayoutMillimeters))
+    picture.setPicturePath("/Users/subhashsoni/Formatting_excel_data/Generating SLDs/North/blue_bg.svg")
+    picture.setFixedSize(QgsLayoutSize(15, 15, QgsUnitTypes.LayoutMillimeters))
+    picture.attemptMove(QgsLayoutPoint(page_width-20, page_height-20, QgsUnitTypes.LayoutMillimeters))
     layout.addLayoutItem(picture)
 
     # --- Export PDF ---
-    ring_folder = f"{output_folder}\\{ring}"
+    ring_folder = f"{output_folder}/{ring}"
     ring_dir = Path(ring_folder)
     ring_dir.mkdir(exist_ok=True)
     
@@ -259,6 +259,7 @@ for span in unique_spans:
     pdf_settings.rasterizeWholeImage = False  # Don't rasterize
     pdf_settings.simplifyGeometries = False  # Keep geometry intact
     pdf_settings.textRenderFormat = Qgis.TextRenderFormat.AlwaysText
+    pdf_settings.dpi = 150
 
     exporter = QgsLayoutExporter(layout)
     pdf_path = os.path.join(ring_folder, f"{ring}-{span_id}-{span}.pdf")
@@ -267,6 +268,7 @@ for span in unique_spans:
         print(f"✅ Exported {pdf_path}")
     else:
         print(f"❌ Failed to export {pdf_path}")
+
 # Reset filter
 layer.setSubsetString("")
 vertices_layer.setSubsetString("")
