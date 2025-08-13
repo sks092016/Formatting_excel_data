@@ -1,0 +1,19 @@
+2025-08-13 12:31:38,784 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (77.73711399900003, 25.743121666000036) & ending at (77.73711399900003, 25.743121666000036)
+2025-08-13 12:31:38,785 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (77.73711399900003, 25.743121666000036) & ending at (77.73711399900003, 25.743121666000036)
+2025-08-13 12:31:38,803 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'INDERGARH - KALOTHARA'.
+2025-08-13 12:31:38,803 - WARNING - \u26a0\ufe0f The Span INDERGARH - KALOTHARA is disconnected at this point (77.73687636600005, 25.74320136600005)
+2025-08-13 12:31:40,766 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (77.57712389900007, 25.667971563000037) & ending at (77.57774442000004, 25.666208144000052)
+2025-08-13 12:31:40,769 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (77.57712389900007, 25.667971563000037) & ending at (77.57774442000004, 25.666208144000052)
+2025-08-13 12:31:40,845 - WARNING - multipart geomwtry at SUND - MAHESHPUR
+2025-08-13 12:31:40,845 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'SUND - MAHESHPUR'.
+2025-08-13 12:31:40,846 - WARNING - \u26a0\ufe0f The Span SUND - MAHESHPUR is disconnected at this point (77.57774442000004, 25.666208144000052)
+2025-08-13 12:31:41,558 - INFO - Created 1,983 records
+2025-08-13 12:31:41,567 - INFO - Created 80 records
+2025-08-13 12:31:41,568 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-08-13 12:31:41,573 - INFO - Created 2 records
+2025-08-13 12:31:41,708 - INFO - \U0001f504 Found 8 rings: ['R1', 'R1_C1', 'R1_C2', 'R2', 'R2_C1', 'R3', 'R3_C1', 'R3_C2']
+2025-08-13 12:31:41,708 - INFO - 
+\U0001f501 Processing ring: R1
+2025-08-13 12:31:41,710 - ERROR - \u274c Invalid start point input: not enough values to unpack (expected 2, got 1)
+2025-08-13 12:31:41,710 - INFO - 
+\U0001f501 Processing ring: R1_C1

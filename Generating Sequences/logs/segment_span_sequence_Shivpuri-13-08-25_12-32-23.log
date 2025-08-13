@@ -1,0 +1,41 @@
+2025-08-13 12:32:24,381 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (77.73711399900003, 25.743121666000036) & ending at (77.73711399900003, 25.743121666000036)
+2025-08-13 12:32:24,382 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (77.73711399900003, 25.743121666000036) & ending at (77.73711399900003, 25.743121666000036)
+2025-08-13 12:32:24,400 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'INDERGARH - KALOTHARA'.
+2025-08-13 12:32:24,401 - WARNING - \u26a0\ufe0f The Span INDERGARH - KALOTHARA is disconnected at this point (77.73687636600005, 25.74320136600005)
+2025-08-13 12:32:26,353 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (77.57712389900007, 25.667971563000037) & ending at (77.57774442000004, 25.666208144000052)
+2025-08-13 12:32:26,355 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (77.57712389900007, 25.667971563000037) & ending at (77.57774442000004, 25.666208144000052)
+2025-08-13 12:32:26,430 - WARNING - multipart geomwtry at SUND - MAHESHPUR
+2025-08-13 12:32:26,430 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'SUND - MAHESHPUR'.
+2025-08-13 12:32:26,430 - WARNING - \u26a0\ufe0f The Span SUND - MAHESHPUR is disconnected at this point (77.57774442000004, 25.666208144000052)
+2025-08-13 12:32:27,137 - INFO - Created 1,983 records
+2025-08-13 12:32:27,145 - INFO - Created 80 records
+2025-08-13 12:32:27,145 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-08-13 12:32:27,149 - INFO - Created 2 records
+2025-08-13 12:32:27,272 - INFO - \U0001f504 Found 8 rings: ['R1', 'R1_C1', 'R1_C2', 'R2', 'R2_C1', 'R3', 'R3_C1', 'R3_C2']
+2025-08-13 12:32:27,272 - INFO - 
+\U0001f501 Processing ring: R1
+2025-08-13 12:32:27,274 - ERROR - \u274c Invalid start point input: not enough values to unpack (expected 2, got 1)
+2025-08-13 12:32:27,274 - INFO - 
+\U0001f501 Processing ring: R1_C1
+2025-08-13 12:32:27,276 - ERROR - \u274c Invalid start point input: not enough values to unpack (expected 2, got 1)
+2025-08-13 12:32:27,276 - INFO - 
+\U0001f501 Processing ring: R1_C2
+2025-08-13 12:32:27,278 - ERROR - \u274c Invalid start point input: not enough values to unpack (expected 2, got 1)
+2025-08-13 12:32:27,278 - INFO - 
+\U0001f501 Processing ring: R2
+2025-08-13 12:32:27,281 - ERROR - \u274c Invalid start point input: not enough values to unpack (expected 2, got 1)
+2025-08-13 12:32:27,281 - INFO - 
+\U0001f501 Processing ring: R2_C1
+2025-08-13 12:32:27,283 - ERROR - \u274c Invalid start point input: not enough values to unpack (expected 2, got 1)
+2025-08-13 12:32:27,283 - INFO - 
+\U0001f501 Processing ring: R3
+2025-08-13 12:32:27,285 - ERROR - \u274c Invalid start point input: not enough values to unpack (expected 2, got 1)
+2025-08-13 12:32:27,285 - INFO - 
+\U0001f501 Processing ring: R3_C1
+2025-08-13 12:32:27,290 - INFO - \u2705 Completed ring R3_C1 with 4 spans.
+2025-08-13 12:32:27,290 - INFO - 
+\U0001f501 Processing ring: R3_C2
+2025-08-13 12:32:27,292 - ERROR - \u274c Invalid start point input: not enough values to unpack (expected 2, got 1)
+2025-08-13 12:32:27,394 - INFO - Created 1,983 records
+2025-08-13 12:32:27,403 - INFO - Created 80 records
+2025-08-13 12:32:27,404 - INFO - \u2705 All rings processed. Span sequence updated and saved.
