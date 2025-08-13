@@ -108,35 +108,38 @@ for s in span_list:
     while not remaining.empty:
         found = False
         for idx, row in remaining.iterrows():
-            # Case 1: Normal forward connection
-            if row['start'] == current['end']:
-                sorted_indices.append(idx)
-                current = row
-                remaining = remaining.drop(idx)
-                found = True
-                break
-            # Case 2: Reversed row connects forward
-            elif row['end'] == current['end']:
-                reversed_geom = LineString(list(row['geometry'].coords)[::-1])
-                temp_df.at[idx, 'geometry'] = reversed_geom
-                row['geometry'] = reversed_geom
-                row['start'], row['end'] = get_start_end_coords(reversed_geom)
-                sorted_indices.append(idx)
-                current = row
-                remaining = remaining.drop(idx)
-                found = True
-                break
-            # Case 3: Reversed row connects to current start (if path loops backward)
-            elif row['end'] == current['start']:
-                reversed_geom = LineString(list(row['geometry'].coords)[::-1])
-                temp_df.at[idx, 'geometry'] = reversed_geom
-                row['geometry'] = reversed_geom
-                row['start'], row['end'] = get_start_end_coords(reversed_geom)
-                sorted_indices.insert(0, idx)
-                current = row
-                remaining = remaining.drop(idx)
-                found = True
-                break
+            try:
+                # Case 1: Normal forward connection
+                if row['start'] == current['end']:
+                    sorted_indices.append(idx)
+                    current = row
+                    remaining = remaining.drop(idx)
+                    found = True
+                    break
+                # Case 2: Reversed row connects forward
+                elif row['end'] == current['end']:
+                    reversed_geom = LineString(list(row['geometry'].coords)[::-1])
+                    temp_df.at[idx, 'geometry'] = reversed_geom
+                    row['geometry'] = reversed_geom
+                    row['start'], row['end'] = get_start_end_coords(reversed_geom)
+                    sorted_indices.append(idx)
+                    current = row
+                    remaining = remaining.drop(idx)
+                    found = True
+                    break
+                # Case 3: Reversed row connects to current start (if path loops backward)
+                elif row['end'] == current['start']:
+                    reversed_geom = LineString(list(row['geometry'].coords)[::-1])
+                    temp_df.at[idx, 'geometry'] = reversed_geom
+                    row['geometry'] = reversed_geom
+                    row['start'], row['end'] = get_start_end_coords(reversed_geom)
+                    sorted_indices.insert(0, idx)
+                    current = row
+                    remaining = remaining.drop(idx)
+                    found = True
+                    break
+            except:
+                logging.warning(f"multipart geomwtry at {s}")
         if not found:
             logging.warning(f"⚠️ Warning: Disconnected segment remains in span '{s}'.")
             logging.warning(f"⚠️ The Span {s} is disconnected at this point {current['end']}")
