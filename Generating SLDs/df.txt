@@ -1,0 +1,54 @@
+I have the following input and output requirments the input data is in form of gpd geopandas the output df later nedds to be converted in shape file with crs of wgs84 and the out json data needs to be written in the json file
+
+Input DF
+span_name	road_autho	first_segment	'length'	'st_ch'	'end_ch'	geometry
+A TO B		Grampanchayat	1				500			0		500		LINESTRING(x1 y1, x2 y2, x3 y3)
+A TO B		NHAi			10				2500		500		3000	LINESTRING(X3 Y3, X4 Y4, X5 Y5)
+A TO B		Grampanchayat	15				500			3000	3500	LINESTRING(X5 Y5, X6 Y6, X7 Y7)
+C to D		Grampanchayat	1				200			0		200		LINESTRING(X7 Y7, X8 Y8, X9 Y9)
+C to D		PMGSY			3				1200		200		1400	LINESTRING(X9 Y9, X10 Y10, X11 Y11)
+C to D		Grampanchayat	9				900			1400	2300	LINESTRING(X11 Y11, X12 Y12, X13 Y13)
+C to D		PMGSY			12				1000		2300	3300	LINESTRING(X13 Y13, X14 Y14, X15 Y15)
+E to F 		Grampanchayat	1				1200		0		1200	LINESTRING(X15 Y15, X16 Y16, X17 Y17)
+E to F 		MDR				3				150			1200	1350	LINESTRING(X17 Y17, X18 Y18, X19 Y19)
+E to F 		NHAI			12				950			1350	2300	LINESTRING(X19 Y19, X20 Y20, X21 Y21)
+E to F 		MDR				15				800			2300	3100	LINESTRING(X21 Y21, X22 Y22, X23 Y23)
+E to F 		Grampanchayat	21				600			3100	3700	LINESTRING(X23 Y23, X24 Y24, X25 Y25)
+
+Output DF
+span_name	Point Name	Chainage	Geometry
+A TO B		A			0			x1 y1
+A TO B					500			x3 y3
+A TO B					3000		x5 y5
+A TO B		B			3500		x7 y7
+C to D		C 			0			x7 y7
+C to D					200			x9 y9
+C to D					1400		x11 y11
+C to D					2500		x13 y13
+C to D		D			3500		x15 y15
+E to F		E			0			x15 y15
+E to F					1200		x17 y17
+E to F					1350		x19 y19
+E to F					2500		x21 y21
+E to F					3300		x23 y23
+E to F		F			3900		x25 y25
+
+and output Json
+
+span_details = {
+'A to B' : {
+	'Grampanchayat': 1000,
+	'NHAI' : 2500
+},
+'C TO D' : {
+	'Grampanchayat': 1100,
+	'PMGSY' : 2200
+}
+'E TO F' : {
+	'Grampanchayat': 1800,
+	'MDR' : 950
+	'NHAI': 950
+}
+}
+
+

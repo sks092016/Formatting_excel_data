@@ -19,15 +19,15 @@ district_name = 'UJJAIN'
 block_name = 'MAHIDPUR'
 
 # --- Settings ---
-# file_path = "/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details2.json"
-file_path = f"C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\output\\span_details-{block_name}.json"
+file_path = f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details-{block_name}.json"
+#file_path = f"C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\output\\span_details-{block_name}.json"
 with open(file_path, "r", encoding="utf-8") as f:
     span_dict = json.load(f)
 
 layer_name = f"RoW Authorities-{block_name}"  # Name of the layer in QGIS
-# output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
+output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
 
-output_folder = f"D:\\bharat_net_data\slds\\{block_name}"
+# output_folder = f"D:\\bharat_net_data\slds\\{block_name}"
 end_point_layer = f"output_points-{block_name}"
 block_dir = Path(output_folder)
 block_dir.mkdir(exist_ok=True)
@@ -242,10 +242,10 @@ for span in unique_spans:
 
     # --- North Arrow (as SVG Picture) ---
     picture = QgsLayoutItemPicture(layout)
-    picture.setPicturePath("C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\\North\\north_simple.svg")
-    # picture.setPicturePath("/Users/subhashsoni/Formatting_excel_data/Generating SLDs/North/blue_bg.svg")
-    picture.setFixedSize(QgsLayoutSize(15, 15, QgsUnitTypes.LayoutMillimeters))
-    picture.attemptMove(QgsLayoutPoint(page_width-20, page_height-20, QgsUnitTypes.LayoutMillimeters))
+    # picture.setPicturePath("C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\\North\\north_simple.svg")
+    picture.setPicturePath("/Users/subhashsoni/Formatting_excel_data/Generating SLDs/North/north_simple.svg")
+    picture.setFixedSize(QgsLayoutSize(10, 10, QgsUnitTypes.LayoutMillimeters))
+    picture.attemptMove(QgsLayoutPoint(page_width-15, page_height-15, QgsUnitTypes.LayoutMillimeters))
     layout.addLayoutItem(picture)
 
     # --- Export PDF ---
@@ -268,7 +268,6 @@ for span in unique_spans:
         print(f"✅ Exported {pdf_path}")
     else:
         print(f"❌ Failed to export {pdf_path}")
-
 # Reset filter
 layer.setSubsetString("")
 vertices_layer.setSubsetString("")
