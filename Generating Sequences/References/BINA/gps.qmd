@@ -1,10 +1,10 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis version="3.42.1-Münster">
-  <identifier></identifier>
+  <identifier>Legend_Survey_1</identifier>
   <parentidentifier></parentidentifier>
-  <language></language>
+  <language>ENG</language>
   <type>dataset</type>
-  <title></title>
+  <title>Legend_Survey_1</title>
   <abstract></abstract>
   <links/>
   <dates/>
