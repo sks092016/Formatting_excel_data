@@ -15,8 +15,8 @@ import os
 import json
 from pathlib import Path
 
-district_name = 'UJJAIN'
-block_name = 'MAHIDPUR'
+district_name = 'SHIVPURI'
+block_name = 'SHIVPURI'
 
 # --- Settings ---
 file_path = f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details-{block_name}.json"
@@ -169,8 +169,8 @@ for span in unique_spans:
     content_font = QFont("Cambria", 10)
     table.setContentFont(content_font)
     frame = QgsLayoutFrame(layout, table)
-    frame.setFixedSize(QgsLayoutSize(50, 70, QgsUnitTypes.LayoutMillimeters))
-    frame.attemptResize(QgsLayoutSize(50, 70, QgsUnitTypes.LayoutMillimeters))
+    frame.setFixedSize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
+    frame.attemptResize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
     frame.attemptMove(QgsLayoutPoint(3, 2, QgsUnitTypes.LayoutMillimeters))
     table.addFrame(frame)
     table.update()  
@@ -197,7 +197,7 @@ for span in unique_spans:
     frame = QgsLayoutFrame(layout, table_row)
     frame.setFixedSize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
     frame.attemptResize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
-    frame.attemptMove(QgsLayoutPoint(3,57, QgsUnitTypes.LayoutMillimeters))
+    frame.attemptMove(QgsLayoutPoint(3,51, QgsUnitTypes.LayoutMillimeters))
     table_row.addFrame(frame)
     table_row.update()
     layout.refresh()
@@ -207,20 +207,20 @@ for span in unique_spans:
     root = QgsLayerTree()
     root_layer = root.addLayer(layer) # Only current layer
     legend.model().setRootGroup(root)
-    title_font = QFont("Cambria", 10)
+    title_font = QFont("Cambria", 7)
     title_font.setBold(True)
-    label_font = QFont("Cambria", 9)
+    label_font = QFont("Cambria", 6)
     legend.setStyleFont(QgsLegendStyle.Title, title_font)
     legend.setStyleFont(QgsLegendStyle.Subgroup, label_font)
     legend.setStyleFont(QgsLegendStyle.SymbolLabel, label_font)
-    legend.setSymbolWidth(10)  # mm
-    legend.setSymbolHeight(3)  # mm
+    legend.setSymbolWidth(12)  # mm
+    legend.setSymbolHeight(2)  # mm
     legend.setFrameEnabled(True)  # Draw border
     legend.setFrameStrokeWidth(QgsLayoutMeasurement(0.5, QgsUnitTypes.LayoutMillimeters))  # Thin border
     legend.setFrameStrokeColor(QColor(50, 50, 50))  # Dark gray
     legend.setBackgroundColor(QColor(255, 255, 255, 220))  # Semi-transparent white
     legend.setBoxSpace(2.0)  # Padding inside legend box
-    legend.setColumnSpace(2.0)  # Space between columns
+    legend.setColumnSpace(3.0)  # Space between columns
     frame.attemptResize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
     # legend.adjustBoxSize()
     legend.attemptMove(QgsLayoutPoint(3, 95, QgsUnitTypes.LayoutMillimeters))
@@ -237,7 +237,7 @@ for span in unique_spans:
     scalebar.setUnitLabel('m')
     scalebar.setFont(QFont("Cambria", 8))
     scalebar.setHeight(5)
-    scalebar.attemptMove(QgsLayoutPoint(3, 190, QgsUnitTypes.LayoutMillimeters))
+    scalebar.attemptMove(QgsLayoutPoint(3, 195, QgsUnitTypes.LayoutMillimeters))
     layout.addLayoutItem(scalebar)
 
     # --- North Arrow (as SVG Picture) ---

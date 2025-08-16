@@ -1,0 +1,490 @@
+{
+    "BADAGAON TO BANSKHEDI": {
+        "PMGSY": 3592.429650154208,
+        "Ring": "R3",
+        "Span_id": "009"
+    },
+    "BANSKHEDI TO BHQ SHIVPURI": {
+        "Brown Field Data": 1558.3294109312276,
+        "NH-46": 1392.4496316649268,
+        "NH-47 (OLD)": 6470.4292336161525,
+        "PMGSY": 2034.311165220989,
+        "Ring": "R3",
+        "Span_id": "010"
+    },
+    "BHANGAD TO T-POINT DENHATA HIMMATGAD": {
+        "Brown Field Data": 1597.26550347031,
+        "NH-46": 1516.8255011874785,
+        "NH-46_Forest": 9896.63252641482,
+        "PMGSY": 723.5071570691463,
+        "Ring": "R2-C1",
+        "Span_id": "026"
+    },
+    "BHAVKHEDI TO KHYAVDAKALA": {
+        "Brown Field Data": 764.6517036033863,
+        "PMGSY": 4483.47637964853,
+        "Ring": "R1-C2",
+        "Span_id": "022"
+    },
+    "BHQ SHIVPURI TO SHIVPURI BLOCK": {
+        "Brown Field Data": 2636.514981916468,
+        "Ring": "R3",
+        "Span_id": "011"
+    },
+    "BUDIBAROD TO MAJHERA": {
+        "Brown Field Data": 561.6575950679222,
+        "NH-27": 81.03442607662109,
+        "NH-27_Forest": 3839.9359466173646,
+        "PMGSY": 5134.589872586539,
+        "PMGSY_Forest": 1121.1343752519472,
+        "Ring": "R3",
+        "Span_id": "007"
+    },
+    "CHANDANPURA TO NOHARIKALA": {
+        "Brown Field Data": 489.8002811744087,
+        "PMGSY": 1930.1737670491962,
+        "Ring": "R1",
+        "Span_id": "008"
+    },
+    "CHITORA M CHITORI TO CHANDANPURA": {
+        "Brown Field Data": 2046.9710271161307,
+        "NH-46": 498.89565985158674,
+        "PMGSY": 6168.041084497752,
+        "Ring": "R1",
+        "Span_id": "007"
+    },
+    "DADOUL TO T-POINT DHUWANI": {
+        "NH-27": 625.8142618204486,
+        "PMGSY": 2793.9214663823054,
+        "PMGSY_Forest": 2407.883377773477,
+        "Ring": "R3-C1",
+        "Span_id": "015"
+    },
+    "DARRONI TO SINGHNIWAS": {
+        "Brown Field Data": 3855.457730710155,
+        "Ring": "R1-C2",
+        "Span_id": "027"
+    },
+    "DENHATA HIMMATGAD TO DHOLAGARH": {
+        "Brown Field Data": 1809.8966087895228,
+        "PMGSY": 11.674642166953568,
+        "PMGSY_Forest": 1591.7066786175446,
+        "Ring": "R2",
+        "Span_id": "007"
+    },
+    "DHOLAGARH TO KARAIKAIRAU": {
+        "PMGSY_Forest": 88.5386614296162,
+        "PWD_Forest": 8626.83626698171,
+        "Ring": "R2",
+        "Span_id": "008"
+    },
+    "DHUWANI TO GADIBAROD": {
+        "Brown Field Data": 2254.7973288371986,
+        "PMGSY": 3687.421080996212,
+        "PMGSY_Forest": 2084.654109128669,
+        "Ring": "R3",
+        "Span_id": "004"
+    },
+    "DONGAR TO HATOD": {
+        "PMGSY": 3470.9477276832445,
+        "PMGSY_Forest": 5271.864630129413,
+        "Ring": "R2",
+        "Span_id": "016"
+    },
+    "GADIBAROD TO MOHANGAD": {
+        "Brown Field Data": 4942.657599603599,
+        "PMGSY": 480.84094633554264,
+        "Ring": "R3",
+        "Span_id": "005"
+    },
+    "GANGORA TO DHUWANI": {
+        "Brown Field Data": 1659.6036742375575,
+        "Ring": "R3",
+        "Span_id": "003"
+    },
+    "GOPALPUR TO SEVADA": {
+        "Brown Field Data": 259.06801050991965,
+        "MDR": 15.336627693896098,
+        "MDR_Forest": 8492.704337895499,
+        "Ring": "R2",
+        "Span_id": "005"
+    },
+    "GUGARIPURA TO CHITORA M CHITORI": {
+        "Brown Field Data": 2533.959104245065,
+        "Ring": "R1",
+        "Span_id": "006"
+    },
+    "HATOD TO KOTA": {
+        "Brown Field Data": 1767.9986894088338,
+        "Ring": "R2",
+        "Span_id": "017"
+    },
+    "IMALIYA TO BHANGAD": {
+        "Brown Field Data": 2852.7603572445705,
+        "PMGSY": 2279.0319867203884,
+        "Ring": "R2-C1",
+        "Span_id": "025"
+    },
+    "INDERGARH TO KALOTHARA": {
+        "Brown Field Data": 226.22260893366217,
+        "PMGSY": 4008.8279163343,
+        "Ring": "R2-C1",
+        "Span_id": "022"
+    },
+    "ITMA TO THARRA": {
+        "Brown Field Data": 2693.272363853577,
+        "PMGSY": 864.6382076175901,
+        "Ring": "R1-C2",
+        "Span_id": "025"
+    },
+    "JAMKHO TO KAPRANA": {
+        "Brown Field Data": 1572.484294905906,
+        "PMGSY": 2462.9826372411612,
+        "Ring": "R1-C1",
+        "Span_id": "011"
+    },
+    "KALOTHARA TO KARSENA": {
+        "Brown Field Data": 532.4069895937139,
+        "PMGSY": 8728.239614368385,
+        "Ring": "R2-C1",
+        "Span_id": "023"
+    },
+    "KANKAR TO SATANWARAKALA": {
+        "Brown Field Data": 2134.288311890329,
+        "PMGSY": 1194.9200319326233,
+        "Ring": "R2",
+        "Span_id": "012"
+    },
+    "KAPRANA TO VILUPURA": {
+        "Brown Field Data": 1790.435107544779,
+        "PMGSY": 3731.4270207029576,
+        "Ring": "R1-C1",
+        "Span_id": "012"
+    },
+    "KARAI TO GANGORA": {
+        "Brown Field Data": 271.7239179383782,
+        "NH-27": 33.78579496418736,
+        "PMGSY": 1411.6201374631212,
+        "Ring": "R3",
+        "Span_id": "002"
+    },
+    "KARAI TO SURVAYA": {
+        "Brown Field Data": 295.7828009116817,
+        "NH-27": 3868.7178096492084,
+        "PMGSY": 817.3511667837449,
+        "Ring": "R3-C1",
+        "Span_id": "012"
+    },
+    "KARAIAHAMADPUR TO KANKAR": {
+        "Brown Field Data": 1407.6951216284408,
+        "NH-46_Forest": 5296.804755811502,
+        "PMGSY_Forest": 38.29555664050481,
+        "Ring": "R2",
+        "Span_id": "011"
+    },
+    "KARAIKAIRAU TO VARA": {
+        "Brown Field Data": 5074.122859511792,
+        "NH-46_Forest": 5758.1617705878225,
+        "PMGSY": 6672.683902337982,
+        "Ring": "R2",
+        "Span_id": "009"
+    },
+    "KARMANJKALA M NAYAGAON TO BHAVKHEDI": {
+        "Brown Field Data": 440.6539209268848,
+        "PMGSY": 2699.631292497951,
+        "Ring": "R1-C2",
+        "Span_id": "021"
+    },
+    "KARSENA TO IMALIYA": {
+        "Brown Field Data": 776.5801948656799,
+        "Ring": "R2-C1",
+        "Span_id": "024"
+    },
+    "KHORGHAR TO JAMKHO": {
+        "Brown Field Data": 3743.9425128182206,
+        "Ring": "R1-C1",
+        "Span_id": "010"
+    },
+    "KHORGHAR TO RATIKIRAR": {
+        "PMGSY": 7479.4594009691555,
+        "Ring": "R1",
+        "Span_id": "003"
+    },
+    "KHUTELA TO DADOUL": {
+        "PMGSY": 1622.887276659682,
+        "PMGSY_Forest": 2334.436034472732,
+        "Ring": "R3-C1",
+        "Span_id": "014"
+    },
+    "KHYAVDAKALA TO KODAWADA": {
+        "Brown Field Data": 2705.4076664582353,
+        "Ring": "R1-C2",
+        "Span_id": "023"
+    },
+    "KODAWADA TO ITMA": {
+        "PMGSY": 2900.4640310190075,
+        "Ring": "R1-C2",
+        "Span_id": "024"
+    },
+    "KOTA TO SHIVPURI BLOCK": {
+        "NH-25 (OLD)_Forest": 3316.633491519909,
+        "NH-25_Forest": 141.36941719448538,
+        "PMGSY": 939.2112111076806,
+        "PMGSY_Forest": 4078.396606654912,
+        "Ring": "R2",
+        "Span_id": "018"
+    },
+    "KUNWARPUR TO T-POINT RATIKIRAR": {
+        "Brown Field Data": 487.0691226534708,
+        "PMGSY": 6786.2810633480585,
+        "Ring": "R1-C1",
+        "Span_id": "015"
+    },
+    "LALGAD TO LOHADEVI": {
+        "Brown Field Data": 3427.755779728058,
+        "Ring": "R1-C2",
+        "Span_id": "019"
+    },
+    "LOHADEVI TO KARMANJKALA M NAYAGAON": {
+        "Brown Field Data": 2567.5113710265978,
+        "Ring": "R1-C2",
+        "Span_id": "020"
+    },
+    "MAHESHPUR TO PADARKHEDA": {
+        "Brown Field Data": 411.0842655969883,
+        "MDR_Forest": 3000.2754570823363,
+        "Ring": "R2",
+        "Span_id": "003"
+    },
+    "MAJHERA TO BADAGAON": {
+        "NH-27_Forest": 6392.84701719454,
+        "PMGSY": 2281.9168382112753,
+        "PMGSY_Forest": 5160.441525371483,
+        "Ring": "R3",
+        "Span_id": "008"
+    },
+    "MOHANGAD TO BUDIBAROD": {
+        "PMGSY": 6895.230546187945,
+        "Ring": "R3",
+        "Span_id": "006"
+    },
+    "MUDERI TO GUGARIPURA": {
+        "Brown Field Data": 1376.5655790186922,
+        "PMGSY": 488.8331782897566,
+        "Ring": "R1",
+        "Span_id": "005"
+    },
+    "NOHARIKALA TO SHIVPURI BLOCK": {
+        "NH-46": 62.16293049046663,
+        "PMGSY": 6467.4984437612775,
+        "Ring": "R1",
+        "Span_id": "009"
+    },
+    "PADARKHEDA TO GOPALPUR": {
+        "Brown Field Data": 2316.2080301530414,
+        "MDR_Forest": 176.4225647982139,
+        "Ring": "R2",
+        "Span_id": "004"
+    },
+    "PIPARSAMA TO RATOUR": {
+        "Brown Field Data": 123.38708827435042,
+        "NH-46": 1143.333171732768,
+        "PMGSY": 4903.371532648307,
+        "Ring": "R3-C2",
+        "Span_id": "023"
+    },
+    "RAISHRI TO SATERIYA": {
+        "Brown Field Data": 667.3744734807174,
+        "PMGSY": 1849.4543340246762,
+        "Ring": "R3-C2",
+        "Span_id": "018"
+    },
+    "RATIKIRAR TO MUDERI": {
+        "Brown Field Data": 1371.0799962487374,
+        "PMGSY": 113.36230050131971,
+        "Ring": "R1",
+        "Span_id": "004"
+    },
+    "RATOUR TO BHQ SHIVPURI": {
+        "NH-47 (OLD)": 1546.1372913627222,
+        "PMGSY": 3953.7755290058685,
+        "Ring": "R3-C2",
+        "Span_id": "024"
+    },
+    "SATANWADAKHURD  TO THEH": {
+        "Brown Field Data": 1078.9047591257477,
+        "PMGSY": 682.6273807154313,
+        "Ring": "R2",
+        "Span_id": "014"
+    },
+    "SATANWARAKALA  TO  SATANWADAKHURD": {
+        "Brown Field Data": 3555.553167951024,
+        "Ring": "R2",
+        "Span_id": "013"
+    },
+    "SATERIYA TO VILOKALA": {
+        "Brown Field Data": 276.61457798851274,
+        "PMGSY": 4189.668207532528,
+        "Ring": "R3-C2",
+        "Span_id": "019"
+    },
+    "SEVADA TO DENHATA HIMMATGAD": {
+        "MDR": 80.0273837023238,
+        "MDR_Forest": 1596.0386508595166,
+        "Ring": "R2",
+        "Span_id": "006"
+    },
+    "SEVADA TO INDERGARH": {
+        "PMGSY": 3192.2408058098,
+        "PMGSY_Forest": 5.328230039720562,
+        "Ring": "R2-C1",
+        "Span_id": "021"
+    },
+    "SHIVPURI BLOCK TO KARAI": {
+        "NH-25": 4328.726890524612,
+        "NH-25_Forest": 3491.044648370922,
+        "NH-27": 1416.6240863479613,
+        "PMGSY": 2633.927692691336,
+        "PMGSY_Forest": 3964.6542735293438,
+        "Ring": "R3",
+        "Span_id": "001"
+    },
+    "SHIVPURI BLOCK TO SINGHNIWAS": {
+        "Brown Field Data": 2612.060039751061,
+        "NH-46": 54.56513367630748,
+        "NH-47 (OLD)": 22.33194898099658,
+        "PMGSY": 557.6430481191684,
+        "PWD": 1035.2727303676998,
+        "SH-6": 3218.618707564901,
+        "Ring": "R1",
+        "Span_id": "001"
+    },
+    "SHIVPURI BLOCK TO SUND": {
+        "Brown Field Data": 2105.2466617164814,
+        "NH-25 (OLD)": 12.403197871255623,
+        "NH-46": 1402.8988620181553,
+        "NH-46 (OLD)": 2251.760371791707,
+        "PMGSY": 11954.836963260343,
+        "PMGSY_Forest": 9693.242174669223,
+        "PWD": 5281.202974486721,
+        "Ring": "R2",
+        "Span_id": "001"
+    },
+    "SIKRAWADA TO KUNWARPUR": {
+        "Brown Field Data": 1683.5970336835912,
+        "Ring": "R1-C1",
+        "Span_id": "014"
+    },
+    "SINGHNIWAS TO KHORGHAR": {
+        "PWD": 8781.379716661417,
+        "Ring": "R1",
+        "Span_id": "002"
+    },
+    "SUHARA TO TONGARA": {
+        "Brown Field Data": 3142.808671738883,
+        "Ring": "R3-C2",
+        "Span_id": "021"
+    },
+    "SUND TO MAHESHPUR": {
+        "MDR_Forest": 4884.817438139456,
+        "PMGSY": 1093.2642104236677,
+        "PMGSY_Forest": 12631.976969814297,
+        "Ring": "R2",
+        "Span_id": "002"
+    },
+    "SURVAYA TO KHUTELA": {
+        "Brown Field Data": 697.2726296535951,
+        "NH-27": 3816.4267429552374,
+        "PMGSY": 3138.889031580943,
+        "Ring": "R3-C1",
+        "Span_id": "013"
+    },
+    "T-POINT BANSKHEDI TO RAISHRI": {
+        "Brown Field Data": 3479.8707233604146,
+        "Ring": "R3-C2",
+        "Span_id": "017"
+    },
+    "T-POINT BHANGAD TO BAMHARI": {
+        "Brown Field Data": 6574.903171877886,
+        "Ring": "R2-C1",
+        "Span_id": "029"
+    },
+    "T-POINT BHANGAD TO GURAWAL": {
+        "Brown Field Data": 1102.8787554340258,
+        "NH-46_Forest": 1476.9945097174332,
+        "Ring": "R2-C1",
+        "Span_id": "027"
+    },
+    "T-POINT GURAWAL TO KHANDI": {
+        "NH-46_Forest": 4413.375504264673,
+        "PMGSY": 1754.2213432628607,
+        "PMGSY_Forest": 3265.210612123781,
+        "Ring": "R2-C1",
+        "Span_id": "028"
+    },
+    "T-POINT KANKAR TO  SAKALPUR": {
+        "Brown Field Data": 3788.776269715334,
+        "Ring": "R2",
+        "Span_id": "019"
+    },
+    "T-POINT KHUTELA TO DABIYA": {
+        "Brown Field Data": 2593.104530223483,
+        "PMGSY": 467.0760216519979,
+        "Ring": "R3-C1",
+        "Span_id": "016"
+    },
+    "T-POINT KUNWARPUR TO KHAJURI": {
+        "Brown Field Data": 1078.2941166528815,
+        "Ring": "R1-C1",
+        "Span_id": "016"
+    },
+    "T-POINT SAKALPUR TO RAIPUR DHAMKAN": {
+        "PMGSY_Forest": 10851.71678449626,
+        "Ring": "R2",
+        "Span_id": "020"
+    },
+    "T-POINT SINGHNIWAS TO TANPUR": {
+        "NH-46": 2594.231503903332,
+        "PMGSY": 7045.582520568707,
+        "Ring": "R1-C2",
+        "Span_id": "017"
+    },
+    "TANPUR TO LALGAD": {
+        "Brown Field Data": 3072.1941765014367,
+        "Ring": "R1-C2",
+        "Span_id": "018"
+    },
+    "THARRA TO DARRONI": {
+        "Brown Field Data": 858.950096055104,
+        "Ring": "R1-C2",
+        "Span_id": "026"
+    },
+    "THEH TO DONGAR": {
+        "Brown Field Data": 775.2971470836178,
+        "PMGSY": 1874.0554519343973,
+        "Ring": "R2",
+        "Span_id": "015"
+    },
+    "TONGARA TO PIPARSAMA": {
+        "Brown Field Data": 4296.1672621595935,
+        "Ring": "R3-C2",
+        "Span_id": "022"
+    },
+    "VARA  TO  KARAIAHAMADPUR": {
+        "Brown Field Data": 1994.7580279607453,
+        "Ring": "R2",
+        "Span_id": "010"
+    },
+    "VILOKALA TO SUHARA": {
+        "Brown Field Data": 3088.0989692150033,
+        "PMGSY": 5763.757283637185,
+        "Ring": "R3-C2",
+        "Span_id": "020"
+    },
+    "VILUPURA TO SIKRAWADA": {
+        "Brown Field Data": 438.3071935475331,
+        "PMGSY": 4407.775604419202,
+        "Ring": "R1-C1",
+        "Span_id": "013"
+    }
+}

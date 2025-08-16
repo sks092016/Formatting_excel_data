@@ -80,15 +80,21 @@ for s in span_list:
         segment_of_node2 = temp_df[
             (temp_df['start'] == node2) | (temp_df['end'] == node2)].iloc[0]
 
-        print(f"GP not found Node logic executed for {start_gp}")
-        if int(segment_of_node1.OBJECTID) < int(segment_of_node2.OBJECTID):
+        print(f"GP not found !! Node logic is being executed for {start_gp}....")
+        try:
+            if int(segment_of_node1.OBJECTID) < int(segment_of_node2.OBJECTID):
+                start_row = segment_of_node1
+                start_node = Point(node1)
+            else:
+                start_row = segment_of_node2
+                start_node = Point(node2)
+        except:
+            logging.warning(f"Node Logic failed as OBJECTID is not in fields")
+            logging.warning(f"Selecting {node1} as start point for {s}")
             start_row = segment_of_node1
             start_node = Point(node1)
-        else:
-            start_row = segment_of_node2
-            start_node = Point(node2)
-    # Find the row (segment) that touches the chosen start node
 
+    # Find the row (segment) that touches the chosen start node
     current_idx = start_row.name
     current = start_row.copy()
 
