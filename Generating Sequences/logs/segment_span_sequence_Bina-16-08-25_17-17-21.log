@@ -1,0 +1,31 @@
+2025-08-16 17:17:22,948 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'DEHRI TO BINA BLOCK'.
+2025-08-16 17:17:22,948 - WARNING - ⚠️ The Span DEHRI TO BINA BLOCK is disconnected at this point (78.19494340800003, 24.177007263000064)
+2025-08-16 17:17:24,283 - INFO - Created 1,274 records
+2025-08-16 17:17:24,287 - INFO - Created 71 records
+2025-08-16 17:17:24,288 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-08-16 17:17:24,289 - INFO - Created 1 records
+2025-08-16 17:17:24,330 - INFO - 🔄 Found 7 rings: ['R1', 'R1-C1', 'R2', 'R3', 'R3-C1', 'R4', 'R4-C1']
+2025-08-16 17:17:24,330 - INFO - 
+🔁 Processing ring: R1
+2025-08-16 17:17:24,335 - INFO - ✅ Completed ring R1 with 11 spans.
+2025-08-16 17:17:24,335 - INFO - 
+🔁 Processing ring: R1-C1
+2025-08-16 17:17:24,339 - INFO - ✅ Completed ring R1-C1 with 8 spans.
+2025-08-16 17:17:24,339 - INFO - 
+🔁 Processing ring: R2
+2025-08-16 17:17:24,344 - INFO - ✅ Completed ring R2 with 11 spans.
+2025-08-16 17:17:24,344 - INFO - 
+🔁 Processing ring: R3
+2025-08-16 17:17:24,349 - INFO - ✅ Completed ring R3 with 11 spans.
+2025-08-16 17:17:24,349 - INFO - 
+🔁 Processing ring: R3-C1
+2025-08-16 17:17:24,353 - INFO - ✅ Completed ring R3-C1 with 8 spans.
+2025-08-16 17:17:24,353 - INFO - 
+🔁 Processing ring: R4
+2025-08-16 17:17:24,358 - INFO - ✅ Completed ring R4 with 10 spans.
+2025-08-16 17:17:24,358 - INFO - 
+🔁 Processing ring: R4-C1
+2025-08-16 17:17:24,362 - INFO - ✅ Completed ring R4-C1 with 10 spans.
+2025-08-16 17:17:24,405 - INFO - Created 1,274 records
+2025-08-16 17:17:24,409 - INFO - Created 71 records
+2025-08-16 17:17:24,409 - INFO - ✅ All rings processed. Span sequence updated and saved.
