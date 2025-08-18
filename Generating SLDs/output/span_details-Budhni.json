@@ -1,0 +1,423 @@
+{
+    "MATTHAGAON TO SANWAL KHEDA": {
+        "Brown field data": 5870.139817292813,
+        "Ring": "R2-C1",
+        "Span_id": "003"
+    },
+    "SANWAL KHEDA TO BARKHEDA": {
+        "Brown field data": 2800.8828756112403,
+        "PMGSY": 1040.7620468873417,
+        "Ring": "R2-C1",
+        "Span_id": "004"
+    },
+    "MARDANPUR TO MATTHAGAON": {
+        "Brown field data": 798.2530816040166,
+        "PMGSY": 6437.315887728386,
+        "Ring": "R2-C1",
+        "Span_id": "002"
+    },
+    "KHERI TO VARDHA": {
+        "Brown field data": 728.1637958529755,
+        "PMGSY": 1408.4376904755159,
+        "Ring": "R2-C2",
+        "Span_id": "004"
+    },
+    "VARDHA TO BHADKUL": {
+        "PMGSY": 4947.281062311399,
+        "PMGSY Forest": 1921.5994937583725,
+        "Ring": "R2-C2",
+        "Span_id": "005"
+    },
+    "BORDHI TO KHERI": {
+        "Brown field data": 3177.4107455813514,
+        "Ring": "R2-C2",
+        "Span_id": "003"
+    },
+    "GONDI GURADIA TO BORDHI": {
+        "Brown field data": 2931.1431253702553,
+        "PMGSY": 53.8960091254971,
+        "Ring": "R2-C2",
+        "Span_id": "002"
+    },
+    "SAGONIA TO GONDI GURADIA": {
+        "Brown field data": 3652.775630466676,
+        "NH-146B": 839.4673057695363,
+        "PMGSY": 3727.2438377504386,
+        "Ring": "R2-C2",
+        "Span_id": "001"
+    },
+    "BARKHEDA TO MANJAR KUI": {
+        "Brown field data": 3801.925807279779,
+        "Ring": "R2-C1",
+        "Span_id": "005"
+    },
+    "BUDNI BHQ TO KHATPURA": {
+        "Brown field data": 1190.1964406491918,
+        "NH-146B": 1487.0584119801315,
+        "NH-146B Forest": 12748.59580779468,
+        "PMGSY": 324.15239767434855,
+        "PMGSY Forest": 10512.345089327491,
+        "Ring": "R1",
+        "Span_id": "001"
+    },
+    "AKOLA TO BANETA": {
+        "Brown field data": 1707.6916148292635,
+        "PMGSY": 3871.4178166234233,
+        "SH-15": 327.2339164399974,
+        "Ring": "R1",
+        "Span_id": "004"
+    },
+    "PAHAR KHEDI TO AKOLA": {
+        "Brown field data": 1148.455324845575,
+        "Ring": "R1",
+        "Span_id": "003"
+    },
+    "BANETA TO JAWAHAR KHEDA": {
+        "Brown field data": 1677.1852733340288,
+        "SH-15": 2862.4770980618755,
+        "Ring": "R1",
+        "Span_id": "005"
+    },
+    "JAWAHAR KHEDA TO SATARAMAU": {
+        "Brown field data": 289.14314952198265,
+        "Gram Panchayat": 3484.1150975650385,
+        "PMGSY": 26.33669827684836,
+        "SH-15": 720.7021786491076,
+        "Ring": "R1",
+        "Span_id": "006"
+    },
+    "KHATPURA TO PAHAR KHEDI": {
+        "Brown field data": 3775.698355319243,
+        "PMGSY": 2052.8156698591065,
+        "PMGSY Forest": 1312.7324261893518,
+        "Ring": "R1",
+        "Span_id": "002"
+    },
+    "HATHNORA TO SHAHGANJ": {
+        "Brown field data": 187.63990817457915,
+        "PMGSY": 11426.535134112706,
+        "Ring": "R1",
+        "Span_id": "015"
+    },
+    "T POINT JAWAHAR KHEDA TO DUNGARIA": {
+        "Brown field data": 1424.0827235851434,
+        "Ring": "R1",
+        "Span_id": "019"
+    },
+    "SARDAR NAGAR TO HATHNORA": {
+        "Brown field data": 299.79618174369284,
+        "Gram Panchayat": 460.050162946374,
+        "PMGSY": 2475.45406318712,
+        "Ring": "R1",
+        "Span_id": "014"
+    },
+    "SHAHGANJ TO JAHANPUR": {
+        "Brown field data": 2678.2104503568075,
+        "SH-15": 2228.911903476669,
+        "Ring": "R1",
+        "Span_id": "016"
+    },
+    "DOBI TO SARDAR NAGAR": {
+        "Brown field data": 4083.157144612058,
+        "PMGSY": 506.1910328685045,
+        "Ring": "R1",
+        "Span_id": "013"
+    },
+    "BAYAN TO BUDNI BHQ": {
+        "NH-146B": 12288.555226879824,
+        "SH-22": 3815.776072719895,
+        "Ring": "R2",
+        "Span_id": "020"
+    },
+    "BUDNI BHQ TO MHOWKALAN": {
+        "Gram Panchayat": 138.71422334868484,
+        "NH-146B": 721.4093067812952,
+        "PMGSY": 3988.528800770766,
+        "PWD": 1337.6697452562632,
+        "Ring": "R2",
+        "Span_id": "001"
+    },
+    "JOSHIPUR TO BUDNI BHQ": {
+        "Gram Panchayat": 126.27499172914581,
+        "NH-146B": 1555.9102296989086,
+        "NH-146B Forest": 4991.217465899316,
+        "PMGSY": 579.9301690352455,
+        "SH-15": 750.0361450701589,
+        "SH-15 Forest": 1056.5052355530413,
+        "Ring": "R1",
+        "Span_id": "018"
+    },
+    "SAGONIA TO SEMRI": {
+        "Brown field data": 7510.22376763325,
+        "PMGSY": 446.0185107921516,
+        "Ring": "R2",
+        "Span_id": "015"
+    },
+    "SEMRI TO RATANPUR": {
+        "Brown field data": 2863.4432621071614,
+        "Gram Panchayat": 169.30896188484223,
+        "Ring": "R2",
+        "Span_id": "016"
+    },
+    "JAHANPUR TO JOSHIPUR": {
+        "Brown field data": 1870.788767379294,
+        "SH-15": 5322.924065935379,
+        "SH-15 Forest": 1557.2001924364456,
+        "Ring": "R1",
+        "Span_id": "017"
+    },
+    "DEVGAON TO HOLIPURA": {
+        "Brown field data": 38.92530245593101,
+        "NH-146B": 2632.301057463638,
+        "SH-22": 591.0816899936721,
+        "Ring": "R2",
+        "Span_id": "004"
+    },
+    "HOLIPURA TO NINOR": {
+        "Brown field data": 3817.115094944196,
+        "NH-146B": 4441.497405637543,
+        "PMGSY": 1437.0230681686528,
+        "Ring": "R2",
+        "Span_id": "005"
+    },
+    "T POINT BAYAN TO KHANDABAD": {
+        "Brown field data": 2562.607576402935,
+        "Ring": "R2",
+        "Span_id": "021"
+    },
+    "BHADKUL TO BORI": {
+        "PMGSY": 3405.5945519721076,
+        "Ring": "R2-C2",
+        "Span_id": "006"
+    },
+    "RATANPUR TO SALKANPUR": {
+        "NH-146B": 2569.824219070284,
+        "NH-146B Forest": 176.53197291281936,
+        "PMGSY": 5546.71515910736,
+        "PMGSY Forest": 3474.8020137958106,
+        "Ring": "R2",
+        "Span_id": "017"
+    },
+    "MHOWKALAN TO PILI KARAR": {
+        "Brown field data": 3036.9014802987112,
+        "Ring": "R2",
+        "Span_id": "002"
+    },
+    "PILI KARAR TO DEVAGAON": {
+        "Brown field data": 855.4492411674341,
+        "SH-22": 701.8285444727362,
+        "Ring": "R2",
+        "Span_id": "003"
+    },
+    "BORI TO T POINT SAGONIA": {
+        "Brown field data": 224.43422399343018,
+        "Ring": "R2-C2",
+        "Span_id": "007"
+    },
+    "ITARSI  TO BAYAN": {
+        "Brown field data": 52.1854334413227,
+        "NH-146B": 5786.745654595601,
+        "PMGSY": 595.7016487622473,
+        "Ring": "R2",
+        "Span_id": "019"
+    },
+    "SALKANPUR TO ITARSI": {
+        "Brown field data": 380.32267452091264,
+        "NH-146B": 13.900354802964616,
+        "NH-146B Forest": 2385.4935277460513,
+        "Ring": "R2",
+        "Span_id": "018"
+    },
+    "NAYAGAON TO SAGONIA": {
+        "Brown field data": 1543.152785499841,
+        "NH-146B": 2715.671921270494,
+        "PMGSY": 2353.1554786467486,
+        "Ring": "R2",
+        "Span_id": "014"
+    },
+    "NINOR  TO JAHAJPURA": {
+        "PMGSY": 3664.467030985331,
+        "PWD": 20.203686689075553,
+        "Ring": "R2",
+        "Span_id": "006"
+    },
+    "MOGRA TO NAYAGAON": {
+        "Brown field data": 5454.903629156817,
+        "PMGSY": 59.226937129426,
+        "Ring": "R2",
+        "Span_id": "013"
+    },
+    "MATHNI TO PAN GURADIA": {
+        "Brown field data": 265.08057527075215,
+        "PWD": 1077.348720645613,
+        "Ring": "R2",
+        "Span_id": "009"
+    },
+    "PAN GURADIA TO MURRAH": {
+        "PMGSY": 2750.9865762379673,
+        "PWD": 77.50785011059472,
+        "Ring": "R2",
+        "Span_id": "010"
+    },
+    "PATHODA TO MATHNI": {
+        "Brown field data": 4121.179898662656,
+        "Ring": "R2",
+        "Span_id": "008"
+    },
+    "ANWALIGHAT TO MOGRA": {
+        "Brown field data": 4483.152609270061,
+        "Ring": "R2",
+        "Span_id": "012"
+    },
+    "MANJAR KUI TO MOGRA": {
+        "Brown field data": 3007.333640680448,
+        "PMGSY": 385.51847068034334,
+        "Ring": "R2-C1",
+        "Span_id": "006"
+    },
+    "JAHAJPURA TO PATHODA": {
+        "Brown field data": 795.2356303901302,
+        "PMGSY": 4110.319687903147,
+        "PWD": 27.869147465225097,
+        "Ring": "R2",
+        "Span_id": "007"
+    },
+    "MURRAH TO ANWALIGHAT": {
+        "PMGSY": 6253.343112305088,
+        "Ring": "R2",
+        "Span_id": "011"
+    },
+    "T POINT ANWALIGHAT TO MARDANPUR": {
+        "PMGSY": 3488.876754654791,
+        "Ring": "R2-C1",
+        "Span_id": "001"
+    },
+    "JONTALA TO NONBHET": {
+        "Gram Panchayat": 327.0417314756551,
+        "PMGSY": 4678.001829352913,
+        "Ring": "R1-C2",
+        "Span_id": "004"
+    },
+    "JAIT TO DOBI": {
+        "Brown field data": 585.989267147034,
+        "PMGSY": 4344.3910626123525,
+        "Ring": "R1",
+        "Span_id": "012"
+    },
+    "AMON TO MACHHWAI": {
+        "Brown field data": 2755.309043794304,
+        "SH-15": 902.250529346006,
+        "Ring": "R1-C1",
+        "Span_id": "008"
+    },
+    "MACHHWAI TO JAIT": {
+        "Brown field data": 504.25455239545954,
+        "PMGSY": 3368.1196057995285,
+        "Ring": "R1",
+        "Span_id": "011"
+    },
+    "BAKTRA TO AMON": {
+        "Brown field data": 1601.819802126267,
+        "PMGSY": 2005.3482467404503,
+        "SH-15": 3765.3659913086203,
+        "Ring": "R1-C1",
+        "Span_id": "007"
+    },
+    "KHERI SILGENA TO JONTALA": {
+        "Gram Panchayat": 539.6745524638492,
+        "PMGSY": 3898.75572669641,
+        "Ring": "R1-C2",
+        "Span_id": "003"
+    },
+    "BORNA TO KHERI SILGENA": {
+        "Brown field data": 1747.226466791339,
+        "PMGSY": 497.79992228331344,
+        "Ring": "R1-C2",
+        "Span_id": "002"
+    },
+    "T POINT JAIT TO BORNA": {
+        "Brown field data": 6357.0230408390635,
+        "Ring": "R1-C2",
+        "Span_id": "001"
+    },
+    "NARAYANPUR TO T POINT JAIT": {
+        "Gram Panchayat": 1203.3036695204385,
+        "PMGSY": 2792.957540178645,
+        "Ring": "R1-C2",
+        "Span_id": "008"
+    },
+    "NONBHET TO KUSAM KHEDA (KUSUM KHEDA)": {
+        "Brown field data": 3910.287896064139,
+        "Gram Panchayat": 164.76066053514538,
+        "Ring": "R1-C2",
+        "Span_id": "005"
+    },
+    "KUSAM KHEDA (KUSUM KHEDA) TO NANDER": {
+        "Brown field data": 2727.986040460357,
+        "Gram Panchayat": 509.9508146773605,
+        "Ring": "R1-C2",
+        "Span_id": "006"
+    },
+    "NANDER TO NARAYANPUR": {
+        "Brown field data": 1113.0996600977785,
+        "PMGSY": 3029.974619249811,
+        "Ring": "R1-C2",
+        "Span_id": "007"
+    },
+    "KHABADA TO MACHHWAI": {
+        "Brown field data": 2047.3918741345753,
+        "Gram Panchayat": 539.2238409004173,
+        "PMGSY": 30.304497386093782,
+        "Ring": "R1",
+        "Span_id": "010"
+    },
+    "SANKHEDI TO KHOHA": {
+        "Gram Panchayat": 136.1651482289745,
+        "PMGSY": 3139.137643575338,
+        "Ring": "R1",
+        "Span_id": "008"
+    },
+    "SATARAMAU TO SANKHEDI": {
+        "Brown field data": 2175.0777098097924,
+        "Ring": "R1",
+        "Span_id": "007"
+    },
+    "CHIKLI TO KHIRIYA KURMI": {
+        "Brown field data": 1892.8327685668696,
+        "PMGSY": 26.139233068460012,
+        "Ring": "R1-C1",
+        "Span_id": "003"
+    },
+    "KHIRIYA KURMI TO SAGPUR": {
+        "Brown field data": 306.8458994610958,
+        "PMGSY": 5903.210195509547,
+        "Ring": "R1-C1",
+        "Span_id": "004"
+    },
+    "SIYA GAHAN TO BAKTRA": {
+        "PMGSY": 2821.671966216267,
+        "Ring": "R1-C1",
+        "Span_id": "006"
+    },
+    "SAGPUR TO SIYA GAHAN": {
+        "Brown field data": 1819.017178731416,
+        "Ring": "R1-C1",
+        "Span_id": "005"
+    },
+    "GADAR TO CHIKLI": {
+        "Brown field data": 2369.028880303959,
+        "Gram Panchayat": 189.13978704497876,
+        "Ring": "R1-C1",
+        "Span_id": "002"
+    },
+    "KHOHA TO KHABADA": {
+        "Brown field data": 6289.19782033463,
+        "Ring": "R1",
+        "Span_id": "009"
+    },
+    "T POINT KHABADA TO GADAR": {
+        "Brown field data": 2945.516821101212,
+        "Ring": "R1-C1",
+        "Span_id": "001"
+    }
+}
