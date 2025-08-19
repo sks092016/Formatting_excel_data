@@ -1,13 +1,13 @@
 from qgis.core import QgsProject
 
 # --- SETTINGS ---
-layer_name = "gps"  # Name of the layer in QGIS
-check_field = "name"        # Field whose value you check
-update_field = "name"    # Field whose value you update
+layer_name = "OFC_NEW-2"  # Name of the layer in QGIS
+check_field = "span_name"        # Field whose value you check
+update_field = "span_name"    # Field whose value you update
 
 # Mapping: if category == key, replace description with value
 replacement_map = {
-    'OLT':'BLOCK',    
+    'MULTAI OLT TO CHOUTHIYA':'CHOUTHIYA TO MULTAI OLT',
 }
 count = 0 
 # --- SCRIPT ---

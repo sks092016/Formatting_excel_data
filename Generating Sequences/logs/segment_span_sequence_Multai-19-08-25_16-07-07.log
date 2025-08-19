@@ -1,0 +1,32 @@
+2025-08-19 16:07:11,968 - INFO - Created 1,448 records
+2025-08-19 16:07:11,977 - INFO - Created 79 records
+2025-08-19 16:07:11,977 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-08-19 16:07:11,981 - INFO - Created 0 records
+2025-08-19 16:07:12,143 - INFO - \U0001f504 Found 8 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4', 'R4-C1']
+2025-08-19 16:07:12,143 - INFO - 
+\U0001f501 Processing ring: R1
+2025-08-19 16:07:12,161 - INFO - \u2705 Completed ring R1 with 18 spans.
+2025-08-19 16:07:12,161 - INFO - 
+\U0001f501 Processing ring: R1-C1
+2025-08-19 16:07:12,166 - INFO - \u2705 Completed ring R1-C1 with 5 spans.
+2025-08-19 16:07:12,166 - INFO - 
+\U0001f501 Processing ring: R2
+2025-08-19 16:07:12,177 - INFO - \u2705 Completed ring R2 with 11 spans.
+2025-08-19 16:07:12,178 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-08-19 16:07:12,183 - INFO - \u2705 Completed ring R2-C1 with 4 spans.
+2025-08-19 16:07:12,183 - INFO - 
+\U0001f501 Processing ring: R3
+2025-08-19 16:07:12,196 - INFO - \u2705 Completed ring R3 with 8 spans.
+2025-08-19 16:07:12,196 - INFO - 
+\U0001f501 Processing ring: R3-C1
+2025-08-19 16:07:12,210 - INFO - \u2705 Completed ring R3-C1 with 9 spans.
+2025-08-19 16:07:12,210 - INFO - 
+\U0001f501 Processing ring: R4
+2025-08-19 16:07:12,217 - INFO - \u2705 Completed ring R4 with 4 spans.
+2025-08-19 16:07:12,217 - INFO - 
+\U0001f501 Processing ring: R4-C1
+2025-08-19 16:07:12,230 - INFO - \u2705 Completed ring R4-C1 with 8 spans.
+2025-08-19 16:07:12,341 - INFO - Created 1,448 records
+2025-08-19 16:07:12,350 - INFO - Created 79 records
+2025-08-19 16:07:12,350 - INFO - \u2705 All rings processed. Span sequence updated and saved.

@@ -1,0 +1,32 @@
+2025-08-19 15:52:16,790 - INFO - Created 1,448 records
+2025-08-19 15:52:16,799 - INFO - Created 81 records
+2025-08-19 15:52:16,799 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-08-19 15:52:16,803 - INFO - Created 0 records
+2025-08-19 15:52:16,973 - INFO - \U0001f504 Found 8 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4', 'R4-C1']
+2025-08-19 15:52:16,974 - INFO - 
+\U0001f501 Processing ring: R1
+2025-08-19 15:52:16,978 - ERROR - \u274c Invalid start point input: 'tuple' object has no attribute 'strip'
+2025-08-19 15:52:16,978 - INFO - 
+\U0001f501 Processing ring: R1-C1
+2025-08-19 15:52:16,984 - INFO - \u2705 Completed ring R1-C1 with 5 spans.
+2025-08-19 15:52:16,984 - INFO - 
+\U0001f501 Processing ring: R2
+2025-08-19 15:52:16,987 - ERROR - \u274c Invalid start point input: 'tuple' object has no attribute 'strip'
+2025-08-19 15:52:16,987 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-08-19 15:52:16,992 - INFO - \u2705 Completed ring R2-C1 with 4 spans.
+2025-08-19 15:52:16,992 - INFO - 
+\U0001f501 Processing ring: R3
+2025-08-19 15:52:16,994 - ERROR - \u274c Invalid start point input: 'tuple' object has no attribute 'strip'
+2025-08-19 15:52:16,994 - INFO - 
+\U0001f501 Processing ring: R3-C1
+2025-08-19 15:52:17,003 - INFO - \u2705 Completed ring R3-C1 with 9 spans.
+2025-08-19 15:52:17,003 - INFO - 
+\U0001f501 Processing ring: R4
+2025-08-19 15:52:17,006 - ERROR - \u274c Invalid start point input: 'tuple' object has no attribute 'strip'
+2025-08-19 15:52:17,006 - INFO - 
+\U0001f501 Processing ring: R4-C1
+2025-08-19 15:52:17,015 - INFO - \u2705 Completed ring R4-C1 with 8 spans.
+2025-08-19 15:52:17,133 - INFO - Created 1,448 records
+2025-08-19 15:52:17,143 - INFO - Created 81 records
+2025-08-19 15:52:17,143 - INFO - \u2705 All rings processed. Span sequence updated and saved.

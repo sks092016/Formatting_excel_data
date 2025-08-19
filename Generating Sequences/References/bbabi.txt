@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Multai"
+blockName = "Babai"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,27 +32,28 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Multai/gps.shp"
-segments_shape_file = "References/Multai/OFC_NEW.shp"
+gps_shape_file = "References/Babai/gps.shp"
+segments_shape_file = "References/Babai/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '78.25416470 21.77393590'
+BHQ_CORDINATE = '77.94055860 22.70366600'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
     'R4': BHQ_CORDINATE,
-    'R1-C1': '78.04384970 21.75212470',
-    'R2-C1': '78.24965350 21.84142830',
-    'R3-C1': '78.37512240 21.79588270',
-    'R4-C1': '78.36129630 21.87021740',
+    'R1-C1': '77.85405740 22.73383990',
+    'R2-C1': '78.01180734 22.71070758',
+    'R3-C1': '78.01637922 22.77358542',
+    'R4-C1': '77.86104678 22.80346644',
 }
 # Non Spur T-POINT SPANS points or Segments which are part of closed Ring
 t_point_ring_spans = {
-    't-point jawra' : (78.03542012, 21.78939964),
-    't-point chouthiya': (78.25705774,21.72862141),
-    't-point dunava': (78.49115814,21.86553129),
+    't-point  majojalpur' : (77.86104679,22.80346644),
+    't-point beekor': (77.90378999,22.81274000),
+    't-point patni': (78.01637922,22.77358543),
+    't-point budhwada' : (78.01180734,22.71070758),
 }

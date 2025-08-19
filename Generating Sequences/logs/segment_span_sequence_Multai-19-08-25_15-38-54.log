@@ -1,0 +1,38 @@
+2025-08-19 15:38:55,926 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'JAM TO SEMRIYA PANDHRI'.
+2025-08-19 15:38:55,927 - WARNING - \u26a0\ufe0f The Span JAM TO SEMRIYA PANDHRI is disconnected at this point (78.40153740000005, 21.761783800000046)
+2025-08-19 15:38:57,952 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'SANWARI TO LENDAGONDI'.
+2025-08-19 15:38:57,953 - WARNING - \u26a0\ufe0f The Span SANWARI TO LENDAGONDI is disconnected at this point (78.40415196400005, 21.813963255000033)
+2025-08-19 15:38:58,286 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'T-Point CHOUTHIYA TO JAMGAON'.
+2025-08-19 15:38:58,286 - WARNING - \u26a0\ufe0f The Span T-Point CHOUTHIYA TO JAMGAON is disconnected at this point (78.25705774200003, 21.728621411000063)
+2025-08-19 15:38:58,863 - INFO - Created 1,448 records
+2025-08-19 15:38:58,872 - INFO - Created 81 records
+2025-08-19 15:38:58,873 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-08-19 15:38:58,877 - INFO - Created 3 records
+2025-08-19 15:38:59,042 - INFO - \U0001f504 Found 8 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4', 'R4-C1']
+2025-08-19 15:38:59,043 - INFO - 
+\U0001f501 Processing ring: R1
+2025-08-19 15:38:59,047 - ERROR - \u274c Invalid start point input: 'tuple' object has no attribute 'strip'
+2025-08-19 15:38:59,047 - INFO - 
+\U0001f501 Processing ring: R1-C1
+2025-08-19 15:38:59,052 - INFO - \u2705 Completed ring R1-C1 with 5 spans.
+2025-08-19 15:38:59,052 - INFO - 
+\U0001f501 Processing ring: R2
+2025-08-19 15:38:59,055 - ERROR - \u274c Invalid start point input: 'tuple' object has no attribute 'strip'
+2025-08-19 15:38:59,055 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-08-19 15:38:59,060 - INFO - \u2705 Completed ring R2-C1 with 4 spans.
+2025-08-19 15:38:59,060 - INFO - 
+\U0001f501 Processing ring: R3
+2025-08-19 15:38:59,062 - ERROR - \u274c Invalid start point input: 'tuple' object has no attribute 'strip'
+2025-08-19 15:38:59,062 - INFO - 
+\U0001f501 Processing ring: R3-C1
+2025-08-19 15:38:59,066 - INFO - \u2705 Completed ring R3-C1 with 2 spans.
+2025-08-19 15:38:59,066 - INFO - 
+\U0001f501 Processing ring: R4
+2025-08-19 15:38:59,069 - ERROR - \u274c Invalid start point input: 'tuple' object has no attribute 'strip'
+2025-08-19 15:38:59,069 - INFO - 
+\U0001f501 Processing ring: R4-C1
+2025-08-19 15:38:59,078 - INFO - \u2705 Completed ring R4-C1 with 8 spans.
+2025-08-19 15:38:59,194 - INFO - Created 1,448 records
+2025-08-19 15:38:59,203 - INFO - Created 81 records
+2025-08-19 15:38:59,204 - INFO - \u2705 All rings processed. Span sequence updated and saved.
