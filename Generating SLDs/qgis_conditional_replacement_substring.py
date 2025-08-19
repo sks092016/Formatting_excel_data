@@ -7,7 +7,7 @@ update_field = "span_name"    # Field whose value you update
 
 # Mapping: if category == key, replace description with value
 replacement_map = {
-    'MULTAI OLT TO CHOUTHIYA':'CHOUTHIYA TO MULTAI OLT',
+    'TALABPIPLIYA TO DORWADA': 'DORWADA TO RANAYRA',
 }
 count = 0 
 # --- SCRIPT ---

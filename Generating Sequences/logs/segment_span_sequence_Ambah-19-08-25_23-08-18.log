@@ -1,0 +1,19 @@
+2025-08-19 23:08:18,607 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BAREH TO JOHAN'.
+2025-08-19 23:08:18,608 - WARNING - ⚠️ The Span BAREH TO JOHAN is disconnected at this point (78.14039330000008, 26.689110000000028)
+2025-08-19 23:08:19,784 - INFO - Created 774 records
+2025-08-19 23:08:19,788 - INFO - Created 58 records
+2025-08-19 23:08:19,788 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-08-19 23:08:19,790 - INFO - Created 1 records
+2025-08-19 23:08:19,817 - INFO - 🔄 Found 3 rings: ['R1', 'R2', 'R3']
+2025-08-19 23:08:19,818 - INFO - 
+🔁 Processing ring: R1
+2025-08-19 23:08:19,827 - INFO - ✅ Completed ring R1 with 18 spans.
+2025-08-19 23:08:19,827 - INFO - 
+🔁 Processing ring: R2
+2025-08-19 23:08:19,834 - INFO - ✅ Completed ring R2 with 17 spans.
+2025-08-19 23:08:19,834 - INFO - 
+🔁 Processing ring: R3
+2025-08-19 23:08:19,840 - INFO - ✅ Completed ring R3 with 14 spans.
+2025-08-19 23:08:19,862 - INFO - Created 774 records
+2025-08-19 23:08:19,867 - INFO - Created 58 records
+2025-08-19 23:08:19,868 - INFO - ✅ All rings processed. Span sequence updated and saved.

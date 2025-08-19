@@ -1,0 +1,6 @@
+2025-08-19 23:54:47,987 - INFO - These GPs are repeating [('RANAYRA', 2)] but their geometry is different
+2025-08-19 23:54:47,987 - INFO - Their Geometry is: 
+2025-08-19 23:54:47,990 - INFO -     gp_name                                   coords
+9   RANAYRA  (75.18972640900006, 24.214876995000054)
+25  RANAYRA  (75.18970299000006, 24.214881638000065)
+2025-08-19 23:54:47,996 - INFO - {'extra_in_spans': {'BALGURA', 'ANTRIKHURA', 'GOGARPUR', 'TALABPIPLIYA', 'BANUKHEDA', 'MANASAKHURA', 'BARKHEDA', 'BOTAGANJ', 'TAKARWAD', 'OLT MALHARGARH'}, 'unused_gps': {'ANTRIKHURD'}}
