@@ -23,8 +23,11 @@ pattern = re.compile(
 
 def extract_tokens(text):
     ring_no = pattern.findall(text)
-    return ring_no[0].upper().replace('RING', "R").replace("-", "").replace(" ", "").replace("C", "-C")
-
+    try:
+        return ring_no[0].upper().replace('RING', "R").replace("-", "").replace(" ", "").replace("C", "-C")
+    except Exception as e:
+        print(f"the exception {e} occurred")
+        return None
 
 root_dir = "folder_data"  # your top directory
 
@@ -49,11 +52,14 @@ for root, dirs, files in os.walk(root_dir):
         rows.append({
             "block_name": level2,
             "ring_name": extract_tokens(mid_level),
-            "span_name": last_level.lower()
+            "span_name": re.sub(r'^[\d\W_]+', '', last_level).lower()
         })
 
 df = pd.DataFrame(rows)
 print(df)
+
+output_path = "folder_data.xlsx"
+df.to_excel(output_path, index=False)
 # ---- 1. Load your Excel file ----
 excel_path = "Video Data Migration_19.08.2025.xlsx"
 sheet_name = "mp_surveyor_data"
@@ -64,18 +70,20 @@ df_excel = pd.read_excel(excel_path, sheet_name=sheet_name)
 
 # ---- 3. Build a lookup list from df_main[col3] ----
 choices = df["span_name"].astype(str).tolist()
-choices.remove("old gp rout")
 
 # ---- 4. Define fuzzy match function ----
-def fuzzy_lookup(query, scorer=fuzz.WRatio, cutoff=88):
+def fuzzy_lookup(query, scorer=fuzz.WRatio, cutoff=90):
     if pd.isna(query):
         return None, None, None, 0
     match, score, idx = process.extractOne(
         str(query), choices, scorer=scorer, score_cutoff=cutoff,
     ) or (None, 0, None)
 
+    print(f"Query={query}, Match={match}, Score={score}, {idx}")
+
     if idx is not None:
         row = df.iloc[idx]
+        print(row)
         return row["block_name"], row["ring_name"], row["span_name"], score
     return None, None, None, score
 
