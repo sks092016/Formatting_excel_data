@@ -70,9 +70,9 @@ df_excel = pd.read_excel(excel_path, sheet_name=sheet_name)
 
 # ---- 3. Build a lookup list from df_main[col3] ----
 choices = df["span_name"].astype(str).tolist()
-
+choices = [None if x == "part2" or x == "old gp rout" else x for x in choices]
 # ---- 4. Define fuzzy match function ----
-def fuzzy_lookup(query, scorer=fuzz.WRatio, cutoff=90):
+def fuzzy_lookup(query, scorer=fuzz.token_set_ratio, cutoff=85):
     if pd.isna(query):
         return None, None, None, 0
     match, score, idx = process.extractOne(
