@@ -1,0 +1,337 @@
+{
+    "BAREH TO JOHAN": {
+        "Brown Filed Data": 608.6870937096176,
+        "PMGSY": 5896.2491985720935,
+        "Ring": "R3",
+        "Span_id": "003"
+    },
+    "JOHAN TO SHYAMPUR KHURD": {
+        "Brown Filed Data": 1267.2550416506842,
+        "PMGSY": 2637.5173982760325,
+        "Ring": "R3",
+        "Span_id": "004"
+    },
+    "KUTHIYANA TO DANDOLI": {
+        "PWD": 6530.11671401331,
+        "Ring": "R3",
+        "Span_id": "010"
+    },
+    "NAWALI TO AMBAH BLOCK": {
+        "PMGSY": 6070.5686065572545,
+        "Ring": "R1",
+        "Span_id": "018"
+    },
+    "SUNAWALI TO NAWALI": {
+        "Brown Filed Data": 1036.011890129339,
+        "PMGSY": 3265.883453288571,
+        "Ring": "R1",
+        "Span_id": "017"
+    },
+    "AMBAH BLOCK TO DOHARA": {
+        "PMGSY": 3062.2849155983376,
+        "Ring": "R2",
+        "Span_id": "001"
+    },
+    "BHOUNPURA TO SINGHPURA": {
+        "Brown Filed Data": 2994.9104162979384,
+        "NH-552": 2048.2735346859768,
+        "PMGSY": 109.71689070809127,
+        "Ring": "R1",
+        "Span_id": "004"
+    },
+    "KUKTHARI TO SUNAWALI": {
+        "Brown Filed Data": 2262.368285848436,
+        "PMGSY": 2595.7984496084105,
+        "Ring": "R1",
+        "Span_id": "016"
+    },
+    "AMBAH BLOCK TO BADFARA": {
+        "Brown Filed Data": 2737.5513884100687,
+        "NH-552": 352.30920555346404,
+        "PMGSY": 1370.032078488443,
+        "Ring": "R3",
+        "Span_id": "001"
+    },
+    "BADFARA TO BAREH": {
+        "NH-552": 2799.0921732143956,
+        "PMGSY": 243.24207736569494,
+        "Ring": "R3",
+        "Span_id": "002"
+    },
+    "KAMTARI TO AMBAH BLOCK": {
+        "Brown Filed Data": 650.910901421978,
+        "PMGSY": 6502.006963816304,
+        "PWD": 997.1623806419146,
+        "Ring": "R2",
+        "Span_id": "017"
+    },
+    "SINGHPURA TO KIRRAYACH": {
+        "PMGSY": 5029.481738287363,
+        "Ring": "R1",
+        "Span_id": "005"
+    },
+    "ASAH TO KUTHIYANA": {
+        "Brown Filed Data": 4446.537272131517,
+        "Ring": "R3",
+        "Span_id": "009"
+    },
+    "RANPUR TO KACHNOUDHA": {
+        "Brown Filed Data": 2519.6482596907863,
+        "Ring": "R3",
+        "Span_id": "007"
+    },
+    "KACHNOUDHA TO ASAH": {
+        "Brown Filed Data": 3601.234193046496,
+        "Ring": "R3",
+        "Span_id": "008"
+    },
+    "DOHARA TO CHAND KA PURA": {
+        "Brown Filed Data": 1017.4152423308567,
+        "PMGSY": 1819.0076547357337,
+        "Ring": "R2",
+        "Span_id": "002"
+    },
+    "TARENI TO KUKTHARI": {
+        "Brown Filed Data": 2218.6356544786595,
+        "PMGSY": 5166.442025889208,
+        "Ring": "R1",
+        "Span_id": "015"
+    },
+    "GOTH TO RANPUR": {
+        "Brown Filed Data": 1082.9112859745915,
+        "Ring": "R3",
+        "Span_id": "006"
+    },
+    "SHYAMPUR KHURD TO GOTH": {
+        "Brown Filed Data": 2992.5079175943356,
+        "Ring": "R3",
+        "Span_id": "005"
+    },
+    "BIREHARUA TO KAMTARI": {
+        "PMGSY": 4223.569787189599,
+        "Ring": "R2",
+        "Span_id": "016"
+    },
+    "CHAND KA PURA TO TUTWAS": {
+        "Brown Filed Data": 2293.574829965599,
+        "PMGSY": 87.49090100480977,
+        "Ring": "R2",
+        "Span_id": "003"
+    },
+    "TUTWAS TO SIKRODI": {
+        "Brown Filed Data": 3233.1772522724923,
+        "PMGSY": 1021.7587063590129,
+        "Ring": "R2",
+        "Span_id": "004"
+    },
+    "DHANSULA TO TARENI": {
+        "PMGSY": 2932.7721769460645,
+        "Ring": "R1",
+        "Span_id": "014"
+    },
+    "PURAWAS KHURD TO ROOPHATI": {
+        "PMGSY": 4870.063975309605,
+        "Ring": "R1",
+        "Span_id": "012"
+    },
+    "ROOPHATI TO DHANSULA": {
+        "Brown Filed Data": 3274.518302746697,
+        "PMGSY": 770.5423386743183,
+        "Ring": "R1",
+        "Span_id": "013"
+    },
+    "KIRRAYACH TO LEPA": {
+        "Brown Filed Data": 8696.358491706824,
+        "PMGSY": 3853.803050900591,
+        "Ring": "R1",
+        "Span_id": "006"
+    },
+    "CHANDPUR TO RITHOURA KA PURA": {
+        "Brown Filed Data": 900.071397438668,
+        "PMGSY": 902.7213326655744,
+        "Ring": "R2",
+        "Span_id": "014"
+    },
+    "RITHOURA KA PURA TO BIREHARUA": {
+        "Brown Filed Data": 3588.0422430437484,
+        "Ring": "R2",
+        "Span_id": "015"
+    },
+    "DIMANI TO LAHAR": {
+        "Brown Filed Data": 1163.0701594425313,
+        "PMGSY": 2578.2518616696225,
+        "Ring": "R2",
+        "Span_id": "012"
+    },
+    "GOPI TO DIMANI": {
+        "NH-552": 1260.4784668785296,
+        "PMGSY": 6128.556783862476,
+        "PWD": 4031.0208319453855,
+        "Ring": "R2",
+        "Span_id": "011"
+    },
+    "LAHAR TO CHANDPUR": {
+        "Brown Filed Data": 2220.1556939007814,
+        "PMGSY": 2754.3810509950968,
+        "Ring": "R2",
+        "Span_id": "013"
+    },
+    "EKHARA TO PURAWAS KALAN": {
+        "Brown Filed Data": 3409.4605104007865,
+        "PMGSY": 1789.7103211510557,
+        "Ring": "R1",
+        "Span_id": "010"
+    },
+    "PURAWAS KALAN TO PURAWAS KHURD": {
+        "Brown Filed Data": 1578.596786782699,
+        "PMGSY": 1060.2233377574958,
+        "Ring": "R1",
+        "Span_id": "011"
+    },
+    "KHADIYA BEHAD TO BAWADIPURA": {
+        "Brown Filed Data": 320.83433104718426,
+        "PMGSY": 5373.430181344693,
+        "Ring": "R2",
+        "Span_id": "006"
+    },
+    "SIKRODI TO KHADIYA BEHAD": {
+        "Brown Filed Data": 2616.3562768080983,
+        "Ring": "R2",
+        "Span_id": "005"
+    },
+    "BAWADIPURA TO SIHONIYA": {
+        "Brown Filed Data": 249.2886529898361,
+        "PMGSY": 4204.990385717173,
+        "Ring": "R2",
+        "Span_id": "007"
+    },
+    "SIHONIYA TO MAHURI": {
+        "Brown Filed Data": 970.1529255989287,
+        "PMGSY": 2624.7344344347207,
+        "Ring": "R2",
+        "Span_id": "008"
+    },
+    "T-POINT MAHURI TO LALLUBASAI": {
+        "Brown Filed Data": 58.94992080191878,
+        "PMGSY": 721.0308746271645,
+        "Ring": "R2",
+        "Span_id": "018"
+    },
+    "KHADIYAHAR TO GOPI": {
+        "Brown Filed Data": 4787.01906485692,
+        "PMGSY": 56.12478517818877,
+        "Ring": "R2",
+        "Span_id": "010"
+    },
+    "MAHURI TO KHADIYAHAR": {
+        "Brown Filed Data": 4001.7383568561722,
+        "PMGSY": 496.0086225679857,
+        "Ring": "R2",
+        "Span_id": "009"
+    },
+    "MANPUR RAJPUTI TO EKHARA": {
+        "Brown Filed Data": 1224.6879010552357,
+        "PMGSY": 8.15832633049639,
+        "PWD": 1720.4370728246133,
+        "Ring": "R1",
+        "Span_id": "009"
+    },
+    "BHIDOSA TO MANPUR RAJPUTI": {
+        "Brown Filed Data": 3416.8051554647614,
+        "PWD": 2921.9053059643384,
+        "Ring": "R1",
+        "Span_id": "008"
+    },
+    "T-POINT BHIDOSA TO  KOLUA": {
+        "Brown Filed Data": 2844.4411099495396,
+        "Ring": "R1",
+        "Span_id": "019"
+    },
+    "T-POINT MALBASAI TO AROLI": {
+        "Brown Filed Data": 2862.4154777533895,
+        "Ring": "R3",
+        "Span_id": "019"
+    },
+    "T-POINT KAKRARI TO GOONJH": {
+        "Brown Filed Data": 4764.096282481456,
+        "Ring": "R3",
+        "Span_id": "017"
+    },
+    "T-POINT GOONJH TO MALBASAI": {
+        "Brown Filed Data": 2448.318653178488,
+        "Ring": "R3",
+        "Span_id": "018"
+    },
+    "KAKRARI TO BHADOULI": {
+        "Brown Filed Data": 5488.043203462727,
+        "PMGSY": 2678.1599396746633,
+        "Ring": "R3",
+        "Span_id": "014"
+    },
+    "BHADOULI TO AMBAH BLOCK": {
+        "Brown Filed Data": 2139.460089419562,
+        "NH-552": 13.314661084581697,
+        "PMGSY": 1309.0024419930705,
+        "Ring": "R3",
+        "Span_id": "015"
+    },
+    "BICHOLA TO KAKRARI": {
+        "Brown Filed Data": 1762.5877962516697,
+        "PMGSY": 398.1765255897478,
+        "Ring": "R3",
+        "Span_id": "013"
+    },
+    "KHIRENTA TO BICHOLA": {
+        "Brown Filed Data": 3455.5855398181125,
+        "PMGSY": 1524.4857040544096,
+        "PWD": 542.532651370391,
+        "Ring": "R3",
+        "Span_id": "012"
+    },
+    "T-POINT KUTHIYANA TO BEELPUR": {
+        "Brown Filed Data": 1215.4537426415443,
+        "Ring": "R3",
+        "Span_id": "020"
+    },
+    "DANDOLI TO KHIRENTA": {
+        "Brown Filed Data": 5661.310945443906,
+        "Ring": "R3",
+        "Span_id": "011"
+    },
+    "AMBAH BLOCK TO THARA": {
+        "Brown Filed Data": 92.61881653224461,
+        "NH-552": 4684.220674138483,
+        "PMGSY": 893.2935384098116,
+        "Ring": "R1",
+        "Span_id": "001"
+    },
+    "JALKA NAGARA TO BHOUNPURA": {
+        "NH-552": 1246.7323603743548,
+        "PMGSY": 3929.8587577648723,
+        "Ring": "R1",
+        "Span_id": "003"
+    },
+    "THARA TO JALKA NAGARA": {
+        "Brown Filed Data": 1832.6428742057208,
+        "NH-552": 1477.7245263802222,
+        "Ring": "R1",
+        "Span_id": "002"
+    },
+    "LEPA TO BHIDOSA": {
+        "Brown Filed Data": 340.01540340552737,
+        "PMGSY": 1659.7551476623735,
+        "Ring": "R1",
+        "Span_id": "007"
+    },
+    "T-POINT LEPA TO SANGOLI": {
+        "Brown Filed Data": 1820.5192670075974,
+        "PMGSY": 98.58455333683446,
+        "Ring": "R1",
+        "Span_id": "020"
+    },
+    "T-POINT KAKRARI TO RITHONA": {
+        "Brown Filed Data": 1517.552463128988,
+        "Ring": "R3",
+        "Span_id": "016"
+    }
+}
