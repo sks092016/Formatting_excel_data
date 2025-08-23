@@ -1,14 +1,13 @@
 from qgis.core import QgsProject
 
 # --- SETTINGS ---
-layer_name = "OFC_NEW-2"  # Name of the layer in QGIS
+layer_name = "OFC_NEW2"  # Name of the layer in QGIS
 check_field = "span_name"        # Field whose value you check
 update_field = "span_name"    # Field whose value you update
 
 # Mapping: if category == key, replace description with value
 replacement_map = {
-    'T- POINT': 'T-POINT',
-    'T - POINT': 'T-POINT'
+    'PACHGAON': 'PACHAGAON',
 }
 count = 0 
 # --- SCRIPT ---

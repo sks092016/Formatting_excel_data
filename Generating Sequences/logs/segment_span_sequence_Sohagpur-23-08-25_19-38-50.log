@@ -1,0 +1,25 @@
+2025-08-23 19:38:50,476 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BANDHWABADA TO PACHAGAON'.
+2025-08-23 19:38:50,476 - WARNING - ⚠️ The Span BANDHWABADA TO PACHAGAON is disconnected at this point (81.35960581700004, 23.245972494000057)
+2025-08-23 19:38:51,503 - INFO - Created 813 records
+2025-08-23 19:38:51,506 - INFO - Created 45 records
+2025-08-23 19:38:51,506 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-08-23 19:38:51,508 - INFO - Created 1 records
+2025-08-23 19:38:51,531 - INFO - 🔄 Found 5 rings: ['R1', 'R1-C1', 'R2', 'R3', 'R3-C1']
+2025-08-23 19:38:51,531 - INFO - 
+🔁 Processing ring: R1
+2025-08-23 19:38:51,535 - INFO - ✅ Completed ring R1 with 8 spans.
+2025-08-23 19:38:51,535 - INFO - 
+🔁 Processing ring: R1-C1
+2025-08-23 19:38:51,538 - INFO - ✅ Completed ring R1-C1 with 4 spans.
+2025-08-23 19:38:51,538 - INFO - 
+🔁 Processing ring: R2
+2025-08-23 19:38:51,541 - INFO - ✅ Completed ring R2 with 8 spans.
+2025-08-23 19:38:51,541 - INFO - 
+🔁 Processing ring: R3
+2025-08-23 19:38:51,545 - INFO - ✅ Completed ring R3 with 9 spans.
+2025-08-23 19:38:51,545 - INFO - 
+🔁 Processing ring: R3-C1
+2025-08-23 19:38:51,547 - INFO - ✅ Completed ring R3-C1 with 0 spans.
+2025-08-23 19:38:51,571 - INFO - Created 813 records
+2025-08-23 19:38:51,575 - INFO - Created 45 records
+2025-08-23 19:38:51,576 - INFO - ✅ All rings processed. Span sequence updated and saved.
