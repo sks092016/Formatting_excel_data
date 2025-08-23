@@ -1,0 +1,484 @@
+{
+    "BUDHA TO PEER GURADIYA": {
+        "BROWN FIELD DATA": 154.29384797584896,
+        "PMGSY": 3031.125064136893,
+        "Ring": "R3",
+        "Span_id": "013"
+    },
+    "CHILLOD PIPLIA TO BUDHA": {
+        "PMGSY": 2466.4138601035415,
+        "Ring": "R3",
+        "Span_id": "012"
+    },
+    "DORWADA TO TALABPIPLIYA": {
+        "BROWN FIELD DATA": 13.948548920492314,
+        "PMGSY": 2119.1703379873097,
+        "Ring": "R5",
+        "Span_id": "005"
+    },
+    "SUTHOD TO BARKHEDA PANTH": {
+        "SH-52": 3150.8750878620804,
+        "Ring": "R2",
+        "Span_id": "010"
+    },
+    "BALAGURA TO NAVEEN KHAKHRAI": {
+        "PWD": 4434.098853146565,
+        "Ring": "R1",
+        "Span_id": "006"
+    },
+    "KANGHATTI TO NINORA": {
+        "PWD": 4952.523421439294,
+        "Ring": "R1",
+        "Span_id": "009"
+    },
+    "NAVEEN KHAKHRAI TO SEMLI": {
+        "PMGSY": 2475.3143526410076,
+        "PWD": 53.980284779166325,
+        "Ring": "R1",
+        "Span_id": "007"
+    },
+    "SEMLI TO KANGHATTI": {
+        "BROWN FIELD DATA": 102.80696918478839,
+        "PWD": 5057.062123529267,
+        "Ring": "R1",
+        "Span_id": "008"
+    },
+    "LIMBAWAS TO BARUJNA": {
+        "BROWN FIELD DATA": 2030.6941236684893,
+        "PWD": 2161.8598576103723,
+        "Ring": "R3",
+        "Span_id": "015"
+    },
+    "PEER GURADIYA TO LIMBAWAS": {
+        "BROWN FIELD DATA": 1655.792840381719,
+        "PWD": 1113.6057118973342,
+        "Ring": "R3",
+        "Span_id": "014"
+    },
+    "SONI TO KACHRIYA NO": {
+        "PMGSY": 3398.6674673550574,
+        "PWD": 3169.4720255662196,
+        "Ring": "R2",
+        "Span_id": "002"
+    },
+    "BARUJNA TO RICHA": {
+        "PMGSY": 2230.974301632781,
+        "Ring": "R3",
+        "Span_id": "016"
+    },
+    "GARRAWAD TO CHILLOD PIPLIA": {
+        "BROWN FIELD DATA": 2078.8707909876007,
+        "Ring": "R3",
+        "Span_id": "011"
+    },
+    "T-POINT RANAYRA TO NAPAKHEDA": {
+        "PMGSY": 3247.17728720531,
+        "PWD": 570.2874832840472,
+        "Ring": "R5-C1",
+        "Span_id": "011"
+    },
+    "TAKRAWAD TO GARRAWAD": {
+        "PMGSY": 3243.4848990550786,
+        "Ring": "R3",
+        "Span_id": "010"
+    },
+    "MUNDERI TO GUDBHELI": {
+        "BROWN FIELD DATA": 2606.315983106213,
+        "Ring": "R3",
+        "Span_id": "018"
+    },
+    "RICHA TO MUNDERI": {
+        "BROWN FIELD DATA": 53.19643623301018,
+        "PMGSY": 5779.121494506078,
+        "Ring": "R3",
+        "Span_id": "017"
+    },
+    "MALHARGARH BLOCK TO HARSOL": {
+        "BROWN FIELD DATA": 4653.09467697656,
+        "PMGSY": 2802.044980338956,
+        "PWD": 7108.20839492191,
+        "Ring": "R3",
+        "Span_id": "001"
+    },
+    "CHEETAKHEDI TO BADPUR": {
+        "BROWN FIELD DATA": 216.5954972171733,
+        "PMGSY": 5975.807039466665,
+        "Ring": "R5",
+        "Span_id": "003"
+    },
+    "BARKHEDA PANTH TO MALHARGARH BLOCK": {
+        "BROWN FIELD DATA": 2208.768009508604,
+        "PMGSY": 1626.2206585877564,
+        "PWD": 152.98500839732307,
+        "Ring": "R2",
+        "Span_id": "011"
+    },
+    "MALHARGARH BLOCK TO SONI": {
+        "BROWN FIELD DATA": 3466.524687661451,
+        "PMGSY": 2299.5897531114365,
+        "PWD": 1944.3356920940062,
+        "SH-52": 27.434473773325596,
+        "Ring": "R2",
+        "Span_id": "001"
+    },
+    "NINORA TO MALHARGARH BLOCK": {
+        "BROWN FIELD DATA": 1505.9631355315678,
+        "PMGSY": 3918.5455025294805,
+        "PWD": 156.22038573944596,
+        "SH-52": 669.9353647128451,
+        "Ring": "R1",
+        "Span_id": "010"
+    },
+    "BADPUR TO DORWADA": {
+        "BROWN FIELD DATA": 1048.059638100962,
+        "Ring": "R5",
+        "Span_id": "004"
+    },
+    "LUNAHEDA TO CHEETAKHEDI": {
+        "PMGSY": 2416.7597830708773,
+        "Ring": "R5",
+        "Span_id": "002"
+    },
+    "TALABPIPLIYA TO RANAYRA": {
+        "BROWN FIELD DATA": 6064.504864707189,
+        "Ring": "R5",
+        "Span_id": "006"
+    },
+    "BILLOD TO RANAYRA": {
+        "PMGSY": 3556.293954833879,
+        "PWD": 4044.472996236604,
+        "Ring": "R5-C1",
+        "Span_id": "020"
+    },
+    "RANAYRA TO KACHRIYA KADMALA": {
+        "PMGSY": 3556.3825442456155,
+        "Ring": "R5",
+        "Span_id": "007"
+    },
+    "GUDBHELI TO MALHARGARH BLOCK": {
+        "BROWN FIELD DATA": 1397.672813281002,
+        "PWD": 223.76283210450757,
+        "Ring": "R3",
+        "Span_id": "019"
+    },
+    "MALHARGARH TO LUNAHEDA": {
+        "PMGSY": 4718.511198697853,
+        "PWD": 1574.972972312091,
+        "Ring": "R5",
+        "Span_id": "001"
+    },
+    "MALHARGARH BLOCK TO SOKDI": {
+        "BROWN FIELD DATA": 3640.6903491228486,
+        "Ring": "R1",
+        "Span_id": "001"
+    },
+    "LASUDIYA RATHOR TO MALHARGARH": {
+        "BROWN FIELD DATA": 357.1767273211378,
+        "PMGSY": 7828.335471201861,
+        "PWD": 82.30123678341505,
+        "Ring": "R5",
+        "Span_id": "011"
+    },
+    "MALHARGARH TO KACHRIYA CHANDRAWAT": {
+        "BROWN FIELD DATA": 2129.782936833099,
+        "PMGSY": 529.1423790042637,
+        "PWD": 490.00615946492235,
+        "Ring": "R4",
+        "Span_id": "001"
+    },
+    "SOKDI TO BAHI": {
+        "PWD": 4066.1323899903546,
+        "Ring": "R1",
+        "Span_id": "002"
+    },
+    "BABUKHEDA TO KAMLIYA": {
+        "BROWN FIELD DATA": 1186.6182141918637,
+        "PMGSY": 2677.883298177703,
+        "Ring": "R4",
+        "Span_id": "003"
+    },
+    "DHABLA TO TURKIYA": {
+        "BROWN FIELD DATA": 1483.4487259146363,
+        "PMGSY": 2627.924332437847,
+        "PWD": 2886.601275889462,
+        "Ring": "R5",
+        "Span_id": "009"
+    },
+    "THAROD TO MALHARGARH BLOCK": {
+        "BROWN FIELD DATA": 5014.784995558482,
+        "PWD": 1089.1112818954011,
+        "Ring": "R4",
+        "Span_id": "009"
+    },
+    "KAMLIYA TO SINDHPAN": {
+        "BROWN FIELD DATA": 344.2297554227335,
+        "PMGSY": 4535.24458468643,
+        "Ring": "R4",
+        "Span_id": "004"
+    },
+    "T-POINT SEMLI TO UMRIYA": {
+        "BROWN FIELD DATA": 281.68555437231043,
+        "PMGSY": 4206.682051033179,
+        "Ring": "R1",
+        "Span_id": "011"
+    },
+    "BAHI TO GOGARPURA": {
+        "BROWN FIELD DATA": 3107.58578326219,
+        "Ring": "R1",
+        "Span_id": "003"
+    },
+    "GOGARPURA TO BARKHEDA JAISINGH": {
+        "PMGSY": 3405.08140031856,
+        "Ring": "R1",
+        "Span_id": "004"
+    },
+    "BELARA TO BOTALGANJ": {
+        "PMGSY": 7556.003670512142,
+        "Ring": "R4",
+        "Span_id": "007"
+    },
+    "DEORI TO BELARA": {
+        "BROWN FIELD DATA": 1697.014390178332,
+        "PMGSY": 287.41691772322275,
+        "Ring": "R4",
+        "Span_id": "006"
+    },
+    "SINDHPAN TO DEORI": {
+        "BROWN FIELD DATA": 1466.5845112917823,
+        "PMGSY": 4244.743347317284,
+        "Ring": "R4",
+        "Span_id": "005"
+    },
+    "BOTALGANJ TO THAROD": {
+        "BROWN FIELD DATA": 1690.7730220414603,
+        "Ring": "R4",
+        "Span_id": "008"
+    },
+    "BARKHEDA JAISINGH TO BALAGURA": {
+        "BROWN FIELD DATA": 2719.2870620073613,
+        "Ring": "R1",
+        "Span_id": "005"
+    },
+    "T-POINT MUNDRI TO DODIYA MEENA": {
+        "BROWN FIELD DATA": 1506.0265263126764,
+        "Ring": "R4",
+        "Span_id": "011"
+    },
+    "T-POINT SINDHPAN TO MUNDRI": {
+        "BROWN FIELD DATA": 3459.4460727743035,
+        "Ring": "R4",
+        "Span_id": "010"
+    },
+    "AKYA BIKA TO TAKRAWAD": {
+        "BROWN FIELD DATA": 26.555723277556442,
+        "PMGSY": 4786.065599621338,
+        "Ring": "R3-C1",
+        "Span_id": "029"
+    },
+    "HINGORIYA CHOTA TO TAKRAWAD": {
+        "PMGSY": 4633.424738642712,
+        "Ring": "R3",
+        "Span_id": "009"
+    },
+    "NAPAKHEDA TO PIPLIA JODHA": {
+        "BROWN FIELD DATA": 478.4990483523472,
+        "PWD": 1469.0473695291275,
+        "Ring": "R5-C1",
+        "Span_id": "012"
+    },
+    "HINGORIYA BADA TO AKYA BIKA": {
+        "PMGSY": 13636.01846296636,
+        "Ring": "R3-C1",
+        "Span_id": "028"
+    },
+    "BARKHEDA DANGI TO PIPLIA RAISINGH": {
+        "PMGSY": 3192.389984141638,
+        "Ring": "R5-C1",
+        "Span_id": "016"
+    },
+    "HATHIBOLIA TO BARKHEDA DANGI": {
+        "BROWN FIELD DATA": 3317.8712729881786,
+        "Ring": "R5-C1",
+        "Span_id": "015"
+    },
+    "RATANPIPLIA TO HATHIBOLIA": {
+        "PWD": 2946.7491509005417,
+        "Ring": "R5-C1",
+        "Span_id": "014"
+    },
+    "PIPLIA JODHA TO RATANPIPLIA": {
+        "BROWN FIELD DATA": 2543.300091874776,
+        "PWD": 2353.6799854362885,
+        "Ring": "R5-C1",
+        "Span_id": "013"
+    },
+    "PIPLIA RAISINGH TO KHATYAKHEDI": {
+        "PMGSY": 3902.1433336331206,
+        "Ring": "R5-C1",
+        "Span_id": "017"
+    },
+    "KHUTI TO BILLOD": {
+        "BROWN FIELD DATA": 1261.5742805268364,
+        "PMGSY": 3278.9831555656683,
+        "Ring": "R5-C1",
+        "Span_id": "019"
+    },
+    "TIDWAS TO HINGORIYA BADA": {
+        "BROWN FIELD DATA": 3551.05325582943,
+        "Ring": "R3-C1",
+        "Span_id": "027"
+    },
+    "CHANGERI TO MANASAKHURD": {
+        "PMGSY": 9844.028711217941,
+        "Ring": "R2",
+        "Span_id": "005"
+    },
+    "MANASAKHURD TO BARKHEDA DEO": {
+        "BROWN FIELD DATA": 3930.0297104534675,
+        "Ring": "R2",
+        "Span_id": "006"
+    },
+    "BORKHEDI TO JHARDA": {
+        "BROWN FIELD DATA": 180.55536075281867,
+        "PMGSY": 226.4569042121068,
+        "PWD": 3250.4340265353367,
+        "Ring": "R3",
+        "Span_id": "004"
+    },
+    "JHARDA TO GOPALPURA": {
+        "BROWN FIELD DATA": 3489.7251162942594,
+        "PMGSY": 704.0820382246774,
+        "Ring": "R3",
+        "Span_id": "005"
+    },
+    "T-POINT GOPALPURA TO KITTUKHEDI": {
+        "PWD": 2612.553296354629,
+        "Ring": "R3",
+        "Span_id": "020"
+    },
+    "SOMIYA TO BORKHEDI": {
+        "BROWN FIELD DATA": 395.7203778423036,
+        "PMGSY": 1635.5037780052546,
+        "PWD": 2048.8184366860833,
+        "Ring": "R3",
+        "Span_id": "003"
+    },
+    "MOLYAKHEDA TO CHANGERI": {
+        "BROWN FIELD DATA": 1361.3042039630589,
+        "PMGSY": 1481.9692405697708,
+        "SH-52": 250.96949292960434,
+        "Ring": "R2",
+        "Span_id": "004"
+    },
+    "BARKHEDA DEO TO PIPLIA VISHNIYA": {
+        "BROWN FIELD DATA": 3309.5155031317868,
+        "Ring": "R2",
+        "Span_id": "007"
+    },
+    "GOPALPURA TO ADMALYA": {
+        "BROWN FIELD DATA": 4232.866062338001,
+        "Ring": "R3",
+        "Span_id": "006"
+    },
+    "PIPLIA VISHNIYA TO PAHEDA": {
+        "BROWN FIELD DATA": 1311.9604301581128,
+        "PMGSY": 1489.3121037621668,
+        "PWD": 1941.4141736554989,
+        "Ring": "R2",
+        "Span_id": "008"
+    },
+    "ADMALYA TO KHADPALYA": {
+        "BROWN FIELD DATA": 947.7849202205767,
+        "PWD": 4266.680982327211,
+        "Ring": "R3",
+        "Span_id": "007"
+    },
+    "HARSOL TO SOMIYA": {
+        "BROWN FIELD DATA": 94.01052563944029,
+        "PMGSY": 2562.5323620688896,
+        "Ring": "R3",
+        "Span_id": "002"
+    },
+    "KACHRIYA NO TO MOLYAKHEDA": {
+        "BROWN FIELD DATA": 4543.297147486925,
+        "SH-52": 2606.508830180837,
+        "Ring": "R2",
+        "Span_id": "003"
+    },
+    "PAHEDA TO SUTHOD": {
+        "BROWN FIELD DATA": 140.56571713263787,
+        "PMGSY": 5937.823776178347,
+        "Ring": "R2",
+        "Span_id": "009"
+    },
+    "KHADPALYA TO HINGORIYA CHOTA": {
+        "BROWN FIELD DATA": 3039.481089350622,
+        "Ring": "R3",
+        "Span_id": "008"
+    },
+    "T-POINT ADMALYA TO ANTRIKHURD": {
+        "BROWN FIELD DATA": 4405.339956850709,
+        "Ring": "R3",
+        "Span_id": "021"
+    },
+    "T-POINT HINGORIYA CHOTA TO SARVANIYA": {
+        "PMGSY": 2938.13075969704,
+        "Ring": "R3-C1",
+        "Span_id": "022"
+    },
+    "ARNIYA JATIYA TO GARNAI": {
+        "BROWN FIELD DATA": 3875.936359096919,
+        "PMGSY": 449.26441292143613,
+        "Ring": "R3-C1",
+        "Span_id": "025"
+    },
+    "SARVANIYA TO DOBRA": {
+        "Grampanchyat": 154.44674401727426,
+        "PMGSY": 1877.2123435042333,
+        "Ring": "R3-C1",
+        "Span_id": "023"
+    },
+    "DOBRA TO ARNIYA JATIYA": {
+        "BROWN FIELD DATA": 2144.5513761624625,
+        "Grampanchyat": 162.57660764151237,
+        "Ring": "R3-C1",
+        "Span_id": "024"
+    },
+    "T-POINT GARNAI TO SANJEET": {
+        "BROWN FIELD DATA": 1303.2835509883562,
+        "PMGSY": 1674.7977210978725,
+        "Ring": "R3-C1",
+        "Span_id": "030"
+    },
+    "GARNAI TO TIDWAS": {
+        "BROWN FIELD DATA": 4183.230705157164,
+        "PMGSY": 726.9752289214472,
+        "Ring": "R3-C1",
+        "Span_id": "026"
+    },
+    "KACHRIYA CHANDRAWAT TO BABUKHEDA": {
+        "BROWN FIELD DATA": 3571.5721574446934,
+        "Ring": "R4",
+        "Span_id": "002"
+    },
+    "KACHRIYA KADMALA TO DHABLA": {
+        "BROWN FIELD DATA": 5836.362481722112,
+        "Ring": "R5",
+        "Span_id": "008"
+    },
+    "KHATYAKHEDI TO KHUTI": {
+        "BROWN FIELD DATA": 2769.289147118884,
+        "Ring": "R5-C1",
+        "Span_id": "018"
+    },
+    "T-POINT PIPLIA JODHA TO MAGRANA": {
+        "BROWN FIELD DATA": 1561.03119988445,
+        "Ring": "R5-C1",
+        "Span_id": "021"
+    },
+    "TURKIYA TO LASUDIYA RATHOR": {
+        "BROWN FIELD DATA": 4078.8305961655615,
+        "Ring": "R5",
+        "Span_id": "010"
+    }
+}
