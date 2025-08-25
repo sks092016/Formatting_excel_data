@@ -1,0 +1,386 @@
+{
+    "GUDLA TO BEEKOR": {
+        "PMGSY": 2592.512389379951,
+        "PWD": 7335.486435979801,
+        "Ring": "R4-C1",
+        "Span_id": "016"
+    },
+    "SUKKARWADA KALAN TO GUDLA": {
+        "Brown Field Data": 2996.432198274485,
+        "PMGSY": 14.737712316902948,
+        "PWD": 252.05810541630154,
+        "Ring": "R4-C1",
+        "Span_id": "015"
+    },
+    "KADIYA TO SUKKARWADA KALAN": {
+        "Brown Field Data": 4156.7067885069355,
+        "PWD": 1330.5020753396295,
+        "Ring": "R4-C1",
+        "Span_id": "014"
+    },
+    "T- POINT KADIYA TO GORA": {
+        "PWD": 636.7582667801935,
+        "Ring": "R4-C1",
+        "Span_id": "017"
+    },
+    "T-POINT  MAJOJALPUR TO MANGROL": {
+        "PMGSY": 3325.2995000581964,
+        "Ring": "R4-C1",
+        "Span_id": "012"
+    },
+    "MANGROL TO KADIYA": {
+        "Brown Field Data": 27.704748024772158,
+        "PMGSY": 739.528777084628,
+        "PWD": 1864.9679136960315,
+        "Ring": "R4-C1",
+        "Span_id": "013"
+    },
+    "MAJOJALPUR TO BEEKOR": {
+        "Brown Field Data": 27.058996980729383,
+        "PWD": 6619.034658808677,
+        "Ring": "R4",
+        "Span_id": "005"
+    },
+    "CHAPLASAR TO SANGAKHEDA KALAN": {
+        "Brown Field Data": 1191.8187011238779,
+        "PWD": 5298.60286746936,
+        "Ring": "R1-C1",
+        "Span_id": "013"
+    },
+    "SANGAKHEDA KALAN TO MOHASA": {
+        "Brown Field Data": 958.9131068315962,
+        "PMGSY": 3011.562464386606,
+        "PWD": 1777.3824421246961,
+        "Ring": "R1-C1",
+        "Span_id": "014"
+    },
+    "BEEKORI TO MAJOJALPUR": {
+        "Brown Field Data": 6714.50507488272,
+        "Ring": "R4",
+        "Span_id": "004"
+    },
+    "MOHASA TO MADAVAN": {
+        "PMGSY": 1866.8385473988699,
+        "Ring": "R1-C1",
+        "Span_id": "015"
+    },
+    "AARI TO BAGLON": {
+        "Brown Field Data": 1102.2090227539095,
+        "PMGSY": 2754.614684083973,
+        "Ring": "R1",
+        "Span_id": "008"
+    },
+    "MANWADA TO AARI": {
+        "PMGSY": 301.2459252594576,
+        "Ring": "R1",
+        "Span_id": "007"
+    },
+    "MADAVAN TO T-POINT MANWADA": {
+        "Brown Field Data": 461.7449428463165,
+        "PMGSY": 2523.013520362147,
+        "Ring": "R1-C1",
+        "Span_id": "016"
+    },
+    "MANWADA TO GURADIYA MOTI": {
+        "PMGSY": 2320.0172026997543,
+        "Ring": "R1-C1",
+        "Span_id": "011"
+    },
+    "GURADIYA MOTI TO CHAPLASAR": {
+        "Brown Field Data": 4440.526507269546,
+        "PMGSY": 205.15002491436354,
+        "Ring": "R1-C1",
+        "Span_id": "012"
+    },
+    "AANCHALKHEDA TO MANWADA": {
+        "Brown Field Data": 3051.4569423654125,
+        "PMGSY": 345.74473211983434,
+        "Ring": "R1",
+        "Span_id": "006"
+    },
+    "SUAKHEDI TO AANCHALKHEDA": {
+        "Brown Field Data": 110.35863164752455,
+        "Ring": "R1",
+        "Span_id": "005"
+    },
+    "JAWALI TO PAWARKHEDA KHURD": {
+        "Brown Field Data": 128.6903546804553,
+        "PMGSY": 4217.677888174573,
+        "Ring": "R1",
+        "Span_id": "003"
+    },
+    "PAWARKHEDA KHURD TO SUAKHEDI": {
+        "Brown Field Data": 1933.8054358963232,
+        "PMGSY": 329.1195525330174,
+        "Ring": "R1",
+        "Span_id": "004"
+    },
+    "T- POINT BEEKOR TO BUDHNI": {
+        "Brown Field Data": 3708.3584380171437,
+        "Ring": "R4-C1",
+        "Span_id": "018"
+    },
+    "BEEKOR TO MUDIYAKHEDA": {
+        "Brown Field Data": 186.8973727282678,
+        "PWD": 1465.6887906718398,
+        "Ring": "R4",
+        "Span_id": "006"
+    },
+    "BACHWADA TO NASIRABAD": {
+        "Brown Field Data": 1598.6847297134536,
+        "Ring": "R3-C1",
+        "Span_id": "013"
+    },
+    "NASIRABAD TO KONDARWADA": {
+        "Brown Field Data": 2074.0232974914925,
+        "PMGSY": 6082.27719567478,
+        "Ring": "R3-C1",
+        "Span_id": "014"
+    },
+    "T-POINT PATNI TO BACHWADA": {
+        "Brown Field Data": 204.61221124105242,
+        "PMGSY": 6958.113535392521,
+        "Ring": "R3-C1",
+        "Span_id": "012"
+    },
+    "KONDARWADA TO MARAGAON": {
+        "PMGSY": 3060.9135616402978,
+        "Ring": "R3-C1",
+        "Span_id": "015"
+    },
+    "MARAGAON TO SANGAKHEDA KHURD": {
+        "Brown Field Data": 449.5597323096504,
+        "MDR": 1649.6152702220315,
+        "Ring": "R3",
+        "Span_id": "004"
+    },
+    "PATNI TO MARAGAON": {
+        "Brown Field Data": 1839.967750539526,
+        "MDR": 1596.6265455405733,
+        "Ring": "R3",
+        "Span_id": "003"
+    },
+    "SANGAKHEDA KHURD TO SATVASA": {
+        "MDR": 670.5505180889603,
+        "PMGSY": 4690.08471261184,
+        "Ring": "R3",
+        "Span_id": "005"
+    },
+    "KHARGAWALI TO GANERA": {
+        "PMGSY": 2143.646314870064,
+        "Ring": "R4",
+        "Span_id": "008"
+    },
+    "SATVASA TO UMERKHEDI": {
+        "Brown Field Data": 2754.866598131844,
+        "Ring": "R3",
+        "Span_id": "006"
+    },
+    "CHOURAHAT TO TALKESHLI": {
+        "MDR": 4801.729499410822,
+        "PMGSY": 367.5847599683976,
+        "PWD": 2601.330645699235,
+        "Ring": "R3",
+        "Span_id": "008"
+    },
+    "UMERKHEDI TO CHOURAHAT": {
+        "Brown Field Data": 2777.8371362438647,
+        "Ring": "R3",
+        "Span_id": "007"
+    },
+    "RAIPURA TO PATNI": {
+        "Brown Field Data": 193.16115579853556,
+        "MDR": 1401.8432047669523,
+        "PWD": 6051.022870011151,
+        "Ring": "R3",
+        "Span_id": "002"
+    },
+    "GANERA TO GONDALWADA": {
+        "Brown Field Data": 2540.3577893794654,
+        "Ring": "R4",
+        "Span_id": "009"
+    },
+    "GONDALWADA TO KHIDIYA": {
+        "PMGSY": 4191.6701702129285,
+        "Ring": "R4",
+        "Span_id": "010"
+    },
+    "TALKESHLI TO FURTALA": {
+        "Brown Field Data": 2091.6993106048985,
+        "PWD": 44.03480854054525,
+        "Ring": "R3",
+        "Span_id": "009"
+    },
+    "BABAI BLOCK TO RAIPURA": {
+        "Brown Field Data": 5858.06530523299,
+        "PMGSY": 606.6956892873479,
+        "Ring": "R3",
+        "Span_id": "001"
+    },
+    "SAMON TO BAGALKHEDI": {
+        "Brown Field Data": 3106.3337031895676,
+        "PMGSY": 2980.01273780538,
+        "Ring": "R4",
+        "Span_id": "002"
+    },
+    "BAGLON TO BAJJARWADA": {
+        "Brown Field Data": 76.16797245714824,
+        "PMGSY": 1780.4257977672253,
+        "Ring": "R1",
+        "Span_id": "009"
+    },
+    "BAJJARWADA TO BABAI BLOCK": {
+        "Brown Field Data": 187.06806399638626,
+        "PMGSY": 3811.7049839874917,
+        "SH-22": 1174.119290257736,
+        "Ring": "R1",
+        "Span_id": "010"
+    },
+    "BAHARPUR TO GOL": {
+        "PMGSY": 1865.4912186231106,
+        "Ring": "R2-C1",
+        "Span_id": "014"
+    },
+    "SHIVPUR TO BAHARPUR": {
+        "PMGSY": 4072.499647087888,
+        "Ring": "R2-C1",
+        "Span_id": "013"
+    },
+    "SIRWAD TO BABAI BLOCK": {
+        "Brown Field Data": 4284.723839953561,
+        "PMGSY": 593.3012863466055,
+        "Ring": "R3",
+        "Span_id": "011"
+    },
+    "T-POINT BUDHWADA TO SHIVPUR": {
+        "PMGSY": 4660.586129659857,
+        "Ring": "R2-C1",
+        "Span_id": "012"
+    },
+    "AANKHMAU TO BABAI BLOCK": {
+        "PMGSY": 191.00377325090219,
+        "PWD": 1873.2042047501807,
+        "SH-22": 138.9475933392729,
+        "Ring": "R2",
+        "Span_id": "010"
+    },
+    "BABAI BLOCK TO BUDHWADA": {
+        "Brown Field Data": 386.57249645717303,
+        "PMGSY": 393.5783434583994,
+        "SH-22": 6264.462874415172,
+        "Ring": "R2",
+        "Span_id": "001"
+    },
+    "BABAI BLOCK TO RAJON": {
+        "Brown Field Data": 2481.9327781998245,
+        "PMGSY": 339.31582642037847,
+        "SH-22": 124.27042463392256,
+        "Ring": "R1",
+        "Span_id": "001"
+    },
+    "BABAI BLOCK TO SAMON": {
+        "PMGSY": 2244.868701403732,
+        "Ring": "R4",
+        "Span_id": "001"
+    },
+    "KHIDIYA TO BABAI BLOCK": {
+        "Brown Field Data": 4484.530501299137,
+        "PMGSY": 716.2422234911486,
+        "Ring": "R4",
+        "Span_id": "011"
+    },
+    "RAJON TO JAWALI": {
+        "Brown Field Data": 3607.4512289633876,
+        "PMGSY": 4225.198832034849,
+        "SH-22": 1107.117884754387,
+        "Ring": "R1",
+        "Span_id": "002"
+    },
+    "BUDHWADA TO GURADIYA KALAN": {
+        "Brown Field Data": 864.9856552019911,
+        "PMGSY": 4128.612369595966,
+        "SH-22": 2076.722241103486,
+        "Ring": "R2",
+        "Span_id": "002"
+    },
+    "GOL TO KHARADA": {
+        "Brown Field Data": 4726.010274816634,
+        "PMGSY": 3262.303214072366,
+        "Ring": "R2-C1",
+        "Span_id": "015"
+    },
+    "GULON TO T-POINT GURADIYA KALAN": {
+        "Brown Field Data": 1559.1072751086726,
+        "PMGSY": 145.88045960823814,
+        "SH-22": 1984.1239881849028,
+        "Ring": "R2-C1",
+        "Span_id": "017"
+    },
+    "GUJJARWADA TO AANKHMAU": {
+        "Brown Field Data": 161.45976696297026,
+        "PWD": 3104.1916706140128,
+        "Ring": "R2",
+        "Span_id": "009"
+    },
+    "GURADIYA KALAN TO KANSHKHEDA": {
+        "Brown Field Data": 2510.432783562198,
+        "Ring": "R2",
+        "Span_id": "003"
+    },
+    "KANSHKHEDA TO MAHENDRAWADI": {
+        "Brown Field Data": 68.09665806459044,
+        "PMGSY": 5294.058828644349,
+        "Ring": "R2",
+        "Span_id": "004"
+    },
+    "KHARADA TO GULON": {
+        "PMGSY": 5465.008011635742,
+        "Ring": "R2-C1",
+        "Span_id": "016"
+    },
+    "T - POINT GUJJARWADA TO KAJALKHEDI": {
+        "PWD": 3354.7750357200193,
+        "Ring": "R2",
+        "Span_id": "011"
+    },
+    "MAHENDRAWADI TO MOHGAON": {
+        "Brown Field Data": 3697.736061195802,
+        "Ring": "R2",
+        "Span_id": "005"
+    },
+    "KOTEGAON TO GUJJARWADA": {
+        "PMGSY": 2239.890445930297,
+        "Ring": "R2",
+        "Span_id": "008"
+    },
+    "MANAGAON TO KOTEGAON": {
+        "Brown Field Data": 902.3491899263589,
+        "PMGSY": 144.68589635710663,
+        "PWD": 1217.7169596173126,
+        "Ring": "R2",
+        "Span_id": "007"
+    },
+    "MOHGAON TO MANAGAON": {
+        "Brown Field Data": 493.7739685917993,
+        "PMGSY": 514.6676637861958,
+        "PWD": 946.9501981716968,
+        "Ring": "R2",
+        "Span_id": "006"
+    },
+    "BAGALKHEDI TO BEEKORI": {
+        "Brown Field Data": 156.97427553522198,
+        "PMGSY": 3494.071327871505,
+        "Ring": "R4",
+        "Span_id": "003"
+    },
+    "MUDIYAKHEDA TO KHARGAWALI": {
+        "Brown Field Data": 3393.753060191275,
+        "Ring": "R4",
+        "Span_id": "007"
+    },
+    "T-POINT KHARADA TO JHALON": {
+        "PMGSY": 1096.0945956425517,
+        "Ring": "R2-C1",
+        "Span_id": "018"
+    }
+}
