@@ -5,7 +5,7 @@ import json
 from shapely.ops import transform
 import pyproj
 
-block = "Malhargarh"
+block = "Babai"
 def line_length_meter(line):
     geod = Geod(ellps="WGS84")
     length_m = geod.line_length(
@@ -33,25 +33,30 @@ def merge_consecutive(group):
     for idx, row in enumerate(group.itertuples()):
         if current_auth == row.road_autho:
             new_geom = row.geometry
-            if current_geom.coords[-1] == new_geom.coords[0]:
-                # Case 1: Already aligned (end-to-start)
-                pass
-            elif current_geom.coords[-1] == new_geom.coords[-1]:
-                # Case 2: Reverse new so end matches start
-                new_geom = LineString(list(new_geom.coords)[::-1])
-            elif current_geom.coords[0] == new_geom.coords[-1]:
-                # Case 3: Reverse current so start matches end
-                current_geom = LineString(list(current_geom.coords)[::-1])
-                new_geom = LineString(list(new_geom.coords)[::-1])
-            elif current_geom.coords[0] == new_geom.coords[0]:
-                # Case 4: Reverse both so they align
-                current_geom = LineString(list(current_geom.coords)[::-1])
-                new_geom = LineString(list(new_geom.coords)[::-1])
-            else:
-                # No match → skip or handle separately
+            try:
+                if current_geom.coords[-1] == new_geom.coords[0]:
+                    # Case 1: Already aligned (end-to-start)
+                    pass
+                elif current_geom.coords[-1] == new_geom.coords[-1]:
+                    # Case 2: Reverse new so end matches start
+                    new_geom = LineString(list(new_geom.coords)[::-1])
+                elif current_geom.coords[0] == new_geom.coords[-1]:
+                    # Case 3: Reverse current so start matches end
+                    current_geom = LineString(list(current_geom.coords)[::-1])
+                    new_geom = LineString(list(new_geom.coords)[::-1])
+                elif current_geom.coords[0] == new_geom.coords[0]:
+                    # Case 4: Reverse both so they align
+                    current_geom = LineString(list(current_geom.coords)[::-1])
+                    new_geom = LineString(list(new_geom.coords)[::-1])
+                else:
+                    # No match → skip or handle separately
+                    continue
+                coords = list(current_geom.coords) + list(new_geom.coords)[1:]
+                current_geom = LineString(coords)
+            except Exception as e:
+                print(row.OBJECTID)
+                print(e)
                 continue
-            coords = list(current_geom.coords) + list(new_geom.coords)[1:]
-            current_geom = LineString(coords)
         else:
             # Save previous block before switching
             if current_geom is not None:
@@ -170,7 +175,7 @@ def process_span_data(input_gdf, output_shapefile, output_json):
     return output_gdf, span_details
 if __name__ == "__main__":
     # Example: change these paths as needed
-    input_file = "input/OFC_NEW.shp"
+    input_file = "input/shape_with_geo.shp"
     output_file = f"output/RoW Authorities-{block}.shp"
     input_gdf = process_shapefile(input_file, output_file)
 
