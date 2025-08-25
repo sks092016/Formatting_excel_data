@@ -55,6 +55,7 @@ def merge_consecutive(group):
                 current_geom = LineString(coords)
             except Exception as e:
                 print(row.OBJECTID)
+                print(row.geometry)
                 print(e)
                 continue
         else:
@@ -175,7 +176,7 @@ def process_span_data(input_gdf, output_shapefile, output_json):
     return output_gdf, span_details
 if __name__ == "__main__":
     # Example: change these paths as needed
-    input_file = "input/shape_with_geo.shp"
+    input_file = "input/OFC_NEW.shp"
     output_file = f"output/RoW Authorities-{block}.shp"
     input_gdf = process_shapefile(input_file, output_file)
 
