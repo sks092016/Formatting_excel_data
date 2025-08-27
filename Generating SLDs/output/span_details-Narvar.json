@@ -1,0 +1,232 @@
+{
+    "T-POINT BARKHADI TO BHEEMPUR": {
+        "GRAMPANCHAYAT": 137.49286979093392,
+        "MDR": 1750.0798420751769,
+        "MDR_Forest": 331.822732426684,
+        "PMGSY": 1552.9825653946496,
+        "Ring": "R2",
+        "Span_id": "018"
+    },
+    "T-POINT INDERGAD TO CHITARI": {
+        "MDR": 3719.1677787462486,
+        "Ring": "R1-C1",
+        "Span_id": "005"
+    },
+    "GANIYAR TO INDERGAD": {
+        "PMGSY": 6732.261158815389,
+        "PMGSY_Forest": 47.40748258049764,
+        "Ring": "R1-C1",
+        "Span_id": "001"
+    },
+    "INDERGAD TO NARROA": {
+        "MDR": 1330.8413727029226,
+        "PMGSY": 1927.7492468103565,
+        "Ring": "R1-C1",
+        "Span_id": "002"
+    },
+    "NARROA TO GWALIYA": {
+        "PMGSY": 1848.1717660693694,
+        "Ring": "R1-C1",
+        "Span_id": "003"
+    },
+    "GANIYAR TO SONHAR": {
+        "PMGSY": 4130.283988528773,
+        "Ring": "R1",
+        "Span_id": "004"
+    },
+    "JUJHAI TO GANIYAR": {
+        "PMGSY": 6022.671536768737,
+        "Ring": "R1",
+        "Span_id": "003"
+    },
+    "KONDER TO KHATHENGARA": {
+        "PMGSY": 4869.437300872002,
+        "Ring": "R1",
+        "Span_id": "008"
+    },
+    "THARKHEDA TO KONDER": {
+        "MDR": 1487.3414179989957,
+        "PMGSY": 1281.7980229532654,
+        "Ring": "R1",
+        "Span_id": "007"
+    },
+    "NAYAGAON TO THARKHEDA": {
+        "MDR": 15.022256705559862,
+        "PMGSY": 4379.947317990646,
+        "Ring": "R1",
+        "Span_id": "006"
+    },
+    "GWALIYA TO T-POINT SONHAR": {
+        "PMGSY": 3209.2736155551165,
+        "Ring": "R1-C1",
+        "Span_id": "004"
+    },
+    "SONHAR TO NAYAGAON": {
+        "PMGSY": 4348.249743321191,
+        "Ring": "R1",
+        "Span_id": "005"
+    },
+    "T-POINT BHEEMPUR TO BARKHADI": {
+        "MDR": 1694.8216697842195,
+        "MDR_Forest": 1127.8044544254142,
+        "PMGSY": 930.1346836173703,
+        "Ring": "R2",
+        "Span_id": "017"
+    },
+    "KISHANPUR TO DHINGWAS": {
+        "NAGARPALIKA": 1536.829704258378,
+        "PMGSY": 8157.990785254128,
+        "Ring": "R2",
+        "Span_id": "002"
+    },
+    "T-POINT DHINGWAS TO PANANER": {
+        "PMGSY": 1745.9855952003634,
+        "Ring": "R2",
+        "Span_id": "021"
+    },
+    "T-POINT KISHANPUR TO KERUA": {
+        "GRAMPANCHAYAT": 978.0357138766536,
+        "MDR": 2209.1132462143123,
+        "PMGSY": 7.80552258662296,
+        "Ring": "R2",
+        "Span_id": "020"
+    },
+    "DEVRIKHURD TO SIMIRIA": {
+        "PMGSY": 4553.764409347138,
+        "Ring": "R2",
+        "Span_id": "004"
+    },
+    "DHINGWAS TO DEVRIKHURD": {
+        "PMGSY": 4059.4059576941218,
+        "Ring": "R2",
+        "Span_id": "003"
+    },
+    "SIMIRIA TO THATI": {
+        "PMGSY": 5753.2188670831065,
+        "Ring": "R2",
+        "Span_id": "005"
+    },
+    "HATEDA TO SEEHOR": {
+        "PMGSY": 2801.492076737738,
+        "Ring": "R2",
+        "Span_id": "011"
+    },
+    "VICHI TO HATEDA": {
+        "GRAMPANCHAYAT": 2003.1545551162314,
+        "PMGSY": 209.58229837610355,
+        "Ring": "R2",
+        "Span_id": "010"
+    },
+    "MAGRONI TO KISHANPUR": {
+        "NAGARPALIKA": 1209.2162023679755,
+        "Ring": "R2-C1",
+        "Span_id": "005"
+    },
+    "NARWAR TO KISHANPUR": {
+        "MDR": 6578.618911421007,
+        "NAGAR PARISHAD": 1096.3171981910402,
+        "NAGARPALIKA": 149.70157484961072,
+        "PMGSY": 972.6203472732731,
+        "Ring": "R2",
+        "Span_id": "001"
+    },
+    "NIZAMPUR TO MAGRONI": {
+        "NAGARPALIKA": 683.6999183375606,
+        "Ring": "R2-C1",
+        "Span_id": "004"
+    },
+    "PIPALKHADI TO NIZAMPUR": {
+        "NAGARPALIKA": 257.8870666914215,
+        "PMGSY": 2045.3990778891364,
+        "Ring": "R2-C1",
+        "Span_id": "003"
+    },
+    "T-POINT KISHANPUR TO BILONI": {
+        "NAGAR PARISHAD": 6.43418340092779,
+        "NAGARPALIKA": 132.58554560686278,
+        "PMGSY": 4658.040444891151,
+        "Ring": "R2",
+        "Span_id": "019"
+    },
+    "KAIKHODA TO KANKAR": {
+        "GRAMPANCHAYAT": 86.48130909138519,
+        "PMGSY": 2522.911127979241,
+        "Ring": "R2",
+        "Span_id": "007"
+    },
+    "KANKAR TO FOOLPUR": {
+        "GRAMPANCHAYAT": 3037.264527897394,
+        "Ring": "R2",
+        "Span_id": "008"
+    },
+    "KHYAVDAKALA TO PIPALKHADI": {
+        "GRAMPANCHAYAT": 982.951280312399,
+        "PMGSY": 1674.265211237,
+        "Ring": "R2-C1",
+        "Span_id": "002"
+    },
+    "T-POINT KISHANPUR TO KHYAVDAKALA": {
+        "PMGSY": 2376.0144446280697,
+        "Ring": "R2-C1",
+        "Span_id": "001"
+    },
+    "FOOLPUR TO VICHI": {
+        "GRAMPANCHAYAT": 2503.9273630962934,
+        "Ring": "R2",
+        "Span_id": "009"
+    },
+    "THATI TO KAIKHODA": {
+        "PMGSY": 4134.672747335084,
+        "Ring": "R2",
+        "Span_id": "006"
+    },
+    "SEEHOR TO BAHGANWA": {
+        "PMGSY": 5815.989012022891,
+        "Ring": "R2",
+        "Span_id": "012"
+    },
+    "CHAKRAMPUR TO NARWAR": {
+        "MDR": 4384.163500381786,
+        "PMGSY": 1332.219149445054,
+        "Ring": "R1",
+        "Span_id": "010"
+    },
+    "NARWAR TO JAITPUR": {
+        "MDR": 592.6038457270198,
+        "PMGSY": 7197.36233544787,
+        "Ring": "R1",
+        "Span_id": "001"
+    },
+    "SABOLI TO NARWAR": {
+        "MDR": 139.106921997914,
+        "PMGSY": 9450.80069713049,
+        "Ring": "R2",
+        "Span_id": "016"
+    },
+    "KALIPHADI TO SABOLI": {
+        "PMGSY": 5285.371953279849,
+        "Ring": "R2",
+        "Span_id": "015"
+    },
+    "BAHGANWA TO DHAMDHOLI": {
+        "PMGSY": 4945.546083597298,
+        "Ring": "R2",
+        "Span_id": "013"
+    },
+    "DHAMDHOLI TO KALIPHADI": {
+        "PMGSY": 3733.90700062269,
+        "Ring": "R2",
+        "Span_id": "014"
+    },
+    "JAITPUR TO JUJHAI": {
+        "PMGSY": 2704.867005285776,
+        "PMGSY_Forest": 1111.5147458021052,
+        "Ring": "R1",
+        "Span_id": "002"
+    },
+    "KHATHENGARA TO CHAKRAMPUR": {
+        "PMGSY": 3558.384368387036,
+        "Ring": "R1",
+        "Span_id": "009"
+    }
+}
