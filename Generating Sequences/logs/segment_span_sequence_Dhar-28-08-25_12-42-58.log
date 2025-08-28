@@ -1,0 +1,57 @@
+2025-08-28 12:42:58,985 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BAGDITAJ To Paykunda'.
+2025-08-28 12:42:58,986 - WARNING - \u26a0\ufe0f The Span BAGDITAJ To Paykunda is disconnected at this point (75.38960100000008, 22.842197000000056)
+2025-08-28 12:42:59,221 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BIJUR TO BADCHHAPRA GP'.
+2025-08-28 12:42:59,222 - WARNING - \u26a0\ufe0f The Span BIJUR TO BADCHHAPRA GP is disconnected at this point (75.49848300000008, 22.721827000000076)
+2025-08-28 12:42:59,664 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'Govindpura TO Jamanda'.
+2025-08-28 12:42:59,664 - WARNING - \u26a0\ufe0f The Span Govindpura TO Jamanda is disconnected at this point (75.39350200000007, 22.67424200000005)
+2025-08-28 12:42:59,719 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'Govindpura To Jamanda'.
+2025-08-28 12:42:59,719 - WARNING - \u26a0\ufe0f The Span Govindpura To Jamanda is disconnected at this point (75.39347100000003, 22.674290000000042)
+2025-08-28 12:43:00,013 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'KOT BHITODA TO LOHARI BUJURG'.
+2025-08-28 12:43:00,013 - WARNING - \u26a0\ufe0f The Span KOT BHITODA TO LOHARI BUJURG is disconnected at this point (75.40397800000005, 22.69743100000005)
+2025-08-28 12:43:00,109 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'Khachroda TO Kandariya'.
+2025-08-28 12:43:00,109 - WARNING - \u26a0\ufe0f The Span Khachroda TO Kandariya is disconnected at this point (75.40732500000007, 22.85468000000003)
+2025-08-28 12:43:00,130 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'Khachroda To Kandariya'.
+2025-08-28 12:43:00,130 - WARNING - \u26a0\ufe0f The Span Khachroda To Kandariya is disconnected at this point (75.40808321000003, 22.851801301000023)
+2025-08-28 12:43:00,600 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'RAMPURA To Antrai'.
+2025-08-28 12:43:00,601 - WARNING - \u26a0\ufe0f The Span RAMPURA To Antrai is disconnected at this point (75.36453100000006, 22.729517000000044)
+2025-08-28 12:43:00,639 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'RAMPURA To Govindpura'.
+2025-08-28 12:43:00,640 - WARNING - \u26a0\ufe0f The Span RAMPURA To Govindpura is disconnected at this point (75.40052100000008, 22.711042000000077)
+2025-08-28 12:43:00,797 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'Sadalpur TO T-POINT Govindpura'.
+2025-08-28 12:43:00,798 - WARNING - \u26a0\ufe0f The Span Sadalpur TO T-POINT Govindpura is disconnected at this point (75.41581600000006, 22.74026900000007)
+2025-08-28 12:43:00,817 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'Sadalpur To T-POINT Govindpura'.
+2025-08-28 12:43:00,817 - WARNING - \u26a0\ufe0f The Span Sadalpur To T-POINT Govindpura is disconnected at this point (75.41569400000003, 22.73985300000004)
+2025-08-28 12:43:00,893 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'Sunar Khedi To Umariya'.
+2025-08-28 12:43:00,893 - WARNING - \u26a0\ufe0f The Span Sunar Khedi To Umariya is disconnected at this point (75.32311170900005, 22.66723001400004)
+2025-08-28 12:43:00,943 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'T-POINT Sunar Khedi TO Nawasa'.
+2025-08-28 12:43:00,944 - WARNING - \u26a0\ufe0f The Span T-POINT Sunar Khedi TO Nawasa is disconnected at this point (75.34484478600007, 22.655207691000044)
+2025-08-28 12:43:00,979 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'T-Point BIJUR TO NEKPUR GP'.
+2025-08-28 12:43:00,980 - WARNING - \u26a0\ufe0f The Span T-Point BIJUR TO NEKPUR GP is disconnected at this point (75.47737300000006, 22.70967500000006)
+2025-08-28 12:43:01,269 - INFO - Created 1,576 records
+2025-08-28 12:43:01,277 - INFO - Created 85 records
+2025-08-28 12:43:01,277 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-08-28 12:43:01,281 - INFO - Created 14 records
+2025-08-28 12:43:01,396 - INFO - \U0001f504 Found 7 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4']
+2025-08-28 12:43:01,396 - INFO - 
+\U0001f501 Processing ring: R1
+2025-08-28 12:43:01,408 - INFO - \u2705 Completed ring R1 with 11 spans.
+2025-08-28 12:43:01,408 - INFO - 
+\U0001f501 Processing ring: R1-C1
+2025-08-28 12:43:01,417 - INFO - \u2705 Completed ring R1-C1 with 9 spans.
+2025-08-28 12:43:01,417 - INFO - 
+\U0001f501 Processing ring: R2
+2025-08-28 12:43:01,423 - INFO - \u2705 Completed ring R2 with 4 spans.
+2025-08-28 12:43:01,423 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-08-28 12:43:01,427 - INFO - \u2705 Completed ring R2-C1 with 2 spans.
+2025-08-28 12:43:01,427 - INFO - 
+\U0001f501 Processing ring: R3
+2025-08-28 12:43:01,432 - INFO - \u2705 Completed ring R3 with 5 spans.
+2025-08-28 12:43:01,432 - INFO - 
+\U0001f501 Processing ring: R3-C1
+2025-08-28 12:43:01,438 - INFO - \u2705 Completed ring R3-C1 with 8 spans.
+2025-08-28 12:43:01,438 - INFO - 
+\U0001f501 Processing ring: R4
+2025-08-28 12:43:01,449 - INFO - \u2705 Completed ring R4 with 14 spans.
+2025-08-28 12:43:01,528 - INFO - Created 1,576 records
+2025-08-28 12:43:01,536 - INFO - Created 85 records
+2025-08-28 12:43:01,536 - INFO - \u2705 All rings processed. Span sequence updated and saved.

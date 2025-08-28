@@ -1,7 +1,7 @@
 from qgis.core import QgsProject, edit
 
 # Get layer by name from QGIS layer panel
-layer_name = "mahidpur_gps"
+layer_name = "OFC_NEW"
 layer = QgsProject.instance().mapLayersByName(layer_name)[0]
 
 # Define what to replace

@@ -37,7 +37,7 @@ for s in span_list:
         gp_node = t_point_ring_spans[start_gp]
     else:
         try:
-            s_c = gdf_gp[gdf_gp.name.str.lower() == start_gp].geometry.iloc[0]
+            s_c = gdf_gp[gdf_gp.GP_Name.str.lower() == start_gp].geometry.iloc[0]
             gp_node = get_coords(s_c)
         except:
             print(f"GP Cordinate not matching {start_gp} and {s}")
@@ -50,7 +50,7 @@ for s in span_list:
     # Count how many times each endpoint appears
     all_endpoints = list(temp_df['start']) + list(temp_df['end'])
     counts = Counter(all_endpoints)
-
+    print(s)
     # True start nodes are endpoints that appear only once
     true_starts = [pt for pt, c in counts.items() if c == 1]
     node1 = true_starts[0]

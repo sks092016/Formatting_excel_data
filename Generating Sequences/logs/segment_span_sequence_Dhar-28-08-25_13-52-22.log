@@ -1,0 +1,31 @@
+2025-08-28 13:52:23,830 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'KOT BHITODA TO LOHARI BUJURG'.
+2025-08-28 13:52:23,831 - WARNING - \u26a0\ufe0f The Span KOT BHITODA TO LOHARI BUJURG is disconnected at this point (75.40258500000004, 22.699622000000033)
+2025-08-28 13:52:25,140 - INFO - Created 1,575 records
+2025-08-28 13:52:25,154 - INFO - Created 75 records
+2025-08-28 13:52:25,156 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-08-28 13:52:25,164 - INFO - Created 1 records
+2025-08-28 13:52:25,278 - INFO - \U0001f504 Found 7 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4']
+2025-08-28 13:52:25,278 - INFO - 
+\U0001f501 Processing ring: R1
+2025-08-28 13:52:25,286 - INFO - \u2705 Completed ring R1 with 11 spans.
+2025-08-28 13:52:25,287 - INFO - 
+\U0001f501 Processing ring: R1-C1
+2025-08-28 13:52:25,293 - INFO - \u2705 Completed ring R1-C1 with 9 spans.
+2025-08-28 13:52:25,293 - INFO - 
+\U0001f501 Processing ring: R2
+2025-08-28 13:52:25,302 - INFO - \u2705 Completed ring R2 with 11 spans.
+2025-08-28 13:52:25,302 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-08-28 13:52:25,308 - INFO - \u2705 Completed ring R2-C1 with 8 spans.
+2025-08-28 13:52:25,308 - INFO - 
+\U0001f501 Processing ring: R3
+2025-08-28 13:52:25,316 - INFO - \u2705 Completed ring R3 with 11 spans.
+2025-08-28 13:52:25,316 - INFO - 
+\U0001f501 Processing ring: R3-C1
+2025-08-28 13:52:25,322 - INFO - \u2705 Completed ring R3-C1 with 8 spans.
+2025-08-28 13:52:25,322 - INFO - 
+\U0001f501 Processing ring: R4
+2025-08-28 13:52:25,333 - INFO - \u2705 Completed ring R4 with 14 spans.
+2025-08-28 13:52:25,427 - INFO - Created 1,575 records
+2025-08-28 13:52:25,438 - INFO - Created 75 records
+2025-08-28 13:52:25,439 - INFO - \u2705 All rings processed. Span sequence updated and saved.

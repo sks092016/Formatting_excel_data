@@ -1,0 +1,35 @@
+2025-08-28 13:45:49,589 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BIJUR TO BADCHHAPRA GP'.
+2025-08-28 13:45:49,589 - WARNING - \u26a0\ufe0f The Span BIJUR TO BADCHHAPRA GP is disconnected at this point (75.49848300000008, 22.721827000000076)
+2025-08-28 13:45:50,463 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'KOT BHITODA TO LOHARI BUJURG'.
+2025-08-28 13:45:50,463 - WARNING - \u26a0\ufe0f The Span KOT BHITODA TO LOHARI BUJURG is disconnected at this point (75.40258500000004, 22.699622000000033)
+2025-08-28 13:45:51,482 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'T-Point BIJUR TO NEKPUR GP'.
+2025-08-28 13:45:51,482 - WARNING - \u26a0\ufe0f The Span T-Point BIJUR TO NEKPUR GP is disconnected at this point (75.47737300000006, 22.70967500000006)
+2025-08-28 13:45:51,761 - INFO - Created 1,575 records
+2025-08-28 13:45:51,772 - INFO - Created 75 records
+2025-08-28 13:45:51,774 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-08-28 13:45:51,780 - INFO - Created 3 records
+2025-08-28 13:45:51,886 - INFO - \U0001f504 Found 7 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4']
+2025-08-28 13:45:51,886 - INFO - 
+\U0001f501 Processing ring: R1
+2025-08-28 13:45:51,894 - INFO - \u2705 Completed ring R1 with 11 spans.
+2025-08-28 13:45:51,895 - INFO - 
+\U0001f501 Processing ring: R1-C1
+2025-08-28 13:45:51,901 - INFO - \u2705 Completed ring R1-C1 with 9 spans.
+2025-08-28 13:45:51,902 - INFO - 
+\U0001f501 Processing ring: R2
+2025-08-28 13:45:51,910 - INFO - \u2705 Completed ring R2 with 11 spans.
+2025-08-28 13:45:51,910 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-08-28 13:45:51,916 - INFO - \u2705 Completed ring R2-C1 with 8 spans.
+2025-08-28 13:45:51,916 - INFO - 
+\U0001f501 Processing ring: R3
+2025-08-28 13:45:51,924 - INFO - \u2705 Completed ring R3 with 11 spans.
+2025-08-28 13:45:51,924 - INFO - 
+\U0001f501 Processing ring: R3-C1
+2025-08-28 13:45:51,931 - INFO - \u2705 Completed ring R3-C1 with 8 spans.
+2025-08-28 13:45:51,931 - INFO - 
+\U0001f501 Processing ring: R4
+2025-08-28 13:45:51,941 - INFO - \u2705 Completed ring R4 with 14 spans.
+2025-08-28 13:45:52,031 - INFO - Created 1,575 records
+2025-08-28 13:45:52,044 - INFO - Created 75 records
+2025-08-28 13:45:52,045 - INFO - \u2705 All rings processed. Span sequence updated and saved.
