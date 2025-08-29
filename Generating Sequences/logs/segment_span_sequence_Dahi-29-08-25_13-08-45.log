@@ -1,0 +1,27 @@
+2025-08-29 13:08:45,544 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'ATARSUMA TO BHAGAWA'.
+2025-08-29 13:08:45,544 - WARNING - \u26a0\ufe0f The Span ATARSUMA TO BHAGAWA is disconnected at this point (74.61203100000006, 22.123346000000026)
+2025-08-29 13:08:45,589 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BADWANYA TO THANDALA'.
+2025-08-29 13:08:45,589 - WARNING - \u26a0\ufe0f The Span BADWANYA TO THANDALA is disconnected at this point (74.65961300000004, 22.129077000000052)
+2025-08-29 13:08:46,760 - INFO - Created 836 records
+2025-08-29 13:08:46,773 - INFO - Created 49 records
+2025-08-29 13:08:46,774 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-08-29 13:08:46,779 - INFO - Created 2 records
+2025-08-29 13:08:46,886 - INFO - \U0001f504 Found 5 rings: ['R1', 'R2', 'R2_C1', 'R3', 'R3_C1']
+2025-08-29 13:08:46,886 - INFO - 
+\U0001f501 Processing ring: R1
+2025-08-29 13:08:46,899 - INFO - \u2705 Completed ring R1 with 17 spans.
+2025-08-29 13:08:46,899 - INFO - 
+\U0001f501 Processing ring: R2
+2025-08-29 13:08:46,905 - INFO - \u2705 Completed ring R2 with 7 spans.
+2025-08-29 13:08:46,905 - INFO - 
+\U0001f501 Processing ring: R2_C1
+2025-08-29 13:08:46,908 - INFO - \u2705 Completed ring R2_C1 with 4 spans.
+2025-08-29 13:08:46,909 - INFO - 
+\U0001f501 Processing ring: R3
+2025-08-29 13:08:46,910 - INFO - \u2705 Completed ring R3 with 0 spans.
+2025-08-29 13:08:46,910 - INFO - 
+\U0001f501 Processing ring: R3_C1
+2025-08-29 13:08:46,913 - INFO - \u2705 Completed ring R3_C1 with 3 spans.
+2025-08-29 13:08:46,960 - INFO - Created 836 records
+2025-08-29 13:08:46,966 - INFO - Created 49 records
+2025-08-29 13:08:46,967 - INFO - \u2705 All rings processed. Span sequence updated and saved.

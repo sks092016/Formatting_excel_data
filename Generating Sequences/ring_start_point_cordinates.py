@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Sanwer"
+blockName = "Dahi"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -57,5 +57,6 @@ t_point_ring_spans = {
     't-point rebarda' : (74.67893057,22.15975566),
     't-point katarkheda' : (74.55619883,22.07870419),
     't-point kavda' : (74.52270094,22.11045993),
-    't-point babli khurd':(74.60463113,22.13881607)
+    't-point babli khurd':(74.60463113,22.13881607),
+    't-point rangaon':(74.60734258,22.19469722)
 }
