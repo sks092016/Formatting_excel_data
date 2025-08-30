@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Sanwer"
+blockName = "Sabalgarh"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,30 +32,36 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Dahi/gps.shp"
-segments_shape_file = "References/Dahi/OFC_NEW.shp"
+gps_shape_file = "References/Sambalgarh/gps.shp"
+segments_shape_file = "References/Sambalgarh/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '74.58572600 22.11462600'
+BHQ_CORDINATE = '77.40593800 26.25149000'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
-    'R2_C1':'74.54288400 22.20237600',
-    'R3_C1':'74.67893057 22.15975566',
+    'R1_C1':'77.42896000 26.29559000',
+    'R2_C1':'77.39167080 26.27434756',
+    'R3_C1':'77.30012200 26.17664200',
 }
 # Non Spur T-POINT SPANS points or Segments which are part of closed Ring
 t_point_ring_spans = {
-    't-point kalami' : (74.59103323,22.21041797),
-    't-point arada': (74.54113617,22.20222182),
-    't-point gp gajgota': (74.57202477,22.16247279),
-    't-point khatami' : (74.58726823,22.16869047),
-    't-point chakalya' : (74.58291270,22.12216864),
-    't-point rebarda' : (74.67893057,22.15975566),
-    't-point katarkheda' : (74.55619883,22.07870419),
-    't-point kavda' : (74.52270094,22.11045993),
-    't-point babli khurd':(74.60463113,22.13881607)
+    't-point rampur' : (77.42896000,26.29559000),
+    't-point babdipura': (77.26184323,26.19710885),
+    't-point kemara khurd': (77.22735290,26.18223045),
+    't-point jatoli' : (77.31399500, 26.22862500),
+    't-point ram pahadi' : (77.35245600, 26.22324700),
+    't-point babdi' : (77.32587500, 26.25287400),
+    't-point rangarh' : (77.34854700, 26.29314900),
+    't-point battokhar' : (77.35884000, 26.30251900),
+    't-point kheron':(77.41052813, 26.32095948),
+    't-point rupa ki tor':(77.42167401, 26.30955256),
+    't-point ratanpura':(77.49690513, 26.36843577),
+    't-point hirapur':(77.49690513, 26.36843577),
+    't-point piprghan':(77.39167080,26.27434756),
+    't-point rampur gird':(77.43552900,26.28607400)
 }

@@ -1,0 +1,28 @@
+2025-08-30 15:08:24,812 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'SBALGARH BLOCK TO KEMARI'.
+2025-08-30 15:08:24,813 - WARNING - ⚠️ The Span SBALGARH BLOCK TO KEMARI is disconnected at this point (77.36851500000006, 26.258646000000056)
+2025-08-30 15:08:25,315 - INFO - Created 1,217 records
+2025-08-30 15:08:25,322 - INFO - Created 62 records
+2025-08-30 15:08:25,322 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-08-30 15:08:25,323 - INFO - Created 1 records
+2025-08-30 15:08:25,357 - INFO - 🔄 Found 6 rings: ['R1', 'R1_C1', 'R2', 'R2_C1', 'R3', 'R3_C1']
+2025-08-30 15:08:25,357 - INFO - 
+🔁 Processing ring: R1
+2025-08-30 15:08:25,362 - INFO - ✅ Completed ring R1 with 11 spans.
+2025-08-30 15:08:25,362 - INFO - 
+🔁 Processing ring: R1_C1
+2025-08-30 15:08:25,366 - INFO - ✅ Completed ring R1_C1 with 9 spans.
+2025-08-30 15:08:25,366 - INFO - 
+🔁 Processing ring: R2
+2025-08-30 15:08:25,367 - INFO - ✅ Completed ring R2 with 0 spans.
+2025-08-30 15:08:25,367 - INFO - 
+🔁 Processing ring: R2_C1
+2025-08-30 15:08:25,370 - INFO - ✅ Completed ring R2_C1 with 7 spans.
+2025-08-30 15:08:25,370 - INFO - 
+🔁 Processing ring: R3
+2025-08-30 15:08:25,371 - INFO - ✅ Completed ring R3 with 0 spans.
+2025-08-30 15:08:25,371 - INFO - 
+🔁 Processing ring: R3_C1
+2025-08-30 15:08:25,374 - INFO - ✅ Completed ring R3_C1 with 5 spans.
+2025-08-30 15:08:25,408 - INFO - Created 1,217 records
+2025-08-30 15:08:25,414 - INFO - Created 62 records
+2025-08-30 15:08:25,414 - INFO - ✅ All rings processed. Span sequence updated and saved.

@@ -1,11 +1,12 @@
 from qgis.core import QgsProject, QgsFeature
-import processing
 from qgis.core import QgsField
 from PyQt5.QtCore import QVariant
 import processing
 from qgis.core import QgsVectorFileWriter
 from qgis.core import QgsProject, QgsVectorFileWriter, QgsFeature, QgsGeometry
 import os
+from qgis.core import QgsFeatureRequest
+
 # -------------------------
 # USER SETTINGS
 # -------------------------
@@ -34,28 +35,12 @@ joined_result = processing.run("native:joinbynearest", {
     'DISCARD_NONMATCHING':False,
     'PREFIX':'',
     'NEIGHBORS':1,
-    'MAX_DISTANCE':None,
+    'MAX_DISTANCE':100,
     'OUTPUT':'TEMPORARY_OUTPUT'})["OUTPUT"]
-# -------------------------
-# 3. DELETE DUPLICATE GEOMETRIES
-# -------------------------
-cleaned_result = processing.run("native:deleteduplicategeometries", {
-    'INPUT':joined_result,
-    'OUTPUT':'TEMPORARY_OUTPUT'})['OUTPUT']
-# -------------------------
-# 4. EXTRACT POINTS WITHIN DISTANCE OF DTP LINE
-# -------------------------
-extracted_result = processing.run("qgis:extractwithindistance", {
-    'INPUT': cleaned_result,
-    'REFERENCE':dtp_line_layer,
-    'DISTANCE':extract_distance,
-    'OUTPUT':'TEMPORARY_OUTPUT'})['OUTPUT']
-# -------------------------
-# 5. CLUSTERING POINTS (K-means)
-# -------------------------
+
 clustered_result = processing.run("native:kmeansclustering", {
-    'INPUT':extracted_result,
-    'CLUSTERS':1000,
+    'INPUT':joined_result,
+    'CLUSTERS':2000,
     'FIELD_NAME':'CLUSTER_ID',
     'SIZE_FIELD_NAME':'CLUSTER_SIZE',
     'OUTPUT': 'TEMPORARY_OUTPUT'})['OUTPUT']
@@ -71,69 +56,53 @@ for f in cluster_layer.getFeatures():
     cluster_layer.updateFeature(f)
 cluster_layer.commitChanges()
 
-# -------------------------
-# USER INPUTS
-# -------------------------
-# cluster_layer, gps_layer
-cluster_layer.startEditing()
-field_name1 = "from_gp_distance"
-field_name2 = "to_gp_distance"
-cluster_layer.dataProvider().addAttributes([QgsField(field_name1, QVariant.String)])
-cluster_layer.updateFields()
-cluster_layer.dataProvider().addAttributes([QgsField(field_name2, QVariant.String)])
-cluster_layer.updateFields()
+# cluster_layer.startEditing()
+# field_name1 = "from_gp_distance"
+# field_name2 = "to_gp_distance"
+# cluster_layer.dataProvider().addAttributes([QgsField(field_name1, QVariant.String)])
+# cluster_layer.updateFields()
+# cluster_layer.dataProvider().addAttributes([QgsField(field_name2, QVariant.String)])
+# cluster_layer.updateFields()
+# cluster_layer.commitChanges()
 
-cluster_layer.commitChanges()
+# cluster_field = "CLUSTER_ID"  # field in points
+# gp_field = "GP Name"  # join key to map fromdp/todp
+# # -------------------------
+# # BUILD LOOKUP FOR FROMDP / TODP
+# # -------------------------
+# dp_dict = {}
+# for dp in gps_layer.getFeatures():
+#     key = f"{str(dp[gp_field])}".upper()
+#     dp_dict[key] = dp.geometry()
+# # -------------------------
+# # PROCESS EACH CLUSTER
+# # -------------------------
+# unique_clusters = cluster_layer.uniqueValues(cluster_layer.fields().indexFromName(cluster_field))
+# for cluster_id in unique_clusters:
+#     cluster_feats = [f for f in cluster_layer.getFeatures() if f[cluster_field] == cluster_id]
+#     if not cluster_feats:
+#         continue
 
+#     from_gp_name = str(cluster_feats[0]["fromdp"]).upper()
+#     to_gp_name = str(cluster_feats[0]["todp"]).upper()
 
-cluster_field = "CLUSTER_ID"  # field in points
-gp_field = "GP Name"  # join key to map fromdp/todp
+#     from_gp_geom = dp_dict.get(from_gp_name)
+#     to_gp_geom = dp_dict.get(to_gp_name)
 
-# -------------------------
-# BUILD LOOKUP FOR FROMDP / TODP
-# -------------------------
-dp_dict = {}
-for dp in gps_layer.getFeatures():
-    key = f"{str(dp[gp_field])}".upper()
-    dp_dict[key] = dp.geometry()
-# -------------------------
-# PROCESS EACH CLUSTER
-# -------------------------
-unique_clusters = cluster_layer.uniqueValues(cluster_layer.fields().indexFromName(cluster_field))
-for cluster_id in unique_clusters:
-    cluster_feats = [f for f in cluster_layer.getFeatures() if f[cluster_field] == cluster_id]
-    if not cluster_feats:
-        continue
-    # For now assume all points in cluster map to same gp_name (adjust if per-point mapping)
-    from_gp_name = cluster_feats[0]["fromdp"]
-    to_gp_name = cluster_feats[0]["todp"]
-    from_gp_geom = dp_dict.get(from_gp_name, None)
-    if from_gp_geom is None:
-        print(f"Did not find geometry for {from_gp_name}")
-    to_gp_geom = dp_dict.get(to_gp_name, None)
-    if to_gp_geom is None:
-        print(f"Did not find geometry for {to_gp_name}")
-    # Calculate distances
-    cluster_layer.startEditing()
-    for f in cluster_feats:
-        try:
-            f["from_gp_distance"] = f.geometry().distance(from_gp_geom) or 0
-            f["to_gp_distance"] = f.geometry().distance(to_gp_geom) or 0
-        except Exception as e:
-            continue
-        cluster_layer.updateFeature(f)
-    cluster_layer.commitChanges()
+#     if from_gp_geom is None or to_gp_geom is None:
+#         print(f"Skipping cluster {cluster_id}, missing GP geom")
+#         continue
 
-# Destination path for saving
-output_path = "/Users/subhashsoni/Formatting_excel_data/Shape_file_correction/input_point_shape_file/Clusters"
+#     cluster_layer.startEditing()
+#     for f in cluster_feats:
+#         if not f.hasGeometry() or not f.geometry().isGeosValid():
+#             continue
+#         try:
+#             f["from_gp_distance"] = float(f.geometry().distance(from_gp_geom))
+#             f["to_gp_distance"] = float(f.geometry().distance(to_gp_geom))
+#             cluster_layer.updateFeature(f)
+#         except Exception as e:
+#             print(f"Error for feature {f.id()}: {e}")
+#             continue
+#     cluster_layer.commitChanges()
 
-# Save the scratch layer as Shapefile
-QgsVectorFileWriter.writeAsVectorFormat(
-    cluster_layer,
-    output_path,
-    "UTF-8",                         # encoding
-    cluster_layer.crs(),             # keep same CRS
-    "ESRI Shapefile"                 # format
-)
-print("Field calculated and saved.")
-print("Workflow completed. Final snapped layer added to QGIS.")

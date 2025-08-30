@@ -6,7 +6,7 @@ check_field = "span_name"
 update_field = "span_name"
 
 replacement_map = {
-    'CHAKALYA TO  DAHI': 'CHAKALYA TO  DAHI BLOCK',
+  'T-POINT KEMARAKALAN' :'KEMARAKALAN'
 }
 
 count = 0 
