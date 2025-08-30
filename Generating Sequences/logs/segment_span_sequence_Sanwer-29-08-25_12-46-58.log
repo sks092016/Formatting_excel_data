@@ -1,0 +1,39 @@
+2025-08-29 12:46:58,987 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'ATARSUMA TO BHAGAWA'.
+2025-08-29 12:46:58,988 - WARNING - \u26a0\ufe0f The Span ATARSUMA TO BHAGAWA is disconnected at this point (74.61203100000006, 22.123346000000026)
+2025-08-29 12:46:59,010 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BABLI KHURD TO REBARDA'.
+2025-08-29 12:46:59,010 - WARNING - \u26a0\ufe0f The Span BABLI KHURD TO REBARDA is disconnected at this point (74.66799421400003, 22.161908397000047)
+2025-08-29 12:46:59,030 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BADWANYA TO THANDALA'.
+2025-08-29 12:46:59,030 - WARNING - \u26a0\ufe0f The Span BADWANYA TO THANDALA is disconnected at this point (74.67037455800005, 22.13022836700003)
+2025-08-29 12:46:59,059 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BHAGAWA TO DAHI BLOCK'.
+2025-08-29 12:46:59,059 - WARNING - \u26a0\ufe0f The Span BHAGAWA TO DAHI BLOCK is disconnected at this point (74.58572600000008, 22.114626000000044)
+2025-08-29 12:46:59,146 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'DAHI BLOCK TO BABLI KHURD'.
+2025-08-29 12:46:59,146 - WARNING - \u26a0\ufe0f The Span DAHI BLOCK TO BABLI KHURD is disconnected at this point (74.60067411000006, 22.130309837000027)
+2025-08-29 12:46:59,814 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'REBARDA TO BADWANYA'.
+2025-08-29 12:46:59,814 - WARNING - \u26a0\ufe0f The Span REBARDA TO BADWANYA is disconnected at this point (74.67817378700005, 22.158497241000077)
+2025-08-29 12:46:59,868 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'T-POINT BABLI KHURD TO NARJHALI'.
+2025-08-29 12:46:59,868 - WARNING - \u26a0\ufe0f The Span T-POINT BABLI KHURD TO NARJHALI is disconnected at this point (74.60401149500007, 22.139300757000058)
+2025-08-29 12:47:00,129 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'THANDALA TO ATARSUMA'.
+2025-08-29 12:47:00,129 - WARNING - \u26a0\ufe0f The Span THANDALA TO ATARSUMA is disconnected at this point (74.64498196600005, 22.126608443000066)
+2025-08-29 12:47:00,270 - INFO - Created 836 records
+2025-08-29 12:47:00,277 - INFO - Created 50 records
+2025-08-29 12:47:00,277 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-08-29 12:47:00,281 - INFO - Created 8 records
+2025-08-29 12:47:00,357 - INFO - \U0001f504 Found 5 rings: ['R1', 'R2', 'R2_C1', 'R3', 'R3_C1']
+2025-08-29 12:47:00,358 - INFO - 
+\U0001f501 Processing ring: R1
+2025-08-29 12:47:00,373 - INFO - \u2705 Completed ring R1 with 17 spans.
+2025-08-29 12:47:00,373 - INFO - 
+\U0001f501 Processing ring: R2
+2025-08-29 12:47:00,381 - INFO - \u2705 Completed ring R2 with 7 spans.
+2025-08-29 12:47:00,381 - INFO - 
+\U0001f501 Processing ring: R2_C1
+2025-08-29 12:47:00,386 - INFO - \u2705 Completed ring R2_C1 with 4 spans.
+2025-08-29 12:47:00,386 - INFO - 
+\U0001f501 Processing ring: R3
+2025-08-29 12:47:00,388 - INFO - \u2705 Completed ring R3 with 0 spans.
+2025-08-29 12:47:00,388 - INFO - 
+\U0001f501 Processing ring: R3_C1
+2025-08-29 12:47:00,392 - INFO - \u2705 Completed ring R3_C1 with 3 spans.
+2025-08-29 12:47:00,446 - INFO - Created 836 records
+2025-08-29 12:47:00,453 - INFO - Created 50 records
+2025-08-29 12:47:00,453 - INFO - \u2705 All rings processed. Span sequence updated and saved.
