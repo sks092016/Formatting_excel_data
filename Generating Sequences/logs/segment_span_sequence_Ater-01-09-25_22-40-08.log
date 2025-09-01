@@ -1,0 +1,45 @@
+2025-09-01 22:40:10,254 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'KHIPONA TO JAMSARA'.
+2025-09-01 22:40:10,254 - WARNING - ⚠️ The Span KHIPONA TO JAMSARA is disconnected at this point (78.68842710000007, 26.753612000000032)
+2025-09-01 22:40:10,274 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'KISHUPURA TO KOSAD'.
+2025-09-01 22:40:10,274 - WARNING - ⚠️ The Span KISHUPURA TO KOSAD is disconnected at this point (78.76911752400008, 26.723292585000024)
+2025-09-01 22:40:10,408 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'MAGHERA TO JAMSARA'.
+2025-09-01 22:40:10,408 - WARNING - ⚠️ The Span MAGHERA TO JAMSARA is disconnected at this point (78.71566418700007, 26.748499029000072)
+2025-09-01 22:40:10,458 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'MANEPURA TO KOSAD'.
+2025-09-01 22:40:10,458 - WARNING - ⚠️ The Span MANEPURA TO KOSAD is disconnected at this point (78.76427598200007, 26.719784951000065)
+2025-09-01 22:40:10,611 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'NAKHLOULI  TO KISHUPURA'.
+2025-09-01 22:40:10,612 - WARNING - ⚠️ The Span NAKHLOULI  TO KISHUPURA is disconnected at this point (78.74660610000006, 26.743239600000038)
+2025-09-01 22:40:10,863 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-01 22:40:10,864 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-01 22:40:10,884 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'PAWAI TO ATER'.
+2025-09-01 22:40:10,884 - WARNING - ⚠️ The Span PAWAI TO ATER is disconnected at this point (78.64511196700005, 26.748037930000066)
+2025-09-01 22:40:11,875 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'VINDWA TO KHIPONA'.
+2025-09-01 22:40:11,875 - WARNING - ⚠️ The Span VINDWA TO KHIPONA is disconnected at this point (78.68071740000005, 26.741759400000035)
+2025-09-01 22:40:11,971 - INFO - Created 1,863 records
+2025-09-01 22:40:11,978 - INFO - Created 97 records
+2025-09-01 22:40:11,980 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-09-01 22:40:11,982 - INFO - Created 7 records
+2025-09-01 22:40:12,029 - INFO - 🔄 Found 7 rings: ['R1', 'R1-C1', 'R2', 'R3', 'R3-C1', 'R4', 'R4-C1']
+2025-09-01 22:40:12,029 - INFO - 
+🔁 Processing ring: R1
+2025-09-01 22:40:12,032 - INFO - ✅ Completed ring R1 with 2 spans.
+2025-09-01 22:40:12,032 - INFO - 
+🔁 Processing ring: R1-C1
+2025-09-01 22:40:12,033 - INFO - ✅ Completed ring R1-C1 with 1 spans.
+2025-09-01 22:40:12,033 - INFO - 
+🔁 Processing ring: R2
+2025-09-01 22:40:12,035 - INFO - ✅ Completed ring R2 with 0 spans.
+2025-09-01 22:40:12,035 - INFO - 
+🔁 Processing ring: R3
+2025-09-01 22:40:12,037 - INFO - ✅ Completed ring R3 with 0 spans.
+2025-09-01 22:40:12,037 - INFO - 
+🔁 Processing ring: R3-C1
+2025-09-01 22:40:12,039 - INFO - ✅ Completed ring R3-C1 with 2 spans.
+2025-09-01 22:40:12,039 - INFO - 
+🔁 Processing ring: R4
+2025-09-01 22:40:12,040 - INFO - ✅ Completed ring R4 with 0 spans.
+2025-09-01 22:40:12,040 - INFO - 
+🔁 Processing ring: R4-C1
+2025-09-01 22:40:12,041 - INFO - ✅ Completed ring R4-C1 with 2 spans.
+2025-09-01 22:40:12,095 - INFO - Created 1,863 records
+2025-09-01 22:40:12,103 - INFO - Created 97 records
+2025-09-01 22:40:12,103 - INFO - ✅ All rings processed. Span sequence updated and saved.

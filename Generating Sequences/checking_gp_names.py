@@ -10,8 +10,8 @@ from methods import *
 gps = gpd.read_file(gps_shape_file)
 segments = gpd.read_file(segments_shape_file)
 #_____________________________
-gp_names = gps.GP_Name.tolist()
-gp_name_lat_lon = list(zip(gps.GP_Name, zip(gps.geometry.x, gps.geometry.y)))
+gp_names = gps.name.tolist()
+gp_name_lat_lon = list(zip(gps.name, zip(gps.geometry.x, gps.geometry.y)))
 #_____________________________
 gp_name_counts = Counter(gp_names)
 gp_geometry_counts = Counter(gp_name_lat_lon)
