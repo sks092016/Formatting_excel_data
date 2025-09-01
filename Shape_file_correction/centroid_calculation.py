@@ -7,13 +7,13 @@ in_path = "road_culvert_shape_file/Map Abbr_RD.shp"
 out_folder = "output_centroids"
 
 gdf = gpd.read_file(in_path)
-
+print(gdf.columns)
 # Make sure ID column exists (replace 'id' with your actual column name)
-id_col = "id"  # <-- replace with your highest-id column
+id_col = "System Id"  # <-- replace with your highest-id column
 
 # Group by span_name and cluster_id
 centroid_records = []
-for (span, cluster), group in gdf.groupby(["span_name", "cluster_id"]):
+for (span, cluster), group in gdf.groupby(["span_name", "CLUSTER_ID"]):
     # compute mean x,y
     mean_x = group.geometry.x.mean()
     mean_y = group.geometry.y.mean()

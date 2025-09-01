@@ -1,5 +1,12 @@
 from qgis.core import QgsSpatialIndex, QgsFeature, QgsProject, QgsVectorLayer, QgsVectorFileWriter
-
+from qgis.core import QgsProject, QgsFeature
+from qgis.core import QgsField
+from PyQt5.QtCore import QVariant
+import processing
+from qgis.core import QgsVectorFileWriter
+from qgis.core import QgsProject, QgsVectorFileWriter, QgsFeature, QgsGeometry
+import os
+from qgis.core import QgsFeatureRequest
 # -----------------------------
 # USER SETTINGS
 # -----------------------------
@@ -58,13 +65,30 @@ for pt in points_layer.getFeatures():
 # -----------------------------
 # ADD TO PROJECT
 # -----------------------------
-QgsProject.instance().addMapLayer(out_layer)
+# QgsProject.instance().addMapLayer(out_layer)
 
+clustered_result = processing.run("native:kmeansclustering", {
+    'INPUT':out_layer,
+    'CLUSTERS':2000,
+    'FIELD_NAME':'CLUSTER_ID',
+    'SIZE_FIELD_NAME':'CLUSTER_SIZE',
+    'OUTPUT': 'TEMPORARY_OUTPUT'})['OUTPUT']
+
+cluster_layer = QgsProject.instance().addMapLayer(clustered_result)
+cluster_layer.startEditing()
+field_name = "span_name"
+if field_name not in [f.name() for f in cluster_layer.fields()]:
+    cluster_layer.dataProvider().addAttributes([QgsField(field_name, QVariant.String)])
+    cluster_layer.updateFields()
+for f in cluster_layer.getFeatures():
+    f[field_name] = f"{f['fromdp'].upper()} TO {f['todp'].upper()}"
+    cluster_layer.updateFeature(f)
+cluster_layer.commitChanges()
 # -----------------------------
 # SAVE USING OLD API
 # -----------------------------
 QgsVectorFileWriter.writeAsVectorFormat(
-    out_layer,
+    cluster_layer,
     output_path,
     "UTF-8",
     out_layer.crs(),

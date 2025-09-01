@@ -38,23 +38,7 @@ joined_result = processing.run("native:joinbynearest", {
     'MAX_DISTANCE':100,
     'OUTPUT':'TEMPORARY_OUTPUT'})["OUTPUT"]
 
-clustered_result = processing.run("native:kmeansclustering", {
-    'INPUT':joined_result,
-    'CLUSTERS':2000,
-    'FIELD_NAME':'CLUSTER_ID',
-    'SIZE_FIELD_NAME':'CLUSTER_SIZE',
-    'OUTPUT': 'TEMPORARY_OUTPUT'})['OUTPUT']
 
-cluster_layer = QgsProject.instance().addMapLayer(clustered_result)
-cluster_layer.startEditing()
-field_name = "span_name"
-if field_name not in [f.name() for f in cluster_layer.fields()]:
-    cluster_layer.dataProvider().addAttributes([QgsField(field_name, QVariant.String)])
-    cluster_layer.updateFields()
-for f in cluster_layer.getFeatures():
-    f[field_name] = f"{f['fromdp'].upper()} TO {f['todp'].upper()}"
-    cluster_layer.updateFeature(f)
-cluster_layer.commitChanges()
 
 # cluster_layer.startEditing()
 # field_name1 = "from_gp_distance"
