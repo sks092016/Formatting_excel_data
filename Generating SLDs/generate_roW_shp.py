@@ -5,7 +5,7 @@ import json
 from shapely.ops import transform
 import pyproj
 
-block = "Sabalgarh"
+block = "Ater"
 def line_length_meter(line):
     geod = Geod(ellps="WGS84")
     length_m = geod.line_length(
@@ -30,7 +30,9 @@ def merge_consecutive(group):
     end_ch = 0
     current_length = 0
     ring = ''
+
     for idx, row in enumerate(group.itertuples()):
+
         if current_auth == row.road_autho:
             new_geom = row.geometry
             try:
@@ -47,7 +49,6 @@ def merge_consecutive(group):
                 elif current_geom.coords[0] == new_geom.coords[0]:
                     # Case 4: Reverse both so they align
                     current_geom = LineString(list(current_geom.coords)[::-1])
-                    new_geom = LineString(list(new_geom.coords)[::-1])
                 else:
                     # No match → skip or handle separately
                     continue

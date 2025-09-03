@@ -15,8 +15,8 @@ import os
 import json
 from pathlib import Path
 
-district_name = 'Morena'
-block_name = 'Sabalgarh'
+district_name = 'Bhind'
+block_name = 'Ater'
 
 # --- Settings ---
 # file_path = f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details-{block_name}.json"
@@ -169,8 +169,8 @@ for span in unique_spans:
     content_font = QFont("Cambria", 10)
     table.setContentFont(content_font)
     frame = QgsLayoutFrame(layout, table)
-    frame.setFixedSize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
-    frame.attemptResize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
+    frame.setFixedSize(QgsLayoutSize(50, 55, QgsUnitTypes.LayoutMillimeters))
+    frame.attemptResize(QgsLayoutSize(50, 55, QgsUnitTypes.LayoutMillimeters))
     frame.attemptMove(QgsLayoutPoint(3, 2, QgsUnitTypes.LayoutMillimeters))
     table.addFrame(frame)
     table.update()  
@@ -197,7 +197,7 @@ for span in unique_spans:
     frame = QgsLayoutFrame(layout, table_row)
     frame.setFixedSize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
     frame.attemptResize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
-    frame.attemptMove(QgsLayoutPoint(3,51, QgsUnitTypes.LayoutMillimeters))
+    frame.attemptMove(QgsLayoutPoint(3,58, QgsUnitTypes.LayoutMillimeters))
     table_row.addFrame(frame)
     table_row.update()
     layout.refresh()
