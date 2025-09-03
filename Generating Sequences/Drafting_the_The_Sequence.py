@@ -11,7 +11,7 @@ from methods import *
 
 # Load the input shapefile
 #gdf = gpd.read_file(segments_shape_file)
-gdf = ensure_epsg4326(segments_shape_file, "References/Guna/GUNA-SHP_4326.shp")
+gdf = ensure_epsg4326(segments_shape_file, f"References/{blockName}/{blockName}-SHP_4326.shp")
 
 gdf_gp = gpd.read_file(gps_shape_file)
 
@@ -37,7 +37,7 @@ for s in span_list:
         gp_node = t_point_ring_spans[start_gp]
     else:
         try:
-            s_c = gdf_gp[gdf_gp.name.str.lower() == start_gp].geometry.iloc[0]
+            s_c = gdf_gp[gdf_gp.GP_Name.str.lower() == start_gp].geometry.iloc[0]
             gp_node = get_coords(s_c)
         except:
             print(f"GP Cordinate not matching {start_gp} and {s}")

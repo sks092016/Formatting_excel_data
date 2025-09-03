@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Ater"
+blockName = "BARWANI"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,41 +32,59 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Ater/gps.shp"
-segments_shape_file = "References/Ater/OFC_NEW.shp"
+gps_shape_file = "References/BARWANI/gps.shp"
+segments_shape_file = "References/BARWANI/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '78.64511197 26.74803793'
+BHQ_CORDINATE = '74.90515500 22.02491100'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
-    'R4': BHQ_CORDINATE,
-    'R1-C1':'78.61915761 26.59728580',
-    'R3-C1':'78.72296229 26.58720297',
-    'R4-C1':'78.82831742 26.67424983',
+    'R3_C1':'75.03296900 21.99870500',
 }
 # Non Spur T-POINT SPANS points or Segments which are part of closed Ring
+#--------BARWANI------------
 t_point_ring_spans = {
-    't-point sora' : (78.63246879,26.66857775),
-    't-point kanera':(78.56041825,26.72443601),
-    't-point pawai': (78.64268375,26.63690462),
-    't-point kadoura': (78.64111947,26.70137509),
-    't-point jawasa':(78.73998289,26.62514675),
-    't-point ghinochi':(78.66017348,26.73775721),
-    't-point jouri kotwal':(78.70206957,26.71580772),
-    't-point naripura': (78.86502726,26.66113963),
-    't-point sakraya': (78.82831742,26.67424983),
-    't-point goarkhurd':(78.61915761, 26.59728580),
-    't-point ater': (78.66017348,26.73775721),
-    't-point chouki':(78.72296229,26.58720297),
-    't-point mudia khera':(78.76715200, 26.58879365),
-    't-point dulhagan':(78.78377558,26.66745089),
-    't-point rama':(78.81041939,26.72280601),
-    't-point kosad':(78.80448961,26.73169951),
-    't-point khipona':(78.68977252,26.75359663)
-
+ 't-point  pakhalya':(74.89034000,21.90976400),
+ 't-point hirkray':(74.89627354, 21.89715437),
+ 't-point pakhalya':(74.89185993,21.90485223),
+ 't-point panchpula uttar':(74.97021025,21.87474700)
 }
+
+#-------MALHARGARH-2---------
+# t_point_ring_spans = {
+# 't-point admalya':(75.18708986,24.30950621),
+# 't-point garnai':(75.27970416,24.27244578),
+# 't-point hingoriya chota':(75.21341251,24.28393738),
+# 't-point mundri': (75.10718700,24.13633900),
+# 't-point piplia jodha':(75.24576032,24.22260185),
+# 't-point ranayra':(75.18032061,24.21439208),
+# 't-point semli':(74.91941979,24.18216178),
+# 't-point sindhpan':  (75.11957849,24.16134956),
+# }
+
+#------ATER--------
+# t_point_ring_spans = {
+#     't-point sora' : (78.63246879,26.66857775),
+#     't-point kanera':(78.56041825,26.72443601),
+#     't-point pawai': (78.64268375,26.63690462),
+#     't-point kadoura': (78.64111947,26.70137509),
+#     't-point jawasa':(78.73998289,26.62514675),
+#     't-point ghinochi':(78.66017348,26.73775721),
+#     't-point jouri kotwal':(78.70206957,26.71580772),
+#     't-point naripura': (78.86502726,26.66113963),
+#     't-point sakraya': (78.82831742,26.67424983),
+#     't-point goarkhurd':(78.61915761, 26.59728580),
+#     't-point ater': (78.66017348,26.73775721),
+#     't-point chouki':(78.72296229,26.58720297),
+#     't-point mudia khera':(78.76715200, 26.58879365),
+#     't-point dulhagan':(78.78377558,26.66745089),
+#     't-point rama':(78.81041939,26.72280601),
+#     't-point kosad':(78.80448961,26.73169951),
+#     't-point khipona':(78.68977252,26.75359663)
+#
+# }
