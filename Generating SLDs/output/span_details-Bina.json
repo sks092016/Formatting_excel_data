@@ -1,0 +1,430 @@
+{
+    "BINDHAI TO SANAI": {
+        "PMGSY": 3957.3867395145285,
+        "Ring": "R1-C1",
+        "Span_id": "002"
+    },
+    "GADA TO HANSALKHEDI": {
+        "BROWN FIELD DATA": 5316.334782449267,
+        "PMGSY": 8598.55104256086,
+        "PWD": 4245.128476675249,
+        "SH-14": 642.3156974109196,
+        "Ring": "R2",
+        "Span_id": "003"
+    },
+    "ERAN TO T-POINT BARODIYA GHAT": {
+        "PMGSY": 12942.315988847555,
+        "Ring": "R1-C1",
+        "Span_id": "008"
+    },
+    "BAMORA TO HARDOT": {
+        "BROWN FIELD DATA": 1093.012459782751,
+        "PMGSY": 7381.597051249328,
+        "Ring": "R1-C1",
+        "Span_id": "006"
+    },
+    "BARDORA TO BELAI": {
+        "PMGSY": 6011.953541654522,
+        "Ring": "R4",
+        "Span_id": "002"
+    },
+    "BELAI TO KANKHER": {
+        "BROWN FIELD DATA": 2022.7758537668,
+        "PMGSY": 104.11750470105378,
+        "Ring": "R4",
+        "Span_id": "003"
+    },
+    "KANKHER TO BIHARNA": {
+        "BROWN FIELD DATA": 2227.9318650710075,
+        "PMGSY": 236.4876274741512,
+        "Ring": "R4",
+        "Span_id": "004"
+    },
+    "BUKHRA TO DHANORA": {
+        "BROWN FIELD DATA": 2526.0445448378664,
+        "PWD": 4347.290738145952,
+        "SH-42A": 3640.292548885744,
+        "Ring": "R4",
+        "Span_id": "009"
+    },
+    "DHAND TO BUKHRA": {
+        "PMGSY": 3619.767029938282,
+        "PWD": 2374.8669249558993,
+        "Ring": "R4",
+        "Span_id": "008"
+    },
+    "DHIMROLI TO SARGOLI": {
+        "BROWN FIELD DATA": 2852.3599499787492,
+        "Ring": "R2",
+        "Span_id": "005"
+    },
+    "HANSALKHEDI TO DHIMROLI": {
+        "BROWN FIELD DATA": 3769.9361548719617,
+        "PMGSY": 852.7944835181852,
+        "Ring": "R2",
+        "Span_id": "004"
+    },
+    "BINA BLOCK TO AGASOD": {
+        "BROWN FIELD DATA": 266.9292105543097,
+        "PMGSY": 1684.5117424240486,
+        "PWD": 1681.8028448930593,
+        "SH": 11050.06561064123,
+        "SH-14": 914.8740187748748,
+        "Ring": "R3",
+        "Span_id": "001"
+    },
+    "SARGOLI TO BERKHERITADA": {
+        "BROWN FIELD DATA": 5828.843970873787,
+        "PMGSY": 3450.6136720031072,
+        "Ring": "R2",
+        "Span_id": "006"
+    },
+    "BERKHERITADA TO KIRROD": {
+        "BROWN FIELD DATA": 2884.160672124743,
+        "Ring": "R2",
+        "Span_id": "007"
+    },
+    "DEHRI TO BINA BLOCK": {
+        "PMGSY": 8353.520434697302,
+        "PWD": 716.2145636969599,
+        "SH": 361.14812489906285,
+        "SH-14": 1106.1142346209788,
+        "SH-42A": 404.9084785204706,
+        "Ring": "R3",
+        "Span_id": "011"
+    },
+    "KIRROD TO PAR": {
+        "PWD": 4934.822421368046,
+        "SH": 740.4722969207427,
+        "Ring": "R2",
+        "Span_id": "008"
+    },
+    "DHANORA TO BINA BLOCK": {
+        "BROWN FIELD DATA": 748.604769411292,
+        "PMGSY": 1724.8769052702153,
+        "PWD": 321.39887490211265,
+        "SH-14": 2081.72652453551,
+        "SH-42A": 3793.247024279825,
+        "Ring": "R4",
+        "Span_id": "010"
+    },
+    "BINA BLOCK TO BARDORA": {
+        "PMGSY": 3729.5568057401906,
+        "PWD": 1638.275495376367,
+        "SH": 229.41422892744112,
+        "SH-14": 692.3819704530265,
+        "SH-42A": 392.80944114894595,
+        "Ring": "R4",
+        "Span_id": "001"
+    },
+    "BINA BLOCK TO PIPARKHERI": {
+        "BROWN FIELD DATA": 5362.097891948299,
+        "PMGSY": 1679.3768718730335,
+        "PWD": 6.746394843365223,
+        "SH-14": 2305.629559288852,
+        "SH-42A": 390.6236943184392,
+        "Ring": "R1",
+        "Span_id": "001"
+    },
+    "HADKALKHATI TO KIRRAWADA": {
+        "BROWN FIELD DATA": 2474.2128598917297,
+        "PMGSY": 1600.539704937826,
+        "Ring": "R2",
+        "Span_id": "010"
+    },
+    "PAR TO HADKALKHATI": {
+        "BROWN FIELD DATA": 83.30312393315589,
+        "PMGSY": 1677.509041133836,
+        "PWD": 412.32928947101556,
+        "Ring": "R2",
+        "Span_id": "009"
+    },
+    "KIRRAWADA TO BINA BLOCK": {
+        "PMGSY": 2507.084110486241,
+        "SH-14": 4173.2468732797315,
+        "Ring": "R2",
+        "Span_id": "011"
+    },
+    "PIPARKHERI TO DHURUA": {
+        "PMGSY": 4397.957331650873,
+        "Ring": "R1",
+        "Span_id": "002"
+    },
+    "DHURUA TO HINGTI": {
+        "BROWN FIELD DATA": 2879.5266597842847,
+        "PWD": 3815.288182192615,
+        "Ring": "R1",
+        "Span_id": "003"
+    },
+    "BINA BLOCK TO PADARIYA": {
+        "PMGSY": 7094.076514310046,
+        "Ring": "R2",
+        "Span_id": "001"
+    },
+    "GULAUA TO BINA BLOCK": {
+        "BROWN FIELD DATA": 1627.4665036023034,
+        "PMGSY": 1237.9300058322187,
+        "Ring": "R1",
+        "Span_id": "011"
+    },
+    "NOGAON TO GULAUA": {
+        "PMGSY": 1838.835520058946,
+        "Ring": "R1",
+        "Span_id": "010"
+    },
+    "PADARIYA TO GADA": {
+        "BROWN FIELD DATA": 251.60558135234143,
+        "PMGSY": 6422.449308421973,
+        "Ring": "R2",
+        "Span_id": "002"
+    },
+    "BARODIYA GHAT TO NOGAON": {
+        "BROWN FIELD DATA": 740.437605498284,
+        "PMGSY": 4142.887014019615,
+        "Ring": "R1",
+        "Span_id": "009"
+    },
+    "HINGTI TO RAMPUR": {
+        "BROWN FIELD DATA": 2782.40537184253,
+        "Ring": "R1",
+        "Span_id": "004"
+    },
+    "KORJA TO SATORIYA": {
+        "PMGSY": 2934.28393647465,
+        "Ring": "R1",
+        "Span_id": "006"
+    },
+    "RAMPUR TO KORJA": {
+        "BROWN FIELD DATA": 152.0922846093682,
+        "PMGSY": 5325.995945146661,
+        "Ring": "R1",
+        "Span_id": "005"
+    },
+    "SATORIYA TO BINDHAI": {
+        "BROWN FIELD DATA": 10086.844433185544,
+        "Ring": "R1-C1",
+        "Span_id": "001"
+    },
+    "SATORIYA TO MUHASA": {
+        "PMGSY": 3609.4969910282466,
+        "Ring": "R1",
+        "Span_id": "007"
+    },
+    "HARDOT TO ERAN": {
+        "BROWN FIELD DATA": 3179.140974118976,
+        "Ring": "R1-C1",
+        "Span_id": "007"
+    },
+    "GOHAR TO BAMORA": {
+        "BROWN FIELD DATA": 4394.729477797832,
+        "PMGSY": 2112.065149467951,
+        "Ring": "R1-C1",
+        "Span_id": "005"
+    },
+    "DHANSARA TO GOHAR": {
+        "BROWN FIELD DATA": 3706.2156501770955,
+        "PMGSY": 136.42050878495428,
+        "Ring": "R1-C1",
+        "Span_id": "004"
+    },
+    "SANAI TO DHANSARA": {
+        "BROWN FIELD DATA": 2881.4632785231965,
+        "Ring": "R1-C1",
+        "Span_id": "003"
+    },
+    "BESRAKASOI TO LAKHAHAR": {
+        "BROWN FIELD DATA": 1210.3052384037494,
+        "PMGSY": 158.3735937653309,
+        "Ring": "R3",
+        "Span_id": "004"
+    },
+    "LAKHAHAR TO SIRCHOPI": {
+        "BROWN FIELD DATA": 2502.386977189341,
+        "Ring": "R3",
+        "Span_id": "005"
+    },
+    "SIRCHOPI TO MAHADEOKHEDI": {
+        "BROWN FIELD DATA": 2629.8752157178687,
+        "PMGSY": 102.77575765236463,
+        "Ring": "R3",
+        "Span_id": "006"
+    },
+    "BARODIYA TO DEVAL": {
+        "PMGSY": 5959.077611604117,
+        "PMGSY_FOREST": 3997.2316187096008,
+        "Ring": "R4-C1",
+        "Span_id": "008"
+    },
+    "BILDHO TO GADHOLI": {
+        "BROWN FIELD DATA": 326.6831020826316,
+        "PWD": 547.7510721469945,
+        "Ring": "R4-C1",
+        "Span_id": "004"
+    },
+    "GADHOLI TO CHAYANKACHHI": {
+        "BROWN FIELD DATA": 6537.812869635138,
+        "PWD": 2876.791525245435,
+        "Ring": "R4-C1",
+        "Span_id": "005"
+    },
+    "KARONDA TO BILDHO": {
+        "PMGSY": 2370.6269170957617,
+        "PWD": 2667.0966149973037,
+        "Ring": "R4-C1",
+        "Span_id": "003"
+    },
+    "HINNOD TO RAMSAGAR": {
+        "BROWN FIELD DATA": 629.2710203220643,
+        "MDR": 2670.294811129346,
+        "PWD": 2407.89718977251,
+        "Ring": "R3-C1",
+        "Span_id": "003"
+    },
+    "LAHERAWADA TO HADKALNJAIN": {
+        "PMGSY": 2674.985538581407,
+        "Ring": "R3-C1",
+        "Span_id": "005"
+    },
+    "RAMSAGAR TO LAHERAWADA": {
+        "BROWN FIELD DATA": 1037.9384443158935,
+        "PWD": 17.85892389896644,
+        "SH": 1799.068525690971,
+        "Ring": "R3-C1",
+        "Span_id": "004"
+    },
+    "BEDHAI TO GIRROL": {
+        "BROWN FIELD DATA": 6601.634819212857,
+        "PWD": 3639.835024041976,
+        "SH": 423.3969005640615,
+        "Ring": "R3-C1",
+        "Span_id": "007"
+    },
+    "GIRROL TO LAHATWAS": {
+        "BROWN FIELD DATA": 262.70459435445304,
+        "PMGSY": 2197.6046293331833,
+        "SH": 1466.594486971216,
+        "Ring": "R3-C1",
+        "Span_id": "008"
+    },
+    "MAHADEOKHEDI TO LAHATWAS": {
+        "BROWN FIELD DATA": 2265.9912845198323,
+        "PMGSY": 2211.7098019160585,
+        "SH": 3209.5288530915354,
+        "Ring": "R3",
+        "Span_id": "007"
+    },
+    "T-POINT MAHADEOKHEDI TO JODH": {
+        "BROWN FIELD DATA": 92.123315359689,
+        "PMGSY": 1158.748508363632,
+        "Ring": "R3-C1",
+        "Span_id": "001"
+    },
+    "HADKALNJAIN TO BEDHAI": {
+        "BROWN FIELD DATA": 1049.309756802177,
+        "PMGSY": 640.2746598269156,
+        "PWD": 3011.3992396376393,
+        "Ring": "R3-C1",
+        "Span_id": "006"
+    },
+    "BHANGARH TO KARONDA": {
+        "BROWN FIELD DATA": 2455.592134275987,
+        "PWD": 946.1704576728501,
+        "Ring": "R4-C1",
+        "Span_id": "002"
+    },
+    "T-POINT GURYANA TO BHANGARH": {
+        "PWD": 1089.1748429210234,
+        "Ring": "R4-C1",
+        "Span_id": "001"
+    },
+    "T-POINT DHAND TO CHAMARI": {
+        "BROWN FIELD DATA": 4488.6587796004815,
+        "Ring": "R4",
+        "Span_id": "011"
+    },
+    "LAHATWAS TO NIBODA": {
+        "BROWN FIELD DATA": 4083.8975271046443,
+        "PMGSY": 846.2612972075759,
+        "Ring": "R3",
+        "Span_id": "008"
+    },
+    "KHAJURIYA TO  MUDIYA DEHRA": {
+        "BROWN FIELD DATA": 185.64402071972714,
+        "PWD": 2824.4312509403517,
+        "Ring": "R4-C1",
+        "Span_id": "010"
+    },
+    "GURYANA TO MUDIYA DEHRA": {
+        "BROWN FIELD DATA": 2457.104121959367,
+        "PWD": 2623.984786235483,
+        "Ring": "R4",
+        "Span_id": "006"
+    },
+    "AGASOD TO PURENA": {
+        "PMGSY": 5506.209444150494,
+        "Ring": "R3",
+        "Span_id": "002"
+    },
+    "MUDIYA DEHRA TO DHAND": {
+        "BROWN FIELD DATA": 261.84738932073464,
+        "PWD": 3745.626859285705,
+        "Ring": "R4",
+        "Span_id": "007"
+    },
+    "NIBODA TO SEMARKHEDI": {
+        "BROWN FIELD DATA": 1252.225253867002,
+        "PMGSY": 280.49605337393194,
+        "Ring": "R3",
+        "Span_id": "009"
+    },
+    "SEMARKHEDI TO DEHRI": {
+        "BROWN FIELD DATA": 46.35401561204233,
+        "PMGSY": 3416.6962436110084,
+        "Ring": "R3",
+        "Span_id": "010"
+    },
+    "BIHARNA TO GURYANA": {
+        "BROWN FIELD DATA": 3834.2735838764643,
+        "Ring": "R4",
+        "Span_id": "005"
+    },
+    "CHAYANKACHHI TO PIPRASAR": {
+        "BROWN FIELD DATA": 1286.8587958060125,
+        "PWD": 165.87376496788693,
+        "Ring": "R4-C1",
+        "Span_id": "006"
+    },
+    "PIPRASAR TO BARODIYA": {
+        "BROWN FIELD DATA": 1261.4644166454284,
+        "PWD": 554.1881423732101,
+        "Ring": "R4-C1",
+        "Span_id": "007"
+    },
+    "T-POINT RAMSAGAR TO KANJIA": {
+        "BROWN FIELD DATA": 14.747265920094822,
+        "PMGSY": 572.7462874703068,
+        "SH": 1920.57148845076,
+        "Ring": "R3-C1",
+        "Span_id": "009"
+    },
+    "DEVAL TO KHAJURIYA": {
+        "BROWN FIELD DATA": 7975.455304396935,
+        "Ring": "R4-C1",
+        "Span_id": "009"
+    },
+    "JODH TO HINNOD": {
+        "BROWN FIELD DATA": 4039.113906339258,
+        "Ring": "R3-C1",
+        "Span_id": "002"
+    },
+    "MUHASA TO BARODIYA GHAT": {
+        "BROWN FIELD DATA": 3852.9078318495326,
+        "Ring": "R1",
+        "Span_id": "008"
+    },
+    "PURENA TO BESRAKASOI": {
+        "BROWN FIELD DATA": 2589.070448668024,
+        "Ring": "R3",
+        "Span_id": "003"
+    }
+}

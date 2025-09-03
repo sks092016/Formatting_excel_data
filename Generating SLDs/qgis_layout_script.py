@@ -15,8 +15,8 @@ import os
 import json
 from pathlib import Path
 
-district_name = 'Bhind'
-block_name = 'Ater'
+district_name = 'Sagar'
+block_name = 'Bina'
 
 # --- Settings ---
 # file_path = f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details-{block_name}.json"
