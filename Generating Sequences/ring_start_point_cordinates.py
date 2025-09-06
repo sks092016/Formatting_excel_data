@@ -32,8 +32,8 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/BARWANI/gps.shp"
-segments_shape_file = "References/BARWANI/OFC_NEW.shp"
+gps_shape_file = "References/barwani2/gps.shp"
+segments_shape_file = "References/barwani2/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
@@ -44,7 +44,7 @@ rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
-    'R3_C1':'75.03296900 21.99870500',
+    'R3-C1':'75.03296900 21.99870500',
 }
 # Non Spur T-POINT SPANS points or Segments which are part of closed Ring
 #--------BARWANI------------

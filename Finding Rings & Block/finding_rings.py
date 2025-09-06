@@ -75,9 +75,7 @@ choices = [None if x == "part2" or x == "old gp rout" else x for x in choices]
 def fuzzy_lookup(query, scorer=fuzz.token_set_ratio, cutoff=85):
     if pd.isna(query):
         return None, None, None, 0
-    match, score, idx = process.extractOne(
-        str(query), choices, scorer=scorer, score_cutoff=cutoff,
-    ) or (None, 0, None)
+    match, score, idx = process.extractOne( str(query), choices, scorer=scorer, score_cutoff=cutoff,) or (None, 0, None)
 
     print(f"Query={query}, Match={match}, Score={score}, {idx}")
 
