@@ -4,15 +4,13 @@ from qgis.core import QgsProject, edit
 layer_name = "OFC_NEW"  # Name of the layer in QGIS
 check_field = "span_name"
 update_field = "span_name"
-"""{'extra_in_spans': {'BHIKHEDA', 'BARWANI KHURA', 'REHGUN SILWAD', 
-'BLOCK BARWANI', 'BARLAY', 'BARWANI BLOCK', 'OLT BAEWANI BLOCK'}, 
-'unused_gps': {'OLT BARWANI BLOCK', 'REHGUN SILAWAD'}}
+"""
+{'extra_in_spans': {'BALAGHAT BLOCK', , , , }, 
+'unused_gps': {'BALAGHAT'}}
 """
 
 replacement_map = {
-'PAKHALYA TO REHGUN SILAWAD': 'T-POINT PAKHALYA TO REHGUN SILAWAD',
-'HIRKRAY TO PANCHPULA DAKSHIN':'T-POINT HIRKRAY TO PANCHPULA DAKSHIN',
-'HIRKRAY TO T-POINT PAKHALYA' :'HIRKRAY TO PAKHALYA'
+'TAWEJHARI':'TAVEJHARI',
 }
 
 count = 0 

@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "BARWANI"
+blockName = "Balaghat"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,28 +32,33 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/barwani2/gps.shp"
-segments_shape_file = "References/barwani2/OFC_NEW.shp"
+gps_shape_file = "References/Balaghat/gps.shp"
+segments_shape_file = "References/Balaghat/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '74.90515500 22.02491100'
+BHQ_CORDINATE = '80.19993800 21.80523700'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
-    'R3-C1':'75.03296900 21.99870500',
+    'R1-C1':'80.25283162 21.78241961',
+    'R2-C1':'80.23990620 21.84237850'
 }
 # Non Spur T-POINT SPANS points or Segments which are part of closed Ring
-#--------BARWANI------------
 t_point_ring_spans = {
- 't-point  pakhalya':(74.89034000,21.90976400),
- 't-point hirkray':(74.89627354, 21.89715437),
- 't-point pakhalya':(74.89185993,21.90485223),
- 't-point panchpula uttar':(74.97021025,21.87474700)
+'t-point hirapur':(80.23990620,21.84237850),
+'t-point khursodi':(80.19631269,21.75354787)
 }
+#--------BARWANI------------
+# t_point_ring_spans = {
+#  't-point  pakhalya':(74.89034000,21.90976400),
+#  't-point hirkray':(74.89627354, 21.89715437),
+#  't-point pakhalya':(74.89185993,21.90485223),
+#  't-point panchpula uttar':(74.97021025,21.87474700)
+# }
 
 #-------MALHARGARH-2---------
 # t_point_ring_spans = {

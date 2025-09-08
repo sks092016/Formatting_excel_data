@@ -1,0 +1,25 @@
+2025-09-08 16:10:37,401 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'GARDA TO TIWADIKALA'.
+2025-09-08 16:10:37,402 - WARNING - \u26a0\ufe0f The Span GARDA TO TIWADIKALA is disconnected at this point (80.31740415400003, 21.766646740000056)
+2025-09-08 16:10:38,413 - INFO - Created 785 records
+2025-09-08 16:10:38,427 - INFO - Created 49 records
+2025-09-08 16:10:38,428 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-09-08 16:10:38,436 - INFO - Created 1 records
+2025-09-08 16:10:38,529 - INFO - \U0001f504 Found 5 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3']
+2025-09-08 16:10:38,530 - INFO - 
+\U0001f501 Processing ring: R1
+2025-09-08 16:10:38,538 - INFO - \u2705 Completed ring R1 with 10 spans.
+2025-09-08 16:10:38,539 - INFO - 
+\U0001f501 Processing ring: R1-C1
+2025-09-08 16:10:38,543 - INFO - \u2705 Completed ring R1-C1 with 5 spans.
+2025-09-08 16:10:38,543 - INFO - 
+\U0001f501 Processing ring: R2
+2025-09-08 16:10:38,551 - INFO - \u2705 Completed ring R2 with 11 spans.
+2025-09-08 16:10:38,551 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-09-08 16:10:38,555 - INFO - \u2705 Completed ring R2-C1 with 5 spans.
+2025-09-08 16:10:38,555 - INFO - 
+\U0001f501 Processing ring: R3
+2025-09-08 16:10:38,563 - INFO - \u2705 Completed ring R3 with 11 spans.
+2025-09-08 16:10:38,611 - INFO - Created 785 records
+2025-09-08 16:10:38,617 - INFO - Created 49 records
+2025-09-08 16:10:38,618 - INFO - \u2705 All rings processed. Span sequence updated and saved.
