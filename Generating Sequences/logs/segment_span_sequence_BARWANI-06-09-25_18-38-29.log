@@ -1,0 +1,20 @@
+2025-09-06 18:38:30,108 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'HIRKRAY TO PANCHPULA DAKSHIN'.
+2025-09-06 18:38:30,109 - WARNING - ⚠️ The Span HIRKRAY TO PANCHPULA DAKSHIN is disconnected at this point (74.91649500000005, 21.896259000000043)
+2025-09-06 18:38:30,368 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'REHGUN SAJWANI TO JUNAJHIRA'.
+2025-09-06 18:38:30,368 - WARNING - ⚠️ The Span REHGUN SAJWANI TO JUNAJHIRA is disconnected at this point (74.96682689300007, 21.972606115000076)
+2025-09-06 18:38:30,679 - INFO - Created 663 records
+2025-09-06 18:38:30,684 - INFO - Created 46 records
+2025-09-06 18:38:30,685 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-09-06 18:38:30,687 - INFO - Created 2 records
+2025-09-06 18:38:30,711 - INFO - 🔄 Found 4 rings: ['R1', 'R2', 'R3', 'R3-C1']
+2025-09-06 18:38:30,711 - INFO - 
+🔁 Processing ring: R1
+2025-09-06 18:38:30,716 - INFO - ✅ Completed ring R1 with 9 spans.
+2025-09-06 18:38:30,716 - INFO - 
+🔁 Processing ring: R2
+2025-09-06 18:38:30,720 - INFO - ✅ Completed ring R2 with 4 spans.
+2025-09-06 18:38:30,720 - INFO - 
+🔁 Processing ring: R3
+2025-09-06 18:38:30,726 - INFO - ✅ Completed ring R3 with 12 spans.
+2025-09-06 18:38:30,726 - INFO - 
+🔁 Processing ring: R3-C1

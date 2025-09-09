@@ -1,0 +1,296 @@
+{
+    "KHURSODI TO BHAMODI": {
+        "BROWN FIELD DATA": 1750.0314203470937,
+        "PMGSY": 2508.1712125583376,
+        "PWD": 1362.7609890270355,
+        "Ring": "R1",
+        "Span_id": "008"
+    },
+    "PENDRAI TO KHURSODI": {
+        "PMGSY": 2027.891930240991,
+        "Ring": "R1",
+        "Span_id": "007"
+    },
+    "LINGA TO DEORI": {
+        "PMGSY": 3345.857953008431,
+        "Ring": "R1",
+        "Span_id": "004"
+    },
+    "KHAIRGAON TO PARASWADA": {
+        "PMGSY": 1108.5820705505744,
+        "Ring": "R1-C1",
+        "Span_id": "008"
+    },
+    "NAHARWANI TO KHAIRGAON": {
+        "BROWN FIELD DATA": 141.80765879599193,
+        "PMGSY": 5313.572586810554,
+        "Ring": "R1-C1",
+        "Span_id": "007"
+    },
+    "PARASWADA TO HARDOLI": {
+        "BROWN FIELD DATA": 856.8269482938184,
+        "PMGSY": 1117.5784595964303,
+        "Ring": "R1-C1",
+        "Span_id": "009"
+    },
+    "KESLAWADA TO NAHARWANI": {
+        "BROWN FIELD DATA": 191.1219564570576,
+        "PMGSY": 527.787264021005,
+        "Ring": "R1-C1",
+        "Span_id": "006"
+    },
+    "TIWADIKALA TO KESLAWADA": {
+        "BROWN FIELD DATA": 2442.687539827088,
+        "Ring": "R1-C1",
+        "Span_id": "005"
+    },
+    "KOHKADIBAR TO PENDRAI": {
+        "BROWN FIELD DATA": 1050.1168721292206,
+        "PMGSY": 831.3519971731774,
+        "Ring": "R1",
+        "Span_id": "006"
+    },
+    "JARERA TO JAGPUR": {
+        "PMGSY": 4025.6688039671926,
+        "Ring": "R3",
+        "Span_id": "007"
+    },
+    "DHAPEVADA TO JARERA": {
+        "BROWN FIELD DATA": 3950.902749687491,
+        "Ring": "R3",
+        "Span_id": "006"
+    },
+    "KUMAHARI TO DHAPEVADA": {
+        "Grampanchyat": 38.61589733997843,
+        "NH": 1894.4544709613142,
+        "Ring": "R3",
+        "Span_id": "005"
+    },
+    "BHATERA TO KHAIRI": {
+        "BROWN FIELD DATA": 90.21970355318825,
+        "NH": 1071.640032987653,
+        "PMGSY": 901.2003868030356,
+        "Ring": "R3",
+        "Span_id": "003"
+    },
+    "KHAIRI TO KUMAHARI": {
+        "BROWN FIELD DATA": 354.36213908415914,
+        "NH": 2489.0784148603666,
+        "Ring": "R3",
+        "Span_id": "004"
+    },
+    "MANEGAON TO PAYILI": {
+        "PMGSY": 2684.992646548773,
+        "Ring": "R2-C1",
+        "Span_id": "002"
+    },
+    "PAYILI TO TEKADI": {
+        "BROWN FIELD DATA": 786.9235788969297,
+        "PMGSY": 657.6543065325708,
+        "Ring": "R2-C1",
+        "Span_id": "003"
+    },
+    "JAGPUR TO PADHERWADA": {
+        "BROWN FIELD DATA": 2303.2929096659377,
+        "Ring": "R3",
+        "Span_id": "008"
+    },
+    "PADHERWADA TO TAVEJHARI": {
+        "BROWN FIELD DATA": 387.10920708303706,
+        "PMGSY": 2031.3835834179217,
+        "Ring": "R3",
+        "Span_id": "009"
+    },
+    "DHANSUWA TO T-POINT SURWAHI": {
+        "PMGSY": 2111.6375610694126,
+        "Ring": "R2-C1",
+        "Span_id": "005"
+    },
+    "TEKADI TO DHANSUWA": {
+        "BROWN FIELD DATA": 1231.6232479714567,
+        "NH": 1387.6097164337632,
+        "PMGSY": 1505.2426976560305,
+        "Ring": "R2-C1",
+        "Span_id": "004"
+    },
+    "BAGHOLI TO BHARVELI": {
+        "BROWN FIELD DATA": 836.165784795956,
+        "NH": 41.208699299910045,
+        "PMGSY": 535.6844934220974,
+        "SH": 1049.7809313833582,
+        "Ring": "R2",
+        "Span_id": "002"
+    },
+    "BHARVELI TO HIRAPUR": {
+        "NH": 1317.413394636424,
+        "PMGSY": 103.31525314429467,
+        "Ring": "R2",
+        "Span_id": "003"
+    },
+    "HIRAPUR TO AMEDA": {
+        "BROWN FIELD DATA": 214.71978925705736,
+        "NH": 152.330657114,
+        "PMGSY": 2776.4343449557946,
+        "Ring": "R2",
+        "Span_id": "004"
+    },
+    "T-POINT HIRAPUR TO MANEGAON": {
+        "BROWN FIELD DATA": 764.7208684710255,
+        "NH": 698.4710898702157,
+        "Ring": "R2-C1",
+        "Span_id": "001"
+    },
+    "BALAGHAT BLOCK TO BODA": {
+        "MDR": 1594.5218897306129,
+        "Municipal Corporation": 400.40332455738354,
+        "NH": 24.55279376370202,
+        "PMGSY": 1801.854674070267,
+        "PWD": 104.63216921674541,
+        "SH": 2157.421454668788,
+        "Ring": "R3",
+        "Span_id": "001"
+    },
+    "TAVEJHARI TO AWALAJHARI": {
+        "BROWN FIELD DATA": 2420.268156520354,
+        "PMGSY": 325.0210248136672,
+        "Ring": "R3",
+        "Span_id": "010"
+    },
+    "BODA TO BHATERA": {
+        "BROWN FIELD DATA": 376.4915496516244,
+        "NH": 779.3829795879242,
+        "PMGSY": 2821.7938865021492,
+        "Ring": "R3",
+        "Span_id": "002"
+    },
+    "AMEDA TO SURWAHI": {
+        "BROWN FIELD DATA": 84.95745347769143,
+        "PMGSY": 2896.4644685614026,
+        "Ring": "R2",
+        "Span_id": "005"
+    },
+    "RATTA TO KHUTIYA": {
+        "BROWN FIELD DATA": 3008.909338628239,
+        "MDR": 2032.1050685846035,
+        "PMGSY": 63.5870071266307,
+        "Ring": "R2",
+        "Span_id": "007"
+    },
+    "SURWAHI TO RATTA": {
+        "BROWN FIELD DATA": 787.3378294062948,
+        "PMGSY": 3415.938366717728,
+        "Ring": "R2",
+        "Span_id": "006"
+    },
+    "BALAGHAT BLOCK TO BAGHOLI": {
+        "BROWN FIELD DATA": 117.51807782858383,
+        "Municipal Corporation": 477.3330100860618,
+        "NH": 22.509533184254842,
+        "PMGSY": 1008.1446308684208,
+        "PWD": 2084.5803550682394,
+        "Ring": "R2",
+        "Span_id": "001"
+    },
+    "AWALAJHARI TO BALAGHAT BLOCK": {
+        "Municipal Corporation": 479.8769747112681,
+        "NH": 19.33289073101212,
+        "PMGSY": 2485.358225976904,
+        "PWD": 828.7668786401593,
+        "Ring": "R3",
+        "Span_id": "011"
+    },
+    "BALAGHAT BLOCK TO NAVEGAON": {
+        "BROWN FIELD DATA": 1310.6933390933561,
+        "Municipal Corporation": 396.4013365321195,
+        "PMGSY": 598.9275714246509,
+        "Ring": "R1",
+        "Span_id": "001"
+    },
+    "GONGLAI TO BALAGHAT BLOCK": {
+        "Municipal Corporation": 153.18049986334324,
+        "PWD": 3219.3969781234937,
+        "Ring": "R1",
+        "Span_id": "010"
+    },
+    "BAGDARA TO KOSMI": {
+        "BROWN FIELD DATA": 3531.5020352387914,
+        "PMGSY": 74.16851325769913,
+        "Ring": "R2",
+        "Span_id": "010"
+    },
+    "KOSMI TO BALAGHAT BLOCK": {
+        "BROWN FIELD DATA": 24.151914608884027,
+        "Municipal Corporation": 390.96305626765314,
+        "NH": 19.049132615830764,
+        "PMGSY": 310.249139411239,
+        "Ring": "R2",
+        "Span_id": "011"
+    },
+    "KHUTIYA TO KATANGI": {
+        "BROWN FIELD DATA": 70.26726351283648,
+        "MDR": 1892.1685046924097,
+        "Ring": "R2",
+        "Span_id": "008"
+    },
+    "KATANGI TO BAGDARA": {
+        "BROWN FIELD DATA": 2394.3179605006394,
+        "PMGSY": 48.745910086599835,
+        "Ring": "R2",
+        "Span_id": "009"
+    },
+    "BHAMODI TO GONGLAI": {
+        "BROWN FIELD DATA": 2098.797604125823,
+        "PWD": 573.2145939409609,
+        "Ring": "R1",
+        "Span_id": "009"
+    },
+    "NAVEGAON TO NAITRA": {
+        "BROWN FIELD DATA": 270.5800056532511,
+        "PMGSY": 3281.7997662806038,
+        "Ring": "R1",
+        "Span_id": "002"
+    },
+    "GARDA TO TIWADIKALA": {
+        "PMGSY": 3355.193724475227,
+        "Ring": "R1-C1",
+        "Span_id": "004"
+    },
+    "PARASPANI TO GARDA": {
+        "BROWN FIELD DATA": 1725.6489656870376,
+        "Ring": "R1-C1",
+        "Span_id": "003"
+    },
+    "NAITRA TO LINGA": {
+        "BROWN FIELD DATA": 264.8157692854161,
+        "PMGSY": 2958.2143716516694,
+        "Ring": "R1",
+        "Span_id": "003"
+    },
+    "HARDOLI TO T-POINT LINGA": {
+        "Grampanchyat": 538.7419818508798,
+        "PMGSY": 2362.3307604091106,
+        "Ring": "R1-C1",
+        "Span_id": "010"
+    },
+    "LINGA TO LOHARA": {
+        "Grampanchyat": 473.5709060634215,
+        "PMGSY": 1450.0763091221195,
+        "Ring": "R1-C1",
+        "Span_id": "001"
+    },
+    "LOHARA TO PARASPANI": {
+        "BROWN FIELD DATA": 4496.413955622561,
+        "Ring": "R1-C1",
+        "Span_id": "002"
+    },
+    "DEORI TO KOHKADIBAR": {
+        "BROWN FIELD DATA": 1890.7682801920453,
+        "Ring": "R1",
+        "Span_id": "005"
+    },
+    "T-POINT KHURSODI TO CHICHGAON": {
+        "BROWN FIELD DATA": 1363.0453450743785,
+        "Ring": "R1",
+        "Span_id": "011"
+    }
+}

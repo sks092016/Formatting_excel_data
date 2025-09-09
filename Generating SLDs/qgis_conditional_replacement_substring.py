@@ -10,7 +10,9 @@ update_field = "span_name"
 """
 
 replacement_map = {
-'TAWEJHARI':'TAVEJHARI',
+'t-point barsaitadesh to itarpahab':'barsaitadesh to itarpahab',
+'t-point itarpahab to dadhawa':'itarpahab to dadhawa',
+'t-point dadhawa to jaldar':'dadhawa to jaldar'
 }
 
 count = 0 

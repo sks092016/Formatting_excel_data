@@ -1,0 +1,22 @@
+2025-09-06 18:53:06,354 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'REHGUN SAJWANI TO JUNAJHIRA'.
+2025-09-06 18:53:06,354 - WARNING - ⚠️ The Span REHGUN SAJWANI TO JUNAJHIRA is disconnected at this point (74.96682689300007, 21.972606115000076)
+2025-09-06 18:53:06,661 - INFO - Created 663 records
+2025-09-06 18:53:06,667 - INFO - Created 46 records
+2025-09-06 18:53:06,668 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-09-06 18:53:06,671 - INFO - Created 1 records
+2025-09-06 18:53:06,693 - INFO - 🔄 Found 4 rings: ['R1', 'R2', 'R3', 'R3-C1']
+2025-09-06 18:53:06,693 - INFO - 
+🔁 Processing ring: R1
+2025-09-06 18:53:06,698 - INFO - ✅ Completed ring R1 with 9 spans.
+2025-09-06 18:53:06,698 - INFO - 
+🔁 Processing ring: R2
+2025-09-06 18:53:06,701 - INFO - ✅ Completed ring R2 with 4 spans.
+2025-09-06 18:53:06,701 - INFO - 
+🔁 Processing ring: R3
+2025-09-06 18:53:06,706 - INFO - ✅ Completed ring R3 with 12 spans.
+2025-09-06 18:53:06,706 - INFO - 
+🔁 Processing ring: R3-C1
+2025-09-06 18:53:06,710 - INFO - ✅ Completed ring R3-C1 with 7 spans.
+2025-09-06 18:53:06,735 - INFO - Created 663 records
+2025-09-06 18:53:06,740 - INFO - Created 46 records
+2025-09-06 18:53:06,741 - INFO - ✅ All rings processed. Span sequence updated and saved.
