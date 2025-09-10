@@ -1,0 +1,270 @@
+{
+    "AAWALI TO DHANORA": {
+        "BROWN FIELD DATA": 852.3235988197359,
+        "Ring": "R3",
+        "Span_id": "007"
+    },
+    "AMBAPANI TO BADGAON": {
+        "PWD": 10465.336535818877,
+        "Ring": "R2",
+        "Span_id": "013"
+    },
+    "AMLYAPANI TO BARWANI KHURD": {
+        "PWD": 2207.557848057505,
+        "Ring": "R1",
+        "Span_id": "002"
+    },
+    "AWALDA TO SOUNDUL": {
+        "BROWN FIELD DATA": 594.5238204273983,
+        "PWD": 784.2091811653544,
+        "Ring": "R1",
+        "Span_id": "005"
+    },
+    "BADGAON TO BARWANI BLOCK": {
+        "BROWN FIELD DATA": 376.3889880823966,
+        "PWD": 1478.7869016962823,
+        "Ring": "R2",
+        "Span_id": "014"
+    },
+    "BAGUD TO PIPARI": {
+        "GRAMPANCHAYAT": 4221.017004785238,
+        "Ring": "R3",
+        "Span_id": "004"
+    },
+    "BAJATTA KHURD TO TALUN KHURD": {
+        "BROWN FIELD DATA": 1119.3199190728817,
+        "Ring": "R3",
+        "Span_id": "011"
+    },
+    "BALKUNWA TO T-POINT LONSARA KHURD": {
+        "PMGSY": 2881.2746371475973,
+        "Ring": "R3-C1",
+        "Span_id": "007"
+    },
+    "BARWANI BLOCK TO AMLYAPANI": {
+        "BROWN FIELD DATA": 4805.35584805428,
+        "PWD": 2428.9222616706065,
+        "Ring": "R1",
+        "Span_id": "001"
+    },
+    "BARWANI BLOCK TO KASRAWAD": {
+        "NH-347B": 162.33491098699392,
+        "PWD": 4503.683924798433,
+        "Ring": "R3",
+        "Span_id": "001"
+    },
+    "BARWANI BLOCK TO SAJWANI": {
+        "PWD": 2014.3958242277122,
+        "SH-39": 3359.140104889919,
+        "Ring": "R2",
+        "Span_id": "001"
+    },
+    "BARWANI KHURD TO BOMYA": {
+        "BROWN FIELD DATA": 3976.675631621596,
+        "PWD": 2805.9997073976833,
+        "Ring": "R1",
+        "Span_id": "003"
+    },
+    "BHAGSUR TO GOTHANYA": {
+        "BROWN FIELD DATA": 121.48556369123773,
+        "PMGSY": 3758.183041016136,
+        "PWD": 121.75804068467221,
+        "Ring": "R3-C1",
+        "Span_id": "003"
+    },
+    "BHAMI TO SAJWANI KHAM": {
+        "GRAMPANCHAYAT": 2410.7037450379285,
+        "Ring": "R3-C1",
+        "Span_id": "005"
+    },
+    "BHILKHEDA TO BARWANI BLOCK": {
+        "BROWN FIELD DATA": 798.7801501641767,
+        "NH-347B": 1588.9115247884483,
+        "PWD": 1040.3336758533796,
+        "Ring": "R1",
+        "Span_id": "009"
+    },
+    "BOMYA TO AWALDA": {
+        "BROWN FIELD DATA": 3728.024963928464,
+        "PWD": 4071.789619718502,
+        "Ring": "R1",
+        "Span_id": "004"
+    },
+    "BORLAY TO AAWALI": {
+        "GRAMPANCHAYAT": 1289.0265283295423,
+        "NH-347B": 1766.452459952402,
+        "Ring": "R3",
+        "Span_id": "006"
+    },
+    "CHIKLYA TO VEDPURI": {
+        "BROWN FIELD DATA": 1100.6038858669199,
+        "SH-39": 3016.1636237604635,
+        "Ring": "R2",
+        "Span_id": "008"
+    },
+    "DHAMNI TO REHGUN SAJWANI": {
+        "PWD": 2099.186589811993,
+        "SH-39": 314.9511456487321,
+        "Ring": "R2",
+        "Span_id": "003"
+    },
+    "DHANORA TO TALWADA BUJURG": {
+        "BROWN FIELD DATA": 8185.00501425437,
+        "GRAMPANCHAYAT": 169.45829848994418,
+        "NH-347B": 10.67590240492912,
+        "PWD": 315.63801479378037,
+        "Ring": "R3",
+        "Span_id": "008"
+    },
+    "GOTHANYA TO BHAMI": {
+        "BROWN FIELD DATA": 2735.740749469582,
+        "PMGSY": 820.7762683372221,
+        "Ring": "R3-C1",
+        "Span_id": "004"
+    },
+    "HIRKRAY TO PAKHALYA": {
+        "GRAMPANCHAYAT": 707.9765844067216,
+        "SH-39": 4126.423730437868,
+        "Ring": "R2",
+        "Span_id": "010"
+    },
+    "JUNAJHIRA TO PANCHPULA UTTAR": {
+        "BROWN FIELD DATA": 143.71930176672888,
+        "PWD": 11199.691888904605,
+        "Ring": "R2",
+        "Span_id": "005"
+    },
+    "KALYANPURA TO BHILKHEDA": {
+        "PWD": 3799.3129615364946,
+        "Ring": "R1",
+        "Span_id": "008"
+    },
+    "KASRAWAD TO PIPLAJ": {
+        "BROWN FIELD DATA": 2230.262901102188,
+        "GRAMPANCHAYAT": 4732.695788895015,
+        "Ring": "R3",
+        "Span_id": "002"
+    },
+    "LONSARA KHURD TO BAJATTA KHURD": {
+        "BROWN FIELD DATA": 100.2519099835204,
+        "GRAMPANCHAYAT": 856.4299573157657,
+        "PWD": 2356.855633544106,
+        "Ring": "R3",
+        "Span_id": "010"
+    },
+    "PAKHALYA TO SILAWAD": {
+        "BROWN FIELD DATA": 953.2550183406582,
+        "PWD": 299.0070385734135,
+        "Ring": "R2",
+        "Span_id": "011"
+    },
+    "PANCHPULA UTTAR TO SIDADI": {
+        "BROWN FIELD DATA": 7847.237933047843,
+        "PWD": 196.47754122352526,
+        "SH-39": 1840.3149360445202,
+        "Ring": "R2",
+        "Span_id": "006"
+    },
+    "PICHHODI TO KALYANPURA": {
+        "BROWN FIELD DATA": 1379.5674497422046,
+        "PWD": 1452.2171051230614,
+        "Ring": "R1",
+        "Span_id": "007"
+    },
+    "PIPARI TO BORLAY": {
+        "BROWN FIELD DATA": 3200.071299362349,
+        "Ring": "R3",
+        "Span_id": "005"
+    },
+    "PIPLAJ TO BAGUD": {
+        "BROWN FIELD DATA": 545.9861397954646,
+        "GRAMPANCHAYAT": 1260.9117081927388,
+        "Ring": "R3",
+        "Span_id": "003"
+    },
+    "REHGUN SAJWANI TO JUNAJHIRA": {
+        "BROWN FIELD DATA": 500.09760819327244,
+        "SH-39": 6466.554909744744,
+        "Ring": "R2",
+        "Span_id": "004"
+    },
+    "SAJWANI KHAM TO BALKUNWA": {
+        "BROWN FIELD DATA": 7505.751530209193,
+        "GRAMPANCHAYAT": 1835.6332317823028,
+        "Ring": "R3-C1",
+        "Span_id": "006"
+    },
+    "SAJWANI TO DHAMNI": {
+        "BROWN FIELD DATA": 1679.9481709960403,
+        "SH-39": 396.6626845202039,
+        "Ring": "R2",
+        "Span_id": "002"
+    },
+    "SALI TO BHAGSUR": {
+        "BROWN FIELD DATA": 1724.7422358531562,
+        "Ring": "R3-C1",
+        "Span_id": "002"
+    },
+    "SIDADI TO CHIKLYA": {
+        "BROWN FIELD DATA": 5338.517233760858,
+        "Ring": "R2",
+        "Span_id": "007"
+    },
+    "SILAWAD TO AMBAPANI": {
+        "BROWN FIELD DATA": 3072.8599375587905,
+        "PWD": 2230.0414160123723,
+        "Ring": "R2",
+        "Span_id": "012"
+    },
+    "SOUNDUL TO PICHHODI": {
+        "BROWN FIELD DATA": 822.2211278259123,
+        "PWD": 3139.7621941340553,
+        "Ring": "R1",
+        "Span_id": "006"
+    },
+    "T-POINT HIRKRAY TO PANCHPULA DAKSHIN": {
+        "BROWN FIELD DATA": 2216.4841049781385,
+        "Ring": "R2",
+        "Span_id": "016"
+    },
+    "T-POINT PAKHALYA  TO HOLGAON": {
+        "BROWN FIELD DATA": 399.3766623983234,
+        "PWD": 2318.048002853138,
+        "Ring": "R2",
+        "Span_id": "018"
+    },
+    "T-POINT PAKHALYA TO REHGUN SILAWAD": {
+        "BROWN FIELD DATA": 1372.2080111162888,
+        "Ring": "R2",
+        "Span_id": "017"
+    },
+    "T-POINT PANCHPULA UTTAR TO BHANDARDA": {
+        "GRAMPANCHAYAT": 1171.9314120100014,
+        "Ring": "R2",
+        "Span_id": "015"
+    },
+    "TALUN KHURD TO BARWANI BLOCK": {
+        "BROWN FIELD DATA": 1172.1673833221132,
+        "NH-347B": 3408.6295782618467,
+        "PWD": 2009.7324072203714,
+        "Ring": "R3",
+        "Span_id": "012"
+    },
+    "TALWADA BUJURG TO LONSARA KHURD": {
+        "GRAMPANCHAYAT": 2525.8350371056617,
+        "PWD": 3283.5674098897484,
+        "Ring": "R3",
+        "Span_id": "009"
+    },
+    "TALWADA BUJURG TO SALI": {
+        "PWD": 3672.6826004590007,
+        "Ring": "R3-C1",
+        "Span_id": "001"
+    },
+    "VEDPURI TO HIRKRAY": {
+        "GRAMPANCHAYAT": 1303.357432109924,
+        "SH-39": 2263.236863887864,
+        "Ring": "R2",
+        "Span_id": "009"
+    }
+}
