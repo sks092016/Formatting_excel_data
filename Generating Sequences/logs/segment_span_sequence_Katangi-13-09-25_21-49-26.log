@@ -1,0 +1,8 @@
+2025-09-13 21:49:26,704 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-13 21:49:26,705 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-13 21:49:26,720 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BISAPUR TO KATANGI BLOCK'.
+2025-09-13 21:49:26,720 - WARNING - ⚠️ The Span BISAPUR TO KATANGI BLOCK is disconnected at this point (79.79841400000004, 21.76390200000003)
+2025-09-13 21:49:27,955 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-13 21:49:27,955 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-13 21:49:27,956 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-13 21:49:27,956 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>

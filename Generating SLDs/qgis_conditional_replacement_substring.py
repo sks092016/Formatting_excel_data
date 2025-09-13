@@ -5,14 +5,12 @@ layer_name = "OFC_NEW"  # Name of the layer in QGIS
 check_field = "span_name"
 update_field = "span_name"
 """
-{'extra_in_spans': {'BALAGHAT BLOCK', , , , }, 
-'unused_gps': {'BALAGHAT'}}
+
 """
 
 replacement_map = {
-'t-point barsaitadesh to itarpahab':'barsaitadesh to itarpahab',
-'t-point itarpahab to dadhawa':'itarpahab to dadhawa',
-'t-point dadhawa to jaldar':'dadhawa to jaldar'
+'BASI TO TEKADI (KA)':'TEKADI (KA) TO BASI',
+'TEKADI (KA) TO DEWTHANA':'DEWTHANA TO TEKADI (KA)'
 }
 
 count = 0 

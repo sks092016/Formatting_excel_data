@@ -1,0 +1,35 @@
+2025-09-13 21:59:01,167 - INFO - Created 1,284 records
+2025-09-13 21:59:01,172 - INFO - Created 93 records
+2025-09-13 21:59:01,172 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-09-13 21:59:01,179 - INFO - Created 0 records
+2025-09-13 21:59:01,220 - INFO - 🔄 Found 9 rings: ['R1', 'R2', 'R3', 'R4', 'R4-C1', 'R5', 'R5-C1', 'R6', 'R6-C1']
+2025-09-13 21:59:01,220 - INFO - 
+🔁 Processing ring: R1
+2025-09-13 21:59:01,226 - INFO - ✅ Completed ring R1 with 12 spans.
+2025-09-13 21:59:01,226 - INFO - 
+🔁 Processing ring: R2
+2025-09-13 21:59:01,231 - INFO - ✅ Completed ring R2 with 10 spans.
+2025-09-13 21:59:01,231 - INFO - 
+🔁 Processing ring: R3
+2025-09-13 21:59:01,237 - INFO - ✅ Completed ring R3 with 11 spans.
+2025-09-13 21:59:01,237 - INFO - 
+🔁 Processing ring: R4
+2025-09-13 21:59:01,239 - INFO - ✅ Completed ring R4 with 1 spans.
+2025-09-13 21:59:01,239 - INFO - 
+🔁 Processing ring: R4-C1
+2025-09-13 21:59:01,242 - INFO - ✅ Completed ring R4-C1 with 6 spans.
+2025-09-13 21:59:01,242 - INFO - 
+🔁 Processing ring: R5
+2025-09-13 21:59:01,247 - INFO - ✅ Completed ring R5 with 10 spans.
+2025-09-13 21:59:01,247 - INFO - 
+🔁 Processing ring: R5-C1
+2025-09-13 21:59:01,252 - INFO - ✅ Completed ring R5-C1 with 10 spans.
+2025-09-13 21:59:01,252 - INFO - 
+🔁 Processing ring: R6
+2025-09-13 21:59:01,258 - INFO - ✅ Completed ring R6 with 11 spans.
+2025-09-13 21:59:01,258 - INFO - 
+🔁 Processing ring: R6-C1
+2025-09-13 21:59:01,262 - INFO - ✅ Completed ring R6-C1 with 9 spans.
+2025-09-13 21:59:01,302 - INFO - Created 1,284 records
+2025-09-13 21:59:01,307 - INFO - Created 93 records
+2025-09-13 21:59:01,308 - INFO - ✅ All rings processed. Span sequence updated and saved.
