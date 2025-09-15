@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Katangi"
+blockName = "Tirla"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,33 +32,44 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Katangi/gps.shp"
-segments_shape_file = "References/Katangi/OFC_NEW.shp"
+gps_shape_file = "References/tirla/gps.shp"
+segments_shape_file = "References/tirla/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '79.79841400 21.76390200'
+BHQ_CORDINATE = '75.23870515 22.57863611 '
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
     'R4': BHQ_CORDINATE,
-    'R5': BHQ_CORDINATE,
-    'R6': BHQ_CORDINATE,
-    'R4-C1':'79.71172900 21.74772900',
-    'R5-C1':'79.69706600 21.68080200',
-    'R6-C1':'79.80403900 21.65826500',
+    'R1-C1':'75.35220414 22.52282666',
+    'R2-C1':'75.15416699 22.43300848',
+    'R4-C1':'75.16149431 22.67089348',
 }
 t_point_ring_spans = {
-'t-point arjuni':(79.89803840,21.74260090),
-'t-point bothwa':(79.77509740,21.69510070),
-'t-point digadha':(79.70198400,21.60545000),
-'t-point lakhanwada':(79.87971595,21.77768536),
-'t-point paraswada ghat':(79.80403900,21.65826500),
-'t-point sawagi':(79.85124970,21.74835880),
+'t-point akoda':(75.19924214,22.69730199),
+'t-point chhota umriya':(75.30796026,22.49990651),
+'t-point dilavra':(75.35220414,22.52282666),
+'t-point nalawada':(75.16149431,22.67089348),
+'t-point kachhavda':(75.15416699,22.43300848),
+'t-point semlipura':(75.22490610,22.46208640),
+'t-point dedli-k':(75.12905994,22.46877437),
+'t-point khidkyakala':(75.21427971,22.48485651),
+
 }
+
+#------------KATANGI----------------------------------
+# t_point_ring_spans = {
+# 't-point arjuni':(79.89803840,21.74260090),
+# 't-point bothwa':(79.77509740,21.69510070),
+# 't-point digadha':(79.70198400,21.60545000),
+# 't-point lakhanwada':(79.87971595,21.77768536),
+# 't-point paraswada ghat':(79.80403900,21.65826500),
+# 't-point sawagi':(79.85124970,21.74835880),
+# }
 
 # Non Spur T-POINT SPANS points or Segments which are part of closed Ring
 # t_point_ring_spans = {

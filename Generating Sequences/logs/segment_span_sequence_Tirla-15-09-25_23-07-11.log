@@ -1,0 +1,35 @@
+2025-09-15 23:07:13,242 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'MUSAPURA TO MAFIPURA'.
+2025-09-15 23:07:13,243 - WARNING - ⚠️ The Span MUSAPURA TO MAFIPURA is disconnected at this point (75.25730498900003, 22.57007060600006)
+2025-09-15 23:07:13,425 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-15 23:07:13,425 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-15 23:07:13,431 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'OLT TIRLA TO GYANPURA'.
+2025-09-15 23:07:13,432 - WARNING - ⚠️ The Span OLT TIRLA TO GYANPURA is disconnected at this point (75.26247562100008, 22.584461627000053)
+2025-09-15 23:07:14,304 - INFO - Created 2,147 records
+2025-09-15 23:07:14,310 - INFO - Created 67 records
+2025-09-15 23:07:14,310 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-09-15 23:07:14,312 - INFO - Created 2 records
+2025-09-15 23:07:14,372 - INFO - 🔄 Found 7 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R4', 'R4-C1']
+2025-09-15 23:07:14,372 - INFO - 
+🔁 Processing ring: R1
+2025-09-15 23:07:14,377 - INFO - ✅ Completed ring R1 with 9 spans.
+2025-09-15 23:07:14,377 - INFO - 
+🔁 Processing ring: R1-C1
+2025-09-15 23:07:14,380 - INFO - ✅ Completed ring R1-C1 with 6 spans.
+2025-09-15 23:07:14,380 - INFO - 
+🔁 Processing ring: R2
+2025-09-15 23:07:14,389 - INFO - ✅ Completed ring R2 with 19 spans.
+2025-09-15 23:07:14,390 - INFO - 
+🔁 Processing ring: R2-C1
+2025-09-15 23:07:14,393 - INFO - ✅ Completed ring R2-C1 with 6 spans.
+2025-09-15 23:07:14,393 - INFO - 
+🔁 Processing ring: R3
+2025-09-15 23:07:14,399 - INFO - ✅ Completed ring R3 with 11 spans.
+2025-09-15 23:07:14,399 - INFO - 
+🔁 Processing ring: R4
+2025-09-15 23:07:14,403 - INFO - ✅ Completed ring R4 with 9 spans.
+2025-09-15 23:07:14,403 - INFO - 
+🔁 Processing ring: R4-C1
+2025-09-15 23:07:14,405 - INFO - ✅ Completed ring R4-C1 with 3 spans.
+2025-09-15 23:07:14,463 - INFO - Created 2,147 records
+2025-09-15 23:07:14,472 - INFO - Created 67 records
+2025-09-15 23:07:14,472 - INFO - ✅ All rings processed. Span sequence updated and saved.

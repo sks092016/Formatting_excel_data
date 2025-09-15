@@ -1,0 +1,63 @@
+2025-09-15 23:01:33,255 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.28465645400007, 22.55949449700006) & ending at (75.28447913600007, 22.557712584000058)
+2025-09-15 23:01:33,256 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.29225723800005, 22.532626995000044) & ending at (75.30071309500005, 22.52964322300005)
+2025-09-15 23:01:33,257 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.28465645400007, 22.55949449700006) & ending at (75.28447913600007, 22.557712584000058)
+2025-09-15 23:01:33,257 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.29225723800005, 22.532626995000044) & ending at (75.30071309500005, 22.52964322300005)
+2025-09-15 23:01:33,287 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'ADVI TO MUSAPURA'.
+2025-09-15 23:01:33,287 - WARNING - ⚠️ The Span ADVI TO MUSAPURA is disconnected at this point (75.30075305600008, 22.529611272000068)
+2025-09-15 23:01:33,356 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.17575853400007, 22.443456800000035) & ending at (75.17383748700007, 22.443397834000052)
+2025-09-15 23:01:33,356 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.17103742900008, 22.44384552100007) & ending at (75.16954144500005, 22.445252564000043)
+2025-09-15 23:01:33,357 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.17803929800004, 22.442559711000058) & ending at (75.17679729300005, 22.442880727000045)
+2025-09-15 23:01:33,357 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.17575853400007, 22.443456800000035) & ending at (75.17383748700007, 22.443397834000052)
+2025-09-15 23:01:33,357 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.17103742900008, 22.44384552100007) & ending at (75.16954144500005, 22.445252564000043)
+2025-09-15 23:01:33,357 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.17803929800004, 22.442559711000058) & ending at (75.17679729300005, 22.442880727000045)
+2025-09-15 23:01:33,364 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'ANJANAI TO SATIPURA'.
+2025-09-15 23:01:33,364 - WARNING - ⚠️ The Span ANJANAI TO SATIPURA is disconnected at this point (75.17818993400005, 22.44255248500008)
+2025-09-15 23:01:34,652 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.24265090400007, 22.565387501000032) & ending at (75.24340492300007, 22.565022803000033)
+2025-09-15 23:01:34,653 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.24265090400007, 22.565387501000032) & ending at (75.24340492300007, 22.565022803000033)
+2025-09-15 23:01:34,668 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'MAFIPURA TO OLT TIRLA'.
+2025-09-15 23:01:34,668 - WARNING - ⚠️ The Span MAFIPURA TO OLT TIRLA is disconnected at this point (75.24269097800004, 22.56141391700004)
+2025-09-15 23:01:34,709 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.28078627500008, 22.573020192000058) & ending at (75.28078627500008, 22.573020192000058)
+2025-09-15 23:01:34,710 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.28078627500008, 22.573020192000058) & ending at (75.28078627500008, 22.573020192000058)
+2025-09-15 23:01:34,724 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'MUSAPURA TO MAFIPURA'.
+2025-09-15 23:01:34,724 - WARNING - ⚠️ The Span MUSAPURA TO MAFIPURA is disconnected at this point (75.28078627500008, 22.573020192000058)
+2025-09-15 23:01:34,907 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-15 23:01:34,908 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-15 23:01:34,914 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'OLT TIRLA TO GYANPURA'.
+2025-09-15 23:01:34,914 - WARNING - ⚠️ The Span OLT TIRLA TO GYANPURA is disconnected at this point (75.26247562100008, 22.584461627000053)
+2025-09-15 23:01:34,985 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.16992813100006, 22.610042118000024) & ending at (75.17074877600004, 22.60708723600004)
+2025-09-15 23:01:34,986 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.16992813100006, 22.610042118000024) & ending at (75.17074877600004, 22.60708723600004)
+2025-09-15 23:01:35,035 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'OLT TIRLA TO NANDANKHEDA'.
+2025-09-15 23:01:35,035 - WARNING - ⚠️ The Span OLT TIRLA TO NANDANKHEDA is disconnected at this point (75.17075855500008, 22.607029315000034)
+2025-09-15 23:01:35,375 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.21776039500008, 22.393257772000027) & ending at (75.21554460100003, 22.393656341000053)
+2025-09-15 23:01:35,376 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.21776039500008, 22.393257772000027) & ending at (75.21554460100003, 22.393656341000053)
+2025-09-15 23:01:35,398 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'SINDHKUWA TO KUA'.
+2025-09-15 23:01:35,398 - WARNING - ⚠️ The Span SINDHKUWA TO KUA is disconnected at this point (75.21375846800004, 22.395150401000024)
+2025-09-15 23:01:35,782 - INFO - Created 2,138 records
+2025-09-15 23:01:35,793 - INFO - Created 67 records
+2025-09-15 23:01:35,793 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-09-15 23:01:35,795 - INFO - Created 7 records
+2025-09-15 23:01:35,854 - INFO - 🔄 Found 7 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R4', 'R4-C1']
+2025-09-15 23:01:35,855 - INFO - 
+🔁 Processing ring: R1
+2025-09-15 23:01:35,859 - INFO - ✅ Completed ring R1 with 7 spans.
+2025-09-15 23:01:35,859 - INFO - 
+🔁 Processing ring: R1-C1
+2025-09-15 23:01:35,862 - INFO - ✅ Completed ring R1-C1 with 6 spans.
+2025-09-15 23:01:35,862 - INFO - 
+🔁 Processing ring: R2
+2025-09-15 23:01:35,869 - INFO - ✅ Completed ring R2 with 12 spans.
+2025-09-15 23:01:35,869 - INFO - 
+🔁 Processing ring: R2-C1
+2025-09-15 23:01:35,871 - INFO - ✅ Completed ring R2-C1 with 2 spans.
+2025-09-15 23:01:35,871 - INFO - 
+🔁 Processing ring: R3
+2025-09-15 23:01:35,876 - INFO - ✅ Completed ring R3 with 11 spans.
+2025-09-15 23:01:35,876 - INFO - 
+🔁 Processing ring: R4
+2025-09-15 23:01:35,878 - INFO - ✅ Completed ring R4 with 1 spans.
+2025-09-15 23:01:35,878 - INFO - 
+🔁 Processing ring: R4-C1
+2025-09-15 23:01:35,880 - INFO - ✅ Completed ring R4-C1 with 3 spans.
+2025-09-15 23:01:35,962 - INFO - Created 2,138 records
+2025-09-15 23:01:35,969 - INFO - Created 67 records
+2025-09-15 23:01:35,969 - INFO - ✅ All rings processed. Span sequence updated and saved.

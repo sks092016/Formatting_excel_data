@@ -9,8 +9,7 @@ update_field = "span_name"
 """
 
 replacement_map = {
-'BASI TO TEKADI (KA)':'TEKADI (KA) TO BASI',
-'TEKADI (KA) TO DEWTHANA':'DEWTHANA TO TEKADI (KA)'
+'DEDLI- K':'DEDLI K'
 }
 
 count = 0 
