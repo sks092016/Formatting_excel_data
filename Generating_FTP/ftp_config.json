@@ -1,0 +1,222 @@
+{
+  "diagram": {
+    "main_ring_nodes": [
+      {
+        "main": {
+          "name":"block Name",
+          "incoming_edge":"MC(IN)",
+          "outgoing_edge":"MC(OUT)"
+        }
+      },
+      {
+        "sub_nodes": [
+          {
+            "node1": {
+              "name": "ZMH",
+              "incoming_edge":"MC(IN)",
+              "outgoing_edge":"MC(OUT)",
+              "spur_node": {
+                "name": "gp1",
+                "edge_label_left": "MC(IN):R1(1-6)<==>GPAC1:R1(1-6)",
+                "edge_label_left": "MC(OUT):R1(1-6)<==>GPAC1:R1(7-12)"
+              }
+            }
+          },
+          {
+            "node2": {
+              "name": "ZMH",
+              "incoming_edge":"MC(IN)",
+              "outgoing_edge":"MC(OUT)",
+              "spur_node": {
+                "name": "gp1",
+                "edge_label_left": "MC(IN):R1(1-6)<==>GPAC1:R1(1-6)",
+                "edge_label_left": "MC(OUT):R1(1-6)<==>GPAC1:R1(7-12)"
+              }
+            }
+          },
+          {
+            "node3": {
+              "name": "ZMH",
+              "incoming_edge":"MC(IN)",
+              "outgoing_edge":"MC(OUT)",
+              "spur_node": {
+                "name": "gp1",
+                "edge_label_left": "MC(IN):R1(1-6)<==>GPAC1:R1(1-6)",
+                "edge_label_left": "MC(OUT):R1(1-6)<==>GPAC1:R1(7-12)"
+              }
+            }
+          },
+          {
+            "node4": {
+              "name": "ZMH",
+              "incoming_edge":"MC(IN)",
+              "outgoing_edge":"MC(OUT)",
+              "spur_node": {
+                "name": "gp1",
+                "edge_label_left": "MC(IN):R1(1-6)<==>GPAC1:R1(1-6)",
+                "edge_label_left": "MC(OUT):R1(1-6)<==>GPAC1:R1(7-12)"
+              }
+            }
+          },
+          {
+            "node5": {
+              "name": "ZMH",
+              "incoming_edge":"MC(IN)",
+              "outgoing_edge":"MC(OUT)",
+              "spur_node": {
+                "name": "gp1",
+                "edge_label_left": "MC(IN):R1(1-6)<==>GPAC1:R1(1-6)",
+                "edge_label_left": "MC(OUT):R1(1-6)<==>GPAC1:R1(7-12)"
+              }
+            }
+          },
+          {
+            "node6": {
+              "name": "ZMH",
+              "incoming_edge":"MC(IN)",
+              "outgoing_edge":"MC(OUT)",
+              "spur_node": {
+                "name": "gp1",
+                "edge_label_left": "MC(IN):R1(1-6)<==>GPAC1:R1(1-6)",
+                "edge_label_left": "MC(OUT):R1(1-6)<==>GPAC1:R1(7-12)"
+              }
+            }
+          },
+          {
+            "node7": {
+              "name": "ZMH",
+              "incoming_edge":"MC(IN)",
+              "outgoing_edge":"MC(OUT)",
+              "spur_node": {
+                "name": "gp1",
+                "edge_label_left": "MC(IN):R1(1-6)<==>GPAC1:R1(1-6)",
+                "edge_label_left": "MC(OUT):R1(1-6)<==>GPAC1:R1(7-12)"
+              }
+            }
+          },
+          {
+            "node8": {
+              "name": "ZMH",
+              "incoming_edge":"MC(IN)",
+              "outgoing_edge":"MC(OUT)",
+              "spur_node": {
+                "name": "gp1",
+                "edge_label_left": "MC(IN):R1(1-6)<==>GPAC1:R1(1-6)",
+                "edge_label_left": "MC(OUT):R1(1-6)<==>GPAC1:R1(7-12)"
+              }
+            }
+          },
+          {
+            "node9": {
+              "name": "CR_MH_Start",
+              "incoming_edge":"MC(IN)",
+              "outgoing_edge":"MC(OUT)",
+              "ring_edge_label": "MC(IN):R1(13-18)<==>CRMC:R1(1-6)"
+            }
+          },
+          {
+            "node10": {
+              "name": "ZMH",
+              "incoming_edge":"MC(IN)",
+              "outgoing_edge":"MC(OUT)",
+              "spur_node": {
+                "name": "gp1",
+                "edge_label_left": "MC(IN):R1(1-6)<==>GPAC1:R1(1-6)",
+                "edge_label_left": "MC(OUT):R1(1-6)<==>GPAC1:R1(7-12)"
+              }
+            }
+          },
+          {
+            "node11": {
+              "name": "ZMH",
+              "incoming_edge":"MC(IN)",
+              "outgoing_edge":"MC(OUT)",
+              "ring_edge_label": "CRMC:R1(1-6)<==>MC:R1(13-18)"
+            }
+          },
+          {
+            "node12": {
+              "name": "ZMH",
+              "incoming_edge":"MC(IN)",
+              "outgoing_edge":"MC(OUT)",
+              "spur_node": {
+                "name": "gp1",
+                "edge_label_left": "MC(IN):R1(1-6)<==>GPAC1:R1(1-6)",
+                "edge_label_left": "MC(OUT):R1(1-6)<==>GPAC1:R1(7-12)"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "child_ring_nodes": [
+      {
+        "start": "node9"
+      },
+      {
+        "cr_node1": {
+              "name": "ZMH",
+              "incoming_edge":"CRMC(IN)",
+              "outgoing_edge":"CRMC(OUT)",
+              "spur_node": {
+                "name": "gp1",
+                "edge_label_left": "CRMC(IN):R1(1-6)<==>GPAC1:R1(1-6)",
+                "edge_label_left": "CRMC(OUT):R1(1-6)<==>GPAC1:R1(7-12)"
+              }
+            }
+      },
+      {
+        "cr_node2": {
+              "name": "ZMH",
+              "incoming_edge":"CRMC(IN)",
+              "outgoing_edge":"CRMC(OUT)",
+              "spur_node": {
+                "name": "gp1",
+                "edge_label_left": "CRMC(IN):R1(1-6)<==>GPAC1:R1(1-6)",
+                "edge_label_left": "CRMC(OUT):R1(1-6)<==>GPAC1:R1(7-12)"
+              }
+            }
+      },
+      {
+        "cr_node3": {
+              "name": "ZMH",
+              "incoming_edge":"CRMC(IN)",
+              "outgoing_edge":"CRMC(OUT)",
+              "spur_node": {
+                "name": "gp1",
+                "edge_label_left": "CRMC(IN):R1(1-6)<==>GPAC1:R1(1-6)",
+                "edge_label_left": "CRMC(OUT):R1(1-6)<==>GPAC1:R1(7-12)"
+              }
+            }
+      },
+      {
+        "cr_node4": {
+              "name": "ZMH",
+              "incoming_edge":"CRMC(IN)",
+              "outgoing_edge":"CRMC(OUT)",
+              "spur_node": {
+                "name": "gp1",
+                "edge_label_left": "CRMC(IN):R1(1-6)<==>GPAC1:R1(1-6)",
+                "edge_label_left": "CRMC(OUT):R1(1-6)<==>GPAC1:R1(7-12)"
+              }
+            }
+      },
+      {
+        "cr_node5": {
+              "name": "ZMH",
+              "incoming_edge":"CRMC(IN)",
+              "outgoing_edge":"CRMC(OUT)",
+              "spur_node": {
+                "name": "gp1",
+                "edge_label_left": "CRMC(IN):R1(1-6)<==>GPAC1:R1(1-6)",
+                "edge_label_left": "CRMC(OUT):R1(1-6)<==>GPAC1:R1(7-12)"
+              }
+            }
+      },
+      {
+        "end": "node11"
+      }
+    ]
+
+  }
+}
