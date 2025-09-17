@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Tirla_revised"
+blockName = "Gandhwani"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,36 +32,50 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/tirla2/gps.shp"
-segments_shape_file = "References/tirla2/OFC_NEW.shp"
+gps_shape_file = "References/Gandhwani/gps.shp"
+segments_shape_file = "References/Gandhwani/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '75.23870515 22.57863611 '
+BHQ_CORDINATE = '75.00072197 22.34891868'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
     'R4': BHQ_CORDINATE,
-    'R1-C1':'75.35220414 22.52282666',
-    'R2-C1':'75.15416699 22.43300848',
-    'R2-C2': '75.18876341 22.46660346',
-    'R4-C1':'75.16149431 22.67089348',
+    'R1-C1':'74.96170700 22.28485100',
+    'R2-C1':'74.90614554 22.43167441',
+    'R3-C1': '75.02320096 22.50571069',
+    'R4-C1':'75.07120436 22.39467985'
 }
 t_point_ring_spans = {
-'t-point akoda':(75.19924214,22.69730199),
-'t-point chhota umriya':(75.30796026,22.49990651),
-'t-point dilavra':(75.35220414,22.52282666),
-'t-point nalawada':(75.16149431,22.67089348),
-'t-point kachhavda':(75.15416699,22.43300848),
-'t-point semlipura':(75.22490610,22.46208640),
-'t-point dedli k':(75.12905994,22.46877437),
-'t-point khidkyakala':(75.18876341,22.46660346),
-'t-point dholahanuman':(75.21427971,22.48485651)
-
+'t-point behadada':(75.02804651, 22.42619967),
+'t-point beladi':(75.01297987,22.56125296),
+'t-point bilda':(74.93359346,22.45485990),
+'t-point chunapya':(74.90894546,22.49822635),
+'t-point dhaydi':(74.89024722,22.43570129),
+'t-point gandwani':(75.00778990,22.34123982),
+'t-point kota':( 74.90614554,22.43167441),
+'t-point shyadi':(74.93315834,22.38362661),
+'t-point ledgaon':(75.03328458,22.45002534),
+'t-point pithanpur':(75.02320096,22.50571069),
+'t-point soyla':(75.07120436,22.39467985),
 }
+# -------------------Tirla-------------------
+# t_point_ring_spans = {
+# 't-point akoda':(75.19924214,22.69730199),
+# 't-point chhota umriya':(75.30796026,22.49990651),
+# 't-point dilavra':(75.35220414,22.52282666),
+# 't-point nalawada':(75.16149431,22.67089348),
+# 't-point kachhavda':(75.15416699,22.43300848),
+# 't-point semlipura':(75.22490610,22.46208640),
+# 't-point dedli k':(75.12905994,22.46877437),
+# 't-point khidkyakala':(75.18876341,22.46660346),
+# 't-point dholahanuman':(75.21427971,22.48485651)
+#
+# }
 
 #------------KATANGI----------------------------------
 # t_point_ring_spans = {
