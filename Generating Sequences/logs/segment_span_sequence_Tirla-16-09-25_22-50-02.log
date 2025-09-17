@@ -1,0 +1,36 @@
+2025-09-16 22:50:04,266 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'JUNAPANI TO BHUWADA'.
+2025-09-16 22:50:04,266 - WARNING - ⚠️ The Span JUNAPANI TO BHUWADA is disconnected at this point (75.12169829100003, 22.390958496000053)
+2025-09-16 22:50:04,689 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'KHIDKYAKALA TO SEMLIPURA'.
+2025-09-16 22:50:04,689 - WARNING - ⚠️ The Span KHIDKYAKALA TO SEMLIPURA is disconnected at this point (75.16898336700007, 22.446985403000042)
+2025-09-16 22:50:05,852 - INFO - Created 2,104 records
+2025-09-16 22:50:05,862 - INFO - Created 70 records
+2025-09-16 22:50:05,862 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-09-16 22:50:05,865 - INFO - Created 2 records
+2025-09-16 22:50:05,925 - INFO - 🔄 Found 8 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R2-C2', 'R3', 'R4', 'R4-C1']
+2025-09-16 22:50:05,925 - INFO - 
+🔁 Processing ring: R1
+2025-09-16 22:50:05,930 - INFO - ✅ Completed ring R1 with 11 spans.
+2025-09-16 22:50:05,930 - INFO - 
+🔁 Processing ring: R1-C1
+2025-09-16 22:50:05,933 - INFO - ✅ Completed ring R1-C1 with 6 spans.
+2025-09-16 22:50:05,933 - INFO - 
+🔁 Processing ring: R2
+2025-09-16 22:50:05,936 - INFO - ✅ Completed ring R2 with 5 spans.
+2025-09-16 22:50:05,936 - INFO - 
+🔁 Processing ring: R2-C1
+2025-09-16 22:50:05,939 - INFO - ✅ Completed ring R2-C1 with 6 spans.
+2025-09-16 22:50:05,939 - INFO - 
+🔁 Processing ring: R2-C2
+2025-09-16 22:50:05,940 - INFO - ✅ Completed ring R2-C2 with 0 spans.
+2025-09-16 22:50:05,940 - INFO - 
+🔁 Processing ring: R3
+2025-09-16 22:50:05,945 - INFO - ✅ Completed ring R3 with 11 spans.
+2025-09-16 22:50:05,945 - INFO - 
+🔁 Processing ring: R4
+2025-09-16 22:50:05,950 - INFO - ✅ Completed ring R4 with 9 spans.
+2025-09-16 22:50:05,950 - INFO - 
+🔁 Processing ring: R4-C1
+2025-09-16 22:50:05,952 - INFO - ✅ Completed ring R4-C1 with 3 spans.
+2025-09-16 22:50:06,017 - INFO - Created 2,104 records
+2025-09-16 22:50:06,023 - INFO - Created 70 records
+2025-09-16 22:50:06,023 - INFO - ✅ All rings processed. Span sequence updated and saved.

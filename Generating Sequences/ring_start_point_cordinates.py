@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Tirla"
+blockName = "Tirla_revised"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,8 +32,8 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/tirla/gps.shp"
-segments_shape_file = "References/tirla/OFC_NEW.shp"
+gps_shape_file = "References/tirla2/gps.shp"
+segments_shape_file = "References/tirla2/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
@@ -47,6 +47,7 @@ rings = {
     'R4': BHQ_CORDINATE,
     'R1-C1':'75.35220414 22.52282666',
     'R2-C1':'75.15416699 22.43300848',
+    'R2-C2': '75.18876341 22.46660346',
     'R4-C1':'75.16149431 22.67089348',
 }
 t_point_ring_spans = {
@@ -56,8 +57,9 @@ t_point_ring_spans = {
 't-point nalawada':(75.16149431,22.67089348),
 't-point kachhavda':(75.15416699,22.43300848),
 't-point semlipura':(75.22490610,22.46208640),
-'t-point dedli-k':(75.12905994,22.46877437),
-'t-point khidkyakala':(75.21427971,22.48485651),
+'t-point dedli k':(75.12905994,22.46877437),
+'t-point khidkyakala':(75.18876341,22.46660346),
+'t-point dholahanuman':(75.21427971,22.48485651)
 
 }
 
