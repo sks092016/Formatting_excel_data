@@ -1,5 +1,5 @@
 from qgis.core import QgsProject
-blockName ='Tirla_revised'
+blockName ='Gandhwani'
 layer_name = f'OFC_New_{blockName}-1_Seg_Span_Seq'
 from_gp_column = 'from_gp_na'
 to_gp_column = 'to_gp_name'
@@ -17,5 +17,7 @@ for f in layer.getFeatures():
             f[from_gp_column] = parts[0]
             f[to_gp_column] = parts[1]
             layer.updateFeature(f)
+        else:
+            print(f'{f["OBJECTID"]} not updated')
 layer.commitChanges()
 print(f"✅ Updated from_gp and to_gp columns, total {count} records updated")

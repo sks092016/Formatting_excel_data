@@ -108,7 +108,7 @@
           },
           {
             "node9": {
-              "name": "CR_MH_Start",
+              "name": "CRMH",
               "incoming_edge":"MC(IN)",
               "outgoing_edge":"MC(OUT)",
               "ring_edge_label": "MC(IN):R1(13-18)<==>CRMC:R1(1-6)"
@@ -128,7 +128,7 @@
           },
           {
             "node11": {
-              "name": "ZMH",
+              "name": "CRMH",
               "incoming_edge":"MC(IN)",
               "outgoing_edge":"MC(OUT)",
               "ring_edge_label": "CRMC:R1(1-6)<==>MC:R1(13-18)"
