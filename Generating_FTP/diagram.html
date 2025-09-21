@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+  <style>
+    #cy { width: 100%; height: 100vh; display: block; }
+  </style>
+</head>
+<body>
+<div id="cy"></div>
+<script>
+fetch("crmh_layout.json")
+  .then(r => r.json())
+  .then(data => {
+    cytoscape({
+      container: document.getElementById("cy"),
+      elements: [...data.nodes, ...data.edges],
+      style: [
+        { selector: 'node[type="gp"]', style: { "shape": "ellipse", "background-color": "lightblue", "label": "data(label)" }},
+        { selector: 'node[type="zmh"]', style: { "shape": "rectangle", "background-color": "orange", "label": "data(label)" }},
+        { selector: 'node[type="crmh"]', style: { "shape": "diamond", "background-color": "red", "label": "data(label)" }},
+        { selector: 'node[type="c_gp"]', style: { "shape": "ellipse", "background-color": "lightgreen", "label": "data(label)" }},
+        { selector: 'node[type="block"]', style: { "shape": "hexagon", "background-color": "purple", "label": "data(label)" }},
+        //{ selector: 'edge', style: { "width": 2, "line-color": "#555" }}
+      ],
+      layout: { name: "preset" } // use positions from JSON
+    });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,268 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "block",
+        "label": "Tirla_Block",
+        "type": "block"
+      },
+      "position": {
+        "x": -120,
+        "y": 0
+      }
+    },
+    {
+      "data": {
+        "id": "zmh_block",
+        "label": "ZMH-BLOCK",
+        "type": "zmh"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "data": {
+        "id": "Gyanpura",
+        "label": "GYANPURA",
+        "type": "gp"
+      },
+      "position": {
+        "x": 120,
+        "y": 120
+      }
+    },
+    {
+      "data": {
+        "id": "zmh_1",
+        "label": "ZMH-1",
+        "type": "zmh"
+      },
+      "position": {
+        "x": 120,
+        "y": 60
+      }
+    },
+    {
+      "data": {
+        "id": "Himmatgarh",
+        "label": "HIMMATGARH",
+        "type": "gp"
+      },
+      "position": {
+        "x": 240,
+        "y": 120
+      }
+    },
+    {
+      "data": {
+        "id": "zmh_2",
+        "label": "ZMH-2",
+        "type": "zmh"
+      },
+      "position": {
+        "x": 240,
+        "y": 60
+      }
+    },
+    {
+      "data": {
+        "id": "Sitapat",
+        "label": "SITAPAT",
+        "type": "gp"
+      },
+      "position": {
+        "x": 360,
+        "y": 120
+      }
+    },
+    {
+      "data": {
+        "id": "zmh_3",
+        "label": "ZMH-3",
+        "type": "zmh"
+      },
+      "position": {
+        "x": 360,
+        "y": 60
+      }
+    },
+    {
+      "data": {
+        "id": "Padlaya",
+        "label": "PADLAYA",
+        "type": "gp"
+      },
+      "position": {
+        "x": 480,
+        "y": 120
+      }
+    },
+    {
+      "data": {
+        "id": "zmh_4",
+        "label": "ZMH-4",
+        "type": "zmh"
+      },
+      "position": {
+        "x": 480,
+        "y": 60
+      }
+    },
+    {
+      "data": {
+        "id": "Dilavra",
+        "label": "DILAVRA",
+        "type": "gp"
+      },
+      "position": {
+        "x": 600,
+        "y": 120
+      }
+    },
+    {
+      "data": {
+        "id": "zmh_5",
+        "label": "ZMH-5",
+        "type": "zmh"
+      },
+      "position": {
+        "x": 600,
+        "y": 60
+      }
+    },
+    {
+      "data": {
+        "id": "Advi",
+        "label": "ADVI",
+        "type": "gp"
+      },
+      "position": {
+        "x": 720,
+        "y": 120
+      }
+    },
+    {
+      "data": {
+        "id": "zmh_6",
+        "label": "ZMH-6",
+        "type": "zmh"
+      },
+      "position": {
+        "x": 720,
+        "y": 60
+      }
+    },
+    {
+      "data": {
+        "id": "Advi",
+        "label": "ADVI",
+        "type": "gp"
+      },
+      "position": {
+        "x": 120,
+        "y": -120
+      }
+    },
+    {
+      "data": {
+        "id": "zmh_6",
+        "label": "ZMH-6",
+        "type": "zmh"
+      },
+      "position": {
+        "x": 120,
+        "y": -60
+      }
+    },
+    {
+      "data": {
+        "id": "Musapura",
+        "label": "MUSAPURA",
+        "type": "gp"
+      },
+      "position": {
+        "x": 240,
+        "y": -120
+      }
+    },
+    {
+      "data": {
+        "id": "zmh_7",
+        "label": "ZMH-7",
+        "type": "zmh"
+      },
+      "position": {
+        "x": 240,
+        "y": -60
+      }
+    },
+    {
+      "data": {
+        "id": "Mafipura",
+        "label": "MAFIPURA",
+        "type": "gp"
+      },
+      "position": {
+        "x": 360,
+        "y": -120
+      }
+    },
+    {
+      "data": {
+        "id": "zmh_8",
+        "label": "ZMH-8",
+        "type": "zmh"
+      },
+      "position": {
+        "x": 360,
+        "y": -60
+      }
+    },
+    {
+      "data": {
+        "id": "Ganganagar",
+        "label": "GANGANAGAR",
+        "type": "gp"
+      },
+      "position": {
+        "x": 480,
+        "y": -120
+      }
+    },
+    {
+      "data": {
+        "id": "zmh_9",
+        "label": "ZMH-9",
+        "type": "zmh"
+      },
+      "position": {
+        "x": 480,
+        "y": -60
+      }
+    },
+    {
+      "data": {
+        "id": "Tirla",
+        "label": "TIRLA",
+        "type": "gp"
+      },
+      "position": {
+        "x": 600,
+        "y": -120
+      }
+    },
+    {
+      "data": {
+        "id": "zmh_10",
+        "label": "ZMH-10",
+        "type": "zmh"
+      },
+      "position": {
+        "x": 600,
+        "y": -60
+      }
+    }
+  ]
+}
