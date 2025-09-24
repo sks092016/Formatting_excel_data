@@ -1,0 +1,43 @@
+2025-09-24 21:17:49,581 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'T-POINT KOSAD TO BIJORA'.
+2025-09-24 21:17:49,581 - WARNING - ⚠️ The Span T-POINT KOSAD TO BIJORA is disconnected at this point (78.78706951000004, 26.73502299000006)
+2025-09-24 21:17:49,910 - INFO - Created 1,966 records
+2025-09-24 21:17:49,917 - INFO - Created 97 records
+2025-09-24 21:17:49,918 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-09-24 21:17:49,920 - INFO - Created 1 records
+2025-09-24 21:17:49,973 - INFO - 🔄 Found 11 rings: ['R1', 'R1-C1', 'R1-C2', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R3-C2', 'R4', 'R4-C1', 'R4-C2']
+2025-09-24 21:17:49,973 - INFO - 
+🔁 Processing ring: R1
+2025-09-24 21:17:49,978 - INFO - ✅ Completed ring R1 with 8 spans.
+2025-09-24 21:17:49,978 - INFO - 
+🔁 Processing ring: R1-C1
+2025-09-24 21:17:49,984 - INFO - ✅ Completed ring R1-C1 with 11 spans.
+2025-09-24 21:17:49,984 - INFO - 
+🔁 Processing ring: R1-C2
+2025-09-24 21:17:49,987 - INFO - ✅ Completed ring R1-C2 with 6 spans.
+2025-09-24 21:17:49,987 - INFO - 
+🔁 Processing ring: R2
+2025-09-24 21:17:49,991 - INFO - ✅ Completed ring R2 with 8 spans.
+2025-09-24 21:17:49,991 - INFO - 
+🔁 Processing ring: R2-C1
+2025-09-24 21:17:49,994 - INFO - ✅ Completed ring R2-C1 with 4 spans.
+2025-09-24 21:17:49,994 - INFO - 
+🔁 Processing ring: R3
+2025-09-24 21:17:49,999 - INFO - ✅ Completed ring R3 with 9 spans.
+2025-09-24 21:17:49,999 - INFO - 
+🔁 Processing ring: R3-C1
+2025-09-24 21:17:50,003 - INFO - ✅ Completed ring R3-C1 with 9 spans.
+2025-09-24 21:17:50,004 - INFO - 
+🔁 Processing ring: R3-C2
+2025-09-24 21:17:50,006 - INFO - ✅ Completed ring R3-C2 with 5 spans.
+2025-09-24 21:17:50,006 - INFO - 
+🔁 Processing ring: R4
+2025-09-24 21:17:50,011 - INFO - ✅ Completed ring R4 with 10 spans.
+2025-09-24 21:17:50,011 - INFO - 
+🔁 Processing ring: R4-C1
+2025-09-24 21:17:50,015 - INFO - ✅ Completed ring R4-C1 with 6 spans.
+2025-09-24 21:17:50,015 - INFO - 
+🔁 Processing ring: R4-C2
+2025-09-24 21:17:50,018 - INFO - ✅ Completed ring R4-C2 with 8 spans.
+2025-09-24 21:17:50,094 - INFO - Created 1,966 records
+2025-09-24 21:17:50,102 - INFO - Created 97 records
+2025-09-24 21:17:50,102 - INFO - ✅ All rings processed. Span sequence updated and saved.

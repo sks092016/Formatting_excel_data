@@ -7,7 +7,7 @@ update_field = "span_name"
 
 
 replacement_map = {
-'T-POINT BILDA TO KHEDLI HAMUMANN':'KHEDLI HAMUMANN TO T-POINT BILDA'
+'JAWASA TO T-POINT BADPURA':'RIDOULI TO T-POINT BADPURA'
 }
 
 count = 0 
