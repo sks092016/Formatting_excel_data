@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Ater"
+blockName = "Tirla-revised"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,26 +32,24 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Ater-2/gps.shp"
-segments_shape_file = "References/Ater-2/OFC_NEW.shp"
+gps_shape_file = "References/Tirla-3/gps.shp"
+segments_shape_file = "References/Tirla-3/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '78.64511197 26.74803793'
+BHQ_CORDINATE = '75.23870515 22.57863611'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
     'R4': BHQ_CORDINATE,
-    'R1-C1':'78.62059573 26.61485308',
-    'R1-C2':'78.58997066 26.69138319',
-    'R2-C1':'78.73823295 26.72569035',
-    'R3-C1': '78.70380835 26.59018265',
-    'R3-C2': '78.64637370 26.63138956',
-    'R4-C1':'78.80782887 26.68666335',
-    'R4-C2':'78.78377558 26.66745089'
+    'R1-C1':'75.35220414 22.52282666',
+    'R1-C2':'75.28055602 22.54911594',
+    'R2-C1':'75.15416699 22.43300848',
+    'R2-C2': '75.20084950 22.46668443',
+    'R4-C1':'75.16149431 22.67089348',
 }
 #--Gandhwani ----
 # t_point_ring_spans = {
@@ -68,19 +66,18 @@ rings = {
 # 't-point soyla':(75.07120436,22.39467985),
 # }
 # -------------------Tirla-------------------
-# t_point_ring_spans = {
-# 't-point akoda':(75.19924214,22.69730199),
-# 't-point chhota umriya':(75.30796026,22.49990651),
-# 't-point dilavra':(75.35220414,22.52282666),
-# 't-point nalawada':(75.16149431,22.67089348),
-# 't-point kachhavda':(75.15416699,22.43300848),
-# 't-point semlipura':(75.22490610,22.46208640),
-# 't-point dedli k':(75.12905994,22.46877437),
-# 't-point khidkyakala':(75.18876341,22.46660346),
-# 't-point dholahanuman':(75.21427971,22.48485651)
-#
-# }
-
+t_point_ring_spans = {
+'t-point akoda':(75.19924214,22.69730199),
+'t-point chhota umriya':(75.30796026,22.49990651),
+'t-point nalawada':(75.16149431,22.67089348),
+'t-point kachhavda':(75.15416699,22.43300848),
+'t-point semlipura':(75.22490610,22.46208640),
+'t-point dedli k':(75.12905994,22.46877437),
+'t-point khidkyakala':(75.18876341,22.46660346),
+'t-point dholahanuman':(75.21427971,22.48485651),
+'t-point advi':(75.35220414,22.52282666),
+'t-point musapura':(75.28055602,22.54911594)
+}
 #------------KATANGI----------------------------------
 # t_point_ring_spans = {
 # 't-point arjuni':(79.89803840,21.74260090),
@@ -144,21 +141,21 @@ rings = {
 # 't-point sindhpan':  (75.11957849,24.16134956),
 # }
 
-t_point_ring_spans = {
-    't-point sora' : (78.63246879,26.66857775),
-    't-point kanera':(78.56041825,26.72443601),
-    't-point pawai': (78.64268375,26.63690462),
-    't-point kadoura': (78.64111947,26.70137509),
-    't-point jouri kotwal':(78.70206957,26.71580772),
-    't-point naripura': (78.86502726,26.66113963),
-    't-point goarkhurd':(78.61915761, 26.59728580),
-    't-point dulhagan':(78.78377558,26.66745089),
-    't-point rama':(78.81041939,26.72280601),
-    't-point kosad':(78.78706951,26.73502299),
-    't-point khipona':(78.68977252,26.75359663),
-    't-point jaari':(78.70380835,26.59018265),
-    't-point khaderi':(78.58997066,26.69138319),
-    't-point kishupura':(78.73823295,26.72569035),
-    't-point madhaiyapura':(78.80782887,26.68666335),
-    't-point pali':(78.62059573, 26.61485308)
-}
+# t_point_ring_spans = {
+#     't-point sora' : (78.63246879,26.66857775),
+#     't-point kanera':(78.56041825,26.72443601),
+#     't-point pawai': (78.64268375,26.63690462),
+#     't-point kadoura': (78.64111947,26.70137509),
+#     't-point jouri kotwal':(78.70206957,26.71580772),
+#     't-point naripura': (78.86502726,26.66113963),
+#     't-point goarkhurd':(78.61915761, 26.59728580),
+#     't-point dulhagan':(78.78377558,26.66745089),
+#     't-point rama':(78.81041939,26.72280601),
+#     't-point kosad':(78.78706951,26.73502299),
+#     't-point khipona':(78.68977252,26.75359663),
+#     't-point jaari':(78.70380835,26.59018265),
+#     't-point khaderi':(78.58997066,26.69138319),
+#     't-point kishupura':(78.73823295,26.72569035),
+#     't-point madhaiyapura':(78.80782887,26.68666335),
+#     't-point pali':(78.62059573, 26.61485308)
+# }

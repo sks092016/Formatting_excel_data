@@ -1,0 +1,37 @@
+2025-09-25 22:25:56,565 - WARNING - ⚠️ Warning: Disconnected segment remains in span 't-point musapura to mohanpur'.
+2025-09-25 22:25:56,566 - WARNING - ⚠️ The Span t-point musapura to mohanpur is disconnected at this point (75.27370307800004, 22.539219616000025)
+2025-09-25 22:25:56,919 - INFO - Created 2,160 records
+2025-09-25 22:25:56,927 - INFO - Created 70 records
+2025-09-25 22:25:56,927 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-09-25 22:25:56,929 - INFO - Created 1 records
+2025-09-25 22:25:56,992 - INFO - 🔄 Found 9 rings: ['R1', 'R1-C1', 'R1-C2', 'R2', 'R2-C1', 'R2-C2', 'R3', 'R4', 'R4-C1']
+2025-09-25 22:25:56,992 - INFO - 
+🔁 Processing ring: R1
+2025-09-25 22:25:56,998 - INFO - ✅ Completed ring R1 with 9 spans.
+2025-09-25 22:25:56,998 - INFO - 
+🔁 Processing ring: R1-C1
+2025-09-25 22:25:57,001 - INFO - ✅ Completed ring R1-C1 with 6 spans.
+2025-09-25 22:25:57,001 - INFO - 
+🔁 Processing ring: R1-C2
+2025-09-25 22:25:57,003 - INFO - ✅ Completed ring R1-C2 with 2 spans.
+2025-09-25 22:25:57,003 - INFO - 
+🔁 Processing ring: R2
+2025-09-25 22:25:57,007 - INFO - ✅ Completed ring R2 with 8 spans.
+2025-09-25 22:25:57,007 - INFO - 
+🔁 Processing ring: R2-C1
+2025-09-25 22:25:57,011 - INFO - ✅ Completed ring R2-C1 with 7 spans.
+2025-09-25 22:25:57,011 - INFO - 
+🔁 Processing ring: R2-C2
+2025-09-25 22:25:57,014 - INFO - ✅ Completed ring R2-C2 with 7 spans.
+2025-09-25 22:25:57,014 - INFO - 
+🔁 Processing ring: R3
+2025-09-25 22:25:57,019 - INFO - ✅ Completed ring R3 with 11 spans.
+2025-09-25 22:25:57,019 - INFO - 
+🔁 Processing ring: R4
+2025-09-25 22:25:57,024 - INFO - ✅ Completed ring R4 with 9 spans.
+2025-09-25 22:25:57,024 - INFO - 
+🔁 Processing ring: R4-C1
+2025-09-25 22:25:57,025 - INFO - ✅ Completed ring R4-C1 with 3 spans.
+2025-09-25 22:25:57,095 - INFO - Created 2,160 records
+2025-09-25 22:25:57,104 - INFO - Created 70 records
+2025-09-25 22:25:57,104 - INFO - ✅ All rings processed. Span sequence updated and saved.

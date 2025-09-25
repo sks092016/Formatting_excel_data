@@ -1,0 +1,25 @@
+2025-09-25 22:20:54,231 - INFO - Created 1,966 records
+2025-09-25 22:20:54,246 - INFO - Created 97 records
+2025-09-25 22:20:54,247 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-09-25 22:20:54,251 - INFO - Created 0 records
+2025-09-25 22:20:54,306 - INFO - 🔄 Found 11 rings: ['R1', 'R1-C1', 'R1-C2', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R3-C2', 'R4', 'R4-C1', 'R4-C2']
+2025-09-25 22:20:54,306 - INFO - 
+🔁 Processing ring: R1
+2025-09-25 22:20:54,308 - WARNING - ⚠️  Warning: Closest node (78.56260790000005, 26.66792920000006) is far from given start (75.23870515, 22.57863611)
+2025-09-25 22:20:54,308 - INFO - 
+🔁 Processing ring: R1-C1
+2025-09-25 22:20:54,309 - WARNING - ⚠️  Warning: Closest node (78.63394170000004, 26.545025000000066) is far from given start (75.35220414, 22.52282666)
+2025-09-25 22:20:54,309 - INFO - 
+🔁 Processing ring: R1-C2
+2025-09-25 22:20:54,310 - WARNING - ⚠️  Warning: Closest node (78.55637000000007, 26.69493330000006) is far from given start (75.28055602, 22.54911594)
+2025-09-25 22:20:54,310 - INFO - 
+🔁 Processing ring: R2
+2025-09-25 22:20:54,311 - WARNING - ⚠️  Warning: Closest node (78.64511196700005, 26.748037930000066) is far from given start (75.23870515, 22.57863611)
+2025-09-25 22:20:54,311 - INFO - 
+🔁 Processing ring: R2-C1
+2025-09-25 22:20:54,312 - WARNING - ⚠️  Warning: Closest node (78.74526181700008, 26.709404180000035) is far from given start (75.15416699, 22.43300848)
+2025-09-25 22:20:54,312 - INFO - 
+🔁 Processing ring: R3
+2025-09-25 22:20:54,314 - WARNING - ⚠️  Warning: Closest node (78.65029450000003, 26.59611680000006) is far from given start (75.23870515, 22.57863611)
+2025-09-25 22:20:54,314 - INFO - 
+🔁 Processing ring: R3-C1
