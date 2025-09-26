@@ -1,0 +1,18 @@
+2025-09-27 00:53:56,389 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 00:53:56,390 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 00:53:56,414 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BAREHI TO TATIHARA'.
+2025-09-27 00:53:56,414 - WARNING - ⚠️ The Span BAREHI TO TATIHARA is disconnected at this point (81.57393700000006, 24.569747000000064)
+2025-09-27 00:53:57,017 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 00:53:57,017 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 00:53:57,018 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 00:53:57,018 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 00:53:57,024 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'HINAUTI TO AHIRGAON'.
+2025-09-27 00:53:57,024 - WARNING - ⚠️ The Span HINAUTI TO AHIRGAON is disconnected at this point (81.63539900000006, 24.577390000000037)
+2025-09-27 00:53:58,370 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 00:53:58,371 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 00:53:58,387 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'SIRSA TO TAMRADESH'.
+2025-09-27 00:53:58,388 - WARNING - ⚠️ The Span SIRSA TO TAMRADESH is disconnected at this point (81.67672300000004, 24.542612000000076)
+2025-09-27 00:53:58,469 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'SURSA KALA TO UMARI'.
+2025-09-27 00:53:58,469 - WARNING - ⚠️ The Span SURSA KALA TO UMARI is disconnected at this point (81.50133405900004, 24.603540956000074)
+2025-09-27 00:53:58,854 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 00:53:58,854 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>

@@ -1,0 +1,67 @@
+2025-09-27 02:07:13,685 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 02:07:13,686 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 02:07:13,710 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BAREHI TO TATIHARA'.
+2025-09-27 02:07:13,710 - WARNING - ⚠️ The Span BAREHI TO TATIHARA is disconnected at this point (81.57393700000006, 24.569747000000064)
+2025-09-27 02:07:14,320 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 02:07:14,320 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 02:07:14,321 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 02:07:14,321 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 02:07:14,327 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'HINAUTI TO AHIRGAON'.
+2025-09-27 02:07:14,327 - WARNING - ⚠️ The Span HINAUTI TO AHIRGAON is disconnected at this point (81.63539900000006, 24.577390000000037)
+2025-09-27 02:07:15,652 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 02:07:15,653 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 02:07:15,669 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'SIRSA TO TAMRADESH'.
+2025-09-27 02:07:15,669 - WARNING - ⚠️ The Span SIRSA TO TAMRADESH is disconnected at this point (81.67672300000004, 24.542612000000076)
+2025-09-27 02:07:16,529 - INFO - Created 2,359 records
+2025-09-27 02:07:16,534 - INFO - Created 118 records
+2025-09-27 02:07:16,535 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-09-27 02:07:16,537 - INFO - Created 3 records
+2025-09-27 02:07:16,599 - INFO - 🔄 Found 15 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R2-C2', 'R3', 'R3-C1', 'R4', 'R4-C1', 'R5', 'R5-C1', 'R5-C2', 'R6', 'R6-C1', 'R6-C2']
+2025-09-27 02:07:16,599 - INFO - 
+🔁 Processing ring: R1
+2025-09-27 02:07:16,604 - INFO - ✅ Completed ring R1 with 9 spans.
+2025-09-27 02:07:16,604 - INFO - 
+🔁 Processing ring: R1-C1
+2025-09-27 02:07:16,607 - INFO - ✅ Completed ring R1-C1 with 8 spans.
+2025-09-27 02:07:16,608 - INFO - 
+🔁 Processing ring: R2
+2025-09-27 02:07:16,613 - INFO - ✅ Completed ring R2 with 11 spans.
+2025-09-27 02:07:16,613 - INFO - 
+🔁 Processing ring: R2-C1
+2025-09-27 02:07:16,616 - INFO - ✅ Completed ring R2-C1 with 7 spans.
+2025-09-27 02:07:16,616 - INFO - 
+🔁 Processing ring: R2-C2
+2025-09-27 02:07:16,619 - INFO - ✅ Completed ring R2-C2 with 7 spans.
+2025-09-27 02:07:16,619 - INFO - 
+🔁 Processing ring: R3
+2025-09-27 02:07:16,624 - INFO - ✅ Completed ring R3 with 9 spans.
+2025-09-27 02:07:16,624 - INFO - 
+🔁 Processing ring: R3-C1
+2025-09-27 02:07:16,628 - INFO - ✅ Completed ring R3-C1 with 7 spans.
+2025-09-27 02:07:16,628 - INFO - 
+🔁 Processing ring: R4
+2025-09-27 02:07:16,631 - INFO - ✅ Completed ring R4 with 7 spans.
+2025-09-27 02:07:16,631 - INFO - 
+🔁 Processing ring: R4-C1
+2025-09-27 02:07:16,634 - INFO - ✅ Completed ring R4-C1 with 4 spans.
+2025-09-27 02:07:16,634 - INFO - 
+🔁 Processing ring: R5
+2025-09-27 02:07:16,638 - INFO - ✅ Completed ring R5 with 8 spans.
+2025-09-27 02:07:16,638 - INFO - 
+🔁 Processing ring: R5-C1
+2025-09-27 02:07:16,640 - INFO - ✅ Completed ring R5-C1 with 3 spans.
+2025-09-27 02:07:16,640 - INFO - 
+🔁 Processing ring: R5-C2
+2025-09-27 02:07:16,642 - INFO - ✅ Completed ring R5-C2 with 4 spans.
+2025-09-27 02:07:16,642 - INFO - 
+🔁 Processing ring: R6
+2025-09-27 02:07:16,647 - INFO - ✅ Completed ring R6 with 10 spans.
+2025-09-27 02:07:16,647 - INFO - 
+🔁 Processing ring: R6-C1
+2025-09-27 02:07:16,651 - INFO - ✅ Completed ring R6-C1 with 8 spans.
+2025-09-27 02:07:16,651 - INFO - 
+🔁 Processing ring: R6-C2
+2025-09-27 02:07:16,652 - INFO - ✅ Completed ring R6-C2 with 2 spans.
+2025-09-27 02:07:16,725 - INFO - Created 2,359 records
+2025-09-27 02:07:16,731 - INFO - Created 118 records
+2025-09-27 02:07:16,731 - INFO - ✅ All rings processed. Span sequence updated and saved.

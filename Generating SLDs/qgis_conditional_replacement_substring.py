@@ -7,9 +7,8 @@ update_field = "span_name"
 
 
 replacement_map = {
-'T POINT':'T-POINT'
+'NAWAGAON UNMULAN TO NAWAGAON KOTHARA':'NAWAGAON KOTHARA TO NAWAGAON UNMULAN',
 }
-
 count = 0 
 
 # --- SCRIPT ---

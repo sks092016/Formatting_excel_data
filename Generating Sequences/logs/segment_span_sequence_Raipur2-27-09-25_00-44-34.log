@@ -1,0 +1,12 @@
+2025-09-27 00:44:35,290 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 00:44:35,291 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 00:44:35,315 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BAREHI TO TATIHARA'.
+2025-09-27 00:44:35,315 - WARNING - ⚠️ The Span BAREHI TO TATIHARA is disconnected at this point (81.57393700000006, 24.569747000000064)
+2025-09-27 00:44:35,930 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 00:44:35,930 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 00:44:35,931 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 00:44:35,931 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 00:44:35,937 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'HINAUTI TO AHIRGAON'.
+2025-09-27 00:44:35,937 - WARNING - ⚠️ The Span HINAUTI TO AHIRGAON is disconnected at this point (81.63539900000006, 24.577390000000037)
+2025-09-27 00:44:36,608 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-27 00:44:36,609 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
