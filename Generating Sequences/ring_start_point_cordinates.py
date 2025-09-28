@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Raipur2"
+blockName = "Gangev"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,13 +32,13 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Raipur2/gps.shp"
-segments_shape_file = "References/Raipur2/OFC_NEW.shp"
+gps_shape_file = "References/Gangev/gps.shp"
+segments_shape_file = "References/Gangev/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '81.44126202 24.57988790'
+BHQ_CORDINATE = '81.60637045 24.73417536'
 
 rings = {
     'R1': BHQ_CORDINATE,
@@ -47,15 +47,34 @@ rings = {
     'R4': BHQ_CORDINATE,
     'R5': BHQ_CORDINATE,
     'R6': BHQ_CORDINATE,
-    'R1-C1':'81.34651900 24.56029800',
-    'R2-C1':'81.61545915 24.56642094',
-    'R2-C2': '81.51107100 24.53982100',
-    'R3-C1':'81.59047983 24.59984761',
-    'R4-C1': '81.49857398 24.48970087',
-    'R5-C1': '81.36998339 24.61797733',
-    'R5-C2':'81.42116399 24.62352166',
-    'R6-C1': '81.53519926 24.61496637',
-    'R6-C2': '81.48479172 24.60470097',
+    'R2-C1':'81.53076553 24.70468954',
+    'R3-C1':'81.63274336 24.82239743',
+    'R4-C1': '81.46870236 24.75741242',
+    'R5_C1': '81.46279157 24.63500084',
+    'R6_C1': '81.53563979 24.81814018',
+}
+
+t_point_ring_spans = {
+'t-point amaha':(81.57659718,24.80165722),
+'t-point baans':(81.61099214,24.83125148),
+'t-point badokhar':(81.53324395,24.78550690),
+'t-point chauri':(81.50195115,24.79135102),
+'t-point dagardua':(81.59009100,24.79539500),
+'t-point kadaila':(81.42467165,24.68035748),
+'t-point keoti':(81.45369171,24.78553194),
+'t-point lalgaon':(81.53563979,24.81814018),
+'t-point lauri khurd':(81.63274336,24.82239743),
+'t-point marhi kalan':(81.57147671,24.68683759),
+'t-point mauhariya':(81.55933590,24.79243073),
+'t-point rampur':(81.47398500,24.68174600),
+'t-point rampurava':(81.48996581,24.75044064),
+'t-point raura':(81.46870236,24.75741242),
+'t-point sirsa':(81.53076553,24.70468954),
+'t-point siswa':(81.57661100,24.85130245),
+'t-point tikuri 32':(81.63237681,24.75887289),
+'t-point tiwani':(81.50903800,24.64675540),
+'t-point katheri':(81.46279157,24.63500084),
+
 }
 #--Gandhwani ----
 # t_point_ring_spans = {
@@ -94,41 +113,41 @@ rings = {
 # 't-point sawagi':(79.85124970,21.74835880),
 # }
 
-# Non Spur T-POINT SPANS points or Segments which are part of closed Ring
+# RAIPUR
 
-t_point_ring_spans = {
-'t-point badagaon' :(81.45114996,24.49484547),
-'t-point badwar':(81.54640512,24.49606327),
-'t-point banjari':(81.49937600,24.49446100),
-'t-point budawa':(81.50438400,24.55654300),
-'t-point chaudiyar':(81.48317200,24.45845600),
-'t-point gerui':(81.45100700,24.51699000),
-'t-point hardik no.2':(81.56694806,24.61301191),
-'t-point itaha':(81.31819800,24.61441800),
-'t-point jaraha':(81.64483000,24.53378800 ),
-'t-point kharahari':(81.38262008,24.63783091 ),
-'t-point khira':(81.43819564,24.58631400),
-'t-point kuiyan khurd':(81.54908373,24.60661923 ),
-'t-point lauwa urf lakshmanpur':(81.35390412,24.64396084 ),
-'t-point madhi':(81.48479172,24.60470097 ),
-'t-point methauri':(81.56110378,24.65191355 ),
-'t-point narraha':(81.58744113,24.56482988 ),
-'t-point navagaon':(81.38697700,24.61357600 ),
-'t-point new manikwar no.1':(81.60809217,24.56605400 ),
-'t-point paliya 351':(81.53322834,24.60899372 ),
-'t-point raghurajgarh':(81.63577167,24.62046290 ),
-'t-point ramnai':(81.40536169,24.56230873 ),
-'t-point raura':(81.43039800,24.58948400 ),
-'t-point sirsa':(81.64859100,24.59250400 ),
-'t-point sursa khurd':(81.48684400,24.59873800 ),
-'t-point tamradesh':(81.65514200,24.55692300 ),
-'t-point hardua':(81.49857651,24.48971313),
-'t-point mahsua':(81.43039800,24.58948400),
-'t-point padara':(81.42116399,24.62352166),
-'t-point purena':(81.34651900,24.56029800),
-'t-point ulahi kala':(81.59047983,24.59984761),
-'t-point khaira':(24.53982100, 81.51107100)
-}
+# t_point_ring_spans = {
+# 't-point badagaon' :(81.45114996,24.49484547),
+# 't-point badwar':(81.54640512,24.49606327),
+# 't-point banjari':(81.49937600,24.49446100),
+# 't-point budawa':(81.50438400,24.55654300),
+# 't-point chaudiyar':(81.48317200,24.45845600),
+# 't-point gerui':(81.45100700,24.51699000),
+# 't-point hardik no.2':(81.56694806,24.61301191),
+# 't-point itaha':(81.31819800,24.61441800),
+# 't-point jaraha':(81.64483000,24.53378800 ),
+# 't-point kharahari':(81.38262008,24.63783091 ),
+# 't-point khira':(81.43819564,24.58631400),
+# 't-point kuiyan khurd':(81.54908373,24.60661923 ),
+# 't-point lauwa urf lakshmanpur':(81.35390412,24.64396084 ),
+# 't-point madhi':(81.48479172,24.60470097 ),
+# 't-point methauri':(81.56110378,24.65191355 ),
+# 't-point narraha':(81.58744113,24.56482988 ),
+# 't-point navagaon':(81.38697700,24.61357600 ),
+# 't-point new manikwar no.1':(81.60809217,24.56605400 ),
+# 't-point paliya 351':(81.53322834,24.60899372 ),
+# 't-point raghurajgarh':(81.63577167,24.62046290 ),
+# 't-point ramnai':(81.40536169,24.56230873 ),
+# 't-point raura':(81.43039800,24.58948400 ),
+# 't-point sirsa':(81.64859100,24.59250400 ),
+# 't-point sursa khurd':(81.48684400,24.59873800 ),
+# 't-point tamradesh':(81.65514200,24.55692300 ),
+# 't-point hardua':(81.49857651,24.48971313),
+# 't-point mahsua':(81.43039800,24.58948400),
+# 't-point padara':(81.42116399,24.62352166),
+# 't-point purena':(81.34651900,24.56029800),
+# 't-point ulahi kala':(81.59047983,24.59984761),
+# 't-point khaira':(24.53982100, 81.51107100)
+# }
 #-----------Balaghat------------
 # t_point_ring_spans = {
 # 't-point hirapur':(80.23990620,21.84237850),

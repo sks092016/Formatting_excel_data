@@ -7,7 +7,8 @@ update_field = "span_name"
 
 
 replacement_map = {
-'NAWAGAON UNMULAN TO NAWAGAON KOTHARA':'NAWAGAON KOTHARA TO NAWAGAON UNMULAN',
+'OLT GANGEV' :'GANGEV BLOCK',
+'GANGEO':'GANGEV'
 }
 count = 0 
 
