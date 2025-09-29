@@ -1,0 +1,49 @@
+2025-09-29 12:01:52,899 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BAANS TO PANGADI KALA'.
+2025-09-29 12:01:52,900 - WARNING - \u26a0\ufe0f The Span BAANS TO PANGADI KALA is disconnected at this point (81.577037, 24.8632)
+2025-09-29 12:01:53,854 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'GARH TO AGADAL'.
+2025-09-29 12:01:53,854 - WARNING - \u26a0\ufe0f The Span GARH TO AGADAL is disconnected at this point (81.656599, 24.844013)
+2025-09-29 12:01:55,079 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'RAKSHA MAJAN TO BAANS'.
+2025-09-29 12:01:55,079 - WARNING - \u26a0\ufe0f The Span RAKSHA MAJAN TO BAANS is disconnected at this point (81.603914, 24.851541)
+2025-09-29 12:01:55,959 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'T-POINT LAURI KHURD TO RAKSHA MAJAN'.
+2025-09-29 12:01:55,960 - WARNING - \u26a0\ufe0f The Span T-POINT LAURI KHURD TO RAKSHA MAJAN is disconnected at this point (81.62778461847135, 24.823014276136846)
+2025-09-29 12:01:56,575 - INFO - Created 1,904 records
+2025-09-29 12:01:56,588 - INFO - Created 99 records
+2025-09-29 12:01:56,589 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-09-29 12:01:56,596 - INFO - Created 4 records
+2025-09-29 12:01:56,737 - INFO - \U0001f504 Found 11 rings: ['R1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4', 'R4-C1', 'R5', 'R5_C1', 'R6', 'R6_C1']
+2025-09-29 12:01:56,738 - INFO - 
+\U0001f501 Processing ring: R1
+2025-09-29 12:01:56,745 - INFO - \u2705 Completed ring R1 with 10 spans.
+2025-09-29 12:01:56,745 - INFO - 
+\U0001f501 Processing ring: R2
+2025-09-29 12:01:56,747 - INFO - \u2705 Completed ring R2 with 1 spans.
+2025-09-29 12:01:56,747 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-09-29 12:01:56,754 - INFO - \u2705 Completed ring R2-C1 with 8 spans.
+2025-09-29 12:01:56,754 - INFO - 
+\U0001f501 Processing ring: R3
+2025-09-29 12:01:56,759 - INFO - \u2705 Completed ring R3 with 7 spans.
+2025-09-29 12:01:56,759 - INFO - 
+\U0001f501 Processing ring: R3-C1
+2025-09-29 12:01:56,762 - INFO - \u2705 Completed ring R3-C1 with 1 spans.
+2025-09-29 12:01:56,762 - INFO - 
+\U0001f501 Processing ring: R4
+2025-09-29 12:01:56,769 - INFO - \u2705 Completed ring R4 with 10 spans.
+2025-09-29 12:01:56,769 - INFO - 
+\U0001f501 Processing ring: R4-C1
+2025-09-29 12:01:56,774 - INFO - \u2705 Completed ring R4-C1 with 5 spans.
+2025-09-29 12:01:56,774 - INFO - 
+\U0001f501 Processing ring: R5
+2025-09-29 12:01:56,777 - INFO - \u2705 Completed ring R5 with 3 spans.
+2025-09-29 12:01:56,777 - INFO - 
+\U0001f501 Processing ring: R5_C1
+2025-09-29 12:01:56,784 - INFO - \u2705 Completed ring R5_C1 with 8 spans.
+2025-09-29 12:01:56,784 - INFO - 
+\U0001f501 Processing ring: R6
+2025-09-29 12:01:56,791 - INFO - \u2705 Completed ring R6 with 7 spans.
+2025-09-29 12:01:56,791 - INFO - 
+\U0001f501 Processing ring: R6_C1
+2025-09-29 12:01:56,798 - INFO - \u2705 Completed ring R6_C1 with 8 spans.
+2025-09-29 12:01:56,915 - INFO - Created 1,904 records
+2025-09-29 12:01:56,924 - INFO - Created 99 records
+2025-09-29 12:01:56,924 - INFO - \u2705 All rings processed. Span sequence updated and saved.

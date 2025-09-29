@@ -1,5 +1,5 @@
 from qgis.core import QgsProject
-blockName ='Raipur2'
+blockName ='Gangev'
 layer_name = f'OFC_New_{blockName}-1_Seg_Span_Seq'
 from_gp_column = 'from_gp_na'
 to_gp_column = 'to_gp_name'

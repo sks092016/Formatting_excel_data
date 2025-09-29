@@ -1,0 +1,16 @@
+2025-09-29 11:30:19,605 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BAANS TO PANGADI KALA'.
+2025-09-29 11:30:19,605 - WARNING - \u26a0\ufe0f The Span BAANS TO PANGADI KALA is disconnected at this point (81.577037, 24.8632)
+2025-09-29 11:30:19,806 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BELA TO BADOKHAR'.
+2025-09-29 11:30:19,806 - WARNING - \u26a0\ufe0f The Span BELA TO BADOKHAR is disconnected at this point (81.559336166472, 24.792431431069517)
+2025-09-29 11:30:20,170 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'DEWARA TO T-POINT GHOPI'.
+2025-09-29 11:30:20,171 - WARNING - \u26a0\ufe0f The Span DEWARA TO T-POINT GHOPI is disconnected at this point (81.51818076067083, 24.733883245495694)
+2025-09-29 11:30:20,334 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-29 11:30:20,334 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-29 11:30:20,334 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-29 11:30:20,334 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-29 11:30:20,334 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-29 11:30:20,335 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-29 11:30:20,335 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-29 11:30:20,335 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-29 11:30:20,335 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-09-29 11:30:20,335 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>

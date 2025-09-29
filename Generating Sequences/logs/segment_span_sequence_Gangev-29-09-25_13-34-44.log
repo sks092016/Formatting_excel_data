@@ -1,0 +1,43 @@
+2025-09-29 13:34:45,242 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BAANS TO PANGADI KALA'.
+2025-09-29 13:34:45,243 - WARNING - \u26a0\ufe0f The Span BAANS TO PANGADI KALA is disconnected at this point (81.577037, 24.8632)
+2025-09-29 13:34:49,081 - INFO - Created 1,901 records
+2025-09-29 13:34:49,090 - INFO - Created 99 records
+2025-09-29 13:34:49,092 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-09-29 13:34:49,097 - INFO - Created 1 records
+2025-09-29 13:34:49,245 - INFO - \U0001f504 Found 11 rings: ['R1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4', 'R4-C1', 'R5', 'R5_C1', 'R6', 'R6_C1']
+2025-09-29 13:34:49,245 - INFO - 
+\U0001f501 Processing ring: R1
+2025-09-29 13:34:49,253 - INFO - \u2705 Completed ring R1 with 10 spans.
+2025-09-29 13:34:49,253 - INFO - 
+\U0001f501 Processing ring: R2
+2025-09-29 13:34:49,259 - INFO - \u2705 Completed ring R2 with 7 spans.
+2025-09-29 13:34:49,259 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-09-29 13:34:49,265 - INFO - \u2705 Completed ring R2-C1 with 8 spans.
+2025-09-29 13:34:49,265 - INFO - 
+\U0001f501 Processing ring: R3
+2025-09-29 13:34:49,271 - INFO - \u2705 Completed ring R3 with 7 spans.
+2025-09-29 13:34:49,271 - INFO - 
+\U0001f501 Processing ring: R3-C1
+2025-09-29 13:34:49,278 - INFO - \u2705 Completed ring R3-C1 with 8 spans.
+2025-09-29 13:34:49,278 - INFO - 
+\U0001f501 Processing ring: R4
+2025-09-29 13:34:49,286 - INFO - \u2705 Completed ring R4 with 10 spans.
+2025-09-29 13:34:49,286 - INFO - 
+\U0001f501 Processing ring: R4-C1
+2025-09-29 13:34:49,291 - INFO - \u2705 Completed ring R4-C1 with 5 spans.
+2025-09-29 13:34:49,291 - INFO - 
+\U0001f501 Processing ring: R5
+2025-09-29 13:34:49,297 - INFO - \u2705 Completed ring R5 with 7 spans.
+2025-09-29 13:34:49,297 - INFO - 
+\U0001f501 Processing ring: R5_C1
+2025-09-29 13:34:49,304 - INFO - \u2705 Completed ring R5_C1 with 8 spans.
+2025-09-29 13:34:49,304 - INFO - 
+\U0001f501 Processing ring: R6
+2025-09-29 13:34:49,314 - INFO - \u2705 Completed ring R6 with 7 spans.
+2025-09-29 13:34:49,314 - INFO - 
+\U0001f501 Processing ring: R6_C1
+2025-09-29 13:34:49,322 - INFO - \u2705 Completed ring R6_C1 with 8 spans.
+2025-09-29 13:34:49,443 - INFO - Created 1,901 records
+2025-09-29 13:34:49,452 - INFO - Created 99 records
+2025-09-29 13:34:49,452 - INFO - \u2705 All rings processed. Span sequence updated and saved.
