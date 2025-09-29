@@ -1,13 +1,22 @@
 from qgis.core import QgsProject, edit
 
 # --- SETTINGS ---
-layer_name = "OFC_New_Gangev-1_Seg_Span_Seq"  # Name of the layer in QGIS
+layer_name = "OFC_NEW"  # Name of the layer in QGIS
 check_field = "span_name"
 update_field = "span_name"
 
+# t-point corrections
+'''
+'t point':'t-point',
+'t- point':'t-point',
+'t -point':'t-point',
+'t - point':'t-point',
+'''
 
 replacement_map = {
-'T-POINT KATHERI TO JUDAURI':'KATHERI TO JUDAURI'
+ 'RASHILPUR':'RASILPUR',
+ 'CHURHAELA':'CHURHELA',
+ 'RAITHOURAKALANN':'RAITHOURAKALAN'
 }
 count = 0 
 

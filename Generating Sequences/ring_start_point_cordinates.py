@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Gangev"
+blockName = "Sardarpur"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,13 +32,13 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Gangev/gps.shp"
-segments_shape_file = "References/Gangev/OFC_NEW.shp"
+gps_shape_file = "References/Sardarpur/gps.shp"
+segments_shape_file = "References/Sardarpur/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '81.60637045 24.73417536'
+BHQ_CORDINATE = '74.97507875 22.66384565'
 
 rings = {
     'R1': BHQ_CORDINATE,
@@ -47,35 +47,61 @@ rings = {
     'R4': BHQ_CORDINATE,
     'R5': BHQ_CORDINATE,
     'R6': BHQ_CORDINATE,
-    'R2-C1':'81.53076553 24.70468954',
-    'R3-C1':'81.63274336 24.82239743',
-    'R4-C1': '81.46870236 24.75741242',
-    'R5_C1': '81.46279157 24.63500084',
-    'R6_C1': '81.53563979 24.81814018',
+    'R7': BHQ_CORDINATE,
+    'R2-C1':'74.84955910 22.70766059',
+    'R4-C1':'75.11757640 22.75349899',
+    'R5-C1': '75.04541697 22.90231969',
+    'R5-C2': '75.05868402 22.76570134',
+    'R7-C1': '75.11926852 22.64514307',
 }
 
 t_point_ring_spans = {
-'t-point amaha':(81.57659718,24.80165722),
-'t-point baans':(81.61099214,24.83125148),
-'t-point badokhar':(81.53324395,24.78550690),
-'t-point chauri':(81.50195115,24.79135102),
-'t-point dagardua':(81.59009100,24.79539500),
-'t-point kadaila':(81.42467165,24.68035748),
-'t-point keoti':(81.45369171,24.78553194),
-'t-point lalgaon':(81.53563979,24.81814018),
-'t-point lauri khurd':(81.63274336,24.82239743),
-'t-point marhi kalan':(81.57147671,24.68683759),
-'t-point mauhariya':(81.55933590,24.79243073),
-'t-point rampur':(81.47398500,24.68174600),
-'t-point rampurava':(81.48996581,24.75044064),
-'t-point raura':(81.46870236,24.75741242),
-'t-point sirsa':(81.53076553,24.70468954),
-'t-point siswa':(81.57661100,24.85130245),
-'t-point tikuri 32':(81.63237681,24.75887289),
-'t-point tiwani':(81.50903800,24.64675540),
-'t-point katheri':(81.46279157,24.63500084),
-
+'t-point bhatiabardi to bardpada':(74.84955910,22.70766059),
+'t-point bodli to kothdakala':(75.05868402,22.76570134),
+'t-point chotiyabalod to chirakhan':(75.11757640,22.75349899),
+'t-point gumanpura to amaliya':(74.84228041,22.60623324),
+'t-point kasharpura to sagwal':(75.11926852,22.64514307),
+'t-point sajod to ksehanariya':(75.06693546,22.95151681),
+'t-point salwa to rajod':(75.04541697,22.90231969),
+'t-point dedla to kothdakala':(75.05868402,22.76570134),
+'t-point utava to chalnimata':(74.81466487,22.65155177),
 }
+# Morena
+# t_point_ring_spans = {
+# 't-point baretha':(78.07777500,26.59153400),
+# 't-point basaiya':(78.12391650,26.52089485),
+# 't-point girgoni':(78.09522331,26.44608708),
+# 't-point hetampur':(77.93661789,26.60670586),
+# 't-point kharagpur':(78.11950704,26.40032730),
+# 't-point kishanpur':(78.04494369,26.48836827),
+# 't-point nanka':(78.15470612,26.46774643),
+# 't-point naupura':(78.14470700,26.45445000),
+# 't-point palpura':(78.04197601,26.61803274),
+# 't-point piprai':(77.93185000,26.62412000),
+# 't-point seva':(78.10805843,26.35875297),
+# }
+# Gangev
+# t_point_ring_spans = {
+# 't-point amaha':(81.57659718,24.80165722),
+# 't-point baans':(81.61099214,24.83125148),
+# 't-point badokhar':(81.53324395,24.78550690),
+# 't-point chauri':(81.50195115,24.79135102),
+# 't-point dagardua':(81.59009100,24.79539500),
+# 't-point kadaila':(81.42467165,24.68035748),
+# 't-point keoti':(81.45369171,24.78553194),
+# 't-point lalgaon':(81.53563979,24.81814018),
+# 't-point lauri khurd':(81.63274336,24.82239743),
+# 't-point marhi kalan':(81.57147671,24.68683759),
+# 't-point mauhariya':(81.55933590,24.79243073),
+# 't-point rampur':(81.47398500,24.68174600),
+# 't-point rampurava':(81.48996581,24.75044064),
+# 't-point raura':(81.46870236,24.75741242),
+# 't-point sirsa':(81.53076553,24.70468954),
+# 't-point siswa':(81.57661100,24.85130245),
+# 't-point tikuri 32':(81.63237681,24.75887289),
+# 't-point tiwani':(81.50903800,24.64675540),
+# 't-point katheri':(81.46279157,24.63500084),
+# }
 #--Gandhwani ----
 # t_point_ring_spans = {
 # 't-point behadada':(75.02804651, 22.42619967),
