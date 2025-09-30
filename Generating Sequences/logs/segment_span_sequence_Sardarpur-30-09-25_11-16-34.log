@@ -1,0 +1,86 @@
+2025-09-30 11:16:34,878 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'AMBA TO JUNAPANI'.
+2025-09-30 11:16:34,879 - WARNING - \u26a0\ufe0f The Span AMBA TO JUNAPANI is disconnected at this point (74.80931586300005, 22.74147855800004)
+2025-09-30 11:16:34,916 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'AMBA TO MACHLIYA'.
+2025-09-30 11:16:34,916 - WARNING - \u26a0\ufe0f The Span AMBA TO MACHLIYA is disconnected at this point (74.82178154000007, 22.747423140000024)
+2025-09-30 11:16:35,365 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BHARAWDA TO KASHARPURA'.
+2025-09-30 11:16:35,365 - WARNING - \u26a0\ufe0f The Span BHARAWDA TO KASHARPURA is disconnected at this point (75.11830326300003, 22.653426928000044)
+2025-09-30 11:16:35,387 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BHATIABARDI TO DHULET'.
+2025-09-30 11:16:35,387 - WARNING - \u26a0\ufe0f The Span BHATIABARDI TO DHULET is disconnected at this point (74.90919627800008, 22.68281927000004)
+2025-09-30 11:16:36,381 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (75.14630751900006, 22.786996685000076) & ending at (75.14580849300006, 22.78615460000003)
+2025-09-30 11:16:36,382 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (75.14630751900006, 22.786996685000076) & ending at (75.14580849300006, 22.78615460000003)
+2025-09-30 11:16:36,397 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'CHANDODIYA TO T-POINT HANUMANTYA PADAMPURA'.
+2025-09-30 11:16:36,397 - WARNING - \u26a0\ufe0f The Span CHANDODIYA TO T-POINT HANUMANTYA PADAMPURA is disconnected at this point (75.13774522800003, 22.774975760000075)
+2025-09-30 11:16:36,570 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'DANTOLI TO DANTOLI'.
+2025-09-30 11:16:36,570 - WARNING - \u26a0\ufe0f The Span DANTOLI TO DANTOLI is disconnected at this point (75.06275012700007, 22.68218100000007)
+2025-09-30 11:16:36,635 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'DANTOLI TO TANDAKHEDA MEHGAON'.
+2025-09-30 11:16:36,636 - WARNING - \u26a0\ufe0f The Span DANTOLI TO TANDAKHEDA MEHGAON is disconnected at this point (75.06301759300004, 22.682298290000062)
+2025-09-30 11:16:36,671 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'DASAI TO TANDAKHEDA'.
+2025-09-30 11:16:36,671 - WARNING - \u26a0\ufe0f The Span DASAI TO TANDAKHEDA is disconnected at this point (75.11086537600005, 22.735287327000037)
+2025-09-30 11:16:36,814 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'DHULET TO BHATIABARDI'.
+2025-09-30 11:16:36,814 - WARNING - \u26a0\ufe0f The Span DHULET TO BHATIABARDI is disconnected at this point (74.88605506800008, 22.68279828900006)
+2025-09-30 11:16:37,145 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'GHATODA TO DANTOLI'.
+2025-09-30 11:16:37,145 - WARNING - \u26a0\ufe0f The Span GHATODA TO DANTOLI is disconnected at this point (75.08228100000008, 22.702037216000065)
+2025-09-30 11:16:37,171 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'GHATODA TO DASAI'.
+2025-09-30 11:16:37,172 - WARNING - \u26a0\ufe0f The Span GHATODA TO DASAI is disconnected at this point (75.11928589700005, 22.696875601000045)
+2025-09-30 11:16:37,420 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'HANUMANTYA PADAMPURA TO GHATODA'.
+2025-09-30 11:16:37,420 - WARNING - \u26a0\ufe0f The Span HANUMANTYA PADAMPURA TO GHATODA is disconnected at this point (75.11652499700006, 22.694997821000072)
+2025-09-30 11:16:37,608 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'HATOD TO CHALNI'.
+2025-09-30 11:16:37,608 - WARNING - \u26a0\ufe0f The Span HATOD TO CHALNI is disconnected at this point (75.08199363500006, 22.586353822000035)
+2025-09-30 11:16:38,175 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'LEDGAON TO BALODA'.
+2025-09-30 11:16:38,175 - WARNING - \u26a0\ufe0f The Span LEDGAON TO BALODA is disconnected at this point (75.11481787200006, 22.675453909000055)
+2025-09-30 11:16:39,433 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'SARDARPUR BLOCK TO HANUMANTYAKAG'.
+2025-09-30 11:16:39,433 - WARNING - \u26a0\ufe0f The Span SARDARPUR BLOCK TO HANUMANTYAKAG is disconnected at this point (74.98759781800004, 22.72003012700003)
+2025-09-30 11:16:40,196 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'SONGARH TO DHULET'.
+2025-09-30 11:16:40,196 - WARNING - \u26a0\ufe0f The Span SONGARH TO DHULET is disconnected at this point (74.93160989000006, 22.72107035600004)
+2025-09-30 11:16:40,608 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (75.10647715500005, 22.74796258400005) & ending at (75.10539180500007, 22.74609548500007)
+2025-09-30 11:16:40,611 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (75.10647715500005, 22.74796258400005) & ending at (75.10539180500007, 22.74609548500007)
+2025-09-30 11:16:40,621 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'TANDAKHEDA TO CHOTIYABALOD'.
+2025-09-30 11:16:40,621 - WARNING - \u26a0\ufe0f The Span TANDAKHEDA TO CHOTIYABALOD is disconnected at this point (75.11945085500008, 22.753451595000058)
+2025-09-30 11:16:40,652 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'TANDAKHEDA TO TANDAKHEDA MEHGAON'.
+2025-09-30 11:16:40,652 - WARNING - \u26a0\ufe0f The Span TANDAKHEDA TO TANDAKHEDA MEHGAON is disconnected at this point (75.08190946500008, 22.700956706000056)
+2025-09-30 11:16:40,735 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'TIRLA TO BHERUPADA'.
+2025-09-30 11:16:40,735 - WARNING - \u26a0\ufe0f The Span TIRLA TO BHERUPADA is disconnected at this point (74.83367042400005, 22.62605652600007)
+2025-09-30 11:16:41,106 - INFO - Created 3,380 records
+2025-09-30 11:16:41,115 - INFO - Created 120 records
+2025-09-30 11:16:41,116 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-09-30 11:16:41,124 - INFO - Created 19 records
+2025-09-30 11:16:41,322 - INFO - \U0001f504 Found 12 rings: ['R1', 'R2', 'R2-C1', 'R3', 'R4', 'R4-C1', 'R5', 'R5-C1', 'R5-C2', 'R6', 'R7', 'R7-C1']
+2025-09-30 11:16:41,323 - INFO - 
+\U0001f501 Processing ring: R1
+2025-09-30 11:16:41,328 - INFO - \u2705 Completed ring R1 with 1 spans.
+2025-09-30 11:16:41,328 - INFO - 
+\U0001f501 Processing ring: R2
+2025-09-30 11:16:41,335 - INFO - \u2705 Completed ring R2 with 3 spans.
+2025-09-30 11:16:41,335 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-09-30 11:16:41,338 - INFO - \u2705 Completed ring R2-C1 with 0 spans.
+2025-09-30 11:16:41,338 - INFO - 
+\U0001f501 Processing ring: R3
+2025-09-30 11:16:41,340 - INFO - \u2705 Completed ring R3 with 0 spans.
+2025-09-30 11:16:41,340 - INFO - 
+\U0001f501 Processing ring: R4
+2025-09-30 11:16:41,345 - INFO - \u2705 Completed ring R4 with 2 spans.
+2025-09-30 11:16:41,346 - INFO - 
+\U0001f501 Processing ring: R4-C1
+2025-09-30 11:16:41,349 - INFO - \u2705 Completed ring R4-C1 with 0 spans.
+2025-09-30 11:16:41,349 - INFO - 
+\U0001f501 Processing ring: R5
+2025-09-30 11:16:41,352 - INFO - \u2705 Completed ring R5 with 1 spans.
+2025-09-30 11:16:41,352 - INFO - 
+\U0001f501 Processing ring: R5-C1
+2025-09-30 11:16:41,355 - INFO - \u2705 Completed ring R5-C1 with 2 spans.
+2025-09-30 11:16:41,356 - INFO - 
+\U0001f501 Processing ring: R5-C2
+2025-09-30 11:16:41,357 - INFO - \u2705 Completed ring R5-C2 with 0 spans.
+2025-09-30 11:16:41,357 - INFO - 
+\U0001f501 Processing ring: R6
+2025-09-30 11:16:41,360 - INFO - \u2705 Completed ring R6 with 2 spans.
+2025-09-30 11:16:41,360 - INFO - 
+\U0001f501 Processing ring: R7
+2025-09-30 11:16:41,363 - INFO - \u2705 Completed ring R7 with 1 spans.
+2025-09-30 11:16:41,363 - INFO - 
+\U0001f501 Processing ring: R7-C1
+2025-09-30 11:16:41,364 - INFO - \u2705 Completed ring R7-C1 with 0 spans.
+2025-09-30 11:16:41,544 - INFO - Created 3,380 records
+2025-09-30 11:16:41,560 - INFO - Created 120 records
+2025-09-30 11:16:41,562 - INFO - \u2705 All rings processed. Span sequence updated and saved.

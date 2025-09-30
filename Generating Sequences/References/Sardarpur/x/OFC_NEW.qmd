@@ -1,9 +1,9 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.42.2-Münster">
+<qgis version="3.42.1-Münster">
   <identifier></identifier>
   <parentidentifier></parentidentifier>
   <language></language>
-  <type></type>
+  <type>dataset</type>
   <title></title>
   <abstract></abstract>
   <links/>

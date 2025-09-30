@@ -56,15 +56,16 @@ rings = {
 }
 
 t_point_ring_spans = {
-'t-point bhatiabardi to bardpada':(74.84955910,22.70766059),
-'t-point bodli to kothdakala':(75.05868402,22.76570134),
-'t-point chotiyabalod to chirakhan':(75.11757640,22.75349899),
-'t-point gumanpura to amaliya':(74.84228041,22.60623324),
-'t-point kasharpura to sagwal':(75.11926852,22.64514307),
-'t-point sajod to ksehanariya':(75.06693546,22.95151681),
-'t-point salwa to rajod':(75.04541697,22.90231969),
-'t-point dedla to kothdakala':(75.05868402,22.76570134),
-'t-point utava to chalnimata':(74.81466487,22.65155177),
+'t-point bhatiabardi':(74.84955910,22.70766059),
+'t-point bodli':(75.05868402,22.76570134),
+'t-point chotiyabalod':(75.11757640,22.75349899),
+'t-point gumanpura':(74.84228041,22.60623324),
+'t-point kasharpura':(75.11926852,22.64514307),
+'t-point sajod':(75.06693546,22.95151681),
+'t-point salwa':(75.04541697,22.90231969),
+'t-point dedla':(75.05868402,22.76570134),
+'t-point utava':(74.81466487,22.65155177),
+'t-point fulgavdi':(75.04530773,22.63007108)
 }
 # Morena
 # t_point_ring_spans = {

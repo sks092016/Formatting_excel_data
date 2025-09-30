@@ -11,12 +11,12 @@ update_field = "span_name"
 't- point':'t-point',
 't -point':'t-point',
 't - point':'t-point',
+
+{'extra_in_spans': {'T PONIT FULGAVDI', 'SARDARPUR OLT', 'TANDAKHEDA', 'BODIYA', 'TANDAKHEDA MEHARGAON'}, 'unused_gps': {'TANDAKHEDA MEHGAON'}}
 '''
 
 replacement_map = {
- 'RASHILPUR':'RASILPUR',
- 'CHURHAELA':'CHURHELA',
- 'RAITHOURAKALANN':'RAITHOURAKALAN'
+'T-POINT BODLI TO KOTHDAKALA':'KOTHDAKALA TO T-POINT BODLI',
 }
 count = 0 
 
