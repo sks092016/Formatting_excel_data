@@ -1,0 +1,54 @@
+2025-09-30 12:19:56,102 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'CHANDODIYA TO T-POINT HANUMANTYA PADAMPURA'.
+2025-09-30 12:19:56,102 - WARNING - \u26a0\ufe0f The Span CHANDODIYA TO T-POINT HANUMANTYA PADAMPURA is disconnected at this point (75.13774522800003, 22.774975760000075)
+2025-09-30 12:19:56,297 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'DANTOLI TO TANDAKHEDA MEHGAON'.
+2025-09-30 12:19:56,298 - WARNING - \u26a0\ufe0f The Span DANTOLI TO TANDAKHEDA MEHGAON is disconnected at this point (75.06293489600006, 22.68226105900004)
+2025-09-30 12:19:56,704 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'GHATODA TO DASAI'.
+2025-09-30 12:19:56,704 - WARNING - \u26a0\ufe0f The Span GHATODA TO DASAI is disconnected at this point (75.11932226900007, 22.69697730400003)
+2025-09-30 12:19:57,030 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'HANUMANTYA PADAMPURA TO GHATODA'.
+2025-09-30 12:19:57,030 - WARNING - \u26a0\ufe0f The Span HANUMANTYA PADAMPURA TO GHATODA is disconnected at this point (75.12753468400007, 22.712278768000033)
+2025-09-30 12:19:57,643 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'LEDGAON TO BALODA'.
+2025-09-30 12:19:57,643 - WARNING - \u26a0\ufe0f The Span LEDGAON TO BALODA is disconnected at this point (75.11481787200006, 22.675453909000055)
+2025-09-30 12:20:00,210 - INFO - Created 3,382 records
+2025-09-30 12:20:00,218 - INFO - Created 110 records
+2025-09-30 12:20:00,219 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-09-30 12:20:00,223 - INFO - Created 5 records
+2025-09-30 12:20:00,408 - INFO - \U0001f504 Found 12 rings: ['R1', 'R2', 'R2-C1', 'R3', 'R4', 'R4-C1', 'R5', 'R5-C1', 'R5-C2', 'R6', 'R7', 'R7-C1']
+2025-09-30 12:20:00,408 - INFO - 
+\U0001f501 Processing ring: R1
+2025-09-30 12:20:00,416 - INFO - \u2705 Completed ring R1 with 8 spans.
+2025-09-30 12:20:00,416 - INFO - 
+\U0001f501 Processing ring: R2
+2025-09-30 12:20:00,429 - INFO - \u2705 Completed ring R2 with 11 spans.
+2025-09-30 12:20:00,429 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-09-30 12:20:00,437 - INFO - \u2705 Completed ring R2-C1 with 7 spans.
+2025-09-30 12:20:00,437 - INFO - 
+\U0001f501 Processing ring: R3
+2025-09-30 12:20:00,448 - INFO - \u2705 Completed ring R3 with 9 spans.
+2025-09-30 12:20:00,448 - INFO - 
+\U0001f501 Processing ring: R4
+2025-09-30 12:20:00,459 - INFO - \u2705 Completed ring R4 with 6 spans.
+2025-09-30 12:20:00,459 - INFO - 
+\U0001f501 Processing ring: R4-C1
+2025-09-30 12:20:00,471 - INFO - \u2705 Completed ring R4-C1 with 10 spans.
+2025-09-30 12:20:00,471 - INFO - 
+\U0001f501 Processing ring: R5
+2025-09-30 12:20:00,482 - INFO - \u2705 Completed ring R5 with 11 spans.
+2025-09-30 12:20:00,482 - INFO - 
+\U0001f501 Processing ring: R5-C1
+2025-09-30 12:20:00,489 - INFO - \u2705 Completed ring R5-C1 with 8 spans.
+2025-09-30 12:20:00,490 - INFO - 
+\U0001f501 Processing ring: R5-C2
+2025-09-30 12:20:00,493 - INFO - \u2705 Completed ring R5-C2 with 3 spans.
+2025-09-30 12:20:00,493 - INFO - 
+\U0001f501 Processing ring: R6
+2025-09-30 12:20:00,501 - INFO - \u2705 Completed ring R6 with 10 spans.
+2025-09-30 12:20:00,501 - INFO - 
+\U0001f501 Processing ring: R7
+2025-09-30 12:20:00,506 - INFO - \u2705 Completed ring R7 with 6 spans.
+2025-09-30 12:20:00,507 - INFO - 
+\U0001f501 Processing ring: R7-C1
+2025-09-30 12:20:00,511 - INFO - \u2705 Completed ring R7-C1 with 5 spans.
+2025-09-30 12:20:00,695 - INFO - Created 3,382 records
+2025-09-30 12:20:00,708 - INFO - Created 110 records
+2025-09-30 12:20:00,709 - INFO - \u2705 All rings processed. Span sequence updated and saved.
