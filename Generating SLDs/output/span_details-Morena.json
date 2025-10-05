@@ -1,0 +1,715 @@
+{
+    "T-POINT KISHANPUR TO JAGATPUR": {
+        "PMGSY": 1629.129875859636,
+        "Ring": "R6",
+        "Span_id": "010"
+    },
+    "KAROOA TO MORENA BLOCK": {
+        "NH-44": 6990.877835368134,
+        "PMGSY": 1014.0548843385969,
+        "Ring": "R6",
+        "Span_id": "009"
+    },
+    "LOHGARH TO SILYATHA": {
+        "GRAMPANCHAYAT": 9302.004892705962,
+        "NH-44": 2570.3745657553695,
+        "PMGSY": 20.485898229949058,
+        "Ring": "R5",
+        "Span_id": "011"
+    },
+    "MORENA BLOCK TO DHANELA": {
+        "NH-44": 9572.298483423325,
+        "PMGSY": 3011.942784941457,
+        "Ring": "R5",
+        "Span_id": "001"
+    },
+    "MORENA BLOCK TO KOTWAL": {
+        "GRAMPANCHAYAT": 1351.188652494852,
+        "NH-44": 76.48986657822705,
+        "NH-552": 192.25055571162835,
+        "PMGSY": 15247.472123747137,
+        "PWD": 3627.9055780639837,
+        "Ring": "R6",
+        "Span_id": "001"
+    },
+    "MUNGAWALI TO MORENA BLOCK": {
+        "NH-44": 98.02749615541109,
+        "NH-552": 3427.3624096937774,
+        "PMGSY": 4503.221332566018,
+        "Ring": "R1",
+        "Span_id": "010"
+    },
+    "BICHOULA TO MADANBASAI": {
+        "PMGSY": 1156.3276237522152,
+        "Ring": "R6",
+        "Span_id": "004"
+    },
+    "MADANBASAI TO GIRGONI": {
+        "PMGSY": 1914.2720301275272,
+        "Ring": "R6",
+        "Span_id": "005"
+    },
+    "NANKA TO BICHOULA": {
+        "PMGSY": 7273.152134267144,
+        "Ring": "R6",
+        "Span_id": "003"
+    },
+    "MORENA BLOCK TO KHANETA": {
+        "NH-44": 454.13321735747826,
+        "NH-552": 687.6123850964918,
+        "PMGSY": 6345.471609838788,
+        "Ring": "R1",
+        "Span_id": "001"
+    },
+    "SILYATHA TO MORENA BLOCK": {
+        "GRAMPANCHAYAT": 330.7508735184422,
+        "NH-44": 470.8312605668195,
+        "NH-552": 278.24687614216765,
+        "PMGSY": 6090.6745165599405,
+        "Ring": "R5",
+        "Span_id": "012"
+    },
+    "DEWARI TO MUNGAWALI": {
+        "GRAMPANCHAYAT": 899.0576424163528,
+        "NH-552": 433.60096456470694,
+        "PMGSY": 3472.6722765162594,
+        "Ring": "R1",
+        "Span_id": "009"
+    },
+    "PAHAWALI TO SAHARANA": {
+        "PMGSY": 6967.76052130391,
+        "Ring": "R1",
+        "Span_id": "007"
+    },
+    "SAHARANA TO DEWARI": {
+        "GRAMPANCHAYAT": 1332.242922867293,
+        "PMGSY": 1675.1661577212303,
+        "Ring": "R1",
+        "Span_id": "008"
+    },
+    "GIRGONI TO LABHANPURA": {
+        "PMGSY": 5173.825065084207,
+        "Ring": "R6",
+        "Span_id": "006"
+    },
+    "T-POINT GIRGONI TO BARENDA": {
+        "PMGSY": 1520.6910434713536,
+        "Ring": "R6-C2",
+        "Span_id": "001"
+    },
+    "KHANETA TO GHURAIYA BASAI": {
+        "PMGSY": 7947.968589881758,
+        "Ring": "R1",
+        "Span_id": "002"
+    },
+    "JARONI TO KAROOA": {
+        "PMGSY": 2224.087655008101,
+        "Ring": "R6",
+        "Span_id": "008"
+    },
+    "LABHANPURA TO JARONI": {
+        "PMGSY": 3683.1325974716506,
+        "Ring": "R6",
+        "Span_id": "007"
+    },
+    "ATA TO PAHAWALI": {
+        "PMGSY": 3230.5810178830643,
+        "Ring": "R1",
+        "Span_id": "006"
+    },
+    "CHURHELA TO JARERUA": {
+        "PMGSY": 3452.0590019883857,
+        "Ring": "R6-C2",
+        "Span_id": "003"
+    },
+    "DHANELA TO NURABAD": {
+        "GRAMPANCHAYAT": 222.11693206197089,
+        "NH-44": 1763.3212123835685,
+        "PMGSY": 2744.3185388068264,
+        "Ring": "R5",
+        "Span_id": "002"
+    },
+    "JARERUA TO T-POINT JARONI": {
+        "PMGSY": 719.4864125253365,
+        "Ring": "R6-C2",
+        "Span_id": "004"
+    },
+    "NURABAD TO JAYNAGAR": {
+        "GRAMPANCHAYAT": 4408.359488931348,
+        "Ring": "R5",
+        "Span_id": "003"
+    },
+    "DOURAWALI TO LOHGARH": {
+        "GRAMPANCHAYAT": 4142.027389167568,
+        "Ring": "R5",
+        "Span_id": "010"
+    },
+    "BARENDA TO CHURHELA": {
+        "PMGSY": 1833.5603540440927,
+        "Ring": "R6-C2",
+        "Span_id": "002"
+    },
+    "BAMUR BASAI TO DOURAWALI": {
+        "GRAMPANCHAYAT": 1880.0005975699657,
+        "Ring": "R5",
+        "Span_id": "009"
+    },
+    "JAKHOUDA TO BAMUR BASAI": {
+        "GRAMPANCHAYAT": 3187.497399662764,
+        "PMGSY": 7946.994234841684,
+        "Ring": "R5",
+        "Span_id": "008"
+    },
+    "JAYNAGAR TO KHARAGPUR": {
+        "GRAMPANCHAYAT": 873.591143871613,
+        "PMGSY": 1863.0344605403434,
+        "PWD": 2230.612483871552,
+        "Ring": "R5",
+        "Span_id": "004"
+    },
+    "NITHERA TO ATA": {
+        "PMGSY": 2869.685536661515,
+        "Ring": "R1",
+        "Span_id": "005"
+    },
+    "TIKATOLI GURJAR TO NITHERA": {
+        "PMGSY": 4302.413026318268,
+        "Ring": "R1",
+        "Span_id": "004"
+    },
+    "GHURAIYA BASAI TO TIKATOLI GURJAR": {
+        "PMGSY": 3123.466126048849,
+        "Ring": "R1",
+        "Span_id": "003"
+    },
+    "PAROLI TO T-POINT MADRAI": {
+        "PMGSY": 6069.208073680895,
+        "Ring": "R5-C2",
+        "Span_id": "010"
+    },
+    "MADRAI TO SEVA": {
+        "NH-44": 2125.040978189114,
+        "PMGSY": 5799.083302521822,
+        "Ring": "R5",
+        "Span_id": "006"
+    },
+    "SEVA TO JAKHOUDA": {
+        "NH-44": 1533.4789151122777,
+        "PMGSY": 2397.7694736037733,
+        "Ring": "R5",
+        "Span_id": "007"
+    },
+    "PAHARI TO T-POINT JAKHOUDA": {
+        "PMGSY": 3200.7648477421035,
+        "Ring": "R5-C1",
+        "Span_id": "005"
+    },
+    "BANMORKHURD TO PAHARI": {
+        "NH-44": 1307.0030091025878,
+        "PMGSY": 7775.213894321498,
+        "Ring": "R5-C1",
+        "Span_id": "004"
+    },
+    "KAROLA TO BANMORKHURD": {
+        "NH-44": 6.995082036299152,
+        "PMGSY": 7293.84024857379,
+        "Ring": "R5-C1",
+        "Span_id": "003"
+    },
+    "BAMROLI TO T-POINT KAJI BASAI": {
+        "GRAMPANCHAYAT": 1800.7207914353394,
+        "PMGSY": 9080.313847766545,
+        "Ring": "R7-C1",
+        "Span_id": "008"
+    },
+    "SANGOLI TO BAMROLI": {
+        "PMGSY": 3214.4639654066505,
+        "PWD": 1334.6939363215336,
+        "Ring": "R7-C1",
+        "Span_id": "007"
+    },
+    "T-POINT NANKA TO MITAWALI": {
+        "PMGSY": 6510.951819749024,
+        "PWD": 4592.375901732089,
+        "Ring": "R6-C1",
+        "Span_id": "001"
+    },
+    "ARDONI TO SANGOLI": {
+        "PWD": 4994.56806596853,
+        "Ring": "R7-C1",
+        "Span_id": "006"
+    },
+    "BHAINSOURA TO ARDONI": {
+        "PWD": 9364.709271686423,
+        "Ring": "R7-C1",
+        "Span_id": "005"
+    },
+    "NAUPURA TO T-POINT BICHOULA": {
+        "PMGSY": 6772.218122536128,
+        "Ring": "R6-C1",
+        "Span_id": "009"
+    },
+    "T-POINT NAUPURA TO PILUA": {
+        "PMGSY": 886.2859182748219,
+        "Ring": "R6-C1",
+        "Span_id": "010"
+    },
+    "GULENDRA TO NAUPURA": {
+        "PMGSY": 2305.881434293206,
+        "Ring": "R6-C1",
+        "Span_id": "008"
+    },
+    "PADAWALI TO RANCHUOLI": {
+        "PWD": 3838.836197276001,
+        "Ring": "R6-C1",
+        "Span_id": "004"
+    },
+    "SILGILA TO PADAWALI": {
+        "PMGSY": 367.2228885433512,
+        "PWD": 11247.428159712847,
+        "Ring": "R6-C1",
+        "Span_id": "003"
+    },
+    "MITAWALI TO SILGILA": {
+        "PMGSY": 4094.046026823226,
+        "Ring": "R6-C1",
+        "Span_id": "002"
+    },
+    "RANCHUOLI TO RANSU": {
+        "PWD": 2846.1998539271813,
+        "Ring": "R6-C1",
+        "Span_id": "005"
+    },
+    "KHIRAWALI TO GULENDRA": {
+        "PMGSY": 6292.999514276482,
+        "Ring": "R6-C1",
+        "Span_id": "007"
+    },
+    "T-POINT KHARAGPUR TO GADAJAR": {
+        "PMGSY": 7031.288722514673,
+        "PWD": 3200.0422166030867,
+        "Ring": "R5-C2",
+        "Span_id": "001"
+    },
+    "GADAJAR TO AITHI": {
+        "PMGSY": 4622.14648225462,
+        "Ring": "R5-C2",
+        "Span_id": "002"
+    },
+    "KHARAGPUR TO MADRAI": {
+        "PMGSY": 2069.656643139225,
+        "PWD": 275.80338690429846,
+        "Ring": "R5",
+        "Span_id": "005"
+    },
+    "RANSU TO KHIRAWALI": {
+        "PMGSY": 351.39296981243064,
+        "PWD": 3340.552430226491,
+        "Ring": "R6-C1",
+        "Span_id": "006"
+    },
+    "AITHI TO RAITHOURAKALAN": {
+        "PMGSY": 3484.1320289261816,
+        "Ring": "R5-C2",
+        "Span_id": "003"
+    },
+    "PIPARSEVA TO PAROLI": {
+        "PMGSY": 7410.805749337374,
+        "Ring": "R5-C2",
+        "Span_id": "009"
+    },
+    "MAHTOLI TO KAROLA": {
+        "PMGSY": 3198.365712213219,
+        "Ring": "R5-C1",
+        "Span_id": "002"
+    },
+    "T-POINT SEVA TO MAHTOLI": {
+        "PMGSY": 2130.278257382051,
+        "Ring": "R5-C1",
+        "Span_id": "001"
+    },
+    "URAHANA TO PIPARSEVA": {
+        "PMGSY": 2910.967872120622,
+        "Ring": "R5-C2",
+        "Span_id": "008"
+    },
+    "TEEKARI TO URAHANA": {
+        "NH-44": 4328.141373381978,
+        "PMGSY": 3075.006088932858,
+        "Ring": "R5-C2",
+        "Span_id": "007"
+    },
+    "BADWARI TO TEEKARI": {
+        "NH-44": 25.821630761195014,
+        "PMGSY": 9628.87537449826,
+        "Ring": "R5-C2",
+        "Span_id": "006"
+    },
+    "NOUGOUN TO BADWARI": {
+        "PMGSY": 6168.941669751759,
+        "Ring": "R5-C2",
+        "Span_id": "005"
+    },
+    "RAITHOURAKALAN TO NOUGOUN": {
+        "PMGSY": 4038.6202362142135,
+        "PWD": 1425.5898820728455,
+        "Ring": "R5-C2",
+        "Span_id": "004"
+    },
+    "PARIKSHA TO BHAINSOURA": {
+        "PMGSY": 6038.148426881048,
+        "PWD": 5781.466313288247,
+        "Ring": "R7-C1",
+        "Span_id": "004"
+    },
+    "GADOURA TO RAITHOURAKHURD": {
+        "PMGSY": 3662.0531741077875,
+        "Ring": "R3",
+        "Span_id": "007"
+    },
+    "RAITHOURAKHURD TO MIRGPURA": {
+        "PMGSY": 10105.161169164985,
+        "Ring": "R3",
+        "Span_id": "008"
+    },
+    "JAKHONA TO TTCHHOULA": {
+        "GRAMPANCHAYAT": 2056.4174076202817,
+        "PMGSY": 696.4697430822147,
+        "Ring": "R2",
+        "Span_id": "005"
+    },
+    "PALPURA TO JAKHONA": {
+        "GRAMPANCHAYAT": 1939.0830782388714,
+        "PMGSY": 3756.01673827772,
+        "PWD": 5284.322415227235,
+        "Ring": "R2",
+        "Span_id": "004"
+    },
+    "TTCHHOULA TO BARETHA": {
+        "PMGSY": 6220.492508712313,
+        "PWD": 1588.3017969008797,
+        "Ring": "R2",
+        "Span_id": "006"
+    },
+    "MAITHANA TO GADOURA": {
+        "PMGSY": 4109.379708366939,
+        "Ring": "R3",
+        "Span_id": "006"
+    },
+    "BARETHA TO KHABROULI": {
+        "PMGSY": 8880.029128408181,
+        "Ring": "R2",
+        "Span_id": "007"
+    },
+    "T-POINT PALPURA TO GOUSPUR": {
+        "PMGSY": 3216.3705815660937,
+        "Ring": "R2",
+        "Span_id": "011"
+    },
+    "HUSHENPUR TO NAYAKPURAL": {
+        "PMGSY": 942.5686309053724,
+        "Ring": "R4-C1",
+        "Span_id": "004"
+    },
+    "NAYAKPURAL TO PICHOKHRA": {
+        "PMGSY": 4296.914059533423,
+        "Ring": "R4-C1",
+        "Span_id": "005"
+    },
+    "BHANPUR TO HUSHENPUR": {
+        "NH-44": 3166.0021774474985,
+        "PMGSY": 2635.3908333078825,
+        "Ring": "R4-C1",
+        "Span_id": "003"
+    },
+    "PIPRAI TO BHANPUR": {
+        "NH-44": 3365.871496345566,
+        "PMGSY": 1125.6111443350624,
+        "Ring": "R4-C1",
+        "Span_id": "002"
+    },
+    "T-POINT PIPRAI TO MASUDPUR": {
+        "PMGSY": 1916.950386999664,
+        "Ring": "R4-C1",
+        "Span_id": "007"
+    },
+    "MIRGPURA TO PIDAWALI": {
+        "PMGSY": 5615.789253021496,
+        "PWD": 1489.119474677212,
+        "Ring": "R3",
+        "Span_id": "009"
+    },
+    "AJANODHA TO T-POINT KHABROULI": {
+        "NH-552": 353.3832811283174,
+        "PMGSY": 8457.195119584709,
+        "Ring": "R2-C1",
+        "Span_id": "010"
+    },
+    "T-POINT BARETHA TO NAWALI BADGAON": {
+        "NH-552": 596.9600419357611,
+        "PMGSY": 5310.477755619644,
+        "Ring": "R2-C1",
+        "Span_id": "001"
+    },
+    "JARAH TO KAINTHARI": {
+        "PMGSY": 2640.754921734832,
+        "Ring": "R4",
+        "Span_id": "007"
+    },
+    "JATAWAR TO JARAH": {
+        "PMGSY": 7659.145544866363,
+        "Ring": "R4",
+        "Span_id": "006"
+    },
+    "KAINTHARI TO HETAMPUR": {
+        "PMGSY": 3640.3850250828586,
+        "Ring": "R4",
+        "Span_id": "008"
+    },
+    "HETAMPUR TO BANDHA": {
+        "NH-44": 981.4408670454771,
+        "PMGSY": 740.3099652652689,
+        "Ring": "R4",
+        "Span_id": "009"
+    },
+    "PICHOKHRA TO T-POINT BANDHA": {
+        "PMGSY": 2579.4858851584895,
+        "Ring": "R4-C1",
+        "Span_id": "006"
+    },
+    "PIPARKHERA TO MAITHANA": {
+        "PMGSY": 4361.876960698236,
+        "Ring": "R3",
+        "Span_id": "005"
+    },
+    "SIKRODA TO PIPARKHERA": {
+        "PMGSY": 5822.053859881957,
+        "Ring": "R3",
+        "Span_id": "004"
+    },
+    "BANDHA TO MORENA BLOCK": {
+        "NH-44": 12146.013664300608,
+        "Ring": "R4",
+        "Span_id": "010"
+    },
+    "T-POINT HETAMPUR TO PIPRAI": {
+        "NH-44": 1704.3880564909884,
+        "PMGSY": 146.92703850779142,
+        "Ring": "R4-C1",
+        "Span_id": "001"
+    },
+    "PIDAWALI TO BHINDWA KUWARI": {
+        "PMGSY": 2238.5854841201076,
+        "Ring": "R3",
+        "Span_id": "010"
+    },
+    "RAMPUR GANJ TO PALPURA": {
+        "PMGSY": 4894.982864199451,
+        "Ring": "R2",
+        "Span_id": "003"
+    },
+    "BHINDWA KUWARI TO MORENA BLOCK": {
+        "NH-44": 820.052566153257,
+        "PMGSY": 13680.638521026398,
+        "Ring": "R3",
+        "Span_id": "011"
+    },
+    "DEVARI TO DIKHATPURA": {
+        "PMGSY": 3342.0204486313332,
+        "Ring": "R3",
+        "Span_id": "002"
+    },
+    "DIKHATPURA TO SIKRODA": {
+        "PMGSY": 3192.352326166711,
+        "Ring": "R3",
+        "Span_id": "003"
+    },
+    "JEEGANI TO KHEDA MEWDA": {
+        "NH-552": 1902.9884742476765,
+        "PMGSY": 356.34014690215815,
+        "Ring": "R7",
+        "Span_id": "003"
+    },
+    "KHEDA MEWDA TO RASILPUR": {
+        "PMGSY": 2142.3313483197644,
+        "Ring": "R7",
+        "Span_id": "004"
+    },
+    "HIGOUNA KALAN TO JATAWAR": {
+        "PMGSY": 2853.46570789023,
+        "Ring": "R4",
+        "Span_id": "005"
+    },
+    "HIHOUNA KHURD TO HIGOUNA KALAN": {
+        "PMGSY": 2363.2213747697456,
+        "Ring": "R4",
+        "Span_id": "004"
+    },
+    "KHABROULI TO MEERPUR": {
+        "PMGSY": 1531.8679569587998,
+        "Ring": "R2",
+        "Span_id": "008"
+    },
+    "MEERPUR TO GANJRAMPUR": {
+        "PMGSY": 3529.380096200305,
+        "Ring": "R2",
+        "Span_id": "009"
+    },
+    "HANSAI MEWDA TO HIHOUNA KHURD": {
+        "NH-44": 2604.3808369364156,
+        "PMGSY": 5052.009604542908,
+        "Ring": "R4",
+        "Span_id": "003"
+    },
+    "MORENA BLOCK TO DEVARI": {
+        "NH-44": 5850.363293052269,
+        "PMGSY": 67.74758033275747,
+        "Ring": "R3",
+        "Span_id": "001"
+    },
+    "IMALIYA TO RAMPUR GANJ": {
+        "PMGSY": 2086.7306827197854,
+        "Ring": "R2",
+        "Span_id": "002"
+    },
+    "GANJRAMPUR TO MORENA BLOCK": {
+        "MDR": 2930.2543249667424,
+        "NH-44": 89.72096945546562,
+        "NH-552": 3449.139082110756,
+        "PMGSY": 2236.0945259438563,
+        "Ring": "R2",
+        "Span_id": "010"
+    },
+    "MORENA BLOCK TO IMALIYA": {
+        "NH-44": 586.0629607878374,
+        "PMGSY": 9007.77373083169,
+        "Ring": "R2",
+        "Span_id": "001"
+    },
+    "JEWARA KHEDA TO JEEGANI": {
+        "NH-552": 2776.1831192012996,
+        "PMGSY": 1230.539093466596,
+        "Ring": "R7",
+        "Span_id": "002"
+    },
+    "RASILPUR TO SURJANPUR": {
+        "GRAMPANCHAYAT": 603.6493754613333,
+        "PMGSY": 2487.306719480937,
+        "Ring": "R7",
+        "Span_id": "005"
+    },
+    "SURJANPUR TO BASAIYA": {
+        "GRAMPANCHAYAT": 2011.5437224614088,
+        "PMGSY": 6.509007687511009,
+        "Ring": "R7",
+        "Span_id": "006"
+    },
+    "MORENA BLOCK TO JEWARA KHEDA": {
+        "MDR": 2684.2882009247674,
+        "NH-44": 91.60926348026304,
+        "NH-552": 2725.8609198003023,
+        "PMGSY": 2419.336729319805,
+        "Ring": "R7",
+        "Span_id": "001"
+    },
+    "KAITHODA TO HANSAI MEWDA": {
+        "PMGSY": 3253.135614923934,
+        "Ring": "R4",
+        "Span_id": "002"
+    },
+    "MORENA BLOCK TO KAITHODA": {
+        "PMGSY": 9284.990321047902,
+        "Ring": "R4",
+        "Span_id": "001"
+    },
+    "KISHANPUR TO MORENA BLOCK": {
+        "NH-44": 309.7238330004385,
+        "NH-552": 365.0130862215584,
+        "PMGSY": 8211.28950300682,
+        "PWD": 1233.477885231988,
+        "Ring": "R7",
+        "Span_id": "011"
+    },
+    "BASAIYA TO DONGARPUR KIRAR": {
+        "GRAMPANCHAYAT": 1062.9650706163898,
+        "PMGSY": 5575.207754569014,
+        "Ring": "R7",
+        "Span_id": "007"
+    },
+    "NAGRA TO KISHANPUR": {
+        "PMGSY": 4326.8188511783255,
+        "Ring": "R7",
+        "Span_id": "010"
+    },
+    "KAJI BASAI TO NAGRA": {
+        "PMGSY": 2700.4495364642075,
+        "Ring": "R7",
+        "Span_id": "009"
+    },
+    "JATAWARPURA TO MIRGHAN": {
+        "PMGSY": 3632.1027075585907,
+        "Ring": "R2-C1",
+        "Span_id": "005"
+    },
+    "MIRGHAN TO GHURGHAN": {
+        "PMGSY": 1768.8746633671926,
+        "Ring": "R2-C1",
+        "Span_id": "006"
+    },
+    "KARARI TO SIRMITI": {
+        "PMGSY": 3592.4266699562395,
+        "Ring": "R2-C1",
+        "Span_id": "003"
+    },
+    "NAWALI BADGAON TO KARARI": {
+        "PMGSY": 7988.830226192182,
+        "Ring": "R2-C1",
+        "Span_id": "002"
+    },
+    "SIRMITI TO JATAWARPURA": {
+        "PMGSY": 2441.699185779647,
+        "Ring": "R2-C1",
+        "Span_id": "004"
+    },
+    "BIJOLIPURA TO CHHICHHAWALI": {
+        "PMGSY": 4475.551354158875,
+        "Ring": "R7-C1",
+        "Span_id": "002"
+    },
+    "CHHICHHAWALI TO PARIKSHA": {
+        "PMGSY": 8636.462764029882,
+        "Ring": "R7-C1",
+        "Span_id": "003"
+    },
+    "GHURGHAN TO DATAHARA": {
+        "PMGSY": 3495.251064191556,
+        "Ring": "R2-C1",
+        "Span_id": "007"
+    },
+    "DATAHARA TO DONGARPUR LODHA": {
+        "PMGSY": 2451.6408790083688,
+        "Ring": "R2-C1",
+        "Span_id": "008"
+    },
+    "DONGARPUR LODHA TO AJANODHA": {
+        "PMGSY": 2321.289542906718,
+        "Ring": "R2-C1",
+        "Span_id": "009"
+    },
+    "T-POINT BASAIYA TO BIJOLIPURA": {
+        "PMGSY": 4228.596315204188,
+        "Ring": "R7-C1",
+        "Span_id": "001"
+    },
+    "DONGARPUR KIRAR TO KAJI BASAI": {
+        "PMGSY": 5923.051951515289,
+        "Ring": "R7",
+        "Span_id": "008"
+    },
+    "KOTWAL TO NANKA": {
+        "GRAMPANCHAYAT": 1145.7355885085126,
+        "PMGSY": 1122.1222221178314,
+        "Ring": "R6",
+        "Span_id": "002"
+    }
+}

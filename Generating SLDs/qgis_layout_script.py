@@ -15,18 +15,18 @@ import os
 import json
 from pathlib import Path
 
-district_name = 'Dhar'
-block_name = 'Gandhwani'
+district_name = 'Morena'
+block_name = 'Morena'
 
 # --- Settings ---
-# file_path = f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details-{block_name}.json"
-file_path = f"C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\output\\span_details-{block_name}.json"
+file_path = f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details-{block_name}.json"
+# file_path = f"C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\output\\span_details-{block_name}.json"
 with open(file_path, "r", encoding="utf-8") as f:
     span_dict = json.load(f)
 
 layer_name = f"RoW Authorities-{block_name}"  # Name of the layer in QGIS
-# output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
-output_folder = f"D:\\bharat_net_data\slds\\{block_name}"
+output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
+# output_folder = f"D:\\bharat_net_data\slds\\{block_name}"
 end_point_layer = f"output_points-{block_name}"
 block_dir = Path(output_folder)
 block_dir.mkdir(exist_ok=True)
@@ -241,8 +241,8 @@ for span in unique_spans:
 
     # --- North Arrow (as SVG Picture) ---
     picture = QgsLayoutItemPicture(layout)
-    picture.setPicturePath("C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\\North\\north_simple.svg")
-    # picture.setPicturePath("/Users/subhashsoni/Formatting_excel_data/Generating SLDs/North/north_simple.svg")
+    # picture.setPicturePath("C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\\North\\north_simple.svg")
+    picture.setPicturePath("/Users/subhashsoni/Formatting_excel_data/Generating SLDs/North/north_simple.svg")
     picture.setFixedSize(QgsLayoutSize(10, 10, QgsUnitTypes.LayoutMillimeters))
     picture.attemptMove(QgsLayoutPoint(page_width-15, page_height-15, QgsUnitTypes.LayoutMillimeters))
     layout.addLayoutItem(picture)
@@ -258,7 +258,7 @@ for span in unique_spans:
     pdf_settings.rasterizeWholeImage = False  # Don't rasterize
     pdf_settings.simplifyGeometries = False  # Keep geometry intact
     pdf_settings.textRenderFormat = Qgis.TextRenderFormat.AlwaysText
-    pdf_settings.dpi = 95
+    pdf_settings.dpi = 120
 
     exporter = QgsLayoutExporter(layout)
     pdf_path = os.path.join(ring_folder, f"{ring}-{span_id}-{span}.pdf")
