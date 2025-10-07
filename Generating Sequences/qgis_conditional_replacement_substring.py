@@ -16,7 +16,7 @@ update_field = "span_name"
 '''
 
 replacement_map = {
-'T-POINT BODLI TO KOTHDAKALA':'KOTHDAKALA TO T-POINT BODLI',
+'T-POINT KATARKHEDA-CHHACHHKUA':'T-POINT KATARKHEDA TO CHHACHHKUA' 
 }
 count = 0 
 
