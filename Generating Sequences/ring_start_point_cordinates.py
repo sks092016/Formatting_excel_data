@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Sardarpur"
+blockName = "Kesli"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,41 +32,48 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Sardarpur/gps.shp"
-segments_shape_file = "References/Sardarpur/OFC_NEW.shp"
+gps_shape_file = "References/Kesli/gps.shp"
+segments_shape_file = "References/Kesli/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '74.97507875 22.66384565'
+BHQ_CORDINATE = '78.80202909 23.41946159'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
-    'R4': BHQ_CORDINATE,
-    'R5': BHQ_CORDINATE,
-    'R6': BHQ_CORDINATE,
-    'R7': BHQ_CORDINATE,
-    'R2-C1':'74.84955910 22.70766059',
-    'R4-C1':'75.11757640 22.75349899',
-    'R5-C1': '75.04541697 22.90231969',
-    'R5-C2': '75.05868402 22.76570134',
-    'R7-C1': '75.11926852 22.64514307',
+    'R1-C1':'78.77114640 23.51369740',
+    'R1-C2':'78.69763830 23.42222794',
+    'R2-C1': '78.90414391 23.39497533',
+    'R2-C2': '78.87060899 23.48049327',
+    'R3-C1': '78.86696320 23.35188039',
+    'R3-C2': '78.83513002 23.30574744',
+}
+t_point_ring_spans = {
+'t-point bamhni (p)':(78.87060899,23.48049327),
+'t-point gatauri pana(p)':(78.90414391,23.39497533),
+'t-point ghana (p)':(78.78418983,23.37650898),
+'t-point kesli (p)':(78.81332427,23.43457244),
+'t-point kheri kalan (p)':(78.64405775,23.43507827),
+'t-point muhli (p)':(78.84724796,23.29293740),
+'t-point narayanpur(p)':(78.69763830,23.42222794),
 }
 
-t_point_ring_spans = {
-'t-point bhatiabardi':(74.84955910,22.70766059),
-'t-point bodli':(75.05868402,22.76570134),
-'t-point chotiyabalod':(75.11757640,22.75349899),
-'t-point gumanpura':(74.84228041,22.60623324),
-'t-point kasharpura':(75.11926852,22.64514307),
-'t-point sajod':(75.06693546,22.95151681),
-'t-point salwa':(75.04541697,22.90231969),
-'t-point dedla':(75.05868402,22.76570134),
-'t-point utava':(74.81466487,22.65155177),
-'t-point fulgavdi':(75.04530773,22.63007108)
-}
+# Sardarpur
+# t_point_ring_spans = {
+# 't-point bhatiabardi':(74.84955910,22.70766059),
+# 't-point bodli':(75.05868402,22.76570134),
+# 't-point chotiyabalod':(75.11757640,22.75349899),
+# 't-point gumanpura':(74.84228041,22.60623324),
+# 't-point kasharpura':(75.11926852,22.64514307),
+# 't-point sajod':(75.06693546,22.95151681),
+# 't-point salwa':(75.04541697,22.90231969),
+# 't-point dedla':(75.05868402,22.76570134),
+# 't-point utava':(74.81466487,22.65155177),
+# 't-point fulgavdi':(75.04530773,22.63007108)
+# }
 # Morena
 # t_point_ring_spans = {
 # 't-point baretha':(78.07777500,26.59153400),
