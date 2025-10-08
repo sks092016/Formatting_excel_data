@@ -1,0 +1,39 @@
+2025-10-08 23:49:58,577 - WARNING -  ⚠️ The Geometry is multiline string starting at (80.00626427800006, 21.67833663300007) & ending at (80.00856810900007, 21.678394250000053)
+2025-10-08 23:49:58,578 - WARNING -  ⚠️ The Geometry is multiline string starting at (80.00626427800006, 21.67833663300007) & ending at (80.00856810900007, 21.678394250000053)
+2025-10-08 23:49:58,586 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'rampayli to singodi'.
+2025-10-08 23:49:58,586 - WARNING - ⚠️ The Span rampayli to singodi is disconnected at this point (80.00856810900007, 21.678394250000053)
+2025-10-08 23:49:59,252 - INFO - Created 1,358 records
+2025-10-08 23:49:59,268 - INFO - Created 72 records
+2025-10-08 23:49:59,268 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-10-08 23:49:59,269 - INFO - Created 1 records
+2025-10-08 23:49:59,308 - INFO - 🔄 Found 9 rings: ['R1', 'R1-C1', 'R1-C2', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R3-C2', 'R4']
+2025-10-08 23:49:59,308 - INFO - 
+🔁 Processing ring: R1
+2025-10-08 23:49:59,313 - INFO - ✅ Completed ring R1 with 11 spans.
+2025-10-08 23:49:59,313 - INFO - 
+🔁 Processing ring: R1-C1
+2025-10-08 23:49:59,315 - INFO - ✅ Completed ring R1-C1 with 6 spans.
+2025-10-08 23:49:59,315 - INFO - 
+🔁 Processing ring: R1-C2
+2025-10-08 23:49:59,318 - INFO - ✅ Completed ring R1-C2 with 5 spans.
+2025-10-08 23:49:59,318 - INFO - 
+🔁 Processing ring: R2
+2025-10-08 23:49:59,321 - INFO - ✅ Completed ring R2 with 7 spans.
+2025-10-08 23:49:59,321 - INFO - 
+🔁 Processing ring: R2-C1
+2025-10-08 23:49:59,324 - INFO - ✅ Completed ring R2-C1 with 6 spans.
+2025-10-08 23:49:59,324 - INFO - 
+🔁 Processing ring: R3
+2025-10-08 23:49:59,329 - INFO - ✅ Completed ring R3 with 11 spans.
+2025-10-08 23:49:59,329 - INFO - 
+🔁 Processing ring: R3-C1
+2025-10-08 23:49:59,332 - INFO - ✅ Completed ring R3-C1 with 6 spans.
+2025-10-08 23:49:59,332 - INFO - 
+🔁 Processing ring: R3-C2
+2025-10-08 23:49:59,333 - INFO - ✅ Completed ring R3-C2 with 3 spans.
+2025-10-08 23:49:59,333 - INFO - 
+🔁 Processing ring: R4
+2025-10-08 23:49:59,338 - INFO - ✅ Completed ring R4 with 11 spans.
+2025-10-08 23:49:59,383 - INFO - Created 1,358 records
+2025-10-08 23:49:59,400 - INFO - Created 72 records
+2025-10-08 23:49:59,401 - INFO - ✅ All rings processed. Span sequence updated and saved.

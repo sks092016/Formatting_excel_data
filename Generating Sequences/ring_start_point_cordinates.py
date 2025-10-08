@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Dahi-2"
+blockName = "Waraseoni"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,25 +32,36 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Dahi2/gps.shp"
-segments_shape_file = "References/Dahi2/OFC_NEW.shp"
+gps_shape_file = "References/waraseoni/gps.shp"
+segments_shape_file = "References/waraseoni/new/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '74.58572600 22.11462600'
+BHQ_CORDINATE = '80.05768897 21.76250375'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
     'R4': BHQ_CORDINATE,
-    'R2-C1':'74.54526688 22.20110931',
+    'R1-C1':'79.92824080 21.79166120',
+    'R1-C2':'79.98078580 21.76259730',
+    'R2-C1':'79.98263330 21.66628500',
+    'R3-C1':'80.10182506 21.69985806',
+    'R3-C2':'80.06379836 21.70458830',
 }
 t_point_ring_spans = {
-'t-point arada':(74.54526688,22.20110931),
-'t-point katarkheda':(74.55619883,22.07870419)
+'t-point dinera':(80.17005237 ,21.68418166),
+'t-point jhadgaon':(80.06379836,21.70458830),
+'t-point narodi':(79.92824080 ,21.79166120),
+'t-point padampur (nimgaon)':(80.16344923 ,21.65679759),
 }
+# dahi -2
+# t_point_ring_spans = {
+# 't-point arada':(74.54526688,22.20110931),
+# 't-point katarkheda':(74.55619883,22.07870419)
+# }
 
 # Kesli
 # rings = {

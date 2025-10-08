@@ -1,0 +1,37 @@
+2025-10-08 23:53:32,219 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'rampayli to singodi'.
+2025-10-08 23:53:32,220 - WARNING - ⚠️ The Span rampayli to singodi is disconnected at this point (80.00626427800006, 21.67833663300007)
+2025-10-08 23:53:32,879 - INFO - Created 1,357 records
+2025-10-08 23:53:32,885 - INFO - Created 72 records
+2025-10-08 23:53:32,885 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-10-08 23:53:32,887 - INFO - Created 1 records
+2025-10-08 23:53:32,924 - INFO - 🔄 Found 9 rings: ['R1', 'R1-C1', 'R1-C2', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R3-C2', 'R4']
+2025-10-08 23:53:32,924 - INFO - 
+🔁 Processing ring: R1
+2025-10-08 23:53:32,929 - INFO - ✅ Completed ring R1 with 11 spans.
+2025-10-08 23:53:32,929 - INFO - 
+🔁 Processing ring: R1-C1
+2025-10-08 23:53:32,932 - INFO - ✅ Completed ring R1-C1 with 6 spans.
+2025-10-08 23:53:32,932 - INFO - 
+🔁 Processing ring: R1-C2
+2025-10-08 23:53:32,935 - INFO - ✅ Completed ring R1-C2 with 5 spans.
+2025-10-08 23:53:32,935 - INFO - 
+🔁 Processing ring: R2
+2025-10-08 23:53:32,938 - INFO - ✅ Completed ring R2 with 7 spans.
+2025-10-08 23:53:32,939 - INFO - 
+🔁 Processing ring: R2-C1
+2025-10-08 23:53:32,942 - INFO - ✅ Completed ring R2-C1 with 6 spans.
+2025-10-08 23:53:32,942 - INFO - 
+🔁 Processing ring: R3
+2025-10-08 23:53:32,948 - INFO - ✅ Completed ring R3 with 11 spans.
+2025-10-08 23:53:32,948 - INFO - 
+🔁 Processing ring: R3-C1
+2025-10-08 23:53:32,951 - INFO - ✅ Completed ring R3-C1 with 6 spans.
+2025-10-08 23:53:32,952 - INFO - 
+🔁 Processing ring: R3-C2
+2025-10-08 23:53:32,953 - INFO - ✅ Completed ring R3-C2 with 3 spans.
+2025-10-08 23:53:32,953 - INFO - 
+🔁 Processing ring: R4
+2025-10-08 23:53:32,959 - INFO - ✅ Completed ring R4 with 11 spans.
+2025-10-08 23:53:33,004 - INFO - Created 1,357 records
+2025-10-08 23:53:33,019 - INFO - Created 72 records
+2025-10-08 23:53:33,020 - INFO - ✅ All rings processed. Span sequence updated and saved.
