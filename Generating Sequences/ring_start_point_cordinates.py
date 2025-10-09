@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Waraseoni"
+blockName = "Aron"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,31 +32,40 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/waraseoni/gps.shp"
-segments_shape_file = "References/waraseoni/new/OFC_NEW.shp"
+gps_shape_file = "References/Aron/gps.shp"
+segments_shape_file = "References/Aron/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '80.05768897 21.76250375'
+BHQ_CORDINATE = '77.40867040 24.38258040'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
     'R4': BHQ_CORDINATE,
-    'R1-C1':'79.92824080 21.79166120',
-    'R1-C2':'79.98078580 21.76259730',
-    'R2-C1':'79.98263330 21.66628500',
-    'R3-C1':'80.10182506 21.69985806',
-    'R3-C2':'80.06379836 21.70458830',
+    'R2-C1':'77.45662011 24.49802900',
+    'R3-C1':'77.52153750 24.30792919',
+    'R4-C1':'77.50871632 24.36956661',
 }
+#Aron
 t_point_ring_spans = {
-'t-point dinera':(80.17005237 ,21.68418166),
-'t-point jhadgaon':(80.06379836,21.70458830),
-'t-point narodi':(79.92824080 ,21.79166120),
-'t-point padampur (nimgaon)':(80.16344923 ,21.65679759),
+'t-point bhador':(77.45662011,24.49802900),
+'t-point kundoli':(77.52153750,24.30792919),
+'t-point kusman':(77.32937950,24.33100080),
+'t-point mudramata':(77.47087596,24.27007864),
+'t-point mundrakhurd':(77.50871632,24.36956661),
+'t-point saharog':(77.33236815,24.41324173),
+'t-point mundrakhurd':(77.47640600,24.38708489)
 }
+# waraseoni
+# t_point_ring_spans = {
+# 't-point dinera':(80.17005237 ,21.68418166),
+# 't-point jhadgaon':(80.06379836,21.70458830),
+# 't-point narodi':(79.92824080 ,21.79166120),
+# 't-point padampur (nimgaon)':(80.16344923 ,21.65679759),
+# }
 # dahi -2
 # t_point_ring_spans = {
 # 't-point arada':(74.54526688,22.20110931),
