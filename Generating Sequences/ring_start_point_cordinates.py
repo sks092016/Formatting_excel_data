@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Aron"
+blockName = "Shahgarh"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,33 +32,35 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Aron/gps.shp"
-segments_shape_file = "References/Aron/OFC_NEW.shp"
+gps_shape_file = "References/shahgarh/gps.shp"
+segments_shape_file = "References/shahgarh/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '77.40867040 24.38258040'
+BHQ_CORDINATE = '79.12680806 24.31922957'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
-    'R3': BHQ_CORDINATE,
-    'R4': BHQ_CORDINATE,
-    'R2-C1':'77.45662011 24.49802900',
-    'R3-C1':'77.52153750 24.30792919',
-    'R4-C1':'77.50871632 24.36956661',
+    'R1-C1':'79.16603324 24.41279624',
+    'R2-C1':'79.03733475 24.33464153',
 }
-#Aron
 t_point_ring_spans = {
-'t-point bhador':(77.45662011,24.49802900),
-'t-point kundoli':(77.52153750,24.30792919),
-'t-point kusman':(77.32937950,24.33100080),
-'t-point mudramata':(77.47087596,24.27007864),
-'t-point mundrakhurd':(77.50871632,24.36956661),
-'t-point saharog':(77.33236815,24.41324173),
-'t-point mundrakhurd':(77.47640600,24.38708489)
+'t-point baraj':(79.01380568,24.38229667),
+'t-point kanikhedi kala':(79.03733475,24.33464153),
+'t-point rampur':(79.16603324,24.41279624),
 }
+# #Aron
+# t_point_ring_spans = {
+# 't-point bhador':(77.45662011,24.49802900),
+# 't-point kundoli':(77.52153750,24.30792919),
+# 't-point kusman':(77.32937950,24.33100080),
+# 't-point mudramata':(77.47087596,24.27007864),
+# 't-point mundrakhurd':(77.50871632,24.36956661),
+# 't-point saharog':(77.33236815,24.41324173),
+# 't-point mundrakhurd':(77.47640600,24.38708489)
+# }
 # waraseoni
 # t_point_ring_spans = {
 # 't-point dinera':(80.17005237 ,21.68418166),

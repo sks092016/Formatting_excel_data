@@ -16,7 +16,7 @@ update_field = "span_name"
 '''
 
 replacement_map = {
-'T-POINT KATARKHEDA-CHHACHHKUA':'T-POINT KATARKHEDA TO CHHACHHKUA' 
+'t point':'t-point',
 }
 count = 0 
 
