@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Shahgarh"
+blockName = "Sujalpur"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,25 +32,48 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/shahgarh/gps.shp"
-segments_shape_file = "References/shahgarh/OFC_NEW.shp"
+gps_shape_file = "References/Sujalpur/gps.shp"
+segments_shape_file = "References/Sujalpur/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '79.12680806 24.31922957'
+BHQ_CORDINATE = '76.70407400 23.39659100'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
-    'R1-C1':'79.16603324 24.41279624',
-    'R2-C1':'79.03733475 24.33464153',
+    'R3': BHQ_CORDINATE,
+    'R4': BHQ_CORDINATE,
+    'R5': BHQ_CORDINATE,
+    'R1-C1':'76.68066904 23.30834591',
+    'R2-C1':'76.62475700 23.48020500',
+    'R3-C1':'76.74605900 23.37502900',
+    'R4-C1':'76.59939800 23.23586800',
+
 }
 t_point_ring_spans = {
-'t-point baraj':(79.01380568,24.38229667),
-'t-point kanikhedi kala':(79.03733475,24.33464153),
-'t-point rampur':(79.16603324,24.41279624),
+'t-point bhugor':(76.74605900 ,23.37502900),
+'t-point jhadla':(76.78570245,23.40506872),
+'t-point kisoni':(76.72077030,23.34649450),
+'t-point lalpura':(76.65489269,23.43357435),
+'t-point magraniya':(76.68066904,23.30834591),
+'t-point mitera':(76.62475700,23.48020500),
+'t-point murta kevdi':(76.50273889,23.23076124),
+'t-point narola hirpur':(76.80399356,23.40896515),
+'t-point richoda richoda':(76.65489269,23.43357435),
+'t-point richoda':(76.65169200,23.41609600),
+'t-point tajpur ukala':(76.73185994,23.45010177),
+'t-point undai':(76.71810619,23.46920125),
+'t-point raipur':(76.68664970,23.45201932),
+'t-point amlay':(76.72335523,23.28994043)
 }
+# shahgarh
+# t_point_ring_spans = {
+# 't-point baraj':(79.01380568,24.38229667),
+# 't-point kanikhedi kala':(79.03733475,24.33464153),
+# 't-point rampur':(79.16603324,24.41279624),
+# }
 # #Aron
 # t_point_ring_spans = {
 # 't-point bhador':(77.45662011,24.49802900),

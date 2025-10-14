@@ -1,0 +1,37 @@
+2025-10-14 00:05:42,383 - WARNING -  ⚠️ The Geometry is multiline string starting at (76.68848600000007, 23.396633000000065) & ending at (76.68738942100003, 23.396099434000064)
+2025-10-14 00:05:42,384 - WARNING -  ⚠️ The Geometry is multiline string starting at (76.68848600000007, 23.396633000000065) & ending at (76.68738942100003, 23.396099434000064)
+2025-10-14 00:05:42,824 - INFO - Created 1,108 records
+2025-10-14 00:05:42,832 - INFO - Created 83 records
+2025-10-14 00:05:42,833 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-10-14 00:05:42,836 - INFO - Created 0 records
+2025-10-14 00:05:42,870 - INFO - 🔄 Found 9 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4', 'R4-C1', 'R5']
+2025-10-14 00:05:42,870 - INFO - 
+🔁 Processing ring: R1
+2025-10-14 00:05:42,873 - INFO - ✅ Completed ring R1 with 6 spans.
+2025-10-14 00:05:42,873 - INFO - 
+🔁 Processing ring: R1-C1
+2025-10-14 00:05:42,877 - INFO - ✅ Completed ring R1-C1 with 9 spans.
+2025-10-14 00:05:42,877 - INFO - 
+🔁 Processing ring: R2
+2025-10-14 00:05:42,881 - INFO - ✅ Completed ring R2 with 9 spans.
+2025-10-14 00:05:42,881 - INFO - 
+🔁 Processing ring: R2-C1
+2025-10-14 00:05:42,884 - INFO - ✅ Completed ring R2-C1 with 7 spans.
+2025-10-14 00:05:42,884 - INFO - 
+🔁 Processing ring: R3
+2025-10-14 00:05:42,888 - INFO - ✅ Completed ring R3 with 10 spans.
+2025-10-14 00:05:42,888 - INFO - 
+🔁 Processing ring: R3-C1
+2025-10-14 00:05:42,892 - INFO - ✅ Completed ring R3-C1 with 8 spans.
+2025-10-14 00:05:42,892 - INFO - 
+🔁 Processing ring: R4
+2025-10-14 00:05:42,896 - INFO - ✅ Completed ring R4 with 10 spans.
+2025-10-14 00:05:42,896 - INFO - 
+🔁 Processing ring: R4-C1
+2025-10-14 00:05:42,899 - INFO - ✅ Completed ring R4-C1 with 8 spans.
+2025-10-14 00:05:42,899 - INFO - 
+🔁 Processing ring: R5
+2025-10-14 00:05:42,903 - INFO - ✅ Completed ring R5 with 7 spans.
+2025-10-14 00:05:42,967 - INFO - Created 1,108 records
+2025-10-14 00:05:42,972 - INFO - Created 83 records
+2025-10-14 00:05:42,972 - INFO - ✅ All rings processed. Span sequence updated and saved.

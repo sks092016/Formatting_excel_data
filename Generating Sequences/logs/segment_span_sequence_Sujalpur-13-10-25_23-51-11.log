@@ -1,0 +1,39 @@
+2025-10-13 23:51:12,357 - WARNING -  ⚠️ The Geometry is multiline string starting at (76.68735308200007, 23.39618421800003) & ending at (76.68844500000006, 23.396728000000053)
+2025-10-13 23:51:12,358 - WARNING -  ⚠️ The Geometry is multiline string starting at (76.68735308200007, 23.39618421800003) & ending at (76.68844500000006, 23.396728000000053)
+2025-10-13 23:51:13,096 - WARNING -  ⚠️ The Geometry is multiline string starting at (76.68848600000007, 23.396633000000065) & ending at (76.68738942100003, 23.396099434000064)
+2025-10-13 23:51:13,097 - WARNING -  ⚠️ The Geometry is multiline string starting at (76.68848600000007, 23.396633000000065) & ending at (76.68738942100003, 23.396099434000064)
+2025-10-13 23:51:13,484 - INFO - Created 1,108 records
+2025-10-13 23:51:13,490 - INFO - Created 83 records
+2025-10-13 23:51:13,491 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-10-13 23:51:13,494 - INFO - Created 0 records
+2025-10-13 23:51:13,527 - INFO - 🔄 Found 9 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4', 'R4-C1', 'R5']
+2025-10-13 23:51:13,528 - INFO - 
+🔁 Processing ring: R1
+2025-10-13 23:51:13,531 - INFO - ✅ Completed ring R1 with 6 spans.
+2025-10-13 23:51:13,531 - INFO - 
+🔁 Processing ring: R1-C1
+2025-10-13 23:51:13,535 - INFO - ✅ Completed ring R1-C1 with 9 spans.
+2025-10-13 23:51:13,535 - INFO - 
+🔁 Processing ring: R2
+2025-10-13 23:51:13,539 - INFO - ✅ Completed ring R2 with 9 spans.
+2025-10-13 23:51:13,539 - INFO - 
+🔁 Processing ring: R2-C1
+2025-10-13 23:51:13,542 - INFO - ✅ Completed ring R2-C1 with 7 spans.
+2025-10-13 23:51:13,542 - INFO - 
+🔁 Processing ring: R3
+2025-10-13 23:51:13,546 - INFO - ✅ Completed ring R3 with 10 spans.
+2025-10-13 23:51:13,546 - INFO - 
+🔁 Processing ring: R3-C1
+2025-10-13 23:51:13,550 - INFO - ✅ Completed ring R3-C1 with 8 spans.
+2025-10-13 23:51:13,550 - INFO - 
+🔁 Processing ring: R4
+2025-10-13 23:51:13,554 - INFO - ✅ Completed ring R4 with 10 spans.
+2025-10-13 23:51:13,554 - INFO - 
+🔁 Processing ring: R4-C1
+2025-10-13 23:51:13,558 - INFO - ✅ Completed ring R4-C1 with 8 spans.
+2025-10-13 23:51:13,558 - INFO - 
+🔁 Processing ring: R5
+2025-10-13 23:51:13,561 - INFO - ✅ Completed ring R5 with 7 spans.
+2025-10-13 23:51:13,614 - INFO - Created 1,108 records
+2025-10-13 23:51:13,620 - INFO - Created 83 records
+2025-10-13 23:51:13,621 - INFO - ✅ All rings processed. Span sequence updated and saved.
