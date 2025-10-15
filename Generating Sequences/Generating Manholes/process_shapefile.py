@@ -42,7 +42,7 @@ def process_shapefile(input_path, output_path='output_points.shp', span_filter='
     if filtered.empty:
         raise ValueError(f"No records found for span_name '{span_filter}'")
 
-    filtered['sort_key'] = filtered['segment_sequence'].apply(natural_sort_key)
+    filtered['sort_key'] = filtered['seg_seq'].apply(natural_sort_key)
     filtered = filtered.sort_values(by='sort_key').reset_index(drop=True)
 
     merged_line = linemerge(filtered.geometry.tolist())
@@ -97,6 +97,10 @@ def visualize_results(input_path, output_path):
     plt.show()
 
 if __name__ == "__main__":
-    sample_path = generate_sample_shapefile()
-    process_shapefile(sample_path, 'output_points.shp', span_filter='SPAN_A')
-    visualize_results(sample_path, 'output_points.shp')
+    sample_path = '../References/Output/Final/OFC_New_Sujalpur-1_Seg_Span_Seq.shp'
+    gdf = gpd.read_file(sample_path)
+    span_list = gdf.sort_values('span_name').span_name.unique()
+    for s in span_list:
+        process_shapefile(sample_path, 'output_points.shp', span_filter=s)
+        visualize_results(sample_path, 'output_points.shp')
+        break
