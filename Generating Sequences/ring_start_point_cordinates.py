@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Sujalpur"
+blockName = "Bhanpura"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,42 +32,94 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Sujalpur/gps.shp"
-segments_shape_file = "References/Sujalpur/OFC_NEW.shp"
+gps_shape_file = "References/bhanpura/gps.shp"
+segments_shape_file = "References/bhanpura/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '76.70407400 23.39659100'
+BHQ_CORDINATE = '75.74290000 24.51050000'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
-    'R4': BHQ_CORDINATE,
-    'R5': BHQ_CORDINATE,
-    'R1-C1':'76.68066904 23.30834591',
-    'R2-C1':'76.62475700 23.48020500',
-    'R3-C1':'76.74605900 23.37502900',
-    'R4-C1':'76.59939800 23.23586800',
-
+    'R1-C1':'75.69779937 24.43332186',
+    'R2-C1':'75.71028000 24.58177000',
+    'R3-C1':'75.80424409 24.52005341',
 }
+# gangev
 t_point_ring_spans = {
-'t-point bhugor':(76.74605900 ,23.37502900),
-'t-point jhadla':(76.78570245,23.40506872),
-'t-point kisoni':(76.72077030,23.34649450),
-'t-point lalpura':(76.65489269,23.43357435),
-'t-point magraniya':(76.68066904,23.30834591),
-'t-point mitera':(76.62475700,23.48020500),
-'t-point murta kevdi':(76.50273889,23.23076124),
-'t-point narola hirpur':(76.80399356,23.40896515),
-'t-point richoda richoda':(76.65489269,23.43357435),
-'t-point richoda':(76.65169200,23.41609600),
-'t-point tajpur ukala':(76.73185994,23.45010177),
-'t-point undai':(76.71810619,23.46920125),
-'t-point raipur':(76.68664970,23.45201932),
-'t-point amlay':(76.72335523,23.28994043)
+'t-point amaha to hirudih'
+'t-point badokhar to mauhariya'
+'t-point badokhar to pachokhar'
+'t-point chauri to kharahari'
+'t-point dagardua to amaha'
+'t-point dagardua to pangadi kala'
+'t-point gangev block to tikuri'
+'t-point garh to lauri khurd'
+'t-point godari 27 to madari'
+'t-point kadaila to nadana'
+'t-point keoti to piparha'
+'t-point lalgaon to kolhai'
+'t-point madari to patai'
+'t-point marhi kalan to godari'
+'t-point raksha majan to padua'
+'t-point rampur to dhawaiya'
+'t-point raura to khairaha'
+'t-point sirsa to saheba'
+'t-point tikuri 32 to ghuchiyari'
+'t-point tiwani  to budwa'
+'t-point tiwani to alamganj'
 }
+
+# t_point_ring_spans = {
+# 't-point amaha':(81.57659718,24.80165722),
+# 't-point baans':(81.61099214,24.83125148),
+# 't-point badokhar':(81.53324395,24.78550690),
+# 't-point chauri':(81.50195115,24.79135102),
+# 't-point dagardua':(81.59009100,24.79539500),
+# 't-point kadaila':(81.42467165,24.68035748),
+# 't-point keoti':(81.45369171,24.78553194),
+# 't-point lalgaon':(81.53563979,24.81814018),
+# 't-point lauri khurd':(81.63274336,24.82239743),
+# 't-point marhi kalan':(81.57147671,24.68683759),
+# 't-point mauhariya':(81.55933590,24.79243073),
+# 't-point rampur':(81.47398500,24.68174600),
+# 't-point rampurava':(81.48996581,24.75044064),
+# 't-point raura':(81.46870236,24.75741242),
+# 't-point sirsa':(81.53076553,24.70468954),
+# 't-point siswa':(81.57661100,24.85130245),
+# 't-point tikuri 32':(81.63237681,24.75887289),
+# 't-point tiwani':(81.50903800,24.64675540),
+# 't-point katheri':(81.46279157,24.63500084),
+# }
+# bhanpura
+# t_point_ring_spans = {
+# 't-point barodiya':(75.69071300,24.60092600),
+# 't-point dhablamadhosingh':(75.81055958,24.60224282),
+# 't-point kailashpura':(75.71028000,24.58177000),
+# 't-point paroniya':(75.69779937,24.43332186),
+# 't-point prempuria':(75.67376212,24.62896776),
+# 't-point ratanpura':(75.80424409,24.52005341),
+# }
+# Sujalpur
+# t_point_ring_spans = {
+# 't-point bhugor':(76.74605900 ,23.37502900),
+# 't-point jhadla':(76.78570245,23.40506872),
+# 't-point kisoni':(76.72077030,23.34649450),
+# 't-point lalpura':(76.65489269,23.43357435),
+# 't-point magraniya':(76.68066904,23.30834591),
+# 't-point mitera':(76.62475700,23.48020500),
+# 't-point murta kevdi':(76.50273889,23.23076124),
+# 't-point narola hirpur':(76.80399356,23.40896515),
+# 't-point richoda richoda':(76.65489269,23.43357435),
+# 't-point richoda':(76.65169200,23.41609600),
+# 't-point tajpur ukala':(76.73185994,23.45010177),
+# 't-point undai':(76.71810619,23.46920125),
+# 't-point raipur':(76.68664970,23.45201932),
+# 't-point amlay':(76.72335523,23.28994043)
+# }
 # shahgarh
 # t_point_ring_spans = {
 # 't-point baraj':(79.01380568,24.38229667),

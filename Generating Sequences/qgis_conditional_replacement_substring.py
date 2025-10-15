@@ -16,7 +16,7 @@ update_field = "span_name"
 '''
 
 replacement_map = {
-'t point':'t-point',
+'t- point':'t-point',
 }
 count = 0 
 
