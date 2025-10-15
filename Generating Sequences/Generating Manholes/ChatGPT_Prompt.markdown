@@ -1,13 +1,13 @@
 # Detailed Prompt for Processing Shapefile Line Segments
 
-You are tasked with writing a Python script using libraries such as `geopandas`, `shapely`, and other relevant geospatial libraries to process a shapefile containing multiple line segments as features. The goal is to filter, sort, and extract specific coordinates based on the following requirements. Please ensure the script is efficient, well-commented, and handles edge cases appropriately.
+You are tasked with writing a Python script using libraries such as `geopandas`, `shapely`, or whichever may you find suitable and other relevant geospatial libraries to process a shapefile containing multiple line segments as features. The goal is to filter, sort, and extract specific coordinates based on the following requirements. Please ensure the script is efficient, well-commented, and handles edge cases appropriately.
 
 ## Input Description
 - The input is a shapefile containing multiple line segments, where each segment is a feature.
 - Each feature has the following fields:
   - `span_name`: A string identifying a group of segments.
   - `segment_sequence`: An integer or string indicating the sequence order of the segment within its group.
-  - `feature_type`: A string indicating the type of segment (e.g., "Bridge", "Road Cross", or other types).
+  - `crossing_t`: A string indicating the type of segment (e.g., "Bridge", "Road Cross", or other types).
   - Geometry: A LineString representing the line segment with coordinate points.
 - The shapefile is assumed to be in a projected coordinate system (e.g., UTM) where distances can be calculated in meters.
 
@@ -34,40 +34,12 @@ You are tasked with writing a Python script using libraries such as `geopandas`,
   - The first coordinate (x, y) that is 10 meters from the start of the first segment.
   - The second coordinate (x, y) based on the conditions above, or multiple coordinates in the case of a long bridge (>150 meters).
   - If a bridge >150 meters is encountered, output the two coordinates (50 meters before start and 50 meters beyond end).
-- The output should be in a clear format, such as a dictionary or list of coordinates with metadata (e.g., which condition was satisfied).
+- The output should be in a shape file format with point geometry, 
 - Handle edge cases, such as:
-  - Missing or invalid `span_name` or `segment_sequence`.
+  - Missing or invalid `span_name` or `sequence`.
   - Segments with insufficient length to satisfy distance requirements.
   - Cases where no "Bridge" or "Road Cross" segments exist.
   - Cases where the total length of segments is less than 1800 meters.
   - Invalid geometries or empty shapefiles.
-
-## Additional Guidelines
-- Use `geopandas` to read and manipulate the shapefile.
-- Use `shapely` for geometric operations like calculating distances, interpolating points, and extending lines.
-- Ensure the script is robust and includes error handling for invalid inputs or unexpected data.
-- Include comments explaining the logic for each major step.
-- Assume distances are calculated in meters and the shapefile is in a suitable projected coordinate system.
-- If external libraries are required beyond `geopandas` and `shapely`, specify them clearly.
-- Provide a sample usage example with a hypothetical shapefile path and `span_name`.
-
-## Example Usage
-```python
-shapefile_path = "path/to/shapefile.shp"
-span_name = "span_1"
-coordinates = process_shapefile(shapefile_path, span_name)
-print("First Coordinate:", coordinates["first"])
-print("Second Coordinate(s):", coordinates["second"])
-```
-
-## Expected Output Format
-```python
-{
-    "first": (x1, y1),
-    "second": [(x2, y2), ...],  # List to accommodate multiple coordinates for long bridges
-    "condition_met": "distance_1800m | bridge_short | bridge_long | road_cross",
-    "segment_id": "ID of the segment where second coordinate was found, if applicable"
-}
-```
 
 Please provide a complete Python script that meets these requirements, including all necessary imports, functions, and error handling. Ensure the script is tested with a sample dataset or includes instructions for creating a sample shapefile for testing.
