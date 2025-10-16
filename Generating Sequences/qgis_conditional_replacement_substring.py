@@ -6,17 +6,13 @@ check_field = "span_name"
 update_field = "span_name"
 
 # t-point corrections
-'''
-'t point':'t-point',
-'t- point':'t-point',
-'t -point':'t-point',
-'t - point':'t-point',
-
-{'extra_in_spans': {'T PONIT FULGAVDI', 'SARDARPUR OLT', 'TANDAKHEDA', 'BODIYA', 'TANDAKHEDA MEHARGAON'}, 'unused_gps': {'TANDAKHEDA MEHGAON'}}
-'''
 
 replacement_map = {
-'t- point':'t-point',
+'agra to t-point hanota sagar' : 't-point hanota sagar to hanota sagar',
+'singna to agra': 'singna to agra',
+'bilhar to singna': 'bilhar to singna',
+'t-point mahuwa kheda to bilhar' : 'bilhar to t-point mahuwa kheda',
+
 }
 count = 0 
 

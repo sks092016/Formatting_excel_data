@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Gangev"
+blockName = "Jaisinagar"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,51 +32,63 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Gangev/gps.shp"
-segments_shape_file = "References/Gangev/OFC_NEW.shp"
+gps_shape_file = "References/Jaisinagar/gps.shp"
+segments_shape_file = "References/Jaisinagar/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '81.60637045 24.73417536'
+BHQ_CORDINATE = '78.57275820 23.62777020'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
     'R4': BHQ_CORDINATE,
-    'R5': BHQ_CORDINATE,
-    'R6': BHQ_CORDINATE,
-    'R2-C1':'81.53076553 24.70468954',
-    'R4-C1':'81.46870236 24.75741242',
-    'R5-C1':'81.46292700 24.63495100',
-    'R6-C1': '81.53563979 24.81814018',
-    'R6-C2': '81.55832600 24.83478100',
-    'R6-C3': '81.57987367 24.85322202',
+    'R1-C1':'78.60554909 23.70134673',
+    'R1-C2':'78.63517711 23.78768437',
+    'R2-C1':'78.72815354 23.64682399',
+    'R3-C1': '78.49575000 23.62361000',
+    'R4-C1': '78.68459322 23.69544707',
+    'R4-C2': '78.75678720 23.71520728',
 }
-# gangev
 t_point_ring_spans = {
-'t-point amaha':(81.57659719,24.80165722),
-'t-point badokhar':(81.53324395,24.78550690),
-'t-point badokhar':(81.55933588,24.79243071),
-'t-point chauri':(81.50195115,24.79135102),
-'t-point dagardua':(81.57987367,24.85322202),
-'t-point gangev block':(81.62639776,24.76011156),
-'t-point garh':(81.64452877,24.81874763),
-'t-point godari 27':(81.55832600,24.83478100),
-'t-point kadaila':(81.42467165,24.68035748),
-'t-point keoti':(81.45369171,24.78553194),
-'t-point lalgaon':(81.53563690,24.81814044),
-'t-point madari':(81.57984460,24.85314172),
-'t-point marhi kalan':(81.57147671,24.68683760),
-'t-point raksha majan':(81.61099214,24.83125148),
-'t-point rampur':(81.47398500,24.68174600),
-'t-point raura':(81.46870236,24.75741242),
-'t-point sirsa':(81.53076553,24.70468954),
-'t-point tikuri 32':(81.63233330,24.75891295),
-'t-point tiwani':(81.52765441,24.67396246),
-'t-point tiwani':(81.50903800,24.64675540),
+'t-point agariya':(78.59045683, 23.68249434),
+'t-point bamhori ghat':(78.67873637,23.65295604),
+'t-point baroda sagar':(78.68459322,23.69544707),
+'t-point hada':(78.61020899,23.60287620),
+'t-point hanota sagar':(78.75132744,23.73852152),
+'t-point jera':(78.49575000,23.62361000),
+'t-point khejra mafi':(78.72815354,23.64682399),
+'t-point padrai':(78.60554909,23.70134673),
+'t-point semadhana':(78.63517711,23.78768437),
+'t-point jaisinagar block':(78.57172575,23.61931219),
+'t-point hanota sagar':(78.75678720,23.71520728)
 }
+
+# gangev
+# t_point_ring_spans = {
+# 't-point amaha':(81.57659719,24.80165722),
+# 't-point badokhar':(81.53324395,24.78550690),
+# 't-point badokhar':(81.55933588,24.79243071),
+# 't-point chauri':(81.50195115,24.79135102),
+# 't-point dagardua':(81.57987367,24.85322202),
+# 't-point gangev block':(81.62639776,24.76011156),
+# 't-point garh':(81.64452877,24.81874763),
+# 't-point godari 27':(81.55832600,24.83478100),
+# 't-point kadaila':(81.42467165,24.68035748),
+# 't-point keoti':(81.45369171,24.78553194),
+# 't-point lalgaon':(81.53563690,24.81814044),
+# 't-point madari':(81.57984460,24.85314172),
+# 't-point marhi kalan':(81.57147671,24.68683760),
+# 't-point raksha majan':(81.61099214,24.83125148),
+# 't-point rampur':(81.47398500,24.68174600),
+# 't-point raura':(81.46870236,24.75741242),
+# 't-point sirsa':(81.53076553,24.70468954),
+# 't-point tikuri 32':(81.63233330,24.75891295),
+# 't-point tiwani':(81.52765441,24.67396246),
+# 't-point tiwani':(81.50903800,24.64675540),
+# }
 # bhanpura
 # t_point_ring_spans = {
 # 't-point barodiya':(75.69071300,24.60092600),
