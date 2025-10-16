@@ -1,0 +1,44 @@
+2025-10-16 01:30:26,933 - INFO - Created 1,861 records
+2025-10-16 01:30:26,942 - INFO - Created 99 records
+2025-10-16 01:30:26,942 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-10-16 01:30:26,946 - INFO - Created 0 records
+2025-10-16 01:30:26,996 - INFO - 🔄 Found 12 rings: ['R1', 'R2', 'R2-C1', 'R3', 'R4', 'R4-C1', 'R5', 'R5-C1', 'R6', 'R6-C1', 'R6-C2', 'R6-C3']
+2025-10-16 01:30:26,996 - INFO - 
+🔁 Processing ring: R1
+2025-10-16 01:30:27,001 - INFO - ✅ Completed ring R1 with 10 spans.
+2025-10-16 01:30:27,001 - INFO - 
+🔁 Processing ring: R2
+2025-10-16 01:30:27,005 - INFO - ✅ Completed ring R2 with 7 spans.
+2025-10-16 01:30:27,005 - INFO - 
+🔁 Processing ring: R2-C1
+2025-10-16 01:30:27,009 - INFO - ✅ Completed ring R2-C1 with 8 spans.
+2025-10-16 01:30:27,009 - INFO - 
+🔁 Processing ring: R3
+2025-10-16 01:30:27,009 - WARNING - ⚠️  Warning: Closest node (81.62639776300006, 24.760111564000056) is far from given start (81.60637045, 24.73417536)
+2025-10-16 01:30:27,009 - INFO - 
+🔁 Processing ring: R4
+2025-10-16 01:30:27,015 - INFO - ✅ Completed ring R4 with 11 spans.
+2025-10-16 01:30:27,015 - INFO - 
+🔁 Processing ring: R4-C1
+2025-10-16 01:30:27,018 - INFO - ✅ Completed ring R4-C1 with 5 spans.
+2025-10-16 01:30:27,018 - INFO - 
+🔁 Processing ring: R5
+2025-10-16 01:30:27,021 - INFO - ✅ Completed ring R5 with 6 spans.
+2025-10-16 01:30:27,021 - INFO - 
+🔁 Processing ring: R5-C1
+2025-10-16 01:30:27,026 - INFO - ✅ Completed ring R5-C1 with 8 spans.
+2025-10-16 01:30:27,026 - INFO - 
+🔁 Processing ring: R6
+2025-10-16 01:30:27,030 - INFO - ✅ Completed ring R6 with 7 spans.
+2025-10-16 01:30:27,030 - INFO - 
+🔁 Processing ring: R6-C1
+2025-10-16 01:30:27,033 - INFO - ✅ Completed ring R6-C1 with 7 spans.
+2025-10-16 01:30:27,033 - INFO - 
+🔁 Processing ring: R6-C2
+2025-10-16 01:30:27,036 - INFO - ✅ Completed ring R6-C2 with 5 spans.
+2025-10-16 01:30:27,036 - INFO - 
+🔁 Processing ring: R6-C3
+2025-10-16 01:30:27,041 - INFO - ✅ Completed ring R6-C3 with 9 spans.
+2025-10-16 01:30:27,157 - INFO - Created 1,861 records
+2025-10-16 01:30:27,167 - INFO - Created 99 records
+2025-10-16 01:30:27,168 - INFO - ✅ All rings processed. Span sequence updated and saved.
