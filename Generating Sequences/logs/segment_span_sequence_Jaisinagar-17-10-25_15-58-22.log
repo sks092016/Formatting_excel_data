@@ -1,0 +1,40 @@
+2025-10-17 15:58:26,525 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'T-POINT JERA (P) TO BERKHERI GUSAI'.
+2025-10-17 15:58:26,526 - WARNING - \u26a0\ufe0f The Span T-POINT JERA (P) TO BERKHERI GUSAI is disconnected at this point (78.51641861400003, 23.583737948000078)
+2025-10-17 15:58:27,106 - INFO - Created 2,225 records
+2025-10-17 15:58:27,115 - INFO - Created 72 records
+2025-10-17 15:58:27,116 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-10-17 15:58:27,120 - INFO - Created 1 records
+2025-10-17 15:58:27,289 - INFO - \U0001f504 Found 10 rings: ['R1', 'R1-C1', 'R1-C2', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4', 'R4-C1', 'R4-C2']
+2025-10-17 15:58:27,289 - INFO - 
+\U0001f501 Processing ring: R1
+2025-10-17 15:58:27,297 - INFO - \u2705 Completed ring R1 with 10 spans.
+2025-10-17 15:58:27,297 - INFO - 
+\U0001f501 Processing ring: R1-C1
+2025-10-17 15:58:27,303 - INFO - \u2705 Completed ring R1-C1 with 7 spans.
+2025-10-17 15:58:27,304 - INFO - 
+\U0001f501 Processing ring: R1-C2
+2025-10-17 15:58:27,305 - INFO - \u2705 Completed ring R1-C2 with 0 spans.
+2025-10-17 15:58:27,305 - INFO - 
+\U0001f501 Processing ring: R2
+2025-10-17 15:58:27,311 - INFO - \u2705 Completed ring R2 with 6 spans.
+2025-10-17 15:58:27,311 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-10-17 15:58:27,318 - INFO - \u2705 Completed ring R2-C1 with 8 spans.
+2025-10-17 15:58:27,318 - INFO - 
+\U0001f501 Processing ring: R3
+2025-10-17 15:58:27,323 - INFO - \u2705 Completed ring R3 with 6 spans.
+2025-10-17 15:58:27,323 - INFO - 
+\U0001f501 Processing ring: R3-C1
+2025-10-17 15:58:27,330 - INFO - \u2705 Completed ring R3-C1 with 9 spans.
+2025-10-17 15:58:27,331 - INFO - 
+\U0001f501 Processing ring: R4
+2025-10-17 15:58:27,337 - INFO - \u2705 Completed ring R4 with 7 spans.
+2025-10-17 15:58:27,337 - INFO - 
+\U0001f501 Processing ring: R4-C1
+2025-10-17 15:58:27,340 - INFO - \u2705 Completed ring R4-C1 with 4 spans.
+2025-10-17 15:58:27,341 - INFO - 
+\U0001f501 Processing ring: R4-C2
+2025-10-17 15:58:27,344 - INFO - \u2705 Completed ring R4-C2 with 4 spans.
+2025-10-17 15:58:27,469 - INFO - Created 2,225 records
+2025-10-17 15:58:27,478 - INFO - Created 72 records
+2025-10-17 15:58:27,478 - INFO - \u2705 All rings processed. Span sequence updated and saved.
