@@ -30,6 +30,7 @@ import matplotlib.pyplot as plt
 import warnings
 from collections import defaultdict
 from typing import List, Optional
+import pandas as pd
 
 warnings.filterwarnings("ignore", category=UserWarning)
 
@@ -99,7 +100,6 @@ def point_at_distance_along_line(line: LineString, distance_m: float, is_project
 
 def process_shapefile(
     input_path: str,
-    output_path: str = "output_points_v4.shp",
     span_filter: Optional[str] = None,
     # Configurable parameters (defaults per your request)
     crossing_offset: float = 50.0,           # distance from crossing start/end for *major* crossings like road-cross
@@ -107,7 +107,7 @@ def process_shapefile(
     crossing_types: Optional[List[str]] = None,  # list of values (case-insensitive) in the input field to treat as crossings
     crossing_field: str = "crossing_t",      # field in input with crossing type (fallback to 'feature_type')
     distance_interval: float = 1800.0,       # spacing of distance points (2.b)
-    min_buffer: float = 100.0,               # minimum allowed distance between any two points (2.c)
+    min_buffer: float = 150.0,               # minimum allowed distance between any two points (2.c)
     small_crossing_thresh: float = 150.0,    # small crossing length threshold (meters)
     manual_points_json: Optional[str] = None # path to JSON with manual points to add
 ):
@@ -215,8 +215,10 @@ def process_shapefile(
             # compute offsets clipped to inside the segment
             # start_offset_point = start_dist + feature_endpoint_offset
             # end_offset_point = end_dist - feature_endpoint_offset
-            start_offset = min(max(start_dist + feature_endpoint_offset, start_dist), end_dist)
-            end_offset = max(min(end_dist - feature_endpoint_offset, end_dist), start_dist)
+            # start_offset = min(max(start_dist + feature_endpoint_offset, start_dist), end_dist)
+            # end_offset = max(min(end_dist - feature_endpoint_offset, end_dist), start_dist)
+            start_offset = max(0.0, start_dist - crossing_offset)
+            end_offset = min(total_len, end_dist + crossing_offset)
 
             label_s = f"Cross_{crossing_counter}_Start"
             label_e = f"Cross_{crossing_counter}_End"
@@ -368,11 +370,13 @@ def process_shapefile(
 
     # Put the very first point into kept
     kept.append(combined_sorted[0])
-
     # iterate over subsequent points
     for curr in combined_sorted[1:]:
+        # print(combined_sorted)
         last = kept[-1]
         gap = curr['dist'] - last['dist']
+        # print(f"curr: {curr['dist']} {curr['label']}, last: {last['dist']} {last['label']}, gap: {gap} ")
+        # print(last)
         if gap >= min_buffer:
             # far enough - keep
             kept.append(curr)
@@ -393,9 +397,11 @@ def process_shapefile(
 
         # If pair is crossing endpoint vs distance point: delete the crossing endpoint
         if is_cross_endpoint(curr) and last['ptype'] == 'distance':
+            print("crossings & distance check")
             # curr is crossing endpoint too-close to a distance point -> delete curr
             continue
         if curr['ptype'] == 'distance' and is_cross_endpoint(last):
+            print("distance & crossing check")
             # last is crossing endpoint too-close to a distance point -> delete last (but we already kept last)
             # According to "Always keep first point in sequence", we only allowed deletion of last when it's not the absolute first.
             # To implement 'delete last', remove last from kept and compare curr to new last recursively.
@@ -422,6 +428,7 @@ def process_shapefile(
 
         # If both are crossing endpoints of different crossings: delete both (unless one is absolute first)
         if is_cross_endpoint(last) and is_cross_endpoint(curr):
+            print("different crossings check")
             id_last = crossing_id_of(last)
             id_curr = crossing_id_of(curr)
             if id_last != id_curr:
@@ -437,17 +444,20 @@ def process_shapefile(
 
         # If both are endpoints of the same crossing and crossing length < small_crossing_thresh: keep only the one farther from previous kept point
         if is_cross_endpoint(last) and is_cross_endpoint(curr):
+            print("same crossings check")
             if crossing_id_of(last) and crossing_id_of(curr) and (crossing_id_of(last) == crossing_id_of(curr)):
                 # same crossing id
                 seg_len = last.get('meta', {}).get('seg_length') or curr.get('meta', {}).get('seg_length') or 0.0
                 if seg_len < small_crossing_thresh:
                     # compute distance to previous kept point (the point before last) -- note previous kept exists because last isn't absolute first (handled earlier)
                     prev = kept[-2] if len(kept) >= 2 else None
+
                     if prev is None:
                         # nothing before previous, keep last and drop curr
                         continue
                     dist_prev_to_last = last['dist'] - prev['dist']
                     dist_prev_to_curr = curr['dist'] - prev['dist']
+                    print(f"prev:{prev}")
                     # Keep the one that is farther from previous; we should have kept 'last' already, so if curr is farther, replace last with curr
                     if dist_prev_to_curr > dist_prev_to_last:
                         # replace last by curr
@@ -471,14 +481,15 @@ def process_shapefile(
             'label': [p['label'] for p in final_points],
             'ptype': [p['ptype'] for p in final_points],
             'dist_m': [p['dist'] for p in final_points],
-            'geometry': [p['geometry'] for p in final_points]
+            'geometry': [p['geometry'] for p in final_points],
+            'span':s
         },
         crs=gdf.crs
     )
 
     # Save
-    out_gdf.to_file(output_path)
-    print(f"Saved {len(out_gdf)} points to {output_path}")
+    # out_gdf.to_file(output_path)
+    print(f"Saved {len(out_gdf)} points to ")
 
     return out_gdf, main_line
 
@@ -528,33 +539,8 @@ def visualize_results(input_path, points_gdf_or_path, main_line=None):
 
 # -------------------- Sample generator & main --------------------
 
-def generate_sample_shapefile(filepath="sample_segments_v4.shp"):
-    """Create a test shapefile with a few segments; this sample uses projected coords (meters)."""
-    spans = []
-    x = 0.0
-    for i in range(10):
-        start = (x, 0.0)
-        x += 1000.0
-        end = (x, 0.0)
-        ctype = "Normal"
-        if i == 2:
-            ctype = "Bridge"
-        if i == 6:
-            ctype = "Road Cross"
-        spans.append({
-            "span_name": "SPAN_TEST",
-            "seg_seq": f"S{i+1}",
-            "crossing_t": ctype,
-            "geometry": LineString([start, end])
-        })
-    gdf = gpd.GeoDataFrame(spans, crs="EPSG:32643")
-    gdf.to_file(filepath)
-    print("Sample shapefile saved to", filepath)
-    return filepath
-
 if __name__ == "__main__":
-    # Example run: generate sample, process, visualize
-    sample = generate_sample_shapefile()
+    version = "5.0"
     # Example manual points JSON (optional). Save a small sample file if you want to test manual points:
     # [
     #   {"x": 2000.0, "y": 0.0, "label": "User_Manual_1"},
@@ -564,19 +550,20 @@ if __name__ == "__main__":
     sample_path = '../References/Output/Final/OFC_New_Gangev-1_Seg_Span_Seq.shp'
     gdf = gpd.read_file(sample_path)
     span_list = gdf.sort_values('span_name').span_name.unique()
+    merged = gpd.GeoDataFrame(columns=['label', 'ptype', 'dist_m', 'geometry', 'span'], crs=gdf.crs)
     for s in span_list:
         out_gdf, main_line = process_shapefile(
             sample_path,
-            output_path="output_points_v4.shp",
             span_filter=s,
-            crossing_offset=50.0,
+            crossing_offset=20.0,
             feature_endpoint_offset=10.0,
             crossing_types=["road cross", "bridge"],
             crossing_field="crossing_t",
             distance_interval=1800.0,
-            min_buffer=100.0,
+            min_buffer=150.0,
             small_crossing_thresh=150.0,
             manual_points_json=None  # set to "manual_points.json" to include manual points
         )
-        visualize_results(sample_path, out_gdf, main_line=main_line)
-        break
+        # visualize_results(sample_path, out_gdf, main_line=main_line)
+        merged = gpd.GeoDataFrame(pd.concat([merged,out_gdf], ignore_index=True), crs=merged.crs)
+        merged.to_file("manholes.shp")

@@ -1,0 +1,22 @@
+2025-10-17 10:42:59,281 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'banjariya to bamhori ghat'.
+2025-10-17 10:42:59,282 - WARNING - \u26a0\ufe0f The Span banjariya to bamhori ghat is disconnected at this point (78.62893578200004, 23.641538944000047)
+2025-10-17 10:42:59,566 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'chakeri to ghughar'.
+2025-10-17 10:42:59,567 - WARNING - \u26a0\ufe0f The Span chakeri to ghughar is disconnected at this point (78.69227059300005, 23.741715507000038)
+2025-10-17 10:42:59,612 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.59510300500006, 23.74650510600003) & ending at (78.57192525000005, 23.766708221000044)
+2025-10-17 10:42:59,613 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (78.59510300500006, 23.74650510600003) & ending at (78.57192525000005, 23.766708221000044)
+2025-10-17 10:42:59,622 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'chenpura to killai'.
+2025-10-17 10:42:59,622 - WARNING - \u26a0\ufe0f The Span chenpura to killai is disconnected at this point (78.59515860600004, 23.746475007000072)
+2025-10-17 10:42:59,958 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'hinnod to chakeri'.
+2025-10-17 10:42:59,958 - WARNING - \u26a0\ufe0f The Span hinnod to chakeri is disconnected at this point (78.67285105800005, 23.72589716500005)
+2025-10-17 10:43:00,159 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'jamuniya gond to semra gopalman'.
+2025-10-17 10:43:00,160 - WARNING - \u26a0\ufe0f The Span jamuniya gond to semra gopalman is disconnected at this point (78.69227059300005, 23.741715507000038)
+2025-10-17 10:43:00,183 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'jera to sagoni khurd'.
+2025-10-17 10:43:00,183 - WARNING - \u26a0\ufe0f The Span jera to sagoni khurd is disconnected at this point (78.50565490400004, 23.612905942000054)
+2025-10-17 10:43:00,226 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'jera to toda tarafdar'.
+2025-10-17 10:43:00,226 - WARNING - \u26a0\ufe0f The Span jera to toda tarafdar is disconnected at this point (78.50569547400005, 23.612973444000033)
+2025-10-17 10:43:01,761 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 't-point jaisinagar block to dungariya'.
+2025-10-17 10:43:01,761 - WARNING - \u26a0\ufe0f The Span t-point jaisinagar block to dungariya is disconnected at this point (78.54765440000006, 23.565432800000053)
+2025-10-17 10:43:01,852 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 't-point jera to sagoni khurd'.
+2025-10-17 10:43:01,852 - WARNING - \u26a0\ufe0f The Span t-point jera to sagoni khurd is disconnected at this point (78.47005014800004, 23.630470794000075)
+2025-10-17 10:43:02,040 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'tendu daber  to satta dhana'.
+2025-10-17 10:43:02,041 - WARNING - \u26a0\ufe0f The Span tendu daber  to satta dhana is disconnected at this point (78.63476304600005, 23.707503616000054)
