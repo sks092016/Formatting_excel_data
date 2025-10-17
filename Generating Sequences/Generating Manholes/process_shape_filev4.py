@@ -373,7 +373,12 @@ def process_shapefile(
     # iterate over subsequent points
     for curr in combined_sorted[1:]:
         # print(combined_sorted)
-        last = kept[-1]
+        try:
+            last = kept[-1]
+        except IndexError:
+            print(s)
+            print(kept)
+            continue
         gap = curr['dist'] - last['dist']
         # print(f"curr: {curr['dist']} {curr['label']}, last: {last['dist']} {last['label']}, gap: {gap} ")
         # print(last)
@@ -397,11 +402,9 @@ def process_shapefile(
 
         # If pair is crossing endpoint vs distance point: delete the crossing endpoint
         if is_cross_endpoint(curr) and last['ptype'] == 'distance':
-            print("crossings & distance check")
             # curr is crossing endpoint too-close to a distance point -> delete curr
             continue
         if curr['ptype'] == 'distance' and is_cross_endpoint(last):
-            print("distance & crossing check")
             # last is crossing endpoint too-close to a distance point -> delete last (but we already kept last)
             # According to "Always keep first point in sequence", we only allowed deletion of last when it's not the absolute first.
             # To implement 'delete last', remove last from kept and compare curr to new last recursively.
@@ -428,7 +431,6 @@ def process_shapefile(
 
         # If both are crossing endpoints of different crossings: delete both (unless one is absolute first)
         if is_cross_endpoint(last) and is_cross_endpoint(curr):
-            print("different crossings check")
             id_last = crossing_id_of(last)
             id_curr = crossing_id_of(curr)
             if id_last != id_curr:
@@ -444,20 +446,17 @@ def process_shapefile(
 
         # If both are endpoints of the same crossing and crossing length < small_crossing_thresh: keep only the one farther from previous kept point
         if is_cross_endpoint(last) and is_cross_endpoint(curr):
-            print("same crossings check")
             if crossing_id_of(last) and crossing_id_of(curr) and (crossing_id_of(last) == crossing_id_of(curr)):
                 # same crossing id
                 seg_len = last.get('meta', {}).get('seg_length') or curr.get('meta', {}).get('seg_length') or 0.0
                 if seg_len < small_crossing_thresh:
                     # compute distance to previous kept point (the point before last) -- note previous kept exists because last isn't absolute first (handled earlier)
                     prev = kept[-2] if len(kept) >= 2 else None
-
                     if prev is None:
                         # nothing before previous, keep last and drop curr
                         continue
                     dist_prev_to_last = last['dist'] - prev['dist']
                     dist_prev_to_curr = curr['dist'] - prev['dist']
-                    print(f"prev:{prev}")
                     # Keep the one that is farther from previous; we should have kept 'last' already, so if curr is farther, replace last with curr
                     if dist_prev_to_curr > dist_prev_to_last:
                         # replace last by curr
@@ -471,10 +470,8 @@ def process_shapefile(
         # At this point, none of the special rules apply: default behaviour -> keep the earlier (last) and drop the later (curr)
         # So simply skip curr
         continue
-
     # 'kept' now contains cleaned points in order
     final_points = kept
-
     # ----------------- Build output GeoDataFrame -----------------
     out_gdf = gpd.GeoDataFrame(
         {
@@ -486,11 +483,9 @@ def process_shapefile(
         },
         crs=gdf.crs
     )
-
     # Save
     # out_gdf.to_file(output_path)
-    print(f"Saved {len(out_gdf)} points to ")
-
+    print(f"Saved {len(out_gdf)} manholes for span {s}")
     return out_gdf, main_line
 
 # -------------------- Visualization --------------------
