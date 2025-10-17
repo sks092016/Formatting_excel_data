@@ -53,17 +53,19 @@ rings = {
     'R4-C2': '78.75678720 23.71520728',
 }
 t_point_ring_spans = {
-'t-point agariya':(78.59045683, 23.68249434),
-'t-point bamhori ghat':(78.67873637,23.65295604),
-'t-point baroda sagar':(78.68459322,23.69544707),
-'t-point hada':(78.61020899,23.60287620),
-'t-point hanota sagar':(78.75132744,23.73852152),
-'t-point jera':(78.49575000,23.62361000),
-'t-point khejra mafi':(78.72815354,23.64682399),
-'t-point padrai':(78.60554909,23.70134673),
-'t-point semadhana':(78.63517711,23.78768437),
-'t-point jaisinagar block':(78.57172575,23.61931219),
-'t-point hanota sagar':(78.75678720,23.71520728)
+'t-point agariya (p)':(78.59045683, 23.68249434),
+'t-point bamhori ghat (p)':(78.67873637,23.65295604),
+'t-point baroda sagar (p)':(78.68459322,23.69544707),
+'t-point hada (p)':(78.61020899,23.60287620),
+'t-point hanota sagar (p)':(78.75132744,23.73852152),
+'t-point jera (p)':(78.54701885,23.61478812),
+'t-point khejra mafi (p)':(78.72815354,23.64682399),
+'t-point padrai (p)':(78.60554909,23.70134673),
+'t-point semadhana (p)':(78.63517711,23.78768437),
+'t-point jaisinagar block (p)':(78.57172575,23.61931219),
+'t-point hanota sagar (p)':(78.75678720,23.71520728),
+'t-point berkheri madiya (p)':(78.75678720,23.71520728),
+'t-point mahuwa kheda pegwar (p)':(78.63517711,23.78768437)
 }
 
 # gangev
