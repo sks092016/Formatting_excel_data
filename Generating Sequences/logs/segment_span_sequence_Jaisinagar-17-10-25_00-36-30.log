@@ -1,0 +1,13 @@
+2025-10-17 00:36:30,450 - INFO - These GPs are repeating [('manesiya', 2), ('masurhai', 2), ('killai', 3), ('bisunpur', 2)] but their geometry is different
+2025-10-17 00:36:30,450 - INFO - Their Geometry is: 
+2025-10-17 00:36:30,452 - INFO -      gp_name                                   coords
+1   manesiya  (78.49946170000004, 23.763325000000066)
+12  masurhai  (78.51675500000005, 23.776343300000065)
+37    killai  (78.57183330000004, 23.766718300000036)
+51  bisunpur  (78.61796370000008, 23.599374700000055)
+54  bisunpur  (78.61802830000005, 23.599441700000057)
+56  masurhai  (78.51693500000005, 23.776283300000046)
+57    killai  (78.56840000000005, 23.769075000000043)
+58    killai  (78.57194330000004, 23.766720000000078)
+62  manesiya  (78.49943000000007, 23.763473300000044)
+2025-10-17 00:36:30,463 - INFO - {'extra_in_spans': {'KHURAI THORI (P)', 'HADA (P)', 'HIRAPUR (P)', 'KHAMKUWA (P)', 'MADKHERA JAGIR (P)', 'GENHURAS BUZURG (P)', 'BILHAR', 'MAHUWA KHEDA PEGWAR (P)', 'KHURAI THORI', 'CHARTORIYA (P)', 'GHUGHAR (P)'}, 'unused_gps': {'BILEHRA', 'KHURAI THAORI'}}

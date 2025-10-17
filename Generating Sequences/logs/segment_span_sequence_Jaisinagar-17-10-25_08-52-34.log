@@ -1,0 +1,60 @@
+2025-10-17 08:52:34,592 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'banjariya to bamhori ghat'.
+2025-10-17 08:52:34,592 - WARNING - ⚠️ The Span banjariya to bamhori ghat is disconnected at this point (78.62893578200004, 23.641538944000047)
+2025-10-17 08:52:34,822 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'chakeri to ghughar'.
+2025-10-17 08:52:34,822 - WARNING - ⚠️ The Span chakeri to ghughar is disconnected at this point (78.69227059300005, 23.741715507000038)
+2025-10-17 08:52:34,867 - WARNING -  ⚠️ The Geometry is multiline string starting at (78.59510300500006, 23.74650510600003) & ending at (78.57192525000005, 23.766708221000044)
+2025-10-17 08:52:34,868 - WARNING -  ⚠️ The Geometry is multiline string starting at (78.59510300500006, 23.74650510600003) & ending at (78.57192525000005, 23.766708221000044)
+2025-10-17 08:52:34,874 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'chenpura to killai'.
+2025-10-17 08:52:34,874 - WARNING - ⚠️ The Span chenpura to killai is disconnected at this point (78.59515860600004, 23.746475007000072)
+2025-10-17 08:52:35,110 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'hinnod to chakeri'.
+2025-10-17 08:52:35,110 - WARNING - ⚠️ The Span hinnod to chakeri is disconnected at this point (78.67838619400004, 23.721793696000077)
+2025-10-17 08:52:35,277 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'jamuniya gond to semra gopalman'.
+2025-10-17 08:52:35,277 - WARNING - ⚠️ The Span jamuniya gond to semra gopalman is disconnected at this point (78.69227059300005, 23.741715507000038)
+2025-10-17 08:52:35,295 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'jera to sagoni khurd'.
+2025-10-17 08:52:35,295 - WARNING - ⚠️ The Span jera to sagoni khurd is disconnected at this point (78.50565490400004, 23.612905942000054)
+2025-10-17 08:52:35,326 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'jera to toda tarafdar'.
+2025-10-17 08:52:35,326 - WARNING - ⚠️ The Span jera to toda tarafdar is disconnected at this point (78.50569547400005, 23.612973444000033)
+2025-10-17 08:52:36,491 - WARNING - ⚠️ Warning: Disconnected segment remains in span 't-point jaisinagar block to dungariya'.
+2025-10-17 08:52:36,491 - WARNING - ⚠️ The Span t-point jaisinagar block to dungariya is disconnected at this point (78.54765440000006, 23.565432800000053)
+2025-10-17 08:52:36,551 - WARNING - ⚠️ Warning: Disconnected segment remains in span 't-point jera to sagoni khurd'.
+2025-10-17 08:52:36,551 - WARNING - ⚠️ The Span t-point jera to sagoni khurd is disconnected at this point (78.47005014800004, 23.630470794000075)
+2025-10-17 08:52:36,698 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'tendu daber  to satta dhana'.
+2025-10-17 08:52:36,698 - WARNING - ⚠️ The Span tendu daber  to satta dhana is disconnected at this point (78.63476304600005, 23.707503616000054)
+2025-10-17 08:52:36,801 - INFO - Created 2,206 records
+2025-10-17 08:52:36,809 - INFO - Created 75 records
+2025-10-17 08:52:36,810 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-10-17 08:52:36,811 - INFO - Created 10 records
+2025-10-17 08:52:36,872 - INFO - 🔄 Found 10 rings: ['R1', 'R1-C1', 'R1-C2', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4', 'R4-C1', 'R4-C2']
+2025-10-17 08:52:36,872 - INFO - 
+🔁 Processing ring: R1
+2025-10-17 08:52:36,874 - INFO - ✅ Completed ring R1 with 3 spans.
+2025-10-17 08:52:36,874 - INFO - 
+🔁 Processing ring: R1-C1
+2025-10-17 08:52:36,877 - INFO - ✅ Completed ring R1-C1 with 6 spans.
+2025-10-17 08:52:36,877 - INFO - 
+🔁 Processing ring: R1-C2
+2025-10-17 08:52:36,878 - INFO - ✅ Completed ring R1-C2 with 0 spans.
+2025-10-17 08:52:36,878 - INFO - 
+🔁 Processing ring: R2
+2025-10-17 08:52:36,880 - INFO - ✅ Completed ring R2 with 1 spans.
+2025-10-17 08:52:36,880 - INFO - 
+🔁 Processing ring: R2-C1
+2025-10-17 08:52:36,884 - INFO - ✅ Completed ring R2-C1 with 8 spans.
+2025-10-17 08:52:36,884 - INFO - 
+🔁 Processing ring: R3
+2025-10-17 08:52:36,885 - INFO - ✅ Completed ring R3 with 0 spans.
+2025-10-17 08:52:36,885 - INFO - 
+🔁 Processing ring: R3-C1
+2025-10-17 08:52:36,886 - INFO - ✅ Completed ring R3-C1 with 1 spans.
+2025-10-17 08:52:36,886 - INFO - 
+🔁 Processing ring: R4
+2025-10-17 08:52:36,889 - INFO - ✅ Completed ring R4 with 4 spans.
+2025-10-17 08:52:36,889 - INFO - 
+🔁 Processing ring: R4-C1
+2025-10-17 08:52:36,890 - INFO - ✅ Completed ring R4-C1 with 2 spans.
+2025-10-17 08:52:36,890 - INFO - 
+🔁 Processing ring: R4-C2
+2025-10-17 08:52:36,891 - INFO - ✅ Completed ring R4-C2 with 1 spans.
+2025-10-17 08:52:36,953 - INFO - Created 2,206 records
+2025-10-17 08:52:36,961 - INFO - Created 75 records
+2025-10-17 08:52:36,962 - INFO - ✅ All rings processed. Span sequence updated and saved.

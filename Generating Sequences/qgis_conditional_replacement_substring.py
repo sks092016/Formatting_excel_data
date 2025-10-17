@@ -8,13 +8,9 @@ update_field = "span_name"
 # t-point corrections
 
 replacement_map = {
-'agra to t-point hanota sagar' : 't-point hanota sagar to hanota sagar',
-'singna to agra': 'singna to agra',
-'bilhar to singna': 'bilhar to singna',
-'t-point mahuwa kheda to bilhar' : 'bilhar to t-point mahuwa kheda',
-
+'bilehrato':'bilehra to'
 }
-count = 0 
+count = 0
 
 # --- SCRIPT ---
 layer = QgsProject.instance().mapLayersByName(layer_name)[0]
