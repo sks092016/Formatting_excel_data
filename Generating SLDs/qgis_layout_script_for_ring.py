@@ -15,8 +15,8 @@ import os
 import json
 from pathlib import Path
 
-district_name = 'Guna'
-block_name = 'Aron'
+district_name = 'Shajapur'
+block_name = 'Shujalpur'
 
 # --- Settings ---
 file_path = f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details-{block_name}.json"
@@ -83,13 +83,13 @@ if not layer.isValid():
 
 vertices_layer = QgsProject.instance().mapLayersByName(end_point_layer)[0]
 # Get unique span values
-span_field_index = layer.fields().lookupField("span_name")
-unique_spans = layer.uniqueValues(span_field_index)
+ring_field_index = layer.fields().lookupField("ring")
+unique_rings = layer.uniqueValues(ring_field_index)
 
 project = QgsProject.instance()
 manager = project.layoutManager()
 
-for span in unique_spans:
+for ring in unique_rings:
     ring = span_dict[span]['Ring']
     span_id = span_dict[span]['Span_id']
     length = 0
