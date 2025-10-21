@@ -1,24 +1,4 @@
 #!/usr/bin/env python3
-"""
-process_shapefile_v4.py
-
-Upgraded from process_shapefile_v3.py:
- - Configurable offsets for crossing start/end points (so they are not placed exactly at the segment start/end).
- - Configurable small-offset used for placing other feature points.
- - Configurable crossing types to include (list).
- - Place points at both ends of crossings with an offset (per crossing types list).
- - Insert distance points every `distance_interval` meters between feature anchors.
- - Sequential cleaning pass to remove points too close (min_buffer) with prioritized deletion:
-     * Always keep the absolute first point in the overall sequence.
-     * When crossing start/end conflicts with distance-point -> delete crossing endpoint (start or end as appropriate).
-     * Between end of one crossing and start of another crossing -> delete both (unless one is the absolute first point).
-     * For small crossings (length < small_crossing_thresh) when the crossing produces both start & end points,
-       choose the one farther from the previous retained point.
- - Manual points can be read from a JSON file; they are integrated and cleaned the same as other points.
- - Lots of comments and usage examples at the bottom.
-
-Author: Upgraded by ChatGPT (based on user's v3 script)
-"""
 
 import geopandas as gpd
 from shapely.geometry import Point, LineString
@@ -161,7 +141,7 @@ def process_shapefile(
 
     # Default crossing_types if not provided
     if crossing_types is None:
-        crossing_types = ["road cross", "road_cross", "roadcross", "roadcrossing", "bridge", "railway", "rail_cross", "rail crossing"]
+        crossing_types = ["nh road cross", "mdr road cross","bridge", "railway", "rail_cross", "rail crossing"]
 
     # Normalize crossing types to lower-case for comparison
     crossing_types = [t.strip().lower() for t in crossing_types]
@@ -173,7 +153,7 @@ def process_shapefile(
 
     # include small initial First_Point at feature_endpoint_offset (or 10m earlier behaviour)
     first_pt_dist = min(feature_endpoint_offset, total_len)
-    feature_points.append({'dist': first_pt_dist, 'label': 'First_Point', 'ptype': 'first', 'meta': {'reason': 'StartOffset'}})
+    feature_points.append({'dist': first_pt_dist, 'label': 'First_Point', 'ptype': 'first','meta': {'reason': 'StartOffset'}})
 
     # We'll iterate through ordered original segments to compute their start/end distances along merged_line.
     current_pos = 0.0
@@ -210,7 +190,9 @@ def process_shapefile(
             ctype_clean = ctype.strip().lower()
 
         # If this segment matches one of the crossing_types, place points at both ends offset inward by feature_endpoint_offset
+        print(crossing_types)
         if ctype_clean in crossing_types:
+            print(ctype_clean)
             crossing_counter += 1
             # compute offsets clipped to inside the segment
             # start_offset_point = start_dist + feature_endpoint_offset
@@ -263,43 +245,44 @@ def process_shapefile(
         # Determine coordinate transformation if manual point has different crs than input gdf
         input_crs = crs
         for entry in data:
-            x = entry.get('x')
-            y = entry.get('y')
-            lbl = entry.get('label', 'Manual_Point')
-            entry_crs = entry.get('crs', None)
-            if entry_crs is None:
-                # assume input shapefile CRS
-                px, py = x, y
-            else:
-                # transform from entry_crs to input_crs
-                src = CRS.from_user_input(entry_crs)
-                dst = CRS.from_user_input(input_crs)
-                if src == dst:
+            if entry.get("span").lower() == span_filter.lower():
+                x = entry.get('x')
+                y = entry.get('y')
+                lbl = entry.get('label', 'Manual_Point')
+                entry_crs = entry.get('crs', None)
+                if entry_crs is None:
+                    # assume input shapefile CRS
                     px, py = x, y
                 else:
-                    transformer = Transformer.from_crs(src, dst, always_xy=True)
-                    px, py = transformer.transform(x, y)
-            # calculate along-line distance of this projected point (closest point distance along line)
-            # We'll project the input CRS point back to lon/lat or meters and compute along-line distance by walking coords
-            pt = Point(px, py)
-            # compute nearest point along main_line by computing cumulative distances along coords and projection of this point to the line
-            # Using shapely's project requires same units/crs and works only for projected lines. For geographic, approximate by finding nearest vertex and then geodesic distance
-            if is_projected:
-                dist_along = main_line.project(pt)
-            else:
-                # fallback: find nearest coordinate vertex and its cumulative distance
-                # This is an approximation but acceptable for manual points in geographic coordinates
-                min_d = float('inf')
-                min_idx = 0
-                for i, (lon, lat) in enumerate(coords):
-                    _, _, d = geod.inv(px, py, lon, lat)
-                    if d < min_d:
-                        min_d = d
-                        min_idx = i
-                # cumulative distance at that vertex
-                # cumul was computed from coords earlier
-                dist_along = cumul[min_idx]  # approx
-            manual_points.append({'dist': dist_along, 'label': lbl, 'ptype': 'manual', 'meta': entry})
+                    # transform from entry_crs to input_crs
+                    src = CRS.from_user_input(entry_crs)
+                    dst = CRS.from_user_input(input_crs)
+                    if src == dst:
+                        px, py = x, y
+                    else:
+                        transformer = Transformer.from_crs(src, dst, always_xy=True)
+                        px, py = transformer.transform(x, y)
+                # calculate along-line distance of this projected point (closest point distance along line)
+                # We'll project the input CRS point back to lon/lat or meters and compute along-line distance by walking coords
+                pt = Point(px, py)
+                # compute nearest point along main_line by computing cumulative distances along coords and projection of this point to the line
+                # Using shapely's project requires same units/crs and works only for projected lines. For geographic, approximate by finding nearest vertex and then geodesic distance
+                if is_projected:
+                    dist_along = main_line.project(pt)
+                else:
+                    # fallback: find nearest coordinate vertex and its cumulative distance
+                    # This is an approximation but acceptable for manual points in geographic coordinates
+                    min_d = float('inf')
+                    min_idx = 0
+                    for i, (lon, lat) in enumerate(coords):
+                        _, _, d = geod.inv(px, py, lon, lat)
+                        if d < min_d:
+                            min_d = d
+                            min_idx = i
+                    # cumulative distance at that vertex
+                    # cumul was computed from coords earlier
+                    dist_along = cumul[min_idx]  # approx
+                manual_points.append({'dist': dist_along, 'label': lbl, 'ptype': 'manual', 'meta': entry})
         # add manual points into feature_points list
         feature_points.extend(manual_points)
 
@@ -351,6 +334,16 @@ def process_shapefile(
     # ----------------- Combine anchors and distance points -----------------
     combined = anchors + dist_points
     combined_sorted = sorted(combined, key=lambda x: x['dist'])
+    temp_gdf = gpd.GeoDataFrame(
+        {
+            'label': [p['label'] for p in combined_sorted],
+            'ptype': [p['ptype'] for p in combined_sorted],
+            'dist_m': [p['dist'] for p in combined_sorted],
+            'geometry': [p['geometry'] for p in combined_sorted],
+            'span': s
+        },
+        crs=gdf.crs
+    )
 
     # ----------------- Cleaning logic (2.c) - sequential pass -----------------
     # We'll walk from start to end; keep a list 'kept'. Always keep the very first point globally.
@@ -486,68 +479,26 @@ def process_shapefile(
     # Save
     # out_gdf.to_file(output_path)
     print(f"Saved {len(out_gdf)} manholes for span {s}")
-    return out_gdf, main_line
-
-# -------------------- Visualization --------------------
-
-def visualize_results(input_path, points_gdf_or_path, main_line=None):
-    lines = gpd.read_file(input_path)
-    if isinstance(points_gdf_or_path, str):
-        pts = gpd.read_file(points_gdf_or_path)
-    else:
-        pts = points_gdf_or_path
-    fig, ax = plt.subplots(figsize=(10,6))
-    lines.plot(ax=ax, color="lightgray", linewidth=2)
-    if main_line is not None:
-        gpd.GeoSeries([main_line], crs=pts.crs).plot(ax=ax, color="gray", linewidth=1, linestyle="--")
-    # markers by ptype
-    mapping = {
-        'bridge_before': ('s', 80),
-        'bridge_after': ('s', 80),
-        'bridge_single': ('s', 80),
-        'cross_start': ('D', 60),
-        'cross_end': ('D', 60),
-        'distance': ('o', 30),
-        'first': ('*', 100),
-        'manual': ('^', 60)
-    }
-    for ptype, (marker, size) in mapping.items():
-        sub = pts[pts['ptype'] == ptype]
-        if not sub.empty:
-            sub.plot(ax=ax, markersize=size, marker=marker, label=ptype)
-    # plot any other
-    others = pts[~pts['ptype'].isin(mapping.keys())]
-    if not others.empty:
-        others.plot(ax=ax, color='black', markersize=30, label='other')
-    for idx, row in pts.iterrows():
-        try:
-            x = row.geometry.x
-            y = row.geometry.y
-        except Exception:
-            continue
-        ax.text(x, y + 2, row['label'], fontsize=7)
-    plt.legend()
-    plt.title("Span and Extracted/Cleaned Points (v4)")
-    plt.xlabel("X / Lon")
-    plt.ylabel("Y / Lat")
-    plt.show()
+    return out_gdf, main_line, temp_gdf
 
 # -------------------- Sample generator & main --------------------
 
 if __name__ == "__main__":
     version = "5.0"
+    block_name = "Gangev"
     # Example manual points JSON (optional). Save a small sample file if you want to test manual points:
     # [
     #   {"x": 2000.0, "y": 0.0, "label": "User_Manual_1"},
     #   {"x": 5200.0, "y": 0.0, "label": "User_Manual_2"}
     # ]
     # save as manual_points.json and pass manual_points_json="manual_points.json"
-    sample_path = '../References/Output/Final/OFC_New_Gangev-1_Seg_Span_Seq.shp'
+    sample_path = f'input/OFC_New_{block_name}-1_Seg_Span_Seq.shp'
     gdf = gpd.read_file(sample_path)
     span_list = gdf.sort_values('span_name').span_name.unique()
+    temp_merged = gpd.GeoDataFrame(columns=['label', 'ptype', 'dist_m', 'geometry', 'span'], crs=gdf.crs)
     merged = gpd.GeoDataFrame(columns=['label', 'ptype', 'dist_m', 'geometry', 'span'], crs=gdf.crs)
     for s in span_list:
-        out_gdf, main_line = process_shapefile(
+        out_gdf, main_line, temp_gdf = process_shapefile(
             sample_path,
             span_filter=s,
             crossing_offset=20.0,
@@ -557,8 +508,10 @@ if __name__ == "__main__":
             distance_interval=1800.0,
             min_buffer=150.0,
             small_crossing_thresh=150.0,
-            manual_points_json=None  # set to "manual_points.json" to include manual points
+            manual_points_json=f"temp/sharp_turn_points_{block_name}.json"  # set to "manual_points.json" to include manual points
         )
-        # visualize_results(sample_path, out_gdf, main_line=main_line)
+        temp_merged = gpd.GeoDataFrame(pd.concat([temp_merged, temp_gdf], ignore_index=True), crs=merged.crs)
         merged = gpd.GeoDataFrame(pd.concat([merged,out_gdf], ignore_index=True), crs=merged.crs)
-        merged.to_file("manholes.shp")
+        temp_merged.to_file(f"temp/Temp_manholes-{block_name}.shp")
+        merged.to_file(f"output/manholes-{block_name}.shp")
+        break
