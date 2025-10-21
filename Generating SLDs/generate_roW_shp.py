@@ -143,6 +143,7 @@ def process_span_data(input_gdf, output_shapefile, output_json):
                 output_rows.append({
                     "span_name": span,
                     "Point Name": start_point_name,
+                    "ring": span_details[span]["Ring"],
                     "Chainage": row["st_ch"],
                     "geometry": Point(coords[0])
                 })
@@ -152,6 +153,7 @@ def process_span_data(input_gdf, output_shapefile, output_json):
                 output_rows.append({
                     "span_name": span,
                     "Point Name": "",
+                    "ring": span_details[span]["Ring"],
                     "Chainage": row["st_ch"],
                     "geometry": Point(coords[0])
                 })
@@ -161,6 +163,7 @@ def process_span_data(input_gdf, output_shapefile, output_json):
                 output_rows.append({
                     "span_name": span,
                     "Point Name": end_point_name,
+                    "ring": span_details[span]["Ring"],
                     "Chainage": row["end_ch"],
                     "geometry": Point(coords[-1])
                 })
