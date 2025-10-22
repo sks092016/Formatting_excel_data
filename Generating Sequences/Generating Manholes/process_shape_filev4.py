@@ -184,15 +184,13 @@ def process_shapefile(
             ctype = row.get(crossing_field, None)
         elif "feature_type" in gdf.columns:
             ctype = row.get("feature_type", None)
-
         ctype_clean = None
         if isinstance(ctype, str):
             ctype_clean = ctype.strip().lower()
 
         # If this segment matches one of the crossing_types, place points at both ends offset inward by feature_endpoint_offset
-        print(crossing_types)
+
         if ctype_clean in crossing_types:
-            print(ctype_clean)
             crossing_counter += 1
             # compute offsets clipped to inside the segment
             # start_offset_point = start_dist + feature_endpoint_offset
@@ -501,17 +499,16 @@ if __name__ == "__main__":
         out_gdf, main_line, temp_gdf = process_shapefile(
             sample_path,
             span_filter=s,
-            crossing_offset=20.0,
-            feature_endpoint_offset=10.0,
-            crossing_types=["road cross", "bridge"],
+            crossing_offset=10.0,
+            feature_endpoint_offset=5.0,
+            crossing_types=None,
             crossing_field="crossing_t",
             distance_interval=1800.0,
             min_buffer=150.0,
-            small_crossing_thresh=150.0,
+            small_crossing_thresh=100.0,
             manual_points_json=f"temp/sharp_turn_points_{block_name}.json"  # set to "manual_points.json" to include manual points
         )
         temp_merged = gpd.GeoDataFrame(pd.concat([temp_merged, temp_gdf], ignore_index=True), crs=merged.crs)
         merged = gpd.GeoDataFrame(pd.concat([merged,out_gdf], ignore_index=True), crs=merged.crs)
         temp_merged.to_file(f"temp/Temp_manholes-{block_name}.shp")
         merged.to_file(f"output/manholes-{block_name}.shp")
-        break
