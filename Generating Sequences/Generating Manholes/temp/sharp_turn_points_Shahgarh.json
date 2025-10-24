@@ -1,0 +1,402 @@
+[
+    {
+        "x": 79.14521713200008,
+        "y": 24.33078172200004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_AMARMAU TO SHAHGARH BLOCK_352_354",
+        "type": "sharp_edge",
+        "span": "AMARMAU TO SHAHGARH BLOCK"
+    },
+    {
+        "x": 79.12679905100003,
+        "y": 24.319884116000026,
+        "crs": "EPSG:4326",
+        "label": "Sharp_AMARMAU TO SHAHGARH BLOCK_400_401",
+        "type": "sharp_edge",
+        "span": "AMARMAU TO SHAHGARH BLOCK"
+    },
+    {
+        "x": 78.97214000000008,
+        "y": 24.30642000000006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BAGRODHA TO BARAYATHA_62_434",
+        "type": "sharp_edge",
+        "span": "BAGRODHA TO BARAYATHA"
+    },
+    {
+        "x": 78.93263160800007,
+        "y": 24.28910690500004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BAGRODHA TO BARAYATHA_71_74",
+        "type": "sharp_edge",
+        "span": "BAGRODHA TO BARAYATHA"
+    },
+    {
+        "x": 78.93133656900005,
+        "y": 24.285178683000026,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BAGRODHA TO BARAYATHA_90_436",
+        "type": "sharp_edge",
+        "span": "BAGRODHA TO BARAYATHA"
+    },
+    {
+        "x": 79.09435214700005,
+        "y": 24.35231671400004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BAGROHI TO PALKATOR_263_266",
+        "type": "sharp_edge",
+        "span": "BAGROHI TO PALKATOR"
+    },
+    {
+        "x": 79.08946659800006,
+        "y": 24.332868070000075,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BAGROHI TO PALKATOR_310_312",
+        "type": "sharp_edge",
+        "span": "BAGROHI TO PALKATOR"
+    },
+    {
+        "x": 79.01380567900003,
+        "y": 24.38229666700005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARAJ TO ADAVAN_135_140",
+        "type": "sharp_edge",
+        "span": "BARAJ TO ADAVAN"
+    },
+    {
+        "x": 79.02249203200006,
+        "y": 24.37636984900007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARAJ TO ADAVAN_234_237",
+        "type": "sharp_edge",
+        "span": "BARAJ TO ADAVAN"
+    },
+    {
+        "x": 79.02750171000008,
+        "y": 24.35742026400004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARAJ TO ADAVAN_246_248",
+        "type": "sharp_edge",
+        "span": "BARAJ TO ADAVAN"
+    },
+    {
+        "x": 79.08819037100005,
+        "y": 24.376166324000053,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARAJ TO NARWAN_203_206",
+        "type": "sharp_edge",
+        "span": "BARAJ TO NARWAN"
+    },
+    {
+        "x": 79.02754490300003,
+        "y": 24.357381196000063,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARAJ TO NARWAN_508_509",
+        "type": "sharp_edge",
+        "span": "BARAJ TO NARWAN"
+    },
+    {
+        "x": 79.02804798800008,
+        "y": 24.351691479000067,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARAJ TO NARWAN_509_510",
+        "type": "sharp_edge",
+        "span": "BARAJ TO NARWAN"
+    },
+    {
+        "x": 79.04066853300003,
+        "y": 24.34480202800006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARAJ TO NARWAN_513_514",
+        "type": "sharp_edge",
+        "span": "BARAJ TO NARWAN"
+    },
+    {
+        "x": 79.07086770100005,
+        "y": 24.38403267800004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARAJ TO NARWAN_518_519",
+        "type": "sharp_edge",
+        "span": "BARAJ TO NARWAN"
+    },
+    {
+        "x": 79.04510000000005,
+        "y": 24.341150000000027,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BATTWAHA TO KANIKHEDI KALA_255_256",
+        "type": "sharp_edge",
+        "span": "BATTWAHA TO KANIKHEDI KALA"
+    },
+    {
+        "x": 79.07391650700004,
+        "y": 24.326103240000066,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BATTWAHA TO KANIKHEDI KALA_279_280",
+        "type": "sharp_edge",
+        "span": "BATTWAHA TO KANIKHEDI KALA"
+    },
+    {
+        "x": 79.20915443100006,
+        "y": 24.364895845000035,
+        "crs": "EPSG:4326",
+        "label": "Sharp_HIRAPUR TO T-POINT AMARMAU_418_424",
+        "type": "sharp_edge",
+        "span": "HIRAPUR TO T-POINT AMARMAU"
+    },
+    {
+        "x": 79.21049169500003,
+        "y": 24.366158160000055,
+        "crs": "EPSG:4326",
+        "label": "Sharp_HIRAPUR TO T-POINT AMARMAU_419_421",
+        "type": "sharp_edge",
+        "span": "HIRAPUR TO T-POINT AMARMAU"
+    },
+    {
+        "x": 78.97524322400005,
+        "y": 24.342170484000064,
+        "crs": "EPSG:4326",
+        "label": "Sharp_JASODA TO T-POINT KISHANPURA_3_4",
+        "type": "sharp_edge",
+        "span": "JASODA TO T-POINT KISHANPURA"
+    },
+    {
+        "x": 79.03733474800003,
+        "y": 24.33464152700003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KANIKHEDI KALA TO TARPOH_302_303",
+        "type": "sharp_edge",
+        "span": "KANIKHEDI KALA TO TARPOH"
+    },
+    {
+        "x": 79.02307482900005,
+        "y": 24.33504403300003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KANIKHEDI KALA TO TARPOH_370_460",
+        "type": "sharp_edge",
+        "span": "KANIKHEDI KALA TO TARPOH"
+    },
+    {
+        "x": 79.13600269000005,
+        "y": 24.37662716400007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_LUDAYARA TO NEGUWAN_223_225",
+        "type": "sharp_edge",
+        "span": "LUDAYARA TO NEGUWAN"
+    },
+    {
+        "x": 79.09548760900003,
+        "y": 24.377973997000026,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NARWAN TO SHAHGARH BLOCK_216_220",
+        "type": "sharp_edge",
+        "span": "NARWAN TO SHAHGARH BLOCK"
+    },
+    {
+        "x": 79.12006580800005,
+        "y": 24.320109716000047,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NARWAN TO SHAHGARH BLOCK_341_343",
+        "type": "sharp_edge",
+        "span": "NARWAN TO SHAHGARH BLOCK"
+    },
+    {
+        "x": 79.12678718200004,
+        "y": 24.319965911000054,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NARWAN TO SHAHGARH BLOCK_409_411",
+        "type": "sharp_edge",
+        "span": "NARWAN TO SHAHGARH BLOCK"
+    },
+    {
+        "x": 79.13055160400006,
+        "y": 24.322773865000045,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NARWAN TO SHAHGARH BLOCK_411_416",
+        "type": "sharp_edge",
+        "span": "NARWAN TO SHAHGARH BLOCK"
+    },
+    {
+        "x": 79.15283020100003,
+        "y": 24.33686854700005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NEGUWAN TO AMARMAU_364_369",
+        "type": "sharp_edge",
+        "span": "NEGUWAN TO AMARMAU"
+    },
+    {
+        "x": 79.07399478600007,
+        "y": 24.326105776000077,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PALKATOR TO BATTWAHA_282_476",
+        "type": "sharp_edge",
+        "span": "PALKATOR TO BATTWAHA"
+    },
+    {
+        "x": 79.07325462800003,
+        "y": 24.321014062000074,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PALKATOR TO BATTWAHA_378_475",
+        "type": "sharp_edge",
+        "span": "PALKATOR TO BATTWAHA"
+    },
+    {
+        "x": 79.13866845000007,
+        "y": 24.400927696000053,
+        "crs": "EPSG:4326",
+        "label": "Sharp_RAMPUR TO SADPUR_185_191",
+        "type": "sharp_edge",
+        "span": "RAMPUR TO SADPUR"
+    },
+    {
+        "x": 79.14300364000007,
+        "y": 24.38583088300004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_RAMPUR TO SADPUR_188_189",
+        "type": "sharp_edge",
+        "span": "RAMPUR TO SADPUR"
+    },
+    {
+        "x": 79.14297369800005,
+        "y": 24.385832594000078,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SADPUR TO LUDAYARA_192_477",
+        "type": "sharp_edge",
+        "span": "SADPUR TO LUDAYARA"
+    },
+    {
+        "x": 79.13932174300004,
+        "y": 24.376589892000027,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SADPUR TO LUDAYARA_228_478",
+        "type": "sharp_edge",
+        "span": "SADPUR TO LUDAYARA"
+    },
+    {
+        "x": 78.97526852900006,
+        "y": 24.342099387000076,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SEMRA SANODHA TO KISHANPURA_14_16",
+        "type": "sharp_edge",
+        "span": "SEMRA SANODHA TO KISHANPURA"
+    },
+    {
+        "x": 79.11904003700005,
+        "y": 24.31921636900006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SHAHGARH BLOCK TO SIMRIYA KALAN_334_336",
+        "type": "sharp_edge",
+        "span": "SHAHGARH BLOCK TO SIMRIYA KALAN"
+    },
+    {
+        "x": 79.12675619100008,
+        "y": 24.319973463000053,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SHAHGARH BLOCK TO SIMRIYA KALAN_403_449",
+        "type": "sharp_edge",
+        "span": "SHAHGARH BLOCK TO SIMRIYA KALAN"
+    },
+    {
+        "x": 79.08646978300004,
+        "y": 24.426031891000036,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SIMRIYA KALAN TO RAMPUR_96_116",
+        "type": "sharp_edge",
+        "span": "SIMRIYA KALAN TO RAMPUR"
+    },
+    {
+        "x": 79.16603323600003,
+        "y": 24.41279624400005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SIMRIYA KALAN TO RAMPUR_148_150",
+        "type": "sharp_edge",
+        "span": "SIMRIYA KALAN TO RAMPUR"
+    },
+    {
+        "x": 79.11401585400006,
+        "y": 24.34796752400007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SIMRIYA KALAN TO RAMPUR_283_482",
+        "type": "sharp_edge",
+        "span": "SIMRIYA KALAN TO RAMPUR"
+    },
+    {
+        "x": 78.97785606000008,
+        "y": 24.308124299000042,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT KANIKHEDI KALA TO BAGRODHA_66_67",
+        "type": "sharp_edge",
+        "span": "T-POINT KANIKHEDI KALA TO BAGRODHA"
+    },
+    {
+        "x": 78.97224711200005,
+        "y": 24.306347962000075,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT KANIKHEDI KALA TO BAGRODHA_68_500",
+        "type": "sharp_edge",
+        "span": "T-POINT KANIKHEDI KALA TO BAGRODHA"
+    },
+    {
+        "x": 79.00898557200003,
+        "y": 24.29270692700004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT KANIKHEDI KALA TO BAGRODHA_387_496",
+        "type": "sharp_edge",
+        "span": "T-POINT KANIKHEDI KALA TO BAGRODHA"
+    },
+    {
+        "x": 79.16605957700006,
+        "y": 24.412841016000073,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT RAMPUR  TO TIGODA_157_501",
+        "type": "sharp_edge",
+        "span": "T-POINT RAMPUR  TO TIGODA"
+    },
+    {
+        "x": 79.18859633100004,
+        "y": 24.38453381200003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT RAMPUR  TO TIGODA_169_175",
+        "type": "sharp_edge",
+        "span": "T-POINT RAMPUR  TO TIGODA"
+    },
+    {
+        "x": 79.00812212700004,
+        "y": 24.328247559000033,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TARPOH TO SEMRA SANODHA_54_55",
+        "type": "sharp_edge",
+        "span": "TARPOH TO SEMRA SANODHA"
+    },
+    {
+        "x": 79.02274813600008,
+        "y": 24.33504458400006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TARPOH TO SEMRA SANODHA_375_504",
+        "type": "sharp_edge",
+        "span": "TARPOH TO SEMRA SANODHA"
+    },
+    {
+        "x": 79.19142562900004,
+        "y": 24.38318789400006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TIGODA TO HIRAPUR_179_180",
+        "type": "sharp_edge",
+        "span": "TIGODA TO HIRAPUR"
+    },
+    {
+        "x": 79.21046956600003,
+        "y": 24.36621314000007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TIGODA TO HIRAPUR_430_432",
+        "type": "sharp_edge",
+        "span": "TIGODA TO HIRAPUR"
+    },
+    {
+        "x": 79.20648689200004,
+        "y": 24.361962383000048,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TIGODA TO HIRAPUR_430_505",
+        "type": "sharp_edge",
+        "span": "TIGODA TO HIRAPUR"
+    }
+]

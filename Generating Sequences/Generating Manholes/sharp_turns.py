@@ -5,9 +5,10 @@ import numpy as np
 import math
 import json
 
-block_name = "Gangev"
+block_name = "Shahgarh"
 # === Parameters ===
-input_shapefile = f'input/OFC_New_{block_name}-1_Seg_Span_Seq.shp'   # your input line shapefile
+# input_shapefile = f'input/OFC_New_{block_name}-1_Seg_Span_Seq.shp'   # your input line shapefile
+input_shapefile = f'input/OFC_NEW.shp'   # your input line shapefile
 output_shapefile = f"temp/sharp_turn_points_{block_name}.shp"   # output point shapefile
 output_json = f"temp/sharp_turn_points_{block_name}.json"       # output JSON file
 angle_threshold = 110  # degrees
