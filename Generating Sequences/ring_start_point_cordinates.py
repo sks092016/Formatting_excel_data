@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Jaisinagar"
+blockName = "Morena"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,41 +32,64 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Jaisinagar/gps.shp"
-segments_shape_file = "References/Jaisinagar/OFC_NEW.shp"
+gps_shape_file = "References/Morena/gps.shp"
+segments_shape_file = "References/Morena/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '78.57275820 23.62777020'
+BHQ_CORDINATE = '77.97862150 26.49207350'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
-    'R4': BHQ_CORDINATE,
-    'R1-C1':'78.60554909 23.70134673',
-    'R1-C2':'78.63517711 23.78768437',
-    'R2-C1':'78.72815354 23.64682399',
-    'R3-C1': '78.49575000 23.62361000',
-    'R4-C1': '78.68459322 23.69544707',
-    'R4-C2': '78.75678720 23.71520728',
+    'R5': BHQ_CORDINATE,
+    'R6': BHQ_CORDINATE,
+    'R7': BHQ_CORDINATE,
+    'R1-C1':'77.96144706 26.43958050',
+    'R2-C1':'78.07777500 26.59153400',
+    'R3-C1':'77.96154600 26.53991100',
+    'R3-C2':'77.96852734 26.59714855',
+    'R5-C1':'78.10805843 26.35875297',
+    'R5-C2':'78.11950704 26.40032730',
+    'R6-C1':'78.15470612 26.46774643',
+    'R6-C2':'78.09525169 26.44614395',
+    'R7-C1':'78.12391650 26.52089485',
 }
+
 t_point_ring_spans = {
-'t-point agariya (p)':(78.59045683, 23.68249434),
-'t-point bamhori ghat (p)':(78.67873637,23.65295604),
-'t-point baroda sagar (p)':(78.68459322,23.69544707),
-'t-point hada (p)':(78.61020899,23.60287620),
-'t-point hanota sagar (p)':(78.75132744,23.73852152),
-'t-point jera (p)':(78.54701885,23.61478812),
-'t-point khejra mafi (p)':(78.72815354,23.64682399),
-'t-point padrai (p)':(78.60554909,23.70134673),
-'t-point semadhana (p)':(78.63517711,23.78768437),
-'t-point jaisinagar block (p)':(78.57172575,23.61931219),
-'t-point hanota sagar (p)':(78.75678720,23.71520728),
-'t-point berkheri madiya (p)':(78.75678720,23.71520728),
-'t-point mahuwa kheda pegwar (p)':(78.63517711,23.78768437)
+'t-point baretha':(78.07777500,26.59153400),
+'t-point basaiya':(78.12391650,26.52089485),
+'t-point devari':(77.96154600,26.53991100),
+'t-point khaneta':(77.96144706,26.43958050),
+'t-point kharagpur':(78.11950704,26.40032730),
+'t-point kishanpur':(78.04494369,26.48836827),
+'t-point kotwal':(78.15470612,26.46774643),
+'t-point labhanpura':(78.09525169,26.44614395),
+'t-point piparkhera':(77.96852734,26.59714855),
+'t-point naupura':(78.14470700,26.45445000),
+'t-point palpura':(78.04197601,26.61803274),
+'t-point piprai':(77.93185000,26.62412000),
+'t-point seva':(78.10805843,26.35875297),
 }
+
+# Jaisinagar
+# t_point_ring_spans = {
+# 't-point agariya (p)':(78.59045683, 23.68249434),
+# 't-point bamhori ghat (p)':(78.67873637,23.65295604),
+# 't-point baroda sagar (p)':(78.68459322,23.69544707),
+# 't-point hada (p)':(78.61020899,23.60287620),
+# 't-point hanota sagar (p)':(78.75132744,23.73852152),
+# 't-point jera (p)':(78.54701885,23.61478812),
+# 't-point khejra mafi (p)':(78.72815354,23.64682399),
+# 't-point padrai (p)':(78.60554909,23.70134673),
+# 't-point semadhana (p)':(78.63517711,23.78768437),
+# 't-point jaisinagar block (p)':(78.57172575,23.61931219),
+# 't-point hanota sagar (p)':(78.75678720,23.71520728),
+# 't-point berkheri madiya (p)':(78.75678720,23.71520728),
+# 't-point mahuwa kheda pegwar (p)':(78.63517711,23.78768437)
+# }
 
 # gangev
 # t_point_ring_spans = {
@@ -182,19 +205,7 @@ t_point_ring_spans = {
 # 't-point fulgavdi':(75.04530773,22.63007108)
 # }
 # Morena
-# t_point_ring_spans = {
-# 't-point baretha':(78.07777500,26.59153400),
-# 't-point basaiya':(78.12391650,26.52089485),
-# 't-point girgoni':(78.09522331,26.44608708),
-# 't-point hetampur':(77.93661789,26.60670586),
-# 't-point kharagpur':(78.11950704,26.40032730),
-# 't-point kishanpur':(78.04494369,26.48836827),
-# 't-point nanka':(78.15470612,26.46774643),
-# 't-point naupura':(78.14470700,26.45445000),
-# 't-point palpura':(78.04197601,26.61803274),
-# 't-point piprai':(77.93185000,26.62412000),
-# 't-point seva':(78.10805843,26.35875297),
-# }
+
 # Gangev
 # t_point_ring_spans = {
 # 't-point amaha':(81.57659718,24.80165722),
