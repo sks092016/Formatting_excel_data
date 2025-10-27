@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Morena"
+blockName = "Deori"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,47 +32,57 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Morena/gps.shp"
-segments_shape_file = "References/Morena/OFC_NEW.shp"
+gps_shape_file = "References/Deori/gps.shp"
+segments_shape_file = "References/Deori/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '77.97862150 26.49207350'
+BHQ_CORDINATE = '79.01986115 23.37630395'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
+    'R4': BHQ_CORDINATE,
     'R5': BHQ_CORDINATE,
-    'R6': BHQ_CORDINATE,
-    'R7': BHQ_CORDINATE,
-    'R1-C1':'77.96144706 26.43958050',
-    'R2-C1':'78.07777500 26.59153400',
-    'R3-C1':'77.96154600 26.53991100',
-    'R3-C2':'77.96852734 26.59714855',
-    'R5-C1':'78.10805843 26.35875297',
-    'R5-C2':'78.11950704 26.40032730',
-    'R6-C1':'78.15470612 26.46774643',
-    'R6-C2':'78.09525169 26.44614395',
-    'R7-C1':'78.12391650 26.52089485',
+    'R1-C1':'79.05657830 23.27625330',
+    'R2-C1':'78.90404520 23.52387920',
+    'R2-C2':'78.98713421 23.41750795',
+    'R3-C1':'79.07467350 23.51988522',
+    'R3-C2':'79.08044459 23.49149171',
+}
+t_point_ring_spans = {
+'t-point barkoti kalan':(78.87662231,23.57765570),
+'t-point beldhana':(78.98713421,23.41750795),
+'t-point chirchita sukhju':(78.94876406,23.44227866),
+'t-point gugwara':(78.95035681,23.51462038),
+'t-point jhunku':(79.02256569,23.40623120),
+'t-point kopra':(79.07467350,23.51988522),
+'t-point mahrajpur':(79.06221862,23.27554523),
+'t-point manegaon':(79.08044459,23.49149171),
+'t-point pipariya':(79.04283971,23.49055118),
+'t-point raikheda':(78.95942941,23.35927426),
+'t-point samnapur shahju':(79.08642960,23.29213162),
+'t-point sujanpur':(78.95272466,23.50304762),
 }
 
-t_point_ring_spans = {
-'t-point baretha':(78.07777500,26.59153400),
-'t-point basaiya':(78.12391650,26.52089485),
-'t-point devari':(77.96154600,26.53991100),
-'t-point khaneta':(77.96144706,26.43958050),
-'t-point kharagpur':(78.11950704,26.40032730),
-'t-point kishanpur':(78.04494369,26.48836827),
-'t-point kotwal':(78.15470612,26.46774643),
-'t-point labhanpura':(78.09525169,26.44614395),
-'t-point piparkhera':(77.96852734,26.59714855),
-'t-point naupura':(78.14470700,26.45445000),
-'t-point palpura':(78.04197601,26.61803274),
-'t-point piprai':(77.93185000,26.62412000),
-'t-point seva':(78.10805843,26.35875297),
-}
+
+# t_point_ring_spans = {
+# 't-point baretha':(78.07777500,26.59153400),
+# 't-point basaiya':(78.12391650,26.52089485),
+# 't-point devari':(77.96154600,26.53991100),
+# 't-point khaneta':(77.96144706,26.43958050),
+# 't-point kharagpur':(78.11950704,26.40032730),
+# 't-point kishanpur':(78.04494369,26.48836827),
+# 't-point kotwal':(78.15470612,26.46774643),
+# 't-point labhanpura':(78.09525169,26.44614395),
+# 't-point piparkhera':(77.96852734,26.59714855),
+# 't-point naupura':(78.14470700,26.45445000),
+# 't-point palpura':(78.04197601,26.61803274),
+# 't-point piprai':(77.93185000,26.62412000),
+# 't-point seva':(78.10805843,26.35875297),
+# }
 
 # Jaisinagar
 # t_point_ring_spans = {

@@ -37,7 +37,7 @@ for s in span_list:
         gp_node = t_point_ring_spans[start_gp]
     else:
         try:
-            s_c = gdf_gp[gdf_gp.GP_Name.str.lower() == start_gp].geometry.iloc[0]#TODO --- CHANGE THIS POINT COLUMN NAME for gp name
+            s_c = gdf_gp[gdf_gp.name.str.lower() == start_gp].geometry.iloc[0]#TODO --- CHANGE THIS POINT COLUMN NAME for gp name
             gp_node = get_coords(s_c)
         except:
             print(f"GP Cordinate not matching {start_gp} and {s}")

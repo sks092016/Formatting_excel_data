@@ -7,8 +7,11 @@ update_field = "span_name"
 
 # t-point corrections
 
+
 replacement_map = {
-'MIRGPURA TO JAKHONA':'PALPURA TO JAKHONA'
+'CHIRCHITA SUKHJUI':'CHIRCHITA SUKHJU',
+ # 'KORA':'KOPRA',
+
 }
 count = 0
 

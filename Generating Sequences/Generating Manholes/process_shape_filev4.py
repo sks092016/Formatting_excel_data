@@ -117,9 +117,9 @@ def process_shapefile(
         raise ValueError(f"No records found for span_name '{span_filter}'")
 
     # Sorting segments in their sequence order
-    if "Sequqnce" not in gdf.columns: #TODO : Chnage the column name for sequnce
+    if "seg_seq" not in gdf.columns: #TODO : Chnage the column name for sequnce
         raise ValueError("Input shapefile must have 'seg_seq' field.")
-    gdf["sort_key"] = gdf["Sequqnce"].apply(natural_sort_key) #TODO : Chnage the column name for sequnce
+    gdf["sort_key"] = gdf["seg_seq"].apply(natural_sort_key) #TODO : Chnage the column name for sequnce
     gdf = gdf.sort_values(by="sort_key").reset_index(drop=True)
 
     # Ordered merge into main_line
@@ -141,7 +141,7 @@ def process_shapefile(
 
     # Default crossing_types if not provided
     if crossing_types is None:
-        crossing_types = ["nh road cross", "mdr road cross","bridge", "railway", "rail_cross", "rail crossing"]
+        crossing_types = ["nh road cross", "sh road cross","bridge", "railway", "rail_cross", "rail crossing"] #TODO for road crossing
 
     # Normalize crossing types to lower-case for comparison
     crossing_types = [t.strip().lower() for t in crossing_types]
@@ -483,15 +483,15 @@ def process_shapefile(
 
 if __name__ == "__main__":
     version = "1.0"
-    block_name = "Shahgarh"
+    block_name = "Deori"
     # Example manual points JSON (optional). Save a small sample file if you want to test manual points:
     # [
     #   {"x": 2000.0, "y": 0.0, "label": "User_Manual_1"},
     #   {"x": 5200.0, "y": 0.0, "label": "User_Manual_2"}
     # ]
     # save as manual_points.json and pass manual_points_json="manual_points.json"
-    # sample_path = f'input/OFC_New_{block_name}-1_Seg_Span_Seq.shp'
-    sample_path = f'input/OFC_NEW.shp'
+    sample_path = f'input/OFC_New_{block_name}-1_Seg_Span_Seq.shp'
+    # sample_path = f'input/OFC_NEW.shp'
     gdf = gpd.read_file(sample_path)
     span_list = gdf.sort_values('span_name').span_name.unique()
     temp_merged = gpd.GeoDataFrame(columns=['label', 'ptype', 'dist_m', 'geometry', 'span'], crs=gdf.crs)

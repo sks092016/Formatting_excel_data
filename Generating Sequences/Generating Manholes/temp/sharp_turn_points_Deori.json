@@ -1,0 +1,1306 @@
+[
+    {
+        "x": 79.10874800400006,
+        "y": 23.521488778000048,
+        "crs": "EPSG:4326",
+        "label": "Sharp_ANANTPURA TO T-POINT MANEGAON_2_3",
+        "type": "sharp_edge",
+        "span": "ANANTPURA TO T-POINT MANEGAON"
+    },
+    {
+        "x": 78.94267418500004,
+        "y": 23.546441549000065,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BAHERIYA KALAN TO MADHI JAMUNIYA_32_34",
+        "type": "sharp_edge",
+        "span": "BAHERIYA KALAN TO MADHI JAMUNIYA"
+    },
+    {
+        "x": 78.94055507100006,
+        "y": 23.544773728000052,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BAHERIYA KALAN TO MADHI JAMUNIYA_35_36",
+        "type": "sharp_edge",
+        "span": "BAHERIYA KALAN TO MADHI JAMUNIYA"
+    },
+    {
+        "x": 79.08617959300005,
+        "y": 23.323152684000036,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARHA TO SAMNAPUR SHAHJU_55_56",
+        "type": "sharp_edge",
+        "span": "BARHA TO SAMNAPUR SHAHJU"
+    },
+    {
+        "x": 79.08851583100005,
+        "y": 23.293048858000077,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARHA TO SAMNAPUR SHAHJU_71_72",
+        "type": "sharp_edge",
+        "span": "BARHA TO SAMNAPUR SHAHJU"
+    },
+    {
+        "x": 78.90540017400008,
+        "y": 23.576877741000033,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARKOTI KALAN TO BERKHERI RAJA_74_85",
+        "type": "sharp_edge",
+        "span": "BARKOTI KALAN TO BERKHERI RAJA"
+    },
+    {
+        "x": 78.88759320400004,
+        "y": 23.583749460000035,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARKOTI KALAN TO BERKHERI RAJA_77_116",
+        "type": "sharp_edge",
+        "span": "BARKOTI KALAN TO BERKHERI RAJA"
+    },
+    {
+        "x": 78.90503486700004,
+        "y": 23.577498311000056,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARKOTI KALAN TO BERKHERI RAJA_84_120",
+        "type": "sharp_edge",
+        "span": "BARKOTI KALAN TO BERKHERI RAJA"
+    },
+    {
+        "x": 78.88598230500008,
+        "y": 23.56313734500003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARKOTI KALAN TO BERKHERI RAJA_103_104",
+        "type": "sharp_edge",
+        "span": "BARKOTI KALAN TO BERKHERI RAJA"
+    },
+    {
+        "x": 78.87662231400003,
+        "y": 23.577655698000058,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARKOTI KALAN TO BERKHERI RAJA_108_121",
+        "type": "sharp_edge",
+        "span": "BARKOTI KALAN TO BERKHERI RAJA"
+    },
+    {
+        "x": 78.99512425400007,
+        "y": 23.409737999000072,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BELDHANA TO SUJANPUR_132_133",
+        "type": "sharp_edge",
+        "span": "BELDHANA TO SUJANPUR"
+    },
+    {
+        "x": 78.99033567500004,
+        "y": 23.452385710000044,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BELDHANA TO SUJANPUR_143_148",
+        "type": "sharp_edge",
+        "span": "BELDHANA TO SUJANPUR"
+    },
+    {
+        "x": 78.90464778900008,
+        "y": 23.57691886300006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BERKHERI RAJA TO BIJAURA_153_154",
+        "type": "sharp_edge",
+        "span": "BERKHERI RAJA TO BIJAURA"
+    },
+    {
+        "x": 78.88611495000004,
+        "y": 23.56331864300006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BERKHERI RAJA TO BIJAURA_174_204",
+        "type": "sharp_edge",
+        "span": "BERKHERI RAJA TO BIJAURA"
+    },
+    {
+        "x": 78.89223556000007,
+        "y": 23.551138680000065,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BERKHERI RAJA TO BIJAURA_178_179",
+        "type": "sharp_edge",
+        "span": "BERKHERI RAJA TO BIJAURA"
+    },
+    {
+        "x": 78.91509922200004,
+        "y": 23.56928894500004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BERKHERI RAJA TO BIJAURA_201_202",
+        "type": "sharp_edge",
+        "span": "BERKHERI RAJA TO BIJAURA"
+    },
+    {
+        "x": 79.04604990500007,
+        "y": 23.41240668200004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BICHUWA BHAWATARA TO SAMNAPUR SETH_208_209",
+        "type": "sharp_edge",
+        "span": "BICHUWA BHAWATARA TO SAMNAPUR SETH"
+    },
+    {
+        "x": 79.04781375700009,
+        "y": 23.412350925000055,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BICHUWA BHAWATARA TO SAMNAPUR SETH_210_211",
+        "type": "sharp_edge",
+        "span": "BICHUWA BHAWATARA TO SAMNAPUR SETH"
+    },
+    {
+        "x": 78.95520517500006,
+        "y": 23.575911568000038,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BIJAURA TO BAHERIYA KALAN_227_232",
+        "type": "sharp_edge",
+        "span": "BIJAURA TO BAHERIYA KALAN"
+    },
+    {
+        "x": 78.95408244600003,
+        "y": 23.574905611000077,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BIJAURA TO BAHERIYA KALAN_233_272",
+        "type": "sharp_edge",
+        "span": "BIJAURA TO BAHERIYA KALAN"
+    },
+    {
+        "x": 78.93605561700008,
+        "y": 23.579665083000066,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BIJAURA TO BAHERIYA KALAN_235_252",
+        "type": "sharp_edge",
+        "span": "BIJAURA TO BAHERIYA KALAN"
+    },
+    {
+        "x": 78.91455584800008,
+        "y": 23.569822677000047,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BIJAURA TO BAHERIYA KALAN_236_282",
+        "type": "sharp_edge",
+        "span": "BIJAURA TO BAHERIYA KALAN"
+    },
+    {
+        "x": 78.94533233100003,
+        "y": 23.573678176000044,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BIJAURA TO BAHERIYA KALAN_268_269",
+        "type": "sharp_edge",
+        "span": "BIJAURA TO BAHERIYA KALAN"
+    },
+    {
+        "x": 78.95900352200005,
+        "y": 23.574860079000075,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BIJAURA TO BAHERIYA KALAN_275_276",
+        "type": "sharp_edge",
+        "span": "BIJAURA TO BAHERIYA KALAN"
+    },
+    {
+        "x": 78.95933992700003,
+        "y": 23.576557758000035,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BIJAURA TO BAHERIYA KALAN_279_281",
+        "type": "sharp_edge",
+        "span": "BIJAURA TO BAHERIYA KALAN"
+    },
+    {
+        "x": 79.04625715600008,
+        "y": 23.280503735000025,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BIJOURA TO MAHRAJPUR_308_326",
+        "type": "sharp_edge",
+        "span": "BIJOURA TO MAHRAJPUR"
+    },
+    {
+        "x": 79.06012319700005,
+        "y": 23.279993408000053,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BIJOURA TO MAHRAJPUR_323_324",
+        "type": "sharp_edge",
+        "span": "BIJOURA TO MAHRAJPUR"
+    },
+    {
+        "x": 79.09554026200004,
+        "y": 23.34847432300006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BINA TO ISHURPUR_346_348",
+        "type": "sharp_edge",
+        "span": "BINA TO ISHURPUR"
+    },
+    {
+        "x": 79.01531540300005,
+        "y": 23.346790189000046,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHHINDLI TO PIPARIYA PATHAK_350_351",
+        "type": "sharp_edge",
+        "span": "CHHINDLI TO PIPARIYA PATHAK"
+    },
+    {
+        "x": 78.99070223500007,
+        "y": 23.333460197000022,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHHINDLI TO PIPARIYA PATHAK_362_363",
+        "type": "sharp_edge",
+        "span": "CHHINDLI TO PIPARIYA PATHAK"
+    },
+    {
+        "x": 78.98537235700007,
+        "y": 23.33300104500006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHHINDLI TO PIPARIYA PATHAK_366_367",
+        "type": "sharp_edge",
+        "span": "CHHINDLI TO PIPARIYA PATHAK"
+    },
+    {
+        "x": 78.99198280600007,
+        "y": 23.451701746000026,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHIMADHANA TO PIPARIYA_373_374",
+        "type": "sharp_edge",
+        "span": "CHIMADHANA TO PIPARIYA"
+    },
+    {
+        "x": 78.99564073800008,
+        "y": 23.47060205300005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHIMADHANA TO PIPARIYA_381_382",
+        "type": "sharp_edge",
+        "span": "CHIMADHANA TO PIPARIYA"
+    },
+    {
+        "x": 78.95066320100005,
+        "y": 23.444380866000074,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHIRCHITA SUKHJU TO T-POINT SUJANPUR_428_476",
+        "type": "sharp_edge",
+        "span": "CHIRCHITA SUKHJU TO T-POINT SUJANPUR"
+    },
+    {
+        "x": 79.02067871100007,
+        "y": 23.376562402000047,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DEORI BLOCK TO BELDHANA_477_490",
+        "type": "sharp_edge",
+        "span": "DEORI BLOCK TO BELDHANA"
+    },
+    {
+        "x": 79.01521635800003,
+        "y": 23.389554892000035,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DEORI BLOCK TO BELDHANA_483_509",
+        "type": "sharp_edge",
+        "span": "DEORI BLOCK TO BELDHANA"
+    },
+    {
+        "x": 79.01690381000003,
+        "y": 23.389361289000078,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DEORI BLOCK TO BELDHANA_484_504",
+        "type": "sharp_edge",
+        "span": "DEORI BLOCK TO BELDHANA"
+    },
+    {
+        "x": 79.01739810700008,
+        "y": 23.38854565400004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DEORI BLOCK TO BELDHANA_485_502",
+        "type": "sharp_edge",
+        "span": "DEORI BLOCK TO BELDHANA"
+    },
+    {
+        "x": 79.01722326500004,
+        "y": 23.38852832400005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DEORI BLOCK TO BELDHANA_502_503",
+        "type": "sharp_edge",
+        "span": "DEORI BLOCK TO BELDHANA"
+    },
+    {
+        "x": 79.02323765700004,
+        "y": 23.370741628000076,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DEORI BLOCK TO BIJOURA_545_555",
+        "type": "sharp_edge",
+        "span": "DEORI BLOCK TO BIJOURA"
+    },
+    {
+        "x": 79.02070878600006,
+        "y": 23.37650269100004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DEORI BLOCK TO BIJOURA_551_552",
+        "type": "sharp_edge",
+        "span": "DEORI BLOCK TO BIJOURA"
+    },
+    {
+        "x": 79.02071524400003,
+        "y": 23.376552778000075,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DEORI BLOCK TO JHUNKU_575_590",
+        "type": "sharp_edge",
+        "span": "DEORI BLOCK TO JHUNKU"
+    },
+    {
+        "x": 79.02073546600008,
+        "y": 23.376544011000078,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DEORI BLOCK TO KANSKHEDA_600_605",
+        "type": "sharp_edge",
+        "span": "DEORI BLOCK TO KANSKHEDA"
+    },
+    {
+        "x": 79.02959891700004,
+        "y": 23.385019360000058,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DEORI BLOCK TO KANSKHEDA_602_612",
+        "type": "sharp_edge",
+        "span": "DEORI BLOCK TO KANSKHEDA"
+    },
+    {
+        "x": 79.02327716500008,
+        "y": 23.370782305000034,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DHULTRA TO DEORI BLOCK_613_622",
+        "type": "sharp_edge",
+        "span": "DHULTRA TO DEORI BLOCK"
+    },
+    {
+        "x": 79.03315768000004,
+        "y": 23.35052685100004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DHULTRA TO DEORI BLOCK_614_615",
+        "type": "sharp_edge",
+        "span": "DHULTRA TO DEORI BLOCK"
+    },
+    {
+        "x": 79.02071483500004,
+        "y": 23.376511048000054,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DHULTRA TO DEORI BLOCK_624_625",
+        "type": "sharp_edge",
+        "span": "DHULTRA TO DEORI BLOCK"
+    },
+    {
+        "x": 79.00653149200008,
+        "y": 23.28162205700005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DOBHI TO SUNA PANJARA_629_630",
+        "type": "sharp_edge",
+        "span": "DOBHI TO SUNA PANJARA"
+    },
+    {
+        "x": 79.06484433700007,
+        "y": 23.423291809000034,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DONGAR SALAIYA TO T-POINT BICHUWA BHAWATARA_659_660",
+        "type": "sharp_edge",
+        "span": "DONGAR SALAIYA TO T-POINT BICHUWA BHAWATARA"
+    },
+    {
+        "x": 78.91117938300005,
+        "y": 23.51685987700006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GANGWARA TO SARKHEDA_677_689",
+        "type": "sharp_edge",
+        "span": "GANGWARA TO SARKHEDA"
+    },
+    {
+        "x": 78.90320253700008,
+        "y": 23.52176919300007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GANGWARA TO SARKHEDA_679_697",
+        "type": "sharp_edge",
+        "span": "GANGWARA TO SARKHEDA"
+    },
+    {
+        "x": 78.89081464500003,
+        "y": 23.511777304000077,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GANGWARA TO SARKHEDA_686_692",
+        "type": "sharp_edge",
+        "span": "GANGWARA TO SARKHEDA"
+    },
+    {
+        "x": 79.02076956900004,
+        "y": 23.399521696000022,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GUGWARA TO DEORI BLOCK_710_812",
+        "type": "sharp_edge",
+        "span": "GUGWARA TO DEORI BLOCK"
+    },
+    {
+        "x": 78.95035681200005,
+        "y": 23.51462037700003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GUGWARA TO DEORI BLOCK_718_727",
+        "type": "sharp_edge",
+        "span": "GUGWARA TO DEORI BLOCK"
+    },
+    {
+        "x": 78.93845043300007,
+        "y": 23.516541602000075,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GUGWARA TO DEORI BLOCK_721_802",
+        "type": "sharp_edge",
+        "span": "GUGWARA TO DEORI BLOCK"
+    },
+    {
+        "x": 78.93862439400004,
+        "y": 23.516783281000073,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GUGWARA TO DEORI BLOCK_722_804",
+        "type": "sharp_edge",
+        "span": "GUGWARA TO DEORI BLOCK"
+    },
+    {
+        "x": 78.94822166600005,
+        "y": 23.509299859000066,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GUGWARA TO DEORI BLOCK_724_726",
+        "type": "sharp_edge",
+        "span": "GUGWARA TO DEORI BLOCK"
+    },
+    {
+        "x": 78.96673855200004,
+        "y": 23.492829105000055,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GUGWARA TO DEORI BLOCK_738_748",
+        "type": "sharp_edge",
+        "span": "GUGWARA TO DEORI BLOCK"
+    },
+    {
+        "x": 78.96791934900006,
+        "y": 23.49539700500003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GUGWARA TO DEORI BLOCK_746_747",
+        "type": "sharp_edge",
+        "span": "GUGWARA TO DEORI BLOCK"
+    },
+    {
+        "x": 79.08080636200003,
+        "y": 23.41890836300007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_IMJHIRA TO DONGAR SALAIYA_814_815",
+        "type": "sharp_edge",
+        "span": "IMJHIRA TO DONGAR SALAIYA"
+    },
+    {
+        "x": 79.09553299300006,
+        "y": 23.348403403000077,
+        "crs": "EPSG:4326",
+        "label": "Sharp_ISHURPUR TO BARHA_833_834",
+        "type": "sharp_edge",
+        "span": "ISHURPUR TO BARHA"
+    },
+    {
+        "x": 78.88065990800004,
+        "y": 23.522303618000024,
+        "crs": "EPSG:4326",
+        "label": "Sharp_JAITPUR KACHHAYA TO BARKOTI KALAN_839_845",
+        "type": "sharp_edge",
+        "span": "JAITPUR KACHHAYA TO BARKOTI KALAN"
+    },
+    {
+        "x": 78.88567677500004,
+        "y": 23.52360640300003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_JAITPUR KACHHAYA TO BARKOTI KALAN_841_842",
+        "type": "sharp_edge",
+        "span": "JAITPUR KACHHAYA TO BARKOTI KALAN"
+    },
+    {
+        "x": 78.86235435700007,
+        "y": 23.529410119000033,
+        "crs": "EPSG:4326",
+        "label": "Sharp_JAITPUR KACHHAYA TO BARKOTI KALAN_850_851",
+        "type": "sharp_edge",
+        "span": "JAITPUR KACHHAYA TO BARKOTI KALAN"
+    },
+    {
+        "x": 78.87309363300005,
+        "y": 23.551396735000026,
+        "crs": "EPSG:4326",
+        "label": "Sharp_JAITPUR KACHHAYA TO BARKOTI KALAN_869_870",
+        "type": "sharp_edge",
+        "span": "JAITPUR KACHHAYA TO BARKOTI KALAN"
+    },
+    {
+        "x": 79.04829245600007,
+        "y": 23.495624844000076,
+        "crs": "EPSG:4326",
+        "label": "Sharp_JAITPUR KOPRA TO KOPRA_875_876",
+        "type": "sharp_edge",
+        "span": "JAITPUR KOPRA TO KOPRA"
+    },
+    {
+        "x": 79.04924516400007,
+        "y": 23.493966525000076,
+        "crs": "EPSG:4326",
+        "label": "Sharp_JAITPUR KOPRA TO KOPRA_879_880",
+        "type": "sharp_edge",
+        "span": "JAITPUR KOPRA TO KOPRA"
+    },
+    {
+        "x": 79.06096428300003,
+        "y": 23.490602694000074,
+        "crs": "EPSG:4326",
+        "label": "Sharp_JAITPUR KOPRA TO KOPRA_898_899",
+        "type": "sharp_edge",
+        "span": "JAITPUR KOPRA TO KOPRA"
+    },
+    {
+        "x": 79.09288390700004,
+        "y": 23.551248892000046,
+        "crs": "EPSG:4326",
+        "label": "Sharp_JAMNAPUR PARASIYA TO KAKRI BERKHERI_906_920",
+        "type": "sharp_edge",
+        "span": "JAMNAPUR PARASIYA TO KAKRI BERKHERI"
+    },
+    {
+        "x": 79.07746792300003,
+        "y": 23.52427499600003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_JAMNAPUR PARASIYA TO KAKRI BERKHERI_908_930",
+        "type": "sharp_edge",
+        "span": "JAMNAPUR PARASIYA TO KAKRI BERKHERI"
+    },
+    {
+        "x": 79.02287077000005,
+        "y": 23.406083392000028,
+        "crs": "EPSG:4326",
+        "label": "Sharp_JHUNKU TO CHIMADHANA_967_968",
+        "type": "sharp_edge",
+        "span": "JHUNKU TO CHIMADHANA"
+    },
+    {
+        "x": 79.14701196500005,
+        "y": 23.51721939400005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KAKRI BERKHERI TO SIMARIYA HARRAKHEDA_998_999",
+        "type": "sharp_edge",
+        "span": "KAKRI BERKHERI TO SIMARIYA HARRAKHEDA"
+    },
+    {
+        "x": 79.01124191100007,
+        "y": 23.38914511300004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KANJERA TO DEORI BLOCK_1039_1040",
+        "type": "sharp_edge",
+        "span": "KANJERA TO DEORI BLOCK"
+    },
+    {
+        "x": 79.01514966500008,
+        "y": 23.38950814800006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KANJERA TO DEORI BLOCK_1049_1050",
+        "type": "sharp_edge",
+        "span": "KANJERA TO DEORI BLOCK"
+    },
+    {
+        "x": 79.02964263400008,
+        "y": 23.385010477000037,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KANSKHEDA TO BINA_1102_1105",
+        "type": "sharp_edge",
+        "span": "KANSKHEDA TO BINA"
+    },
+    {
+        "x": 79.03396207200007,
+        "y": 23.38383047900004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KANSKHEDA TO BINA_1103_1106",
+        "type": "sharp_edge",
+        "span": "KANSKHEDA TO BINA"
+    },
+    {
+        "x": 79.05760908000008,
+        "y": 23.305311114000062,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAKARIYA TO REECHHAI_1129_1143",
+        "type": "sharp_edge",
+        "span": "KHAKARIYA TO REECHHAI"
+    },
+    {
+        "x": 79.05667038300004,
+        "y": 23.310340025000073,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAKARIYA TO REECHHAI_1132_1133",
+        "type": "sharp_edge",
+        "span": "KHAKARIYA TO REECHHAI"
+    },
+    {
+        "x": 78.93091197600006,
+        "y": 23.52462706700004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAM KHEDA TO GAURJHAMER_1144_1163",
+        "type": "sharp_edge",
+        "span": "KHAM KHEDA TO GAURJHAMER"
+    },
+    {
+        "x": 78.89922977700007,
+        "y": 23.545255589000078,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAM KHEDA TO GAURJHAMER_1153_1165",
+        "type": "sharp_edge",
+        "span": "KHAM KHEDA TO GAURJHAMER"
+    },
+    {
+        "x": 78.93218330100007,
+        "y": 23.52486252400007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAM KHEDA TO GAURJHAMER_1163_1164",
+        "type": "sharp_edge",
+        "span": "KHAM KHEDA TO GAURJHAMER"
+    },
+    {
+        "x": 79.06348579200005,
+        "y": 23.257122525000057,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAMRIYA TO TITARPANI_1167_1168",
+        "type": "sharp_edge",
+        "span": "KHAMRIYA TO TITARPANI"
+    },
+    {
+        "x": 79.04865772200003,
+        "y": 23.25029005600004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAMRIYA TO TITARPANI_1182_1187",
+        "type": "sharp_edge",
+        "span": "KHAMRIYA TO TITARPANI"
+    },
+    {
+        "x": 79.04744942000008,
+        "y": 23.233122508000065,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAMRIYA TO TITARPANI_1184_1185",
+        "type": "sharp_edge",
+        "span": "KHAMRIYA TO TITARPANI"
+    },
+    {
+        "x": 79.07467350100006,
+        "y": 23.51988521900006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KOPRA TO MANEGAON_1205_1279",
+        "type": "sharp_edge",
+        "span": "KOPRA TO MANEGAON"
+    },
+    {
+        "x": 79.07678747200003,
+        "y": 23.496289208000064,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KOPRA TO MANEGAON_1251_1252",
+        "type": "sharp_edge",
+        "span": "KOPRA TO MANEGAON"
+    },
+    {
+        "x": 79.06631999200005,
+        "y": 23.468166817000053,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KOPRA TO MANEGAON_1275_1278",
+        "type": "sharp_edge",
+        "span": "KOPRA TO MANEGAON"
+    },
+    {
+        "x": 79.09508634100007,
+        "y": 23.45131148300004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KUSMI TO SINGPUR_1282_1283",
+        "type": "sharp_edge",
+        "span": "KUSMI TO SINGPUR"
+    },
+    {
+        "x": 79.09526008100005,
+        "y": 23.451030476000028,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KUSMI TO SINGPUR_1284_1285",
+        "type": "sharp_edge",
+        "span": "KUSMI TO SINGPUR"
+    },
+    {
+        "x": 79.08281074800004,
+        "y": 23.44313293400006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KUSMI TO SINGPUR_1297_1298",
+        "type": "sharp_edge",
+        "span": "KUSMI TO SINGPUR"
+    },
+    {
+        "x": 79.10878822600006,
+        "y": 23.42490278200006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KUSMI TO SINGPUR_1322_1323",
+        "type": "sharp_edge",
+        "span": "KUSMI TO SINGPUR"
+    },
+    {
+        "x": 78.94250108500006,
+        "y": 23.550265015000036,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MADHI JAMUNIYA TO KHAM KHEDA_1324_1328",
+        "type": "sharp_edge",
+        "span": "MADHI JAMUNIYA TO KHAM KHEDA"
+    },
+    {
+        "x": 78.94251912800007,
+        "y": 23.546540614000037,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MADHI JAMUNIYA TO KHAM KHEDA_1325_1326",
+        "type": "sharp_edge",
+        "span": "MADHI JAMUNIYA TO KHAM KHEDA"
+    },
+    {
+        "x": 79.06057369700005,
+        "y": 23.28029542300004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MAHRAJPUR TO PANARI_1336_1337",
+        "type": "sharp_edge",
+        "span": "MAHRAJPUR TO PANARI"
+    },
+    {
+        "x": 79.06015779500007,
+        "y": 23.279953764000027,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MAHRAJPUR TO PANARI_1338_1339",
+        "type": "sharp_edge",
+        "span": "MAHRAJPUR TO PANARI"
+    },
+    {
+        "x": 79.06221862400008,
+        "y": 23.275545227000066,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MAHRAJPUR TO PANARI_1343_1344",
+        "type": "sharp_edge",
+        "span": "MAHRAJPUR TO PANARI"
+    },
+    {
+        "x": 79.06471474400007,
+        "y": 23.46952527700006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MANEGAON TO BICHUWA BHAWATARA_1350_1351",
+        "type": "sharp_edge",
+        "span": "MANEGAON TO BICHUWA BHAWATARA"
+    },
+    {
+        "x": 79.06061678900005,
+        "y": 23.46320349000007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MANEGAON TO BICHUWA BHAWATARA_1355_1356",
+        "type": "sharp_edge",
+        "span": "MANEGAON TO BICHUWA BHAWATARA"
+    },
+    {
+        "x": 78.94876406000003,
+        "y": 23.442278658000077,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MANSOOR BAWARI TO CHIRCHITA SUKHJU_1401_1402",
+        "type": "sharp_edge",
+        "span": "MANSOOR BAWARI TO CHIRCHITA SUKHJU"
+    },
+    {
+        "x": 78.96928706400007,
+        "y": 23.419454090000045,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MANSOOR BAWARI TO CHIRCHITA SUKHJU_1404_1421",
+        "type": "sharp_edge",
+        "span": "MANSOOR BAWARI TO CHIRCHITA SUKHJU"
+    },
+    {
+        "x": 78.97013911800008,
+        "y": 23.41935896900003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MANSOOR BAWARI TO CHIRCHITA SUKHJU_1418_1420",
+        "type": "sharp_edge",
+        "span": "MANSOOR BAWARI TO CHIRCHITA SUKHJU"
+    },
+    {
+        "x": 78.94881151800007,
+        "y": 23.445613383000023,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MANSOOR BAWARI TO CHIRCHITA SUKHJU_1450_1452",
+        "type": "sharp_edge",
+        "span": "MANSOOR BAWARI TO CHIRCHITA SUKHJU"
+    },
+    {
+        "x": 79.03130252500006,
+        "y": 23.244196888000033,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MARH PIPARIYA TO T-POINT SIMARIYA_1454_1455",
+        "type": "sharp_edge",
+        "span": "MARH PIPARIYA TO T-POINT SIMARIYA"
+    },
+    {
+        "x": 79.04847824300003,
+        "y": 23.250334746000078,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MARH PIPARIYA TO T-POINT SIMARIYA_1459_1460",
+        "type": "sharp_edge",
+        "span": "MARH PIPARIYA TO T-POINT SIMARIYA"
+    },
+    {
+        "x": 79.09316939200005,
+        "y": 23.457713910000052,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MOKLA TO SUNA REHLI_1483_1485",
+        "type": "sharp_edge",
+        "span": "MOKLA TO SUNA REHLI"
+    },
+    {
+        "x": 78.97578717900006,
+        "y": 23.373079827000026,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MUARKHAS TO KANJERA_1518_1519",
+        "type": "sharp_edge",
+        "span": "MUARKHAS TO KANJERA"
+    },
+    {
+        "x": 78.96150281500007,
+        "y": 23.379622660000052,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MUARKHAS TO KANJERA_1532_1533",
+        "type": "sharp_edge",
+        "span": "MUARKHAS TO KANJERA"
+    },
+    {
+        "x": 79.19604509900006,
+        "y": 23.280620879000026,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NAURADEHI TO JHAMARA_1560_1561",
+        "type": "sharp_edge",
+        "span": "NAURADEHI TO JHAMARA"
+    },
+    {
+        "x": 79.08788397800004,
+        "y": 23.391896790000033,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PAHLA TO IMJHIRA_1562_1566",
+        "type": "sharp_edge",
+        "span": "PAHLA TO IMJHIRA"
+    },
+    {
+        "x": 79.08322923600008,
+        "y": 23.414621391000026,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PAHLA TO IMJHIRA_1585_1586",
+        "type": "sharp_edge",
+        "span": "PAHLA TO IMJHIRA"
+    },
+    {
+        "x": 79.08093974400003,
+        "y": 23.41797599000006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PAHLA TO IMJHIRA_1594_1595",
+        "type": "sharp_edge",
+        "span": "PAHLA TO IMJHIRA"
+    },
+    {
+        "x": 79.06996146400007,
+        "y": 23.258659272000045,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PANARI TO KHAMRIYA_1603_1604",
+        "type": "sharp_edge",
+        "span": "PANARI TO KHAMRIYA"
+    },
+    {
+        "x": 79.05608001500008,
+        "y": 23.276314657000057,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PANARI TO KHAMRIYA_1607_1608",
+        "type": "sharp_edge",
+        "span": "PANARI TO KHAMRIYA"
+    },
+    {
+        "x": 79.04927804700003,
+        "y": 23.270793910000066,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PANARI TO SIMARIYA_1629_1638",
+        "type": "sharp_edge",
+        "span": "PANARI TO SIMARIYA"
+    },
+    {
+        "x": 79.05607711800008,
+        "y": 23.27632415000005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PANARI TO SIMARIYA_1630_1631",
+        "type": "sharp_edge",
+        "span": "PANARI TO SIMARIYA"
+    },
+    {
+        "x": 78.99937954500007,
+        "y": 23.311426402000052,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PATHARIYA DUBEY TO DEORI BLOCK_1642_1643",
+        "type": "sharp_edge",
+        "span": "PATHARIYA DUBEY TO DEORI BLOCK"
+    },
+    {
+        "x": 79.03597091100005,
+        "y": 23.319449672000076,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PATHARIYA DUBEY TO DEORI BLOCK_1654_1673",
+        "type": "sharp_edge",
+        "span": "PATHARIYA DUBEY TO DEORI BLOCK"
+    },
+    {
+        "x": 78.98896952500007,
+        "y": 23.330392542000027,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PIPARIYA PATHAK TO RASENA_1681_1682",
+        "type": "sharp_edge",
+        "span": "PIPARIYA PATHAK TO RASENA"
+    },
+    {
+        "x": 78.97247502200008,
+        "y": 23.303931633000047,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PIPARIYA PATHAK TO RASENA_1692_1693",
+        "type": "sharp_edge",
+        "span": "PIPARIYA PATHAK TO RASENA"
+    },
+    {
+        "x": 78.95942941000004,
+        "y": 23.35927425700004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_RAIKHEDA TO MUARKHAS_1717_1718",
+        "type": "sharp_edge",
+        "span": "RAIKHEDA TO MUARKHAS"
+    },
+    {
+        "x": 78.97138714800008,
+        "y": 23.30454997700008,
+        "crs": "EPSG:4326",
+        "label": "Sharp_RASENA TO RAIKHEDA_1738_1769",
+        "type": "sharp_edge",
+        "span": "RASENA TO RAIKHEDA"
+    },
+    {
+        "x": 78.94874258500005,
+        "y": 23.328718430000038,
+        "crs": "EPSG:4326",
+        "label": "Sharp_RASENA TO RAIKHEDA_1758_1759",
+        "type": "sharp_edge",
+        "span": "RASENA TO RAIKHEDA"
+    },
+    {
+        "x": 79.05655275000004,
+        "y": 23.315894084000035,
+        "crs": "EPSG:4326",
+        "label": "Sharp_REECHHAI TO DHULTRA_1771_1772",
+        "type": "sharp_edge",
+        "span": "REECHHAI TO DHULTRA"
+    },
+    {
+        "x": 79.03575040200008,
+        "y": 23.321636512000055,
+        "crs": "EPSG:4326",
+        "label": "Sharp_REECHHAI TO DHULTRA_1793_1801",
+        "type": "sharp_edge",
+        "span": "REECHHAI TO DHULTRA"
+    },
+    {
+        "x": 79.03300296600008,
+        "y": 23.392752287000064,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SAMNAPUR SETH TO DEORI BLOCK_1818_1825",
+        "type": "sharp_edge",
+        "span": "SAMNAPUR SETH TO DEORI BLOCK"
+    },
+    {
+        "x": 79.02072190700005,
+        "y": 23.37652548400007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SAMNAPUR SETH TO DEORI BLOCK_1819_1827",
+        "type": "sharp_edge",
+        "span": "SAMNAPUR SETH TO DEORI BLOCK"
+    },
+    {
+        "x": 79.02303993800007,
+        "y": 23.37081556000004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SAMNAPUR SETH TO DEORI BLOCK_1820_1821",
+        "type": "sharp_edge",
+        "span": "SAMNAPUR SETH TO DEORI BLOCK"
+    },
+    {
+        "x": 79.08848636400006,
+        "y": 23.29303879500003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SAMNAPUR SHAHJU TO KHAKARIYA_1829_1830",
+        "type": "sharp_edge",
+        "span": "SAMNAPUR SHAHJU TO KHAKARIYA"
+    },
+    {
+        "x": 78.90384799200007,
+        "y": 23.523845532000053,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SARKHEDA TO GUGWARA_1840_1842",
+        "type": "sharp_edge",
+        "span": "SARKHEDA TO GUGWARA"
+    },
+    {
+        "x": 78.90375097200007,
+        "y": 23.524166489000038,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SARKHEDA TO GUGWARA_1840_1844",
+        "type": "sharp_edge",
+        "span": "SARKHEDA TO GUGWARA"
+    },
+    {
+        "x": 78.93853466200005,
+        "y": 23.516899574000035,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SARKHEDA TO GUGWARA_1843_1864",
+        "type": "sharp_edge",
+        "span": "SARKHEDA TO GUGWARA"
+    },
+    {
+        "x": 78.93144701900007,
+        "y": 23.523710124000047,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SARKHEDA TO GUGWARA_1856_1858",
+        "type": "sharp_edge",
+        "span": "SARKHEDA TO GUGWARA"
+    },
+    {
+        "x": 78.93836848000007,
+        "y": 23.516538753000077,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SARKHEDA TO GUGWARA_1862_1864",
+        "type": "sharp_edge",
+        "span": "SARKHEDA TO GUGWARA"
+    },
+    {
+        "x": 78.88747533200007,
+        "y": 23.523777487000075,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SARKHEDA TO JAITPUR KACHHAYA_1865_1880",
+        "type": "sharp_edge",
+        "span": "SARKHEDA TO JAITPUR KACHHAYA"
+    },
+    {
+        "x": 78.90370671100004,
+        "y": 23.524157298000034,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SARKHEDA TO JAITPUR KACHHAYA_1870_1872",
+        "type": "sharp_edge",
+        "span": "SARKHEDA TO JAITPUR KACHHAYA"
+    },
+    {
+        "x": 78.90381292400008,
+        "y": 23.523804376000044,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SARKHEDA TO JAITPUR KACHHAYA_1872_1873",
+        "type": "sharp_edge",
+        "span": "SARKHEDA TO JAITPUR KACHHAYA"
+    },
+    {
+        "x": 78.90098719600007,
+        "y": 23.523911261000023,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SARKHEDA TO JAITPUR KACHHAYA_1877_1878",
+        "type": "sharp_edge",
+        "span": "SARKHEDA TO JAITPUR KACHHAYA"
+    },
+    {
+        "x": 78.88577693800005,
+        "y": 23.524115619000042,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SARKHEDA TO JAITPUR KACHHAYA_1881_1884",
+        "type": "sharp_edge",
+        "span": "SARKHEDA TO JAITPUR KACHHAYA"
+    },
+    {
+        "x": 79.14131773600008,
+        "y": 23.519413126000074,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SIMARIYA HARRAKHEDA TO ANANTPURA_1893_1909",
+        "type": "sharp_edge",
+        "span": "SIMARIYA HARRAKHEDA TO ANANTPURA"
+    },
+    {
+        "x": 79.00701971400008,
+        "y": 23.281842381000047,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SIMARIYA TO DOBHI_1919_1920",
+        "type": "sharp_edge",
+        "span": "SIMARIYA TO DOBHI"
+    },
+    {
+        "x": 79.00661798800007,
+        "y": 23.282170105000034,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SIMARIYA TO DOBHI_1920_1921",
+        "type": "sharp_edge",
+        "span": "SIMARIYA TO DOBHI"
+    },
+    {
+        "x": 79.08688464200003,
+        "y": 23.416506001000073,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SINGPUR TO PAHLA_1932_1933",
+        "type": "sharp_edge",
+        "span": "SINGPUR TO PAHLA"
+    },
+    {
+        "x": 79.08856091900003,
+        "y": 23.39209912800004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SINGPUR TO PAHLA_1947_1948",
+        "type": "sharp_edge",
+        "span": "SINGPUR TO PAHLA"
+    },
+    {
+        "x": 78.92316610600005,
+        "y": 23.521018394000066,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SUJANPUR TO GANGWARA_1969_1972",
+        "type": "sharp_edge",
+        "span": "SUJANPUR TO GANGWARA"
+    },
+    {
+        "x": 78.97141005700007,
+        "y": 23.271551500000044,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SUNA PANJARA TO PATHARIYA DUBEY_1978_2004",
+        "type": "sharp_edge",
+        "span": "SUNA PANJARA TO PATHARIYA DUBEY"
+    },
+    {
+        "x": 78.97273315200005,
+        "y": 23.302311917000054,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SUNA PANJARA TO PATHARIYA DUBEY_1988_1989",
+        "type": "sharp_edge",
+        "span": "SUNA PANJARA TO PATHARIYA DUBEY"
+    },
+    {
+        "x": 78.85141802400005,
+        "y": 23.570611315000065,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT BARKOTI KALAN TO MAD KHERA_2024_2033",
+        "type": "sharp_edge",
+        "span": "T-POINT BARKOTI KALAN TO MAD KHERA"
+    },
+    {
+        "x": 78.85059724900003,
+        "y": 23.566486102000056,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT BARKOTI KALAN TO MAD KHERA_2034_2035",
+        "type": "sharp_edge",
+        "span": "T-POINT BARKOTI KALAN TO MAD KHERA"
+    },
+    {
+        "x": 78.96928135000007,
+        "y": 23.41941375600004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT BELDHANA TO MANSOOR BAWARI_2036_2050",
+        "type": "sharp_edge",
+        "span": "T-POINT BELDHANA TO MANSOOR BAWARI"
+    },
+    {
+        "x": 78.98081662600003,
+        "y": 23.411226215000056,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT BELDHANA TO MANSOOR BAWARI_2041_2054",
+        "type": "sharp_edge",
+        "span": "T-POINT BELDHANA TO MANSOOR BAWARI"
+    },
+    {
+        "x": 78.97980451100005,
+        "y": 23.410015100000066,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT BELDHANA TO MANSOOR BAWARI_2053_2057",
+        "type": "sharp_edge",
+        "span": "T-POINT BELDHANA TO MANSOOR BAWARI"
+    },
+    {
+        "x": 78.92220515000008,
+        "y": 23.435900541000024,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT CHIRCHITA SUKHJU TO PADRAI BUJURG_2066_2076",
+        "type": "sharp_edge",
+        "span": "T-POINT CHIRCHITA SUKHJU TO PADRAI BUJURG"
+    },
+    {
+        "x": 78.96935657700004,
+        "y": 23.536169492000056,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT GUGWARA TO SALAWARA_2101_2104",
+        "type": "sharp_edge",
+        "span": "T-POINT GUGWARA TO SALAWARA"
+    },
+    {
+        "x": 79.07473366200009,
+        "y": 23.51998432700003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT KOPRA TO JAMNAPUR PARASIYA_2123_2130",
+        "type": "sharp_edge",
+        "span": "T-POINT KOPRA TO JAMNAPUR PARASIYA"
+    },
+    {
+        "x": 79.06978402900006,
+        "y": 23.52425559200003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT KOPRA TO JAMNAPUR PARASIYA_2127_2128",
+        "type": "sharp_edge",
+        "span": "T-POINT KOPRA TO JAMNAPUR PARASIYA"
+    },
+    {
+        "x": 79.10054801700005,
+        "y": 23.250086069000076,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT MAHRAJPUR TO BHARRAI_2131_2152",
+        "type": "sharp_edge",
+        "span": "T-POINT MAHRAJPUR TO BHARRAI"
+    },
+    {
+        "x": 79.08036255700006,
+        "y": 23.265184559000033,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT MAHRAJPUR TO BHARRAI_2141_2142",
+        "type": "sharp_edge",
+        "span": "T-POINT MAHRAJPUR TO BHARRAI"
+    },
+    {
+        "x": 79.08136868200006,
+        "y": 23.491198458000042,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT MANEGAON TO MUDERI_2153_2154",
+        "type": "sharp_edge",
+        "span": "T-POINT MANEGAON TO MUDERI"
+    },
+    {
+        "x": 79.08063049800006,
+        "y": 23.49065084800003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT MANEGAON TO MUDERI_2156_2157",
+        "type": "sharp_edge",
+        "span": "T-POINT MANEGAON TO MUDERI"
+    },
+    {
+        "x": 79.08026161500004,
+        "y": 23.487136416000055,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT MANEGAON TO MUDERI_2162_2163",
+        "type": "sharp_edge",
+        "span": "T-POINT MANEGAON TO MUDERI"
+    },
+    {
+        "x": 79.03087540800004,
+        "y": 23.487803178000036,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT PIPARIYA TO KHATAULA_2166_2178",
+        "type": "sharp_edge",
+        "span": "T-POINT PIPARIYA TO KHATAULA"
+    },
+    {
+        "x": 78.91341518100006,
+        "y": 23.347167412000033,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT RAIKHEDA TO KHAJURIYA_2215_2216",
+        "type": "sharp_edge",
+        "span": "T-POINT RAIKHEDA TO KHAJURIYA"
+    },
+    {
+        "x": 79.03130156400005,
+        "y": 23.244172862000028,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TITARPANI TO MARH PIPARIYA_2283_2284",
+        "type": "sharp_edge",
+        "span": "TITARPANI TO MARH PIPARIYA"
+    }
+]
