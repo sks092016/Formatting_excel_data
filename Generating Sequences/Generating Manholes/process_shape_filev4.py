@@ -483,7 +483,7 @@ def process_shapefile(
 
 if __name__ == "__main__":
     version = "1.0"
-    block_name = "Deori"
+    block_name = "Tyonthar"
     # Example manual points JSON (optional). Save a small sample file if you want to test manual points:
     # [
     #   {"x": 2000.0, "y": 0.0, "label": "User_Manual_1"},

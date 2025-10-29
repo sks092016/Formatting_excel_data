@@ -1,0 +1,43 @@
+2025-10-29 12:46:42,462 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'T-POINT RAJHA TO HAHOTIPURWA'.
+2025-10-29 12:46:42,463 - WARNING - ⚠️ The Span T-POINT RAJHA TO HAHOTIPURWA is disconnected at this point (81.84172750400006, 24.92735367000006)
+2025-10-29 12:46:42,923 - INFO - Created 2,315 records
+2025-10-29 12:46:42,930 - INFO - Created 90 records
+2025-10-29 12:46:42,930 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-10-29 12:46:42,932 - INFO - Created 1 records
+2025-10-29 12:46:42,996 - INFO - 🔄 Found 11 rings: ['R1', 'R2', 'R2-C1', 'R2-C2', 'R3', 'R3-C1', 'R3-C2', 'R4', 'R4-C1', 'R5', 'R5-C1']
+2025-10-29 12:46:42,996 - INFO - 
+🔁 Processing ring: R1
+2025-10-29 12:46:43,000 - INFO - ✅ Completed ring R1 with 8 spans.
+2025-10-29 12:46:43,000 - INFO - 
+🔁 Processing ring: R2
+2025-10-29 12:46:43,004 - INFO - ✅ Completed ring R2 with 8 spans.
+2025-10-29 12:46:43,004 - INFO - 
+🔁 Processing ring: R2-C1
+2025-10-29 12:46:43,008 - INFO - ✅ Completed ring R2-C1 with 7 spans.
+2025-10-29 12:46:43,008 - INFO - 
+🔁 Processing ring: R2-C2
+2025-10-29 12:46:43,011 - INFO - ✅ Completed ring R2-C2 with 6 spans.
+2025-10-29 12:46:43,011 - INFO - 
+🔁 Processing ring: R3
+2025-10-29 12:46:43,016 - INFO - ✅ Completed ring R3 with 10 spans.
+2025-10-29 12:46:43,016 - INFO - 
+🔁 Processing ring: R3-C1
+2025-10-29 12:46:43,019 - INFO - ✅ Completed ring R3-C1 with 6 spans.
+2025-10-29 12:46:43,019 - INFO - 
+🔁 Processing ring: R3-C2
+2025-10-29 12:46:43,019 - INFO - ✅ Completed ring R3-C2 with 0 spans.
+2025-10-29 12:46:43,019 - INFO - 
+🔁 Processing ring: R4
+2025-10-29 12:46:43,023 - INFO - ✅ Completed ring R4 with 7 spans.
+2025-10-29 12:46:43,023 - INFO - 
+🔁 Processing ring: R4-C1
+2025-10-29 12:46:43,026 - INFO - ✅ Completed ring R4-C1 with 5 spans.
+2025-10-29 12:46:43,026 - INFO - 
+🔁 Processing ring: R5
+2025-10-29 12:46:43,030 - INFO - ✅ Completed ring R5 with 9 spans.
+2025-10-29 12:46:43,030 - INFO - 
+🔁 Processing ring: R5-C1
+2025-10-29 12:46:43,032 - INFO - ✅ Completed ring R5-C1 with 4 spans.
+2025-10-29 12:46:43,101 - INFO - Created 2,315 records
+2025-10-29 12:46:43,110 - INFO - Created 90 records
+2025-10-29 12:46:43,111 - INFO - ✅ All rings processed. Span sequence updated and saved.

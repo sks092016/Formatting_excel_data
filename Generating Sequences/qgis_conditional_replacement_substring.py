@@ -9,9 +9,7 @@ update_field = "span_name"
 
 
 replacement_map = {
-'CHIRCHITA SUKHJUI':'CHIRCHITA SUKHJU',
- # 'KORA':'KOPRA',
-
+'OLT TEONTHAR BLOCK':'TEONTHAR BLOCK'
 }
 count = 0
 

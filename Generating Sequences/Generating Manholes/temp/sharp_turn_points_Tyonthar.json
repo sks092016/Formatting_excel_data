@@ -1,0 +1,1514 @@
+[
+    {
+        "x": 81.65626636400003,
+        "y": 25.028500097000062,
+        "crs": "EPSG:4326",
+        "label": "Sharp_AJORA TO GOPOALPURWA_4_6",
+        "type": "sharp_edge",
+        "span": "AJORA TO GOPOALPURWA"
+    },
+    {
+        "x": 81.65924559600006,
+        "y": 25.028241345000026,
+        "crs": "EPSG:4326",
+        "label": "Sharp_AJORA TO GOPOALPURWA_6_7",
+        "type": "sharp_edge",
+        "span": "AJORA TO GOPOALPURWA"
+    },
+    {
+        "x": 81.75701679800005,
+        "y": 25.023311927000066,
+        "crs": "EPSG:4326",
+        "label": "Sharp_AMAW TO BARAKHURD_18_19",
+        "type": "sharp_edge",
+        "span": "AMAW TO BARAKHURD"
+    },
+    {
+        "x": 81.78292316200003,
+        "y": 25.008302833000073,
+        "crs": "EPSG:4326",
+        "label": "Sharp_ATRAILA 12 TO KONI KHURD_30_40",
+        "type": "sharp_edge",
+        "span": "ATRAILA 12 TO KONI KHURD"
+    },
+    {
+        "x": 81.71877436100004,
+        "y": 24.990143730000057,
+        "crs": "EPSG:4326",
+        "label": "Sharp_ATRAILA TO T-POINT SOHAGI_46_59",
+        "type": "sharp_edge",
+        "span": "ATRAILA TO T-POINT SOHAGI"
+    },
+    {
+        "x": 81.72027625000004,
+        "y": 24.986573969000062,
+        "crs": "EPSG:4326",
+        "label": "Sharp_ATRAILA TO T-POINT SOHAGI_51_53",
+        "type": "sharp_edge",
+        "span": "ATRAILA TO T-POINT SOHAGI"
+    },
+    {
+        "x": 81.72040764600007,
+        "y": 24.98628897100008,
+        "crs": "EPSG:4326",
+        "label": "Sharp_ATRAILA TO T-POINT SOHAGI_52_53",
+        "type": "sharp_edge",
+        "span": "ATRAILA TO T-POINT SOHAGI"
+    },
+    {
+        "x": 81.74289824800007,
+        "y": 24.967699267000057,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BADAGAON TO RAKSAHA KALA_62_74",
+        "type": "sharp_edge",
+        "span": "BADAGAON TO RAKSAHA KALA"
+    },
+    {
+        "x": 81.74291458900007,
+        "y": 24.967603680000025,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BADAGAON TO RAKSAHA KALA_74_85",
+        "type": "sharp_edge",
+        "span": "BADAGAON TO RAKSAHA KALA"
+    },
+    {
+        "x": 81.76782705700003,
+        "y": 24.968272481000042,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BADAGAON TO RAKSAHA KALA_77_91",
+        "type": "sharp_edge",
+        "span": "BADAGAON TO RAKSAHA KALA"
+    },
+    {
+        "x": 81.73658360300004,
+        "y": 24.968623427000068,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BADAGAON TO RAKSAHA KALA_86_90",
+        "type": "sharp_edge",
+        "span": "BADAGAON TO RAKSAHA KALA"
+    },
+    {
+        "x": 81.73706360700004,
+        "y": 24.96729443600003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BADAGAON TO RAKSAHA KALA_87_88",
+        "type": "sharp_edge",
+        "span": "BADAGAON TO RAKSAHA KALA"
+    },
+    {
+        "x": 81.76513026400005,
+        "y": 24.97196118100004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARAKHURD TO BADAGAON_134_135",
+        "type": "sharp_edge",
+        "span": "BARAKHURD TO BADAGAON"
+    },
+    {
+        "x": 81.76770016300003,
+        "y": 24.969420022000065,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARAKHURD TO BADAGAON_140_141",
+        "type": "sharp_edge",
+        "span": "BARAKHURD TO BADAGAON"
+    },
+    {
+        "x": 81.75204259500003,
+        "y": 24.994780261000074,
+        "crs": "EPSG:4326",
+        "label": "Sharp_BARAKHURD TO BADAGAON_147_148",
+        "type": "sharp_edge",
+        "span": "BARAKHURD TO BADAGAON"
+    },
+    {
+        "x": 81.62652128300005,
+        "y": 25.02638533000004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHAND PUR TO JHOTIYA_204_209",
+        "type": "sharp_edge",
+        "span": "CHAND PUR TO JHOTIYA"
+    },
+    {
+        "x": 81.72075260900004,
+        "y": 25.011983706000024,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHANDAI TO PHARHDI_218_224",
+        "type": "sharp_edge",
+        "span": "CHANDAI TO PHARHDI"
+    },
+    {
+        "x": 81.58427096200006,
+        "y": 25.098517167000068,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHAUKHADA TO REHI_229_233",
+        "type": "sharp_edge",
+        "span": "CHAUKHADA TO REHI"
+    },
+    {
+        "x": 81.58090926900007,
+        "y": 25.10200136700007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHAUKHADA TO REHI_229_235",
+        "type": "sharp_edge",
+        "span": "CHAUKHADA TO REHI"
+    },
+    {
+        "x": 81.57995367400008,
+        "y": 25.101682476000065,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHAUKHADA TO REHI_230_237",
+        "type": "sharp_edge",
+        "span": "CHAUKHADA TO REHI"
+    },
+    {
+        "x": 81.58424557500007,
+        "y": 25.098388408000062,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHAUKHADA TO REHI_234_240",
+        "type": "sharp_edge",
+        "span": "CHAUKHADA TO REHI"
+    },
+    {
+        "x": 81.58034841200003,
+        "y": 25.102195907000066,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHAUKHADA TO REHI_235_238",
+        "type": "sharp_edge",
+        "span": "CHAUKHADA TO REHI"
+    },
+    {
+        "x": 81.57559684900008,
+        "y": 25.101973977000057,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHAUKHADA TO SOHARWA_244_254",
+        "type": "sharp_edge",
+        "span": "CHAUKHADA TO SOHARWA"
+    },
+    {
+        "x": 81.57581333600007,
+        "y": 25.102724720000026,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHAUKHADA TO SOHARWA_246_253",
+        "type": "sharp_edge",
+        "span": "CHAUKHADA TO SOHARWA"
+    },
+    {
+        "x": 81.57175707400006,
+        "y": 25.104427548000046,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHAUKHADA TO SOHARWA_247_249",
+        "type": "sharp_edge",
+        "span": "CHAUKHADA TO SOHARWA"
+    },
+    {
+        "x": 81.57925509200004,
+        "y": 25.12258337700007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHAUKHADA TO SOHARWA_250_251",
+        "type": "sharp_edge",
+        "span": "CHAUKHADA TO SOHARWA"
+    },
+    {
+        "x": 81.89022684300005,
+        "y": 24.87417425800004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHAURANANKAR TO NAUDHIYA_263_264",
+        "type": "sharp_edge",
+        "span": "CHAURANANKAR TO NAUDHIYA"
+    },
+    {
+        "x": 81.65973618000004,
+        "y": 24.988673240000026,
+        "crs": "EPSG:4326",
+        "label": "Sharp_CHUNARI TO TEONTHAR BLOCK_287_292",
+        "type": "sharp_edge",
+        "span": "CHUNARI TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.83338912000005,
+        "y": 24.962733772000036,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DEEH TO PURAWA MANIKRAM_315_317",
+        "type": "sharp_edge",
+        "span": "DEEH TO PURAWA MANIKRAM"
+    },
+    {
+        "x": 81.84067454200004,
+        "y": 24.926863973000025,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DEEH TO RAJHA_320_334",
+        "type": "sharp_edge",
+        "span": "DEEH TO RAJHA"
+    },
+    {
+        "x": 81.82425284700008,
+        "y": 24.955748758000027,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DEEH TO RAJHA_323_330",
+        "type": "sharp_edge",
+        "span": "DEEH TO RAJHA"
+    },
+    {
+        "x": 81.68647359700003,
+        "y": 24.993432986000073,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DEUPA KOTHAR TO PANCHHA_339_356",
+        "type": "sharp_edge",
+        "span": "DEUPA KOTHAR TO PANCHHA"
+    },
+    {
+        "x": 81.69292076100004,
+        "y": 25.009985795000034,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DEUPA KOTHAR TO PANCHHA_340_344",
+        "type": "sharp_edge",
+        "span": "DEUPA KOTHAR TO PANCHHA"
+    },
+    {
+        "x": 81.70566777000005,
+        "y": 25.007212671000048,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DEUPA KOTHAR TO PANCHHA_341_350",
+        "type": "sharp_edge",
+        "span": "DEUPA KOTHAR TO PANCHHA"
+    },
+    {
+        "x": 81.85713288900007,
+        "y": 24.875151772000038,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DHAKHARA TO RAIPUR_377_378",
+        "type": "sharp_edge",
+        "span": "DHAKHARA TO RAIPUR"
+    },
+    {
+        "x": 81.84665251800004,
+        "y": 24.90548665400007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DHAKHARA TO RAIPUR_385_386",
+        "type": "sharp_edge",
+        "span": "DHAKHARA TO RAIPUR"
+    },
+    {
+        "x": 81.87989263300005,
+        "y": 24.98146272400004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DIHI TO KUDARI_392_395",
+        "type": "sharp_edge",
+        "span": "DIHI TO KUDARI"
+    },
+    {
+        "x": 81.55586651000004,
+        "y": 25.088139100000035,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DODAKIYA TO GOANDKALA_436_448",
+        "type": "sharp_edge",
+        "span": "DODAKIYA TO GOANDKALA"
+    },
+    {
+        "x": 81.52384720200007,
+        "y": 25.111930295000036,
+        "crs": "EPSG:4326",
+        "label": "Sharp_DODAKIYA TO GOANDKALA_444_449",
+        "type": "sharp_edge",
+        "span": "DODAKIYA TO GOANDKALA"
+    },
+    {
+        "x": 81.88805152800006,
+        "y": 24.865087367000058,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GADARPURWA TO CHAURANANKAR_458_529",
+        "type": "sharp_edge",
+        "span": "GADARPURWA TO CHAURANANKAR"
+    },
+    {
+        "x": 81.90473908500007,
+        "y": 24.93085078100006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GADARPURWA TO CHAURANANKAR_534_545",
+        "type": "sharp_edge",
+        "span": "GADARPURWA TO CHAURANANKAR"
+    },
+    {
+        "x": 81.55192362800005,
+        "y": 25.08154415200005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GARHI TO  RISDA_574_580",
+        "type": "sharp_edge",
+        "span": "GARHI TO  RISDA"
+    },
+    {
+        "x": 81.55090660800005,
+        "y": 25.080251753000027,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GARHI TO  RISDA_575_581",
+        "type": "sharp_edge",
+        "span": "GARHI TO  RISDA"
+    },
+    {
+        "x": 81.55131639000007,
+        "y": 25.080183100000056,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GARHI TO  RISDA_577_581",
+        "type": "sharp_edge",
+        "span": "GARHI TO  RISDA"
+    },
+    {
+        "x": 81.57555829000006,
+        "y": 25.13922256400008,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GOANDKALA TO SUTI_598_599",
+        "type": "sharp_edge",
+        "span": "GOANDKALA TO SUTI"
+    },
+    {
+        "x": 81.57570403000005,
+        "y": 25.13662443100003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GOANDKALA TO SUTI_600_601",
+        "type": "sharp_edge",
+        "span": "GOANDKALA TO SUTI"
+    },
+    {
+        "x": 81.55150293900004,
+        "y": 25.082210401000054,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GONDKHURD TO GARHI_606_636",
+        "type": "sharp_edge",
+        "span": "GONDKHURD TO GARHI"
+    },
+    {
+        "x": 81.52510033000004,
+        "y": 25.103884493000066,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GONDKHURD TO GARHI_608_638",
+        "type": "sharp_edge",
+        "span": "GONDKHURD TO GARHI"
+    },
+    {
+        "x": 81.52780127200003,
+        "y": 25.107584520000046,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GONDKHURD TO GARHI_611_612",
+        "type": "sharp_edge",
+        "span": "GONDKHURD TO GARHI"
+    },
+    {
+        "x": 81.52667359700007,
+        "y": 25.10457049000007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GONDKHURD TO GARHI_611_640",
+        "type": "sharp_edge",
+        "span": "GONDKHURD TO GARHI"
+    },
+    {
+        "x": 81.65926621400007,
+        "y": 25.02830166600006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_GOPOALPURWA TO SATPURA URF PADIWAR_651_655",
+        "type": "sharp_edge",
+        "span": "GOPOALPURWA TO SATPURA URF PADIWAR"
+    },
+    {
+        "x": 81.62403882900009,
+        "y": 25.002963097000077,
+        "crs": "EPSG:4326",
+        "label": "Sharp_JHOTIYA TO KOTRA KHURD_674_682",
+        "type": "sharp_edge",
+        "span": "JHOTIYA TO KOTRA KHURD"
+    },
+    {
+        "x": 81.64348905900005,
+        "y": 25.028735711000024,
+        "crs": "EPSG:4326",
+        "label": "Sharp_JHOTIYA TO KOTRA KHURD_678_690",
+        "type": "sharp_edge",
+        "span": "JHOTIYA TO KOTRA KHURD"
+    },
+    {
+        "x": 81.54714423200005,
+        "y": 25.052630455000042,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KAITHIPACHKATHA TO PHULDEUR_730_731",
+        "type": "sharp_edge",
+        "span": "KAITHIPACHKATHA TO PHULDEUR"
+    },
+    {
+        "x": 81.53017399200007,
+        "y": 25.063917563000075,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KAITHIPACHKATHA TO PHULDEUR_737_771",
+        "type": "sharp_edge",
+        "span": "KAITHIPACHKATHA TO PHULDEUR"
+    },
+    {
+        "x": 81.53859536200008,
+        "y": 25.070098436000023,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KAITHIPACHKATHA TO PHULDEUR_742_769",
+        "type": "sharp_edge",
+        "span": "KAITHIPACHKATHA TO PHULDEUR"
+    },
+    {
+        "x": 81.54878192900009,
+        "y": 25.03425985000007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KAITHIPACHKATHA TO PHULDEUR_764_765",
+        "type": "sharp_edge",
+        "span": "KAITHIPACHKATHA TO PHULDEUR"
+    },
+    {
+        "x": 81.69701266500005,
+        "y": 24.973137465000036,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAMHA TO TEONTHAR BLOCK_778_859",
+        "type": "sharp_edge",
+        "span": "KHAMHA TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.73707893100004,
+        "y": 24.967295740000054,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAMHA TO TEONTHAR BLOCK_790_910",
+        "type": "sharp_edge",
+        "span": "KHAMHA TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.78599591200003,
+        "y": 24.942265132000045,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAMHA TO TEONTHAR BLOCK_798_897",
+        "type": "sharp_edge",
+        "span": "KHAMHA TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.80589728300004,
+        "y": 24.939628708000043,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAMHA TO TEONTHAR BLOCK_805_934",
+        "type": "sharp_edge",
+        "span": "KHAMHA TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.82495863200006,
+        "y": 24.929537166000046,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAMHA TO TEONTHAR BLOCK_806_933",
+        "type": "sharp_edge",
+        "span": "KHAMHA TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.64879026900007,
+        "y": 24.980580576000023,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAMHA TO TEONTHAR BLOCK_807_932",
+        "type": "sharp_edge",
+        "span": "KHAMHA TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.66428297700008,
+        "y": 24.978395265000074,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAMHA TO TEONTHAR BLOCK_823_926",
+        "type": "sharp_edge",
+        "span": "KHAMHA TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.79649728200008,
+        "y": 24.94606785800005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAMHA TO TEONTHAR BLOCK_838_839",
+        "type": "sharp_edge",
+        "span": "KHAMHA TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.68862841600009,
+        "y": 24.979039046000025,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAMHA TO TEONTHAR BLOCK_869_921",
+        "type": "sharp_edge",
+        "span": "KHAMHA TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.79325703500007,
+        "y": 24.93779653400003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KHAMHA TO TEONTHAR BLOCK_887_888",
+        "type": "sharp_edge",
+        "span": "KHAMHA TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.54560911500005,
+        "y": 25.02294386600005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KONIYA KHURD TO NEGURA_976_997",
+        "type": "sharp_edge",
+        "span": "KONIYA KHURD TO NEGURA"
+    },
+    {
+        "x": 81.58507488000004,
+        "y": 25.14795145200003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KOODI TO SARAI_1012_1013",
+        "type": "sharp_edge",
+        "span": "KOODI TO SARAI"
+    },
+    {
+        "x": 81.61698434400006,
+        "y": 25.164310260000036,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KOODI TO SARAI_1019_1051",
+        "type": "sharp_edge",
+        "span": "KOODI TO SARAI"
+    },
+    {
+        "x": 81.58396262200006,
+        "y": 25.173625453000056,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KOODI TO SARAI_1044_1045",
+        "type": "sharp_edge",
+        "span": "KOODI TO SARAI"
+    },
+    {
+        "x": 81.85776906700005,
+        "y": 24.98755955200005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KORAW TO DIHI_1056_1058",
+        "type": "sharp_edge",
+        "span": "KORAW TO DIHI"
+    },
+    {
+        "x": 81.85671183300008,
+        "y": 24.988005362000024,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KORAW TO DIHI_1057_1073",
+        "type": "sharp_edge",
+        "span": "KORAW TO DIHI"
+    },
+    {
+        "x": 81.85445868500005,
+        "y": 24.984448977000056,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KORAW TO DIHI_1060_1073",
+        "type": "sharp_edge",
+        "span": "KORAW TO DIHI"
+    },
+    {
+        "x": 81.87950340500004,
+        "y": 24.982361878000063,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KORAW TO DIHI_1070_1071",
+        "type": "sharp_edge",
+        "span": "KORAW TO DIHI"
+    },
+    {
+        "x": 81.62934607900007,
+        "y": 24.99408198900005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KOTRA KHURD TO TEONTHAR BLOCK_1075_1104",
+        "type": "sharp_edge",
+        "span": "KOTRA KHURD TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.63836604500005,
+        "y": 24.99219736400005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KOTRA KHURD TO TEONTHAR BLOCK_1080_1090",
+        "type": "sharp_edge",
+        "span": "KOTRA KHURD TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.64963534500004,
+        "y": 24.98899791200006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KOTRA KHURD TO TEONTHAR BLOCK_1084_1094",
+        "type": "sharp_edge",
+        "span": "KOTRA KHURD TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.65385189400007,
+        "y": 24.988102748000074,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KOTRA KHURD TO TEONTHAR BLOCK_1086_1087",
+        "type": "sharp_edge",
+        "span": "KOTRA KHURD TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.64902677600008,
+        "y": 24.985259753000037,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KOTRA KHURD TO TEONTHAR BLOCK_1087_1106",
+        "type": "sharp_edge",
+        "span": "KOTRA KHURD TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.64874780900004,
+        "y": 24.980647026000042,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KOTRA KHURD TO TEONTHAR BLOCK_1102_1103",
+        "type": "sharp_edge",
+        "span": "KOTRA KHURD TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.90025106400003,
+        "y": 24.99333216100007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KUDARI TO BASHAT_1130_1133",
+        "type": "sharp_edge",
+        "span": "KUDARI TO BASHAT"
+    },
+    {
+        "x": 81.90636508500006,
+        "y": 24.97719283600003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_KUDARI TO BASHAT_1139_1153",
+        "type": "sharp_edge",
+        "span": "KUDARI TO BASHAT"
+    },
+    {
+        "x": 81.60827280600006,
+        "y": 25.026962807000075,
+        "crs": "EPSG:4326",
+        "label": "Sharp_LAKHAWAR TO TEONTHAR BLOCK_1177_1186",
+        "type": "sharp_edge",
+        "span": "LAKHAWAR TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.64873878600008,
+        "y": 24.980649680000056,
+        "crs": "EPSG:4326",
+        "label": "Sharp_LAKHAWAR TO TEONTHAR BLOCK_1178_1215",
+        "type": "sharp_edge",
+        "span": "LAKHAWAR TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.62258125700004,
+        "y": 25.01270445600005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_LAKHAWAR TO TEONTHAR BLOCK_1182_1195",
+        "type": "sharp_edge",
+        "span": "LAKHAWAR TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.65384759000005,
+        "y": 24.988090666000062,
+        "crs": "EPSG:4326",
+        "label": "Sharp_LAKHAWAR TO TEONTHAR BLOCK_1209_1210",
+        "type": "sharp_edge",
+        "span": "LAKHAWAR TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.64902791200007,
+        "y": 24.985250035000035,
+        "crs": "EPSG:4326",
+        "label": "Sharp_LAKHAWAR TO TEONTHAR BLOCK_1210_1217",
+        "type": "sharp_edge",
+        "span": "LAKHAWAR TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.66428931100006,
+        "y": 24.97846264800006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MAJHIGAWAN TO CHUNARI_1237_1265",
+        "type": "sharp_edge",
+        "span": "MAJHIGAWAN TO CHUNARI"
+    },
+    {
+        "x": 81.68864885600004,
+        "y": 24.979276071000072,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MAJHIGAWAN TO CHUNARI_1239_1240",
+        "type": "sharp_edge",
+        "span": "MAJHIGAWAN TO CHUNARI"
+    },
+    {
+        "x": 81.71478809300004,
+        "y": 24.97489809500007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MAJHIGAWAN TO CHUNARI_1245_1286",
+        "type": "sharp_edge",
+        "span": "MAJHIGAWAN TO CHUNARI"
+    },
+    {
+        "x": 81.66461578300004,
+        "y": 24.979534958000045,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MAJHIGAWAN TO CHUNARI_1260_1299",
+        "type": "sharp_edge",
+        "span": "MAJHIGAWAN TO CHUNARI"
+    },
+    {
+        "x": 81.66450602700007,
+        "y": 24.979401558000063,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MAJHIGAWAN TO CHUNARI_1265_1298",
+        "type": "sharp_edge",
+        "span": "MAJHIGAWAN TO CHUNARI"
+    },
+    {
+        "x": 81.65590915900003,
+        "y": 25.023288552000054,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MALPAR TO AJORA_1301_1316",
+        "type": "sharp_edge",
+        "span": "MALPAR TO AJORA"
+    },
+    {
+        "x": 81.82084178100007,
+        "y": 25.002710139000044,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MANGI TO BARETHI KALA_1324_1326",
+        "type": "sharp_edge",
+        "span": "MANGI TO BARETHI KALA"
+    },
+    {
+        "x": 81.82101010400004,
+        "y": 25.002961409000022,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MANGI TO BARETHI KALA_1327_1330",
+        "type": "sharp_edge",
+        "span": "MANGI TO BARETHI KALA"
+    },
+    {
+        "x": 81.56321723300005,
+        "y": 25.06499509500003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_MANIKA TO TURKAGONDAR_1361_1362",
+        "type": "sharp_edge",
+        "span": "MANIKA TO TURKAGONDAR"
+    },
+    {
+        "x": 81.53421649900008,
+        "y": 25.048825351000062,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NAUBASTA TO KAITHIPACHKATHA_1384_1397",
+        "type": "sharp_edge",
+        "span": "NAUBASTA TO KAITHIPACHKATHA"
+    },
+    {
+        "x": 81.54836777800006,
+        "y": 25.035550775000047,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NAUBASTA TO KAITHIPACHKATHA_1387_1404",
+        "type": "sharp_edge",
+        "span": "NAUBASTA TO KAITHIPACHKATHA"
+    },
+    {
+        "x": 81.54878247400006,
+        "y": 25.034254040000064,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NAUBASTA TO KAITHIPACHKATHA_1388_1401",
+        "type": "sharp_edge",
+        "span": "NAUBASTA TO KAITHIPACHKATHA"
+    },
+    {
+        "x": 81.52044916700004,
+        "y": 25.03447924900007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NAUBASTA TO KAITHIPACHKATHA_1399_1400",
+        "type": "sharp_edge",
+        "span": "NAUBASTA TO KAITHIPACHKATHA"
+    },
+    {
+        "x": 81.88173354400004,
+        "y": 24.87677057700006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NAUDHIYA TO DHAKHARA_1406_1424",
+        "type": "sharp_edge",
+        "span": "NAUDHIYA TO DHAKHARA"
+    },
+    {
+        "x": 81.87754462100008,
+        "y": 24.881153349000044,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NAUDHIYA TO DHAKHARA_1426_1436",
+        "type": "sharp_edge",
+        "span": "NAUDHIYA TO DHAKHARA"
+    },
+    {
+        "x": 81.88833020400006,
+        "y": 24.889015606000044,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NAUDHIYA TO DHAKHARA_1428_1431",
+        "type": "sharp_edge",
+        "span": "NAUDHIYA TO DHAKHARA"
+    },
+    {
+        "x": 81.86420001000005,
+        "y": 24.871096694000073,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NAUDHIYA TO DHAKHARA_1436_1437",
+        "type": "sharp_edge",
+        "span": "NAUDHIYA TO DHAKHARA"
+    },
+    {
+        "x": 81.54559483800006,
+        "y": 25.022988481000027,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NEGURA TO TANGAHA_1440_1441",
+        "type": "sharp_edge",
+        "span": "NEGURA TO TANGAHA"
+    },
+    {
+        "x": 81.50799112300007,
+        "y": 25.02036210500006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NEGURA TO TANGAHA_1446_1452",
+        "type": "sharp_edge",
+        "span": "NEGURA TO TANGAHA"
+    },
+    {
+        "x": 81.51312532900005,
+        "y": 25.03255610000008,
+        "crs": "EPSG:4326",
+        "label": "Sharp_NEGURA TO TANGAHA_1453_1455",
+        "type": "sharp_edge",
+        "span": "NEGURA TO TANGAHA"
+    },
+    {
+        "x": 81.81186663600005,
+        "y": 24.971661271000073,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PADARI TO DEEH_1457_1466",
+        "type": "sharp_edge",
+        "span": "PADARI TO DEEH"
+    },
+    {
+        "x": 81.81566709300006,
+        "y": 24.964551381000035,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PADARI TO DEEH_1459_1460",
+        "type": "sharp_edge",
+        "span": "PADARI TO DEEH"
+    },
+    {
+        "x": 81.81566670500007,
+        "y": 24.964551577000066,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PADARI TO DEEH_1459_1460",
+        "type": "sharp_edge",
+        "span": "PADARI TO DEEH"
+    },
+    {
+        "x": 81.62762044700008,
+        "y": 25.040421344000038,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PANASI TO CHAND PUR_1473_1474",
+        "type": "sharp_edge",
+        "span": "PANASI TO CHAND PUR"
+    },
+    {
+        "x": 81.67763460600008,
+        "y": 24.98650009800008,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PANCHHA TO TEONTHAR BLOCK_1486_1505",
+        "type": "sharp_edge",
+        "span": "PANCHHA TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.65384916700003,
+        "y": 24.98811525600007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PANCHHA TO TEONTHAR BLOCK_1492_1493",
+        "type": "sharp_edge",
+        "span": "PANCHHA TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.64875470800007,
+        "y": 24.980644549000033,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PANCHHA TO TEONTHAR BLOCK_1501_1502",
+        "type": "sharp_edge",
+        "span": "PANCHHA TO TEONTHAR BLOCK"
+    },
+    {
+        "x": 81.55965286000009,
+        "y": 25.00228536900005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PARSIYA TO T-POINT NEGURA_1512_1514",
+        "type": "sharp_edge",
+        "span": "PARSIYA TO T-POINT NEGURA"
+    },
+    {
+        "x": 81.72274061500008,
+        "y": 24.99144220900007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PHARHDI TO ATRAILA_1518_1535",
+        "type": "sharp_edge",
+        "span": "PHARHDI TO ATRAILA"
+    },
+    {
+        "x": 81.73031052700009,
+        "y": 25.010820512000066,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PHARHDI TO ATRAILA_1525_1547",
+        "type": "sharp_edge",
+        "span": "PHARHDI TO ATRAILA"
+    },
+    {
+        "x": 81.73379480700004,
+        "y": 25.010653226000045,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PHARHDI TO ATRAILA_1533_1544",
+        "type": "sharp_edge",
+        "span": "PHARHDI TO ATRAILA"
+    },
+    {
+        "x": 81.72044346300004,
+        "y": 24.986271842000065,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PHARHDI TO ATRAILA_1538_1540",
+        "type": "sharp_edge",
+        "span": "PHARHDI TO ATRAILA"
+    },
+    {
+        "x": 81.73385394900004,
+        "y": 25.010874584000078,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PHARHDI TO ATRAILA_1542_1543",
+        "type": "sharp_edge",
+        "span": "PHARHDI TO ATRAILA"
+    },
+    {
+        "x": 81.72144394500003,
+        "y": 24.98909783000005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PHARHDI TO ATRAILA_1549_1550",
+        "type": "sharp_edge",
+        "span": "PHARHDI TO ATRAILA"
+    },
+    {
+        "x": 81.52672470000005,
+        "y": 25.104456153000058,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PHULDEUR TO GONDKHURD_1554_1571",
+        "type": "sharp_edge",
+        "span": "PHULDEUR TO GONDKHURD"
+    },
+    {
+        "x": 81.52036627400008,
+        "y": 25.09747905000006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PHULDEUR TO GONDKHURD_1555_1561",
+        "type": "sharp_edge",
+        "span": "PHULDEUR TO GONDKHURD"
+    },
+    {
+        "x": 81.85667191500005,
+        "y": 24.988068079000072,
+        "crs": "EPSG:4326",
+        "label": "Sharp_PURAWA MANIKRAM TO KORAW_1573_1579",
+        "type": "sharp_edge",
+        "span": "PURAWA MANIKRAM TO KORAW"
+    },
+    {
+        "x": 81.84494903000007,
+        "y": 24.911615078000068,
+        "crs": "EPSG:4326",
+        "label": "Sharp_RAIPUR TO KHAMHA_1613_1614",
+        "type": "sharp_edge",
+        "span": "RAIPUR TO KHAMHA"
+    },
+    {
+        "x": 81.63304304700006,
+        "y": 24.997565835000046,
+        "crs": "EPSG:4326",
+        "label": "Sharp_RAJAPUR TO T-POINT MALPAR_1628_1629",
+        "type": "sharp_edge",
+        "span": "RAJAPUR TO T-POINT MALPAR"
+    },
+    {
+        "x": 81.84172750400006,
+        "y": 24.92735367000006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_RAJHA TO RAIPUR_1632_1635",
+        "type": "sharp_edge",
+        "span": "RAJHA TO RAIPUR"
+    },
+    {
+        "x": 81.85082146700006,
+        "y": 24.917747855000073,
+        "crs": "EPSG:4326",
+        "label": "Sharp_RAJHA TO RAIPUR_1634_1640",
+        "type": "sharp_edge",
+        "span": "RAJHA TO RAIPUR"
+    },
+    {
+        "x": 81.84071362600008,
+        "y": 24.92682718900005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_RAJHA TO RAIPUR_1637_1639",
+        "type": "sharp_edge",
+        "span": "RAJHA TO RAIPUR"
+    },
+    {
+        "x": 81.84497515800007,
+        "y": 24.911639638000054,
+        "crs": "EPSG:4326",
+        "label": "Sharp_RAJHA TO RAIPUR_1640_1641",
+        "type": "sharp_edge",
+        "span": "RAJHA TO RAIPUR"
+    },
+    {
+        "x": 81.74039071900006,
+        "y": 24.975356374000057,
+        "crs": "EPSG:4326",
+        "label": "Sharp_RAKSAHA KALA TO SAHLOLWA_1643_1644",
+        "type": "sharp_edge",
+        "span": "RAKSAHA KALA TO SAHLOLWA"
+    },
+    {
+        "x": 81.73818850100008,
+        "y": 24.97625197800005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_RAKSAHA KALA TO SAHLOLWA_1646_1647",
+        "type": "sharp_edge",
+        "span": "RAKSAHA KALA TO SAHLOLWA"
+    },
+    {
+        "x": 81.55587214300004,
+        "y": 25.076431333000073,
+        "crs": "EPSG:4326",
+        "label": "Sharp_RISDA TO T-POINT LAKHAWAR_1663_1664",
+        "type": "sharp_edge",
+        "span": "RISDA TO T-POINT LAKHAWAR"
+    },
+    {
+        "x": 81.56594662100008,
+        "y": 25.066990631000067,
+        "crs": "EPSG:4326",
+        "label": "Sharp_RISDA TO T-POINT LAKHAWAR_1663_1666",
+        "type": "sharp_edge",
+        "span": "RISDA TO T-POINT LAKHAWAR"
+    },
+    {
+        "x": 81.72394666400004,
+        "y": 24.974909444000048,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SAHLOLWA TO MAJHIGAWAN_1669_1678",
+        "type": "sharp_edge",
+        "span": "SAHLOLWA TO MAJHIGAWAN"
+    },
+    {
+        "x": 81.60365296700007,
+        "y": 25.109942905000025,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SARAI TO PANASI_1692_1695",
+        "type": "sharp_edge",
+        "span": "SARAI TO PANASI"
+    },
+    {
+        "x": 81.61878582300005,
+        "y": 25.08170827600003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SARAI TO PANASI_1711_1712",
+        "type": "sharp_edge",
+        "span": "SARAI TO PANASI"
+    },
+    {
+        "x": 81.65166952100003,
+        "y": 25.052442797000026,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SARAI TO PANASI_1736_1738",
+        "type": "sharp_edge",
+        "span": "SARAI TO PANASI"
+    },
+    {
+        "x": 81.65097691000005,
+        "y": 25.051980402000027,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SARAI TO PANASI_1740_1741",
+        "type": "sharp_edge",
+        "span": "SARAI TO PANASI"
+    },
+    {
+        "x": 81.72461328900005,
+        "y": 25.027885613000024,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SATPURA TO DEUPA KOTHAR_1749_1753",
+        "type": "sharp_edge",
+        "span": "SATPURA TO DEUPA KOTHAR"
+    },
+    {
+        "x": 81.71070470100005,
+        "y": 25.03243254100005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SATPURA TO DEUPA KOTHAR_1752_1758",
+        "type": "sharp_edge",
+        "span": "SATPURA TO DEUPA KOTHAR"
+    },
+    {
+        "x": 81.71070622000008,
+        "y": 25.030063055000028,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SATPURA TO DEUPA KOTHAR_1759_1777",
+        "type": "sharp_edge",
+        "span": "SATPURA TO DEUPA KOTHAR"
+    },
+    {
+        "x": 81.70572699200005,
+        "y": 25.007225953000045,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SATPURA TO DEUPA KOTHAR_1776_1785",
+        "type": "sharp_edge",
+        "span": "SATPURA TO DEUPA KOTHAR"
+    },
+    {
+        "x": 81.71056628600007,
+        "y": 25.030140462000077,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SATPURA URF PADIWAR TO SATPURA_1789_1808",
+        "type": "sharp_edge",
+        "span": "SATPURA URF PADIWAR TO SATPURA"
+    },
+    {
+        "x": 81.71064493000006,
+        "y": 25.03245265000004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SATPURA URF PADIWAR TO SATPURA_1803_1804",
+        "type": "sharp_edge",
+        "span": "SATPURA URF PADIWAR TO SATPURA"
+    },
+    {
+        "x": 81.76189804500007,
+        "y": 25.02103982500006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SOHAGI TO AMAW_1811_1847",
+        "type": "sharp_edge",
+        "span": "SOHAGI TO AMAW"
+    },
+    {
+        "x": 81.75709449800007,
+        "y": 25.023387427000046,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SOHAGI TO AMAW_1812_1846",
+        "type": "sharp_edge",
+        "span": "SOHAGI TO AMAW"
+    },
+    {
+        "x": 81.72658437900003,
+        "y": 25.031432038000048,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SOHAGI TO AMAW_1833_1834",
+        "type": "sharp_edge",
+        "span": "SOHAGI TO AMAW"
+    },
+    {
+        "x": 81.76535136000007,
+        "y": 25.019239133000042,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SOHAGI TO AMAW_1847_1849",
+        "type": "sharp_edge",
+        "span": "SOHAGI TO AMAW"
+    },
+    {
+        "x": 81.57922688700006,
+        "y": 25.121970843000042,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SOHARWA TO SARAI_1852_1855",
+        "type": "sharp_edge",
+        "span": "SOHARWA TO SARAI"
+    },
+    {
+        "x": 81.57616973900008,
+        "y": 25.139505246000056,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SUTI TO BARHA_1886_1887",
+        "type": "sharp_edge",
+        "span": "SUTI TO BARHA"
+    },
+    {
+        "x": 81.57803098800008,
+        "y": 25.140985260000036,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SUTI TO BARHA_1889_1901",
+        "type": "sharp_edge",
+        "span": "SUTI TO BARHA"
+    },
+    {
+        "x": 81.55215209200009,
+        "y": 25.162193251000076,
+        "crs": "EPSG:4326",
+        "label": "Sharp_SUTI TO BARHA_1898_1909",
+        "type": "sharp_edge",
+        "span": "SUTI TO BARHA"
+    },
+    {
+        "x": 81.72071097400004,
+        "y": 25.01198684800005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT AMAW TO CHANDAI_1914_1915",
+        "type": "sharp_edge",
+        "span": "T-POINT AMAW TO CHANDAI"
+    },
+    {
+        "x": 81.88259538500006,
+        "y": 24.865299182000058,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT CHAURANANKAR TO BARIKALA_1930_1933",
+        "type": "sharp_edge",
+        "span": "T-POINT CHAURANANKAR TO BARIKALA"
+    },
+    {
+        "x": 81.89319479700004,
+        "y": 24.937719480000055,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT GADARPURWA TO RERUA_1935_1936",
+        "type": "sharp_edge",
+        "span": "T-POINT GADARPURWA TO RERUA"
+    },
+    {
+        "x": 81.64293379900005,
+        "y": 25.034141428000055,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT JHOTIYA TO DADHAKALA_1945_1951",
+        "type": "sharp_edge",
+        "span": "T-POINT JHOTIYA TO DADHAKALA"
+    },
+    {
+        "x": 81.64632025800006,
+        "y": 25.038297734000025,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT JHOTIYA TO DADHAKALA_1947_1953",
+        "type": "sharp_edge",
+        "span": "T-POINT JHOTIYA TO DADHAKALA"
+    },
+    {
+        "x": 81.79728073800004,
+        "y": 24.928541236000058,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT KHAMHA TO DUARI_1955_1959",
+        "type": "sharp_edge",
+        "span": "T-POINT KHAMHA TO DUARI"
+    },
+    {
+        "x": 81.82959588200004,
+        "y": 25.00111750600007,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT KORAW TO MANGI_1973_1974",
+        "type": "sharp_edge",
+        "span": "T-POINT KORAW TO MANGI"
+    },
+    {
+        "x": 81.84708007500006,
+        "y": 24.93493032600003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT RAJHA TO HAHOTIPURWA_1976_1979",
+        "type": "sharp_edge",
+        "span": "T-POINT RAJHA TO HAHOTIPURWA"
+    },
+    {
+        "x": 81.85297605900007,
+        "y": 24.941612803000055,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT RAJHA TO KAITHA_2000_2001",
+        "type": "sharp_edge",
+        "span": "T-POINT RAJHA TO KAITHA"
+    },
+    {
+        "x": 81.87031772800003,
+        "y": 24.90661449600003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT RAJHA TO SONURI_2004_2011",
+        "type": "sharp_edge",
+        "span": "T-POINT RAJHA TO SONURI"
+    },
+    {
+        "x": 81.52846632400008,
+        "y": 25.175079305000054,
+        "crs": "EPSG:4326",
+        "label": "Sharp_T-POINT SUTI TO SARUI_2015_2019",
+        "type": "sharp_edge",
+        "span": "T-POINT SUTI TO SARUI"
+    },
+    {
+        "x": 81.51315623700003,
+        "y": 25.032571700000062,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TANGAHA TO NAUBASTA_2023_2028",
+        "type": "sharp_edge",
+        "span": "TANGAHA TO NAUBASTA"
+    },
+    {
+        "x": 81.51667999300008,
+        "y": 25.035574136000037,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TANGAHA TO NAUBASTA_2024_2029",
+        "type": "sharp_edge",
+        "span": "TANGAHA TO NAUBASTA"
+    },
+    {
+        "x": 81.78283877400008,
+        "y": 25.008317344000034,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO ATRAILA 12_2034_2079",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO ATRAILA 12"
+    },
+    {
+        "x": 81.64865605200004,
+        "y": 24.980615871000055,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO ATRAILA 12_2038_2039",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO ATRAILA 12"
+    },
+    {
+        "x": 81.64292354700007,
+        "y": 24.98076158600003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO ATRAILA 12_2040_2041",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO ATRAILA 12"
+    },
+    {
+        "x": 81.64965334700008,
+        "y": 24.988917181000033,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO ATRAILA 12_2076_2091",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO ATRAILA 12"
+    },
+    {
+        "x": 81.64905381500006,
+        "y": 24.98521027700008,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO ATRAILA 12_2089_2090",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO ATRAILA 12"
+    },
+    {
+        "x": 81.72459641200004,
+        "y": 25.02776499600003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO ATRAILA 12_2101_2116",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO ATRAILA 12"
+    },
+    {
+        "x": 81.63404386300004,
+        "y": 24.98915661700005,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO KONIYA KHURD_2121_2125",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO KONIYA KHURD"
+    },
+    {
+        "x": 81.64864792700007,
+        "y": 24.980562751000036,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO KONIYA KHURD_2129_2130",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO KONIYA KHURD"
+    },
+    {
+        "x": 81.64284676100004,
+        "y": 24.980733091000047,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO KONIYA KHURD_2135_2136",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO KONIYA KHURD"
+    },
+    {
+        "x": 81.64864903000006,
+        "y": 24.980607622000036,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO MALPAR_2156_2157",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO MALPAR"
+    },
+    {
+        "x": 81.64287102000003,
+        "y": 24.980771637000032,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO MALPAR_2158_2159",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO MALPAR"
+    },
+    {
+        "x": 81.64898447000007,
+        "y": 24.985228775000053,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO MALPAR_2162_2187",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO MALPAR"
+    },
+    {
+        "x": 81.64959593000003,
+        "y": 24.989006321000033,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO MALPAR_2164_2195",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO MALPAR"
+    },
+    {
+        "x": 81.63404274100003,
+        "y": 24.989166400000045,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO MANIKA_2203_2214",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO MANIKA"
+    },
+    {
+        "x": 81.64864969200005,
+        "y": 24.98057106400006,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO MANIKA_2211_2222",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO MANIKA"
+    },
+    {
+        "x": 81.64285673700005,
+        "y": 24.980738993000045,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO MANIKA_2230_2231",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO MANIKA"
+    },
+    {
+        "x": 81.64905859300006,
+        "y": 24.98520613200003,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO SOHAGI_2253_2254",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO SOHAGI"
+    },
+    {
+        "x": 81.64965695100005,
+        "y": 24.988915474000066,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO SOHAGI_2255_2256",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO SOHAGI"
+    },
+    {
+        "x": 81.68974167400006,
+        "y": 24.98236375600004,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO SOHAGI_2257_2272",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO SOHAGI"
+    },
+    {
+        "x": 81.64865988500003,
+        "y": 24.980621374000066,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO SOHAGI_2273_2275",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO SOHAGI"
+    },
+    {
+        "x": 81.64292596200005,
+        "y": 24.980764014000044,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TEONTHAR BLOCK TO SOHAGI_2273_2276",
+        "type": "sharp_edge",
+        "span": "TEONTHAR BLOCK TO SOHAGI"
+    },
+    {
+        "x": 81.57178846700003,
+        "y": 25.104349555000056,
+        "crs": "EPSG:4326",
+        "label": "Sharp_TURKAGONDAR TO CHAUKHADA_2294_2314",
+        "type": "sharp_edge",
+        "span": "TURKAGONDAR TO CHAUKHADA"
+    }
+]

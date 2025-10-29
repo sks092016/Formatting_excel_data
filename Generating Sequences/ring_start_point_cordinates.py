@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Deori"
+blockName = "Tyonthar"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,13 +32,13 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Deori/gps.shp"
-segments_shape_file = "References/Deori/OFC_NEW.shp"
+gps_shape_file = "References/Tyonthar/gps.shp"
+segments_shape_file = "References/Tyonthar/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '79.01986115 23.37630395'
+BHQ_CORDINATE = '81.64976706 24.97941313'
 
 rings = {
     'R1': BHQ_CORDINATE,
@@ -46,26 +46,43 @@ rings = {
     'R3': BHQ_CORDINATE,
     'R4': BHQ_CORDINATE,
     'R5': BHQ_CORDINATE,
-    'R1-C1':'79.05657830 23.27625330',
-    'R2-C1':'78.90404520 23.52387920',
-    'R2-C2':'78.98713421 23.41750795',
-    'R3-C1':'79.07467350 23.51988522',
-    'R3-C2':'79.08044459 23.49149171',
+    'R2-C1':'81.82444332 24.95583104',
+    'R2-C2':'81.85082147 24.91774786',
+    'R3-C1':'81.56445571 25.09510841',
+    'R3-C2':'81.57554102 25.10188951',
+    'R4-C1':'81.54885196 25.03430423',
+    'R5-C1':'81.71875530 25.01236828',
 }
 t_point_ring_spans = {
-'t-point barkoti kalan':(78.87662231,23.57765570),
-'t-point beldhana':(78.98713421,23.41750795),
-'t-point chirchita sukhju':(78.94876406,23.44227866),
-'t-point gugwara':(78.95035681,23.51462038),
-'t-point jhunku':(79.02256569,23.40623120),
-'t-point kopra':(79.07467350,23.51988522),
-'t-point mahrajpur':(79.06221862,23.27554523),
-'t-point manegaon':(79.08044459,23.49149171),
-'t-point pipariya':(79.04283971,23.49055118),
-'t-point raikheda':(78.95942941,23.35927426),
-'t-point samnapur shahju':(79.08642960,23.29213162),
-'t-point sujanpur':(78.95272466,23.50304762),
+'t-point amaw':(81.71875530,25.01236828),
+ 't-point amilkoni':(81.66678416,25.04515178),
+ 't-point chaukhada':(81.56445571,25.09510841),
+ 't-point chauranankar':(81.92885238,24.85902187),
+ 't-point gadarpurwa':(81.89657510,24.93675089),
+ 't-point gopoalpurwa':(81.66867143,25.04296114),
+ 't-point jhotiya':(81.64348906,25.02873571),
+ 't-point khamha':(81.80264734,24.93348911),
+ 't-point koniya khurd':(81.59563015,25.00351750),
+ 't-point koraw':(81.85441711,24.98449182),
+ 't-point rajha':(81.85082147,24.91774786),
+ 't-point suti':(81.55215209,25.16219325),
 }
+
+
+# t_point_ring_spans = {
+# 't-point barkoti kalan':(78.87662231,23.57765570),
+# 't-point beldhana':(78.98713421,23.41750795),
+# 't-point chirchita sukhju':(78.94876406,23.44227866),
+# 't-point gugwara':(78.95035681,23.51462038),
+# 't-point jhunku':(79.02256569,23.40623120),
+# 't-point kopra':(79.07467350,23.51988522),
+# 't-point mahrajpur':(79.06221862,23.27554523),
+# 't-point manegaon':(79.08044459,23.49149171),
+# 't-point pipariya':(79.04283971,23.49055118),
+# 't-point raikheda':(78.95942941,23.35927426),
+# 't-point samnapur shahju':(79.08642960,23.29213162),
+# 't-point sujanpur':(78.95272466,23.50304762),
+# }
 
 
 # t_point_ring_spans = {
