@@ -32,9 +32,9 @@ for s in span_list:
     temp_df['end'] = temp_df.geometry.apply(lambda geom: get_start_end_coords(geom)[1])
 
     start_gp = smart_split(s).lower()
-    if start_gp in t_point_ring_spans.keys():
+    if start_gp.upper() in t_point_ring_spans.keys():
         print("found it")
-        gp_node = t_point_ring_spans[start_gp]
+        gp_node = t_point_ring_spans[start_gp.upper()]
     else:
         try:
             s_c = gdf_gp[gdf_gp.name.str.lower() == start_gp].geometry.iloc[0]#TODO --- CHANGE THIS POINT COLUMN NAME for gp name

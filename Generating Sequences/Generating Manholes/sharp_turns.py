@@ -5,7 +5,7 @@ import numpy as np
 import math
 import json
 
-block_name = "Tyonthar"
+block_name = "Baidhan"
 # === Parameters ===
 input_shapefile = f'input/OFC_New_{block_name}-1_Seg_Span_Seq.shp'   # your input line shapefile
 # input_shapefile = f'input/OFC_NEW.shp'   # your input line shapefile

@@ -9,7 +9,7 @@ update_field = "span_name"
 
 
 replacement_map = {
-'OLT TEONTHAR BLOCK':'TEONTHAR BLOCK'
+'DEORI - BAIDHAN BLOCK':'MADHURA TO BAIDHAN BLOCK'
 }
 count = 0
 

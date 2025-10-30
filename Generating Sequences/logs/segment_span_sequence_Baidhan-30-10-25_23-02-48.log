@@ -1,0 +1,20 @@
+2025-10-30 23:02:48,886 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'AMILWAN TO TENDUHA'.
+2025-10-30 23:02:48,886 - WARNING - ⚠️ The Span AMILWAN TO TENDUHA is disconnected at this point (82.49977257900008, 24.041515893000053)
+2025-10-30 23:02:49,115 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BAIDHAN BLOCK TO PIPARA'.
+2025-10-30 23:02:49,116 - WARNING - ⚠️ The Span BAIDHAN BLOCK TO PIPARA is disconnected at this point (82.61483617500005, 24.072424454000043)
+2025-10-30 23:02:49,210 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BAIDHAN BLOCK TO SIDHHIKALA'.
+2025-10-30 23:02:49,210 - WARNING - ⚠️ The Span BAIDHAN BLOCK TO SIDHHIKALA is disconnected at this point (82.61629132800005, 24.011700362000056)
+2025-10-30 23:02:49,283 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BAIDHAN BLOCK TO SIDHHIKHURD'.
+2025-10-30 23:02:49,283 - WARNING - ⚠️ The Span BAIDHAN BLOCK TO SIDHHIKHURD is disconnected at this point (82.61674332400008, 24.009980403000043)
+2025-10-30 23:02:49,789 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BHUDKUD TO SITULKHURD'.
+2025-10-30 23:02:49,789 - WARNING - ⚠️ The Span BHUDKUD TO SITULKHURD is disconnected at this point (82.52391670000003, 24.009573300000056)
+2025-10-30 23:02:50,344 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'DHENKI TO T-POINT KARKOSA'.
+2025-10-30 23:02:50,344 - WARNING - ⚠️ The Span DHENKI TO T-POINT KARKOSA is disconnected at this point (82.55638262000008, 24.042267710000033)
+2025-10-30 23:02:50,442 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'GADERIA TO CHINAGITOLA'.
+2025-10-30 23:02:50,443 - WARNING - ⚠️ The Span GADERIA TO CHINAGITOLA is disconnected at this point (82.50454359000008, 24.167000209000037)
+2025-10-30 23:02:50,898 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'KAM TO KARKOSA'.
+2025-10-30 23:02:50,899 - WARNING - ⚠️ The Span KAM TO KARKOSA is disconnected at this point (82.56067670000004, 24.042410200000063)
+2025-10-30 23:02:51,492 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'MADHURA TO BAIDHAN BLOCK'.
+2025-10-30 23:02:51,492 - WARNING - ⚠️ The Span MADHURA TO BAIDHAN BLOCK is disconnected at this point (82.58094041600003, 24.07739825500005)
+2025-10-30 23:02:52,373 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-10-30 23:02:52,374 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>

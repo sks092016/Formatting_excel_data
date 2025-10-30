@@ -1,0 +1,69 @@
+2025-10-30 23:20:14,411 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BHUDKUD TO SITULKHURD'.
+2025-10-30 23:20:14,411 - WARNING - ⚠️ The Span BHUDKUD TO SITULKHURD is disconnected at this point (82.52391670000003, 24.009573300000056)
+2025-10-30 23:20:14,962 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'DHENKI TO T-POINT KARKOSA'.
+2025-10-30 23:20:14,962 - WARNING - ⚠️ The Span DHENKI TO T-POINT KARKOSA is disconnected at this point (82.55638262000008, 24.042267710000033)
+2025-10-30 23:20:15,067 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'GADERIA TO CHINAGITOLA'.
+2025-10-30 23:20:15,067 - WARNING - ⚠️ The Span GADERIA TO CHINAGITOLA is disconnected at this point (82.50454359000008, 24.167000209000037)
+2025-10-30 23:20:15,526 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'KAM TO KARKOSA'.
+2025-10-30 23:20:15,526 - WARNING - ⚠️ The Span KAM TO KARKOSA is disconnected at this point (82.56067670000004, 24.042410200000063)
+2025-10-30 23:20:16,103 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'MADHURA TO BAIDHAN BLOCK'.
+2025-10-30 23:20:16,104 - WARNING - ⚠️ The Span MADHURA TO BAIDHAN BLOCK is disconnected at this point (82.58094041600003, 24.07739825500005)
+2025-10-30 23:20:18,066 - INFO - Created 4,168 records
+2025-10-30 23:20:18,080 - INFO - Created 118 records
+2025-10-30 23:20:18,080 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-10-30 23:20:18,082 - INFO - Created 5 records
+2025-10-30 23:20:18,209 - INFO - 🔄 Found 17 rings: ['R1', 'R1-C1', 'R1-C2', 'R1-C3', 'R2', 'R2-C1', 'R2-C2', 'R3', 'R3-C1', 'R3-C2', 'R4', 'R4-C1', 'R4-C2', 'R5', 'R5-C1', 'R5-C2', 'R5-C3']
+2025-10-30 23:20:18,209 - INFO - 
+🔁 Processing ring: R1
+2025-10-30 23:20:18,212 - INFO - ✅ Completed ring R1 with 2 spans.
+2025-10-30 23:20:18,212 - INFO - 
+🔁 Processing ring: R1-C1
+2025-10-30 23:20:18,214 - INFO - ✅ Completed ring R1-C1 with 4 spans.
+2025-10-30 23:20:18,214 - INFO - 
+🔁 Processing ring: R1-C2
+2025-10-30 23:20:18,216 - INFO - ✅ Completed ring R1-C2 with 2 spans.
+2025-10-30 23:20:18,216 - INFO - 
+🔁 Processing ring: R1-C3
+2025-10-30 23:20:18,218 - INFO - ✅ Completed ring R1-C3 with 4 spans.
+2025-10-30 23:20:18,218 - INFO - 
+🔁 Processing ring: R2
+2025-10-30 23:20:18,224 - INFO - ✅ Completed ring R2 with 11 spans.
+2025-10-30 23:20:18,224 - INFO - 
+🔁 Processing ring: R2-C1
+2025-10-30 23:20:18,227 - INFO - ✅ Completed ring R2-C1 with 6 spans.
+2025-10-30 23:20:18,227 - INFO - 
+🔁 Processing ring: R2-C2
+2025-10-30 23:20:18,230 - INFO - ✅ Completed ring R2-C2 with 4 spans.
+2025-10-30 23:20:18,230 - INFO - 
+🔁 Processing ring: R3
+2025-10-30 23:20:18,233 - INFO - ✅ Completed ring R3 with 6 spans.
+2025-10-30 23:20:18,233 - INFO - 
+🔁 Processing ring: R3-C1
+2025-10-30 23:20:18,235 - INFO - ✅ Completed ring R3-C1 with 4 spans.
+2025-10-30 23:20:18,235 - INFO - 
+🔁 Processing ring: R3-C2
+2025-10-30 23:20:18,237 - INFO - ✅ Completed ring R3-C2 with 3 spans.
+2025-10-30 23:20:18,237 - INFO - 
+🔁 Processing ring: R4
+2025-10-30 23:20:18,242 - INFO - ✅ Completed ring R4 with 10 spans.
+2025-10-30 23:20:18,242 - INFO - 
+🔁 Processing ring: R4-C1
+2025-10-30 23:20:18,245 - INFO - ✅ Completed ring R4-C1 with 5 spans.
+2025-10-30 23:20:18,245 - INFO - 
+🔁 Processing ring: R4-C2
+2025-10-30 23:20:18,249 - INFO - ✅ Completed ring R4-C2 with 8 spans.
+2025-10-30 23:20:18,249 - INFO - 
+🔁 Processing ring: R5
+2025-10-30 23:20:18,253 - INFO - ✅ Completed ring R5 with 6 spans.
+2025-10-30 23:20:18,253 - INFO - 
+🔁 Processing ring: R5-C1
+2025-10-30 23:20:18,257 - INFO - ✅ Completed ring R5-C1 with 6 spans.
+2025-10-30 23:20:18,257 - INFO - 
+🔁 Processing ring: R5-C2
+2025-10-30 23:20:18,259 - INFO - ✅ Completed ring R5-C2 with 4 spans.
+2025-10-30 23:20:18,259 - INFO - 
+🔁 Processing ring: R5-C3
+2025-10-30 23:20:18,261 - INFO - ✅ Completed ring R5-C3 with 4 spans.
+2025-10-30 23:20:18,387 - INFO - Created 4,168 records
+2025-10-30 23:20:18,400 - INFO - Created 118 records
+2025-10-30 23:20:18,401 - INFO - ✅ All rings processed. Span sequence updated and saved.

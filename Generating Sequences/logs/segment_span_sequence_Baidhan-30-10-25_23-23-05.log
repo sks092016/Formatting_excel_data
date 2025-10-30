@@ -1,0 +1,67 @@
+2025-10-30 23:23:07,145 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BHUDKUD TO SITULKHURD'.
+2025-10-30 23:23:07,146 - WARNING - ⚠️ The Span BHUDKUD TO SITULKHURD is disconnected at this point (82.52391670000003, 24.009573300000056)
+2025-10-30 23:23:07,803 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'GADERIA TO CHINAGITOLA'.
+2025-10-30 23:23:07,803 - WARNING - ⚠️ The Span GADERIA TO CHINAGITOLA is disconnected at this point (82.50454359000008, 24.167000209000037)
+2025-10-30 23:23:08,258 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'KAM TO KARKOSA'.
+2025-10-30 23:23:08,258 - WARNING - ⚠️ The Span KAM TO KARKOSA is disconnected at this point (82.56067670000004, 24.042410200000063)
+2025-10-30 23:23:08,847 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'MADHURA TO BAIDHAN BLOCK'.
+2025-10-30 23:23:08,848 - WARNING - ⚠️ The Span MADHURA TO BAIDHAN BLOCK is disconnected at this point (82.58094041600003, 24.07739825500005)
+2025-10-30 23:23:10,816 - INFO - Created 4,168 records
+2025-10-30 23:23:10,833 - INFO - Created 118 records
+2025-10-30 23:23:10,833 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-10-30 23:23:10,836 - INFO - Created 4 records
+2025-10-30 23:23:10,948 - INFO - 🔄 Found 17 rings: ['R1', 'R1-C1', 'R1-C2', 'R1-C3', 'R2', 'R2-C1', 'R2-C2', 'R3', 'R3-C1', 'R3-C2', 'R4', 'R4-C1', 'R4-C2', 'R5', 'R5-C1', 'R5-C2', 'R5-C3']
+2025-10-30 23:23:10,948 - INFO - 
+🔁 Processing ring: R1
+2025-10-30 23:23:10,950 - INFO - ✅ Completed ring R1 with 2 spans.
+2025-10-30 23:23:10,950 - INFO - 
+🔁 Processing ring: R1-C1
+2025-10-30 23:23:10,953 - INFO - ✅ Completed ring R1-C1 with 4 spans.
+2025-10-30 23:23:10,953 - INFO - 
+🔁 Processing ring: R1-C2
+2025-10-30 23:23:10,955 - INFO - ✅ Completed ring R1-C2 with 3 spans.
+2025-10-30 23:23:10,955 - INFO - 
+🔁 Processing ring: R1-C3
+2025-10-30 23:23:10,957 - INFO - ✅ Completed ring R1-C3 with 4 spans.
+2025-10-30 23:23:10,957 - INFO - 
+🔁 Processing ring: R2
+2025-10-30 23:23:10,975 - INFO - ✅ Completed ring R2 with 11 spans.
+2025-10-30 23:23:10,975 - INFO - 
+🔁 Processing ring: R2-C1
+2025-10-30 23:23:10,978 - INFO - ✅ Completed ring R2-C1 with 6 spans.
+2025-10-30 23:23:10,978 - INFO - 
+🔁 Processing ring: R2-C2
+2025-10-30 23:23:10,981 - INFO - ✅ Completed ring R2-C2 with 4 spans.
+2025-10-30 23:23:10,981 - INFO - 
+🔁 Processing ring: R3
+2025-10-30 23:23:10,984 - INFO - ✅ Completed ring R3 with 6 spans.
+2025-10-30 23:23:10,984 - INFO - 
+🔁 Processing ring: R3-C1
+2025-10-30 23:23:10,987 - INFO - ✅ Completed ring R3-C1 with 4 spans.
+2025-10-30 23:23:10,987 - INFO - 
+🔁 Processing ring: R3-C2
+2025-10-30 23:23:10,988 - INFO - ✅ Completed ring R3-C2 with 3 spans.
+2025-10-30 23:23:10,988 - INFO - 
+🔁 Processing ring: R4
+2025-10-30 23:23:10,994 - INFO - ✅ Completed ring R4 with 10 spans.
+2025-10-30 23:23:10,994 - INFO - 
+🔁 Processing ring: R4-C1
+2025-10-30 23:23:10,996 - INFO - ✅ Completed ring R4-C1 with 5 spans.
+2025-10-30 23:23:10,996 - INFO - 
+🔁 Processing ring: R4-C2
+2025-10-30 23:23:11,001 - INFO - ✅ Completed ring R4-C2 with 8 spans.
+2025-10-30 23:23:11,001 - INFO - 
+🔁 Processing ring: R5
+2025-10-30 23:23:11,005 - INFO - ✅ Completed ring R5 with 6 spans.
+2025-10-30 23:23:11,005 - INFO - 
+🔁 Processing ring: R5-C1
+2025-10-30 23:23:11,008 - INFO - ✅ Completed ring R5-C1 with 6 spans.
+2025-10-30 23:23:11,008 - INFO - 
+🔁 Processing ring: R5-C2
+2025-10-30 23:23:11,011 - INFO - ✅ Completed ring R5-C2 with 4 spans.
+2025-10-30 23:23:11,011 - INFO - 
+🔁 Processing ring: R5-C3
+2025-10-30 23:23:11,013 - INFO - ✅ Completed ring R5-C3 with 4 spans.
+2025-10-30 23:23:11,143 - INFO - Created 4,168 records
+2025-10-30 23:23:11,158 - INFO - Created 118 records
+2025-10-30 23:23:11,159 - INFO - ✅ All rings processed. Span sequence updated and saved.

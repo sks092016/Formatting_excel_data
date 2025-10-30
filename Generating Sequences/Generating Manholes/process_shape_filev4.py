@@ -141,7 +141,7 @@ def process_shapefile(
 
     # Default crossing_types if not provided
     if crossing_types is None:
-        crossing_types = ["nh road cross", "sh road cross","bridge", "railway", "rail_cross", "rail crossing"] #TODO for road crossing
+        crossing_types = ["nh road cross","railway cross", "bpcl gas"] #TODO for road crossing
 
     # Normalize crossing types to lower-case for comparison
     crossing_types = [t.strip().lower() for t in crossing_types]
@@ -208,7 +208,7 @@ def process_shapefile(
                                    'meta': {'seg_index': idx, 'crossing_id': crossing_counter, 'seg_length': seg_length}})
 
         # Additionally handle explicit "bridge" handling (with crossing_offset behavior if segment is a bridge)
-        if ctype_clean == "bridge":
+        if ctype_clean == "bridge" or ctype_clean == "river bridge":
             # For larger bridges, we want to add before/after points relative to the segment's extent.
             # We'll use crossing_offset for before/after placement, clipped.
             bridge_counter += 1
@@ -483,7 +483,7 @@ def process_shapefile(
 
 if __name__ == "__main__":
     version = "1.0"
-    block_name = "Tyonthar"
+    block_name = "Baidhan"
     # Example manual points JSON (optional). Save a small sample file if you want to test manual points:
     # [
     #   {"x": 2000.0, "y": 0.0, "label": "User_Manual_1"},
