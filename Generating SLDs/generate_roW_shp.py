@@ -4,9 +4,7 @@ from pyproj import Geod
 import json
 from shapely.ops import transform
 import pyproj
-
-block = "Aron"
-
+block = "Gandhwani"
 def line_length_meter(line):
     geod = Geod(ellps="WGS84")
     length_m = geod.line_length(
@@ -179,6 +177,7 @@ def process_span_data(input_gdf, output_shapefile, output_json):
         json.dump(span_details, f, indent=4)
 
     return output_gdf, span_details
+
 if __name__ == "__main__":
     # Example: change these paths as needed
     input_file = "input/OFC_NEW.shp"
@@ -195,5 +194,3 @@ if __name__ == "__main__":
     print("✅ Shapefile saved:", output_shape_file)
     print("✅ JSON saved:", output_json)
 
-    # Label Exoression in QGIS
-    # concat("Point Name", ' ','CH :', to_string(to_int("Chainage")),'\n',round(x( $geometry ), 6),', ',round(y( $geometry ), 6))

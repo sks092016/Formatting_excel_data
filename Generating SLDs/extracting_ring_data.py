@@ -2,7 +2,7 @@ import json
 from collections import defaultdict
 
 # Input and output file paths
-blockname = "Aron"
+blockname = "Gandhwani"
 input_file = f"output/span_details-{blockname}.json"
 output_file = f"ring_input/ring_details_{blockname}.json"
 
@@ -34,7 +34,6 @@ for ring, ring_data in grouped.items():
         "total_spans": total_spans,
         "row_autho": dict(category_sums)
     }
-
 
 # Write output JSON
 with open(output_file, "w") as f:

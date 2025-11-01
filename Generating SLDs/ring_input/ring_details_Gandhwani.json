@@ -1,0 +1,485 @@
+{
+    "R4-C1": {
+        "spans": {
+            "T-POINT GHURSAL TO RODADA": {
+                "PMGSY": 129.43548988416552,
+                "SH-38": 2926.001447197733,
+                "Ring": "R4-C1",
+                "Span_id": "005"
+            },
+            "T-POINT SALI TO DHANORA": {
+                "PMGSY": 12641.870576825379,
+                "Ring": "R4-C1",
+                "Span_id": "001"
+            },
+            "DHANORA TO JIRABAD": {
+                "PMGSY": 4709.741513782495,
+                "Ring": "R4-C1",
+                "Span_id": "002"
+            },
+            "JIRABAD TO GHURSAL": {
+                "PMGSY": 366.70192992524517,
+                "SH-38": 54.653846656636496,
+                "Ring": "R4-C1",
+                "Span_id": "003"
+            },
+            "GHURSAL TO T-POINT SOYLA": {
+                "SH-38": 1698.5362258530647,
+                "Ring": "R4-C1",
+                "Span_id": "004"
+            }
+        },
+        "meta": {
+            "total_length": 22526.941030124723,
+            "total_spans": 5,
+            "row_autho": {
+                "PMGSY": 17847.749510417285,
+                "SH-38": 4679.191519707434
+            }
+        }
+    },
+    "R3": {
+        "spans": {
+            "BALWARI KHURD TO JAMLI": {
+                "Grampanchayat": 4104.581301752122,
+                "MDR": 1179.9586579570318,
+                "PMGSY": 2955.978082378002,
+                "SH-36": 1131.6890328285983,
+                "Ring": "R3",
+                "Span_id": "004"
+            },
+            "SIRONJ TO BEHADADA": {
+                "Grampanchayat": 1157.6637694303288,
+                "PMGSY": 4762.021602258135,
+                "Ring": "R3",
+                "Span_id": "007"
+            },
+            "BEHADADA TO BEKLIYA": {
+                "PMGSY": 2382.0975125014506,
+                "Ring": "R3",
+                "Span_id": "008"
+            },
+            "BEKLIYA TO CHIKLI": {
+                "PMGSY": 4187.4458844773935,
+                "Ring": "R3",
+                "Span_id": "009"
+            },
+            "T-POINT BEHADADA TO RAIPURA": {
+                "PMGSY": 1541.862667528031,
+                "Ring": "R3",
+                "Span_id": "011"
+            },
+            "KHOD TO BALWARI KHURD": {
+                "MDR": 2788.7914394771583,
+                "Ring": "R3",
+                "Span_id": "003"
+            },
+            "MOHANPURA TO KHOD": {
+                "MDR": 626.5047402834393,
+                "PMGSY": 2835.7859764618743,
+                "Ring": "R3",
+                "Span_id": "002"
+            },
+            "CHIKLI TO GANDHWANI BLOCK": {
+                "MDR": 4471.665895554558,
+                "PMGSY": 1807.7143312848598,
+                "Ring": "R3",
+                "Span_id": "010"
+            },
+            "GANDHWANI BLOCK TO MOHANPURA": {
+                "PMGSY": 6449.5735067561645,
+                "Ring": "R3",
+                "Span_id": "001"
+            },
+            "PITHANPUR TO SIRONJ": {
+                "Grampanchayat": 7995.730990216063,
+                "PMGSY": 4342.193874773641,
+                "Ring": "R3",
+                "Span_id": "006"
+            },
+            "JAMLI TO PITHANPUR": {
+                "PMGSY": 828.7385023638845,
+                "Ring": "R3",
+                "Span_id": "005"
+            }
+        },
+        "meta": {
+            "total_length": 55549.99776828274,
+            "total_spans": 11,
+            "row_autho": {
+                "Grampanchayat": 13257.976061398515,
+                "MDR": 9066.920733272189,
+                "PMGSY": 32093.41194078344,
+                "SH-36": 1131.6890328285983
+            }
+        }
+    },
+    "R2": {
+        "spans": {
+            "BILDA TO BILDARI": {
+                "PMGSY": 3973.4354006257727,
+                "SH-36": 1639.3243695815422,
+                "Ring": "R2",
+                "Span_id": "007"
+            },
+            "DHAWADADA TO BILDA": {
+                "PMGSY": 1214.8403859967973,
+                "SH-36": 2259.420258371771,
+                "Ring": "R2",
+                "Span_id": "006"
+            },
+            "KOTA TO DHAWADADA": {
+                "PMGSY": 6706.808789950821,
+                "Ring": "R2",
+                "Span_id": "005"
+            },
+            "SHYADI TO KOTA": {
+                "Grampanchayat": 783.3492861475445,
+                "PMGSY": 2143.209032789484,
+                "Ring": "R2",
+                "Span_id": "004"
+            },
+            "BILDARI TO BALVARI KALA": {
+                "PMGSY": 461.94232135152066,
+                "SH-36": 2345.524062396937,
+                "Ring": "R2",
+                "Span_id": "008"
+            },
+            "MORIPURA TO SHYADI": {
+                "GRAMPANCHYAT": 709.6957930082982,
+                "Grampanchayat": 2393.750286090568,
+                "PMGSY": 4930.191701879885,
+                "Ring": "R2",
+                "Span_id": "003"
+            },
+            "BAKHATALA TO GANDHWANI BLOCK": {
+                "PMGSY": 6343.013694325485,
+                "Ring": "R2",
+                "Span_id": "010"
+            },
+            "BALVARI KALA TO BAKHATALA": {
+                "PMGSY": 1865.2913422442368,
+                "Ring": "R2",
+                "Span_id": "009"
+            },
+            "T-POINT SHYADI TO REHADADA": {
+                "Grampanchayat": 1279.3327315432462,
+                "Ring": "R2",
+                "Span_id": "011"
+            },
+            "KOSDANA TO MORIPURA": {
+                "PMGSY": 3266.8705324989232,
+                "SH-36": 1147.9127076187892,
+                "Ring": "R2",
+                "Span_id": "002"
+            },
+            "GANDHWANI BLOCK TO KOSDANA": {
+                "PMGSY": 1068.1200676864196,
+                "SH-36": 4804.8310351484015,
+                "Ring": "R2",
+                "Span_id": "001"
+            }
+        },
+        "meta": {
+            "total_length": 49336.86379925644,
+            "total_spans": 11,
+            "row_autho": {
+                "PMGSY": 31973.723269349342,
+                "SH-36": 12197.012433117441,
+                "Grampanchayat": 4456.432303781358,
+                "GRAMPANCHYAT": 709.6957930082982
+            }
+        }
+    },
+    "R2-C1": {
+        "spans": {
+            "T-POINT KOTA TO DHAYDI": {
+                "PMGSY": 7619.758054706092,
+                "Ring": "R2-C1",
+                "Span_id": "001"
+            },
+            "T-POINT DHAYDI TO PURA": {
+                "Grampanchayat": 1079.9652719098488,
+                "Ring": "R2-C1",
+                "Span_id": "006"
+            },
+            "T-POINT CHUNAPYA TO HOLI BAYADA": {
+                "PMGSY": 5757.250178863526,
+                "Ring": "R2-C1",
+                "Span_id": "005"
+            },
+            "CHUNAPYA TO KHEDLI HAMUMANN": {
+                "PMGSY": 4794.872782257617,
+                "SH-36": 2515.614140289561,
+                "Ring": "R2-C1",
+                "Span_id": "003"
+            },
+            "DHAYDI TO CHUNAPYA": {
+                "PMGSY": 6972.777963267052,
+                "SH-36": 2223.698285457052,
+                "Ring": "R2-C1",
+                "Span_id": "002"
+            },
+            "KHEDLI HAMUMANN TO T-POINT BILDA": {
+                "PMGSY": 2107.9588604691985,
+                "SH-36": 1245.17484857158,
+                "Ring": "R2-C1",
+                "Span_id": "004"
+            }
+        },
+        "meta": {
+            "total_length": 34317.07038579152,
+            "total_spans": 6,
+            "row_autho": {
+                "PMGSY": 27252.61783956348,
+                "Grampanchayat": 1079.9652719098488,
+                "SH-36": 5984.487274318193
+            }
+        }
+    },
+    "R3-C2": {
+        "spans": {
+            "T-POINT BEHADADA TO LEDGAON": {
+                "PMGSY": 2860.9282030797212,
+                "Ring": "R3-C2",
+                "Span_id": "001"
+            },
+            "LEDGAON TO T-POINT SIRONJ": {
+                "Grampanchayat": 900.8810384122058,
+                "PMGSY": 888.7816199623081,
+                "Ring": "R3-C2",
+                "Span_id": "002"
+            },
+            "T-POINT LEDGAON TO KHARBARDI": {
+                "PMGSY": 941.3394699514337,
+                "Ring": "R3-C2",
+                "Span_id": "003"
+            }
+        },
+        "meta": {
+            "total_length": 5591.930331405669,
+            "total_spans": 3,
+            "row_autho": {
+                "PMGSY": 4691.049292993463,
+                "Grampanchayat": 900.8810384122058
+            }
+        }
+    },
+    "R4": {
+        "spans": {
+            "SOYLA TO KARONDIYA": {
+                "PMGSY": 6149.871327413206,
+                "SH-38": 38.18883594762655,
+                "Ring": "R4",
+                "Span_id": "003"
+            },
+            "KARONDIYA TO BADIYA": {
+                "PMGSY": 1980.54492826322,
+                "SH-38": 1908.3012103369797,
+                "Ring": "R4",
+                "Span_id": "004"
+            },
+            "BADIYA TO AWALDAMAN": {
+                "SH-38": 5034.618527778948,
+                "Ring": "R4",
+                "Span_id": "005"
+            },
+            "SALI TO SOYLA": {
+                "PMGSY": 4572.523287079483,
+                "Ring": "R4",
+                "Span_id": "002"
+            },
+            "GANDHWANI BLOCK TO SALI": {
+                "MDR": 1685.1856219549436,
+                "PMGSY": 3313.9302938917867,
+                "Ring": "R4",
+                "Span_id": "001"
+            },
+            "GANDHWANI TO GANDHWANI BLOCK": {
+                "PMGSY": 1246.8287880938856,
+                "Ring": "R4",
+                "Span_id": "009"
+            },
+            "BARIYA TO GANDHWANI": {
+                "MDR": 1096.0872570287074,
+                "Ring": "R4",
+                "Span_id": "008"
+            },
+            "KHADKI TO BARIYA": {
+                "Grampanchayat": 713.112099166538,
+                "MDR": 3505.856450485214,
+                "Ring": "R4",
+                "Span_id": "007"
+            },
+            "T-POINT GANDWANI TO KHEDI BUZURG": {
+                "PMGSY": 2204.439389937299,
+                "Ring": "R4",
+                "Span_id": "010"
+            },
+            "AWALDAMAN TO KHADKI": {
+                "Grampanchayat": 693.934112878155,
+                "MDR": 3805.495110156023,
+                "SH-38": 172.44666276316823,
+                "Ring": "R4",
+                "Span_id": "006"
+            }
+        },
+        "meta": {
+            "total_length": 38121.36390317518,
+            "total_spans": 10,
+            "row_autho": {
+                "PMGSY": 19468.13801467888,
+                "SH-38": 7153.555236826723,
+                "MDR": 10092.624439624888,
+                "Grampanchayat": 1407.046212044693
+            }
+        }
+    },
+    "R1": {
+        "spans": {
+            "MALHERA TO SATUMARI": {
+                "PMGSY": 4912.9193687046845,
+                "Ring": "R1",
+                "Span_id": "010"
+            },
+            "KOJA KUA TO TONGAON": {
+                "Grampanchayat": 699.1977679436563,
+                "PMGSY": 9922.42045831554,
+                "Ring": "R1",
+                "Span_id": "008"
+            },
+            "ANJATAD TO KOJA KUA": {
+                "PMGSY": 4090.2006773938992,
+                "Ring": "R1",
+                "Span_id": "007"
+            },
+            "GANDHWANI BLOCK TO JAHEDI": {
+                "Grampanchayat": 5459.990476619538,
+                "PMGSY": 3809.0454783130263,
+                "Ring": "R1",
+                "Span_id": "001"
+            },
+            "SATUMARI TO GANDHWANI BLOCK": {
+                "PMGSY": 1309.9732495363976,
+                "Ring": "R1",
+                "Span_id": "011"
+            },
+            "TONGAON TO MALHERA": {
+                "PMGSY": 3574.7969764357226,
+                "Ring": "R1",
+                "Span_id": "009"
+            },
+            "PANWA TO DEDLI B": {
+                "PMGSY": 3783.6299646178854,
+                "Ring": "R1",
+                "Span_id": "003"
+            },
+            "JHEGDA TO ANJATAD": {
+                "MDR": 5110.938424732033,
+                "PMGSY": 64.00692409440279,
+                "Ring": "R1",
+                "Span_id": "006"
+            },
+            "JAHEDI TO PANWA": {
+                "Grampanchayat": 54.520934978036976,
+                "PMGSY": 4430.483033947056,
+                "Ring": "R1",
+                "Span_id": "002"
+            },
+            "DEDLI B TO KABARWA": {
+                "MDR": 17.57682858787671,
+                "PMGSY": 2402.1431930221725,
+                "Ring": "R1",
+                "Span_id": "004"
+            },
+            "KABARWA TO JHEGDA": {
+                "MDR": 3130.517991821372,
+                "Ring": "R1",
+                "Span_id": "005"
+            }
+        },
+        "meta": {
+            "total_length": 52772.361749063304,
+            "total_spans": 11,
+            "row_autho": {
+                "PMGSY": 38299.61932438079,
+                "Grampanchayat": 6213.709179541232,
+                "MDR": 8259.033245141281
+            }
+        }
+    },
+    "R1-C1": {
+        "spans": {
+            "SENDALA TO T-POINT JHEGDA": {
+                "PMGSY": 1340.7635327571052,
+                "Ring": "R1-C1",
+                "Span_id": "004"
+            },
+            "SONGAON TO SENDALA": {
+                "PMGSY": 5042.067954625797,
+                "Ring": "R1-C1",
+                "Span_id": "003"
+            },
+            "KABARWA TO PIPLI": {
+                "MDR": 785.4156800980022,
+                "PMGSY": 4278.413181417632,
+                "Ring": "R1-C1",
+                "Span_id": "001"
+            },
+            "PIPLI TO SONGAON": {
+                "PMGSY": 4219.439296283957,
+                "Ring": "R1-C1",
+                "Span_id": "002"
+            }
+        },
+        "meta": {
+            "total_length": 15666.099645182492,
+            "total_spans": 4,
+            "row_autho": {
+                "PMGSY": 14880.68396508449,
+                "MDR": 785.4156800980022
+            }
+        }
+    },
+    "R3-C1": {
+        "spans": {
+            "BELADI TO PANCHPIPALYA": {
+                "PMGSY": 9515.710582173037,
+                "Ring": "R3-C1",
+                "Span_id": "004"
+            },
+            "PANTHA TO BELADI": {
+                "PMGSY": 4637.807436283071,
+                "Ring": "R3-C1",
+                "Span_id": "003"
+            },
+            "PANCHPIPALYA TO T-POINT SIRONJ": {
+                "PMGSY": 9158.887454992988,
+                "Ring": "R3-C1",
+                "Span_id": "005"
+            },
+            "T-POINT BELADI TO KELI KALAN": {
+                "PMGSY": 3101.322563770935,
+                "Ring": "R3-C1",
+                "Span_id": "006"
+            },
+            "DHOLA HAMUMANA TO PANTHA": {
+                "PMGSY": 3335.145928968509,
+                "Ring": "R3-C1",
+                "Span_id": "002"
+            },
+            "T-POINT PITHANPUR TO DHOLA HAMUMANA": {
+                "PMGSY": 945.4768013443952,
+                "Ring": "R3-C1",
+                "Span_id": "001"
+            }
+        },
+        "meta": {
+            "total_length": 30694.35076753293,
+            "total_spans": 6,
+            "row_autho": {
+                "PMGSY": 30694.35076753293
+            }
+        }
+    }
+}

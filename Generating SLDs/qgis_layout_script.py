@@ -15,8 +15,8 @@ import os
 import json
 from pathlib import Path
 
-district_name = 'Guna'
-block_name = 'Aron'
+district_name = 'Dhar'
+block_name = 'Gandhwani'
 
 # --- Settings ---
 file_path = f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details-{block_name}.json"
@@ -267,7 +267,6 @@ for span in unique_spans:
         print(f"✅ Exported {pdf_path}")
     else:
         print(f"❌ Failed to export {pdf_path}")
-# Reset filter
 layer.setSubsetString("")
 vertices_layer.setSubsetString("")
 
