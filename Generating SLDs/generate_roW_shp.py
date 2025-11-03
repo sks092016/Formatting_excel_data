@@ -31,7 +31,6 @@ def merge_consecutive(group):
     ring = ''
 
     for idx, row in enumerate(group.itertuples()):
-
         if current_auth == row.road_autho:
             new_geom = row.geometry
             try:
@@ -97,7 +96,7 @@ def process_shapefile(input_path, output_path):
     results = []
     # Group by span & span_seq to preserve order
     for span, group in gdf.groupby(["span_name"], sort=False):
-        group_sorted = group.sort_values(by="Sequqnce", key=lambda col: col.astype(int))  # ensure order
+        group_sorted = group.sort_values(by="Sequqnce", key=lambda col: col.astype(float))  # ensure order
         merged = merge_consecutive(group_sorted)
         results.extend(merged)
 
