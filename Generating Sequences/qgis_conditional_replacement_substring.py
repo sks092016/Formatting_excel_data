@@ -5,11 +5,8 @@ layer_name = "OFC_NEW"  # Name of the layer in QGIS
 check_field = "span_name"
 update_field = "span_name"
 
-# t-point corrections
-
-
 replacement_map = {
-'T-POINT GHURSALTO RODADA':'T-POINT GHURSAL TO RODADA'
+'KATHELII':'KATHELI',
 }
 count = 0
 

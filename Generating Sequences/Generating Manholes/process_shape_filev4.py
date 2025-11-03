@@ -247,6 +247,7 @@ def process_shapefile(
                 x = entry.get('x')
                 y = entry.get('y')
                 lbl = entry.get('label', 'Manual_Point')
+                type = entry.get('type', 'manual')
                 entry_crs = entry.get('crs', None)
                 if entry_crs is None:
                     # assume input shapefile CRS
@@ -280,7 +281,7 @@ def process_shapefile(
                     # cumulative distance at that vertex
                     # cumul was computed from coords earlier
                     dist_along = cumul[min_idx]  # approx
-                manual_points.append({'dist': dist_along, 'label': lbl, 'ptype': 'manual', 'meta': entry})
+                manual_points.append({'dist': dist_along, 'label': lbl, 'ptype': type, 'meta': entry})
         # add manual points into feature_points list
         feature_points.extend(manual_points)
 
@@ -363,6 +364,9 @@ def process_shapefile(
     kept.append(combined_sorted[0])
     # iterate over subsequent points
     for curr in combined_sorted[1:]:
+        if curr.get('label') == 'Brown Field Conn':
+            kept.append(curr)
+            continue
         # print(combined_sorted)
         try:
             last = kept[-1]
@@ -371,13 +375,10 @@ def process_shapefile(
             print(kept)
             continue
         gap = curr['dist'] - last['dist']
-        # print(f"curr: {curr['dist']} {curr['label']}, last: {last['dist']} {last['label']}, gap: {gap} ")
-        # print(last)
         if gap >= min_buffer:
             # far enough - keep
             kept.append(curr)
             continue
-
         # Too close: apply deletion priority rules
         # If one of the two is the absolute first point (label 'First_Point'), keep it and drop the other:
         if last.get('label') == 'First_Point':
@@ -390,7 +391,6 @@ def process_shapefile(
             else:
                 # drop curr (because we must keep the first and the second is within min_buffer)
                 continue
-
         # If pair is crossing endpoint vs distance point: delete the crossing endpoint
         if is_cross_endpoint(curr) and last['ptype'] == 'distance':
             # curr is crossing endpoint too-close to a distance point -> delete curr
@@ -419,7 +419,6 @@ def process_shapefile(
                 # But here curr may still conflict; safer approach: skip curr (prefer not to re-enter complex recursion)
                 # For simplicity, drop curr (we already removed last which was the crossing endpoint).
                 continue
-
         # If both are crossing endpoints of different crossings: delete both (unless one is absolute first)
         if is_cross_endpoint(last) and is_cross_endpoint(curr):
             id_last = crossing_id_of(last)
@@ -483,7 +482,7 @@ def process_shapefile(
 
 if __name__ == "__main__":
     version = "1.0"
-    block_name = "Baidhan"
+    block_name = "Nalcha"
     # Example manual points JSON (optional). Save a small sample file if you want to test manual points:
     # [
     #   {"x": 2000.0, "y": 0.0, "label": "User_Manual_1"},

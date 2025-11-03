@@ -5,7 +5,7 @@ import numpy as np
 import math
 import json
 
-block_name = "Baidhan"
+block_name = "Nalcha"
 # === Parameters ===
 input_shapefile = f'input/OFC_New_{block_name}-1_Seg_Span_Seq.shp'   # your input line shapefile
 # input_shapefile = f'input/OFC_NEW.shp'   # your input line shapefile
@@ -45,6 +45,10 @@ for span, subset in gdf.groupby(group_field):
     # Build a mapping of endpoints
     endpoints = []
     for idx, row in subset.iterrows():
+        try:
+            if row["scope"].lower() == 'existing scope':
+                continue
+        except: pass
         geom = row.geometry
         if not isinstance(geom, LineString):
             continue
