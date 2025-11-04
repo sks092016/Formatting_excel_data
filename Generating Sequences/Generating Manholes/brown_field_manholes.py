@@ -27,7 +27,7 @@ import geopandas as gpd
 from shapely.geometry import LineString, Point
 
 # Parameters
-SCOPE_KEYWORD = "existing scope"
+SCOPE_KEYWORD = "brown field"
 OUTPUT_CRS = "EPSG:4326"
 LABEL = "Brown Field Conn"
 TYPE = "Brown Field"
@@ -141,7 +141,7 @@ def process_shapefile(input_shp, output_points_shp, output_json_path):
     return len(new_entries)
 
 if __name__ == "__main__":
-    block_name = 'Khurai'
+    block_name = 'Karanjiya'
     input_shp = f'input/OFC_New_{block_name}-1_Seg_Span_Seq.shp'
     output_points_shp = f"temp/brown_field_manholes_{block_name}.shp"
     output_json = f"temp/sharp_turn_points_{block_name}.json"

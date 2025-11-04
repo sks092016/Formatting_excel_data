@@ -114,7 +114,8 @@ def process_shapefile(
             raise ValueError("Input shapefile lacks 'span_name' field required for filtering.")
         gdf = gdf[gdf["span_name"] == span_filter]
     if gdf.empty:
-        raise ValueError(f"No records found for span_name '{span_filter}'")
+        print(f"No records found for span_name '{span_filter}'")
+        return
 
     # Sorting segments in their sequence order
     if "seg_seq" not in gdf.columns: #TODO : Chnage the column name for sequnce
@@ -316,6 +317,10 @@ def process_shapefile(
         a = anchor_dists[i]
         b = anchor_dists[i + 1]
         gap = b - a
+        point_type_a = next((r['ptype'] for r in anchors if r['dist'] == a), None)
+        point_type_b = next((r['ptype'] for r in anchors if r['dist'] == b), None)
+        if point_type_a == 'Brown Field' or point_type_b == 'Brown Field':
+            continue
         if gap <= 0:
             continue
         # generate intermediate distance points a + k * distance_interval where < b
@@ -327,7 +332,8 @@ def process_shapefile(
             distance_counters += 1
             label = f"Distance_Point_{distance_counters}"
             pt = point_at_distance_along_line(main_line, pos, is_projected)
-            dist_points.append({'dist': pos, 'label': label, 'ptype': 'distance', 'meta': {}, 'geometry': pt})
+            if point_type_a != 'Brown Field' and point_type_b != 'Brown Field':
+                dist_points.append({'dist': pos, 'label': label, 'ptype': 'distance', 'meta': {}, 'geometry': pt})
             k += 1
 
     # ----------------- Combine anchors and distance points -----------------
@@ -433,7 +439,6 @@ def process_shapefile(
                     # remove last and skip curr
                     kept.pop()
                     continue
-
         # If both are endpoints of the same crossing and crossing length < small_crossing_thresh: keep only the one farther from previous kept point
         if is_cross_endpoint(last) and is_cross_endpoint(curr):
             if crossing_id_of(last) and crossing_id_of(curr) and (crossing_id_of(last) == crossing_id_of(curr)):
@@ -482,7 +487,7 @@ def process_shapefile(
 
 if __name__ == "__main__":
     version = "1.0"
-    block_name = "Nalcha"
+    block_name = "Karanjiya"
     # Example manual points JSON (optional). Save a small sample file if you want to test manual points:
     # [
     #   {"x": 2000.0, "y": 0.0, "label": "User_Manual_1"},
@@ -496,19 +501,26 @@ if __name__ == "__main__":
     temp_merged = gpd.GeoDataFrame(columns=['label', 'ptype', 'dist_m', 'geometry', 'span'], crs=gdf.crs)
     merged = gpd.GeoDataFrame(columns=['label', 'ptype', 'dist_m', 'geometry', 'span'], crs=gdf.crs)
     for s in span_list:
-        out_gdf, main_line, temp_gdf = process_shapefile(
-            sample_path,
-            span_filter=s,
-            crossing_offset=10.0,
-            feature_endpoint_offset=5.0,
-            crossing_types=None,
-            crossing_field="crossing_t",
-            distance_interval=1800.0,
-            min_buffer=150.0,
-            small_crossing_thresh=100.0,
-            manual_points_json=f"temp/sharp_turn_points_{block_name}.json"  # set to "manual_points.json" to include manual points
-        )
-        temp_merged = gpd.GeoDataFrame(pd.concat([temp_merged, temp_gdf], ignore_index=True), crs=merged.crs)
-        merged = gpd.GeoDataFrame(pd.concat([merged,out_gdf], ignore_index=True), crs=merged.crs)
-        temp_merged.to_file(f"temp/Temp_manholes-{block_name}.shp")
-        merged.to_file(f"output/manholes-{block_name}.shp")
+        try:
+            out_gdf, main_line, temp_gdf = process_shapefile(
+                sample_path,
+                span_filter=s,
+                crossing_offset=10.0,
+                feature_endpoint_offset=5.0,
+                crossing_types=None,
+                crossing_field="crossing_t",
+                distance_interval=1800.0,
+                min_buffer=150.0,
+                small_crossing_thresh=100.0,
+                manual_points_json=f"temp/sharp_turn_points_{block_name}.json"  # set to "manual_points.json" to include manual points
+            )
+            temp_merged = gpd.GeoDataFrame(pd.concat([temp_merged, temp_gdf], ignore_index=True), crs=merged.crs)
+            merged = gpd.GeoDataFrame(pd.concat([merged,out_gdf], ignore_index=True), crs=merged.crs)
+            temp_merged.to_file(f"temp/Temp_manholes-{block_name}.shp")
+            merged.to_file(f"output/manholes-{block_name}.shp")
+        except:
+            continue
+
+
+
+
