@@ -27,7 +27,7 @@ with open(file_path, "r", encoding="utf-8") as f:
 layer_name = f"RoW Authorities-{block_name}"  # Name of the layer in QGIS
 output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
 # output_folder = f"D:\\bharat_net_data\slds\\{block_name}"
-end_point_layer = f"output_points-{block_name}"
+end_point_layer = f"output_points_rings-{block_name}"
 
 
 block_dir = Path(output_folder)
@@ -96,7 +96,7 @@ for ring in unique_rings:
     # Filter layer to one span
     expr = f""""ring" = '{ring}'"""
     layer.setSubsetString(expr)
-    expr_for_end_points = f""""ring" = '{ring}' AND ("Chainage" <> 0 OR "Point Name" ILIKE 't-point%')"""
+    expr_for_end_points = f""""ring" = '{ring}'"""
     vertices_layer.setSubsetString(expr_for_end_points)
 
     # --- Create Layout ---
@@ -255,7 +255,7 @@ for ring in unique_rings:
     pdf_settings.rasterizeWholeImage = False  # Don't rasterize
     pdf_settings.simplifyGeometries = False  # Keep geometry intact
     pdf_settings.textRenderFormat = Qgis.TextRenderFormat.AlwaysText
-    pdf_settings.dpi = 65
+    pdf_settings.dpi = 60
 
     exporter = QgsLayoutExporter(layout)
     pdf_path = os.path.join(ring_folder, f"{ring}-{block_name}.pdf")
