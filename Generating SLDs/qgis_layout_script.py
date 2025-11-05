@@ -15,11 +15,11 @@ import os
 import json
 from pathlib import Path
 
-district_name = 'Dhar'
-block_name = 'Gandhwani'
+district_name = 'Rewa'
+block_name = 'Raipur'
 
 # --- Settings ---
-file_path = f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/output/span_details-{block_name}.json"
+file_path = f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/input/{block_name}/span_details-{block_name}.json"
 # file_path = f"C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\output\\span_details-{block_name}.json"
 with open(file_path, "r", encoding="utf-8") as f:
     span_dict = json.load(f)

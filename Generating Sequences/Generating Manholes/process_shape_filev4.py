@@ -370,9 +370,7 @@ def process_shapefile(
     kept.append(combined_sorted[0])
     # iterate over subsequent points
     for curr in combined_sorted[1:]:
-        if curr.get('label') == 'Brown Field Conn':
-            kept.append(curr)
-            continue
+
         # print(combined_sorted)
         try:
             last = kept[-1]
@@ -387,6 +385,8 @@ def process_shapefile(
             continue
         # Too close: apply deletion priority rules
         # If one of the two is the absolute first point (label 'First_Point'), keep it and drop the other:
+        if last.get('label') == 'Brown Field Conn'and curr['ptype'] == 'distance':
+            continue
         if last.get('label') == 'First_Point':
             # always keep last (the first point). Decide whether to keep curr based on priority: delete crossing endpoints near distance points
             if is_cross_endpoint(curr) and curr['ptype'] in ('cross_start', 'cross_end'):
@@ -462,6 +462,7 @@ def process_shapefile(
                         # keep last, drop curr
                         continue
 
+
         # At this point, none of the special rules apply: default behaviour -> keep the earlier (last) and drop the later (curr)
         # So simply skip curr
         continue
@@ -487,7 +488,7 @@ def process_shapefile(
 
 if __name__ == "__main__":
     version = "1.0"
-    block_name = "Karanjiya"
+    block_name = "Jaithari"
     # Example manual points JSON (optional). Save a small sample file if you want to test manual points:
     # [
     #   {"x": 2000.0, "y": 0.0, "label": "User_Manual_1"},

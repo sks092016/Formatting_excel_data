@@ -1,0 +1,39 @@
+2025-11-05 10:03:57,613 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BAKELI TO T-POINT BARBASPUR'.
+2025-11-05 10:03:57,613 - WARNING - ⚠️ The Span BAKELI TO T-POINT BARBASPUR is disconnected at this point (81.67419793100004, 23.17429693500003)
+2025-11-05 10:03:57,957 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'DEORI TO BARBASPUR'.
+2025-11-05 10:03:57,957 - WARNING - ⚠️ The Span DEORI TO BARBASPUR is disconnected at this point (81.66574556700004, 23.170502930000055)
+2025-11-05 10:03:59,776 - INFO - Created 1,831 records
+2025-11-05 10:03:59,792 - INFO - Created 80 records
+2025-11-05 10:03:59,792 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-11-05 10:03:59,794 - INFO - Created 2 records
+2025-11-05 10:03:59,846 - INFO - 🔄 Found 9 rings: ['R1', 'R1-C1', 'R2', 'R3', 'R3-C1', 'R4', 'R4-C1', 'R5', 'R5-C1']
+2025-11-05 10:03:59,846 - INFO - 
+🔁 Processing ring: R1
+2025-11-05 10:03:59,852 - INFO - ✅ Completed ring R1 with 11 spans.
+2025-11-05 10:03:59,852 - INFO - 
+🔁 Processing ring: R1-C1
+2025-11-05 10:03:59,854 - INFO - ✅ Completed ring R1-C1 with 5 spans.
+2025-11-05 10:03:59,854 - INFO - 
+🔁 Processing ring: R2
+2025-11-05 10:03:59,860 - INFO - ✅ Completed ring R2 with 11 spans.
+2025-11-05 10:03:59,860 - INFO - 
+🔁 Processing ring: R3
+2025-11-05 10:03:59,863 - INFO - ✅ Completed ring R3 with 8 spans.
+2025-11-05 10:03:59,864 - INFO - 
+🔁 Processing ring: R3-C1
+2025-11-05 10:03:59,867 - INFO - ✅ Completed ring R3-C1 with 8 spans.
+2025-11-05 10:03:59,867 - INFO - 
+🔁 Processing ring: R4
+2025-11-05 10:03:59,871 - INFO - ✅ Completed ring R4 with 8 spans.
+2025-11-05 10:03:59,871 - INFO - 
+🔁 Processing ring: R4-C1
+2025-11-05 10:03:59,875 - INFO - ✅ Completed ring R4-C1 with 8 spans.
+2025-11-05 10:03:59,875 - INFO - 
+🔁 Processing ring: R5
+2025-11-05 10:03:59,879 - INFO - ✅ Completed ring R5 with 9 spans.
+2025-11-05 10:03:59,879 - INFO - 
+🔁 Processing ring: R5-C1
+2025-11-05 10:03:59,881 - INFO - ✅ Completed ring R5-C1 with 6 spans.
+2025-11-05 10:03:59,933 - INFO - Created 1,831 records
+2025-11-05 10:03:59,946 - INFO - Created 80 records
+2025-11-05 10:03:59,947 - INFO - ✅ All rings processed. Span sequence updated and saved.

@@ -1,0 +1,435 @@
+{
+    "T POINT NAWASA TO UMARIYA": {
+        "PMGSY": 3855.0327373083774,
+        "Ring": "R2-C2",
+        "Span_id": "001"
+    },
+    "ANARAD TO TORNOD": {
+        "SH-31": 5528.904333533285,
+        "Ring": "R1",
+        "Span_id": "010"
+    },
+    "UMARIYA TO SAKTALI": {
+        "PMGSY": 2815.1347465443814,
+        "SH-31": 2014.493886327795,
+        "Ring": "R2-C2",
+        "Span_id": "002"
+    },
+    "LABRAVDA TO GARDAWAD": {
+        "PMGSY": 6348.5539477292705,
+        "Ring": "R1",
+        "Span_id": "002"
+    },
+    "DHAR BLOCK TO LABRAVDA": {
+        "NH-347C": 285.7615820498787,
+        "NH-47": 37.129588958431405,
+        "PMGSY": 8700.031393693725,
+        "Ring": "R1",
+        "Span_id": "001"
+    },
+    "LASUDIYA TO T POINT LABRAVDA": {
+        "PMGSY": 3699.868420915611,
+        "Ring": "R1-C2",
+        "Span_id": "003"
+    },
+    "DANGOTHA TO DEHRI SARAY": {
+        "NH-156": 203.10287602013764,
+        "PMGSY": 2901.325610296767,
+        "Ring": "R3-C1",
+        "Span_id": "004"
+    },
+    "DEHRI SARAY TO SEJWANI GP": {
+        "NH-156": 1634.414137748721,
+        "PMGSY": 1135.6770795300822,
+        "Ring": "R3-C1",
+        "Span_id": "005"
+    },
+    "GOVINDPURA TO JAMANDA": {
+        "GRAMPANCHYAT": 3979.7924513210287,
+        "PMGSY": 6956.311199074751,
+        "Ring": "R2",
+        "Span_id": "009"
+    },
+    "SUNAR KHEDI TO NAWASA": {
+        "PMGSY": 2707.4561900613126,
+        "Ring": "R2",
+        "Span_id": "002"
+    },
+    "SIRSAUDA TO KOT BHITODA": {
+        "PMGSY": 5294.797605350737,
+        "Ring": "R3",
+        "Span_id": "004"
+    },
+    "UTAWAD TO SIRSAUDA": {
+        "PMGSY": 3641.9238496397747,
+        "Ring": "R3",
+        "Span_id": "003"
+    },
+    "DHAR BLOCK TO SUNAR KHEDI": {
+        "NH-347C": 2852.8183963604592,
+        "PMGSY": 3953.9329461116304,
+        "Ring": "R2",
+        "Span_id": "001"
+    },
+    "GUNAWAD TO KALAM KHEDI": {
+        "NH 46": 6.739230367443558,
+        "NH-47": 4178.703593968777,
+        "PMGSY": 3805.300251924107,
+        "Ring": "R3",
+        "Span_id": "010"
+    },
+    "PIPLADA TO GUNAWAD": {
+        "NH-47": 59.55753463002889,
+        "PMGSY": 3380.9639923949635,
+        "Ring": "R3",
+        "Span_id": "009"
+    },
+    "JAMANDA TO DHAR BLOCK": {
+        "NH-47": 994.5583630598205,
+        "PMGSY": 7811.7127942034895,
+        "Ring": "R2",
+        "Span_id": "010"
+    },
+    "JETPURA TO UTAWAD": {
+        "NH-47": 3101.3470426208314,
+        "PMGSY": 2910.515659062596,
+        "Ring": "R3",
+        "Span_id": "002"
+    },
+    "KALAM KHEDI TO DHAR BLOCK": {
+        "NH-347C": 3460.6040409969482,
+        "PMGSY": 7797.877623809069,
+        "Ring": "R3",
+        "Span_id": "011"
+    },
+    "DHAR BLOCK TO JETPURA": {
+        "PMGSY": 3446.3515169304023,
+        "Ring": "R3",
+        "Span_id": "001"
+    },
+    "TORNOD TO DHAR BLOCK": {
+        "NH-347C": 2214.4641086771076,
+        "PMGSY": 840.1849682017769,
+        "SH-31": 2072.3267057207013,
+        "Ring": "R1",
+        "Span_id": "011"
+    },
+    "KHACHRODA TO KANDARIYA": {
+        "Brown Field Data": 1329.99542638247,
+        "PMGSY": 5066.023713821741,
+        "Ring": "R2-C1",
+        "Span_id": "004"
+    },
+    "PAYKUNDA TO KHACHRODA": {
+        "Brown Field Data": 2131.2555099529022,
+        "Ring": "R2-C1",
+        "Span_id": "003"
+    },
+    "BAGDITAJ TO PAYKUNDA": {
+        "Brown Field Data": 309.13887754909433,
+        "PMGSY": 9848.831282320465,
+        "Ring": "R2-C1",
+        "Span_id": "002"
+    },
+    "MURADKA TO SILODA BUJURG": {
+        "PMGSY": 5494.843761931382,
+        "Ring": "R1-C1",
+        "Span_id": "006"
+    },
+    "T- POINT KHACHRODA TO BABARDA": {
+        "Brown Field Data": 2258.410300339094,
+        "Ring": "R2-C1",
+        "Span_id": "006"
+    },
+    "MANASA TO NAGORA": {
+        "Brown Field Data": 121.44548515515902,
+        "NH-156": 25.243846922693393,
+        "PMGSY": 8644.674645130208,
+        "Ring": "R1-C1",
+        "Span_id": "003"
+    },
+    "NAGORA TO NOUGAVA": {
+        "PMGSY": 2226.686687462679,
+        "Ring": "R1-C1",
+        "Span_id": "004"
+    },
+    "KANDARIYA TO KESUR": {
+        "PMGSY": 4612.5632320820005,
+        "Ring": "R2-C1",
+        "Span_id": "005"
+    },
+    "T POINT KESUR TO BAGDITAJ": {
+        "PMGSY": 2229.4583324074524,
+        "Ring": "R2-C1",
+        "Span_id": "001"
+    },
+    "ANTRAI TO KESUR": {
+        "NH-156": 1808.558195760968,
+        "PMGSY": 6450.168299746009,
+        "Ring": "R2",
+        "Span_id": "006"
+    },
+    "KESUR TO SADALPUR": {
+        "PMGSY": 2566.934856871505,
+        "Ring": "R2",
+        "Span_id": "007"
+    },
+    "PIPALYA TO MANASA": {
+        "NH-156": 712.9362819070388,
+        "PMGSY": 3704.8055023878655,
+        "Ring": "R1-C1",
+        "Span_id": "002"
+    },
+    "KUSAVDA TO KHAIROD": {
+        "PMGSY": 2375.806558954972,
+        "Ring": "R1-C1",
+        "Span_id": "008"
+    },
+    "SILODA BUJURG TO KUSAVDA": {
+        "Brown Field Data": 2602.528139419459,
+        "Ring": "R1-C1",
+        "Span_id": "007"
+    },
+    "BERCHHA TO KALSADA BUJURG": {
+        "PMGSY": 6476.545848576239,
+        "SH-31": 85.23817628227192,
+        "Ring": "R1",
+        "Span_id": "006"
+    },
+    "BAGGAD TO BIJUR": {
+        "NH-156": 28.882089295640966,
+        "PMGSY": 7520.120563452134,
+        "Ring": "R3-C1",
+        "Span_id": "001"
+    },
+    "BIJUR TO BADCHHAPRA GP": {
+        "PMGSY": 7019.897881652779,
+        "Ring": "R3-C1",
+        "Span_id": "002"
+    },
+    "KALSADA BUJURG TO PINJRAYA": {
+        "PMGSY": 4009.4255274268316,
+        "SH-31": 758.6334209832366,
+        "Ring": "R1",
+        "Span_id": "007"
+    },
+    "KHAIROD TO TEESGAON": {
+        "NH-156": 72.46477905411658,
+        "PMGSY": 6014.988062852234,
+        "SH-31": 97.94449992584114,
+        "Ring": "R1-C1",
+        "Span_id": "009"
+    },
+    "T- POINT PINJRAYA TO PIPALYA": {
+        "PMGSY": 47.10345093812673,
+        "SH-31": 2186.1068667031805,
+        "Ring": "R1-C1",
+        "Span_id": "001"
+    },
+    "RAMPURA TO ANTRAI": {
+        "GRAMPANCHYAT": 354.4840757451677,
+        "PMGSY": 5096.193007412425,
+        "Ring": "R2",
+        "Span_id": "005"
+    },
+    "SADALPUR TO GOVINDPURA": {
+        "GRAMPANCHYAT": 197.53823689339237,
+        "NH-156": 879.2408253543954,
+        "PMGSY": 5521.4865951855045,
+        "Ring": "R2",
+        "Span_id": "008"
+    },
+    "PINJRAYA TO TEESGAON": {
+        "PMGSY": 1434.8584318304204,
+        "SH-31": 894.6434920716575,
+        "Ring": "R1",
+        "Span_id": "008"
+    },
+    "TEESGAON TO ANARAD": {
+        "SH-31": 5045.266538506125,
+        "Ring": "R1",
+        "Span_id": "009"
+    },
+    "HARSORA TO BAGGAD": {
+        "NH-156": 4063.0233685138346,
+        "PMGSY": 805.3164412543119,
+        "Ring": "R3",
+        "Span_id": "007"
+    },
+    "T-POINT BIJUR TO NEKPUR GP": {
+        "PMGSY": 2982.3918407388537,
+        "Ring": "R3-C1",
+        "Span_id": "009"
+    },
+    "BILODA TO KHADI": {
+        "GRAMPANCHYAT": 96.28434090278853,
+        "PMGSY": 1982.2549049105814,
+        "Ring": "R1",
+        "Span_id": "004"
+    },
+    "GARDAWAD TO BILODA": {
+        "PMGSY": 5114.524226941351,
+        "Ring": "R1",
+        "Span_id": "003"
+    },
+    "KHADI TO BERCHHA": {
+        "GRAMPANCHYAT": 80.78729759831104,
+        "PMGSY": 2797.416543876739,
+        "Ring": "R1",
+        "Span_id": "005"
+    },
+    "BADCHHAPRA GP TO DANGOTHA": {
+        "PMGSY": 4023.383770324509,
+        "Ring": "R3-C1",
+        "Span_id": "003"
+    },
+    "BAGGAD TO PIPLADA": {
+        "PMGSY": 3519.543665651729,
+        "Ring": "R3",
+        "Span_id": "008"
+    },
+    "LOHARI BUJURG TO HARSORA": {
+        "PMGSY": 4542.929183030097,
+        "Ring": "R3",
+        "Span_id": "006"
+    },
+    "SAKTALI TO SAMBHAR": {
+        "PMGSY": 1508.516387769026,
+        "Ring": "R2-C2",
+        "Span_id": "003"
+    },
+    "KOT BHITODA TO LOHARI BUJURG": {
+        "PMGSY": 2299.872411137074,
+        "Ring": "R3",
+        "Span_id": "005"
+    },
+    "SAMBHAR TO RAMPURA": {
+        "PMGSY": 2713.842611662423,
+        "Ring": "R2",
+        "Span_id": "004"
+    },
+    "PACHALANA TO LASUDIYA": {
+        "PMGSY": 2998.6898459024906,
+        "Ring": "R1-C2",
+        "Span_id": "002"
+    },
+    "LEBAD GP  TO KALSADA KHURD": {
+        "NH": 925.5139468256402,
+        "NH-156": 1213.0230461829105,
+        "PMGSY": 804.4050150166943,
+        "Ring": "R3-C1",
+        "Span_id": "007"
+    },
+    "SEJWAYA TO LEBAD GP": {
+        "NH-156": 1798.179368975412,
+        "PMGSY": 873.11381282699,
+        "Ring": "R3-C1",
+        "Span_id": "006"
+    },
+    "KALSADA KHURD TO PIPLADA": {
+        "PMGSY": 1567.390154735175,
+        "Ring": "R3-C1",
+        "Span_id": "008"
+    },
+    "NOUGAVA TO MURADKA": {
+        "Brown Field Data": 2650.272173146448,
+        "Ring": "R1-C1",
+        "Span_id": "005"
+    },
+    "T POINT BILODA TO PACHALANA": {
+        "PMGSY": 2531.1180645193836,
+        "Ring": "R1-C2",
+        "Span_id": "001"
+    },
+    "BAYKHEDA TO BANEDIYA": {
+        "GRAMPANCHYAT": 4120.874617771394,
+        "PMGSY": 13540.477789654255,
+        "Ring": "R4",
+        "Span_id": "004"
+    },
+    "DHAR BLOCK TO DELIMA": {
+        "NH-347C": 4174.731765987747,
+        "PMGSY": 675.2287767152551,
+        "Ring": "R4",
+        "Span_id": "001"
+    },
+    "PADALIYA TO DHAR BLOCK": {
+        "NH-347C": 26.02040935492704,
+        "PMGSY": 6527.762877330017,
+        "Ring": "R4",
+        "Span_id": "010"
+    },
+    "BANEDIYA TO DEDLA": {
+        "GRAMPANCHYAT": 388.13489586823454,
+        "PMGSY": 8208.799485521262,
+        "Ring": "R4",
+        "Span_id": "005"
+    },
+    "BAGDI TURK TO BAYKHEDA": {
+        "GRAMPANCHYAT": 4079.3298792701316,
+        "PMGSY": 1908.6179942525023,
+        "Ring": "R4",
+        "Span_id": "003"
+    },
+    "DELIMA TO BAGDI TURK": {
+        "NH-347C": 400.29963422642123,
+        "PMGSY": 3215.2103242371923,
+        "Ring": "R4",
+        "Span_id": "002"
+    },
+    "DEDLA TO DHARAWARA": {
+        "GRAMPANCHYAT": 649.4415889267344,
+        "PMGSY": 2423.123972099124,
+        "Ring": "R4",
+        "Span_id": "006"
+    },
+    "DHARAWARA TO BAGADIYA": {
+        "NH-347C": 27.692990219355348,
+        "PMGSY": 4308.873475484765,
+        "Ring": "R4",
+        "Span_id": "007"
+    },
+    "DILAWARA TO PADALIYA": {
+        "PMGSY": 3858.4261261171137,
+        "Ring": "R4",
+        "Span_id": "009"
+    },
+    "BAGADIYA TO DILAWARA": {
+        "PMGSY": 2539.4212668366254,
+        "Ring": "R4",
+        "Span_id": "008"
+    },
+    "SEJWANI GP TO BACHHADAVADA": {
+        "NH-47": 1378.160147378285,
+        "PMGSY": 7873.547386215712,
+        "Ring": "R4-C1",
+        "Span_id": "003"
+    },
+    "EKALDUNA TO SEJWANI GP": {
+        "PMGSY": 3166.469599179892,
+        "Ring": "R4-C1",
+        "Span_id": "002"
+    },
+    "T-POINT BAYKHEDA TO EKALDUNA": {
+        "NH": 2879.0137073823425,
+        "PMGSY": 913.3007377366941,
+        "Ring": "R4-C1",
+        "Span_id": "001"
+    },
+    "BACHHADAVADA TO NARAYANPURA": {
+        "PMGSY": 3202.5470369906893,
+        "Ring": "R4-C1",
+        "Span_id": "004"
+    },
+    "NARAYANPURA TO T-POINT BANEDIYA": {
+        "NH": 28.256676925962033,
+        "PMGSY": 547.9535604378927,
+        "Ring": "R4-C1",
+        "Span_id": "005"
+    },
+    "NAWASA TO SAMBHAR": {
+        "PMGSY": 4259.037926727442,
+        "Ring": "R2",
+        "Span_id": "003"
+    }
+}

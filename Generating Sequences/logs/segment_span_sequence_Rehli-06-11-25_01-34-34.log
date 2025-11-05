@@ -1,0 +1,8 @@
+2025-11-06 01:34:35,505 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BADGAN TO RANGIR'.
+2025-11-06 01:34:35,505 - WARNING - ⚠️ The Span BADGAN TO RANGIR is disconnected at this point (78.93537900000007, 23.59600000000006)
+2025-11-06 01:34:36,074 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'CHHULLA TO TAL SEMARA'.
+2025-11-06 01:34:36,075 - WARNING - ⚠️ The Span CHHULLA TO TAL SEMARA is disconnected at this point (79.24253294800008, 23.67640850500004)
+2025-11-06 01:34:36,340 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-11-06 01:34:36,340 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-11-06 01:34:36,341 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-11-06 01:34:36,341 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>

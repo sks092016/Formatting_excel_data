@@ -1,0 +1,28 @@
+2025-11-04 21:51:44,328 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'CHANDNA TO DHAWADONGRI'.
+2025-11-04 21:51:44,328 - WARNING - ⚠️ The Span CHANDNA TO DHAWADONGRI is disconnected at this point (81.40322332400007, 22.778617449000023)
+2025-11-04 21:51:45,324 - INFO - Created 920 records
+2025-11-04 21:51:45,327 - INFO - Created 46 records
+2025-11-04 21:51:45,327 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-11-04 21:51:45,329 - INFO - Created 1 records
+2025-11-04 21:51:45,356 - INFO - 🔄 Found 6 rings: ['R1', 'R1-C1', 'R1-C2', 'R2', 'R2-C1', 'R3']
+2025-11-04 21:51:45,356 - INFO - 
+🔁 Processing ring: R1
+2025-11-04 21:51:45,361 - INFO - ✅ Completed ring R1 with 10 spans.
+2025-11-04 21:51:45,361 - INFO - 
+🔁 Processing ring: R1-C1
+2025-11-04 21:51:45,362 - INFO - ✅ Completed ring R1-C1 with 3 spans.
+2025-11-04 21:51:45,362 - INFO - 
+🔁 Processing ring: R1-C2
+2025-11-04 21:51:45,365 - INFO - ✅ Completed ring R1-C2 with 6 spans.
+2025-11-04 21:51:45,365 - INFO - 
+🔁 Processing ring: R2
+2025-11-04 21:51:45,369 - INFO - ✅ Completed ring R2 with 7 spans.
+2025-11-04 21:51:45,369 - INFO - 
+🔁 Processing ring: R2-C1
+2025-11-04 21:51:45,370 - INFO - ✅ Completed ring R2-C1 with 3 spans.
+2025-11-04 21:51:45,370 - INFO - 
+🔁 Processing ring: R3
+2025-11-04 21:51:45,374 - INFO - ✅ Completed ring R3 with 8 spans.
+2025-11-04 21:51:45,404 - INFO - Created 920 records
+2025-11-04 21:51:45,407 - INFO - Created 46 records
+2025-11-04 21:51:45,407 - INFO - ✅ All rings processed. Span sequence updated and saved.

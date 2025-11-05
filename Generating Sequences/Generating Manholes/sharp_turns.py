@@ -5,7 +5,7 @@ import numpy as np
 import math
 import json
 
-block_name = "Karanjiya"
+block_name = "Jaithari"
 # === Parameters ===
 input_shapefile = f'input/OFC_New_{block_name}-1_Seg_Span_Seq.shp'   # your input line shapefile
 # input_shapefile = f'input/OFC_NEW.shp'   # your input line shapefile
@@ -46,7 +46,7 @@ for span, subset in gdf.groupby(group_field):
     endpoints = []
     for idx, row in subset.iterrows():
         try:
-            if row["scope"].lower() == 'Karanjiya Brown Field GIS Data; To be replecement':
+            if row["scope"].lower() == 'To Be Replace' or row["scope"].lower() == 'Partial OK' :
                 continue
         except: pass
         geom = row.geometry

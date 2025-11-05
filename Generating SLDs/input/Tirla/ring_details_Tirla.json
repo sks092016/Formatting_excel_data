@@ -1,0 +1,489 @@
+{
+    "R4": {
+        "spans": {
+            "AAHU TO CHANDWADA": {
+                "PMGSY": 961.7206223812708,
+                "Ring": "R4",
+                "Span_id": "004"
+            },
+            "CHANDWADA TO SIMLAVDA": {
+                "PMGSY": 3761.471348106302,
+                "Ring": "R4",
+                "Span_id": "005"
+            },
+            "CHIKALYA TO TIRLA BLOCK": {
+                "GRAMPANCHAYAT": 147.06066718984363,
+                "NH-47": 1065.5813278363776,
+                "OLD NH-59": 308.28228492775844,
+                "PMGSY": 2895.0314901526517,
+                "PWD": 1009.950246606718,
+                "Ring": "R4",
+                "Span_id": "009"
+            },
+            "CHILUR TO KHARAMPUR": {
+                "PMGSY": 5238.696483338709,
+                "Ring": "R4",
+                "Span_id": "007"
+            },
+            "KHARAMPUR TO CHIKALYA": {
+                "GRAMPANCHAYAT": 321.6240663657764,
+                "PMGSY": 1869.2178975413624,
+                "Ring": "R4",
+                "Span_id": "008"
+            },
+            "NALAWADA TO AAHU": {
+                "PMGSY": 14920.365482514902,
+                "Ring": "R4",
+                "Span_id": "003"
+            },
+            "NANDANKHEDA TO NALAWADA": {
+                "GRAMPANCHAYAT": 41.30071687405572,
+                "PMGSY": 3601.268319236887,
+                "Ring": "R4",
+                "Span_id": "002"
+            },
+            "SIMLAVDA TO CHILUR": {
+                "PMGSY": 5117.3195263466605,
+                "Ring": "R4",
+                "Span_id": "006"
+            },
+            "TIRLA BLOCK TO NANDANKHEDA": {
+                "GRAMPANCHAYAT": 38.36505009299219,
+                "NH-47": 7199.602916196246,
+                "OLD NH-59": 103.42481555804024,
+                "PMGSY": 3241.2317911090013,
+                "Ring": "R4",
+                "Span_id": "001"
+            }
+        },
+        "meta": {
+            "total_length": 51841.51505237556,
+            "total_spans": 9,
+            "row_autho": {
+                "PMGSY": 41606.322960727746,
+                "GRAMPANCHAYAT": 548.350500522668,
+                "NH-47": 8265.184244032624,
+                "OLD NH-59": 411.70710048579866,
+                "PWD": 1009.950246606718
+            }
+        }
+    },
+    "R2": {
+        "spans": {
+            "AAMLA TO BADLIPURA KALAN": {
+                "PMGSY": 3037.1937621417014,
+                "Ring": "R2",
+                "Span_id": "010"
+            },
+            "BHUTIBAWDI TO DHOLAHANUMAN": {
+                "PMGSY": 2521.800249814573,
+                "Ring": "R2",
+                "Span_id": "002"
+            },
+            "BHUWADA TO KHEDI BALVARI": {
+                "PMGSY": 8587.952124643456,
+                "SH-38": 6502.285213411873,
+                "Ring": "R2",
+                "Span_id": "006"
+            },
+            "DEDLI K TO TIRLA BLOCK": {
+                "OLD NH-59": 695.8129939870719,
+                "PMGSY": 21405.416725683124,
+                "SH-38": 5584.878950415497,
+                "Ring": "R2",
+                "Span_id": "008"
+            },
+            "DHOLAHANUMAN TO KHIDKYAKALA": {
+                "PMGSY": 6769.408036181582,
+                "Ring": "R2",
+                "Span_id": "003"
+            },
+            "KACHHAVDA TO BHUWADA": {
+                "PMGSY": 3720.7776527436904,
+                "Ring": "R2",
+                "Span_id": "005"
+            },
+            "KHEDI BALVARI TO DEDLI K": {
+                "SH-38": 2686.2029538770716,
+                "Ring": "R2",
+                "Span_id": "007"
+            },
+            "KHIDKYAKALA TO KACHHAVDA": {
+                "PMGSY": 8826.80838749055,
+                "Ring": "R2",
+                "Span_id": "004"
+            },
+            "T-POINT DEDLI K TO AAMLA": {
+                "PMGSY": 1487.4494027808996,
+                "Ring": "R2",
+                "Span_id": "009"
+            },
+            "T-POINT DHOLAHANUMAN TO SIYARI": {
+                "PMGSY": 2899.2545414274905,
+                "Ring": "R2",
+                "Span_id": "011"
+            },
+            "TIRLA BLOCK TO BHUTIBAWDI": {
+                "PMGSY": 8620.67549200276,
+                "Ring": "R2",
+                "Span_id": "001"
+            }
+        },
+        "meta": {
+            "total_length": 83345.91648660133,
+            "total_spans": 11,
+            "row_autho": {
+                "PMGSY": 67876.73637490981,
+                "SH-38": 14773.36711770444,
+                "OLD NH-59": 695.8129939870719
+            }
+        }
+    },
+    "R1": {
+        "spans": {
+            "ADVI TO MUSAPURA": {
+                "GRAMPANCHAYAT": 597.3540491653034,
+                "PMGSY": 10233.503803837888,
+                "Ring": "R1",
+                "Span_id": "005"
+            },
+            "GANGANAGAR TO TIRLA": {
+                "PMGSY": 1553.803285496443,
+                "Ring": "R1",
+                "Span_id": "008"
+            },
+            "GYANPURA TO HIMMATGARH": {
+                "OLD NH-59": 1501.0060998266242,
+                "PMGSY": 2331.6919350200833,
+                "PWD": 2663.2147885793606,
+                "Ring": "R1",
+                "Span_id": "002"
+            },
+            "HIMMATGARH TO SITAPAT": {
+                "PMGSY": 3668.5172364955247,
+                "Ring": "R1",
+                "Span_id": "003"
+            },
+            "MAFIPURA TO GANGANAGAR": {
+                "GRAMPANCHAYAT": 526.7251359409672,
+                "PMGSY": 5831.227813893595,
+                "Ring": "R1",
+                "Span_id": "007"
+            },
+            "MUSAPURA TO MAFIPURA": {
+                "GRAMPANCHAYAT": 1110.867092517692,
+                "PMGSY": 4872.07752327567,
+                "Ring": "R1",
+                "Span_id": "006"
+            },
+            "SITAPAT TO ADVI": {
+                "PMGSY": 11293.809506594194,
+                "Ring": "R1",
+                "Span_id": "004"
+            },
+            "TIRLA BLOCK TO GYANPURA": {
+                "OLD NH-59": 2733.073249198422,
+                "Ring": "R1",
+                "Span_id": "001"
+            },
+            "TIRLA TO TIRLA BLOCK": {
+                "PMGSY": 284.68395129858953,
+                "Ring": "R1",
+                "Span_id": "009"
+            }
+        },
+        "meta": {
+            "total_length": 49201.55547114036,
+            "total_spans": 9,
+            "row_autho": {
+                "GRAMPANCHAYAT": 2234.9462776239625,
+                "PMGSY": 40069.31505591199,
+                "OLD NH-59": 4234.079349025046,
+                "PWD": 2663.2147885793606
+            }
+        }
+    },
+    "R4-C1": {
+        "spans": {
+            "AKODA TO T-POINT AAHU": {
+                "GRAMPANCHAYAT": 753.7318830275492,
+                "PMGSY": 3890.027259715979,
+                "Ring": "R4-C1",
+                "Span_id": "003"
+            },
+            "KHARSODA TO AKODA": {
+                "GRAMPANCHAYAT": 2947.2337618714887,
+                "Ring": "R4-C1",
+                "Span_id": "002"
+            },
+            "T-POINT AKODA TO DAMANDA": {
+                "GRAMPANCHAYAT": 62.708812396803964,
+                "PMGSY": 1826.1022382149451,
+                "Ring": "R4-C1",
+                "Span_id": "004"
+            },
+            "T-POINT NALAWADA TO KHARSODA": {
+                "GRAMPANCHAYAT": 381.066007369301,
+                "PMGSY": 2107.0397374044924,
+                "Ring": "R4-C1",
+                "Span_id": "001"
+            }
+        },
+        "meta": {
+            "total_length": 11967.90970000056,
+            "total_spans": 4,
+            "row_autho": {
+                "GRAMPANCHAYAT": 4144.740464665143,
+                "PMGSY": 7823.1692353354165
+            }
+        }
+    },
+    "R1-C1": {
+        "spans": {
+            "AMBAPURA TO CHHOTA UMRIYA": {
+                "PMGSY": 7214.031393351184,
+                "Ring": "R1-C1",
+                "Span_id": "004"
+            },
+            "CHHOTA UMRIYA TO KHANDAN BUJURG": {
+                "PMGSY": 2361.0403070459215,
+                "Ring": "R1-C1",
+                "Span_id": "005"
+            },
+            "KHANDAN BUJURG TO T-POINT ADVI": {
+                "PMGSY": 449.5328209769239,
+                "Ring": "R1-C1",
+                "Span_id": "006"
+            },
+            "KOTHDA TO AMBAPURA": {
+                "PMGSY": 6471.839956880971,
+                "Ring": "R1-C1",
+                "Span_id": "003"
+            },
+            "SALAKANPUR TO KOTHDA": {
+                "PMGSY": 5719.700710932958,
+                "Ring": "R1-C1",
+                "Span_id": "002"
+            },
+            "T-POINT ADVI TO SALAKANPUR": {
+                "PMGSY": 2335.8318861714765,
+                "Ring": "R1-C1",
+                "Span_id": "001"
+            },
+            "T-POINT CHHOTA UMRIYA TO BADLIPURA": {
+                "PMGSY": 1514.4430125129672,
+                "Ring": "R1-C1",
+                "Span_id": "007"
+            }
+        },
+        "meta": {
+            "total_length": 26066.420087872397,
+            "total_spans": 7,
+            "row_autho": {
+                "PMGSY": 26066.420087872397
+            }
+        }
+    },
+    "R3": {
+        "spans": {
+            "AMGHERA TO RAJPURA": {
+                "GRAMPANCHAYAT": 468.89399660247966,
+                "SH-38": 1065.705837411962,
+                "Ring": "R3",
+                "Span_id": "007"
+            },
+            "BAVDI KHODRA TO AMGHERA": {
+                "GRAMPANCHAYAT": 403.70657882278687,
+                "SH-38": 7906.080041916306,
+                "Ring": "R3",
+                "Span_id": "006"
+            },
+            "BODHWADA TO TIRLA BLOCK": {
+                "NH-47": 4379.63380850484,
+                "OLD NH-59": 104.44335002548085,
+                "PMGSY": 1243.614402685525,
+                "Ring": "R3",
+                "Span_id": "011"
+            },
+            "GOONGIDEVI TO SULTANPUR": {
+                "PMGSY": 8231.665682911605,
+                "Ring": "R3",
+                "Span_id": "009"
+            },
+            "JALOKHYA TO RATANPURA": {
+                "PMGSY": 12956.952347079092,
+                "Ring": "R3",
+                "Span_id": "002"
+            },
+            "KESHVI TO BAVDI KHODRA": {
+                "SH-38": 1521.6836642860446,
+                "Ring": "R3",
+                "Span_id": "005"
+            },
+            "PIPALYA TO KESHVI": {
+                "PMGSY": 1375.1978236798159,
+                "SH-38": 506.4826819146604,
+                "Ring": "R3",
+                "Span_id": "004"
+            },
+            "RAJPURA TO GOONGIDEVI": {
+                "PMGSY": 4401.604858893994,
+                "SH-38": 482.2722097397383,
+                "Ring": "R3",
+                "Span_id": "008"
+            },
+            "RATANPURA TO PIPALYA": {
+                "PMGSY": 2268.128109322435,
+                "Ring": "R3",
+                "Span_id": "003"
+            },
+            "SULTANPUR TO BODHWADA": {
+                "PMGSY": 2832.390353923011,
+                "Ring": "R3",
+                "Span_id": "010"
+            },
+            "TIRLA BLOCK TO JALOKHYA": {
+                "OLD NH-59": 724.9775769311456,
+                "PMGSY": 4827.16137807086,
+                "Ring": "R3",
+                "Span_id": "001"
+            }
+        },
+        "meta": {
+            "total_length": 55700.594702721784,
+            "total_spans": 11,
+            "row_autho": {
+                "GRAMPANCHAYAT": 872.6005754252665,
+                "SH-38": 11482.224435268712,
+                "NH-47": 4379.63380850484,
+                "OLD NH-59": 829.4209269566264,
+                "PMGSY": 38136.71495656634
+            }
+        }
+    },
+    "R2-C2": {
+        "spans": {
+            "ANJANAI TO SATIPURA": {
+                "PMGSY": 2188.976442411004,
+                "Ring": "R2-C2",
+                "Span_id": "005"
+            },
+            "NEEMKHEDA TO ANJANAI": {
+                "PMGSY": 1085.156343143737,
+                "Ring": "R2-C2",
+                "Span_id": "004"
+            },
+            "SATIPURA TO T-POINT KHIDKYAKALA": {
+                "PMGSY": 20.085017580991575,
+                "Ring": "R2-C2",
+                "Span_id": "006"
+            },
+            "SEMLIPURA TO SHIWSINGPURA": {
+                "PMGSY": 3848.8288622317773,
+                "Ring": "R2-C2",
+                "Span_id": "002"
+            },
+            "SHIWSINGPURA TO NEEMKHEDA": {
+                "PMGSY": 2565.126643740455,
+                "Ring": "R2-C2",
+                "Span_id": "003"
+            },
+            "T-POINT KHIDKYAKALA TO SEMLIPURA": {
+                "PMGSY": 2752.3486684548884,
+                "Ring": "R2-C2",
+                "Span_id": "001"
+            },
+            "T-POINT SEMLIPURA TO BORI": {
+                "PMGSY": 1800.9445352620914,
+                "Ring": "R2-C2",
+                "Span_id": "007"
+            }
+        },
+        "meta": {
+            "total_length": 14261.466512824945,
+            "total_spans": 7,
+            "row_autho": {
+                "PMGSY": 14261.466512824945
+            }
+        }
+    },
+    "R1-C2": {
+        "spans": {
+            "CHAKALYA TO GANGANAGAR": {
+                "PMGSY": 4912.3506511933565,
+                "Ring": "R1-C2",
+                "Span_id": "004"
+            },
+            "MAWDIPURA TO CHAKALYA": {
+                "PMGSY": 3201.2237948152733,
+                "Ring": "R1-C2",
+                "Span_id": "003"
+            },
+            "MOHANPUR TO MAWDIPURA": {
+                "PMGSY": 5673.2582520074675,
+                "Ring": "R1-C2",
+                "Span_id": "002"
+            },
+            "T-POINT MUSAPURA TO MOHANPUR": {
+                "PMGSY": 2474.2943613474454,
+                "Ring": "R1-C2",
+                "Span_id": "001"
+            }
+        },
+        "meta": {
+            "total_length": 16261.127059363542,
+            "total_spans": 4,
+            "row_autho": {
+                "PMGSY": 16261.127059363542
+            }
+        }
+    },
+    "R2-C1": {
+        "spans": {
+            "JUNAPANI TO BHUWADA": {
+                "PMGSY": 1237.9680475951368,
+                "Ring": "R2-C1",
+                "Span_id": "007"
+            },
+            "KHEDI TO SADADIYAKUA": {
+                "PMGSY": 20484.978262000284,
+                "Ring": "R2-C1",
+                "Span_id": "005"
+            },
+            "KUA TO UKALA": {
+                "PMGSY": 2856.3994906201174,
+                "Ring": "R2-C1",
+                "Span_id": "003"
+            },
+            "SADADIYAKUA TO JUNAPANI": {
+                "PMGSY": 7039.936534654028,
+                "Ring": "R2-C1",
+                "Span_id": "006"
+            },
+            "SINDHKUWA TO KUA": {
+                "PMGSY": 8994.962627988483,
+                "Ring": "R2-C1",
+                "Span_id": "002"
+            },
+            "T-POINT KACHHAVDA TO SINDHKUWA": {
+                "PMGSY": 802.6530891188052,
+                "Ring": "R2-C1",
+                "Span_id": "001"
+            },
+            "UKALA TO KHEDI": {
+                "GRAMPANCHAYAT": 9.673317003278651,
+                "PMGSY": 4913.760036521956,
+                "Ring": "R2-C1",
+                "Span_id": "004"
+            }
+        },
+        "meta": {
+            "total_length": 46340.3314055021,
+            "total_spans": 7,
+            "row_autho": {
+                "PMGSY": 46330.658088498814,
+                "GRAMPANCHAYAT": 9.673317003278651
+            }
+        }
+    }
+}

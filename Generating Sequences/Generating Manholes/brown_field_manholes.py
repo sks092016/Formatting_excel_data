@@ -27,7 +27,7 @@ import geopandas as gpd
 from shapely.geometry import LineString, Point
 
 # Parameters
-SCOPE_KEYWORD = "brown field"
+SCOPE_KEYWORD = "brown filed data"
 OUTPUT_CRS = "EPSG:4326"
 LABEL = "Brown Field Conn"
 TYPE = "Brown Field"
@@ -98,7 +98,7 @@ def process_shapefile(input_shp, output_points_shp, output_json_path):
     # Group by span_name
     for span, span_df in gdf.groupby("span_name"):
         # Filter only "existing data" scopes
-        sub = span_df[span_df["scope"].str.lower().str.contains(SCOPE_KEYWORD)]
+        sub = span_df[span_df["road_autho"].str.lower().str.contains(SCOPE_KEYWORD)]
         if sub.empty:
             continue
         # Sort by seg_seq
@@ -141,7 +141,7 @@ def process_shapefile(input_shp, output_points_shp, output_json_path):
     return len(new_entries)
 
 if __name__ == "__main__":
-    block_name = 'Karanjiya'
+    block_name = 'Jaithari'
     input_shp = f'input/OFC_New_{block_name}-1_Seg_Span_Seq.shp'
     output_points_shp = f"temp/brown_field_manholes_{block_name}.shp"
     output_json = f"temp/sharp_turn_points_{block_name}.json"
