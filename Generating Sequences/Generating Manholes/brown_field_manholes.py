@@ -1,25 +1,3 @@
-#!/usr/bin/env python3
-"""
-process_existing_segments_v2.py
-
-Processes an input LineString shapefile grouped by span_name and ordered by seg_seq.
-For segments where 'scope' contains 'existing data' (case-insensitive):
- - Combines consecutive segments whose endpoints match exactly.
- - Extracts start and end coordinates for each combined group.
- - Appends unique (x,y) coordinates to a JSON array (creating file if needed).
- - Writes a shapefile of the resulting unique points (EPSG:4326).
-
-Usage:
-    python process_existing_segments_v2.py input.shp output_points.shp output.json
-
-Expected fields in input shapefile:
-    - span_name  (string)
-    - seg_seq    (integer / numeric order)
-    - scope      (string containing "existing data")
-
-All output coordinates and shapefile CRS are EPSG:4326.
-"""
-
 import sys
 import os
 import json
@@ -31,8 +9,8 @@ SCOPE_KEYWORD = "brown filed data"
 OUTPUT_CRS = "EPSG:4326"
 LABEL = "Brown Field Conn"
 TYPE = "Brown Field"
+brown_field = 'road_autho'
 
-# -------------------- Helper functions --------------------
 def to_epsg4326(gdf):
     """Ensure GeoDataFrame is in EPSG:4326 CRS."""
     if gdf.crs is None:
@@ -68,8 +46,6 @@ def merge_consecutive_segments(lines):
         merged_groups.append(LineString([pt for seg in current_group for pt in seg.coords]))
     return merged_groups
 
-# -------------------- Core processing --------------------
-
 def process_shapefile(input_shp, output_points_shp, output_json_path):
     if not os.path.exists(input_shp):
         raise FileNotFoundError(f"Input shapefile not found: {input_shp}")
@@ -98,7 +74,7 @@ def process_shapefile(input_shp, output_points_shp, output_json_path):
     # Group by span_name
     for span, span_df in gdf.groupby("span_name"):
         # Filter only "existing data" scopes
-        sub = span_df[span_df["road_autho"].str.lower().str.contains(SCOPE_KEYWORD)]
+        sub = span_df[span_df[brown_field].str.lower().str.contains(SCOPE_KEYWORD)]
         if sub.empty:
             continue
         # Sort by seg_seq
@@ -109,19 +85,19 @@ def process_shapefile(input_shp, output_points_shp, output_json_path):
         for merged in merged_lines:
             start, end = get_start_end(merged)
             for (lon, lat) in [start, end]:
-                key = (float(lon), float(lat))
-                if key not in existing_coords:
-                    existing_coords.add(key)
-                    entry = {
-                        "x": lon,
-                        "y": lat,
-                        "crs": OUTPUT_CRS,
-                        "label": LABEL,
-                        "type": TYPE,
-                        "span": span
-                    }
-                    new_entries.append(entry)
-                    new_points.append(Point(lon, lat))
+                # key = (float(lon), float(lat))
+                # if key not in existing_coords:
+                #     existing_coords.add(key)
+                entry = {
+                    "x": lon,
+                    "y": lat,
+                    "crs": OUTPUT_CRS,
+                    "label": LABEL,
+                    "type": TYPE,
+                    "span": span
+                }
+                new_entries.append(entry)
+                new_points.append(Point(lon, lat))
     # Append new entries to JSON array
     combined = existing_data + new_entries
     with open(output_json_path, "w", encoding="utf-8") as jf:

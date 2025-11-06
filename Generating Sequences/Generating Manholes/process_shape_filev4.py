@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import geopandas as gpd
 from shapely.geometry import Point, LineString
 from pyproj import Geod, CRS, Transformer
@@ -13,7 +11,7 @@ from typing import List, Optional
 import pandas as pd
 
 warnings.filterwarnings("ignore", category=UserWarning)
-
+geod = Geod(ellps="WGS84")
 # -------------------- Utility --------------------
 
 def natural_sort_key(s):
@@ -35,10 +33,6 @@ def ordered_merge(lines: List[LineString]) -> LineString:
                 # Not connected in expected way: append anyway (keeps order)
                 merged_coords.extend(coords)
     return LineString(merged_coords)
-
-# -------------------- Geodesic helpers --------------------
-
-geod = Geod(ellps="WGS84")
 
 def segment_lengths_and_cumulatives(coords, is_projected):
     seg_lens = []
@@ -91,18 +85,6 @@ def process_shapefile(
     small_crossing_thresh: float = 150.0,    # small crossing length threshold (meters)
     manual_points_json: Optional[str] = None # path to JSON with manual points to add
 ):
-    """
-    Process segments shapefile and return GeoDataFrame of points + the merged main line.
-
-    Manual points JSON format (list of entries):
-    [
-       {"x": 77.1, "y": 28.6, "crs": "EPSG:4326", "label": "Manual_A", "type":"manual"},
-       {"x": 500000.0, "y": 3000000.0, "crs": "EPSG:32643", "label": "Manual_B", "type":"manual"}
-    ]
-    If `crs` omitted, coordinates are assumed to be in input shapefile CRS.
-
-    crossing_types: if None -> default to ["road cross", "bridge", "railway", "rail_cross", ...] (typical variants).
-    """
 
     gdf = gpd.read_file(input_path)
     if gdf.empty:
@@ -183,8 +165,7 @@ def process_shapefile(
         ctype = None
         if crossing_field in gdf.columns:
             ctype = row.get(crossing_field, None)
-        elif "feature_type" in gdf.columns:
-            ctype = row.get("feature_type", None)
+
         ctype_clean = None
         if isinstance(ctype, str):
             ctype_clean = ctype.strip().lower()
@@ -231,9 +212,6 @@ def process_shapefile(
                                        'meta': {'seg_index': idx, 'crossing_id': f"bridge_{bridge_counter}", 'seg_length': seg_length}})
 
         current_pos = end_dist
-
-    # Add virtual Span_End anchor for gap filling
-    feature_points.append({'dist': total_len, 'label': 'Span_End', 'ptype': 'span_end', 'meta': {}})
 
     # ----------------- Integrate manual points (additional feature) -----------------
     # manual_points_json should be a path to a JSON file containing list entries with x,y, optional crs and label
@@ -286,24 +264,39 @@ def process_shapefile(
         # add manual points into feature_points list
         feature_points.extend(manual_points)
 
+    # Add virtual Span_End anchor for gap filling
+    feature_points.append({'dist': total_len, 'label': 'Span_End', 'ptype': 'span_end', 'meta': {}})
+
     # ----------------- Normalize & sort feature points; deduplicate very close ones -----------------
     feature_points_sorted = sorted(feature_points, key=lambda x: x['dist'])
     deduped = []
     for fp in feature_points_sorted:
         if deduped and abs(fp['dist'] - deduped[-1]['dist']) <= eps:
             # merge priority: keep existing (earlier) unless the new one is "First_Point"
-            if fp['ptype'] == 'first':
-                deduped.insert(0, fp)
+            if fp['ptype'] == 'first' or fp['ptype'] == 'Brown Field':
+                # deduped.insert(0, fp)
+                deduped.append(fp)
             else:
                 continue
         else:
             deduped.append(fp)
     feature_points_sorted = deduped
 
+    #------------------ Removing the first point in case of brown field segments -------------------------
+    fp_sorted = []
+    for fp in feature_points_sorted:
+        if fp_sorted and fp_sorted[-1]['ptype'] == 'Brown Field' and fp['ptype'] == 'first':
+            continue
+        else:
+            fp_sorted.append(fp)
+    feature_points_sorted = fp_sorted
     # ----------------- Construct actual geometries for feature anchors (except Span_End) -----------------
+
     anchors = []
     for fp in feature_points_sorted:
         if fp['ptype'] == 'span_end':
+            continue
+        if anchors and anchors[-1]['ptype'] == 'Brown Field' and fp['ptype'] == 'first':
             continue
         pt_geom = point_at_distance_along_line(main_line, fp['dist'], is_projected)
         anchors.append({'dist': fp['dist'], 'label': fp['label'], 'ptype': fp['ptype'], 'meta': fp['meta'], 'geometry': pt_geom})
@@ -313,13 +306,14 @@ def process_shapefile(
     anchor_dists = [fp['dist'] for fp in feature_points_sorted]  # includes Span_End at end
     distance_counters = 0
     dist_points = []
+    print(anchor_dists)
     for i in range(len(anchor_dists) - 1):
         a = anchor_dists[i]
         b = anchor_dists[i + 1]
         gap = b - a
         point_type_a = next((r['ptype'] for r in anchors if r['dist'] == a), None)
         point_type_b = next((r['ptype'] for r in anchors if r['dist'] == b), None)
-        if point_type_a == 'Brown Field' or point_type_b == 'Brown Field':
+        if point_type_a == 'Brown Field' and point_type_b == 'Brown Field':
             continue
         if gap <= 0:
             continue
@@ -332,8 +326,7 @@ def process_shapefile(
             distance_counters += 1
             label = f"Distance_Point_{distance_counters}"
             pt = point_at_distance_along_line(main_line, pos, is_projected)
-            if point_type_a != 'Brown Field' and point_type_b != 'Brown Field':
-                dist_points.append({'dist': pos, 'label': label, 'ptype': 'distance', 'meta': {}, 'geometry': pt})
+            dist_points.append({'dist': pos, 'label': label, 'ptype': 'distance', 'meta': {}, 'geometry': pt})
             k += 1
 
     # ----------------- Combine anchors and distance points -----------------
@@ -349,29 +342,26 @@ def process_shapefile(
         },
         crs=gdf.crs
     )
-
     # ----------------- Cleaning logic (2.c) - sequential pass -----------------
     # We'll walk from start to end; keep a list 'kept'. Always keep the very first point globally.
     kept = []
     if not combined_sorted:
         print("No points generated.")
         return gpd.GeoDataFrame(columns=['label', 'ptype', 'dist_m', 'geometry'], crs=gdf.crs), main_line
-
     # helper to check if point is a crossing endpoint
     def is_cross_endpoint(pt):
         return pt['ptype'] in ('cross_start', 'cross_end', 'bridge_before', 'bridge_after', 'bridge_single')
-
     # helper to test same crossing id (if metadata present)
     def crossing_id_of(pt):
         m = pt.get('meta', {})
         return m.get('crossing_id') or m.get('crossing_id')
-
     # Put the very first point into kept
     kept.append(combined_sorted[0])
     # iterate over subsequent points
     for curr in combined_sorted[1:]:
-
-        # print(combined_sorted)
+        if curr.get('label') == 'Brown Field Conn':
+            kept.append(curr)
+            continue
         try:
             last = kept[-1]
         except IndexError:
@@ -385,7 +375,7 @@ def process_shapefile(
             continue
         # Too close: apply deletion priority rules
         # If one of the two is the absolute first point (label 'First_Point'), keep it and drop the other:
-        if last.get('label') == 'Brown Field Conn'and curr['ptype'] == 'distance':
+        if last.get('label') == 'Brown Field Conn':
             continue
         if last.get('label') == 'First_Point':
             # always keep last (the first point). Decide whether to keep curr based on priority: delete crossing endpoints near distance points
@@ -502,26 +492,28 @@ if __name__ == "__main__":
     temp_merged = gpd.GeoDataFrame(columns=['label', 'ptype', 'dist_m', 'geometry', 'span'], crs=gdf.crs)
     merged = gpd.GeoDataFrame(columns=['label', 'ptype', 'dist_m', 'geometry', 'span'], crs=gdf.crs)
     for s in span_list:
-        try:
-            out_gdf, main_line, temp_gdf = process_shapefile(
-                sample_path,
-                span_filter=s,
-                crossing_offset=10.0,
-                feature_endpoint_offset=5.0,
-                crossing_types=None,
-                crossing_field="crossing_t",
-                distance_interval=1800.0,
-                min_buffer=150.0,
-                small_crossing_thresh=100.0,
-                manual_points_json=f"temp/sharp_turn_points_{block_name}.json"  # set to "manual_points.json" to include manual points
-            )
-            temp_merged = gpd.GeoDataFrame(pd.concat([temp_merged, temp_gdf], ignore_index=True), crs=merged.crs)
-            merged = gpd.GeoDataFrame(pd.concat([merged,out_gdf], ignore_index=True), crs=merged.crs)
-            temp_merged.to_file(f"temp/Temp_manholes-{block_name}.shp")
-            merged.to_file(f"output/manholes-{block_name}.shp")
-        except:
+        if s is not None:
+            try:
+                out_gdf, main_line, temp_gdf = process_shapefile(
+                    sample_path,
+                    span_filter=s,
+                    crossing_offset=10.0,
+                    feature_endpoint_offset=5.0,
+                    crossing_types=None,
+                    crossing_field="crossing_t",
+                    distance_interval=1800.0,
+                    min_buffer=150.0,
+                    small_crossing_thresh=100.0,
+                    manual_points_json=f"temp/sharp_turn_points_{block_name}.json"  # set to "manual_points.json" to include manual points
+                )
+                temp_merged = gpd.GeoDataFrame(pd.concat([temp_merged, temp_gdf], ignore_index=True), crs=merged.crs)
+                merged = gpd.GeoDataFrame(pd.concat([merged,out_gdf], ignore_index=True), crs=merged.crs)
+                temp_merged.to_file(f"temp/Temp_manholes-{block_name}.shp")
+                merged.to_file(f"output/manholes-{block_name}.shp")
+            except:
+                continue
+        else:
             continue
-
 
 
 

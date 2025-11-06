@@ -1072,8 +1072,24 @@
     "span": "BALBHARA TO JAITHARI BLOCK"
   },
   {
+    "x": 81.79709606200004,
+    "y": 23.041337702000078,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BALBHARA TO JAITHARI BLOCK"
+  },
+  {
     "x": 81.79855335300005,
     "y": 23.04270884700003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BALBHARA TO JAITHARI BLOCK"
+  },
+  {
+    "x": 81.81560103100009,
+    "y": 23.02560481000006,
     "crs": "EPSG:4326",
     "label": "Brown Field Conn",
     "type": "Brown Field",
@@ -1288,6 +1304,14 @@
     "span": "DEORI TO BARBASPUR"
   },
   {
+    "x": 81.70573130000008,
+    "y": 23.147478900000067,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEORI TO BARBASPUR"
+  },
+  {
     "x": 81.83345257400003,
     "y": 23.03109060500003,
     "crs": "EPSG:4326",
@@ -1322,6 +1346,14 @@
   {
     "x": 81.63710480000003,
     "y": 23.116148800000076,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DHIRAUL TO CHILHARI"
+  },
+  {
+    "x": 81.63116350000007,
+    "y": 23.107856800000036,
     "crs": "EPSG:4326",
     "label": "Brown Field Conn",
     "type": "Brown Field",
@@ -1400,8 +1432,24 @@
     "span": "GAURELA TO DUDHMANIYA"
   },
   {
+    "x": 81.71347920000005,
+    "y": 23.02940590000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GAURELA TO DUDHMANIYA"
+  },
+  {
     "x": 81.74738560000003,
     "y": 23.014825400000063,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GOBARI TO GAURELA"
+  },
+  {
+    "x": 81.73093310000007,
+    "y": 23.00397040000007,
     "crs": "EPSG:4326",
     "label": "Brown Field Conn",
     "type": "Brown Field",
@@ -1480,6 +1528,22 @@
     "span": "JAITHARI BLOCK TO DHANGAWAN-EAST"
   },
   {
+    "x": 81.83345257400003,
+    "y": 23.03109060500003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JAITHARI BLOCK TO DHANGAWAN-EAST"
+  },
+  {
+    "x": 81.79855335300005,
+    "y": 23.04270884700003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JAITHARI BLOCK TO GOBARI"
+  },
+  {
     "x": 81.79701880000005,
     "y": 23.04110000000003,
     "crs": "EPSG:4326",
@@ -1504,12 +1568,44 @@
     "span": "JAITHARI BLOCK TO GOBARI"
   },
   {
+    "x": 81.79855335300005,
+    "y": 23.04270884700003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JAITHARI BLOCK TO PAGANA"
+  },
+  {
     "x": 81.79530588300008,
     "y": 23.042161752000027,
     "crs": "EPSG:4326",
     "label": "Brown Field Conn",
     "type": "Brown Field",
     "span": "JAITHARI BLOCK TO PAGANA"
+  },
+  {
+    "x": 81.79855335300005,
+    "y": 23.04270884700003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JAITHARI BLOCK TO SHIVANI"
+  },
+  {
+    "x": 81.79707351800005,
+    "y": 23.041302879000057,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JAITHARI BLOCK TO SHIVANI"
+  },
+  {
+    "x": 81.64213850000004,
+    "y": 23.075050100000055,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JAMUDI TO TARADAND"
   },
   {
     "x": 81.64363750000007,
@@ -1522,6 +1618,14 @@
   {
     "x": 81.77962100000008,
     "y": 23.00700980000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JHAITAL TO JAITHARI BLOCK"
+  },
+  {
+    "x": 81.79855335300005,
+    "y": 23.04270884700003,
     "crs": "EPSG:4326",
     "label": "Brown Field Conn",
     "type": "Brown Field",
@@ -1608,8 +1712,32 @@
     "span": "KHODRI TO LAHSUNA"
   },
   {
+    "x": 81.75460900000007,
+    "y": 22.993321700000024,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHOLHADI TO JHAITAL"
+  },
+  {
+    "x": 81.77962100000008,
+    "y": 23.00700980000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHOLHADI TO JHAITAL"
+  },
+  {
     "x": 81.89096910000006,
     "y": 23.064707200000043,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KUKURGONDA TO CHOLANA"
+  },
+  {
+    "x": 81.90399204700003,
+    "y": 23.049142905000053,
     "crs": "EPSG:4326",
     "label": "Brown Field Conn",
     "type": "Brown Field",
@@ -1720,6 +1848,14 @@
     "span": "LHARPUR TO JAITHARI BLOCK"
   },
   {
+    "x": 81.79855335300005,
+    "y": 23.04270884700003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "LHARPUR TO JAITHARI BLOCK"
+  },
+  {
     "x": 81.80881780000004,
     "y": 23.090729000000067,
     "crs": "EPSG:4326",
@@ -1766,6 +1902,22 @@
     "label": "Brown Field Conn",
     "type": "Brown Field",
     "span": "MANAORA TO GORSI"
+  },
+  {
+    "x": 81.64766491900008,
+    "y": 23.132988001000058,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MEDIYARAS TO CHAKETHI"
+  },
+  {
+    "x": 81.63216530000005,
+    "y": 23.137730100000056,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MEDIYARAS TO CHAKETHI"
   },
   {
     "x": 81.64857790000008,
@@ -1856,6 +2008,14 @@
     "span": "ODHERA TO JAMUDI"
   },
   {
+    "x": 81.64213850000004,
+    "y": 23.075050100000055,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "ODHERA TO JAMUDI"
+  },
+  {
     "x": 81.88222930000006,
     "y": 23.01529780000004,
     "crs": "EPSG:4326",
@@ -1904,12 +2064,36 @@
     "span": "PANCHAHUA TO LHARPUR"
   },
   {
+    "x": 81.81422150000003,
+    "y": 23.046200600000077,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PANCHAHUA TO LHARPUR"
+  },
+  {
     "x": 81.81559520000008,
     "y": 23.052536000000032,
     "crs": "EPSG:4326",
     "label": "Brown Field Conn",
     "type": "Brown Field",
     "span": "PANCHAHUA TO LHARPUR"
+  },
+  {
+    "x": 81.88272330000007,
+    "y": 23.01412830000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PAPRAUDI TO BEED"
+  },
+  {
+    "x": 81.88532240000006,
+    "y": 23.007251100000076,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PAPRAUDI TO BEED"
   },
   {
     "x": 81.66789830000005,
@@ -1926,6 +2110,22 @@
     "label": "Brown Field Conn",
     "type": "Brown Field",
     "span": "PARASWAR TO MEDIYARAS"
+  },
+  {
+    "x": 81.58340690000006,
+    "y": 23.128348300000027,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PATNAKALA TO DEOHARA"
+  },
+  {
+    "x": 81.59663010000008,
+    "y": 23.140548300000034,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PATNAKALA TO DEOHARA"
   },
   {
     "x": 81.69926470000007,
@@ -1952,6 +2152,14 @@
     "span": "PIPARIYA TO DULHARA"
   },
   {
+    "x": 81.69258950000005,
+    "y": 23.08825960000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PIPARIYA TO DULHARA"
+  },
+  {
     "x": 81.68804610000007,
     "y": 23.180009100000063,
     "crs": "EPSG:4326",
@@ -1966,6 +2174,14 @@
     "label": "Brown Field Conn",
     "type": "Brown Field",
     "span": "PODI-02 TO BAKELI"
+  },
+  {
+    "x": 81.81284630000005,
+    "y": 22.912420800000064,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PODI-1 TO SINDHORA"
   },
   {
     "x": 81.81226123000005,
@@ -2064,12 +2280,36 @@
     "span": "SENDURI TO MOHARI"
   },
   {
+    "x": 81.77610830000003,
+    "y": 23.11957330000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SENDURI TO MOHARI"
+  },
+  {
+    "x": 81.82740682500008,
+    "y": 22.981962189000058,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHIVANI TO CHORBHATTI"
+  },
+  {
     "x": 81.82717670500006,
     "y": 22.98061136000007,
     "crs": "EPSG:4326",
     "label": "Brown Field Conn",
     "type": "Brown Field",
     "span": "SHIVANI TO CHORBHATTI"
+  },
+  {
+    "x": 81.84082280000007,
+    "y": 22.948154500000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SULKHARI TO VENKATNAGAR"
   },
   {
     "x": 81.84194037800006,
@@ -2090,6 +2330,14 @@
   {
     "x": 81.84221394400004,
     "y": 22.94318703600004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SULKHARI TO VENKATNAGAR"
+  },
+  {
+    "x": 81.87940990000004,
+    "y": 22.938017400000035,
     "crs": "EPSG:4326",
     "label": "Brown Field Conn",
     "type": "Brown Field",
@@ -2152,6 +2400,22 @@
     "span": "T-POINT BAIHAR TO BHELMA"
   },
   {
+    "x": 81.70955625600004,
+    "y": 22.991488420000053,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT DHHODHHIPANI TO BAIHAR"
+  },
+  {
+    "x": 81.68725840000008,
+    "y": 22.977497200000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT DHHODHHIPANI TO BAIHAR"
+  },
+  {
     "x": 81.82930244700003,
     "y": 22.966490406000048,
     "crs": "EPSG:4326",
@@ -2166,6 +2430,14 @@
     "label": "Brown Field Conn",
     "type": "Brown Field",
     "span": "T-POINT SHIVANI TO GODHAN"
+  },
+  {
+    "x": 81.87940990000004,
+    "y": 22.938017400000035,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT VENKATNAGAR TO KADAMASARA"
   },
   {
     "x": 81.89401660000004,
@@ -2216,11 +2488,43 @@
     "span": "TARADAND TO LAKHANPUR"
   },
   {
+    "x": 81.68799010000004,
+    "y": 23.047199400000068,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "TARADAND TO LAKHANPUR"
+  },
+  {
     "x": 81.93046163400004,
     "y": 22.996816324000065,
     "crs": "EPSG:4326",
     "label": "Brown Field Conn",
     "type": "Brown Field",
     "span": "UMARIA TO MUNDA"
+  },
+  {
+    "x": 81.91778568700005,
+    "y": 22.968617093000034,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "UMARIA TO MUNDA"
+  },
+  {
+    "x": 81.85824320000006,
+    "y": 22.918265100000042,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "VENKATNAGAR TO KHODRI"
+  },
+  {
+    "x": 81.85403070000007,
+    "y": 22.920777100000066,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "VENKATNAGAR TO KHODRI"
   }
 ]
