@@ -15,8 +15,8 @@ import os
 import json
 from pathlib import Path
 
-district_name = 'Rewa'
-block_name = 'Raipur'
+district_name = 'Bhind'
+block_name = 'Lahar'
 
 # --- Settings ---
 file_path =f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/input/{block_name}/ring_details_{block_name}.json"

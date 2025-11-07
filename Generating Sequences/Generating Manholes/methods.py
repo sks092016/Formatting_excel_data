@@ -1,3 +1,6 @@
+import numpy as np
+import sys
+import os
 import geopandas as gpd
 from shapely.geometry import Point, LineString
 from pyproj import Geod, CRS, Transformer
@@ -10,9 +13,200 @@ from collections import defaultdict
 from typing import List, Optional
 import pandas as pd
 
+crs = "EPSG:4326"
 warnings.filterwarnings("ignore", category=UserWarning)
 geod = Geod(ellps="WGS84")
-# -------------------- Utility --------------------
+
+#---------------------- Finding the Sharp Turns----------------------------#
+def angle_between(p1, p2, p3):
+    """Return angle (in degrees) formed by three points p1-p2-p3."""
+    a = np.array(p1)
+    b = np.array(p2)
+    c = np.array(p3)
+
+    ba = a - b
+    bc = c - b
+
+    if np.linalg.norm(ba) == 0 or np.linalg.norm(bc) == 0:
+        return None
+
+    cosine_angle = np.dot(ba, bc) / (np.linalg.norm(ba) * np.linalg.norm(bc))
+    cosine_angle = np.clip(cosine_angle, -1, 1)
+    return math.degrees(math.acos(cosine_angle))
+
+def find_sharp_turns(input_shapefile, output_shapefile, output_json, angle_threshold, group_field):
+# === Read Data ===
+    gdf = gpd.read_file(input_shapefile)
+    if group_field not in gdf.columns:
+        gdf[group_field] = 0  # fallback group if field missing
+    sharp_points = []
+    json_records = []
+    # === Process by Group ===
+    for span, subset in gdf.groupby(group_field):
+        # Build a mapping of endpoints
+        endpoints = []
+        for idx, row in subset.iterrows():
+            try:
+                if row["scope"].lower() == 'To Be Replace' or row["scope"].lower() == 'Partial OK' :
+                    continue
+            except: pass
+            geom = row.geometry
+            if not isinstance(geom, LineString):
+                continue
+            coords = list(geom.coords)
+            start, end = Point(coords[0]), Point(coords[-1])
+            endpoints.append((idx, start, end))
+        # Compare each segment pair for connection
+        for i, (idx1, s1, e1) in enumerate(endpoints):
+            for j, (idx2, s2, e2) in enumerate(endpoints):
+                if i >= j:
+                    continue
+                # Check if endpoints are the same (shared node)
+                for p1, p2 in [(e1, s2), (s1, e2), (e1, e2), (s1, s2)]:
+                    if p1.distance(p2) < 1e-6:  # nearly same point
+                        # compute direction vectors
+                        line1 = gdf.loc[idx1, "geometry"]
+                        line2 = gdf.loc[idx2, "geometry"]
+                        coords1 = list(line1.coords)
+                        coords2 = list(line2.coords)
+                        # get neighbor points for angle computation
+                        # pick last two points of line1 and first two points of line2 based on shared point
+                        if Point(coords1[-1]).distance(p1) < 1e-6:
+                            p_before = coords1[-2]
+                        else:
+                            p_before = coords1[1]
+                        if Point(coords2[0]).distance(p2) < 1e-6:
+                            p_after = coords2[1]
+                        else:
+                            p_after = coords2[-2]
+                        mid = (p1.x, p1.y)
+                        angle = angle_between(p_before, mid, p_after)
+                        if angle is not None and angle < angle_threshold:
+                            pt = Point(mid)
+                            sharp_points.append({
+                                'geometry': pt,
+                                'span_name': span,
+                                'angle': angle,
+                                'line_1': idx1,
+                                'line_2': idx2
+                            })
+                            json_records.append({
+                                "x": pt.x,
+                                "y": pt.y,
+                                "crs": gdf.crs.to_string() if gdf.crs else "Unknown",
+                                "label": f"Sharp_{span}_{idx1}_{idx2}",
+                                "type": "sharp_edge",
+                                "span": span
+                            })
+    return sharp_points, json_records,gdf
+
+#-----------------------Brown Field Data ------------------------------------#
+def to_epsg4326(gdf):
+    """Ensure GeoDataFrame is in EPSG:4326 CRS."""
+    if gdf.crs is None:
+        raise ValueError("Input shapefile must have a valid CRS.")
+    if gdf.crs.to_string() != crs:
+        return gdf.to_crs(crs)
+    return gdf.copy()
+
+def get_start_end(line):
+    """Return start and end coordinates (lon, lat) of a LineString."""
+    coords = list(line.coords)
+    return coords[0], coords[-1]
+
+def merge_consecutive_segments(lines):
+    """Merge consecutive LineStrings whose endpoints match exactly."""
+    if not lines:
+        return []
+    merged_groups = []
+    current_group = [lines[0]]
+    prev_end = get_start_end(lines[0])[1]
+    for line in lines[1:]:
+        start, end = get_start_end(line)
+        if start == prev_end:
+            # continuous
+            current_group.append(line)
+        else:
+            # break in continuity, finalize current
+            merged_groups.append(LineString([pt for seg in current_group for pt in seg.coords]))
+            current_group = [line]
+        prev_end = end
+    # finalize last group
+    if current_group:
+        merged_groups.append(LineString([pt for seg in current_group for pt in seg.coords]))
+    return merged_groups
+
+def process_brown_field(input_shp, output_points_shp, output_json_path, scope,crs, brown_field_label, ptype, shape_file_data_field):
+    if not os.path.exists(input_shp):
+        raise FileNotFoundError(f"Input shapefile not found: {input_shp}")
+    gdf = gpd.read_file(input_shp)
+    if gdf.empty:
+        raise ValueError("Input shapefile is empty.")
+    for f in ["span_name", "seg_seq", "scope"]:
+        if f not in gdf.columns:
+            raise ValueError(f"Missing required field '{f}' in input shapefile.")
+    gdf = to_epsg4326(gdf)
+    # Prepare JSON file
+    if os.path.exists(output_json_path):
+        try:
+            with open(output_json_path, "r", encoding="utf-8") as jf:
+                existing_data = json.load(jf)
+                if not isinstance(existing_data, list):
+                    print("Warning: JSON file not an array. Starting fresh.")
+                    existing_data = []
+        except Exception:
+            existing_data = []
+    else:
+        existing_data = []
+    existing_coords = {(float(e["x"]), float(e["y"])) for e in existing_data if "x" in e and "y" in e}
+    new_entries = []
+    new_points = []
+    # Group by span_name
+    for span, span_df in gdf.groupby("span_name"):
+        # Filter only "existing data" scopes
+        sub = span_df[span_df[shape_file_data_field].str.lower().str.contains(scope)]
+        if sub.empty:
+            continue
+        # Sort by seg_seq
+        sub = sub.sort_values(by="seg_seq")
+        # Merge consecutive segments with exact endpoint match
+        merged_lines = merge_consecutive_segments(list(sub.geometry))
+        # Extract start and end points from each merged group
+        for merged in merged_lines:
+            start, end = get_start_end(merged)
+            for (lon, lat) in [start, end]:
+                # key = (float(lon), float(lat))
+                # if key not in existing_coords:
+                #     existing_coords.add(key)
+                entry = {
+                    "x": lon,
+                    "y": lat,
+                    "crs": crs,
+                    "label": brown_field_label,
+                    "type": ptype,
+                    "span": span
+                }
+                new_entries.append(entry)
+                new_points.append(Point(lon, lat))
+    # Append new entries to JSON array
+    combined = existing_data + new_entries
+    with open(output_json_path, "w", encoding="utf-8") as jf:
+        json.dump(combined, jf, ensure_ascii=False, indent=2)
+    print(f"Appended {len(new_entries)} new unique coordinates to {output_json_path}")
+    # Write shapefile for new unique points only
+    if new_points:
+        out_gdf = gpd.GeoDataFrame({
+            "label": [brown_field_label] * len(new_points),
+            "type": [ptype] * len(new_points),
+            "span": [e["span"] for e in new_entries]
+        }, geometry=new_points, crs=crs)
+        out_gdf.to_file(output_points_shp)
+        print(f"Saved {len(new_points)} unique endpoint points to {output_points_shp}")
+    else:
+        print("No new unique endpoints found. Shapefile not updated.")
+    return len(new_entries)
+
+#-----------------------Final Manhole Calculations------------------------#
 
 def natural_sort_key(s):
     return [int(text) if text.isdigit() else text.lower() for text in re.split("([0-9]+)", str(s))]
@@ -70,12 +264,9 @@ def point_at_distance_along_line(line: LineString, distance_m: float, is_project
         x, y = coords[-1]
         return Point(x, y)
 
-# -------------------- Main processing --------------------
-
 def process_shapefile(
     input_path: str,
     span_filter: Optional[str] = None,
-    # Configurable parameters (defaults per your request)
     crossing_offset: float = 50.0,           # distance from crossing start/end for *major* crossings like road-cross
     feature_endpoint_offset: float = 10.0,   # small offset used when placing feature endpoints (per 2.a)
     crossing_types: Optional[List[str]] = None,  # list of values (case-insensitive) in the input field to treat as crossings
@@ -85,11 +276,9 @@ def process_shapefile(
     small_crossing_thresh: float = 150.0,    # small crossing length threshold (meters)
     manual_points_json: Optional[str] = None # path to JSON with manual points to add
 ):
-
     gdf = gpd.read_file(input_path)
     if gdf.empty:
         raise ValueError("Input shapefile is empty or unreadable.")
-
     # Filter span_name if requested
     if span_filter is not None:
         if "span_name" not in gdf.columns:
@@ -98,56 +287,43 @@ def process_shapefile(
     if gdf.empty:
         print(f"No records found for span_name '{span_filter}'")
         return
-
     # Sorting segments in their sequence order
     if "seg_seq" not in gdf.columns: #TODO : Chnage the column name for sequnce
         raise ValueError("Input shapefile must have 'seg_seq' field.")
     gdf["sort_key"] = gdf["seg_seq"].apply(natural_sort_key) #TODO : Chnage the column name for sequnce
     gdf = gdf.sort_values(by="sort_key").reset_index(drop=True)
-
     # Ordered merge into main_line
     lines = list(gdf.geometry)
     main_line = ordered_merge(lines)
     coords = list(main_line.coords)
-
     # Determine CRS type
     crs = gdf.crs
     if crs is None:
         raise ValueError("Input shapefile has no CRS. Provide a valid CRS.")
-
     is_projected = not crs.is_geographic  # geographic indicates degrees
     # compute segment lengths and cumulative distances for merged line
     seg_lens, cumul = segment_lengths_and_cumulatives(coords, is_projected)
     total_len = total_length_from_cumulatives(cumul)
-
     print(f"CRS: {crs.to_string()} | Projected: {is_projected} | Total length (m): {total_len:.3f}")
-
     # Default crossing_types if not provided
     if crossing_types is None:
         crossing_types = ["nh road cross","railway cross", "bpcl gas"] #TODO for road crossing
-
     # Normalize crossing types to lower-case for comparison
     crossing_types = [t.strip().lower() for t in crossing_types]
-
     # ----------------- Place feature points (2.a) -----------------
     # We'll create a list of dicts representing feature anchors along the merged line:
-    # { 'dist': float, 'label': str, 'ptype': 'first|cross_start|cross_end|bridge_before|bridge_after|manual|span_end|distance', 'meta': {...} }
     feature_points = []
-
     # include small initial First_Point at feature_endpoint_offset (or 10m earlier behaviour)
     first_pt_dist = min(feature_endpoint_offset, total_len)
     feature_points.append({'dist': first_pt_dist, 'label': 'First_Point', 'ptype': 'first','meta': {'reason': 'StartOffset'}})
-
     # We'll iterate through ordered original segments to compute their start/end distances along merged_line.
     current_pos = 0.0
     crossing_counter = 0
     bridge_counter = 0
     eps = 1e-3
-
     for idx, row in gdf.iterrows():
         seg_geom: LineString = row.geometry
         seg_coords = list(seg_geom.coords)
-
         # compute length of this segment (projected or geodesic)
         seg_length = 0.0
         if is_projected:
@@ -157,38 +333,26 @@ def process_shapefile(
             for (lon1, lat1), (lon2, lat2) in zip(seg_coords[:-1], seg_coords[1:]):
                 _, _, d = geod.inv(lon1, lat1, lon2, lat2)
                 seg_length += d
-
         start_dist = current_pos
         end_dist = current_pos + seg_length
-
         # determine crossing/feature type for this segment
         ctype = None
         if crossing_field in gdf.columns:
             ctype = row.get(crossing_field, None)
-
         ctype_clean = None
         if isinstance(ctype, str):
             ctype_clean = ctype.strip().lower()
-
         # If this segment matches one of the crossing_types, place points at both ends offset inward by feature_endpoint_offset
-
         if ctype_clean in crossing_types:
             crossing_counter += 1
-            # compute offsets clipped to inside the segment
-            # start_offset_point = start_dist + feature_endpoint_offset
-            # end_offset_point = end_dist - feature_endpoint_offset
-            # start_offset = min(max(start_dist + feature_endpoint_offset, start_dist), end_dist)
-            # end_offset = max(min(end_dist - feature_endpoint_offset, end_dist), start_dist)
             start_offset = max(0.0, start_dist - crossing_offset)
             end_offset = min(total_len, end_dist + crossing_offset)
-
             label_s = f"Cross_{crossing_counter}_Start"
             label_e = f"Cross_{crossing_counter}_End"
             feature_points.append({'dist': start_offset, 'label': label_s, 'ptype': 'cross_start',
                                    'meta': {'seg_index': idx, 'crossing_id': crossing_counter, 'seg_length': seg_length}})
             feature_points.append({'dist': end_offset, 'label': label_e, 'ptype': 'cross_end',
                                    'meta': {'seg_index': idx, 'crossing_id': crossing_counter, 'seg_length': seg_length}})
-
         # Additionally handle explicit "bridge" handling (with crossing_offset behavior if segment is a bridge)
         if ctype_clean == "bridge" or ctype_clean == "river bridge":
             # For larger bridges, we want to add before/after points relative to the segment's extent.
@@ -210,11 +374,8 @@ def process_shapefile(
                 chosen = start_dist if dstart > dend else end_dist
                 feature_points.append({'dist': chosen, 'label': f"Bridge_{bridge_counter}", 'ptype': 'bridge_single',
                                        'meta': {'seg_index': idx, 'crossing_id': f"bridge_{bridge_counter}", 'seg_length': seg_length}})
-
         current_pos = end_dist
-
     # ----------------- Integrate manual points (additional feature) -----------------
-    # manual_points_json should be a path to a JSON file containing list entries with x,y, optional crs and label
     manual_points = []
     if manual_points_json:
         with open(manual_points_json, 'r') as fh:
@@ -241,15 +402,11 @@ def process_shapefile(
                         transformer = Transformer.from_crs(src, dst, always_xy=True)
                         px, py = transformer.transform(x, y)
                 # calculate along-line distance of this projected point (closest point distance along line)
-                # We'll project the input CRS point back to lon/lat or meters and compute along-line distance by walking coords
                 pt = Point(px, py)
                 # compute nearest point along main_line by computing cumulative distances along coords and projection of this point to the line
-                # Using shapely's project requires same units/crs and works only for projected lines. For geographic, approximate by finding nearest vertex and then geodesic distance
                 if is_projected:
                     dist_along = main_line.project(pt)
                 else:
-                    # fallback: find nearest coordinate vertex and its cumulative distance
-                    # This is an approximation but acceptable for manual points in geographic coordinates
                     min_d = float('inf')
                     min_idx = 0
                     for i, (lon, lat) in enumerate(coords):
@@ -263,10 +420,8 @@ def process_shapefile(
                 manual_points.append({'dist': dist_along, 'label': lbl, 'ptype': type, 'meta': entry})
         # add manual points into feature_points list
         feature_points.extend(manual_points)
-
     # Add virtual Span_End anchor for gap filling
     feature_points.append({'dist': total_len, 'label': 'Span_End', 'ptype': 'span_end', 'meta': {}})
-
     # ----------------- Normalize & sort feature points; deduplicate very close ones -----------------
     feature_points_sorted = sorted(feature_points, key=lambda x: x['dist'])
     deduped = []
@@ -281,7 +436,6 @@ def process_shapefile(
         else:
             deduped.append(fp)
     feature_points_sorted = deduped
-
     #------------------ Removing the first point in case of brown field segments -------------------------
     fp_sorted = []
     for fp in feature_points_sorted:
@@ -291,7 +445,6 @@ def process_shapefile(
             fp_sorted.append(fp)
     feature_points_sorted = fp_sorted
     # ----------------- Construct actual geometries for feature anchors (except Span_End) -----------------
-
     anchors = []
     for fp in feature_points_sorted:
         if fp['ptype'] == 'span_end':
@@ -300,7 +453,6 @@ def process_shapefile(
             continue
         pt_geom = point_at_distance_along_line(main_line, fp['dist'], is_projected)
         anchors.append({'dist': fp['dist'], 'label': fp['label'], 'ptype': fp['ptype'], 'meta': fp['meta'], 'geometry': pt_geom})
-
     # ----------------- Insert distance points (2.b) -----------------
     # Build a list of anchor distances including the virtual end
     anchor_dists = [fp['dist'] for fp in feature_points_sorted]  # includes Span_End at end
@@ -328,7 +480,6 @@ def process_shapefile(
             pt = point_at_distance_along_line(main_line, pos, is_projected)
             dist_points.append({'dist': pos, 'label': label, 'ptype': 'distance', 'meta': {}, 'geometry': pt})
             k += 1
-
     # ----------------- Combine anchors and distance points -----------------
     combined = anchors + dist_points
     combined_sorted = sorted(combined, key=lambda x: x['dist'])
@@ -338,7 +489,7 @@ def process_shapefile(
             'ptype': [p['ptype'] for p in combined_sorted],
             'dist_m': [p['dist'] for p in combined_sorted],
             'geometry': [p['geometry'] for p in combined_sorted],
-            'span': s
+            'span': span_filter
         },
         crs=gdf.crs
     )
@@ -365,7 +516,7 @@ def process_shapefile(
         try:
             last = kept[-1]
         except IndexError:
-            print(s)
+            print(span_filter)
             print(kept)
             continue
         gap = curr['dist'] - last['dist']
@@ -378,15 +529,7 @@ def process_shapefile(
         if last.get('label') == 'Brown Field Conn':
             continue
         if last.get('label') == 'First_Point':
-            # always keep last (the first point). Decide whether to keep curr based on priority: delete crossing endpoints near distance points
-            if is_cross_endpoint(curr) and curr['ptype'] in ('cross_start', 'cross_end'):
-                # delete crossing endpoint (skip curr)
-                # (rule: if crossing start or end is too close to a distance point -> delete crossing start/end)
-                # skip adding curr
-                continue
-            else:
-                # drop curr (because we must keep the first and the second is within min_buffer)
-                continue
+            continue
         # If pair is crossing endpoint vs distance point: delete the crossing endpoint
         if is_cross_endpoint(curr) and last['ptype'] == 'distance':
             # curr is crossing endpoint too-close to a distance point -> delete curr
@@ -451,8 +594,6 @@ def process_shapefile(
                     else:
                         # keep last, drop curr
                         continue
-
-
         # At this point, none of the special rules apply: default behaviour -> keep the earlier (last) and drop the later (curr)
         # So simply skip curr
         continue
@@ -465,55 +606,11 @@ def process_shapefile(
             'ptype': [p['ptype'] for p in final_points],
             'dist_m': [p['dist'] for p in final_points],
             'geometry': [p['geometry'] for p in final_points],
-            'span':s
+            'span':span_filter
         },
         crs=gdf.crs
     )
     # Save
     # out_gdf.to_file(output_path)
-    print(f"Saved {len(out_gdf)} manholes for span {s}")
+    print(f"Saved {len(out_gdf)} manholes for span {span_filter}")
     return out_gdf, main_line, temp_gdf
-
-# -------------------- Sample generator & main --------------------
-
-if __name__ == "__main__":
-    version = "1.0"
-    block_name = "Jaithari"
-    # Example manual points JSON (optional). Save a small sample file if you want to test manual points:
-    # [
-    #   {"x": 2000.0, "y": 0.0, "label": "User_Manual_1"},
-    #   {"x": 5200.0, "y": 0.0, "label": "User_Manual_2"}
-    # ]
-    # save as manual_points.json and pass manual_points_json="manual_points.json"
-    sample_path = f'input/OFC_New_{block_name}-1_Seg_Span_Seq.shp'
-    # sample_path = f'input/OFC_NEW.shp'
-    gdf = gpd.read_file(sample_path)
-    span_list = gdf.sort_values('span_name').span_name.unique()
-    temp_merged = gpd.GeoDataFrame(columns=['label', 'ptype', 'dist_m', 'geometry', 'span'], crs=gdf.crs)
-    merged = gpd.GeoDataFrame(columns=['label', 'ptype', 'dist_m', 'geometry', 'span'], crs=gdf.crs)
-    for s in span_list:
-        if s is not None:
-            try:
-                out_gdf, main_line, temp_gdf = process_shapefile(
-                    sample_path,
-                    span_filter=s,
-                    crossing_offset=10.0,
-                    feature_endpoint_offset=5.0,
-                    crossing_types=None,
-                    crossing_field="crossing_t",
-                    distance_interval=1800.0,
-                    min_buffer=150.0,
-                    small_crossing_thresh=100.0,
-                    manual_points_json=f"temp/sharp_turn_points_{block_name}.json"  # set to "manual_points.json" to include manual points
-                )
-                temp_merged = gpd.GeoDataFrame(pd.concat([temp_merged, temp_gdf], ignore_index=True), crs=merged.crs)
-                merged = gpd.GeoDataFrame(pd.concat([merged,out_gdf], ignore_index=True), crs=merged.crs)
-                temp_merged.to_file(f"temp/Temp_manholes-{block_name}.shp")
-                merged.to_file(f"output/manholes-{block_name}.shp")
-            except:
-                continue
-        else:
-            continue
-
-
-

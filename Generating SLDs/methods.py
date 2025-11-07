@@ -60,7 +60,7 @@ def merge_consecutive(group):
                 coords = list(current_geom.coords) + list(new_geom.coords)[1:]
                 current_geom = LineString(coords)
             except Exception as e:
-                print(row.OBJECTID)
+                # print(row.OBJECTID)
                 print(row.geometry)
                 print(e)
                 continue
