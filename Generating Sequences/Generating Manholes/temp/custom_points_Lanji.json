@@ -1,0 +1,1506 @@
+[
+  {
+    "x": 80.55204604400006,
+    "y": 21.38064229500003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_AMEDRA(B) TO BAHELA_15_18",
+    "type": "sharp_edge",
+    "span": "AMEDRA(B) TO BAHELA"
+  },
+  {
+    "x": 80.52636296100007,
+    "y": 21.396611102000065,
+    "crs": "EPSG:4326",
+    "label": "Sharp_AMEDRA(B) TO BAHELA_31_34",
+    "type": "sharp_edge",
+    "span": "AMEDRA(B) TO BAHELA"
+  },
+  {
+    "x": 80.52684985900004,
+    "y": 21.39578946200004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_AMEDRA(B) TO BAHELA_32_33",
+    "type": "sharp_edge",
+    "span": "AMEDRA(B) TO BAHELA"
+  },
+  {
+    "x": 80.43411740300007,
+    "y": 21.50405891300005,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BINJHALGAON TO AAWA_82_83",
+    "type": "sharp_edge",
+    "span": "BINJHALGAON TO AAWA"
+  },
+  {
+    "x": 80.42905880600006,
+    "y": 21.50375139600004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BINJHALGAON TO AAWA_85_86",
+    "type": "sharp_edge",
+    "span": "BINJHALGAON TO AAWA"
+  },
+  {
+    "x": 80.42205616800004,
+    "y": 21.49823215500004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BINJHALGAON TO UMARI_87_99",
+    "type": "sharp_edge",
+    "span": "BINJHALGAON TO UMARI"
+  },
+  {
+    "x": 80.54698115900004,
+    "y": 21.42786882300004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BIRANPUR TO LANJI BLOCK_114_118",
+    "type": "sharp_edge",
+    "span": "BIRANPUR TO LANJI BLOCK"
+  },
+  {
+    "x": 80.54550789300004,
+    "y": 21.434118004000027,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BIRANPUR TO LANJI BLOCK_119_122",
+    "type": "sharp_edge",
+    "span": "BIRANPUR TO LANJI BLOCK"
+  },
+  {
+    "x": 80.52489970900007,
+    "y": 21.454070054000056,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BIRANPUR TO LANJI BLOCK_127_128",
+    "type": "sharp_edge",
+    "span": "BIRANPUR TO LANJI BLOCK"
+  },
+  {
+    "x": 80.54209081700003,
+    "y": 21.502329693000036,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BIRANPUR TO LANJI BLOCK_160_171",
+    "type": "sharp_edge",
+    "span": "BIRANPUR TO LANJI BLOCK"
+  },
+  {
+    "x": 80.45615460500005,
+    "y": 21.532287629000052,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BOLEGAON TO BENEGAON_186_187",
+    "type": "sharp_edge",
+    "span": "BOLEGAON TO BENEGAON"
+  },
+  {
+    "x": 80.55747198100005,
+    "y": 21.414551325000048,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BOMHANWADA TO SAWRIKHURD_256_259",
+    "type": "sharp_edge",
+    "span": "BOMHANWADA TO SAWRIKHURD"
+  },
+  {
+    "x": 80.39641198700008,
+    "y": 21.528166758000054,
+    "crs": "EPSG:4326",
+    "label": "Sharp_CHIKHALAMALI TO KANDRIKHURD_329_330",
+    "type": "sharp_edge",
+    "span": "CHIKHALAMALI TO KANDRIKHURD"
+  },
+  {
+    "x": 80.44774966400007,
+    "y": 21.43263729800003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DAHEGAON TO SINGOLA_356_357",
+    "type": "sharp_edge",
+    "span": "DAHEGAON TO SINGOLA"
+  },
+  {
+    "x": 80.44404920100004,
+    "y": 21.48535288200003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DIGHORI TO KUMAHARIKALA_366_379",
+    "type": "sharp_edge",
+    "span": "DIGHORI TO KUMAHARIKALA"
+  },
+  {
+    "x": 80.54679625100005,
+    "y": 21.40714607700005,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DONGARGAON TO OATEKASA_387_389",
+    "type": "sharp_edge",
+    "span": "DONGARGAON TO OATEKASA"
+  },
+  {
+    "x": 80.49619034700004,
+    "y": 21.522618455000043,
+    "crs": "EPSG:4326",
+    "label": "Sharp_GHOTIGHUSMARA TO KHAJARI_416_420",
+    "type": "sharp_edge",
+    "span": "GHOTIGHUSMARA TO KHAJARI"
+  },
+  {
+    "x": 80.49135959300008,
+    "y": 21.523382136000066,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KAKODI TO BHIMODI_422_425",
+    "type": "sharp_edge",
+    "span": "KAKODI TO BHIMODI"
+  },
+  {
+    "x": 80.43002498200008,
+    "y": 21.412393619000056,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KARANJA TO DEWALGAON_463_464",
+    "type": "sharp_edge",
+    "span": "KARANJA TO DEWALGAON"
+  },
+  {
+    "x": 80.51081942900004,
+    "y": 21.477612774000022,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KATANGI TO LANJI BLOCK_484_487",
+    "type": "sharp_edge",
+    "span": "KATANGI TO LANJI BLOCK"
+  },
+  {
+    "x": 80.50803249300003,
+    "y": 21.483537890000036,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KATANGI TO LANJI BLOCK_490_511",
+    "type": "sharp_edge",
+    "span": "KATANGI TO LANJI BLOCK"
+  },
+  {
+    "x": 80.44053924300005,
+    "y": 21.45728979100005,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KEREGAON TO LADASA_514_521",
+    "type": "sharp_edge",
+    "span": "KEREGAON TO LADASA"
+  },
+  {
+    "x": 80.44244888500003,
+    "y": 21.453825830000028,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KEREGAON TO LADASA_519_520",
+    "type": "sharp_edge",
+    "span": "KEREGAON TO LADASA"
+  },
+  {
+    "x": 80.49433038300003,
+    "y": 21.513892128000066,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KHAJARI TO LANJI BLOCK_523_535",
+    "type": "sharp_edge",
+    "span": "KHAJARI TO LANJI BLOCK"
+  },
+  {
+    "x": 80.44861225000005,
+    "y": 21.481015631000048,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KUMAHARIKALA TO SIREGAON_637_638",
+    "type": "sharp_edge",
+    "span": "KUMAHARIKALA TO SIREGAON"
+  },
+  {
+    "x": 80.56509740900003,
+    "y": 21.504338964000056,
+    "crs": "EPSG:4326",
+    "label": "Sharp_LANJI BLOCK TO BISONI_696_700",
+    "type": "sharp_edge",
+    "span": "LANJI BLOCK TO BISONI"
+  },
+  {
+    "x": 80.55139659200006,
+    "y": 21.501577386000065,
+    "crs": "EPSG:4326",
+    "label": "Sharp_LANJI BLOCK TO BISONI_701_702",
+    "type": "sharp_edge",
+    "span": "LANJI BLOCK TO BISONI"
+  },
+  {
+    "x": 80.53848868700004,
+    "y": 21.498294594000072,
+    "crs": "EPSG:4326",
+    "label": "Sharp_LANJI BLOCK TO KALPATHRI_743_770",
+    "type": "sharp_edge",
+    "span": "LANJI BLOCK TO KALPATHRI"
+  },
+  {
+    "x": 80.56508260200007,
+    "y": 21.504246900000055,
+    "crs": "EPSG:4326",
+    "label": "Sharp_LANJI BLOCK TO KALPATHRI_757_759",
+    "type": "sharp_edge",
+    "span": "LANJI BLOCK TO KALPATHRI"
+  },
+  {
+    "x": 80.53320318900006,
+    "y": 21.49932558000006,
+    "crs": "EPSG:4326",
+    "label": "Sharp_LANJI BLOCK TO KALPATHRI_772_773",
+    "type": "sharp_edge",
+    "span": "LANJI BLOCK TO KALPATHRI"
+  },
+  {
+    "x": 80.55138155600008,
+    "y": 21.501492824000024,
+    "crs": "EPSG:4326",
+    "label": "Sharp_LANJI BLOCK TO MANERI_796_797",
+    "type": "sharp_edge",
+    "span": "LANJI BLOCK TO MANERI"
+  },
+  {
+    "x": 80.56513822700003,
+    "y": 21.50435224100005,
+    "crs": "EPSG:4326",
+    "label": "Sharp_LANJI BLOCK TO MANERI_830_833",
+    "type": "sharp_edge",
+    "span": "LANJI BLOCK TO MANERI"
+  },
+  {
+    "x": 80.55168911400006,
+    "y": 21.501231763000078,
+    "crs": "EPSG:4326",
+    "label": "Sharp_LANJI BLOCK TO PURWATOLA_839_842",
+    "type": "sharp_edge",
+    "span": "LANJI BLOCK TO PURWATOLA"
+  },
+  {
+    "x": 80.44084994900004,
+    "y": 21.378952532000028,
+    "crs": "EPSG:4326",
+    "label": "Sharp_MIRIYA TO PARASWADA_869_906",
+    "type": "sharp_edge",
+    "span": "MIRIYA TO PARASWADA"
+  },
+  {
+    "x": 80.41472511600006,
+    "y": 21.527342023000074,
+    "crs": "EPSG:4326",
+    "label": "Sharp_MOHAJHARI TO T-POINT AAWA_910_912",
+    "type": "sharp_edge",
+    "span": "MOHAJHARI TO T-POINT AAWA"
+  },
+  {
+    "x": 80.61589873300005,
+    "y": 21.514928044000044,
+    "crs": "EPSG:4326",
+    "label": "Sharp_NANDORA TO KHURSITOLA_935_938",
+    "type": "sharp_edge",
+    "span": "NANDORA TO KHURSITOLA"
+  },
+  {
+    "x": 80.56151952000005,
+    "y": 21.40577206100005,
+    "crs": "EPSG:4326",
+    "label": "Sharp_OATEKASA TO T-POINT SAWRIKHURD_967_968",
+    "type": "sharp_edge",
+    "span": "OATEKASA TO T-POINT SAWRIKHURD"
+  },
+  {
+    "x": 80.56440124300008,
+    "y": 21.408188086000052,
+    "crs": "EPSG:4326",
+    "label": "Sharp_OATEKASA TO T-POINT SAWRIKHURD_967_970",
+    "type": "sharp_edge",
+    "span": "OATEKASA TO T-POINT SAWRIKHURD"
+  },
+  {
+    "x": 80.41625870300004,
+    "y": 21.52810064700003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_PARDI TO MOHAJHARI_984_1011",
+    "type": "sharp_edge",
+    "span": "PARDI TO MOHAJHARI"
+  },
+  {
+    "x": 80.39696293800006,
+    "y": 21.539461518000053,
+    "crs": "EPSG:4326",
+    "label": "Sharp_PARDI TO MOHAJHARI_1006_1007",
+    "type": "sharp_edge",
+    "span": "PARDI TO MOHAJHARI"
+  },
+  {
+    "x": 80.46841356700008,
+    "y": 21.500184795000052,
+    "crs": "EPSG:4326",
+    "label": "Sharp_PATHARGAON TO DIGHORI_1021_1038",
+    "type": "sharp_edge",
+    "span": "PATHARGAON TO DIGHORI"
+  },
+  {
+    "x": 80.53486547400007,
+    "y": 21.52742209400003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_PIPALGAON KHURD TO LANJI BLOCK_1043_1044",
+    "type": "sharp_edge",
+    "span": "PIPALGAON KHURD TO LANJI BLOCK"
+  },
+  {
+    "x": 80.55904999300003,
+    "y": 21.505300031000047,
+    "crs": "EPSG:4326",
+    "label": "Sharp_PIPALGAON KHURD TO LANJI BLOCK_1054_1055",
+    "type": "sharp_edge",
+    "span": "PIPALGAON KHURD TO LANJI BLOCK"
+  },
+  {
+    "x": 80.54636047400004,
+    "y": 21.540980673000035,
+    "crs": "EPSG:4326",
+    "label": "Sharp_PONI TO PIPALGAON KHURD_1098_1116",
+    "type": "sharp_edge",
+    "span": "PONI TO PIPALGAON KHURD"
+  },
+  {
+    "x": 80.56278989100008,
+    "y": 21.380055769000023,
+    "crs": "EPSG:4326",
+    "label": "Sharp_RISEWADA TO ANDHIYATOLA_1174_1175",
+    "type": "sharp_edge",
+    "span": "RISEWADA TO ANDHIYATOLA"
+  },
+  {
+    "x": 80.46680988600008,
+    "y": 21.451343043000065,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SADRA TO DAHEGAON_1185_1186",
+    "type": "sharp_edge",
+    "span": "SADRA TO DAHEGAON"
+  },
+  {
+    "x": 80.43196334900006,
+    "y": 21.476128671000026,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SIREGAON TO BINJHALGAON_1273_1274",
+    "type": "sharp_edge",
+    "span": "SIREGAON TO BINJHALGAON"
+  },
+  {
+    "x": 80.62994516900005,
+    "y": 21.545371491000026,
+    "crs": "EPSG:4326",
+    "label": "Sharp_T-POINT GHOTI TO SARRA_1295_1296",
+    "type": "sharp_edge",
+    "span": "T-POINT GHOTI TO SARRA"
+  },
+  {
+    "x": 80.66144797400005,
+    "y": 21.595608782000056,
+    "crs": "EPSG:4326",
+    "label": "Sharp_T-POINT NANDORA TO  BELGAON_1304_1400",
+    "type": "sharp_edge",
+    "span": "T-POINT NANDORA TO  BELGAON"
+  },
+  {
+    "x": 80.49465725900006,
+    "y": 21.567385845000047,
+    "crs": "EPSG:4326",
+    "label": "Sharp_TEMNI TO PIPALGAON_1426_1428",
+    "type": "sharp_edge",
+    "span": "TEMNI TO PIPALGAON"
+  },
+  {
+    "x": 80.44681678400008,
+    "y": 21.508980559000065,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "AAWA TO SIHARI"
+  },
+  {
+    "x": 80.45437330000004,
+    "y": 21.511698300000035,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "AAWA TO SIHARI"
+  },
+  {
+    "x": 80.47871110000006,
+    "y": 21.475837200000058,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "AMEDRA(P) TO RAMPURA"
+  },
+  {
+    "x": 80.49718330000007,
+    "y": 21.48824170000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "AMEDRA(P) TO RAMPURA"
+  },
+  {
+    "x": 80.56316000000004,
+    "y": 21.37232000000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "ANDHIYATOLA TO AMEDRA(B)"
+  },
+  {
+    "x": 80.55297210000003,
+    "y": 21.37918110000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "ANDHIYATOLA TO AMEDRA(B)"
+  },
+  {
+    "x": 80.48961790000004,
+    "y": 21.432444400000065,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BADGAON(M) TO FOFSA"
+  },
+  {
+    "x": 80.48964210000008,
+    "y": 21.445829600000025,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BADGAON(M) TO FOFSA"
+  },
+  {
+    "x": 80.50872670000007,
+    "y": 21.535555000000045,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BADGOAN (K) TO KAKODI"
+  },
+  {
+    "x": 80.49354211600007,
+    "y": 21.54173577100005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BADGOAN (K) TO KAKODI"
+  },
+  {
+    "x": 80.52608210000005,
+    "y": 21.398806200000024,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BAHELA TO DONGARGAON"
+  },
+  {
+    "x": 80.54692830000005,
+    "y": 21.407448300000055,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BAHELA TO DONGARGAON"
+  },
+  {
+    "x": 80.41422920000008,
+    "y": 21.42447210000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BAPADI TO KARANJA"
+  },
+  {
+    "x": 80.42983647800008,
+    "y": 21.412361216000022,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BAPADI TO KARANJA"
+  },
+  {
+    "x": 80.47663433800005,
+    "y": 21.549527325000042,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BHIMODI TO KOCHEWAHI"
+  },
+  {
+    "x": 80.48383530000007,
+    "y": 21.546930400000065,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BHIMODI TO KOCHEWAHI"
+  },
+  {
+    "x": 80.43411740300007,
+    "y": 21.50405891300005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BINJHALGAON TO AAWA"
+  },
+  {
+    "x": 80.43847500000004,
+    "y": 21.512198300000023,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BINJHALGAON TO AAWA"
+  },
+  {
+    "x": 80.55233938600009,
+    "y": 21.503190062000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BIRANPUR TO LANJI BLOCK"
+  },
+  {
+    "x": 80.55901930000005,
+    "y": 21.505151900000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BIRANPUR TO LANJI BLOCK"
+  },
+  {
+    "x": 80.52365760000004,
+    "y": 21.49171510000008,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BISONI TO PALDONGRI"
+  },
+  {
+    "x": 80.50798208100008,
+    "y": 21.483499598000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BISONI TO PALDONGRI"
+  },
+  {
+    "x": 80.49509638700005,
+    "y": 21.47552816600006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BISONI TO PALDONGRI"
+  },
+  {
+    "x": 80.48989605000008,
+    "y": 21.473277924000058,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BISONI TO PALDONGRI"
+  },
+  {
+    "x": 80.45590500000003,
+    "y": 21.533641700000032,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BOLEGAON TO BENEGAON"
+  },
+  {
+    "x": 80.44756520000004,
+    "y": 21.53824650000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BOLEGAON TO BENEGAON"
+  },
+  {
+    "x": 80.42965043000004,
+    "y": 21.53822137900005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BOLEGAON TO TEDWA"
+  },
+  {
+    "x": 80.42645917200008,
+    "y": 21.540643078000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BOLEGAON TO TEDWA"
+  },
+  {
+    "x": 80.57069970000003,
+    "y": 21.412041100000067,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BOMHANWADA TO SAWRIKHURD"
+  },
+  {
+    "x": 80.56415026600007,
+    "y": 21.408447246000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BOMHANWADA TO SAWRIKHURD"
+  },
+  {
+    "x": 80.53454975100004,
+    "y": 21.45654048700004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BURASADONGARI TO WARI"
+  },
+  {
+    "x": 80.57585500000005,
+    "y": 21.433228300000053,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BURASADONGARI TO WARI"
+  },
+  {
+    "x": 80.51394340000007,
+    "y": 21.41507770000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHICHOLI TO DHANSA"
+  },
+  {
+    "x": 80.51222013000006,
+    "y": 21.410626655000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHICHOLI TO DHANSA"
+  },
+  {
+    "x": 80.51594300000005,
+    "y": 21.416669800000022,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHIKHLI(CHURALI) TO CHICHOLI"
+  },
+  {
+    "x": 80.51394340000007,
+    "y": 21.41507770000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHIKHLI(CHURALI) TO CHICHOLI"
+  },
+  {
+    "x": 80.45763889000006,
+    "y": 21.448753965000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DAHEGAON TO KEREGAON"
+  },
+  {
+    "x": 80.45590559100003,
+    "y": 21.451002214000027,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DAHEGAON TO KEREGAON"
+  },
+  {
+    "x": 80.45763889000006,
+    "y": 21.448753965000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DAHEGAON TO SINGOLA"
+  },
+  {
+    "x": 80.45097249700007,
+    "y": 21.43193513600005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DAHEGAON TO SINGOLA"
+  },
+  {
+    "x": 80.48405139700003,
+    "y": 21.401305509000053,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DHANSA TO BOTHALI"
+  },
+  {
+    "x": 80.49274340000005,
+    "y": 21.417726300000027,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DHANSA TO BOTHALI"
+  },
+  {
+    "x": 80.45941968300008,
+    "y": 21.49033812600004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DIGHORI TO KUMAHARIKALA"
+  },
+  {
+    "x": 80.45890351600008,
+    "y": 21.489999141000055,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DIGHORI TO KUMAHARIKALA"
+  },
+  {
+    "x": 80.51440420000006,
+    "y": 21.51935210000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DULHAPUR TO BADGOAN (K)"
+  },
+  {
+    "x": 80.50872670000007,
+    "y": 21.535555000000045,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DULHAPUR TO BADGOAN (K)"
+  },
+  {
+    "x": 80.48964210000008,
+    "y": 21.445829600000025,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "FOFSA TO SAHEKI"
+  },
+  {
+    "x": 80.49957039600008,
+    "y": 21.471470130000057,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "FOFSA TO SAHEKI"
+  },
+  {
+    "x": 80.61025892200007,
+    "y": 21.521791747000066,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GHOTI TO NANDORA"
+  },
+  {
+    "x": 80.61553500000008,
+    "y": 21.516016700000023,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GHOTI TO NANDORA"
+  },
+  {
+    "x": 80.47420260000007,
+    "y": 21.51903150000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GHOTIGHUSMARA TO KHAJARI"
+  },
+  {
+    "x": 80.49243473900003,
+    "y": 21.523454258000072,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GHOTIGHUSMARA TO KHAJARI"
+  },
+  {
+    "x": 80.49619034700004,
+    "y": 21.522618455000043,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GHOTIGHUSMARA TO KHAJARI"
+  },
+  {
+    "x": 80.49452640000004,
+    "y": 21.513999700000056,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GHOTIGHUSMARA TO KHAJARI"
+  },
+  {
+    "x": 80.49059460000007,
+    "y": 21.528790800000024,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KAKODI TO BHIMODI"
+  },
+  {
+    "x": 80.49135959300008,
+    "y": 21.523382136000066,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KAKODI TO BHIMODI"
+  },
+  {
+    "x": 80.47874602800005,
+    "y": 21.526744092000058,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KAKODI TO BHIMODI"
+  },
+  {
+    "x": 80.47546930000004,
+    "y": 21.531619000000035,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KAKODI TO BHIMODI"
+  },
+  {
+    "x": 80.53138000000007,
+    "y": 21.469201700000042,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KALIMATI TO BURASADONGARI"
+  },
+  {
+    "x": 80.53453835600004,
+    "y": 21.45662184300005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KALIMATI TO BURASADONGARI"
+  },
+  {
+    "x": 80.48527005600005,
+    "y": 21.501160233000064,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KALPATHRI TO PATHARGAON"
+  },
+  {
+    "x": 80.48460500000004,
+    "y": 21.501216700000043,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KALPATHRI TO PATHARGAON"
+  },
+  {
+    "x": 80.43901105900005,
+    "y": 21.41660206800003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KARANJA TO DEWALGAON"
+  },
+  {
+    "x": 80.44774180000007,
+    "y": 21.432672301000025,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KARANJA TO DEWALGAON"
+  },
+  {
+    "x": 80.44339401100007,
+    "y": 21.453330315000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KEREGAON TO LADASA"
+  },
+  {
+    "x": 80.41704330000005,
+    "y": 21.47114830000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KEREGAON TO LADASA"
+  },
+  {
+    "x": 80.56793110000007,
+    "y": 21.47138590000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHANDAPHARI TO THANEGAON"
+  },
+  {
+    "x": 80.54964960000007,
+    "y": 21.476653000000056,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHANDAPHARI TO THANEGAON"
+  },
+  {
+    "x": 80.47654907600008,
+    "y": 21.54953021800003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KOCHEWAHI TO TEMNI"
+  },
+  {
+    "x": 80.46329270000007,
+    "y": 21.555488800000035,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KOCHEWAHI TO TEMNI"
+  },
+  {
+    "x": 80.42104950000004,
+    "y": 21.38844910000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KULPA TO PARSODI"
+  },
+  {
+    "x": 80.41917465800003,
+    "y": 21.395674722000024,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KULPA TO PARSODI"
+  },
+  {
+    "x": 80.44861225000005,
+    "y": 21.481015631000048,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KUMAHARIKALA TO SIREGAON"
+  },
+  {
+    "x": 80.43628346800006,
+    "y": 21.47390815800003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KUMAHARIKALA TO SIREGAON"
+  },
+  {
+    "x": 80.46547240000007,
+    "y": 21.47950590000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KUMARIKHURD TO AMEDRA(P)"
+  },
+  {
+    "x": 80.46764420000005,
+    "y": 21.47833971600005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KUMARIKHURD TO AMEDRA(P)"
+  },
+  {
+    "x": 80.44871418300005,
+    "y": 21.481035072000054,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "LADASA TO KUMARIKHURD"
+  },
+  {
+    "x": 80.46132079100005,
+    "y": 21.481916725000076,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "LADASA TO KUMARIKHURD"
+  },
+  {
+    "x": 80.52795678100006,
+    "y": 21.49428150800003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "LANJI BLOCK TO BISONI"
+  },
+  {
+    "x": 80.52365760000004,
+    "y": 21.49171510000008,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "LANJI BLOCK TO BISONI"
+  },
+  {
+    "x": 80.55901930000005,
+    "y": 21.505151900000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "LANJI BLOCK TO DULHAPUR"
+  },
+  {
+    "x": 80.51440420000006,
+    "y": 21.51935210000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "LANJI BLOCK TO DULHAPUR"
+  },
+  {
+    "x": 80.55901930000005,
+    "y": 21.505151900000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "LANJI BLOCK TO GHOTI"
+  },
+  {
+    "x": 80.60177330000005,
+    "y": 21.514040000000023,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "LANJI BLOCK TO GHOTI"
+  },
+  {
+    "x": 80.49191565700005,
+    "y": 21.503922857000077,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "LANJI BLOCK TO KALPATHRI"
+  },
+  {
+    "x": 80.49111850000008,
+    "y": 21.504956700000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "LANJI BLOCK TO KALPATHRI"
+  },
+  {
+    "x": 80.55168911400006,
+    "y": 21.501231763000078,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "LANJI BLOCK TO PURWATOLA"
+  },
+  {
+    "x": 80.56038130000007,
+    "y": 21.48987640000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "LANJI BLOCK TO PURWATOLA"
+  },
+  {
+    "x": 80.53782660000007,
+    "y": 21.501630400000067,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "LANJI TO LANJI BLOCK"
+  },
+  {
+    "x": 80.55901930000005,
+    "y": 21.505151900000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "LANJI TO LANJI BLOCK"
+  },
+  {
+    "x": 80.51619170000004,
+    "y": 21.435856000000058,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MANERI TO CHIKHLI(CHURALI)"
+  },
+  {
+    "x": 80.51594300000005,
+    "y": 21.416669800000022,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MANERI TO CHIKHLI(CHURALI)"
+  },
+  {
+    "x": 80.43204630000008,
+    "y": 21.559529300000065,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MOHARA TO T-POINT TEMNI"
+  },
+  {
+    "x": 80.46215053000003,
+    "y": 21.556489688000056,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MOHARA TO T-POINT TEMNI"
+  },
+  {
+    "x": 80.56418385500007,
+    "y": 21.408418382000036,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "OATEKASA TO T-POINT SAWRIKHURD"
+  },
+  {
+    "x": 80.56415026600007,
+    "y": 21.408447246000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "OATEKASA TO T-POINT SAWRIKHURD"
+  },
+  {
+    "x": 80.48375122000004,
+    "y": 21.470050142000048,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PALDONGRI TO SADRA"
+  },
+  {
+    "x": 80.46833868100003,
+    "y": 21.457486552000034,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PALDONGRI TO SADRA"
+  },
+  {
+    "x": 80.44093530000004,
+    "y": 21.37910210000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PARASWADA TO KULPA"
+  },
+  {
+    "x": 80.42104950000004,
+    "y": 21.38844910000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PARASWADA TO KULPA"
+  },
+  {
+    "x": 80.40403790000005,
+    "y": 21.412180500000034,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PARSODI TO BAPADI"
+  },
+  {
+    "x": 80.41422920000008,
+    "y": 21.42447210000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PARSODI TO BAPADI"
+  },
+  {
+    "x": 80.56038130000007,
+    "y": 21.48987640000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PURWATOLA TO TEKRI"
+  },
+  {
+    "x": 80.56077160000007,
+    "y": 21.486388600000055,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PURWATOLA TO TEKRI"
+  },
+  {
+    "x": 80.52863005200004,
+    "y": 21.49482737900007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "RAMPURA TO LANJI"
+  },
+  {
+    "x": 80.53782660000007,
+    "y": 21.501630400000067,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "RAMPURA TO LANJI"
+  },
+  {
+    "x": 80.62993450000005,
+    "y": 21.54544290000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SARRA TO KANSULI"
+  },
+  {
+    "x": 80.64329561500006,
+    "y": 21.55928723200003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SARRA TO KANSULI"
+  },
+  {
+    "x": 80.39337110000008,
+    "y": 21.505521200000032,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SAWARIKALA TO CHIKHALAMALI"
+  },
+  {
+    "x": 80.39655000000005,
+    "y": 21.52810000000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SAWARIKALA TO CHIKHALAMALI"
+  },
+  {
+    "x": 80.55252505100003,
+    "y": 21.430220919000078,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SAWRIKHURD TO BIRANPUR"
+  },
+  {
+    "x": 80.54713670000007,
+    "y": 21.427801700000032,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SAWRIKHURD TO BIRANPUR"
+  },
+  {
+    "x": 80.46345630100006,
+    "y": 21.420325349000052,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SINGOLA TO MIRIYA"
+  },
+  {
+    "x": 80.46429651200003,
+    "y": 21.41787198000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SINGOLA TO MIRIYA"
+  },
+  {
+    "x": 80.44136336000008,
+    "y": 21.489873169000077,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SIREGAON TO BINJHALGAON"
+  },
+  {
+    "x": 80.42956090000007,
+    "y": 21.503531200000054,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SIREGAON TO BINJHALGAON"
+  },
+  {
+    "x": 80.66144797400005,
+    "y": 21.595608782000056,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT BELGAON TO DEWRBELI"
+  },
+  {
+    "x": 80.65929101400008,
+    "y": 21.606251015000055,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT BELGAON TO DEWRBELI"
+  },
+  {
+    "x": 80.65928666600007,
+    "y": 21.60625179400006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT BELGAON TO DEWRBELI"
+  },
+  {
+    "x": 80.65671830000008,
+    "y": 21.625230000000045,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT BELGAON TO DEWRBELI"
+  },
+  {
+    "x": 80.45590500000003,
+    "y": 21.533641700000032,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT BOLEGAON TO DORLI"
+  },
+  {
+    "x": 80.44210701500003,
+    "y": 21.547017509000057,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT BOLEGAON TO DORLI"
+  },
+  {
+    "x": 80.60144311200008,
+    "y": 21.51814362500005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT GHOTI TO PAUSERA"
+  },
+  {
+    "x": 80.59337360000006,
+    "y": 21.52851890000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT GHOTI TO PAUSERA"
+  },
+  {
+    "x": 80.61129761600006,
+    "y": 21.52224155700003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT GHOTI TO SARRA"
+  },
+  {
+    "x": 80.62961502300004,
+    "y": 21.54535154000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT GHOTI TO SARRA"
+  },
+  {
+    "x": 80.64329561500006,
+    "y": 21.55928723200003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT KANSULI TO NEWARWAHI"
+  },
+  {
+    "x": 80.65283500000004,
+    "y": 21.57384170000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT KANSULI TO NEWARWAHI"
+  },
+  {
+    "x": 80.42643496200003,
+    "y": 21.54065633600004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "TEDWA TO BHANEGOAN"
+  },
+  {
+    "x": 80.40636370000004,
+    "y": 21.555429900000036,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "TEDWA TO BHANEGOAN"
+  },
+  {
+    "x": 80.46329270000007,
+    "y": 21.555488800000035,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "TEMNI TO PIPALGAON"
+  },
+  {
+    "x": 80.46215053000003,
+    "y": 21.556489688000056,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "TEMNI TO PIPALGAON"
+  },
+  {
+    "x": 80.54964960000007,
+    "y": 21.476653000000056,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "THANEGAON TO KALIMATI"
+  },
+  {
+    "x": 80.53138000000007,
+    "y": 21.469201700000042,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "THANEGAON TO KALIMATI"
+  },
+  {
+    "x": 80.40236258200008,
+    "y": 21.487758110000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "UMARI TO SAWARIKALA"
+  },
+  {
+    "x": 80.39337110000008,
+    "y": 21.505521200000032,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "UMARI TO SAWARIKALA"
+  },
+  {
+    "x": 80.56773029700008,
+    "y": 21.42149108900003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "WARI TO BOMHANWADA"
+  },
+  {
+    "x": 80.57069970000003,
+    "y": 21.412041100000067,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "WARI TO BOMHANWADA"
+  }
+]

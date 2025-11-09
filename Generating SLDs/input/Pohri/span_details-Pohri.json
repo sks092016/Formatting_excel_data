@@ -1,0 +1,513 @@
+{
+    "PARASARI TO DAURANI": {
+        "GRAMPANCHAYAT": 190.0481630477521,
+        "PWD": 7864.409472562054,
+        "Ring": "R4",
+        "Span_id": "005"
+    },
+    "NANORA TO NONHETA KHURD": {
+        "PMGY": 3593.2355959839956,
+        "Ring": "R1",
+        "Span_id": "003"
+    },
+    "NONHETA KHURD TO DANGBARBE": {
+        "PMGY": 5275.621370383763,
+        "Ring": "R1",
+        "Span_id": "004"
+    },
+    "T POINT BILAUA TO MADKHEDA": {
+        "GRAMPANCHAYAT": 597.0261645293222,
+        "PMGY": 2554.8197770368893,
+        "SH": 16.61839873816698,
+        "Ring": "R4",
+        "Span_id": "017"
+    },
+    "BHATNAWAR TO KRISHANGANJ": {
+        "PWD": 8532.762242243447,
+        "Ring": "R1",
+        "Span_id": "018"
+    },
+    "BENHATA TO MAKLIJARA": {
+        "GRAMPANCHAYAT": 5071.157523605887,
+        "PWD": 4072.011186507492,
+        "Ring": "R2",
+        "Span_id": "002"
+    },
+    "JAKHANOD TO NANORA": {
+        "PMGY": 6101.568852616203,
+        "Ring": "R1",
+        "Span_id": "002"
+    },
+    "SEVAKHEDI TO GWALIPURA": {
+        "PMGY": 9610.83038172581,
+        "Ring": "R2",
+        "Span_id": "020"
+    },
+    "POHARI BLOCK TO CHAKARANA": {
+        "PMGY": 3468.353401283408,
+        "SH": 3602.991058774931,
+        "Ring": "R3",
+        "Span_id": "001"
+    },
+    "BILAUA TO POHARI BLOCK": {
+        "PMGY": 1309.3010609238513,
+        "SH": 18957.103752060648,
+        "Ring": "R4",
+        "Span_id": "013"
+    },
+    "POHARI BLOCK TO JAKHANOD": {
+        "PMGY": 1018.9469201079698,
+        "SH": 2141.4887982164623,
+        "Ring": "R1",
+        "Span_id": "001"
+    },
+    "POHARI BLOCK TO BENHATA": {
+        "PWD": 3730.0916387339244,
+        "SH": 244.9527196285692,
+        "Ring": "R2",
+        "Span_id": "001"
+    },
+    "CHAKARANA TO BACHORA": {
+        "PMGY": 2771.839242931471,
+        "Ring": "R3",
+        "Span_id": "002"
+    },
+    "GWALIPURA TO POHARI BLOCK": {
+        "PMGY": 2552.8021309380097,
+        "SH": 1031.673617784211,
+        "Ring": "R2",
+        "Span_id": "021"
+    },
+    "POHARI BLOCK TO PEPARGHAR": {
+        "PMGY": 3321.4399707771922,
+        "SH": 3466.874628229879,
+        "Ring": "R4",
+        "Span_id": "001"
+    },
+    "PARICCHAAHEER TO POHARI BLOCK": {
+        "GRAMPANCHAYAT": 335.55048500403535,
+        "SH": 10092.161054921655,
+        "Ring": "R3",
+        "Span_id": "013"
+    },
+    "POHARI TO POHARI BLOCK": {
+        "PWD": 821.5226153215419,
+        "SH": 217.1128542509739,
+        "Ring": "R1",
+        "Span_id": "020"
+    },
+    "KRISHANGANJ TO POHARI": {
+        "PWD": 110.56246650969871,
+        "Ring": "R1",
+        "Span_id": "019"
+    },
+    "PEPARGHAR TO DEVARIKHURD": {
+        "GRAMPANCHAYAT": 2214.452477586682,
+        "PMGY": 5335.407213501917,
+        "SH": 1094.2570378840762,
+        "Ring": "R4-C1",
+        "Span_id": "001"
+    },
+    "PEPARGHAR TO UPSIL": {
+        "GRAMPANCHAYAT": 74.15366431023115,
+        "PMGY": 3872.883560989755,
+        "Ring": "R4",
+        "Span_id": "002"
+    },
+    "VESHI TO PEPARGHAR": {
+        "GRAMPANCHAYAT": 157.93591788728406,
+        "PMGY": 5142.188145977492,
+        "Ring": "R4-C1",
+        "Span_id": "010"
+    },
+    "HINOTIYA TO BILAUA": {
+        "PMGY": 10505.740660795413,
+        "Ring": "R4",
+        "Span_id": "012"
+    },
+    "UPSIL TO AGRRA": {
+        "GRAMPANCHAYAT": 646.3820811523585,
+        "PMGY": 4230.758762766517,
+        "Ring": "R4",
+        "Span_id": "003"
+    },
+    "DEVARIKHURD TO MARORAAHEER": {
+        "GRAMPANCHAYAT": 5044.902449365786,
+        "SH": 3858.00035806592,
+        "Ring": "R4-C1",
+        "Span_id": "002"
+    },
+    "T POINT BILAUA TO MENHADEVA": {
+        "PMGY": 3195.2018755517083,
+        "Ring": "R4",
+        "Span_id": "015"
+    },
+    "MENHADEVA TO DOBHA": {
+        "PMGY": 2726.3502895363763,
+        "Ring": "R4",
+        "Span_id": "016"
+    },
+    "BAMRA TO GHATAI": {
+        "GRAMPANCHAYAT": 274.706941271006,
+        "PMGY": 4896.021722959327,
+        "Ring": "R4-C1",
+        "Span_id": "008"
+    },
+    "SALODA TO BAMRA": {
+        "GRAMPANCHAYAT": 266.5353540472433,
+        "PMGY": 5529.504012458026,
+        "Ring": "R4-C1",
+        "Span_id": "007"
+    },
+    "GHATAI TO VESHI": {
+        "GRAMPANCHAYAT": 1469.080783320246,
+        "Ring": "R4-C1",
+        "Span_id": "009"
+    },
+    "CHARCH TO HINOTIYA": {
+        "GRAMPANCHAYAT": 561.6312736650286,
+        "PMGY": 4484.640264293588,
+        "Ring": "R4",
+        "Span_id": "011"
+    },
+    "AGRRA TO PARASARI": {
+        "GRAMPANCHAYAT": 1034.1888657353693,
+        "PMGY": 2866.208113841039,
+        "Ring": "R4",
+        "Span_id": "004"
+    },
+    "DAURANI TO GALTHUNI": {
+        "GRAMPANCHAYAT": 2346.9376209392512,
+        "PWD": 9934.605043549667,
+        "Ring": "R4",
+        "Span_id": "006"
+    },
+    "DIGDOLI TO CHARCH": {
+        "GRAMPANCHAYAT": 182.37571101497292,
+        "PMGY": 10112.512175851936,
+        "Ring": "R4",
+        "Span_id": "010"
+    },
+    "T POINT CHARCH TO MAHALONI": {
+        "GRAMPANCHAYAT": 2458.8107505682065,
+        "PMGY": 9.325219018686344,
+        "Ring": "R4",
+        "Span_id": "014"
+    },
+    "GALTHUNI TO CHANDPUR": {
+        "GRAMPANCHAYAT": 4098.204705582035,
+        "Ring": "R4",
+        "Span_id": "007"
+    },
+    "CHANDPUR TO KHARWAYA": {
+        "PMGY": 2360.3223893939985,
+        "Ring": "R4",
+        "Span_id": "008"
+    },
+    "KHARWAYA TO DIGDOLI": {
+        "GRAMPANCHAYAT": 397.0649848585451,
+        "PMGY": 1192.3972427447186,
+        "Ring": "R4",
+        "Span_id": "009"
+    },
+    "NARAIYAKHEDI TO BHADRONI": {
+        "GRAMPANCHAYAT": 4337.998621159604,
+        "Ring": "R3",
+        "Span_id": "009"
+    },
+    "BILVARAKALA TO ATWEI": {
+        "PMGY": 5080.982098331463,
+        "Ring": "R2",
+        "Span_id": "018"
+    },
+    "ATWEI TO SEVAKHEDI": {
+        "PMGY": 1374.3081748209854,
+        "Ring": "R2",
+        "Span_id": "019"
+    },
+    "JHIRI TO JHALWASA": {
+        "GRAMPANCHAYAT": 2096.9031443834556,
+        "PWD": 6476.466949970003,
+        "Ring": "R3",
+        "Span_id": "004"
+    },
+    "BHADRONI TO AAKURSI": {
+        "GRAMPANCHAYAT": 9262.643063378087,
+        "Ring": "R3",
+        "Span_id": "010"
+    },
+    "BACHORA TO JHIRI": {
+        "PMGY": 7388.149923077958,
+        "PWD": 677.889020469065,
+        "Ring": "R3",
+        "Span_id": "003"
+    },
+    "AAKURSI TO KANAKHEDI": {
+        "GRAMPANCHAYAT": 4944.328774997765,
+        "Ring": "R3",
+        "Span_id": "011"
+    },
+    "KANAKHEDI TO PARICCHAAHEER": {
+        "GRAMPANCHAYAT": 2818.9068785690883,
+        "Ring": "R3",
+        "Span_id": "012"
+    },
+    "MARORAAHEER TO SIRSOD": {
+        "PMGY": 769.9238900514123,
+        "SH": 2723.225942156669,
+        "Ring": "R4-C1",
+        "Span_id": "003"
+    },
+    "SIRSOD TO TONKA": {
+        "PMGY": 3978.614328029717,
+        "Ring": "R4-C1",
+        "Span_id": "004"
+    },
+    "TONKA TO VEIDHARI": {
+        "GRAMPANCHAYAT": 931.0802441189605,
+        "PMGY": 2285.815438627563,
+        "Ring": "R4-C1",
+        "Span_id": "005"
+    },
+    "VEIDHARI TO SALODA": {
+        "GRAMPANCHAYAT": 6778.49873837946,
+        "Ring": "R4-C1",
+        "Span_id": "006"
+    },
+    "KEMAI TO JORAI": {
+        "GRAMPANCHAYAT": 507.3576845766539,
+        "PMGY": 3478.5560431995973,
+        "PWD": 695.4910327067557,
+        "Ring": "R1",
+        "Span_id": "012"
+    },
+    "RAIYAN TO KEMAI": {
+        "GRAMPANCHAYAT": 530.0721490440925,
+        "PMGY": 1675.3224882304844,
+        "Ring": "R1",
+        "Span_id": "011"
+    },
+    "DEVPURA TO RAIYAN": {
+        "GRAMPANCHAYAT": 755.6725363158158,
+        "PMGY": 1188.150607060556,
+        "Ring": "R1",
+        "Span_id": "010"
+    },
+    "T POINT TODA TO JARIYAKALA": {
+        "PWD": 5030.665160301714,
+        "Ring": "R1",
+        "Span_id": "021"
+    },
+    "KAKRAI TO DEVPURA": {
+        "GRAMPANCHAYAT": 2281.0676966147994,
+        "PMGY": 1809.8952831533004,
+        "Ring": "R1",
+        "Span_id": "009"
+    },
+    "GONDARI TO KAKRAI": {
+        "GRAMPANCHAYAT": 2624.1524502181355,
+        "PMGY": 3116.0796347806813,
+        "Ring": "R1",
+        "Span_id": "008"
+    },
+    "TODA TO MALBARBE": {
+        "PWD": 16390.30490609038,
+        "Ring": "R1",
+        "Span_id": "016"
+    },
+    "SANPARWADA TO BHORANA": {
+        "GRAMPANCHAYAT": 349.3553591639897,
+        "PWD": 11919.189006484055,
+        "Ring": "R2",
+        "Span_id": "005"
+    },
+    "GOBARA TO GONDARI": {
+        "PMGY": 1646.4869769397278,
+        "Ring": "R1",
+        "Span_id": "007"
+    },
+    "ESWAYA TO GOBARA": {
+        "PMGY": 3739.7964042027706,
+        "Ring": "R1",
+        "Span_id": "006"
+    },
+    "DEVRIKALA TO SANPARWADA": {
+        "PWD": 2175.912013278406,
+        "Ring": "R2",
+        "Span_id": "004"
+    },
+    "MAKLIJARA TO DEVRIKALA": {
+        "GRAMPANCHAYAT": 1075.3644095872878,
+        "PWD": 1451.8254104987561,
+        "Ring": "R2",
+        "Span_id": "003"
+    },
+    "DANGBARBE TO ESWAYA": {
+        "PMGY": 3528.600333104987,
+        "Ring": "R1",
+        "Span_id": "005"
+    },
+    "MALBARBE TO BHATNAWAR": {
+        "PWD": 1571.8200849134573,
+        "Ring": "R1",
+        "Span_id": "017"
+    },
+    "DULHARA TO BILVARAKALA": {
+        "PMGY": 3692.454614388864,
+        "Ring": "R2",
+        "Span_id": "017"
+    },
+    "THEVALA TO BHILODI": {
+        "GRAMPANCHAYAT": 1737.4585142531773,
+        "PMGY": 2194.7229487540367,
+        "Ring": "R1-C1",
+        "Span_id": "003"
+    },
+    "BHILODI TO BURDA": {
+        "GRAMPANCHAYAT": 1202.6391770004755,
+        "PMGY": 20130.63884072654,
+        "Ring": "R1-C1",
+        "Span_id": "004"
+    },
+    "BURDA TO GURICCHA": {
+        "PMGY": 6412.225049319326,
+        "Ring": "R1-C1",
+        "Span_id": "005"
+    },
+    "DHORIYA TO THEVALA": {
+        "GRAMPANCHAYAT": 527.9129209784112,
+        "PMGY": 3189.3694494510014,
+        "PWD": 62.476827152032186,
+        "Ring": "R1-C1",
+        "Span_id": "002"
+    },
+    "GAJIGAD TO DHORIYA": {
+        "PWD": 2127.1696003921547,
+        "Ring": "R1-C1",
+        "Span_id": "001"
+    },
+    "T POINT GOVARDHAN TO KAKRAUA": {
+        "GRAMPANCHAYAT": 2323.6642622150493,
+        "Ring": "R1-C1",
+        "Span_id": "009"
+    },
+    "GURICCHA TO KHAIRARABANWARIPURA": {
+        "PMGY": 4425.205042569766,
+        "Ring": "R1-C1",
+        "Span_id": "006"
+    },
+    "KHAIRARABANWARIPURA TO GOVARDHAN": {
+        "GRAMPANCHAYAT": 111.89865623605755,
+        "PMGY": 2378.1866004156154,
+        "Ring": "R1-C1",
+        "Span_id": "007"
+    },
+    "JORAI TO GAJIGAD": {
+        "PWD": 4307.2320324223465,
+        "Ring": "R1",
+        "Span_id": "013"
+    },
+    "GAJIGAD TO KHARAIDAVAR": {
+        "PWD": 9912.12002295282,
+        "Ring": "R1",
+        "Span_id": "014"
+    },
+    "GOVARDHAN TO T-POINT KHARAIDAVAR": {
+        "PMGY": 2669.423940536688,
+        "Ring": "R1-C1",
+        "Span_id": "008"
+    },
+    "BHORANA TO HARRAI": {
+        "GRAMPANCHAYAT": 314.6459662088614,
+        "PMGY": 3845.5420169803524,
+        "PWD": 2957.518953859984,
+        "Ring": "R2",
+        "Span_id": "006"
+    },
+    "KHARAIDAVAR TO TODA": {
+        "PWD": 3734.759234521051,
+        "Ring": "R1",
+        "Span_id": "015"
+    },
+    "HARRAI TO RAIPUR": {
+        "PMGY": 4022.5114501168364,
+        "Ring": "R2",
+        "Span_id": "007"
+    },
+    "RAIPUR TO ENCHWADA": {
+        "GRAMPANCHAYAT": 3627.1830151593745,
+        "PMGY": 1306.735256538248,
+        "Ring": "R2",
+        "Span_id": "008"
+    },
+    "ENCHWADA TO BAGODA": {
+        "GRAMPANCHAYAT": 7313.360106106331,
+        "PMGY": 1779.2971325117874,
+        "Ring": "R2",
+        "Span_id": "009"
+    },
+    "TORIYAKHALSA TO BAROD": {
+        "GRAMPANCHAYAT": 1155.602670182903,
+        "PMGY": 4500.377395840467,
+        "Ring": "R2",
+        "Span_id": "013"
+    },
+    "FULIPURA TO DHATURA": {
+        "GRAMPANCHAYAT": 2928.574920146458,
+        "PMGY": 1014.6047199863012,
+        "Ring": "R2",
+        "Span_id": "011"
+    },
+    "DHATURA TO TORIYAKHALSA": {
+        "GRAMPANCHAYAT": 1985.244524538425,
+        "Ring": "R2",
+        "Span_id": "012"
+    },
+    "BAGODA TO FULIPURA": {
+        "GRAMPANCHAYAT": 2887.729873803844,
+        "Ring": "R2",
+        "Span_id": "010"
+    },
+    "BAROD TO RASERA": {
+        "PMGY": 740.9623514557392,
+        "Ring": "R2",
+        "Span_id": "014"
+    },
+    "RASERA TO MARORA KHALSA": {
+        "PMGY": 3542.2656471035407,
+        "Ring": "R2",
+        "Span_id": "015"
+    },
+    "T POINT BILVARAMATA TO KHARAIJALIM": {
+        "GRAMPANCHAYAT": 3001.7695433248036,
+        "PWD": 1575.0308317757342,
+        "Ring": "R3",
+        "Span_id": "014"
+    },
+    "JHALWASA TO BILVARAMATA": {
+        "GRAMPANCHAYAT": 2557.7535185563397,
+        "PWD": 4426.820811303574,
+        "Ring": "R3",
+        "Span_id": "005"
+    },
+    "BILVARAMATA TO KHODA": {
+        "GRAMPANCHAYAT": 3480.4071223847586,
+        "Ring": "R3",
+        "Span_id": "006"
+    },
+    "KHODA TO BERJA": {
+        "GRAMPANCHAYAT": 2665.19276584023,
+        "Ring": "R3",
+        "Span_id": "007"
+    },
+    "MARORA KHALSA TO DULHARA": {
+        "PMGY": 6024.747965391897,
+        "Ring": "R2",
+        "Span_id": "016"
+    },
+    "BERJA TO NARAIYAKHEDI": {
+        "GRAMPANCHAYAT": 4594.672437990876,
+        "Ring": "R3",
+        "Span_id": "008"
+    }
+}

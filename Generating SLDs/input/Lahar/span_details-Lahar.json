@@ -1,0 +1,418 @@
+{
+    "JAKHAULI TO KHUJA": {
+        "Grampanchayat": 4646.894433891846,
+        "PMGY": 9133.849103075892,
+        "Ring": "R2-C1",
+        "Span_id": "005"
+    },
+    "AMAHA TO MARPURA": {
+        "Grampanchayat": 2588.5061921396546,
+        "Ring": "R2-C1",
+        "Span_id": "001"
+    },
+    "KHUJA TO T-POINT AMAHA": {
+        "Grampanchayat": 201.88481427685755,
+        "NH-552": 5740.066988172136,
+        "NHAI": 2250.7628956058725,
+        "PMGY": 687.5920093482199,
+        "Ring": "R2-C1",
+        "Span_id": "006"
+    },
+    "MARPURA TO ANDHIYARI NO.2": {
+        "Grampanchayat": 4937.615469093778,
+        "Ring": "R2-C1",
+        "Span_id": "002"
+    },
+    "ANDHIYARI NO.2 TO CHAAN": {
+        "Grampanchayat": 2639.432996079928,
+        "Ring": "R2-C1",
+        "Span_id": "003"
+    },
+    "CHAAN TO JAKHAULI": {
+        "Grampanchayat": 1161.1032060555008,
+        "PMGY": 2882.5612595358725,
+        "Ring": "R2-C1",
+        "Span_id": "004"
+    },
+    "CHHIPAWALI NO.2 TO BARTHARA": {
+        "Grampanchayat": 269.1804657975939,
+        "PMGY": 11167.987853582004,
+        "Ring": "R3-C1",
+        "Span_id": "002"
+    },
+    "RARUA NO.2 TO ARUSI": {
+        "Grampanchayat": 594.4360821745845,
+        "PMGY": 2580.668870338946,
+        "Ring": "R3-C1",
+        "Span_id": "008"
+    },
+    "GANGEPURA TO RARUA NO.2": {
+        "Grampanchayat": 10360.8541880997,
+        "Ring": "R3-C1",
+        "Span_id": "007"
+    },
+    "SHAHPURA NO.2 TO GANGEPURA": {
+        "Grampanchayat": 1738.4650433339611,
+        "MDR": 1879.800034236818,
+        "PMGY": 645.7203660578847,
+        "Ring": "R3-C1",
+        "Span_id": "006"
+    },
+    "T-JOINT FARDUAA TO CHHIPAWALI NO.2": {
+        "Grampanchayat": 1056.9114330231853,
+        "NH-552": 2576.6334247178306,
+        "Ring": "R3-C1",
+        "Span_id": "001"
+    },
+    "KURTHAR TO SHAHPURA NO.2": {
+        "Grampanchayat": 434.78012810549853,
+        "PMGY": 8629.875070900374,
+        "Ring": "R3-C1",
+        "Span_id": "005"
+    },
+    "GENTHARI TO KURTHAR": {
+        "PMGY": 3998.7803410768283,
+        "Ring": "R3-C1",
+        "Span_id": "004"
+    },
+    "BARTHARA TO GENTHARI": {
+        "Grampanchayat": 375.0045175669029,
+        "PMGY": 2899.8475935791803,
+        "Ring": "R3-C1",
+        "Span_id": "003"
+    },
+    "RARI SHAKARPURA TO BAREHET": {
+        "Grampanchayat": 399.6764486039249,
+        "NH-552": 889.6927057660811,
+        "PMGY": 2656.680311114293,
+        "Ring": "R1",
+        "Span_id": "004"
+    },
+    "LAHAR BSNL EXCHANGE TO SIKRI JAGEER": {
+        "NH-552": 3666.9391819587213,
+        "PMGY": 3357.395525661942,
+        "Ring": "R1",
+        "Span_id": "001"
+    },
+    "MEHRA BUJURG TO AJNAAR": {
+        "Grampanchayat": 774.8668371809786,
+        "PMGY": 5506.241195860341,
+        "Ring": "R4",
+        "Span_id": "002"
+    },
+    "KATHAA TO HIRAPURA": {
+        "Grampanchayat": 2587.2123449846267,
+        "PMGY": 2422.692164110191,
+        "Ring": "R4",
+        "Span_id": "008"
+    },
+    "BADOKHARI TO SUNDARPURA": {
+        "Grampanchayat": 860.7679828882046,
+        "PMGY": 1012.3445860927534,
+        "Ring": "R1",
+        "Span_id": "007"
+    },
+    "HIRAPURA TO LALPURA": {
+        "Grampanchayat": 1015.0470901487089,
+        "PMGY": 1349.0067890629807,
+        "Ring": "R4",
+        "Span_id": "009"
+    },
+    "JAGANPURA TO BADOKHARI": {
+        "Grampanchayat": 1249.6412075843382,
+        "PMGY": 2255.6915561652613,
+        "Ring": "R1",
+        "Span_id": "006"
+    },
+    "CHHIDI TO VIJPURA": {
+        "PMGY": 1774.0987818369322,
+        "Ring": "R1",
+        "Span_id": "009"
+    },
+    "LALPURA TO LAHAR BSNL EXCHANGE": {
+        "Grampanchayat": 2262.3130738938926,
+        "MDR": 934.6582449698068,
+        "NH-552": 3647.109806659826,
+        "PMGY": 1207.3412189621558,
+        "Ring": "R4",
+        "Span_id": "010"
+    },
+    "SUNDARPURA TO CHHHIDI": {
+        "PMGY": 3238.791382455736,
+        "Ring": "R1",
+        "Span_id": "008"
+    },
+    "SIKRI JAGEER TO LAPWAHA": {
+        "Grampanchayat": 1969.8372337792384,
+        "NH-552": 146.5104243806955,
+        "PMGY": 923.3502943108246,
+        "Ring": "R1",
+        "Span_id": "002"
+    },
+    "VIJPURA TO LAHAR BSNL EXCHANGE": {
+        "NH-552": 1158.0877929889484,
+        "PMGY": 2736.0989158035154,
+        "Ring": "R1",
+        "Span_id": "010"
+    },
+    "BAREHET TO JAGANPURA": {
+        "Grampanchayat": 197.83335899301383,
+        "PMGY": 2139.4989538708037,
+        "Ring": "R1",
+        "Span_id": "005"
+    },
+    "T-JOINT PARRAYACH TO MADORI": {
+        "Grampanchayat": 2297.6275351683507,
+        "Ring": "R4",
+        "Span_id": "011"
+    },
+    "AJNAAR TO PARRAYACH": {
+        "Grampanchayat": 5412.716625393703,
+        "PMGY": 2450.6099546763617,
+        "Ring": "R4",
+        "Span_id": "003"
+    },
+    "LAHAR BSNL EXCHANGE TO MEHRA BUJURG": {
+        "Grampanchayat": 1072.9978925354264,
+        "NH-552": 612.3356736657652,
+        "PMGY": 5690.92210289095,
+        "Ring": "R4",
+        "Span_id": "001"
+    },
+    "LAPWAHA TO RARI SHAKARPURA": {
+        "Grampanchayat": 743.2584150677582,
+        "NH-552": 2989.846640812647,
+        "Ring": "R1",
+        "Span_id": "003"
+    },
+    "RAHAWALI BEHAD TO ROHANI SINGPURA": {
+        "Grampanchayat": 5174.706508460404,
+        "Ring": "R4",
+        "Span_id": "006"
+    },
+    "ROHANI SINGPURA TO KATHAA": {
+        "Grampanchayat": 339.3336033727447,
+        "PMGY": 3761.464332969143,
+        "Ring": "R4",
+        "Span_id": "007"
+    },
+    "PARRAYACH TO RAHAWLI UBARI": {
+        "Grampanchayat": 8240.683796943753,
+        "Ring": "R4",
+        "Span_id": "004"
+    },
+    "RAHAWLI UBARI TO RAHAWLI BEHAD": {
+        "Grampanchayat": 914.5676921755055,
+        "PMGY": 3016.51222068855,
+        "Ring": "R4",
+        "Span_id": "005"
+    },
+    "MURAWALI TO DEVRI KALAN": {
+        "Grampanchayat": 911.2332755177241,
+        "NH-552": 3003.804207479789,
+        "PMGY": 1414.5888150638652,
+        "Ring": "R2",
+        "Span_id": "011"
+    },
+    "DEVRI KALAN TO DHARMPURA": {
+        "PMGY": 4974.029856563696,
+        "Ring": "R2",
+        "Span_id": "012"
+    },
+    "BAROUA TO RAMPURA": {
+        "Grampanchayat": 866.1983816689147,
+        "PMGY": 1707.4244332348756,
+        "Ring": "R2",
+        "Span_id": "006"
+    },
+    "RAMPURA TO BISANPURA": {
+        "Grampanchayat": 171.7737924082093,
+        "PMGY": 9334.33999726566,
+        "Ring": "R2",
+        "Span_id": "007"
+    },
+    "T-POINT BISANPURA TO PARAICHHA": {
+        "PMGY": 1416.7071444098087,
+        "Ring": "R2",
+        "Span_id": "019"
+    },
+    "LAHAR BSNL EXCHANGE TO ROHANI JAGEER": {
+        "NH-552": 118.57027036630569,
+        "PMGY": 7060.181458364505,
+        "Ring": "R2",
+        "Span_id": "001"
+    },
+    "SOUNSARA TO AKHDEWA": {
+        "Grampanchayat": 102.2919952327423,
+        "PMGY": 5396.811920462106,
+        "Ring": "R2",
+        "Span_id": "014"
+    },
+    "AKHDEWA TO CHIROULI": {
+        "Grampanchayat": 2115.324453065699,
+        "NH-552": 6003.363545739868,
+        "PMGY": 621.6400822124547,
+        "Ring": "R2",
+        "Span_id": "015"
+    },
+    "BIJPUR TO AMAHA": {
+        "PMGY": 5583.124383913,
+        "Ring": "R2",
+        "Span_id": "009"
+    },
+    "BAREI TO TOLA": {
+        "PMGY": 3441.60981825725,
+        "Ring": "R2",
+        "Span_id": "004"
+    },
+    "BISANPURA TO BIJPUR": {
+        "Grampanchayat": 4863.498557246986,
+        "Ring": "R2",
+        "Span_id": "008"
+    },
+    "AMAHA TO MURAWALI": {
+        "Grampanchayat": 1000.2530916345573,
+        "NH-552": 4818.14007452856,
+        "NHAI": 1642.5414918317115,
+        "PMGY": 3263.8777240197624,
+        "Ring": "R2",
+        "Span_id": "010"
+    },
+    "TOLA TO BAROUA": {
+        "Grampanchayat": 496.65932462971864,
+        "PMGY": 5779.096173626664,
+        "Ring": "R2",
+        "Span_id": "005"
+    },
+    "CHIROULI TO PRATHVIPURA": {
+        "NH-552": 1280.0962654824134,
+        "PMGY": 1913.0607398240186,
+        "Ring": "R2",
+        "Span_id": "016"
+    },
+    "ROHANI JAGEER TO MASERAN": {
+        "PMGY": 7065.032630816697,
+        "Ring": "R2",
+        "Span_id": "002"
+    },
+    "PRATHVIPURA TO LAHAR BSNL EXCHANGE": {
+        "NH-552": 151.33650402304363,
+        "PMGY": 1535.5050070565585,
+        "Ring": "R2",
+        "Span_id": "017"
+    },
+    "MASERAN TO BAREI": {
+        "PMGY": 4813.339447695907,
+        "Ring": "R2",
+        "Span_id": "003"
+    },
+    "T POINT BAREI TO MAHUAA": {
+        "PMGY": 1075.8448599468393,
+        "Ring": "R2",
+        "Span_id": "018"
+    },
+    "DHARMPURA TO SOUNSARA": {
+        "Grampanchayat": 3867.974450334199,
+        "Ring": "R2",
+        "Span_id": "013"
+    },
+    "CHIRULI TO FARDUAA": {
+        "Grampanchayat": 2644.1887035685786,
+        "NHAI": 5266.388693583295,
+        "PMGY": 1248.5167484740045,
+        "Ring": "R3",
+        "Span_id": "006"
+    },
+    "LAHAR BSNL EXCHANGE TO JAMUHAN": {
+        "Grampanchayat": 662.3081372898804,
+        "NH-552": 88.26563094472242,
+        "NHAI": 374.75501762207733,
+        "PMGY": 4215.9882555997065,
+        "Ring": "R3",
+        "Span_id": "001"
+    },
+    "VAISHPURA TO BHATPURA": {
+        "Grampanchayat": 794.4238119728681,
+        "PMGY": 1278.2619553238576,
+        "Ring": "R3",
+        "Span_id": "013"
+    },
+    "JAITPURA (ASWAR) TO ASWAR": {
+        "Grampanchayat": 151.24743350085157,
+        "PMGY": 3841.4630672472535,
+        "Ring": "R3",
+        "Span_id": "003"
+    },
+    "BHATPURA TO LAHAR BSNL EXCHANGE": {
+        "Grampanchayat": 45.45920416317905,
+        "MDR": 1867.551697875785,
+        "NH-552": 85.0356657069023,
+        "NHAI": 512.4749814421596,
+        "PMGY": 1410.366702827767,
+        "Ring": "R3",
+        "Span_id": "014"
+    },
+    "BARHA TO VAISHPURA": {
+        "Grampanchayat": 2693.262597905782,
+        "PMGY": 5600.263295895466,
+        "Ring": "R3",
+        "Span_id": "012"
+    },
+    "ARUS TO RURAI": {
+        "Grampanchayat": 630.8521802175966,
+        "PMGY": 3456.0053564057503,
+        "Ring": "R3",
+        "Span_id": "008"
+    },
+    "JAMUHAN TO JAITPURA (ASWAR)": {
+        "Grampanchayat": 747.7067617878301,
+        "PMGY": 3849.6508268900307,
+        "Ring": "R3",
+        "Span_id": "002"
+    },
+    "RURAI TO JALALPURA": {
+        "Grampanchayat": 592.2340247015582,
+        "PMGY": 8298.359162303419,
+        "Ring": "R3",
+        "Span_id": "009"
+    },
+    "FARDUAA TO ARUSI": {
+        "Grampanchayat": 174.97260519306136,
+        "PMGY": 3563.512441001939,
+        "Ring": "R3",
+        "Span_id": "007"
+    },
+    "KARIAWALI TO CHIRULI": {
+        "Grampanchayat": 3317.8389306891963,
+        "Ring": "R3",
+        "Span_id": "005"
+    },
+    "ASWAR TO KARIAWALI": {
+        "Grampanchayat": 763.7762432495446,
+        "PMGY": 5845.708695361709,
+        "Ring": "R3",
+        "Span_id": "004"
+    },
+    "DOONDA TO BARHA": {
+        "Grampanchayat": 1055.6522587517375,
+        "PMGY": 2744.455388917464,
+        "Ring": "R3",
+        "Span_id": "011"
+    },
+    "T-POINT BARHA TO GIRWASA": {
+        "PMGY": 3967.7237918037763,
+        "Ring": "R3",
+        "Span_id": "015"
+    },
+    "JALALPURA TO DOONDA": {
+        "Grampanchayat": 1304.2154914708788,
+        "PMGY": 3142.2532474452755,
+        "Ring": "R3",
+        "Span_id": "010"
+    },
+    "T-POINT KHUJA TO BADAGAON NO.2": {
+        "PMGY": 1971.7351688986723,
+        "Ring": "R2-C1",
+        "Span_id": "007"
+    }
+}

@@ -1,0 +1,40 @@
+2025-11-06 23:52:04,754 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'T-POINT BELGAON TO DEWRBELI'.
+2025-11-06 23:52:04,755 - WARNING - ⚠️ The Span T-POINT BELGAON TO DEWRBELI is disconnected at this point (80.65929101400008, 21.606251015000055)
+2025-11-06 23:52:05,112 - INFO - Created 1,453 records
+2025-11-06 23:52:05,119 - INFO - Created 94 records
+2025-11-06 23:52:05,119 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-11-06 23:52:05,121 - INFO - Created 1 records
+2025-11-06 23:52:05,161 - INFO - 🔄 Found 10 rings: ['R1', 'R1-C1', 'R2', 'R3', 'R3-C1', 'R4', 'R5', 'R5-C1', 'R6', 'R6-C1']
+2025-11-06 23:52:05,162 - INFO - 
+🔁 Processing ring: R1
+2025-11-06 23:52:05,166 - INFO - ✅ Completed ring R1 with 11 spans.
+2025-11-06 23:52:05,166 - INFO - 
+🔁 Processing ring: R1-C1
+2025-11-06 23:52:05,170 - INFO - ✅ Completed ring R1-C1 with 7 spans.
+2025-11-06 23:52:05,170 - INFO - 
+🔁 Processing ring: R2
+2025-11-06 23:52:05,172 - INFO - ✅ Completed ring R2 with 5 spans.
+2025-11-06 23:52:05,172 - INFO - 
+🔁 Processing ring: R3
+2025-11-06 23:52:05,177 - INFO - ✅ Completed ring R3 with 11 spans.
+2025-11-06 23:52:05,177 - INFO - 
+🔁 Processing ring: R3-C1
+2025-11-06 23:52:05,180 - INFO - ✅ Completed ring R3-C1 with 7 spans.
+2025-11-06 23:52:05,180 - INFO - 
+🔁 Processing ring: R4
+2025-11-06 23:52:05,184 - INFO - ✅ Completed ring R4 with 10 spans.
+2025-11-06 23:52:05,184 - INFO - 
+🔁 Processing ring: R5
+2025-11-06 23:52:05,189 - INFO - ✅ Completed ring R5 with 11 spans.
+2025-11-06 23:52:05,189 - INFO - 
+🔁 Processing ring: R5-C1
+2025-11-06 23:52:05,192 - INFO - ✅ Completed ring R5-C1 with 7 spans.
+2025-11-06 23:52:05,192 - INFO - 
+🔁 Processing ring: R6
+2025-11-06 23:52:05,197 - INFO - ✅ Completed ring R6 with 11 spans.
+2025-11-06 23:52:05,197 - INFO - 
+🔁 Processing ring: R6-C1
+2025-11-06 23:52:05,200 - INFO - ✅ Completed ring R6-C1 with 9 spans.
+2025-11-06 23:52:05,245 - INFO - Created 1,453 records
+2025-11-06 23:52:05,255 - INFO - Created 94 records
+2025-11-06 23:52:05,256 - INFO - ✅ All rings processed. Span sequence updated and saved.
