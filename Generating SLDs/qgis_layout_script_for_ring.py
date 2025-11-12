@@ -15,18 +15,18 @@ import os
 import json
 from pathlib import Path
 
-district_name = 'Shivpuri'
-block_name = 'Khaniadhana'
+district_name = 'Ujjain'
+block_name = 'Mahidpur'
 
 # --- Settings ---
-file_path =f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/input/{block_name}/ring_details_{block_name}.json"
-# file_path = f"C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\/ring_styles\\ring_details_{block_name}.json"
+# file_path =f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/input/{block_name}/ring_details_{block_name}.json"
+file_path = f"C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\input\{block_name}\\ring_details_{block_name}.json"
 with open(file_path, "r", encoding="utf-8") as f:
     ring_dict = json.load(f)
 
 layer_name = f"RoW Authorities-{block_name}"  # Name of the layer in QGIS
-output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
-# output_folder = f"D:\\bharat_net_data\slds\\{block_name}"
+# output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
+output_folder = f"D:\\bharat_net_data\slds\\{block_name}"
 end_point_layer = f"output_points_rings-{block_name}"
 
 
@@ -238,8 +238,8 @@ for ring in unique_rings:
 
     # --- North Arrow (as SVG Picture) ---
     picture = QgsLayoutItemPicture(layout)
-    # picture.setPicturePath("C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\\North\\north_simple.svg")
-    picture.setPicturePath("/Users/subhashsoni/Formatting_excel_data/Generating SLDs/North/north_simple.svg")
+    picture.setPicturePath("C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\\North\\north_simple.svg")
+    # picture.setPicturePath("/Users/subhashsoni/Formatting_excel_data/Generating SLDs/North/north_simple.svg")
     picture.setFixedSize(QgsLayoutSize(20, 20, QgsUnitTypes.LayoutMillimeters))
     picture.attemptMove(QgsLayoutPoint(page_width-30, page_height-30, QgsUnitTypes.LayoutMillimeters))
     layout.addLayoutItem(picture)

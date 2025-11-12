@@ -15,18 +15,18 @@ import os
 import json
 from pathlib import Path
 
-district_name = 'Shivpuri'
-block_name = 'Khaniadhana'
+district_name = 'Ujjain'
+block_name = 'Mahidpur'
 
 # --- Settings ---
-file_path = f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/input/{block_name}/span_details-{block_name}.json"
-# file_path = f"C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\output\\span_details-{block_name}.json"
+# file_path = f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/input/{block_name}/span_details-{block_name}.json"
+file_path = f"C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\input\{block_name}\span_details-{block_name}.json"
 with open(file_path, "r", encoding="utf-8") as f:
     span_dict = json.load(f)
 
 layer_name = f"RoW Authorities-{block_name}"  # Name of the layer in QGIS
-output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
-# output_folder = f"D:\\bharat_net_data\slds\\{block_name}"
+# output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
+output_folder = f"D:\\bharat_net_data\slds\\{block_name}"
 end_point_layer = f"output_points-{block_name}"
 block_dir = Path(output_folder)
 block_dir.mkdir(exist_ok=True)
