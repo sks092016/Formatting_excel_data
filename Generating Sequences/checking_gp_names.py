@@ -6,7 +6,6 @@ import re
 from ring_start_point_cordinates import *
 from methods import *
 
-
 gps = gpd.read_file(gps_shape_file)
 segments = gpd.read_file(segments_shape_file)
 #_____________________________

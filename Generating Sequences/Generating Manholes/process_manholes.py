@@ -1,6 +1,6 @@
 from methods import *
 
-block_name = "Lanji"
+block_name = "Kailaras"
 crs = "EPSG:4326"
 input_shapefile = f'input/OFC_New_{block_name}-1_Seg_Span_Seq.shp'
 output_json = f"temp/custom_points_{block_name}.json"
@@ -25,7 +25,7 @@ else:
 scope = "brown field data"
 brown_field_label = "Brown Field Conn"
 ptype = "Brown Field"
-shape_file_data_field = 'road_autho'
+shape_file_data_field = 'ofc_laying'
 
 brown_field_points = f"temp/brown_field_manholes_{block_name}.shp"
 

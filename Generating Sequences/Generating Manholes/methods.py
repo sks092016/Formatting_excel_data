@@ -164,6 +164,7 @@ def process_brown_field(input_shp, output_points_shp, output_json_path, scope,cr
     # Group by span_name
     for span, span_df in gdf.groupby("span_name"):
         # Filter only "existing data" scopes
+        print(f"Processing {span}...")
         sub = span_df[span_df[shape_file_data_field].str.lower().str.contains(scope)]
         if sub.empty:
             continue

@@ -1,13 +1,16 @@
 from qgis.core import QgsProject, edit
 
 # --- SETTINGS ---
-layer_name = "OFC_New_Lanji-1_Seg_Span_Seq"  # Name of the layer in QGIS
+layer_name = "OFC_NEW"  # Name of the layer in QGIS
 check_field = "span_name"
 update_field = "span_name"
 
 replacement_map = {
-'T-POINT BOLEGAON TO DORLI':'BOLEGAON TO DORLI',
-'T-POINT NANDORA TO  BELGAON':'NANDORA TO  BELGAON'
+'MADHOGHRH':'MADHOGARH',
+'CHAMARGANAWA':'CHAMARGANWA',
+'KAILRAS OLT':'KAILARAS OLT',
+'JAILNA MANGARH':'JARAINA MANGARH',
+'BALHERA JAGAIR':'BALHERA JAGIR',
 }
 count = 0
 

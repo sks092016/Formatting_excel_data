@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Lanji"
+blockName = "Kailaras"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,13 +32,13 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Lanji/gps.shp"
-segments_shape_file = "References/Lanji/OFC_NEW.shp"
+gps_shape_file = "References/Kailaras/gps.shp"
+segments_shape_file = "References/Kailaras/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '80.55901930 21.50515190'
+BHQ_CORDINATE = '77.63490682 26.30674272'
 
 rings = {
     'R1': BHQ_CORDINATE,
@@ -46,19 +46,25 @@ rings = {
     'R3': BHQ_CORDINATE,
     'R4': BHQ_CORDINATE,
     'R5': BHQ_CORDINATE,
-    'R6': BHQ_CORDINATE,
-    'R1-C1':'80.47530773 21.52800809',
-    'R3-C1':'80.57069970 21.41204110',
-    'R5-C1':'80.42956090 21.50353120',
-    'R6-C1':'80.45763889 21.44875397',
+    'R1-C1':'77.67765670 26.30393790',
+    'R2-C1':'77.51552779 26.31034535',
+    'R2-C2':'77.56070151 26.33562592',
+    'R3-C1':'77.66814761 26.42891478',
+    'R3-C2':'77.66784300 26.38497392',
+    'R4-C1':'77.64521156 26.24939294',
+    'R4-C2':'77.61533861 26.23530897',
+    'R5-C1':'77.61010818 26.39158694',
 }
 t_point_ring_spans = {
-'T-POINT BELGAON':(80.66144797,21.59560878),
-'T-POINT BHIMODI':(80.47530773,21.52800809),
-'T-POINT GHOTI':(80.60144311,21.51814363),
-'T-POINT KANSULI':(80.64329562,21.55928723),
-'T-POINT BOLEGAON':(80.45590500,21.53364170),
-'T-POINT NANDORA':(80.61553500,21.51601670)
+'T-POINT BADMAN':(77.51552779,26.31034535),
+'T-POINT CHAMARGANWA':(77.67765670,26.30393790),
+'T-POINT HUSAINPUR':(77.61010818,26.39158694),
+'T-POINT KHIDOURA':(77.66814761,26.42891478),
+'T-POINT KHUTIYANI HAAR':(77.66784300,26.38497392),
+'T-POINT KODERA':(77.64521156,26.24939294),
+'T-POINT KOT SIRTHARA':(77.68950168,26.23875054),
+'T-POINT PARSOTA':(77.74900469,26.27483423),
+'T-POINT SHADPUR':(77.55172005,26.27358817),
 }
 # t_point_ring_spans = {
 # 'T-POINT BAIDWARA':(79.01599239,23.58940131),
