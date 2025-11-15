@@ -6,11 +6,7 @@ check_field = "span_name"
 update_field = "span_name"
 
 replacement_map = {
-'MADHOGHRH':'MADHOGARH',
-'CHAMARGANAWA':'CHAMARGANWA',
-'KAILRAS OLT':'KAILARAS OLT',
-'JAILNA MANGARH':'JARAINA MANGARH',
-'BALHERA JAGAIR':'BALHERA JAGIR',
+'T-POINT AMBA TO MACHLIYA'
 }
 count = 0
 

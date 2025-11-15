@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Kailaras"
+blockName = "Sardarpur-2"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,13 +32,13 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Kailaras/gps.shp"
-segments_shape_file = "References/Kailaras/OFC_NEW.shp"
+gps_shape_file = "References/Sardarpur-2/gps.shp"
+segments_shape_file = "References/Sardarpur-2/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '77.63490682 26.30674272'
+BHQ_CORDINATE = '74.97507875 22.66384565'
 
 rings = {
     'R1': BHQ_CORDINATE,
@@ -46,409 +46,23 @@ rings = {
     'R3': BHQ_CORDINATE,
     'R4': BHQ_CORDINATE,
     'R5': BHQ_CORDINATE,
-    'R1-C1':'77.67765670 26.30393790',
-    'R2-C1':'77.51552779 26.31034535',
-    'R2-C2':'77.56070151 26.33562592',
-    'R3-C1':'77.66814761 26.42891478',
-    'R3-C2':'77.66784300 26.38497392',
-    'R4-C1':'77.64521156 26.24939294',
-    'R4-C2':'77.61533861 26.23530897',
-    'R5-C1':'77.61010818 26.39158694',
+    'R6': BHQ_CORDINATE,
+    'R2-C1':'74.84955910 22.70766059',
+    'R4-C1':'75.08219956 22.84345756',
+    'R5-C1':'75.04541697 22.90231969',
+    'R5-C2':'75.05868402 22.76570134',
+    'R6-C1': '75.03965125 22.63605441',
+    'R6-C2': '75.05395092 22.64018537',
 }
 t_point_ring_spans = {
-'T-POINT BADMAN':(77.51552779,26.31034535),
-'T-POINT CHAMARGANWA':(77.67765670,26.30393790),
-'T-POINT HUSAINPUR':(77.61010818,26.39158694),
-'T-POINT KHIDOURA':(77.66814761,26.42891478),
-'T-POINT KHUTIYANI HAAR':(77.66784300,26.38497392),
-'T-POINT KODERA':(77.64521156,26.24939294),
-'T-POINT KOT SIRTHARA':(77.68950168,26.23875054),
-'T-POINT PARSOTA':(77.74900469,26.27483423),
-'T-POINT SHADPUR':(77.55172005,26.27358817),
+'T-POINT AMODIYA':(74.93921306,22.68545866),
+'T-POINT BHATIABARDI':(74.84955910,22.70766059),
+'T-POINT DEDLA':(75.05868402,22.76570134),
+'T-POINT FULGAVDI':(75.03965125,22.63605441),
+'T-POINT POPARNI':(74.94030217,22.66574247),
+'T-POINT SAJOD':(75.06693546,22.95151681),
+'T-POINT SALWA':(75.04541697,22.90231969),
+'T-POINT UNDELI':(75.05395092,22.64018537),
+'T-POINT UTAVA':(74.81466487,22.65155177),
+'T-POINT AMBA':(74.82204507,22.74749160),
 }
-# t_point_ring_spans = {
-# 'T-POINT BAIDWARA':(79.01599239,23.58940131),
-# 'T-POINT DEOWALPANI':(79.21429227,23.64303069),
-# 'T-POINT GUDA KALAN':(79.18901885,23.63012658),
-# 'T-POINT MAGARDHA':(79.15108422,23.79398672),
-# 'T-POINT NAWALPUR':(79.07724847,23.69770518),
-# 'T-POINT PATAI':(78.99058949,23.66393797),
-# 'T-POINT PIPARIYA BHATOLI':(79.10084636,23.80345784),
-# 'T-POINT REHLI BLOCK':(79.06059431,23.65019600),
-# 'T-POINT TAL SEMARA':(79.21741511,23.64296694),
-# 'T-POINT UDAIPURA':(79.14188811,23.71264623),
-# 'T-POINT VIJAYPURA':(79.08314680,23.69245418),
-# }
-
-# t_point_ring_spans = {
-# 'T-POINT BAIHAR':(81.68725840,22.97749720),
-# 'T-POINT DEORI':(81.64572839,23.16974568),
-# 'T-POINT DHHODHHIPANI':(81.70955626,22.99148842),
-# 'T-POINT ODHERA':(81.62330844,23.05756877),
-# 'T-POINT PAPRAUDI':(81.88300170,23.01487020),
-# 'T-POINT SHIVANI':(81.82573994,22.96613774),
-# 'T-POINT VENKATNAGAR':(81.87940990,22.93801740),
-# }
-# t_point_ring_spans = {
-# 'T-POINT BONDAR':(81.65734340,22.69888972),
-# 'T-POINT BUNDELA':(81.49967190,22.71263870),
-# 'T-POINT CHANDNA':(81.40322610,22.77861570),
-# 'T-POINT JHANKI':(81.43355180,22.68154650),
-# 'T-POINT KHARIDIH':(81.51248220,22.57619240),
-# 'T-POINT KIRANGI':(81.63828392,22.76561431),
-# 'T-POINT MANIKPUR':(81.43297430,22.73524850),
-# 'T-POINT NARIGWARA':(81.66734320,22.69139110),
-# }
-# t_point_ring_spans = {
-# 'T-POINT BANJARIPURA':(75.48532425,22.46187597),
-#  'T-POINT BHADKAY':(75.41228256,22.41670988),
-#  'T-POINT BILLOD':(75.52768683,22.53039567),
-#  'T-POINT IMALIPURA':(75.54500689,22.40030316),
-#  'T-POINT JIRAPURA':(75.40748687,22.45489178),
-#  'T-POINT MEWAS JAMNIYA':(75.51660162,22.40995074),
-#  'T-POINT MOGRABAW':(75.33603130,22.38976042),
-#  'T-POINT RATWA':(75.46188940,22.54905006),
-#  'T-POINT SARAY':(75.46297760,22.43830267),
-#  'T-POINT SULI BARDI':(75.39584414,22.36204643),
-#  }
-# t_point_ring_spans = {
-# 'T-POINT BAMORI NAWAB':(78.34707180,23.87270460),
-# 'T-POINT BARODIYA NOUNAGIR':(78.33650744,23.94811101),
-# 'T-POINT GAMBHIRIYA BUZURG':(78.39241911,24.07776244),
-# 'T-POINT KATHELI':(78.33647577,23.94794537),
-# 'T-POINT MAGARDHA':(78.27921877,24.16179341),
-# 'T-POINT TEWRA':(78.34754410,24.13271190),
-# }
-
-# t_point_ring_spans = {
-# 'T-POINT AMILWAN':(82.48170964,24.06184210),
-# 'T-POINT BAHERIKALA':(82.50094100,23.89814422),
-# 'T-POINT BETARIA':(82.44961195,23.99314179),
-# 'T-POINT BHALYATOLA':(82.30892208,24.02636575),
-# 'T-POINT BIHARA':(82.52689018,24.11078269),
-# 'T-POINT BINDUL':(82.34147383,23.83643813),
-# 'T-POINT BUCHARO':(82.25642523,23.85165130),
-# 'T-POINT DHENKA':(82.48444245,23.93921298),
-# 'T-POINT DOGARI':(82.31966475,23.95594183),
-# 'T-POINT HARDI':(82.54832110,24.06795360),
-# 'T-POINT JEER':(82.50379292,23.86436844),
-# 'T-POINT KHUTAR':(82.53627199,24.04836467),
-# 'T-POINT MAJHOULI':(82.59273890,24.01711515),
-# 'T-POINT MALGA':(82.45005042,23.99385600),
-# 'T-POINT TENDUHA':(82.39255919,24.08766042),
-# 'T-POINT TOOSAKHAND':(82.62658660,24.02709583),
-# }
-
-# t_point_ring_spans = {
-# 't-point amaw':(81.71875530,25.01236828),
-#  't-point amilkoni':(81.66678416,25.04515178),
-#  't-point chaukhada':(81.56445571,25.09510841),
-#  't-point chauranankar':(81.92885238,24.85902187),
-#  't-point gadarpurwa':(81.89657510,24.93675089),
-#  't-point gopoalpurwa':(81.66867143,25.04296114),
-#  't-point jhotiya':(81.64348906,25.02873571),
-#  't-point khamha':(81.80264734,24.93348911),
-#  't-point koniya khurd':(81.59563015,25.00351750),
-#  't-point koraw':(81.85441711,24.98449182),
-#  't-point rajha':(81.85082147,24.91774786),
-#  't-point suti':(81.55215209,25.16219325),
-# }
-# t_point_ring_spans = {
-# 't-point barkoti kalan':(78.87662231,23.57765570),
-# 't-point beldhana':(78.98713421,23.41750795),
-# 't-point chirchita sukhju':(78.94876406,23.44227866),
-# 't-point gugwara':(78.95035681,23.51462038),
-# 't-point jhunku':(79.02256569,23.40623120),
-# 't-point kopra':(79.07467350,23.51988522),
-# 't-point mahrajpur':(79.06221862,23.27554523),
-# 't-point manegaon':(79.08044459,23.49149171),
-# 't-point pipariya':(79.04283971,23.49055118),
-# 't-point raikheda':(78.95942941,23.35927426),
-# 't-point samnapur shahju':(79.08642960,23.29213162),
-# 't-point sujanpur':(78.95272466,23.50304762),
-# }
-# t_point_ring_spans = {
-# 't-point baretha':(78.07777500,26.59153400),
-# 't-point basaiya':(78.12391650,26.52089485),
-# 't-point devari':(77.96154600,26.53991100),
-# 't-point khaneta':(77.96144706,26.43958050),
-# 't-point kharagpur':(78.11950704,26.40032730),
-# 't-point kishanpur':(78.04494369,26.48836827),
-# 't-point kotwal':(78.15470612,26.46774643),
-# 't-point labhanpura':(78.09525169,26.44614395),
-# 't-point piparkhera':(77.96852734,26.59714855),
-# 't-point naupura':(78.14470700,26.45445000),
-# 't-point palpura':(78.04197601,26.61803274),
-# 't-point piprai':(77.93185000,26.62412000),
-# 't-point seva':(78.10805843,26.35875297),
-# }
-
-# Jaisinagar
-# t_point_ring_spans = {
-# 't-point agariya (p)':(78.59045683, 23.68249434),
-# 't-point bamhori ghat (p)':(78.67873637,23.65295604),
-# 't-point baroda sagar (p)':(78.68459322,23.69544707),
-# 't-point hada (p)':(78.61020899,23.60287620),
-# 't-point hanota sagar (p)':(78.75132744,23.73852152),
-# 't-point jera (p)':(78.54701885,23.61478812),
-# 't-point khejra mafi (p)':(78.72815354,23.64682399),
-# 't-point padrai (p)':(78.60554909,23.70134673),
-# 't-point semadhana (p)':(78.63517711,23.78768437),
-# 't-point jaisinagar block (p)':(78.57172575,23.61931219),
-# 't-point hanota sagar (p)':(78.75678720,23.71520728),
-# 't-point berkheri madiya (p)':(78.75678720,23.71520728),
-# 't-point mahuwa kheda pegwar (p)':(78.63517711,23.78768437)
-# }
-
-# gangev
-# t_point_ring_spans = {
-# 't-point amaha':(81.57659719,24.80165722),
-# 't-point badokhar':(81.53324395,24.78550690),
-# 't-point badokhar':(81.55933588,24.79243071),
-# 't-point chauri':(81.50195115,24.79135102),
-# 't-point dagardua':(81.57987367,24.85322202),
-# 't-point gangev block':(81.62639776,24.76011156),
-# 't-point garh':(81.64452877,24.81874763),
-# 't-point godari 27':(81.55832600,24.83478100),
-# 't-point kadaila':(81.42467165,24.68035748),
-# 't-point keoti':(81.45369171,24.78553194),
-# 't-point lalgaon':(81.53563690,24.81814044),
-# 't-point madari':(81.57984460,24.85314172),
-# 't-point marhi kalan':(81.57147671,24.68683760),
-# 't-point raksha majan':(81.61099214,24.83125148),
-# 't-point rampur':(81.47398500,24.68174600),
-# 't-point raura':(81.46870236,24.75741242),
-# 't-point sirsa':(81.53076553,24.70468954),
-# 't-point tikuri 32':(81.63233330,24.75891295),
-# 't-point tiwani':(81.52765441,24.67396246),
-# 't-point tiwani':(81.50903800,24.64675540),
-# }
-# bhanpura
-# t_point_ring_spans = {
-# 't-point barodiya':(75.69071300,24.60092600),
-# 't-point dhablamadhosingh':(75.81055958,24.60224282),
-# 't-point kailashpura':(75.71028000,24.58177000),
-# 't-point paroniya':(75.69779937,24.43332186),
-# 't-point prempuria':(75.67376212,24.62896776),
-# 't-point ratanpura':(75.80424409,24.52005341),
-# }
-# Sujalpur
-# t_point_ring_spans = {
-# 't-point bhugor':(76.74605900 ,23.37502900),
-# 't-point jhadla':(76.78570245,23.40506872),
-# 't-point kisoni':(76.72077030,23.34649450),
-# 't-point lalpura':(76.65489269,23.43357435),
-# 't-point magraniya':(76.68066904,23.30834591),
-# 't-point mitera':(76.62475700,23.48020500),
-# 't-point murta kevdi':(76.50273889,23.23076124),
-# 't-point narola hirpur':(76.80399356,23.40896515),
-# 't-point richoda richoda':(76.65489269,23.43357435),
-# 't-point richoda':(76.65169200,23.41609600),
-# 't-point tajpur ukala':(76.73185994,23.45010177),
-# 't-point undai':(76.71810619,23.46920125),
-# 't-point raipur':(76.68664970,23.45201932),
-# 't-point amlay':(76.72335523,23.28994043)
-# }
-# shahgarh
-# t_point_ring_spans = {
-# 't-point baraj':(79.01380568,24.38229667),
-# 't-point kanikhedi kala':(79.03733475,24.33464153),
-# 't-point rampur':(79.16603324,24.41279624),
-# }
-# #Aron
-# t_point_ring_spans = {
-# 't-point bhador':(77.45662011,24.49802900),
-# 't-point kundoli':(77.52153750,24.30792919),
-# 't-point kusman':(77.32937950,24.33100080),
-# 't-point mudramata':(77.47087596,24.27007864),
-# 't-point mundrakhurd':(77.50871632,24.36956661),
-# 't-point saharog':(77.33236815,24.41324173),
-# 't-point mundrakhurd':(77.47640600,24.38708489)
-# }
-# waraseoni
-# t_point_ring_spans = {
-# 't-point dinera':(80.17005237 ,21.68418166),
-# 't-point jhadgaon':(80.06379836,21.70458830),
-# 't-point narodi':(79.92824080 ,21.79166120),
-# 't-point padampur (nimgaon)':(80.16344923 ,21.65679759),
-# }
-# dahi -2
-# t_point_ring_spans = {
-# 't-point arada':(74.54526688,22.20110931),
-# 't-point katarkheda':(74.55619883,22.07870419)
-# }
-
-# Kesli
-# rings = {
-#     'R1': BHQ_CORDINATE,
-#     'R2': BHQ_CORDINATE,
-#     'R3': BHQ_CORDINATE,
-#     'R1-C1':'78.77114640 23.51369740',
-#     'R1-C2':'78.69763830 23.42222794',
-#     'R2-C1': '78.90414391 23.39497533',
-#     'R2-C2': '78.87060899 23.48049327',
-#     'R3-C1': '78.86696320 23.35188039',
-#     'R3-C2': '78.83513002 23.30574744',
-# }
-#t_point_ring_spans = {
-#'t-point bamhni (p)':(78.87060899,23.48049327),
-#'t-point gatauri pana(p)':(78.90414391,23.39497533),
-#'t-point ghana (p)':(78.78418983,23.37650898),
-#'t-point kesli (p)':(78.81332427,23.43457244),
-#'t-point kheri kalan (p)':(78.64405775,23.43507827),
-#t-point muhli (p)':(78.84724796,23.29293740),
-#'t-point narayanpur(p)':(78.69763830,23.42222794),
-#}
-
-# Sardarpur
-# t_point_ring_spans = {
-# 't-point bhatiabardi':(74.84955910,22.70766059),
-# 't-point bodli':(75.05868402,22.76570134),
-# 't-point chotiyabalod':(75.11757640,22.75349899),
-# 't-point gumanpura':(74.84228041,22.60623324),
-# 't-point kasharpura':(75.11926852,22.64514307),
-# 't-point sajod':(75.06693546,22.95151681),
-# 't-point salwa':(75.04541697,22.90231969),
-# 't-point dedla':(75.05868402,22.76570134),
-# 't-point utava':(74.81466487,22.65155177),
-# 't-point fulgavdi':(75.04530773,22.63007108)
-# }
-# Morena
-
-# Gangev
-# t_point_ring_spans = {
-# 't-point amaha':(81.57659718,24.80165722),
-# 't-point baans':(81.61099214,24.83125148),
-# 't-point badokhar':(81.53324395,24.78550690),
-# 't-point chauri':(81.50195115,24.79135102),
-# 't-point dagardua':(81.59009100,24.79539500),
-# 't-point kadaila':(81.42467165,24.68035748),
-# 't-point keoti':(81.45369171,24.78553194),
-# 't-point lalgaon':(81.53563979,24.81814018),
-# 't-point lauri khurd':(81.63274336,24.82239743),
-# 't-point marhi kalan':(81.57147671,24.68683759),
-# 't-point mauhariya':(81.55933590,24.79243073),
-# 't-point rampur':(81.47398500,24.68174600),
-# 't-point rampurava':(81.48996581,24.75044064),
-# 't-point raura':(81.46870236,24.75741242),
-# 't-point sirsa':(81.53076553,24.70468954),
-# 't-point siswa':(81.57661100,24.85130245),
-# 't-point tikuri 32':(81.63237681,24.75887289),
-# 't-point tiwani':(81.50903800,24.64675540),
-# 't-point katheri':(81.46279157,24.63500084),
-# }
-#--Gandhwani ----
-# t_point_ring_spans = {
-# 't-point behadada':(75.02804651, 22.42619967),
-# 't-point beladi':(75.01297987,22.56125296),
-# 't-point bilda':(74.93359346,22.45485990),
-# 't-point chunapya':(74.90894546,22.49822635),
-# 't-point dhaydi':(74.89024722,22.43570129),
-# 't-point gandwani':(75.00778990,22.34123982),
-# 't-point kota':( 74.90614554,22.43167441),
-# 't-point shyadi':(74.93315834,22.38362661),
-# 't-point ledgaon':(75.03328458,22.45002534),
-# 't-point pithanpur':(75.02320096,22.50571069),
-# 't-point soyla':(75.07120436,22.39467985),
-# }
-# -------------------Tirla-------------------
-# t_point_ring_spans = {
-# 't-point akoda':(75.19924214,22.69730199),
-# 't-point chhota umriya':(75.30796026,22.49990651),
-# 't-point nalawada':(75.16149431,22.67089348),
-# 't-point kachhavda':(75.15416699,22.43300848),
-# 't-point semlipura':(75.22490610,22.46208640),
-# 't-point dedli k':(75.12905994,22.46877437),
-# 't-point khidkyakala':(75.18876341,22.46660346),
-# 't-point dholahanuman':(75.21427971,22.48485651),
-# 't-point advi':(75.35220414,22.52282666),
-# 't-point musapura':(75.28055602,22.54911594)
-# }
-#------------KATANGI----------------------------------
-# t_point_ring_spans = {
-# 't-point arjuni':(79.89803840,21.74260090),
-# 't-point bothwa':(79.77509740,21.69510070),
-# 't-point digadha':(79.70198400,21.60545000),
-# 't-point lakhanwada':(79.87971595,21.77768536),
-# 't-point paraswada ghat':(79.80403900,21.65826500),
-# 't-point sawagi':(79.85124970,21.74835880),
-# }
-
-# RAIPUR
-
-# t_point_ring_spans = {
-# 't-point badagaon' :(81.45114996,24.49484547),
-# 't-point badwar':(81.54640512,24.49606327),
-# 't-point banjari':(81.49937600,24.49446100),
-# 't-point budawa':(81.50438400,24.55654300),
-# 't-point chaudiyar':(81.48317200,24.45845600),
-# 't-point gerui':(81.45100700,24.51699000),
-# 't-point hardik no.2':(81.56694806,24.61301191),
-# 't-point itaha':(81.31819800,24.61441800),
-# 't-point jaraha':(81.64483000,24.53378800 ),
-# 't-point kharahari':(81.38262008,24.63783091 ),
-# 't-point khira':(81.43819564,24.58631400),
-# 't-point kuiyan khurd':(81.54908373,24.60661923 ),
-# 't-point lauwa urf lakshmanpur':(81.35390412,24.64396084 ),
-# 't-point madhi':(81.48479172,24.60470097 ),
-# 't-point methauri':(81.56110378,24.65191355 ),
-# 't-point narraha':(81.58744113,24.56482988 ),
-# 't-point navagaon':(81.38697700,24.61357600 ),
-# 't-point new manikwar no.1':(81.60809217,24.56605400 ),
-# 't-point paliya 351':(81.53322834,24.60899372 ),
-# 't-point raghurajgarh':(81.63577167,24.62046290 ),
-# 't-point ramnai':(81.40536169,24.56230873 ),
-# 't-point raura':(81.43039800,24.58948400 ),
-# 't-point sirsa':(81.64859100,24.59250400 ),
-# 't-point sursa khurd':(81.48684400,24.59873800 ),
-# 't-point tamradesh':(81.65514200,24.55692300 ),
-# 't-point hardua':(81.49857651,24.48971313),
-# 't-point mahsua':(81.43039800,24.58948400),
-# 't-point padara':(81.42116399,24.62352166),
-# 't-point purena':(81.34651900,24.56029800),
-# 't-point ulahi kala':(81.59047983,24.59984761),
-# 't-point khaira':(24.53982100, 81.51107100)
-# }
-#-----------Balaghat------------
-# t_point_ring_spans = {
-# 't-point hirapur':(80.23990620,21.84237850),
-# 't-point khursodi':(80.19631269,21.75354787)
-# }
-#--------BARWANI------------
-# t_point_ring_spans = {
-#  't-point  pakhalya':(74.89034000,21.90976400),
-#  't-point hirkray':(74.89627354, 21.89715437),
-#  't-point pakhalya':(74.89185993,21.90485223),
-#  't-point panchpula uttar':(74.97021025,21.87474700)
-# }
-
-#-------MALHARGARH-2---------
-# t_point_ring_spans = {
-# 't-point admalya':(75.18708986,24.30950621),
-# 't-point garnai':(75.27970416,24.27244578),
-# 't-point hingoriya chota':(75.21341251,24.28393738),
-# 't-point mundri': (75.10718700,24.13633900),
-# 't-point piplia jodha':(75.24576032,24.22260185),
-# 't-point ranayra':(75.18032061,24.21439208),
-# 't-point semli':(74.91941979,24.18216178),
-# 't-point sindhpan':  (75.11957849,24.16134956),
-# }
-
-# t_point_ring_spans = {
-#     't-point sora' : (78.63246879,26.66857775),
-#     't-point kanera':(78.56041825,26.72443601),
-#     't-point pawai': (78.64268375,26.63690462),
-#     't-point kadoura': (78.64111947,26.70137509),
-#     't-point jouri kotwal':(78.70206957,26.71580772),
-#     't-point naripura': (78.86502726,26.66113963),
-#     't-point goarkhurd':(78.61915761, 26.59728580),
-#     't-point dulhagan':(78.78377558,26.66745089),
-#     't-point rama':(78.81041939,26.72280601),
-#     't-point kosad':(78.78706951,26.73502299),
-#     't-point khipona':(78.68977252,26.75359663),
-#     't-point jaari':(78.70380835,26.59018265),
-#     't-point khaderi':(78.58997066,26.69138319),
-#     't-point kishupura':(78.73823295,26.72569035),
-#     't-point madhaiyapura':(78.80782887,26.68666335),
-#     't-point pali':(78.62059573, 26.61485308)
-# }

@@ -1,0 +1,56 @@
+2025-11-15 21:18:23,765 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'AMBA TO JUNAPANI'.
+2025-11-15 21:18:23,765 - WARNING - ⚠️ The Span AMBA TO JUNAPANI is disconnected at this point (74.82302164800006, 22.747607005000077)
+2025-11-15 21:18:24,007 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BARMKHED TO KHUTPALA'.
+2025-11-15 21:18:24,007 - WARNING - ⚠️ The Span BARMKHED TO KHUTPALA is disconnected at this point (75.10103256100007, 22.820796211000072)
+2025-11-15 21:18:24,394 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BODLI TO BARMKHED'.
+2025-11-15 21:18:24,394 - WARNING - ⚠️ The Span BODLI TO BARMKHED is disconnected at this point (75.06069771900007, 22.768073342000037)
+2025-11-15 21:18:24,728 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.05967474800008, 22.771242237000024) & ending at (75.05916679100005, 22.77222654800005)
+2025-11-15 21:18:24,730 - WARNING -  ⚠️ The Geometry is multiline string starting at (75.05967474800008, 22.771242237000024) & ending at (75.05916679100005, 22.77222654800005)
+2025-11-15 21:18:24,797 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'DEVIKHEDA TO DEDLA'.
+2025-11-15 21:18:24,797 - WARNING - ⚠️ The Span DEVIKHEDA TO DEDLA is disconnected at this point (75.06045011700007, 22.776424015000032)
+2025-11-15 21:18:26,594 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'T-POINT AMBA TO MACHLIYA'.
+2025-11-15 21:18:26,594 - WARNING - ⚠️ The Span T-POINT AMBA TO MACHLIYA is disconnected at this point (74.81065102300005, 22.750825183000075)
+2025-11-15 21:18:27,148 - INFO - Created 3,185 records
+2025-11-15 21:18:27,163 - INFO - Created 108 records
+2025-11-15 21:18:27,164 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-11-15 21:18:27,166 - INFO - Created 5 records
+2025-11-15 21:18:27,253 - INFO - 🔄 Found 12 rings: ['R1', 'R2', 'R2-C1', 'R3', 'R4', 'R4-C1', 'R5', 'R5-C1', 'R5-C2', 'R6', 'R6-C1', 'R6-C2']
+2025-11-15 21:18:27,253 - INFO - 
+🔁 Processing ring: R1
+2025-11-15 21:18:27,257 - INFO - ✅ Completed ring R1 with 8 spans.
+2025-11-15 21:18:27,257 - INFO - 
+🔁 Processing ring: R2
+2025-11-15 21:18:27,262 - INFO - ✅ Completed ring R2 with 10 spans.
+2025-11-15 21:18:27,262 - INFO - 
+🔁 Processing ring: R2-C1
+2025-11-15 21:18:27,265 - INFO - ✅ Completed ring R2-C1 with 5 spans.
+2025-11-15 21:18:27,265 - INFO - 
+🔁 Processing ring: R3
+2025-11-15 21:18:27,269 - INFO - ✅ Completed ring R3 with 9 spans.
+2025-11-15 21:18:27,269 - INFO - 
+🔁 Processing ring: R4
+2025-11-15 21:18:27,271 - INFO - ✅ Completed ring R4 with 2 spans.
+2025-11-15 21:18:27,271 - INFO - 
+🔁 Processing ring: R4-C1
+2025-11-15 21:18:27,276 - INFO - ✅ Completed ring R4-C1 with 10 spans.
+2025-11-15 21:18:27,276 - INFO - 
+🔁 Processing ring: R5
+2025-11-15 21:18:27,280 - INFO - ✅ Completed ring R5 with 8 spans.
+2025-11-15 21:18:27,280 - INFO - 
+🔁 Processing ring: R5-C1
+2025-11-15 21:18:27,284 - INFO - ✅ Completed ring R5-C1 with 7 spans.
+2025-11-15 21:18:27,284 - INFO - 
+🔁 Processing ring: R5-C2
+2025-11-15 21:18:27,285 - INFO - ✅ Completed ring R5-C2 with 2 spans.
+2025-11-15 21:18:27,285 - INFO - 
+🔁 Processing ring: R6
+2025-11-15 21:18:27,290 - INFO - ✅ Completed ring R6 with 10 spans.
+2025-11-15 21:18:27,290 - INFO - 
+🔁 Processing ring: R6-C1
+2025-11-15 21:18:27,294 - INFO - ✅ Completed ring R6-C1 with 9 spans.
+2025-11-15 21:18:27,294 - INFO - 
+🔁 Processing ring: R6-C2
+2025-11-15 21:18:27,297 - INFO - ✅ Completed ring R6-C2 with 5 spans.
+2025-11-15 21:18:27,398 - INFO - Created 3,185 records
+2025-11-15 21:18:27,415 - INFO - Created 108 records
+2025-11-15 21:18:27,416 - INFO - ✅ All rings processed. Span sequence updated and saved.
