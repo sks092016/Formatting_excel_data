@@ -1,0 +1,23 @@
+2025-11-19 12:25:22,740 - INFO - Created 727 records
+2025-11-19 12:25:22,749 - INFO - Created 42 records
+2025-11-19 12:25:22,750 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-11-19 12:25:22,783 - INFO - Created 0 records
+2025-11-19 12:25:22,883 - INFO - \U0001f504 Found 5 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R2-C2']
+2025-11-19 12:25:22,884 - INFO - 
+\U0001f501 Processing ring: R1
+2025-11-19 12:25:22,894 - INFO - \u2705 Completed ring R1 with 11 spans.
+2025-11-19 12:25:22,895 - INFO - 
+\U0001f501 Processing ring: R1-C1
+2025-11-19 12:25:22,903 - INFO - \u2705 Completed ring R1-C1 with 7 spans.
+2025-11-19 12:25:22,903 - INFO - 
+\U0001f501 Processing ring: R2
+2025-11-19 12:25:22,912 - INFO - \u2705 Completed ring R2 with 9 spans.
+2025-11-19 12:25:22,912 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-11-19 12:25:22,914 - ERROR - \u274c Invalid start point input: not enough values to unpack (expected 2, got 1)
+2025-11-19 12:25:22,914 - INFO - 
+\U0001f501 Processing ring: R2-C2
+2025-11-19 12:25:22,921 - INFO - \u2705 Completed ring R2-C2 with 8 spans.
+2025-11-19 12:25:22,969 - INFO - Created 727 records
+2025-11-19 12:25:22,976 - INFO - Created 42 records
+2025-11-19 12:25:22,977 - INFO - \u2705 All rings processed. Span sequence updated and saved.
