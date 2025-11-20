@@ -1,0 +1,45 @@
+2025-11-20 10:56:27,572 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (80.63641764200008, 23.105470439000044) & ending at (80.63642806600006, 23.10546931400006)
+2025-11-20 10:56:27,575 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (80.63641764200008, 23.105470439000044) & ending at (80.63642806600006, 23.10546931400006)
+2025-11-20 10:56:27,669 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BIJORI MAL TO TIKARA SARAI BANSA'.
+2025-11-20 10:56:27,669 - WARNING - \u26a0\ufe0f The Span BIJORI MAL TO TIKARA SARAI BANSA is disconnected at this point (80.63674444700007, 23.105636611000023)
+2025-11-20 10:56:30,736 - INFO - Created 1,728 records
+2025-11-20 10:56:30,747 - INFO - Created 99 records
+2025-11-20 10:56:30,748 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-11-20 10:56:30,755 - INFO - Created 1 records
+2025-11-20 10:56:30,905 - INFO - \U0001f504 Found 11 rings: ['R1', 'R2', 'R2-C1', 'R2-C2', 'R2-C3', 'R3', 'R4', 'R5', 'R5-C1', 'R6', 'R6-C1']
+2025-11-20 10:56:30,906 - INFO - 
+\U0001f501 Processing ring: R1
+2025-11-20 10:56:30,910 - INFO - \u2705 Completed ring R1 with 2 spans.
+2025-11-20 10:56:30,910 - INFO - 
+\U0001f501 Processing ring: R2
+2025-11-20 10:56:30,918 - INFO - \u2705 Completed ring R2 with 9 spans.
+2025-11-20 10:56:30,918 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-11-20 10:56:30,921 - INFO - \u2705 Completed ring R2-C1 with 3 spans.
+2025-11-20 10:56:30,921 - INFO - 
+\U0001f501 Processing ring: R2-C2
+2025-11-20 10:56:30,928 - INFO - \u2705 Completed ring R2-C2 with 8 spans.
+2025-11-20 10:56:30,928 - INFO - 
+\U0001f501 Processing ring: R2-C3
+2025-11-20 10:56:30,934 - INFO - \u2705 Completed ring R2-C3 with 6 spans.
+2025-11-20 10:56:30,934 - INFO - 
+\U0001f501 Processing ring: R3
+2025-11-20 10:56:30,941 - INFO - \u2705 Completed ring R3 with 8 spans.
+2025-11-20 10:56:30,941 - INFO - 
+\U0001f501 Processing ring: R4
+2025-11-20 10:56:30,948 - INFO - \u2705 Completed ring R4 with 9 spans.
+2025-11-20 10:56:30,949 - INFO - 
+\U0001f501 Processing ring: R5
+2025-11-20 10:56:30,956 - INFO - \u2705 Completed ring R5 with 9 spans.
+2025-11-20 10:56:30,956 - INFO - 
+\U0001f501 Processing ring: R5-C1
+2025-11-20 10:56:30,963 - INFO - \u2705 Completed ring R5-C1 with 8 spans.
+2025-11-20 10:56:30,963 - INFO - 
+\U0001f501 Processing ring: R6
+2025-11-20 10:56:30,971 - INFO - \u2705 Completed ring R6 with 9 spans.
+2025-11-20 10:56:30,971 - INFO - 
+\U0001f501 Processing ring: R6-C1
+2025-11-20 10:56:30,974 - INFO - \u2705 Completed ring R6-C1 with 4 spans.
+2025-11-20 10:56:31,077 - INFO - Created 1,728 records
+2025-11-20 10:56:31,086 - INFO - Created 99 records
+2025-11-20 10:56:31,087 - INFO - \u2705 All rings processed. Span sequence updated and saved.

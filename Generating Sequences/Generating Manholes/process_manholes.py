@@ -1,6 +1,6 @@
 from methods import *
 
-block_name = "Kotma"
+block_name = "Shahpura"
 crs = "EPSG:4326"
 input_shapefile = f'input/OFC_New_{block_name}-1_Seg_Span_Seq.shp'
 output_json = f"temp/custom_points_{block_name}.json"
@@ -22,10 +22,10 @@ else:
     print("No sharp turns found under the given threshold.")
 
 #-----------------------------Processing the Brown Field Data--------------------------------
-scope = "brown field data"
+scope = "Brown field"
 brown_field_label = "Brown Field Conn"
 ptype = "Brown Field"
-shape_file_data_field = 'crossing_t'
+shape_file_data_field = 'road_autho'
 
 brown_field_points = f"temp/brown_field_manholes_{block_name}.shp"
 

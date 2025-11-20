@@ -1,0 +1,442 @@
+[
+  {
+    "x": 80.76337059100007,
+    "y": 23.07669808000003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_AMERA TO CHHIRPANI_23_26",
+    "type": "sharp_edge",
+    "span": "AMERA TO CHHIRPANI"
+  },
+  {
+    "x": 80.76986227600008,
+    "y": 23.127483425000037,
+    "crs": "EPSG:4326",
+    "label": "Sharp_AMTHERA TO AMERA_78_81",
+    "type": "sharp_edge",
+    "span": "AMTHERA TO AMERA"
+  },
+  {
+    "x": 80.82081170000004,
+    "y": 23.098367300000064,
+    "crs": "EPSG:4326",
+    "label": "Sharp_ANAKHEDA TO PALKI RYT_93_100",
+    "type": "sharp_edge",
+    "span": "ANAKHEDA TO PALKI RYT"
+  },
+  {
+    "x": 80.55691638300004,
+    "y": 23.248559406000027,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BADHAIGARH MAL TO PIPARIYA MAL_111_112",
+    "type": "sharp_edge",
+    "span": "BADHAIGARH MAL TO PIPARIYA MAL"
+  },
+  {
+    "x": 80.57820715300005,
+    "y": 23.25546059000004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BADHAIGARH MAL TO PIPARIYA MAL_118_120",
+    "type": "sharp_edge",
+    "span": "BADHAIGARH MAL TO PIPARIYA MAL"
+  },
+  {
+    "x": 80.72454673400006,
+    "y": 23.148550620000037,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BANKI MAL TO KANCHANPUR MAL_137_139",
+    "type": "sharp_edge",
+    "span": "BANKI MAL TO KANCHANPUR MAL"
+  },
+  {
+    "x": 80.64583596200004,
+    "y": 23.168052299000067,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BARKHEDA TO SHAHPURA BLOCK_145_146",
+    "type": "sharp_edge",
+    "span": "BARKHEDA TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.61355590000005,
+    "y": 23.267329800000027,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BARODI MAL TO SARASWAHI_164_185",
+    "type": "sharp_edge",
+    "span": "BARODI MAL TO SARASWAHI"
+  },
+  {
+    "x": 80.70104943600006,
+    "y": 23.186745949000056,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BHIMPAR TO SHAHPURA BLOCK_289_290",
+    "type": "sharp_edge",
+    "span": "BHIMPAR TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.55886478000008,
+    "y": 23.10200386100007,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BICHIYA TO KATANGI_325_348",
+    "type": "sharp_edge",
+    "span": "BICHIYA TO KATANGI"
+  },
+  {
+    "x": 80.67018277300008,
+    "y": 23.10599290700003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BIJORI MAL TO TIKARA SARAI BANSA_408_409",
+    "type": "sharp_edge",
+    "span": "BIJORI MAL TO TIKARA SARAI BANSA"
+  },
+  {
+    "x": 80.70637991900009,
+    "y": 23.18345961700004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BILGAON TO SHAHPURA BLOCK_455_460",
+    "type": "sharp_edge",
+    "span": "BILGAON TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.70665498700004,
+    "y": 23.082179371000052,
+    "crs": "EPSG:4326",
+    "label": "Sharp_CHANDWAHI MAL TO INDORI MAL_473_474",
+    "type": "sharp_edge",
+    "span": "CHANDWAHI MAL TO INDORI MAL"
+  },
+  {
+    "x": 80.57042850000005,
+    "y": 23.073749600000042,
+    "crs": "EPSG:4326",
+    "label": "Sharp_CHAPARA RYT TO BADJHAR_491_492",
+    "type": "sharp_edge",
+    "span": "CHAPARA RYT TO BADJHAR"
+  },
+  {
+    "x": 80.73045980000006,
+    "y": 23.124756300000058,
+    "crs": "EPSG:4326",
+    "label": "Sharp_CHHIRPANI TO KARONDI MAL_535_541",
+    "type": "sharp_edge",
+    "span": "CHHIRPANI TO KARONDI MAL"
+  },
+  {
+    "x": 80.66214895600007,
+    "y": 23.32634626500004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DEVGAON TO DHIRWAN KALA_602_630",
+    "type": "sharp_edge",
+    "span": "DEVGAON TO DHIRWAN KALA"
+  },
+  {
+    "x": 80.64154982800005,
+    "y": 23.310133344000064,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DEVGAON TO DHIRWAN KALA_619_620",
+    "type": "sharp_edge",
+    "span": "DEVGAON TO DHIRWAN KALA"
+  },
+  {
+    "x": 80.74198098300008,
+    "y": 23.06817300000006,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DOOBA MAL TO CHANDWAHI MAL_676_735",
+    "type": "sharp_edge",
+    "span": "DOOBA MAL TO CHANDWAHI MAL"
+  },
+  {
+    "x": 80.72704948600006,
+    "y": 23.02365616800006,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DOOBA MAL TO CHANDWAHI MAL_712_713",
+    "type": "sharp_edge",
+    "span": "DOOBA MAL TO CHANDWAHI MAL"
+  },
+  {
+    "x": 80.70658581100008,
+    "y": 23.082164270000078,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DOOBA MAL TO CHANDWAHI MAL_740_746",
+    "type": "sharp_edge",
+    "span": "DOOBA MAL TO CHANDWAHI MAL"
+  },
+  {
+    "x": 80.67811219900005,
+    "y": 23.266585877000068,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DULLOPUR TO PADARIYA KALA_763_782",
+    "type": "sharp_edge",
+    "span": "DULLOPUR TO PADARIYA KALA"
+  },
+  {
+    "x": 80.82800416600008,
+    "y": 23.228047436000054,
+    "crs": "EPSG:4326",
+    "label": "Sharp_GANESHPUR TO KAILWARA_802_803",
+    "type": "sharp_edge",
+    "span": "GANESHPUR TO KAILWARA"
+  },
+  {
+    "x": 80.84826722600008,
+    "y": 23.210436483000024,
+    "crs": "EPSG:4326",
+    "label": "Sharp_GANESHPUR TO KAILWARA_807_808",
+    "type": "sharp_edge",
+    "span": "GANESHPUR TO KAILWARA"
+  },
+  {
+    "x": 80.63521831500003,
+    "y": 23.174198141000034,
+    "crs": "EPSG:4326",
+    "label": "Sharp_GURAIYA MAL TO BARKHEDA_820_821",
+    "type": "sharp_edge",
+    "span": "GURAIYA MAL TO BARKHEDA"
+  },
+  {
+    "x": 80.86138436900006,
+    "y": 23.203416915000048,
+    "crs": "EPSG:4326",
+    "label": "Sharp_JAMGAON TO SARAI RYT_836_861",
+    "type": "sharp_edge",
+    "span": "JAMGAON TO SARAI RYT"
+  },
+  {
+    "x": 80.86113121900007,
+    "y": 23.201666782000075,
+    "crs": "EPSG:4326",
+    "label": "Sharp_JAMGAON TO SARAI RYT_861_862",
+    "type": "sharp_edge",
+    "span": "JAMGAON TO SARAI RYT"
+  },
+  {
+    "x": 80.84861080000007,
+    "y": 23.210277200000064,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KAILWARA TO JAMGAON_869_871",
+    "type": "sharp_edge",
+    "span": "KAILWARA TO JAMGAON"
+  },
+  {
+    "x": 80.69929377900007,
+    "y": 23.184836679000057,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KARIGADAHARI MAL TO SHAHPURA BLOCK_876_971",
+    "type": "sharp_edge",
+    "span": "KARIGADAHARI MAL TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.69260426700004,
+    "y": 23.161682217000077,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KARIGADAHARI MAL TO SHAHPURA BLOCK_944_945",
+    "type": "sharp_edge",
+    "span": "KARIGADAHARI MAL TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.69433755700004,
+    "y": 23.183785947000047,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KARIGADAHARI MAL TO SHAHPURA BLOCK_964_965",
+    "type": "sharp_edge",
+    "span": "KARIGADAHARI MAL TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.72650499400004,
+    "y": 23.15014603900005,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KARONDI MAL TO BANKI MAL_979_980",
+    "type": "sharp_edge",
+    "span": "KARONDI MAL TO BANKI MAL"
+  },
+  {
+    "x": 80.90405779100007,
+    "y": 23.076972668000053,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KASAISODA TO ANAKHEDA_988_991",
+    "type": "sharp_edge",
+    "span": "KASAISODA TO ANAKHEDA"
+  },
+  {
+    "x": 80.53257913600004,
+    "y": 23.18188125300003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KEHENJARA TO MATAKA RYT_1031_1069",
+    "type": "sharp_edge",
+    "span": "KEHENJARA TO MATAKA RYT"
+  },
+  {
+    "x": 80.57270411900004,
+    "y": 23.197872326000038,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KHAIRBHAGDU MAL TO BADHAIGARH MAL_1107_1117",
+    "type": "sharp_edge",
+    "span": "KHAIRBHAGDU MAL TO BADHAIGARH MAL"
+  },
+  {
+    "x": 80.61973727000003,
+    "y": 23.21706859300008,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KHAIRBHAGDU MAL TO BADHAIGARH MAL_1127_1128",
+    "type": "sharp_edge",
+    "span": "KHAIRBHAGDU MAL TO BADHAIGARH MAL"
+  },
+  {
+    "x": 80.90744414200003,
+    "y": 23.074646509000047,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KHAMAHRIYA MAL TO KASAISODA_1129_1160",
+    "type": "sharp_edge",
+    "span": "KHAMAHRIYA MAL TO KASAISODA"
+  },
+  {
+    "x": 80.90427254400004,
+    "y": 23.077341844000046,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KHAMAHRIYA MAL TO KASAISODA_1129_1162",
+    "type": "sharp_edge",
+    "span": "KHAMAHRIYA MAL TO KASAISODA"
+  },
+  {
+    "x": 80.92899979700007,
+    "y": 23.103472531000023,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KHAMAHRIYA MAL TO KASAISODA_1130_1133",
+    "type": "sharp_edge",
+    "span": "KHAMAHRIYA MAL TO KASAISODA"
+  },
+  {
+    "x": 80.91334702700004,
+    "y": 23.100584670000046,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KHAMAHRIYA MAL TO KASAISODA_1142_1145",
+    "type": "sharp_edge",
+    "span": "KHAMAHRIYA MAL TO KASAISODA"
+  },
+  {
+    "x": 80.90538415500004,
+    "y": 23.080060501000048,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KHAMAHRIYA MAL TO KASAISODA_1154_1155",
+    "type": "sharp_edge",
+    "span": "KHAMAHRIYA MAL TO KASAISODA"
+  },
+  {
+    "x": 80.72463066000006,
+    "y": 23.24088230600006,
+    "crs": "EPSG:4326",
+    "label": "Sharp_PADARIYA KALA TO DHIRWANKHURD_1179_1187",
+    "type": "sharp_edge",
+    "span": "PADARIYA KALA TO DHIRWANKHURD"
+  },
+  {
+    "x": 80.67657796000003,
+    "y": 23.323412423000036,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SALAIYA TO KACHARI MAL_1335_1342",
+    "type": "sharp_edge",
+    "span": "SALAIYA TO KACHARI MAL"
+  },
+  {
+    "x": 80.86481336800006,
+    "y": 23.150730778000025,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SARAI RYT TO SILAHRI_1402_1403",
+    "type": "sharp_edge",
+    "span": "SARAI RYT TO SILAHRI"
+  },
+  {
+    "x": 80.86526606800004,
+    "y": 23.150121429000023,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SARAI RYT TO SILAHRI_1403_1404",
+    "type": "sharp_edge",
+    "span": "SARAI RYT TO SILAHRI"
+  },
+  {
+    "x": 80.86355462400007,
+    "y": 23.15001279200004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SARAI RYT TO SILAHRI_1405_1407",
+    "type": "sharp_edge",
+    "span": "SARAI RYT TO SILAHRI"
+  },
+  {
+    "x": 80.74996401000004,
+    "y": 23.145558049000044,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SHAHPURA BLOCK TO BARGAON_1441_1443",
+    "type": "sharp_edge",
+    "span": "SHAHPURA BLOCK TO BARGAON"
+  },
+  {
+    "x": 80.69916753100006,
+    "y": 23.187493165000035,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SHAHPURA BLOCK TO BARODI MAL_1449_1456",
+    "type": "sharp_edge",
+    "span": "SHAHPURA BLOCK TO BARODI MAL"
+  },
+  {
+    "x": 80.69943629600004,
+    "y": 23.184880390000046,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SHAHPURA BLOCK TO BIJORI MAL_1485_1487",
+    "type": "sharp_edge",
+    "span": "SHAHPURA BLOCK TO BIJORI MAL"
+  },
+  {
+    "x": 80.87171419000003,
+    "y": 23.111768230000052,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SILAHRI TO PIPARIYA KALA_1562_1600",
+    "type": "sharp_edge",
+    "span": "SILAHRI TO PIPARIYA KALA"
+  },
+  {
+    "x": 80.79741520000005,
+    "y": 23.015808900000025,
+    "crs": "EPSG:4326",
+    "label": "Sharp_T-POINT RAKHI MAL TO DEWARI MAL_1643_1644",
+    "type": "sharp_edge",
+    "span": "T-POINT RAKHI MAL TO DEWARI MAL"
+  },
+  {
+    "x": 80.61508712200003,
+    "y": 23.08666130900008,
+    "crs": "EPSG:4326",
+    "label": "Sharp_TIKARA SARAI BANSA TO CHAPARA RYT_1672_1673",
+    "type": "sharp_edge",
+    "span": "TIKARA SARAI BANSA TO CHAPARA RYT"
+  },
+  {
+    "x": 80.63082000000009,
+    "y": 23.10754000000003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_TIKARA SARAI BANSA TO CHAPARA RYT_1703_1706",
+    "type": "sharp_edge",
+    "span": "TIKARA SARAI BANSA TO CHAPARA RYT"
+  },
+  {
+    "x": 80.70166793000004,
+    "y": 23.190543989000048,
+    "crs": "EPSG:4326",
+    "label": "Sharp_TIKARIYA TO SHAHPURA BLOCK_1717_1726",
+    "type": "sharp_edge",
+    "span": "TIKARIYA TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.69433867100008,
+    "y": 23.183807583000032,
+    "crs": "EPSG:4326",
+    "label": "Sharp_TIKARIYA TO SHAHPURA BLOCK_1721_1722",
+    "type": "sharp_edge",
+    "span": "TIKARIYA TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.69441754100006,
+    "y": 23.184513939000055,
+    "crs": "EPSG:4326",
+    "label": "Sharp_TIKARIYA TO SHAHPURA BLOCK_1722_1725",
+    "type": "sharp_edge",
+    "span": "TIKARIYA TO SHAHPURA BLOCK"
+  }
+]
