@@ -1,0 +1,33 @@
+2025-11-20 22:45:39,209 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'KHAIRLANJI BLOCK TO ATRI'.
+2025-11-20 22:45:39,209 - WARNING - ⚠️ The Span KHAIRLANJI BLOCK TO ATRI is disconnected at this point (79.97981683800003, 21.59922788800003)
+2025-11-20 22:45:39,912 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'SAWARI TO KHAIRLANJI BLOCK'.
+2025-11-20 22:45:39,913 - WARNING - ⚠️ The Span SAWARI TO KHAIRLANJI BLOCK is disconnected at this point (79.97841400000004, 21.604505000000074)
+2025-11-20 22:45:40,314 - INFO - Created 1,196 records
+2025-11-20 22:45:40,322 - INFO - Created 64 records
+2025-11-20 22:45:40,323 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-11-20 22:45:40,324 - INFO - Created 2 records
+2025-11-20 22:45:40,361 - INFO - 🔄 Found 7 rings: ['R1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4', 'R4-C1']
+2025-11-20 22:45:40,361 - INFO - 
+🔁 Processing ring: R1
+2025-11-20 22:45:40,367 - INFO - ✅ Completed ring R1 with 11 spans.
+2025-11-20 22:45:40,367 - INFO - 
+🔁 Processing ring: R2
+2025-11-20 22:45:40,370 - INFO - ✅ Completed ring R2 with 7 spans.
+2025-11-20 22:45:40,370 - INFO - 
+🔁 Processing ring: R2-C1
+2025-11-20 22:45:40,373 - INFO - ✅ Completed ring R2-C1 with 6 spans.
+2025-11-20 22:45:40,373 - INFO - 
+🔁 Processing ring: R3
+2025-11-20 22:45:40,379 - INFO - ✅ Completed ring R3 with 11 spans.
+2025-11-20 22:45:40,379 - INFO - 
+🔁 Processing ring: R3-C1
+2025-11-20 22:45:40,382 - INFO - ✅ Completed ring R3-C1 with 7 spans.
+2025-11-20 22:45:40,382 - INFO - 
+🔁 Processing ring: R4
+2025-11-20 22:45:40,384 - INFO - ✅ Completed ring R4 with 1 spans.
+2025-11-20 22:45:40,384 - INFO - 
+🔁 Processing ring: R4-C1
+2025-11-20 22:45:40,388 - INFO - ✅ Completed ring R4-C1 with 9 spans.
+2025-11-20 22:45:40,425 - INFO - Created 1,196 records
+2025-11-20 22:45:40,433 - INFO - Created 64 records
+2025-11-20 22:45:40,434 - INFO - ✅ All rings processed. Span sequence updated and saved.
