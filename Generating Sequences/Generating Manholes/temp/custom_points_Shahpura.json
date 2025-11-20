@@ -438,5 +438,1733 @@
     "label": "Sharp_TIKARIYA TO SHAHPURA BLOCK_1722_1725",
     "type": "sharp_edge",
     "span": "TIKARIYA TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.81610690500008,
+    "y": 23.10165706600003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "AMERA TO CHHIRPANI"
+  },
+  {
+    "x": 80.79292165200008,
+    "y": 23.052377970000066,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "AMERA TO CHHIRPANI"
+  },
+  {
+    "x": 80.76448625700004,
+    "y": 23.079267111000036,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "AMERA TO CHHIRPANI"
+  },
+  {
+    "x": 80.76511707800006,
+    "y": 23.079894428000046,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "AMERA TO CHHIRPANI"
+  },
+  {
+    "x": 80.93110954800005,
+    "y": 23.24220943200004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "AMNIPIPARIYA RYT TO CHHIVALI MAL"
+  },
+  {
+    "x": 80.93388020000003,
+    "y": 23.24153620000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "AMNIPIPARIYA RYT TO CHHIVALI MAL"
+  },
+  {
+    "x": 80.76986227600008,
+    "y": 23.127483425000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "AMTHERA TO AMERA"
+  },
+  {
+    "x": 80.81610690500008,
+    "y": 23.10165706600003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "AMTHERA TO AMERA"
+  },
+  {
+    "x": 80.83583560000005,
+    "y": 23.084659900000077,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "ANAKHEDA TO PALKI RYT"
+  },
+  {
+    "x": 80.82081170000004,
+    "y": 23.098367300000064,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "ANAKHEDA TO PALKI RYT"
+  },
+  {
+    "x": 80.55591370000008,
+    "y": 23.23422750000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BADHAIGARH MAL TO PIPARIYA MAL"
+  },
+  {
+    "x": 80.55613352800003,
+    "y": 23.23584627300005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BADHAIGARH MAL TO PIPARIYA MAL"
+  },
+  {
+    "x": 80.56838620000008,
+    "y": 23.073324100000036,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BADJHAR TO BICHIYA"
+  },
+  {
+    "x": 80.56694090000008,
+    "y": 23.089711300000033,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BADJHAR TO BICHIYA"
+  },
+  {
+    "x": 80.72484040000006,
+    "y": 23.147766700000034,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BANKI MAL TO KANCHANPUR MAL"
+  },
+  {
+    "x": 80.71137913600006,
+    "y": 23.125749624000036,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BANKI MAL TO KANCHANPUR MAL"
+  },
+  {
+    "x": 80.74999200000008,
+    "y": 23.14549150000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BARGAON TO AMTHERA"
+  },
+  {
+    "x": 80.77049997900008,
+    "y": 23.12800605900003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BARGAON TO AMTHERA"
+  },
+  {
+    "x": 80.64583596200004,
+    "y": 23.168052299000067,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BARKHEDA TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.69432377200008,
+    "y": 23.184524037000074,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BARKHEDA TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.68975549200007,
+    "y": 23.233730688000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BARODI MAL TO SARASWAHI"
+  },
+  {
+    "x": 80.66345079400008,
+    "y": 23.251447617000053,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BARODI MAL TO SARASWAHI"
+  },
+  {
+    "x": 80.64479170000004,
+    "y": 23.26803620000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BARODI MAL TO SARASWAHI"
+  },
+  {
+    "x": 80.61355590000005,
+    "y": 23.267329800000027,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BARODI MAL TO SARASWAHI"
+  },
+  {
+    "x": 80.96650625400008,
+    "y": 23.232014930000048,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BATONDHA TO SARANGPUR PADARIYA"
+  },
+  {
+    "x": 80.97527700000006,
+    "y": 23.194444700000076,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BATONDHA TO SARANGPUR PADARIYA"
+  },
+  {
+    "x": 80.94211160000003,
+    "y": 23.161956200000077,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BATONDHA TO SARANGPUR PADARIYA"
+  },
+  {
+    "x": 80.94180704500008,
+    "y": 23.159327215000076,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BATONDHA TO SARANGPUR PADARIYA"
+  },
+  {
+    "x": 80.72418872200006,
+    "y": 23.335010226000065,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BHILAI MAL TO MAGAR TAGAR"
+  },
+  {
+    "x": 80.72389153100005,
+    "y": 23.334998682000048,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BHILAI MAL TO MAGAR TAGAR"
+  },
+  {
+    "x": 80.66782701800008,
+    "y": 23.225560664000056,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BHIMPAR TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.66829880000006,
+    "y": 23.224527700000067,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BHIMPAR TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.56687440400003,
+    "y": 23.08972463400005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BICHIYA TO KATANGI"
+  },
+  {
+    "x": 80.56362447600003,
+    "y": 23.090560366000034,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BICHIYA TO KATANGI"
+  },
+  {
+    "x": 80.57130298900006,
+    "y": 23.08935920700003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BICHIYA TO KATANGI"
+  },
+  {
+    "x": 80.59974766000005,
+    "y": 23.100612349000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BICHIYA TO KATANGI"
+  },
+  {
+    "x": 80.68166736800003,
+    "y": 23.14860629900005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BIJORI MAL TO TIKARA SARAI BANSA"
+  },
+  {
+    "x": 80.68431200000003,
+    "y": 23.14468130000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BIJORI MAL TO TIKARA SARAI BANSA"
+  },
+  {
+    "x": 80.78750166100008,
+    "y": 23.139717030000043,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BILGAON TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.75044900000006,
+    "y": 23.145987200000036,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BILGAON TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.69677234700004,
+    "y": 23.179467543000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BILGAON TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.69432377200008,
+    "y": 23.184524037000074,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BILGAON TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.75044900000006,
+    "y": 23.145987200000036,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BILGAON TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.73865590000008,
+    "y": 23.15614000000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BILGAON TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.70665498700004,
+    "y": 23.082179371000052,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHANDWAHI MAL TO INDORI MAL"
+  },
+  {
+    "x": 80.72862052400006,
+    "y": 23.122460313000033,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHANDWAHI MAL TO INDORI MAL"
+  },
+  {
+    "x": 80.57837458600005,
+    "y": 23.08853906400003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHAPARA RYT TO BADJHAR"
+  },
+  {
+    "x": 80.57500460000006,
+    "y": 23.087384800000052,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHAPARA RYT TO BADJHAR"
+  },
+  {
+    "x": 80.57042850000005,
+    "y": 23.073749600000042,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHAPARA RYT TO BADJHAR"
+  },
+  {
+    "x": 80.57130988800003,
+    "y": 23.066781883000033,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHAPARA RYT TO BADJHAR"
+  },
+  {
+    "x": 80.57194025200005,
+    "y": 23.089480731000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHAPARA RYT TO BADJHAR"
+  },
+  {
+    "x": 80.56990051500003,
+    "y": 23.08881443100006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHAPARA RYT TO BADJHAR"
+  },
+  {
+    "x": 80.73045980000006,
+    "y": 23.124756300000058,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHHIRPANI TO KARONDI MAL"
+  },
+  {
+    "x": 80.73598950000007,
+    "y": 23.148119200000053,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHHIRPANI TO KARONDI MAL"
+  },
+  {
+    "x": 80.94722158500008,
+    "y": 23.25055433400007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHHIVALI MAL TO BATONDHA"
+  },
+  {
+    "x": 80.96650625400008,
+    "y": 23.232014930000048,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHHIVALI MAL TO BATONDHA"
+  },
+  {
+    "x": 80.91747145600004,
+    "y": 23.176212099000054,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHICHRINGPUR TO PAKARBAGHRRA"
+  },
+  {
+    "x": 80.91864148600007,
+    "y": 23.175782182000034,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHICHRINGPUR TO PAKARBAGHRRA"
+  },
+  {
+    "x": 80.62110745800004,
+    "y": 23.146652970000048,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DALKA SARAI MAL TO RAWANKUND"
+  },
+  {
+    "x": 80.61975056100005,
+    "y": 23.149997002000077,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DALKA SARAI MAL TO RAWANKUND"
+  },
+  {
+    "x": 80.67555168500007,
+    "y": 23.32971120900004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEVGAON TO DHIRWAN KALA"
+  },
+  {
+    "x": 80.67925448100004,
+    "y": 23.34866320900005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEVGAON TO DHIRWAN KALA"
+  },
+  {
+    "x": 80.64340090000007,
+    "y": 23.226268400000038,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEWARI KHURD TO KHAIRBHAGDU MAL"
+  },
+  {
+    "x": 80.64304000000004,
+    "y": 23.22635470000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEWARI KHURD TO KHAIRBHAGDU MAL"
+  },
+  {
+    "x": 80.63836220000007,
+    "y": 23.215468200000032,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEWARI KHURD TO KHAIRBHAGDU MAL"
+  },
+  {
+    "x": 80.61985140800005,
+    "y": 23.217041186000074,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEWARI KHURD TO KHAIRBHAGDU MAL"
+  },
+  {
+    "x": 80.67925630000008,
+    "y": 23.348707400000023,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DHIRWAN KALA TO BHILAI MAL"
+  },
+  {
+    "x": 80.69530625100003,
+    "y": 23.352299110000047,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DHIRWAN KALA TO BHILAI MAL"
+  },
+  {
+    "x": 80.72241132500005,
+    "y": 23.23107224900008,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DHIRWANKHURD TO TIKARIYA"
+  },
+  {
+    "x": 80.71671645400005,
+    "y": 23.211616418000062,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DHIRWANKHURD TO TIKARIYA"
+  },
+  {
+    "x": 80.67583860000008,
+    "y": 23.30871570000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DOBHI TO T-POINT DULLOPUR"
+  },
+  {
+    "x": 80.66724507000004,
+    "y": 23.278069091000077,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DOBHI TO T-POINT DULLOPUR"
+  },
+  {
+    "x": 80.88009134500004,
+    "y": 23.225129845000026,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DUDHIMAJHOLI TO AMNIPIPARIYA RYT"
+  },
+  {
+    "x": 80.93110954800005,
+    "y": 23.24220943200004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DUDHIMAJHOLI TO AMNIPIPARIYA RYT"
+  },
+  {
+    "x": 80.67625090000007,
+    "y": 23.263163400000053,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DULLOPUR TO PADARIYA KALA"
+  },
+  {
+    "x": 80.67752780000006,
+    "y": 23.250871800000027,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DULLOPUR TO PADARIYA KALA"
+  },
+  {
+    "x": 80.70794870000003,
+    "y": 23.245897700000057,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DULLOPUR TO PADARIYA KALA"
+  },
+  {
+    "x": 80.71163091200003,
+    "y": 23.24118102700004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DULLOPUR TO PADARIYA KALA"
+  },
+  {
+    "x": 80.62594344500008,
+    "y": 23.176312014000075,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GURAIYA MAL TO BARKHEDA"
+  },
+  {
+    "x": 80.63484800000003,
+    "y": 23.175317300000074,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GURAIYA MAL TO BARKHEDA"
+  },
+  {
+    "x": 80.63183693800005,
+    "y": 23.137709045000065,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GUTALWAH TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.69432377200008,
+    "y": 23.184524037000074,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GUTALWAH TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.72862052400006,
+    "y": 23.122460313000033,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "INDORI MAL TO T-POINT KARONDI MAL"
+  },
+  {
+    "x": 80.73045980000006,
+    "y": 23.124756300000058,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "INDORI MAL TO T-POINT KARONDI MAL"
+  },
+  {
+    "x": 80.86113121900007,
+    "y": 23.201666782000075,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JAMGAON TO SARAI RYT"
+  },
+  {
+    "x": 80.86138436900006,
+    "y": 23.203416915000048,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JAMGAON TO SARAI RYT"
+  },
+  {
+    "x": 80.80030534400004,
+    "y": 23.209696996000048,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JHAGREHATA DUNGARIYA TO GANESHPUR"
+  },
+  {
+    "x": 80.81305750000007,
+    "y": 23.231459400000062,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JHAGREHATA DUNGARIYA TO GANESHPUR"
+  },
+  {
+    "x": 80.67672547800004,
+    "y": 23.324506555000028,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KACHARI MAL TO DOBHI"
+  },
+  {
+    "x": 80.67583860000008,
+    "y": 23.30871570000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KACHARI MAL TO DOBHI"
+  },
+  {
+    "x": 80.84861080000007,
+    "y": 23.210277200000064,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KAILWARA TO JAMGAON"
+  },
+  {
+    "x": 80.85954110000006,
+    "y": 23.206696000000022,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KAILWARA TO JAMGAON"
+  },
+  {
+    "x": 80.71134548400005,
+    "y": 23.12570820600007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KANCHANPUR MAL TO KARIGADAHARI MAL"
+  },
+  {
+    "x": 80.68806250000006,
+    "y": 23.113886700000023,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KANCHANPUR MAL TO KARIGADAHARI MAL"
+  },
+  {
+    "x": 80.73654480000005,
+    "y": 23.148967800000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KARONDI MAL TO BANKI MAL"
+  },
+  {
+    "x": 80.73582990000006,
+    "y": 23.148122900000033,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KARONDI MAL TO BANKI MAL"
+  },
+  {
+    "x": 80.90405779100007,
+    "y": 23.076972668000053,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KASAISODA TO ANAKHEDA"
+  },
+  {
+    "x": 80.86294720000006,
+    "y": 23.081358600000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KASAISODA TO ANAKHEDA"
+  },
+  {
+    "x": 80.66781557400003,
+    "y": 23.225697404000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KASTURI PIPARIYA TO BHIMPAR"
+  },
+  {
+    "x": 80.66782701800008,
+    "y": 23.225560664000056,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KASTURI PIPARIYA TO BHIMPAR"
+  },
+  {
+    "x": 80.59974766000005,
+    "y": 23.100612349000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KATANGI TO GUTALWAH"
+  },
+  {
+    "x": 80.62190780000003,
+    "y": 23.113413800000046,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KATANGI TO GUTALWAH"
+  },
+  {
+    "x": 80.57677030500008,
+    "y": 23.15600832900003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KEHENJARA TO MATAKA RYT"
+  },
+  {
+    "x": 80.57248790000006,
+    "y": 23.17012520000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KEHENJARA TO MATAKA RYT"
+  },
+  {
+    "x": 80.61973727000003,
+    "y": 23.21706859300008,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHAIRBHAGDU MAL TO BADHAIGARH MAL"
+  },
+  {
+    "x": 80.61949970000006,
+    "y": 23.217132200000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHAIRBHAGDU MAL TO BADHAIGARH MAL"
+  },
+  {
+    "x": 80.56265744100006,
+    "y": 23.200278412000046,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHAIRBHAGDU MAL TO BADHAIGARH MAL"
+  },
+  {
+    "x": 80.55591140000007,
+    "y": 23.23421030000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHAIRBHAGDU MAL TO BADHAIGARH MAL"
+  },
+  {
+    "x": 80.90404340000003,
+    "y": 23.076918000000035,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHAMAHRIYA MAL TO KASAISODA"
+  },
+  {
+    "x": 80.90362250000004,
+    "y": 23.077229000000045,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHAMAHRIYA MAL TO KASAISODA"
+  },
+  {
+    "x": 80.56315923100004,
+    "y": 23.196460345000048,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KOHANI DEWARI KALA TO GURAIYA MAL"
+  },
+  {
+    "x": 80.62594344500008,
+    "y": 23.176312014000075,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KOHANI DEWARI KALA TO GURAIYA MAL"
+  },
+  {
+    "x": 80.72389153100005,
+    "y": 23.334998682000048,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAGAR TAGAR TO SALAIYA"
+  },
+  {
+    "x": 80.69378461900004,
+    "y": 23.332516104000035,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAGAR TAGAR TO SALAIYA"
+  },
+  {
+    "x": 80.61361212700007,
+    "y": 23.266660626000032,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MANIKPUR TO SARAI MAL"
+  },
+  {
+    "x": 80.63229670000004,
+    "y": 23.262931700000024,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MANIKPUR TO SARAI MAL"
+  },
+  {
+    "x": 80.53277513700004,
+    "y": 23.181975323000074,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MATAKA RYT TO KOHANI DEWARI KALA"
+  },
+  {
+    "x": 80.56315923100004,
+    "y": 23.196460345000048,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MATAKA RYT TO KOHANI DEWARI KALA"
+  },
+  {
+    "x": 80.89882954300003,
+    "y": 23.108906622000063,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MERMAL TO KHAMAHRIYA MAL"
+  },
+  {
+    "x": 80.93081542500005,
+    "y": 23.102376460000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MERMAL TO KHAMAHRIYA MAL"
+  },
+  {
+    "x": 80.60980080000007,
+    "y": 23.319735200000025,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PAYALI GHUGHARI MAL TO RAIYPURA MAL"
+  },
+  {
+    "x": 80.66718625900006,
+    "y": 23.277937475000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PAYALI GHUGHARI MAL TO RAIYPURA MAL"
+  },
+  {
+    "x": 80.78730260000003,
+    "y": 23.139635000000055,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PIPARIYA KALA TO BILGAON"
+  },
+  {
+    "x": 80.78750166100008,
+    "y": 23.139717030000043,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PIPARIYA KALA TO BILGAON"
+  },
+  {
+    "x": 80.57906240000005,
+    "y": 23.254849300000046,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PIPARIYA MAL TO MANIKPUR"
+  },
+  {
+    "x": 80.61361212700007,
+    "y": 23.266660626000032,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PIPARIYA MAL TO MANIKPUR"
+  },
+  {
+    "x": 80.82544816900008,
+    "y": 23.203525058000025,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PONDI MAL TO KAILWARA"
+  },
+  {
+    "x": 80.82199560000004,
+    "y": 23.212163300000043,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PONDI MAL TO KAILWARA"
+  },
+  {
+    "x": 80.66724848500007,
+    "y": 23.277925801000038,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "RAIYPURA MAL TO DULLOPUR"
+  },
+  {
+    "x": 80.67996579900006,
+    "y": 23.27503168900006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "RAIYPURA MAL TO DULLOPUR"
+  },
+  {
+    "x": 80.73389848100004,
+    "y": 23.19410573400006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "RANGAON MAL TO SANGRAMPUR MAL"
+  },
+  {
+    "x": 80.75248714700007,
+    "y": 23.20716494900006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "RANGAON MAL TO SANGRAMPUR MAL"
+  },
+  {
+    "x": 80.61975056100005,
+    "y": 23.149997002000077,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "RAWANKUND TO KEHENJARA"
+  },
+  {
+    "x": 80.61866100000003,
+    "y": 23.148471400000062,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "RAWANKUND TO KEHENJARA"
+  },
+  {
+    "x": 80.88551673800004,
+    "y": 23.15587479100003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SAHAJPURI TO T-POINT CHICHRINGPUR"
+  },
+  {
+    "x": 80.92812310000005,
+    "y": 23.147338500000046,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SAHAJPURI TO T-POINT CHICHRINGPUR"
+  },
+  {
+    "x": 80.69378461900004,
+    "y": 23.332516104000035,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SALAIYA TO KACHARI MAL"
+  },
+  {
+    "x": 80.68305900000007,
+    "y": 23.330832800000053,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SALAIYA TO KACHARI MAL"
+  },
+  {
+    "x": 80.75248714700007,
+    "y": 23.20716494900006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SANGRAMPUR MAL TO KAILWARA"
+  },
+  {
+    "x": 80.82199560000004,
+    "y": 23.212163300000043,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SANGRAMPUR MAL TO KAILWARA"
+  },
+  {
+    "x": 80.63229670000004,
+    "y": 23.262931700000024,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SARAI MAL TO KASTURI PIPARIYA"
+  },
+  {
+    "x": 80.63280830000008,
+    "y": 23.26284990000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SARAI MAL TO KASTURI PIPARIYA"
+  },
+  {
+    "x": 80.87771068000006,
+    "y": 23.186504528000057,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SARAI RYT TO SILAHRI"
+  },
+  {
+    "x": 80.86793697100006,
+    "y": 23.181799477000027,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SARAI RYT TO SILAHRI"
+  },
+  {
+    "x": 80.94180704500008,
+    "y": 23.159327215000076,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SARANGPUR PADARIYA TO CHICHRINGPUR"
+  },
+  {
+    "x": 80.94156430000004,
+    "y": 23.15927110000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SARANGPUR PADARIYA TO CHICHRINGPUR"
+  },
+  {
+    "x": 80.93696050000005,
+    "y": 23.158049900000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SARANGPUR PADARIYA TO CHICHRINGPUR"
+  },
+  {
+    "x": 80.91747145600004,
+    "y": 23.176212099000054,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SARANGPUR PADARIYA TO CHICHRINGPUR"
+  },
+  {
+    "x": 80.58941000000004,
+    "y": 23.321354530000065,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SARASWAHI TO PAYALI GHUGHARI MAL"
+  },
+  {
+    "x": 80.57773190000006,
+    "y": 23.321387800000025,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SARASWAHI TO PAYALI GHUGHARI MAL"
+  },
+  {
+    "x": 80.69444496700004,
+    "y": 23.184716517000027,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHAHPURA BLOCK TO BARGAON"
+  },
+  {
+    "x": 80.74996401000004,
+    "y": 23.145558049000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHAHPURA BLOCK TO BARGAON"
+  },
+  {
+    "x": 80.69916753100006,
+    "y": 23.187493165000035,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHAHPURA BLOCK TO BARODI MAL"
+  },
+  {
+    "x": 80.68975549200007,
+    "y": 23.233730688000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHAHPURA BLOCK TO BARODI MAL"
+  },
+  {
+    "x": 80.69679400000007,
+    "y": 23.179452300000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHAHPURA BLOCK TO BIJORI MAL"
+  },
+  {
+    "x": 80.68965310000004,
+    "y": 23.15427090000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHAHPURA BLOCK TO BIJORI MAL"
+  },
+  {
+    "x": 80.69432377200008,
+    "y": 23.184524037000074,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHAHPURA BLOCK TO DALKA SARAI MAL"
+  },
+  {
+    "x": 80.65545322100007,
+    "y": 23.153158663000056,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHAHPURA BLOCK TO DALKA SARAI MAL"
+  },
+  {
+    "x": 80.63166510000008,
+    "y": 23.138209200000063,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHAHPURA BLOCK TO DALKA SARAI MAL"
+  },
+  {
+    "x": 80.61678540500003,
+    "y": 23.12906064400005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHAHPURA BLOCK TO DALKA SARAI MAL"
+  },
+  {
+    "x": 80.69432377200008,
+    "y": 23.184524037000074,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHAHPURA BLOCK TO DEWARI KHURD"
+  },
+  {
+    "x": 80.67312130000005,
+    "y": 23.195986300000072,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHAHPURA BLOCK TO DEWARI KHURD"
+  },
+  {
+    "x": 80.66190235000005,
+    "y": 23.217031747000078,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHAHPURA BLOCK TO DEWARI KHURD"
+  },
+  {
+    "x": 80.64340090000007,
+    "y": 23.226268400000038,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHAHPURA BLOCK TO DEWARI KHURD"
+  },
+  {
+    "x": 80.69432377200008,
+    "y": 23.184524037000074,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHAHPURA BLOCK TO RANGAON MAL"
+  },
+  {
+    "x": 80.73378360000004,
+    "y": 23.194250000000068,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SHAHPURA BLOCK TO RANGAON MAL"
+  },
+  {
+    "x": 80.86339440900008,
+    "y": 23.150045083000066,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SILAHRI TO PIPARIYA KALA"
+  },
+  {
+    "x": 80.87171419000003,
+    "y": 23.111768230000052,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SILAHRI TO PIPARIYA KALA"
+  },
+  {
+    "x": 80.79644590000004,
+    "y": 23.05109740000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT AMERA TO RAKHI MAL"
+  },
+  {
+    "x": 80.80797500000006,
+    "y": 23.035218300000054,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT AMERA TO RAKHI MAL"
+  },
+  {
+    "x": 80.83583560000005,
+    "y": 23.084659900000077,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT ANAKHEDA TO MALPUR"
+  },
+  {
+    "x": 80.83803505600008,
+    "y": 23.057949268000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT ANAKHEDA TO MALPUR"
+  },
+  {
+    "x": 80.56362447600003,
+    "y": 23.090560366000034,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT BICHIYA TO DEWARI KALA"
+  },
+  {
+    "x": 80.54854260000008,
+    "y": 23.089945900000032,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT BICHIYA TO DEWARI KALA"
+  },
+  {
+    "x": 80.78694300000006,
+    "y": 23.140941000000055,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT BILGAON TO DHODHA RYT"
+  },
+  {
+    "x": 80.79747800000007,
+    "y": 23.15000290000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT BILGAON TO DHODHA RYT"
+  },
+  {
+    "x": 80.58544680000006,
+    "y": 23.080203400000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT CHAPARA RYT TO MOHANI MAL"
+  },
+  {
+    "x": 80.61125507800006,
+    "y": 23.07004277900006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT CHAPARA RYT TO MOHANI MAL"
+  },
+  {
+    "x": 80.79286130000008,
+    "y": 23.05240370000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT CHHIRPANI TO DOOBA MAL"
+  },
+  {
+    "x": 80.75430537800008,
+    "y": 23.031356264000067,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT CHHIRPANI TO DOOBA MAL"
+  },
+  {
+    "x": 80.67312130000005,
+    "y": 23.195986300000072,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT DEWARI KHURD TO MARWARI"
+  },
+  {
+    "x": 80.65568780000007,
+    "y": 23.198630000000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT DEWARI KHURD TO MARWARI"
+  },
+  {
+    "x": 80.90378500000008,
+    "y": 23.07576350000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT GHUSIYA RYT TO VIKRAMPUR RYT"
+  },
+  {
+    "x": 80.89360830000004,
+    "y": 23.068055000000072,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT GHUSIYA RYT TO VIKRAMPUR RYT"
+  },
+  {
+    "x": 80.59906640000008,
+    "y": 23.186925600000052,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT GURAIYA MAL TO DALKA KHAMHARIYA"
+  },
+  {
+    "x": 80.59834952100005,
+    "y": 23.17878920800007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT GURAIYA MAL TO DALKA KHAMHARIYA"
+  },
+  {
+    "x": 80.86138436900006,
+    "y": 23.203416915000048,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT JAMGAON TO DUDHIMAJHOLI"
+  },
+  {
+    "x": 80.86188869200004,
+    "y": 23.206135208000035,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT JAMGAON TO DUDHIMAJHOLI"
+  },
+  {
+    "x": 80.86251682000005,
+    "y": 23.210557823000045,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT JAMGAON TO DUDHIMAJHOLI"
+  },
+  {
+    "x": 80.87228705900003,
+    "y": 23.22256349500003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT JAMGAON TO DUDHIMAJHOLI"
+  },
+  {
+    "x": 80.90404340000003,
+    "y": 23.076918000000035,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT KASAISODA TO GHUSIYA RYT"
+  },
+  {
+    "x": 80.89967440000004,
+    "y": 23.04275770000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT KASAISODA TO GHUSIYA RYT"
+  },
+  {
+    "x": 80.60237870000003,
+    "y": 23.232720200000074,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT KHAIRBHAGDU MAL TO BASTARA MAL"
+  },
+  {
+    "x": 80.60491063000006,
+    "y": 23.232264170000064,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT KHAIRBHAGDU MAL TO BASTARA MAL"
+  },
+  {
+    "x": 80.52568940000003,
+    "y": 23.19748640000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT KOHANI DEWARI KALA TO SARWAHI MAL"
+  },
+  {
+    "x": 80.52208442300008,
+    "y": 23.213008916000035,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT KOHANI DEWARI KALA TO SARWAHI MAL"
+  },
+  {
+    "x": 80.52721300000007,
+    "y": 23.197814700000038,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT MATAKA RYT TO DADARGAON"
+  },
+  {
+    "x": 80.51370411700003,
+    "y": 23.189575004000062,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT MATAKA RYT TO DADARGAON"
+  },
+  {
+    "x": 80.64362040000003,
+    "y": 23.283394000000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT RAIYPURA MAL TO DEVGAON"
+  },
+  {
+    "x": 80.64200650000004,
+    "y": 23.306239400000038,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT RAIYPURA MAL TO DEVGAON"
+  },
+  {
+    "x": 80.60980080000007,
+    "y": 23.319735200000025,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT RAIYPURA MAL TO MOHARA KALA"
+  },
+  {
+    "x": 80.60655140500006,
+    "y": 23.328125648000025,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT RAIYPURA MAL TO MOHARA KALA"
+  },
+  {
+    "x": 80.80618880000003,
+    "y": 23.034429200000034,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT RAKHI MAL TO DEWARI MAL"
+  },
+  {
+    "x": 80.79741520000005,
+    "y": 23.015808900000025,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT RAKHI MAL TO DEWARI MAL"
+  },
+  {
+    "x": 80.80007300000005,
+    "y": 23.209090400000036,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT SANGRAMPUR MAL TO JHAGREHATA DUNGARIYA"
+  },
+  {
+    "x": 80.80030534400004,
+    "y": 23.209696996000048,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT SANGRAMPUR MAL TO JHAGREHATA DUNGARIYA"
+  },
+  {
+    "x": 80.61355590000005,
+    "y": 23.267329800000027,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT SARASWAHI TO BHAROTHI"
+  },
+  {
+    "x": 80.59056351200007,
+    "y": 23.286769546000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT SARASWAHI TO BHAROTHI"
+  },
+  {
+    "x": 80.87171419000003,
+    "y": 23.111768230000052,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT SILAHRI TO MERMAL"
+  },
+  {
+    "x": 80.87166690600003,
+    "y": 23.111666392000075,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT SILAHRI TO MERMAL"
+  },
+  {
+    "x": 80.89938591100008,
+    "y": 23.109468735000064,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT SILAHRI TO MERMAL"
+  },
+  {
+    "x": 80.89882954300003,
+    "y": 23.108906622000063,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT SILAHRI TO MERMAL"
+  },
+  {
+    "x": 80.58544680000006,
+    "y": 23.080203400000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "TIKARA SARAI BANSA TO CHAPARA RYT"
+  },
+  {
+    "x": 80.57837458600005,
+    "y": 23.08853906400003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "TIKARA SARAI BANSA TO CHAPARA RYT"
+  },
+  {
+    "x": 80.71666856300004,
+    "y": 23.21153892500007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "TIKARIYA TO SHAHPURA BLOCK"
+  },
+  {
+    "x": 80.70166793000004,
+    "y": 23.190543989000048,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "TIKARIYA TO SHAHPURA BLOCK"
   }
 ]

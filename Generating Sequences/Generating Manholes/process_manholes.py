@@ -22,10 +22,10 @@ else:
     print("No sharp turns found under the given threshold.")
 
 #-----------------------------Processing the Brown Field Data--------------------------------
-scope = "Brown field"
+scope = "brown field"
 brown_field_label = "Brown Field Conn"
 ptype = "Brown Field"
-shape_file_data_field = 'road_autho'
+shape_file_data_field = 'ofc_laying'
 
 brown_field_points = f"temp/brown_field_manholes_{block_name}.shp"
 
