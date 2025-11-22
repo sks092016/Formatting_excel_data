@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Khairlangi"
+blockName = "Nalkheda"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,29 +32,27 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Khairlangi/gps.shp"
-segments_shape_file = "References/Khairlangi/OFC_NEW.shp"
+gps_shape_file = "References/Nalkheda/gps.shp"
+segments_shape_file = "References/Nalkheda/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '79.97841400 21.60450500'
+BHQ_CORDINATE = '76.24728479 23.84099693'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
     'R4': BHQ_CORDINATE,
-    'R2-C1':'79.87753850 21.67153040',
-    'R3-C1':'79.89638690 21.57544260',
-    'R4-C1':'80.06850970 21.61945733',
+    'R5': BHQ_CORDINATE,
+    'R1-C1':'76.20798664 23.98864892',
+    'R5-C1':'76.19783541 23.74662251',
 }
 t_point_ring_spans = {
-'T-POINT BHIJYADAND':(79.90573337,21.68571704),
-'T-POINT KATORI':(79.89636580,21.57545930),
-'T-POINT MIRAGPUR':(79.83742077,21.63592722),
-'T-POINT MOHADI':(80.06850970,21.61945733),
-'T-POINT SALEBADI':(79.87753850,21.67153040),
-'T-POINT KUMAHALI':(79.88502599,21.56655470),
-'T-POINT CHHATERA':(79.81278780,21.57607810),
+'T-POINT BHANDAWAD':(76.30897353,23.83452593),
+'T-POINT HIRANKHEDI':(76.26376118,23.92651888),
+'T-POINT MANASA':(76.19783541,23.74662251),
+'T-POINT SEMALKHEDI':(76.14026427,23.88088465),
+'T-POINT SIRPOI':(76.20798664,23.98864892),
 }
