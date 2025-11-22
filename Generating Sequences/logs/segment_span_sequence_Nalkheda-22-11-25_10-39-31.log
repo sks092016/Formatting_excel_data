@@ -1,0 +1,33 @@
+2025-11-22 10:39:31,832 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'GUDRAWAN TO NALKHEDA BLOCK'.
+2025-11-22 10:39:31,832 - WARNING - ⚠️ The Span GUDRAWAN TO NALKHEDA BLOCK is disconnected at this point (76.24728478600008, 23.84099692800004)
+2025-11-22 10:39:32,359 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'NALKHEDA BLOCK TO IKLERA'.
+2025-11-22 10:39:32,359 - WARNING - ⚠️ The Span NALKHEDA BLOCK TO IKLERA is disconnected at this point (76.21774638400007, 23.841373954000062)
+2025-11-22 10:39:33,115 - INFO - Created 1,328 records
+2025-11-22 10:39:33,123 - INFO - Created 59 records
+2025-11-22 10:39:33,123 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-11-22 10:39:33,124 - INFO - Created 2 records
+2025-11-22 10:39:33,163 - INFO - 🔄 Found 7 rings: ['R1', 'R1-C1', 'R2', 'R3', 'R4', 'R5', 'R5-C1']
+2025-11-22 10:39:33,163 - INFO - 
+🔁 Processing ring: R1
+2025-11-22 10:39:33,165 - INFO - ✅ Completed ring R1 with 1 spans.
+2025-11-22 10:39:33,165 - INFO - 
+🔁 Processing ring: R1-C1
+2025-11-22 10:39:33,167 - INFO - ✅ Completed ring R1-C1 with 4 spans.
+2025-11-22 10:39:33,167 - INFO - 
+🔁 Processing ring: R2
+2025-11-22 10:39:33,172 - INFO - ✅ Completed ring R2 with 10 spans.
+2025-11-22 10:39:33,172 - INFO - 
+🔁 Processing ring: R3
+2025-11-22 10:39:33,176 - INFO - ✅ Completed ring R3 with 7 spans.
+2025-11-22 10:39:33,176 - INFO - 
+🔁 Processing ring: R4
+2025-11-22 10:39:33,180 - INFO - ✅ Completed ring R4 with 9 spans.
+2025-11-22 10:39:33,180 - INFO - 
+🔁 Processing ring: R5
+2025-11-22 10:39:33,185 - INFO - ✅ Completed ring R5 with 10 spans.
+2025-11-22 10:39:33,185 - INFO - 
+🔁 Processing ring: R5-C1
+2025-11-22 10:39:33,189 - INFO - ✅ Completed ring R5-C1 with 6 spans.
+2025-11-22 10:39:33,230 - INFO - Created 1,328 records
+2025-11-22 10:39:33,240 - INFO - Created 59 records
+2025-11-22 10:39:33,241 - INFO - ✅ All rings processed. Span sequence updated and saved.
