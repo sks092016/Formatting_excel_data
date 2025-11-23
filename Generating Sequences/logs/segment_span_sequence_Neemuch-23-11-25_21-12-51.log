@@ -1,0 +1,37 @@
+2025-11-23 21:12:53,095 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'KELUKHEDA TO PALSODA'.
+2025-11-23 21:12:53,095 - WARNING - ⚠️ The Span KELUKHEDA TO PALSODA is disconnected at this point (74.94104103700005, 24.38176541300004)
+2025-11-23 21:12:53,969 - INFO - Created 1,816 records
+2025-11-23 21:12:53,988 - INFO - Created 65 records
+2025-11-23 21:12:53,988 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-11-23 21:12:53,990 - INFO - Created 1 records
+2025-11-23 21:12:54,041 - INFO - 🔄 Found 9 rings: ['R1', 'R1-C1', 'R1-C2', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4', 'R4-C1']
+2025-11-23 21:12:54,041 - INFO - 
+🔁 Processing ring: R1
+2025-11-23 21:12:54,045 - INFO - ✅ Completed ring R1 with 8 spans.
+2025-11-23 21:12:54,045 - INFO - 
+🔁 Processing ring: R1-C1
+2025-11-23 21:12:54,047 - INFO - ✅ Completed ring R1-C1 with 3 spans.
+2025-11-23 21:12:54,047 - INFO - 
+🔁 Processing ring: R1-C2
+2025-11-23 21:12:54,049 - INFO - ✅ Completed ring R1-C2 with 6 spans.
+2025-11-23 21:12:54,049 - INFO - 
+🔁 Processing ring: R2
+2025-11-23 21:12:54,054 - INFO - ✅ Completed ring R2 with 10 spans.
+2025-11-23 21:12:54,054 - INFO - 
+🔁 Processing ring: R2-C1
+2025-11-23 21:12:54,057 - INFO - ✅ Completed ring R2-C1 with 7 spans.
+2025-11-23 21:12:54,057 - INFO - 
+🔁 Processing ring: R3
+2025-11-23 21:12:54,062 - INFO - ✅ Completed ring R3 with 11 spans.
+2025-11-23 21:12:54,062 - INFO - 
+🔁 Processing ring: R3-C1
+2025-11-23 21:12:54,064 - INFO - ✅ Completed ring R3-C1 with 4 spans.
+2025-11-23 21:12:54,064 - INFO - 
+🔁 Processing ring: R4
+2025-11-23 21:12:54,068 - INFO - ✅ Completed ring R4 with 9 spans.
+2025-11-23 21:12:54,068 - INFO - 
+🔁 Processing ring: R4-C1
+2025-11-23 21:12:54,070 - INFO - ✅ Completed ring R4-C1 with 3 spans.
+2025-11-23 21:12:54,130 - INFO - Created 1,816 records
+2025-11-23 21:12:54,150 - INFO - Created 65 records
+2025-11-23 21:12:54,151 - INFO - ✅ All rings processed. Span sequence updated and saved.

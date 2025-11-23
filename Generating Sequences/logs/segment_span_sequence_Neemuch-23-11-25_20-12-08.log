@@ -1,0 +1,43 @@
+2025-11-23 20:12:09,672 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'JAMUNIAKALAN TO NEEMUCH BLOCK'.
+2025-11-23 20:12:09,673 - WARNING - ⚠️ The Span JAMUNIAKALAN TO NEEMUCH BLOCK is disconnected at this point (74.86450369800008, 24.467305602000067)
+2025-11-23 20:12:09,942 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-11-23 20:12:09,943 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-11-23 20:12:09,951 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'KUCHHOD TO PHOPHLIYA'.
+2025-11-23 20:12:09,951 - WARNING - ⚠️ The Span KUCHHOD TO PHOPHLIYA is disconnected at this point (74.89173790500007, 24.240846688000033)
+2025-11-23 20:12:10,071 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'NEEMUCH BLOCK TO BHATKHEDA'.
+2025-11-23 20:12:10,071 - WARNING - ⚠️ The Span NEEMUCH BLOCK TO BHATKHEDA is disconnected at this point (74.89035328600005, 24.45344153600007)
+2025-11-23 20:12:10,738 - INFO - Created 1,817 records
+2025-11-23 20:12:10,743 - INFO - Created 65 records
+2025-11-23 20:12:10,743 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-11-23 20:12:10,745 - INFO - Created 3 records
+2025-11-23 20:12:10,795 - INFO - 🔄 Found 9 rings: ['R1', 'R1-C1', 'R1-C2', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4', 'R4-C1']
+2025-11-23 20:12:10,795 - INFO - 
+🔁 Processing ring: R1
+2025-11-23 20:12:10,798 - INFO - ✅ Completed ring R1 with 8 spans.
+2025-11-23 20:12:10,798 - INFO - 
+🔁 Processing ring: R1-C1
+2025-11-23 20:12:10,800 - INFO - ✅ Completed ring R1-C1 with 3 spans.
+2025-11-23 20:12:10,800 - INFO - 
+🔁 Processing ring: R1-C2
+2025-11-23 20:12:10,803 - INFO - ✅ Completed ring R1-C2 with 6 spans.
+2025-11-23 20:12:10,803 - INFO - 
+🔁 Processing ring: R2
+2025-11-23 20:12:10,807 - INFO - ✅ Completed ring R2 with 10 spans.
+2025-11-23 20:12:10,807 - INFO - 
+🔁 Processing ring: R2-C1
+2025-11-23 20:12:10,810 - INFO - ✅ Completed ring R2-C1 with 7 spans.
+2025-11-23 20:12:10,810 - INFO - 
+🔁 Processing ring: R3
+2025-11-23 20:12:10,815 - INFO - ✅ Completed ring R3 with 11 spans.
+2025-11-23 20:12:10,815 - INFO - 
+🔁 Processing ring: R3-C1
+2025-11-23 20:12:10,817 - INFO - ✅ Completed ring R3-C1 with 4 spans.
+2025-11-23 20:12:10,817 - INFO - 
+🔁 Processing ring: R4
+2025-11-23 20:12:10,819 - INFO - ✅ Completed ring R4 with 1 spans.
+2025-11-23 20:12:10,819 - INFO - 
+🔁 Processing ring: R4-C1
+2025-11-23 20:12:10,821 - INFO - ✅ Completed ring R4-C1 with 5 spans.
+2025-11-23 20:12:10,874 - INFO - Created 1,817 records
+2025-11-23 20:12:10,879 - INFO - Created 65 records
+2025-11-23 20:12:10,879 - INFO - ✅ All rings processed. Span sequence updated and saved.

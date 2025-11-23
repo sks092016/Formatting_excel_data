@@ -6,7 +6,7 @@ check_field = "span_name"
 update_field = "span_name"
 
 replacement_map = {
-'T-POINT AMBA TO MACHLIYA'
+'T-Point':'T-POINT'
 }
 count = 0
 
