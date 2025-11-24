@@ -1,0 +1,41 @@
+2025-11-24 21:27:43,259 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'CHETU PADA TO DABRA BLOCK'.
+2025-11-24 21:27:43,260 - WARNING - ⚠️ The Span CHETU PADA TO DABRA BLOCK is disconnected at this point (78.35683600400006, 25.882270307000056)
+2025-11-24 21:27:44,391 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'LAKHNOTI TO JARGAON'.
+2025-11-24 21:27:44,392 - WARNING - ⚠️ The Span LAKHNOTI TO JARGAON is disconnected at this point (78.44654608100006, 26.056695000000047)
+2025-11-24 21:27:44,418 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'LIDHORA TO CHHAPRA'.
+2025-11-24 21:27:44,418 - WARNING - ⚠️ The Span LIDHORA TO CHHAPRA is disconnected at this point (78.46554366300006, 25.926639127000044)
+2025-11-24 21:27:45,279 - INFO - Created 1,764 records
+2025-11-24 21:27:45,286 - INFO - Created 71 records
+2025-11-24 21:27:45,287 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-11-24 21:27:45,288 - INFO - Created 3 records
+2025-11-24 21:27:45,337 - INFO - 🔄 Found 9 rings: ['R1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R3-C2', 'R4', 'R4-C1', 'R5']
+2025-11-24 21:27:45,338 - INFO - 
+🔁 Processing ring: R1
+2025-11-24 21:27:45,341 - INFO - ✅ Completed ring R1 with 6 spans.
+2025-11-24 21:27:45,341 - INFO - 
+🔁 Processing ring: R2
+2025-11-24 21:27:45,344 - INFO - ✅ Completed ring R2 with 6 spans.
+2025-11-24 21:27:45,344 - INFO - 
+🔁 Processing ring: R2-C1
+2025-11-24 21:27:45,348 - INFO - ✅ Completed ring R2-C1 with 8 spans.
+2025-11-24 21:27:45,348 - INFO - 
+🔁 Processing ring: R3
+2025-11-24 21:27:45,351 - INFO - ✅ Completed ring R3 with 8 spans.
+2025-11-24 21:27:45,351 - INFO - 
+🔁 Processing ring: R3-C1
+2025-11-24 21:27:45,354 - INFO - ✅ Completed ring R3-C1 with 5 spans.
+2025-11-24 21:27:45,354 - INFO - 
+🔁 Processing ring: R3-C2
+2025-11-24 21:27:45,356 - INFO - ✅ Completed ring R3-C2 with 4 spans.
+2025-11-24 21:27:45,356 - INFO - 
+🔁 Processing ring: R4
+2025-11-24 21:27:45,359 - INFO - ✅ Completed ring R4 with 8 spans.
+2025-11-24 21:27:45,360 - INFO - 
+🔁 Processing ring: R4-C1
+2025-11-24 21:27:45,362 - INFO - ✅ Completed ring R4-C1 with 5 spans.
+2025-11-24 21:27:45,362 - INFO - 
+🔁 Processing ring: R5
+2025-11-24 21:27:45,363 - INFO - ✅ Completed ring R5 with 1 spans.
+2025-11-24 21:27:45,414 - INFO - Created 1,764 records
+2025-11-24 21:27:45,425 - INFO - Created 71 records
+2025-11-24 21:27:45,426 - INFO - ✅ All rings processed. Span sequence updated and saved.
