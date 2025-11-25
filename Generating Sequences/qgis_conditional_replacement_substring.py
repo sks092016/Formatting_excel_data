@@ -5,8 +5,9 @@ layer_name = "OFC_NEW"  # Name of the layer in QGIS
 check_field = "span_name"
 update_field = "span_name"
 
+
 replacement_map = {
-'T-Point':'T-POINT'
+'MALYHEDI':'MALYAHEDI'
 }
 count = 0
 

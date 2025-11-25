@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Dabra"
+blockName = "Badodiya"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,13 +32,13 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Dabra/gps.shp"
-segments_shape_file = "References/Dabra/OFC_NEW.shp"
+gps_shape_file = "References/Badodiya/gps.shp"
+segments_shape_file = "References/Badodiya/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '78.33176240 25.88569860'
+BHQ_CORDINATE = '76.34992628 23.59480803'
 
 rings = {
     'R1': BHQ_CORDINATE,
@@ -46,18 +46,25 @@ rings = {
     'R3': BHQ_CORDINATE,
     'R4': BHQ_CORDINATE,
     'R5': BHQ_CORDINATE,
-    'R2-C1':'78.44659280 26.05667590',
-    'R3-C1':'78.28074915 25.99036729',
-    'R3-C2':'78.34723653 26.03645987',
-    'R4-C1':'78.24909173 25.89715821',
+    'R3-C1':'76.34295010 23.68303173',
+    'R3-C2':'76.26676600 23.64429558',
+    'R4-C1':'76.47267219 23.43142332',
+    'R4-C2':'76.51000904 23.45340654',
+    'R5-C1':'76.50785450 23.56636480',
+    'R5-C2':'76.51306035 23.50192713',
 }
 t_point_ring_spans = {
-'T-POINT BIJAKPUR':(78.27605533,25.82013164),
-'T-POINT JANAKPUR':(78.42298810,26.03554120),
-'T-POINT KIROL':(78.55211430,26.05305950),
-'T-POINT LAKHNOTI':(78.44659280,26.05667590),
-'T-POINT MAHARAJPUR':(78.24909173,25.89715821),
-'T-POINT TEKANPUR':(78.28074915,25.99036729),
-'T-POINT LADERA':(78.34717654,26.03648567),
-'T-POINT DABRA BLOCK':(78.30759524,25.84339944),
+'T-POINT AYYAPUR':(76.51306035,23.50192713),
+'T-POINT BADIGAV':(76.51000904,23.45340654),
+'T-POINT BHDENDI':(76.24473255,23.64001068),
+'T-POINT BIJANA':(76.27358480,23.54402658),
+'T-POINT CHOMA':(76.26676600,23.64429558),
+'T-POINT GULANA':(76.47267219,23.43142332),
+'T-POINT KHEDAVAD':(76.52688831,23.55301998),
+'T-POINT KITHORE':(76.50785450,23.56636480),
+'T-POINT KUMHARIYAKHAS':(76.35177992,23.56660263),
+'T-POINT MALYAHEDI':(76.34279813,23.68298808),
+'T-POINT MALYHEDI':(76.33900511,23.69133241),
+'T-POINT MANGLIYA':(76.33567825,23.65841316),
+'T-POINT NOLAYA':(76.55633159,23.53896215),
 }

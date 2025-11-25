@@ -1,0 +1,43 @@
+2025-11-25 17:21:23,904 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'RIJAVATA TO KITHORE'.
+2025-11-25 17:21:23,904 - WARNING - \u26a0\ufe0f The Span RIJAVATA TO KITHORE is disconnected at this point (76.50785450000001, 23.566364799999974)
+2025-11-25 17:21:24,921 - INFO - Created 2,120 records
+2025-11-25 17:21:24,930 - INFO - Created 98 records
+2025-11-25 17:21:24,931 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-11-25 17:21:24,934 - INFO - Created 1 records
+2025-11-25 17:21:25,067 - INFO - \U0001f504 Found 11 rings: ['R1', 'R2', 'R3', 'R3-C1', 'R3-C2', 'R4', 'R4-C1', 'R4-C2', 'R5', 'R5-C1', 'R5-C2']
+2025-11-25 17:21:25,067 - INFO - 
+\U0001f501 Processing ring: R1
+2025-11-25 17:21:25,075 - INFO - \u2705 Completed ring R1 with 9 spans.
+2025-11-25 17:21:25,075 - INFO - 
+\U0001f501 Processing ring: R2
+2025-11-25 17:21:25,080 - INFO - \u2705 Completed ring R2 with 6 spans.
+2025-11-25 17:21:25,080 - INFO - 
+\U0001f501 Processing ring: R3
+2025-11-25 17:21:25,087 - INFO - \u2705 Completed ring R3 with 8 spans.
+2025-11-25 17:21:25,087 - INFO - 
+\U0001f501 Processing ring: R3-C1
+2025-11-25 17:21:25,094 - INFO - \u2705 Completed ring R3-C1 with 9 spans.
+2025-11-25 17:21:25,094 - INFO - 
+\U0001f501 Processing ring: R3-C2
+2025-11-25 17:21:25,097 - INFO - \u2705 Completed ring R3-C2 with 4 spans.
+2025-11-25 17:21:25,098 - INFO - 
+\U0001f501 Processing ring: R4
+2025-11-25 17:21:25,106 - INFO - \u2705 Completed ring R4 with 10 spans.
+2025-11-25 17:21:25,106 - INFO - 
+\U0001f501 Processing ring: R4-C1
+2025-11-25 17:21:25,113 - INFO - \u2705 Completed ring R4-C1 with 9 spans.
+2025-11-25 17:21:25,113 - INFO - 
+\U0001f501 Processing ring: R4-C2
+2025-11-25 17:21:25,120 - INFO - \u2705 Completed ring R4-C2 with 9 spans.
+2025-11-25 17:21:25,120 - INFO - 
+\U0001f501 Processing ring: R5
+2025-11-25 17:21:25,130 - INFO - \u2705 Completed ring R5 with 10 spans.
+2025-11-25 17:21:25,130 - INFO - 
+\U0001f501 Processing ring: R5-C1
+2025-11-25 17:21:25,137 - INFO - \u2705 Completed ring R5-C1 with 7 spans.
+2025-11-25 17:21:25,137 - INFO - 
+\U0001f501 Processing ring: R5-C2
+2025-11-25 17:21:25,145 - INFO - \u2705 Completed ring R5-C2 with 8 spans.
+2025-11-25 17:21:25,288 - INFO - Created 2,120 records
+2025-11-25 17:21:25,296 - INFO - Created 98 records
+2025-11-25 17:21:25,297 - INFO - \u2705 All rings processed. Span sequence updated and saved.

@@ -1,0 +1,41 @@
+2025-11-25 17:26:58,070 - INFO - Created 2,119 records
+2025-11-25 17:26:58,080 - INFO - Created 98 records
+2025-11-25 17:26:58,080 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-11-25 17:26:58,084 - INFO - Created 0 records
+2025-11-25 17:26:58,256 - INFO - \U0001f504 Found 11 rings: ['R1', 'R2', 'R3', 'R3-C1', 'R3-C2', 'R4', 'R4-C1', 'R4-C2', 'R5', 'R5-C1', 'R5-C2']
+2025-11-25 17:26:58,256 - INFO - 
+\U0001f501 Processing ring: R1
+2025-11-25 17:26:58,264 - INFO - \u2705 Completed ring R1 with 9 spans.
+2025-11-25 17:26:58,264 - INFO - 
+\U0001f501 Processing ring: R2
+2025-11-25 17:26:58,269 - INFO - \u2705 Completed ring R2 with 6 spans.
+2025-11-25 17:26:58,269 - INFO - 
+\U0001f501 Processing ring: R3
+2025-11-25 17:26:58,276 - INFO - \u2705 Completed ring R3 with 8 spans.
+2025-11-25 17:26:58,276 - INFO - 
+\U0001f501 Processing ring: R3-C1
+2025-11-25 17:26:58,283 - INFO - \u2705 Completed ring R3-C1 with 9 spans.
+2025-11-25 17:26:58,283 - INFO - 
+\U0001f501 Processing ring: R3-C2
+2025-11-25 17:26:58,287 - INFO - \u2705 Completed ring R3-C2 with 4 spans.
+2025-11-25 17:26:58,287 - INFO - 
+\U0001f501 Processing ring: R4
+2025-11-25 17:26:58,295 - INFO - \u2705 Completed ring R4 with 10 spans.
+2025-11-25 17:26:58,295 - INFO - 
+\U0001f501 Processing ring: R4-C1
+2025-11-25 17:26:58,303 - INFO - \u2705 Completed ring R4-C1 with 9 spans.
+2025-11-25 17:26:58,303 - INFO - 
+\U0001f501 Processing ring: R4-C2
+2025-11-25 17:26:58,310 - INFO - \u2705 Completed ring R4-C2 with 9 spans.
+2025-11-25 17:26:58,310 - INFO - 
+\U0001f501 Processing ring: R5
+2025-11-25 17:26:58,318 - INFO - \u2705 Completed ring R5 with 10 spans.
+2025-11-25 17:26:58,318 - INFO - 
+\U0001f501 Processing ring: R5-C1
+2025-11-25 17:26:58,324 - INFO - \u2705 Completed ring R5-C1 with 7 spans.
+2025-11-25 17:26:58,324 - INFO - 
+\U0001f501 Processing ring: R5-C2
+2025-11-25 17:26:58,331 - INFO - \u2705 Completed ring R5-C2 with 8 spans.
+2025-11-25 17:26:58,450 - INFO - Created 2,119 records
+2025-11-25 17:26:58,458 - INFO - Created 98 records
+2025-11-25 17:26:58,459 - INFO - \u2705 All rings processed. Span sequence updated and saved.
