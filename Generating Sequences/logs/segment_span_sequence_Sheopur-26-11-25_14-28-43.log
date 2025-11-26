@@ -1,0 +1,49 @@
+2025-11-26 14:28:47,741 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'T-POINT PANDOLA TO GALMANYA'.
+2025-11-26 14:28:47,742 - WARNING - \u26a0\ufe0f The Span T-POINT PANDOLA TO GALMANYA is disconnected at this point (76.64378870600007, 25.546278346000065)
+2025-11-26 14:28:48,183 - INFO - Created 2,276 records
+2025-11-26 14:28:48,196 - INFO - Created 115 records
+2025-11-26 14:28:48,197 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-11-26 14:28:48,203 - INFO - Created 1 records
+2025-11-26 14:28:48,358 - INFO - \U0001f504 Found 13 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R4', 'R4-C1', 'R5', 'R5-C1', 'R5-C2', 'R6', 'R6-C1']
+2025-11-26 14:28:48,358 - INFO - 
+\U0001f501 Processing ring: R1
+2025-11-26 14:28:48,366 - INFO - \u2705 Completed ring R1 with 9 spans.
+2025-11-26 14:28:48,366 - INFO - 
+\U0001f501 Processing ring: R1-C1
+2025-11-26 14:28:48,372 - INFO - \u2705 Completed ring R1-C1 with 8 spans.
+2025-11-26 14:28:48,372 - INFO - 
+\U0001f501 Processing ring: R2
+2025-11-26 14:28:48,381 - INFO - \u2705 Completed ring R2 with 11 spans.
+2025-11-26 14:28:48,382 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-11-26 14:28:48,388 - INFO - \u2705 Completed ring R2-C1 with 8 spans.
+2025-11-26 14:28:48,388 - INFO - 
+\U0001f501 Processing ring: R3
+2025-11-26 14:28:48,398 - INFO - \u2705 Completed ring R3 with 9 spans.
+2025-11-26 14:28:48,398 - INFO - 
+\U0001f501 Processing ring: R3-C1
+2025-11-26 14:28:48,411 - INFO - \u2705 Completed ring R3-C1 with 9 spans.
+2025-11-26 14:28:48,411 - INFO - 
+\U0001f501 Processing ring: R4
+2025-11-26 14:28:48,421 - INFO - \u2705 Completed ring R4 with 9 spans.
+2025-11-26 14:28:48,421 - INFO - 
+\U0001f501 Processing ring: R4-C1
+2025-11-26 14:28:48,424 - INFO - \u2705 Completed ring R4-C1 with 0 spans.
+2025-11-26 14:28:48,424 - INFO - 
+\U0001f501 Processing ring: R5
+2025-11-26 14:28:48,438 - INFO - \u2705 Completed ring R5 with 11 spans.
+2025-11-26 14:28:48,439 - INFO - 
+\U0001f501 Processing ring: R5-C1
+2025-11-26 14:28:48,447 - INFO - \u2705 Completed ring R5-C1 with 4 spans.
+2025-11-26 14:28:48,447 - INFO - 
+\U0001f501 Processing ring: R5-C2
+2025-11-26 14:28:48,455 - INFO - \u2705 Completed ring R5-C2 with 7 spans.
+2025-11-26 14:28:48,455 - INFO - 
+\U0001f501 Processing ring: R6
+2025-11-26 14:28:48,467 - INFO - \u2705 Completed ring R6 with 11 spans.
+2025-11-26 14:28:48,467 - INFO - 
+\U0001f501 Processing ring: R6-C1
+2025-11-26 14:28:48,476 - INFO - \u2705 Completed ring R6-C1 with 6 spans.
+2025-11-26 14:28:48,626 - INFO - Created 2,276 records
+2025-11-26 14:28:48,639 - INFO - Created 115 records
+2025-11-26 14:28:48,641 - INFO - \u2705 All rings processed. Span sequence updated and saved.
