@@ -7,7 +7,8 @@ update_field = "span_name"
 
 
 replacement_map = {
-'HALGANWADAKHURA':'HALGANWADAKHURD'
+'T - POINT':'T-POINT',
+'T POINT':'T-POINT'
 }
 count = 0
 

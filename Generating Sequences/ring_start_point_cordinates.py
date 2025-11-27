@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Sheopur"
+blockName = "Bhitawar"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,13 +32,13 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Sheopur/gps.shp"
-segments_shape_file = "References/Sheopur/OFC_NEW.shp"
+gps_shape_file = "References/Bhitawar/gps.shp"
+segments_shape_file = "References/Bhitawar/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '76.69734097 25.67959218'
+BHQ_CORDINATE = '78.11415150 25.79885900'
 
 rings = {
     'R1': BHQ_CORDINATE,
@@ -47,25 +47,19 @@ rings = {
     'R4': BHQ_CORDINATE,
     'R5': BHQ_CORDINATE,
     'R6': BHQ_CORDINATE,
-    'R1-C1':'76.74145213 25.86886490',
-    'R2-C1':'76.59096199 25.68653540',
-    'R3-C1':'76.70839717 25.45489178',
-    'R4-C1':'76.64378871 25.54627835',
-    'R5-C1':'76.56967660 25.51675730',
-    'R5-C2':'76.63460897 25.47492237',
-    'R6-C1':'76.61715857 25.81007923',
+    'R1-C1':'78.17587850 25.97837760',
+    'R2-C1':'78.18114688 25.76974330',
+    'R3-C1':'78.11239330 25.89452000',
+    'R3-C2':'78.13425439 25.94310492',
+    'R4-C1':'77.99642683 25.86810048',
+    'R5-C1':'77.96954191 25.79038837',
 }
 t_point_ring_spans = {
-'T-POINT AJAPURA':(76.66595387,25.58694865),
-'T-POINT ASIDA':(76.59096199,25.68653540),
-'T-POINT BAGBAJ':(76.72838180,25.67464405),
-'T-POINT BAGDUA':(76.61715857,25.81007923),
-'T-POINT BAHARAWADA':(76.74145213,25.86886490),
-'T-POINT BASOD':(76.56967660,25.51675730),
-'T-POINT HIRAPUR':(76.77396434,25.83201467),
-'T-POINT INDRAPURA':(76.63460897,25.47492237),
-'T-POINT PANDOLA':(76.64378871,25.54627835),
-'T-POINT RADEP':(76.70839717,25.45489178),
-'T-POINT TALAWADHA':(76.71245200,25.52750444),
-'T-POINT UDOTPURA':(76.58084450,25.44926930),
+'T-POINT ADAMPUR':(78.07708297,25.78801559),
+'T-POINT BHEGNA':(78.17587850,25.97837760),
+'T-POINT CHITOLI':(77.96954191,25.79038837),
+'T-POINT KHERVAYA':(78.21412125,25.94693548),
+'T-POINT LUHARI':(78.18114688,25.76974330),
+'T-POINT RARUA':(78.13425439,25.94310492),
+'T-POINT RITHODAN':(77.99642683,25.86810048),
 }
