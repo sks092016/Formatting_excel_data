@@ -1,0 +1,4 @@
+2025-11-29 13:41:10,942 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BANGAWA TO KHAIRAGHAT'.
+2025-11-29 13:41:10,942 - WARNING - ⚠️ The Span BANGAWA TO KHAIRAGHAT is disconnected at this point (78.12353300300003, 25.47569383000007)
+2025-11-29 13:41:12,006 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-11-29 13:41:12,007 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>

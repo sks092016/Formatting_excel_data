@@ -7,8 +7,7 @@ update_field = "span_name"
 
 
 replacement_map = {
-'T - POINT':'T-POINT',
-'T POINT':'T-POINT'
+'KARERA BLOCK TO KURROLI':'KARERA BLOCK TO KURROL'
 }
 count = 0
 

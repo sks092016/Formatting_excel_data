@@ -1,0 +1,37 @@
+2025-11-29 13:31:27,441 - INFO - Created 2,517 records
+2025-11-29 13:31:27,451 - INFO - Created 96 records
+2025-11-29 13:31:27,451 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-11-29 13:31:27,454 - INFO - Created 0 records
+2025-11-29 13:31:27,529 - INFO - 🔄 Found 11 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R3-C2', 'R4', 'R4-C1', 'R5', 'R5-C1']
+2025-11-29 13:31:27,529 - INFO - 
+🔁 Processing ring: R1
+2025-11-29 13:31:27,531 - WARNING - ⚠️  Warning: Closest node (82.17577410000007, 24.34316640000003) is far from given start (78.14690021, 25.45493864)
+2025-11-29 13:31:27,531 - INFO - 
+🔁 Processing ring: R1-C1
+2025-11-29 13:31:27,533 - WARNING - ⚠️  Warning: Closest node (82.00227750000005, 24.17311060000003) is far from given start (78.25271966, 25.4611522)
+2025-11-29 13:31:27,533 - INFO - 
+🔁 Processing ring: R2
+2025-11-29 13:31:27,534 - WARNING - ⚠️  Warning: Closest node (82.20446345300007, 24.185337899000046) is far from given start (78.14690021, 25.45493864)
+2025-11-29 13:31:27,534 - INFO - 
+🔁 Processing ring: R2-C1
+2025-11-29 13:31:27,535 - WARNING - ⚠️  Warning: Closest node (82.10197517800003, 24.180588017000048) is far from given start (77.9581359, 25.46997067)
+2025-11-29 13:31:27,535 - INFO - 
+🔁 Processing ring: R3
+2025-11-29 13:31:27,537 - WARNING - ⚠️  Warning: Closest node (82.22424670000004, 24.140916700000048) is far from given start (78.14690021, 25.45493864)
+2025-11-29 13:31:27,537 - INFO - 
+🔁 Processing ring: R3-C1
+2025-11-29 13:31:27,538 - WARNING - ⚠️  Warning: Closest node (82.31639170000005, 24.30190700000003) is far from given start (78.2349054, 25.57068023)
+2025-11-29 13:31:27,538 - INFO - 
+🔁 Processing ring: R3-C2
+2025-11-29 13:31:27,539 - WARNING - ⚠️  Warning: Closest node (82.06438655000005, 24.026809920000062) is far from given start (78.28021886, 25.53164412)
+2025-11-29 13:31:27,539 - INFO - 
+🔁 Processing ring: R4
+2025-11-29 13:31:27,540 - WARNING - ⚠️  Warning: Closest node (82.31009432200005, 24.318045165000058) is far from given start (78.14690021, 25.45493864)
+2025-11-29 13:31:27,540 - INFO - 
+🔁 Processing ring: R4-C1
+2025-11-29 13:31:27,541 - WARNING - ⚠️  Warning: Closest node (82.37409280000008, 24.145046600000057) is far from given start (78.13956776, 25.61074377)
+2025-11-29 13:31:27,541 - INFO - 
+🔁 Processing ring: R5
+2025-11-29 13:31:27,543 - WARNING - ⚠️  Warning: Closest node (81.90780870000003, 24.130420100000038) is far from given start (78.14690021, 25.45493864)
+2025-11-29 13:31:27,543 - INFO - 
+🔁 Processing ring: R5-C1

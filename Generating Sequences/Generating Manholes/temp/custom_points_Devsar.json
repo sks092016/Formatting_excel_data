@@ -1,0 +1,2586 @@
+[
+  {
+    "x": 82.31019766900005,
+    "y": 24.317966116000036,
+    "crs": "EPSG:4326",
+    "label": "Sharp_AMO TO DEVSAR BLOCK_12_20",
+    "type": "sharp_edge",
+    "span": "AMO TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.40730530000008,
+    "y": 24.195290100000022,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BADOKHER TO JOBGARH_34_82",
+    "type": "sharp_edge",
+    "span": "BADOKHER TO JOBGARH"
+  },
+  {
+    "x": 82.41591199100003,
+    "y": 24.208837885000037,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BADOKHER TO JOBGARH_75_76",
+    "type": "sharp_edge",
+    "span": "BADOKHER TO JOBGARH"
+  },
+  {
+    "x": 82.39400788300009,
+    "y": 24.23610282900006,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BAGHADIH TO ODAGADI_93_116",
+    "type": "sharp_edge",
+    "span": "BAGHADIH TO ODAGADI"
+  },
+  {
+    "x": 81.98339547900008,
+    "y": 24.137732018000065,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BANDHA TO CHHAMRACHH_123_193",
+    "type": "sharp_edge",
+    "span": "BANDHA TO CHHAMRACHH"
+  },
+  {
+    "x": 82.14908782300006,
+    "y": 24.26561841000006,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BANDHA TO CHHAMRACHH_127_141",
+    "type": "sharp_edge",
+    "span": "BANDHA TO CHHAMRACHH"
+  },
+  {
+    "x": 81.95811600000008,
+    "y": 24.107070600000043,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BHARSEDI TO MAHUAGAWN_241_242",
+    "type": "sharp_edge",
+    "span": "BHARSEDI TO MAHUAGAWN"
+  },
+  {
+    "x": 82.47578332400008,
+    "y": 24.32700760700004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BODI TO JUDWAR_257_275",
+    "type": "sharp_edge",
+    "span": "BODI TO JUDWAR"
+  },
+  {
+    "x": 82.21109696800005,
+    "y": 24.28349634800003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_CHARKI TO CHARKI_279_281",
+    "type": "sharp_edge",
+    "span": "CHARKI TO CHARKI"
+  },
+  {
+    "x": 82.18144543600005,
+    "y": 24.28420742700007,
+    "crs": "EPSG:4326",
+    "label": "Sharp_CHATNIHAN TO KHANDHAULI_297_298",
+    "type": "sharp_edge",
+    "span": "CHATNIHAN TO KHANDHAULI"
+  },
+  {
+    "x": 82.18507898500008,
+    "y": 24.290894340000023,
+    "crs": "EPSG:4326",
+    "label": "Sharp_CHATNIHAN TO KHANDHAULI_301_302",
+    "type": "sharp_edge",
+    "span": "CHATNIHAN TO KHANDHAULI"
+  },
+  {
+    "x": 81.96044673900008,
+    "y": 24.140559346000032,
+    "crs": "EPSG:4326",
+    "label": "Sharp_CHHAMRACHH TO PAPAL_305_306",
+    "type": "sharp_edge",
+    "span": "CHHAMRACHH TO PAPAL"
+  },
+  {
+    "x": 81.92644702900003,
+    "y": 24.13186474500003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_CHHAMRACHH TO PAPAL_307_341",
+    "type": "sharp_edge",
+    "span": "CHHAMRACHH TO PAPAL"
+  },
+  {
+    "x": 82.33992827600008,
+    "y": 24.30529736400007,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DEVGAWAN TO KHADOURA_344_349",
+    "type": "sharp_edge",
+    "span": "DEVGAWAN TO KHADOURA"
+  },
+  {
+    "x": 82.34150503800004,
+    "y": 24.30420427100006,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DEVGAWAN TO KHADOURA_345_346",
+    "type": "sharp_edge",
+    "span": "DEVGAWAN TO KHADOURA"
+  },
+  {
+    "x": 82.30947048600007,
+    "y": 24.316888276000043,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DEVSAR BLOCK TO BANDHA_355_356",
+    "type": "sharp_edge",
+    "span": "DEVSAR BLOCK TO BANDHA"
+  },
+  {
+    "x": 82.14714076300004,
+    "y": 24.27212177000007,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DEVSAR BLOCK TO BANDHA_424_427",
+    "type": "sharp_edge",
+    "span": "DEVSAR BLOCK TO BANDHA"
+  },
+  {
+    "x": 82.23862064900004,
+    "y": 24.281812784000067,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DEVSAR BLOCK TO CHARKI_429_435",
+    "type": "sharp_edge",
+    "span": "DEVSAR BLOCK TO CHARKI"
+  },
+  {
+    "x": 82.35073525200005,
+    "y": 24.31117628000004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DHANAHA TO DEVGAWAN_480_519",
+    "type": "sharp_edge",
+    "span": "DHANAHA TO DEVGAWAN"
+  },
+  {
+    "x": 82.32684490800006,
+    "y": 24.31666296000003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DHANAHA TO DEVGAWAN_484_486",
+    "type": "sharp_edge",
+    "span": "DHANAHA TO DEVGAWAN"
+  },
+  {
+    "x": 82.35460730000005,
+    "y": 24.32839960000007,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DHANAHA TO DEVGAWAN_514_522",
+    "type": "sharp_edge",
+    "span": "DHANAHA TO DEVGAWAN"
+  },
+  {
+    "x": 82.35165167700006,
+    "y": 24.310998563000055,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DHANAHA TO DEVGAWAN_520_521",
+    "type": "sharp_edge",
+    "span": "DHANAHA TO DEVGAWAN"
+  },
+  {
+    "x": 82.09585311200004,
+    "y": 24.148504315000025,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DHAUHANI TO MAHULI_535_536",
+    "type": "sharp_edge",
+    "span": "DHAUHANI TO MAHULI"
+  },
+  {
+    "x": 82.27970574900007,
+    "y": 24.328958098000044,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DHONGA TO JIYAWAN_542_544",
+    "type": "sharp_edge",
+    "span": "DHONGA TO JIYAWAN"
+  },
+  {
+    "x": 82.25141258600007,
+    "y": 24.318172221000054,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DHONGA TO JIYAWAN_543_546",
+    "type": "sharp_edge",
+    "span": "DHONGA TO JIYAWAN"
+  },
+  {
+    "x": 82.23177337700008,
+    "y": 24.08380258400007,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DIYAGADAI TO JHARA_556_572",
+    "type": "sharp_edge",
+    "span": "DIYAGADAI TO JHARA"
+  },
+  {
+    "x": 82.22173974200007,
+    "y": 24.103872832000036,
+    "crs": "EPSG:4326",
+    "label": "Sharp_GAJRA BAHARA TO GANNAI_650_686",
+    "type": "sharp_edge",
+    "span": "GAJRA BAHARA TO GANNAI"
+  },
+  {
+    "x": 82.22164703400006,
+    "y": 24.103887367000027,
+    "crs": "EPSG:4326",
+    "label": "Sharp_GODBAHARA TO POKHARI TOLA_757_758",
+    "type": "sharp_edge",
+    "span": "GODBAHARA TO POKHARI TOLA"
+  },
+  {
+    "x": 82.32165537300006,
+    "y": 24.296657926000023,
+    "crs": "EPSG:4326",
+    "label": "Sharp_HARRACHANDEL TO JOGINI_759_760",
+    "type": "sharp_edge",
+    "span": "HARRACHANDEL TO JOGINI"
+  },
+  {
+    "x": 82.32519649700004,
+    "y": 24.316872474000036,
+    "crs": "EPSG:4326",
+    "label": "Sharp_ITAR TO DHANAHA_762_773",
+    "type": "sharp_edge",
+    "span": "ITAR TO DHANAHA"
+  },
+  {
+    "x": 82.35280426500003,
+    "y": 24.32103604300005,
+    "crs": "EPSG:4326",
+    "label": "Sharp_JHAKHRAWAL TO BODI_784_800",
+    "type": "sharp_edge",
+    "span": "JHAKHRAWAL TO BODI"
+  },
+  {
+    "x": 82.35470366600003,
+    "y": 24.32833276300005,
+    "crs": "EPSG:4326",
+    "label": "Sharp_JHAKHRAWAL TO BODI_785_799",
+    "type": "sharp_edge",
+    "span": "JHAKHRAWAL TO BODI"
+  },
+  {
+    "x": 82.13739963800003,
+    "y": 24.08915309400004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_JHARA TO SAJAPANI_837_891",
+    "type": "sharp_edge",
+    "span": "JHARA TO SAJAPANI"
+  },
+  {
+    "x": 82.11386317400007,
+    "y": 24.028758994000043,
+    "crs": "EPSG:4326",
+    "label": "Sharp_JHARA TO SAJAPANI_843_844",
+    "type": "sharp_edge",
+    "span": "JHARA TO SAJAPANI"
+  },
+  {
+    "x": 82.16137378200006,
+    "y": 24.040046136000058,
+    "crs": "EPSG:4326",
+    "label": "Sharp_JHARA TO SAJAPANI_868_869",
+    "type": "sharp_edge",
+    "span": "JHARA TO SAJAPANI"
+  },
+  {
+    "x": 82.41306362400007,
+    "y": 24.19239794300006,
+    "crs": "EPSG:4326",
+    "label": "Sharp_JOBGARH TO MAJHAULI_924_931",
+    "type": "sharp_edge",
+    "span": "JOBGARH TO MAJHAULI"
+  },
+  {
+    "x": 82.41393109500007,
+    "y": 24.192550071000028,
+    "crs": "EPSG:4326",
+    "label": "Sharp_JOBGARH TO MAJHAULI_925_930",
+    "type": "sharp_edge",
+    "span": "JOBGARH TO MAJHAULI"
+  },
+  {
+    "x": 82.04135090000005,
+    "y": 24.240157800000077,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KARDA TO KUSEDI_1054_1055",
+    "type": "sharp_edge",
+    "span": "KARDA TO KUSEDI"
+  },
+  {
+    "x": 82.04055520000009,
+    "y": 24.241107750000026,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KARDA TO KUSEDI_1055_1057",
+    "type": "sharp_edge",
+    "span": "KARDA TO KUSEDI"
+  },
+  {
+    "x": 82.03587352300008,
+    "y": 24.243025184000032,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KARDA TO KUSEDI_1058_1061",
+    "type": "sharp_edge",
+    "span": "KARDA TO KUSEDI"
+  },
+  {
+    "x": 81.90773850800008,
+    "y": 24.13045439800004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KATAI TO NIGARI_1066_1067",
+    "type": "sharp_edge",
+    "span": "KATAI TO NIGARI"
+  },
+  {
+    "x": 82.37776551100006,
+    "y": 24.238646706000054,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KHADOURA TO KATHDAHA_1197_1231",
+    "type": "sharp_edge",
+    "span": "KHADOURA TO KATHDAHA"
+  },
+  {
+    "x": 82.20432269300005,
+    "y": 24.185140269000044,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KHADOURA TO KATHDAHA_1267_1270",
+    "type": "sharp_edge",
+    "span": "KHADOURA TO KATHDAHA"
+  },
+  {
+    "x": 82.18247913700003,
+    "y": 24.33736989500005,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KHANDHAULI TO SARAUNDHA_1275_1283",
+    "type": "sharp_edge",
+    "span": "KHANDHAULI TO SARAUNDHA"
+  },
+  {
+    "x": 82.27872162300008,
+    "y": 24.33235473900004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KUCHWAHI TO DEVSAR BLOCK_1295_1473",
+    "type": "sharp_edge",
+    "span": "KUCHWAHI TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.23939330400003,
+    "y": 24.330571903000077,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KUCHWAHI TO DEVSAR BLOCK_1455_1456",
+    "type": "sharp_edge",
+    "span": "KUCHWAHI TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.10154703400008,
+    "y": 24.289907542000037,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KUSEDI TO KUNDWAR_1482_1483",
+    "type": "sharp_edge",
+    "span": "KUSEDI TO KUNDWAR"
+  },
+  {
+    "x": 82.14056272400006,
+    "y": 24.129476483000076,
+    "crs": "EPSG:4326",
+    "label": "Sharp_MAHRAIL TO GIDA_1492_1504",
+    "type": "sharp_edge",
+    "span": "MAHRAIL TO GIDA"
+  },
+  {
+    "x": 82.13994800000006,
+    "y": 24.12621390000004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_MAHRAIL TO GIDA_1506_1508",
+    "type": "sharp_edge",
+    "span": "MAHRAIL TO GIDA"
+  },
+  {
+    "x": 82.31500700800007,
+    "y": 24.283949910000047,
+    "crs": "EPSG:4326",
+    "label": "Sharp_MAJAUNA TO T-POINT HARRACHANDEL_1554_1559",
+    "type": "sharp_edge",
+    "span": "MAJAUNA TO T-POINT HARRACHANDEL"
+  },
+  {
+    "x": 82.30550486700008,
+    "y": 24.29994989200003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_MAJAUNA TO T-POINT HARRACHANDEL_1563_1564",
+    "type": "sharp_edge",
+    "span": "MAJAUNA TO T-POINT HARRACHANDEL"
+  },
+  {
+    "x": 82.36514341800006,
+    "y": 24.12250450500005,
+    "crs": "EPSG:4326",
+    "label": "Sharp_MAJHAULI TO PACHOR_1584_1645",
+    "type": "sharp_edge",
+    "span": "MAJHAULI TO PACHOR"
+  },
+  {
+    "x": 82.41316632700006,
+    "y": 24.12818875800008,
+    "crs": "EPSG:4326",
+    "label": "Sharp_MAJHAULI TO PACHOR_1599_1603",
+    "type": "sharp_edge",
+    "span": "MAJHAULI TO PACHOR"
+  },
+  {
+    "x": 82.37737640000006,
+    "y": 24.144541100000026,
+    "crs": "EPSG:4326",
+    "label": "Sharp_MAJHAULI TO PACHOR_1601_1650",
+    "type": "sharp_edge",
+    "span": "MAJHAULI TO PACHOR"
+  },
+  {
+    "x": 82.40341623800003,
+    "y": 24.112411835000046,
+    "crs": "EPSG:4326",
+    "label": "Sharp_MAJHAULI TO PACHOR_1606_1634",
+    "type": "sharp_edge",
+    "span": "MAJHAULI TO PACHOR"
+  },
+  {
+    "x": 82.40405283400008,
+    "y": 24.111818808000066,
+    "crs": "EPSG:4326",
+    "label": "Sharp_MAJHAULI TO PACHOR_1633_1635",
+    "type": "sharp_edge",
+    "span": "MAJHAULI TO PACHOR"
+  },
+  {
+    "x": 82.16151020000007,
+    "y": 24.33580850000004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_MAJHIGAWAN 1 TO T-POINT SARAUNDHA_1654_1655",
+    "type": "sharp_edge",
+    "span": "MAJHIGAWAN 1 TO T-POINT SARAUNDHA"
+  },
+  {
+    "x": 81.98179667600004,
+    "y": 24.163916620000066,
+    "crs": "EPSG:4326",
+    "label": "Sharp_NIGARI TO KUCHWAHI_1835_1837",
+    "type": "sharp_edge",
+    "span": "NIGARI TO KUCHWAHI"
+  },
+  {
+    "x": 82.41943206400003,
+    "y": 24.233682628000054,
+    "crs": "EPSG:4326",
+    "label": "Sharp_ODAGADI TO GIDHER_1870_1871",
+    "type": "sharp_edge",
+    "span": "ODAGADI TO GIDHER"
+  },
+  {
+    "x": 82.41877668200004,
+    "y": 24.22524267700004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_ODAGADI TO GIDHER_1888_1891",
+    "type": "sharp_edge",
+    "span": "ODAGADI TO GIDHER"
+  },
+  {
+    "x": 82.41839758900005,
+    "y": 24.229005122000046,
+    "crs": "EPSG:4326",
+    "label": "Sharp_ODAGADI TO GIDHER_1892_1893",
+    "type": "sharp_edge",
+    "span": "ODAGADI TO GIDHER"
+  },
+  {
+    "x": 81.91869380000009,
+    "y": 24.123597000000075,
+    "crs": "EPSG:4326",
+    "label": "Sharp_PAPAL TO NIWAS_1910_1911",
+    "type": "sharp_edge",
+    "span": "PAPAL TO NIWAS"
+  },
+  {
+    "x": 81.92637169100004,
+    "y": 24.13174629200006,
+    "crs": "EPSG:4326",
+    "label": "Sharp_PAPAL TO NIWAS_1912_1914",
+    "type": "sharp_edge",
+    "span": "PAPAL TO NIWAS"
+  },
+  {
+    "x": 82.28213144700004,
+    "y": 24.274340365000057,
+    "crs": "EPSG:4326",
+    "label": "Sharp_PEDRA TO ANTRAWA_1990_1992",
+    "type": "sharp_edge",
+    "span": "PEDRA TO ANTRAWA"
+  },
+  {
+    "x": 82.14739052900006,
+    "y": 24.329193125000074,
+    "crs": "EPSG:4326",
+    "label": "Sharp_PERSOHER TO MAJHIGAWAN 1_1996_1999",
+    "type": "sharp_edge",
+    "span": "PERSOHER TO MAJHIGAWAN 1"
+  },
+  {
+    "x": 82.12635030000007,
+    "y": 24.31461960000007,
+    "crs": "EPSG:4326",
+    "label": "Sharp_PERSOHER TO MAJHIGAWAN 1_1997_2000",
+    "type": "sharp_edge",
+    "span": "PERSOHER TO MAJHIGAWAN 1"
+  },
+  {
+    "x": 82.29767611200003,
+    "y": 24.319404461000033,
+    "crs": "EPSG:4326",
+    "label": "Sharp_PURAIL TO DEVSAR BLOCK_2110_2111",
+    "type": "sharp_edge",
+    "span": "PURAIL TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.00868111000005,
+    "y": 24.141193943000076,
+    "crs": "EPSG:4326",
+    "label": "Sharp_RAJNIA TO GADAIGAWN_2124_2155",
+    "type": "sharp_edge",
+    "span": "RAJNIA TO GADAIGAWN"
+  },
+  {
+    "x": 82.00263926000008,
+    "y": 24.139826240000048,
+    "crs": "EPSG:4326",
+    "label": "Sharp_RAJNIA TO GADAIGAWN_2127_2129",
+    "type": "sharp_edge",
+    "span": "RAJNIA TO GADAIGAWN"
+  },
+  {
+    "x": 82.30955627800006,
+    "y": 24.317052431000036,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SAHUAR TO DEVSAR BLOCK_2156_2170",
+    "type": "sharp_edge",
+    "span": "SAHUAR TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.19783724400008,
+    "y": 24.087163479000026,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SAJAPANI TO GODBAHARA_2187_2188",
+    "type": "sharp_edge",
+    "span": "SAJAPANI TO GODBAHARA"
+  },
+  {
+    "x": 82.15838280000008,
+    "y": 24.14475900000008,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SARRA TOLA TO MAHRAIL_2223_2240",
+    "type": "sharp_edge",
+    "span": "SARRA TOLA TO MAHRAIL"
+  },
+  {
+    "x": 82.16436395900007,
+    "y": 24.143243523000024,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SARRA TOLA TO MAHRAIL_2226_2227",
+    "type": "sharp_edge",
+    "span": "SARRA TOLA TO MAHRAIL"
+  },
+  {
+    "x": 82.00889634800006,
+    "y": 24.141365261000033,
+    "crs": "EPSG:4326",
+    "label": "Sharp_T-POINT BANDHA TO RAJNIA_2241_2245",
+    "type": "sharp_edge",
+    "span": "T-POINT BANDHA TO RAJNIA"
+  },
+  {
+    "x": 82.16462927300006,
+    "y": 24.207596822000028,
+    "crs": "EPSG:4326",
+    "label": "Sharp_T-POINT BARKA TO PIPARKHAD_2249_2250",
+    "type": "sharp_edge",
+    "span": "T-POINT BARKA TO PIPARKHAD"
+  },
+  {
+    "x": 82.00612547700007,
+    "y": 24.172787019000054,
+    "crs": "EPSG:4326",
+    "label": "Sharp_T-POINT KHANDHAULI TO NAWA TOLA_2364_2367",
+    "type": "sharp_edge",
+    "span": "T-POINT KHANDHAULI TO NAWA TOLA"
+  },
+  {
+    "x": 82.48744091600008,
+    "y": 24.229790232000028,
+    "crs": "EPSG:4326",
+    "label": "Sharp_T-POINT MAJHIGAWAN 2 TO BADOKHER_2453_2454",
+    "type": "sharp_edge",
+    "span": "T-POINT MAJHIGAWAN 2 TO BADOKHER"
+  },
+  {
+    "x": 81.98542947300007,
+    "y": 24.149817505000044,
+    "crs": "EPSG:4326",
+    "label": "Sharp_T-POINT NIGARI TO KACHHARA_2459_2463",
+    "type": "sharp_edge",
+    "span": "T-POINT NIGARI TO KACHHARA"
+  },
+  {
+    "x": 81.98713923500003,
+    "y": 24.152176592000046,
+    "crs": "EPSG:4326",
+    "label": "Sharp_T-POINT NIGARI TO KACHHARA_2461_2462",
+    "type": "sharp_edge",
+    "span": "T-POINT NIGARI TO KACHHARA"
+  },
+  {
+    "x": 81.92056270000006,
+    "y": 24.113645200000065,
+    "crs": "EPSG:4326",
+    "label": "Sharp_T-POINT NIWAS TO HARDI_2464_2465",
+    "type": "sharp_edge",
+    "span": "T-POINT NIWAS TO HARDI"
+  },
+  {
+    "x": 82.23064715900006,
+    "y": 24.346744380000075,
+    "crs": "EPSG:4326",
+    "label": "Sharp_T-POINT SARAUNDHA TO KURSA_2468_2469",
+    "type": "sharp_edge",
+    "span": "T-POINT SARAUNDHA TO KURSA"
+  },
+  {
+    "x": 82.37491410700005,
+    "y": 24.292965330000072,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "AMO TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.34740400000004,
+    "y": 24.30586260000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "AMO TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.34100396300005,
+    "y": 24.308158458000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "AMO TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.32603131500008,
+    "y": 24.316518062000057,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "AMO TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.28188480000006,
+    "y": 24.279807300000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "ANTRAWA TO SAHUAR"
+  },
+  {
+    "x": 82.30340710000007,
+    "y": 24.30030960000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "ANTRAWA TO SAHUAR"
+  },
+  {
+    "x": 82.49268343600005,
+    "y": 24.22698082000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BADOKHER TO JOBGARH"
+  },
+  {
+    "x": 82.49041850000003,
+    "y": 24.227970000000028,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BADOKHER TO JOBGARH"
+  },
+  {
+    "x": 82.40730530000008,
+    "y": 24.195290100000022,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BADOKHER TO JOBGARH"
+  },
+  {
+    "x": 82.40974648800005,
+    "y": 24.194624162000025,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BADOKHER TO JOBGARH"
+  },
+  {
+    "x": 82.39630920000008,
+    "y": 24.200261700000055,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BAGHADIH TO ODAGADI"
+  },
+  {
+    "x": 82.39478390000005,
+    "y": 24.20011290000008,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BAGHADIH TO ODAGADI"
+  },
+  {
+    "x": 82.41994870000008,
+    "y": 24.22616940000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BAGHADIH TO ODAGADI"
+  },
+  {
+    "x": 82.41866860000005,
+    "y": 24.225454100000036,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BAGHADIH TO ODAGADI"
+  },
+  {
+    "x": 82.29976990000006,
+    "y": 24.092508100000032,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BAKHUL TO GAJRA BAHARA"
+  },
+  {
+    "x": 82.29227623500003,
+    "y": 24.059311078000064,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BAKHUL TO GAJRA BAHARA"
+  },
+  {
+    "x": 82.00503556800004,
+    "y": 24.142302550000068,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BANDHA TO CHHAMRACHH"
+  },
+  {
+    "x": 81.99491330000006,
+    "y": 24.14067140000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BANDHA TO CHHAMRACHH"
+  },
+  {
+    "x": 81.98339547900008,
+    "y": 24.137732018000065,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BANDHA TO CHHAMRACHH"
+  },
+  {
+    "x": 81.97734240000005,
+    "y": 24.137837400000024,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BANDHA TO CHHAMRACHH"
+  },
+  {
+    "x": 81.96685980000007,
+    "y": 24.139142200000038,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BANDHA TO CHHAMRACHH"
+  },
+  {
+    "x": 81.96044931300008,
+    "y": 24.14055787800004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BANDHA TO CHHAMRACHH"
+  },
+  {
+    "x": 82.14886850000005,
+    "y": 24.192885200000035,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BARKA TO T-POINT PEDRA"
+  },
+  {
+    "x": 82.16704150000004,
+    "y": 24.20019650000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BARKA TO T-POINT PEDRA"
+  },
+  {
+    "x": 82.17782560000006,
+    "y": 24.198666200000048,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BARKA TO T-POINT PEDRA"
+  },
+  {
+    "x": 82.19331510000006,
+    "y": 24.19444980000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BARKA TO T-POINT PEDRA"
+  },
+  {
+    "x": 81.95899270000007,
+    "y": 24.10649660000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BHARSEDI TO MAHUAGAWN"
+  },
+  {
+    "x": 81.95811600000008,
+    "y": 24.107070600000043,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BHARSEDI TO MAHUAGAWN"
+  },
+  {
+    "x": 81.98684394800006,
+    "y": 24.085938197000075,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BHARSEDI TO MAHUAGAWN"
+  },
+  {
+    "x": 81.98031850000007,
+    "y": 24.08669150000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BHARSEDI TO MAHUAGAWN"
+  },
+  {
+    "x": 82.41965308500005,
+    "y": 24.326035280000042,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BODI TO JUDWAR"
+  },
+  {
+    "x": 82.41867210000004,
+    "y": 24.327196900000047,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BODI TO JUDWAR"
+  },
+  {
+    "x": 82.42933690000007,
+    "y": 24.33799270000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BODI TO JUDWAR"
+  },
+  {
+    "x": 82.47500060000004,
+    "y": 24.326705900000036,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "BODI TO JUDWAR"
+  },
+  {
+    "x": 82.23560820000006,
+    "y": 24.282370300000025,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHARKI TO CHARKI"
+  },
+  {
+    "x": 82.21109696800005,
+    "y": 24.28349634800003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHARKI TO CHARKI"
+  },
+  {
+    "x": 82.18144543600005,
+    "y": 24.28420742700007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHATNIHAN TO KHANDHAULI"
+  },
+  {
+    "x": 82.18167694900006,
+    "y": 24.28659721500003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHATNIHAN TO KHANDHAULI"
+  },
+  {
+    "x": 82.21106603400005,
+    "y": 24.283496332000027,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHATNIHAN TO KHANDHAULI"
+  },
+  {
+    "x": 82.20706220000005,
+    "y": 24.284051500000032,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHATNIHAN TO KHANDHAULI"
+  },
+  {
+    "x": 81.96044673900008,
+    "y": 24.140559346000032,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHHAMRACHH TO PAPAL"
+  },
+  {
+    "x": 81.96032710000003,
+    "y": 24.140627600000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHHAMRACHH TO PAPAL"
+  },
+  {
+    "x": 81.92612250000008,
+    "y": 24.131953800000076,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHHAMRACHH TO PAPAL"
+  },
+  {
+    "x": 81.92628920000004,
+    "y": 24.13190430000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "CHHAMRACHH TO PAPAL"
+  },
+  {
+    "x": 82.35145170000004,
+    "y": 24.310785000000067,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEVGAWAN TO KHADOURA"
+  },
+  {
+    "x": 82.33992827600008,
+    "y": 24.30529736400007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEVGAWAN TO KHADOURA"
+  },
+  {
+    "x": 82.31009432200005,
+    "y": 24.318045165000058,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEVSAR BLOCK TO CHARKI"
+  },
+  {
+    "x": 82.30528135000003,
+    "y": 24.302516242000024,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEVSAR BLOCK TO CHARKI"
+  },
+  {
+    "x": 82.30384932100003,
+    "y": 24.300888206000025,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEVSAR BLOCK TO CHARKI"
+  },
+  {
+    "x": 82.23862064900004,
+    "y": 24.281812784000067,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEVSAR BLOCK TO CHARKI"
+  },
+  {
+    "x": 82.31001850000007,
+    "y": 24.317766900000038,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEVSAR BLOCK TO HARRACHANDEL"
+  },
+  {
+    "x": 82.32152023200007,
+    "y": 24.29658201600006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEVSAR BLOCK TO HARRACHANDEL"
+  },
+  {
+    "x": 82.32603310900004,
+    "y": 24.31653129800003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEVSAR BLOCK TO JHAKHRAWAL"
+  },
+  {
+    "x": 82.33087054400005,
+    "y": 24.31766955300003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEVSAR BLOCK TO JHAKHRAWAL"
+  },
+  {
+    "x": 82.32752230000006,
+    "y": 24.186945000000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEWARA TO TINGUDI"
+  },
+  {
+    "x": 82.31842109900003,
+    "y": 24.16158520700003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DEWARA TO TINGUDI"
+  },
+  {
+    "x": 82.35460730000005,
+    "y": 24.32839960000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DHANAHA TO DEVGAWAN"
+  },
+  {
+    "x": 82.35261590000005,
+    "y": 24.320786000000055,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DHANAHA TO DEVGAWAN"
+  },
+  {
+    "x": 82.08872000000008,
+    "y": 24.138126700000043,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DHAUHANI TO MAHULI"
+  },
+  {
+    "x": 82.09555410000007,
+    "y": 24.14833580000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DHAUHANI TO MAHULI"
+  },
+  {
+    "x": 82.26641461600008,
+    "y": 24.325869273000023,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DHONGA TO JIYAWAN"
+  },
+  {
+    "x": 82.27970574900007,
+    "y": 24.328958098000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DHONGA TO JIYAWAN"
+  },
+  {
+    "x": 82.20000100000004,
+    "y": 24.046048400000075,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DIYAGADAI TO JHARA"
+  },
+  {
+    "x": 82.19847060000006,
+    "y": 24.04335150000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DIYAGADAI TO JHARA"
+  },
+  {
+    "x": 82.17888892000008,
+    "y": 24.029992631000027,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DIYAGADAI TO JHARA"
+  },
+  {
+    "x": 82.17861164900006,
+    "y": 24.029717117000075,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DIYAGADAI TO JHARA"
+  },
+  {
+    "x": 82.16957525000004,
+    "y": 24.021355071000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DIYAGADAI TO JHARA"
+  },
+  {
+    "x": 82.16944653900003,
+    "y": 24.02110586300006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DIYAGADAI TO JHARA"
+  },
+  {
+    "x": 82.09904100000006,
+    "y": 24.02709120000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DIYAGADAI TO JHARA"
+  },
+  {
+    "x": 82.11195766400004,
+    "y": 24.031004813000038,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "DIYAGADAI TO JHARA"
+  },
+  {
+    "x": 82.00302450000004,
+    "y": 24.083439700000042,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GADAIGAWN TO BHARSEDI"
+  },
+  {
+    "x": 81.98723214500006,
+    "y": 24.085965180000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GADAIGAWN TO BHARSEDI"
+  },
+  {
+    "x": 81.98719660000006,
+    "y": 24.085961300000065,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GADAIGAWN TO BHARSEDI"
+  },
+  {
+    "x": 81.98690432400008,
+    "y": 24.08594111800005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GADAIGAWN TO BHARSEDI"
+  },
+  {
+    "x": 82.29482168000004,
+    "y": 24.055508135000025,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GAJRA BAHARA TO GANNAI"
+  },
+  {
+    "x": 82.29215780000004,
+    "y": 24.05926640000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GAJRA BAHARA TO GANNAI"
+  },
+  {
+    "x": 82.23750690000008,
+    "y": 24.166540000000055,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GANNAI TO PURAIL"
+  },
+  {
+    "x": 82.23754227800003,
+    "y": 24.166618026000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GANNAI TO PURAIL"
+  },
+  {
+    "x": 82.50192433500007,
+    "y": 24.268914033000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GHINWAGAWN TO MAJHIGAWAN 2"
+  },
+  {
+    "x": 82.47157226700006,
+    "y": 24.27205596700003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GHINWAGAWN TO MAJHIGAWAN 2"
+  },
+  {
+    "x": 82.12561830000004,
+    "y": 24.125701700000036,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GIDA TO DHAUHANI"
+  },
+  {
+    "x": 82.12553910000008,
+    "y": 24.12591160000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GIDA TO DHAUHANI"
+  },
+  {
+    "x": 82.42894083500005,
+    "y": 24.27300599700004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GIDHER TO AMO"
+  },
+  {
+    "x": 82.37491410700005,
+    "y": 24.292965330000072,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GIDHER TO AMO"
+  },
+  {
+    "x": 82.19496254500007,
+    "y": 24.101719565000053,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GODBAHARA TO POKHARI TOLA"
+  },
+  {
+    "x": 82.22175655100006,
+    "y": 24.103694804000042,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "GODBAHARA TO POKHARI TOLA"
+  },
+  {
+    "x": 82.32651500000009,
+    "y": 24.296920000000057,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "HARRACHANDEL TO JOGINI"
+  },
+  {
+    "x": 82.32815720000008,
+    "y": 24.291476500000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "HARRACHANDEL TO JOGINI"
+  },
+  {
+    "x": 82.32519649700004,
+    "y": 24.316872474000036,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "ITAR TO DHANAHA"
+  },
+  {
+    "x": 82.32577170000008,
+    "y": 24.318981500000064,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "ITAR TO DHANAHA"
+  },
+  {
+    "x": 82.31826120000005,
+    "y": 24.319885800000066,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "ITAR TO DHANAHA"
+  },
+  {
+    "x": 82.31770949900005,
+    "y": 24.318236624000065,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "ITAR TO DHANAHA"
+  },
+  {
+    "x": 82.33089600200003,
+    "y": 24.317671250000046,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JHAKHRAWAL TO BODI"
+  },
+  {
+    "x": 82.34359490000008,
+    "y": 24.33384410000008,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JHAKHRAWAL TO BODI"
+  },
+  {
+    "x": 82.36813860000007,
+    "y": 24.32041890000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JHAKHRAWAL TO BODI"
+  },
+  {
+    "x": 82.36828280000003,
+    "y": 24.320501700000023,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JHAKHRAWAL TO BODI"
+  },
+  {
+    "x": 82.41853560000004,
+    "y": 24.32687560000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JHAKHRAWAL TO BODI"
+  },
+  {
+    "x": 82.41965308500005,
+    "y": 24.326035280000042,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JHAKHRAWAL TO BODI"
+  },
+  {
+    "x": 82.13669639200003,
+    "y": 24.089719195000043,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JHARA TO SAJAPANI"
+  },
+  {
+    "x": 82.13502992400004,
+    "y": 24.091735202000052,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JHARA TO SAJAPANI"
+  },
+  {
+    "x": 82.27976000100006,
+    "y": 24.328930972000023,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JIYAWAN TO NAUDIA ABAD"
+  },
+  {
+    "x": 82.28207460000004,
+    "y": 24.327072900000076,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JIYAWAN TO NAUDIA ABAD"
+  },
+  {
+    "x": 82.28982010000004,
+    "y": 24.32270390000008,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JIYAWAN TO NAUDIA ABAD"
+  },
+  {
+    "x": 82.29199510000007,
+    "y": 24.321856500000024,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JIYAWAN TO NAUDIA ABAD"
+  },
+  {
+    "x": 82.29776294600003,
+    "y": 24.319450078000045,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JIYAWAN TO NAUDIA ABAD"
+  },
+  {
+    "x": 82.30500053700007,
+    "y": 24.31888434700005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JIYAWAN TO NAUDIA ABAD"
+  },
+  {
+    "x": 82.39552318800008,
+    "y": 24.162810334000028,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JOBGARH TO MAJHAULI"
+  },
+  {
+    "x": 82.39519980000006,
+    "y": 24.16161550000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JOBGARH TO MAJHAULI"
+  },
+  {
+    "x": 82.33310120000004,
+    "y": 24.281010800000047,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JOGINI TO DEWARA"
+  },
+  {
+    "x": 82.33356700000007,
+    "y": 24.274667500000078,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "JOGINI TO DEWARA"
+  },
+  {
+    "x": 82.04055520000009,
+    "y": 24.241107750000026,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KARDA TO KUSEDI"
+  },
+  {
+    "x": 82.06245680000006,
+    "y": 24.25727370000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KARDA TO KUSEDI"
+  },
+  {
+    "x": 81.91757360000008,
+    "y": 24.14737720000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KATAI TO NIGARI"
+  },
+  {
+    "x": 81.92314729600008,
+    "y": 24.156810664000034,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KATAI TO NIGARI"
+  },
+  {
+    "x": 82.20446345300007,
+    "y": 24.185337899000046,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KATHDAHA TO PEDRA"
+  },
+  {
+    "x": 82.19637040000003,
+    "y": 24.18827630000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KATHDAHA TO PEDRA"
+  },
+  {
+    "x": 82.21642418300007,
+    "y": 24.19761374500007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KATHDAHA TO PEDRA"
+  },
+  {
+    "x": 82.22485470000004,
+    "y": 24.201729900000032,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KATHDAHA TO PEDRA"
+  },
+  {
+    "x": 82.24840520000004,
+    "y": 24.185721900000033,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHADOURA TO KATHDAHA"
+  },
+  {
+    "x": 82.20432269300005,
+    "y": 24.185140269000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHADOURA TO KATHDAHA"
+  },
+  {
+    "x": 82.33300210000004,
+    "y": 24.296532900000045,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHADOURA TO KATHDAHA"
+  },
+  {
+    "x": 82.33170360000008,
+    "y": 24.29663030000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHADOURA TO KATHDAHA"
+  },
+  {
+    "x": 82.34137523100003,
+    "y": 24.304309239000077,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHADOURA TO KATHDAHA"
+  },
+  {
+    "x": 82.33992032500004,
+    "y": 24.30527236900008,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHADOURA TO KATHDAHA"
+  },
+  {
+    "x": 82.33039380000008,
+    "y": 24.295319300000074,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHADOURA TO KATHDAHA"
+  },
+  {
+    "x": 82.33326407800007,
+    "y": 24.281017346000056,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHADOURA TO KATHDAHA"
+  },
+  {
+    "x": 82.33992032500004,
+    "y": 24.30527236900008,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHADOURA TO KATHDAHA"
+  },
+  {
+    "x": 82.33975887300005,
+    "y": 24.304984900000022,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KHADOURA TO KATHDAHA"
+  },
+  {
+    "x": 82.26166976700006,
+    "y": 24.318597473000068,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KUCHWAHI TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.26444362500007,
+    "y": 24.32609961600008,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KUCHWAHI TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.30191574100007,
+    "y": 24.31869135200003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KUCHWAHI TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.30999714100005,
+    "y": 24.317778752000038,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KUCHWAHI TO DEVSAR BLOCK"
+  },
+  {
+    "x": 81.98189474800006,
+    "y": 24.163927588000035,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KUCHWAHI TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.00219943300004,
+    "y": 24.172877984000024,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KUCHWAHI TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.10160453400005,
+    "y": 24.289944262000063,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KUNDWAR TO PERSOHER"
+  },
+  {
+    "x": 82.12634830000007,
+    "y": 24.313765000000046,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KUNDWAR TO PERSOHER"
+  },
+  {
+    "x": 82.06248917300007,
+    "y": 24.259020302000067,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KUSEDI TO KUNDWAR"
+  },
+  {
+    "x": 82.10154703400008,
+    "y": 24.289907542000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "KUSEDI TO KUNDWAR"
+  },
+  {
+    "x": 82.16507459000007,
+    "y": 24.13940124100003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAHRAIL TO GIDA"
+  },
+  {
+    "x": 82.16496056300008,
+    "y": 24.139402938000046,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAHRAIL TO GIDA"
+  },
+  {
+    "x": 82.13994800000006,
+    "y": 24.12621390000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAHRAIL TO GIDA"
+  },
+  {
+    "x": 82.12561830000004,
+    "y": 24.125701700000036,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAHRAIL TO GIDA"
+  },
+  {
+    "x": 82.16487898600008,
+    "y": 24.139103814000066,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAHRAIL TO GIDA"
+  },
+  {
+    "x": 82.15943701900005,
+    "y": 24.12825828600006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAHRAIL TO GIDA"
+  },
+  {
+    "x": 81.95838749800004,
+    "y": 24.108337988000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAHUAGAWN TO PONDI"
+  },
+  {
+    "x": 81.96079440000005,
+    "y": 24.110581500000023,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAHUAGAWN TO PONDI"
+  },
+  {
+    "x": 81.97739330000007,
+    "y": 24.123948900000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAHUAGAWN TO PONDI"
+  },
+  {
+    "x": 81.98472200400005,
+    "y": 24.125566725000056,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAHUAGAWN TO PONDI"
+  },
+  {
+    "x": 82.10221783600008,
+    "y": 24.180534927000053,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAHULI TO BARKA"
+  },
+  {
+    "x": 82.13449532600004,
+    "y": 24.15896698100005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAHULI TO BARKA"
+  },
+  {
+    "x": 82.14334360000004,
+    "y": 24.155303400000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAHULI TO BARKA"
+  },
+  {
+    "x": 82.14400528800007,
+    "y": 24.155590628000027,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAHULI TO BARKA"
+  },
+  {
+    "x": 82.30774810000008,
+    "y": 24.28768160000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAJAUNA TO T-POINT HARRACHANDEL"
+  },
+  {
+    "x": 82.30547410000008,
+    "y": 24.299712400000033,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAJAUNA TO T-POINT HARRACHANDEL"
+  },
+  {
+    "x": 82.39519980000006,
+    "y": 24.16161550000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAJHAULI TO PACHOR"
+  },
+  {
+    "x": 82.39447970000003,
+    "y": 24.161624800000027,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAJHAULI TO PACHOR"
+  },
+  {
+    "x": 82.37737640000006,
+    "y": 24.144541100000026,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAJHAULI TO PACHOR"
+  },
+  {
+    "x": 82.37409280000008,
+    "y": 24.145046600000057,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAJHAULI TO PACHOR"
+  },
+  {
+    "x": 82.14742325700007,
+    "y": 24.32920901600005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAJHIGAWAN 1 TO T-POINT SARAUNDHA"
+  },
+  {
+    "x": 82.15406580000007,
+    "y": 24.33152160000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAJHIGAWAN 1 TO T-POINT SARAUNDHA"
+  },
+  {
+    "x": 82.16151020000007,
+    "y": 24.33580850000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAJHIGAWAN 1 TO T-POINT SARAUNDHA"
+  },
+  {
+    "x": 82.16754290700004,
+    "y": 24.33823583800006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAJHIGAWAN 1 TO T-POINT SARAUNDHA"
+  },
+  {
+    "x": 82.47153198700005,
+    "y": 24.27206230300004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAJHIGAWAN 2 TO GIDHER"
+  },
+  {
+    "x": 82.46651310000004,
+    "y": 24.27210320000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "MAJHIGAWAN 2 TO GIDHER"
+  },
+  {
+    "x": 82.30504477700003,
+    "y": 24.31888574800007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "NAUDIA ABAD TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.31009432200005,
+    "y": 24.318045165000058,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "NAUDIA ABAD TO DEVSAR BLOCK"
+  },
+  {
+    "x": 81.92629789600005,
+    "y": 24.161812568000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "NIGARI TO KUCHWAHI"
+  },
+  {
+    "x": 81.93450020000006,
+    "y": 24.171235800000034,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "NIGARI TO KUCHWAHI"
+  },
+  {
+    "x": 81.97869607300004,
+    "y": 24.163532984000028,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "NIGARI TO KUCHWAHI"
+  },
+  {
+    "x": 81.98179667600004,
+    "y": 24.163916620000066,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "NIGARI TO KUCHWAHI"
+  },
+  {
+    "x": 81.91464645900004,
+    "y": 24.12492025100005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "NIWAS TO KATAI"
+  },
+  {
+    "x": 81.90829060000004,
+    "y": 24.12688550000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "NIWAS TO KATAI"
+  },
+  {
+    "x": 81.90695550000004,
+    "y": 24.12872690000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "NIWAS TO KATAI"
+  },
+  {
+    "x": 81.90754960000004,
+    "y": 24.13025220000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "NIWAS TO KATAI"
+  },
+  {
+    "x": 82.28645412500003,
+    "y": 24.146573586000045,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "OBARI TO BAKHUL"
+  },
+  {
+    "x": 82.30397810000005,
+    "y": 24.138300300000026,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "OBARI TO BAKHUL"
+  },
+  {
+    "x": 82.42861017500007,
+    "y": 24.272773440000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "ODAGADI TO GIDHER"
+  },
+  {
+    "x": 82.42894083500005,
+    "y": 24.27300599700004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "ODAGADI TO GIDHER"
+  },
+  {
+    "x": 82.37409280000008,
+    "y": 24.145046600000057,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PACHOR TO UJAAINI"
+  },
+  {
+    "x": 82.38470637100005,
+    "y": 24.173457926000026,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PACHOR TO UJAAINI"
+  },
+  {
+    "x": 81.91869380000009,
+    "y": 24.123597000000075,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PAPAL TO NIWAS"
+  },
+  {
+    "x": 81.91464645900004,
+    "y": 24.12492025100005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PAPAL TO NIWAS"
+  },
+  {
+    "x": 82.12635030000007,
+    "y": 24.31461960000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PERSOHER TO MAJHIGAWAN 1"
+  },
+  {
+    "x": 82.14739052900006,
+    "y": 24.329193125000074,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PERSOHER TO MAJHIGAWAN 1"
+  },
+  {
+    "x": 82.49818529900006,
+    "y": 24.298591687000055,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "POKHARA TO GHINWAGAWN"
+  },
+  {
+    "x": 82.50192433500007,
+    "y": 24.268914033000044,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "POKHARA TO GHINWAGAWN"
+  },
+  {
+    "x": 82.22175655100006,
+    "y": 24.103694804000042,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "POKHARI TOLA TO T-POINT GANNAI"
+  },
+  {
+    "x": 82.22173974200007,
+    "y": 24.103872832000036,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "POKHARI TOLA TO T-POINT GANNAI"
+  },
+  {
+    "x": 82.24831270000004,
+    "y": 24.18556600000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PURAIL TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.24840520000004,
+    "y": 24.185721900000033,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PURAIL TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.27620816600006,
+    "y": 24.281654768000067,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PURAIL TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.30134900400003,
+    "y": 24.301230731000032,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "PURAIL TO DEVSAR BLOCK"
+  },
+  {
+    "x": 82.00868111000005,
+    "y": 24.141193943000076,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "RAJNIA TO GADAIGAWN"
+  },
+  {
+    "x": 82.00508426300007,
+    "y": 24.142291405000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "RAJNIA TO GADAIGAWN"
+  },
+  {
+    "x": 82.19783724400008,
+    "y": 24.087163479000026,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SAJAPANI TO GODBAHARA"
+  },
+  {
+    "x": 82.19496254500007,
+    "y": 24.101719565000053,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SAJAPANI TO GODBAHARA"
+  },
+  {
+    "x": 82.17775030000007,
+    "y": 24.34265800000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SARAUNDHA TO SARAUNDHA"
+  },
+  {
+    "x": 82.23932010700008,
+    "y": 24.330285795000066,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SARAUNDHA TO SARAUNDHA"
+  },
+  {
+    "x": 82.16703700000005,
+    "y": 24.162121900000045,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SARRA TOLA TO MAHRAIL"
+  },
+  {
+    "x": 82.15838280000008,
+    "y": 24.14475900000008,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "SARRA TOLA TO MAHRAIL"
+  },
+  {
+    "x": 82.14886850000005,
+    "y": 24.192885200000035,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT BARKA TO PIPARI"
+  },
+  {
+    "x": 82.14670710000007,
+    "y": 24.20013750000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT BARKA TO PIPARI"
+  },
+  {
+    "x": 82.16704150000004,
+    "y": 24.20019650000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT BARKA TO PIPARKHAD"
+  },
+  {
+    "x": 82.16465960000005,
+    "y": 24.207483800000034,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT BARKA TO PIPARKHAD"
+  },
+  {
+    "x": 81.98902940000005,
+    "y": 24.03883410000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT BHARSEDI TO BANJARI"
+  },
+  {
+    "x": 81.98697000000004,
+    "y": 24.038148300000046,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT BHARSEDI TO BANJARI"
+  },
+  {
+    "x": 82.35460730000005,
+    "y": 24.32839960000007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT DEVGAWAN TO BUDADAND"
+  },
+  {
+    "x": 82.35461940000005,
+    "y": 24.328804400000024,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT DEVGAWAN TO BUDADAND"
+  },
+  {
+    "x": 82.35468820000006,
+    "y": 24.32890770000006,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT DEVGAWAN TO BUDADAND"
+  },
+  {
+    "x": 82.37634910000008,
+    "y": 24.340796100000034,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT DEVGAWAN TO BUDADAND"
+  },
+  {
+    "x": 82.34359490000008,
+    "y": 24.33384410000008,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT JHAKHRAWAL TO BAMHANI"
+  },
+  {
+    "x": 82.34481000000005,
+    "y": 24.335990000000038,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT JHAKHRAWAL TO BAMHANI"
+  },
+  {
+    "x": 82.09904100000006,
+    "y": 24.02709120000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT JHARA TO BHARSEDA"
+  },
+  {
+    "x": 82.09890090000005,
+    "y": 24.027102300000024,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT JHARA TO BHARSEDA"
+  },
+  {
+    "x": 82.06393360000004,
+    "y": 24.025544000000025,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT JHARA TO BHARSEDA"
+  },
+  {
+    "x": 82.06438655000005,
+    "y": 24.026809920000062,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT JHARA TO BHARSEDA"
+  },
+  {
+    "x": 82.33346070000005,
+    "y": 24.274784500000067,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT JOGINI TO MAJAUNA"
+  },
+  {
+    "x": 82.32686740000008,
+    "y": 24.274523000000045,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT JOGINI TO MAJAUNA"
+  },
+  {
+    "x": 82.19637040000003,
+    "y": 24.18827630000004,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT KATHDAHA TO SARRA TOLA"
+  },
+  {
+    "x": 82.19610740000007,
+    "y": 24.18830200000008,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT KATHDAHA TO SARRA TOLA"
+  },
+  {
+    "x": 82.33567746400007,
+    "y": 24.29518608500007,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT KHADOURA TO PURWA"
+  },
+  {
+    "x": 82.36256423100008,
+    "y": 24.27633375700003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT KHADOURA TO PURWA"
+  },
+  {
+    "x": 82.32686740000008,
+    "y": 24.274523000000045,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT MAJAUNA TO KARI"
+  },
+  {
+    "x": 82.31243313600004,
+    "y": 24.266316208000035,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT MAJAUNA TO KARI"
+  },
+  {
+    "x": 82.15406580000007,
+    "y": 24.33152160000003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT MAJHIGAWAN 1 TO DONDAKI"
+  },
+  {
+    "x": 82.15300500000006,
+    "y": 24.338258300000064,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT MAJHIGAWAN 1 TO DONDAKI"
+  },
+  {
+    "x": 82.49050367000007,
+    "y": 24.228041705000066,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT MAJHIGAWAN 2 TO BADOKHER"
+  },
+  {
+    "x": 82.49266868400008,
+    "y": 24.226990449000027,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT MAJHIGAWAN 2 TO BADOKHER"
+  },
+  {
+    "x": 81.93450020000006,
+    "y": 24.171235800000034,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT NIGARI TO JOBA"
+  },
+  {
+    "x": 81.93336300000004,
+    "y": 24.186249200000077,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT NIGARI TO JOBA"
+  },
+  {
+    "x": 81.97851110000005,
+    "y": 24.163036000000034,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT NIGARI TO KACHHARA"
+  },
+  {
+    "x": 81.98477860000008,
+    "y": 24.152968500000043,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT NIGARI TO KACHHARA"
+  },
+  {
+    "x": 81.92056270000006,
+    "y": 24.113645200000065,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT NIWAS TO HARDI"
+  },
+  {
+    "x": 81.92705123500008,
+    "y": 24.096500423000066,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT NIWAS TO HARDI"
+  },
+  {
+    "x": 82.22593320000004,
+    "y": 24.329312600000037,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT SARAUNDHA TO KURSA"
+  },
+  {
+    "x": 82.23069880000008,
+    "y": 24.346739800000023,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "T-POINT SARAUNDHA TO KURSA"
+  },
+  {
+    "x": 82.31842109900003,
+    "y": 24.16158520700003,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "TINGUDI TO OBARI"
+  },
+  {
+    "x": 82.30930460000008,
+    "y": 24.147576065000067,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "TINGUDI TO OBARI"
+  },
+  {
+    "x": 82.38470637100005,
+    "y": 24.173457926000026,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "UJAAINI TO BAGHADIH"
+  },
+  {
+    "x": 82.38859960000008,
+    "y": 24.181784100000073,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "UJAAINI TO BAGHADIH"
+  },
+  {
+    "x": 82.37015970000004,
+    "y": 24.313615300000038,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "UMARHER TO T-POINT BODI"
+  },
+  {
+    "x": 82.36813860000007,
+    "y": 24.32041890000005,
+    "crs": "EPSG:4326",
+    "label": "Brown Field Conn",
+    "type": "Brown Field",
+    "span": "UMARHER TO T-POINT BODI"
+  }
+]
