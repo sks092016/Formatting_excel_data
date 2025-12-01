@@ -7,7 +7,7 @@ update_field = "span_name"
 
 
 replacement_map = {
-'KARERA BLOCK TO KURROLI':'KARERA BLOCK TO KURROL'
+'KOLPURA':'KOLIPURA'
 }
 count = 0
 

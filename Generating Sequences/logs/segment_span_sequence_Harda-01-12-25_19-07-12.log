@@ -1,0 +1,42 @@
+2025-12-01 19:07:14,478 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-01 19:07:14,479 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-01 19:07:14,488 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'UDA TO HARDA BLOCK'.
+2025-12-01 19:07:14,488 - WARNING - ⚠️ The Span UDA TO HARDA BLOCK is disconnected at this point (77.09832908000004, 22.340928641000062)
+2025-12-01 19:07:14,561 - INFO - Created 1,318 records
+2025-12-01 19:07:14,571 - INFO - Created 82 records
+2025-12-01 19:07:14,571 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-12-01 19:07:14,573 - INFO - Created 1 records
+2025-12-01 19:07:14,610 - INFO - 🔄 Found 10 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R2-C2', 'R3', 'R3-C1', 'R3-C2', 'R4', 'R4-C1']
+2025-12-01 19:07:14,610 - INFO - 
+🔁 Processing ring: R1
+2025-12-01 19:07:14,615 - INFO - ✅ Completed ring R1 with 11 spans.
+2025-12-01 19:07:14,615 - INFO - 
+🔁 Processing ring: R1-C1
+2025-12-01 19:07:14,619 - INFO - ✅ Completed ring R1-C1 with 10 spans.
+2025-12-01 19:07:14,619 - INFO - 
+🔁 Processing ring: R2
+2025-12-01 19:07:14,624 - INFO - ✅ Completed ring R2 with 10 spans.
+2025-12-01 19:07:14,624 - INFO - 
+🔁 Processing ring: R2-C1
+2025-12-01 19:07:14,626 - INFO - ✅ Completed ring R2-C1 with 5 spans.
+2025-12-01 19:07:14,626 - INFO - 
+🔁 Processing ring: R2-C2
+2025-12-01 19:07:14,628 - INFO - ✅ Completed ring R2-C2 with 5 spans.
+2025-12-01 19:07:14,628 - INFO - 
+🔁 Processing ring: R3
+2025-12-01 19:07:14,633 - INFO - ✅ Completed ring R3 with 11 spans.
+2025-12-01 19:07:14,633 - INFO - 
+🔁 Processing ring: R3-C1
+2025-12-01 19:07:14,636 - INFO - ✅ Completed ring R3-C1 with 7 spans.
+2025-12-01 19:07:14,636 - INFO - 
+🔁 Processing ring: R3-C2
+2025-12-01 19:07:14,637 - INFO - ✅ Completed ring R3-C2 with 3 spans.
+2025-12-01 19:07:14,638 - INFO - 
+🔁 Processing ring: R4
+2025-12-01 19:07:14,641 - INFO - ✅ Completed ring R4 with 8 spans.
+2025-12-01 19:07:14,641 - INFO - 
+🔁 Processing ring: R4-C1
+2025-12-01 19:07:14,644 - INFO - ✅ Completed ring R4-C1 with 6 spans.
+2025-12-01 19:07:14,685 - INFO - Created 1,318 records
+2025-12-01 19:07:14,694 - INFO - Created 82 records
+2025-12-01 19:07:14,694 - INFO - ✅ All rings processed. Span sequence updated and saved.
