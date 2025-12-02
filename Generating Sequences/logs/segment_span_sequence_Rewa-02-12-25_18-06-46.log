@@ -1,0 +1,51 @@
+2025-12-02 18:06:48,677 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-02 18:06:48,677 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-02 18:06:48,678 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-02 18:06:48,678 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-02 18:06:48,701 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'REWA BLOCK TO KOSTA'.
+2025-12-02 18:06:48,701 - WARNING - ⚠️ The Span REWA BLOCK TO KOSTA is disconnected at this point (81.36187225300006, 24.552913628000056)
+2025-12-02 18:06:48,890 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-02 18:06:48,891 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-02 18:06:48,923 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'SILPARA TO REWA BLOCK'.
+2025-12-02 18:06:48,923 - WARNING - ⚠️ The Span SILPARA TO REWA BLOCK is disconnected at this point (81.27234460100004, 24.542068621000055)
+2025-12-02 18:06:49,467 - INFO - Created 1,522 records
+2025-12-02 18:06:49,477 - INFO - Created 103 records
+2025-12-02 18:06:49,478 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-12-02 18:06:49,479 - INFO - Created 2 records
+2025-12-02 18:06:49,521 - INFO - 🔄 Found 11 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R3-C2', 'R4', 'R4-C1', 'R5', 'R6']
+2025-12-02 18:06:49,521 - INFO - 
+🔁 Processing ring: R1
+2025-12-02 18:06:49,525 - INFO - ✅ Completed ring R1 with 9 spans.
+2025-12-02 18:06:49,525 - INFO - 
+🔁 Processing ring: R1-C1
+2025-12-02 18:06:49,530 - INFO - ✅ Completed ring R1-C1 with 8 spans.
+2025-12-02 18:06:49,530 - INFO - 
+🔁 Processing ring: R2
+2025-12-02 18:06:49,535 - INFO - ✅ Completed ring R2 with 10 spans.
+2025-12-02 18:06:49,535 - INFO - 
+🔁 Processing ring: R2-C1
+2025-12-02 18:06:49,539 - INFO - ✅ Completed ring R2-C1 with 7 spans.
+2025-12-02 18:06:49,539 - INFO - 
+🔁 Processing ring: R3
+2025-12-02 18:06:49,544 - INFO - ✅ Completed ring R3 with 11 spans.
+2025-12-02 18:06:49,544 - INFO - 
+🔁 Processing ring: R3-C1
+2025-12-02 18:06:49,547 - INFO - ✅ Completed ring R3-C1 with 7 spans.
+2025-12-02 18:06:49,547 - INFO - 
+🔁 Processing ring: R3-C2
+2025-12-02 18:06:49,549 - INFO - ✅ Completed ring R3-C2 with 1 spans.
+2025-12-02 18:06:49,549 - INFO - 
+🔁 Processing ring: R4
+2025-12-02 18:06:49,553 - INFO - ✅ Completed ring R4 with 10 spans.
+2025-12-02 18:06:49,553 - INFO - 
+🔁 Processing ring: R4-C1
+2025-12-02 18:06:49,557 - INFO - ✅ Completed ring R4-C1 with 7 spans.
+2025-12-02 18:06:49,557 - INFO - 
+🔁 Processing ring: R5
+2025-12-02 18:06:49,561 - INFO - ✅ Completed ring R5 with 8 spans.
+2025-12-02 18:06:49,561 - INFO - 
+🔁 Processing ring: R6
+2025-12-02 18:06:49,566 - INFO - ✅ Completed ring R6 with 9 spans.
+2025-12-02 18:06:49,612 - INFO - Created 1,522 records
+2025-12-02 18:06:49,621 - INFO - Created 103 records
+2025-12-02 18:06:49,622 - INFO - ✅ All rings processed. Span sequence updated and saved.

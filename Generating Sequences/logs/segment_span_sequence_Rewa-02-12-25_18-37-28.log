@@ -1,0 +1,43 @@
+2025-12-02 18:37:29,826 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'KANAUJA TO DUBEE'.
+2025-12-02 18:37:29,827 - WARNING - ⚠️ The Span KANAUJA TO DUBEE is disconnected at this point (81.37985130000004, 24.47310580000004)
+2025-12-02 18:37:31,385 - INFO - Created 1,519 records
+2025-12-02 18:37:31,398 - INFO - Created 103 records
+2025-12-02 18:37:31,399 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-12-02 18:37:31,401 - INFO - Created 1 records
+2025-12-02 18:37:31,442 - INFO - 🔄 Found 11 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R3-C2', 'R4', 'R4-C1', 'R5', 'R6']
+2025-12-02 18:37:31,442 - INFO - 
+🔁 Processing ring: R1
+2025-12-02 18:37:31,446 - INFO - ✅ Completed ring R1 with 8 spans.
+2025-12-02 18:37:31,446 - INFO - 
+🔁 Processing ring: R1-C1
+2025-12-02 18:37:31,450 - INFO - ✅ Completed ring R1-C1 with 8 spans.
+2025-12-02 18:37:31,450 - INFO - 
+🔁 Processing ring: R2
+2025-12-02 18:37:31,455 - INFO - ✅ Completed ring R2 with 10 spans.
+2025-12-02 18:37:31,455 - INFO - 
+🔁 Processing ring: R2-C1
+2025-12-02 18:37:31,458 - INFO - ✅ Completed ring R2-C1 with 7 spans.
+2025-12-02 18:37:31,458 - INFO - 
+🔁 Processing ring: R3
+2025-12-02 18:37:31,463 - INFO - ✅ Completed ring R3 with 11 spans.
+2025-12-02 18:37:31,463 - INFO - 
+🔁 Processing ring: R3-C1
+2025-12-02 18:37:31,466 - INFO - ✅ Completed ring R3-C1 with 7 spans.
+2025-12-02 18:37:31,466 - INFO - 
+🔁 Processing ring: R3-C2
+2025-12-02 18:37:31,467 - INFO - ✅ Completed ring R3-C2 with 1 spans.
+2025-12-02 18:37:31,467 - INFO - 
+🔁 Processing ring: R4
+2025-12-02 18:37:31,472 - INFO - ✅ Completed ring R4 with 10 spans.
+2025-12-02 18:37:31,472 - INFO - 
+🔁 Processing ring: R4-C1
+2025-12-02 18:37:31,475 - INFO - ✅ Completed ring R4-C1 with 7 spans.
+2025-12-02 18:37:31,475 - INFO - 
+🔁 Processing ring: R5
+2025-12-02 18:37:31,478 - INFO - ✅ Completed ring R5 with 8 spans.
+2025-12-02 18:37:31,478 - INFO - 
+🔁 Processing ring: R6
+2025-12-02 18:37:31,482 - INFO - ✅ Completed ring R6 with 9 spans.
+2025-12-02 18:37:31,526 - INFO - Created 1,519 records
+2025-12-02 18:37:31,539 - INFO - Created 103 records
+2025-12-02 18:37:31,540 - INFO - ✅ All rings processed. Span sequence updated and saved.
