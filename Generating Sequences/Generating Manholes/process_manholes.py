@@ -1,6 +1,6 @@
 from methods import *
 
-block_name = "Kalapipal"
+block_name = "Teonthar"
 crs = "EPSG:4326"
 input_shapefile = f'input/OFC_New_{block_name}-1_Seg_Span_Seq.shp'
 output_json = f"temp/custom_points_{block_name}.json"
