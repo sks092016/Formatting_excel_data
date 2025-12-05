@@ -1,0 +1,47 @@
+2025-12-05 11:27:15,231 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'BANJARIPURA TO IMALIPURA'.
+2025-12-05 11:27:15,232 - WARNING - ⚠️ The Span BANJARIPURA TO IMALIPURA is disconnected at this point (75.56043845800008, 22.478430569000068)
+2025-12-05 11:27:16,295 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'MAHARAJ KHEDI TO T-POINT BILLODA KHURD'.
+2025-12-05 11:27:16,295 - WARNING - ⚠️ The Span MAHARAJ KHEDI TO T-POINT BILLODA KHURD is disconnected at this point (75.47459872700006, 22.51969082000005)
+2025-12-05 11:27:17,019 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'SULI BARDI TO MALIPURA'.
+2025-12-05 11:27:17,020 - WARNING - ⚠️ The Span SULI BARDI TO MALIPURA is disconnected at this point (75.39206853300004, 22.366605769000046)
+2025-12-05 11:27:17,198 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'T-POINT BANJARIPURA TO IMALIPURA'.
+2025-12-05 11:27:17,198 - WARNING - ⚠️ The Span T-POINT BANJARIPURA TO IMALIPURA is disconnected at this point (75.56578833000003, 22.481229703000054)
+2025-12-05 11:27:17,232 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'T-POINT BILLOD TO KUNVARSI'.
+2025-12-05 11:27:17,232 - WARNING - ⚠️ The Span T-POINT BILLOD TO KUNVARSI is disconnected at this point (75.52533742400004, 22.552153942000075)
+2025-12-05 11:27:17,453 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'T-POINT SARAY TO UMARPURA'.
+2025-12-05 11:27:17,453 - WARNING - ⚠️ The Span T-POINT SARAY TO UMARPURA is disconnected at this point (75.42618700000008, 22.395390000000077)
+2025-12-05 11:27:17,590 - INFO - Created 2,238 records
+2025-12-05 11:27:17,604 - INFO - Created 75 records
+2025-12-05 11:27:17,604 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-12-05 11:27:17,606 - INFO - Created 6 records
+2025-12-05 11:27:17,671 - INFO - 🔄 Found 9 rings: ['R1', 'R1-C1', 'R1-C2', 'R2', 'R2-C1', 'R4', 'R4-C1', 'R5', 'R5-C1']
+2025-12-05 11:27:17,671 - INFO - 
+🔁 Processing ring: R1
+2025-12-05 11:27:17,676 - INFO - ✅ Completed ring R1 with 10 spans.
+2025-12-05 11:27:17,676 - INFO - 
+🔁 Processing ring: R1-C1
+2025-12-05 11:27:17,679 - INFO - ✅ Completed ring R1-C1 with 4 spans.
+2025-12-05 11:27:17,679 - INFO - 
+🔁 Processing ring: R1-C2
+2025-12-05 11:27:17,688 - INFO - ✅ Completed ring R1-C2 with 11 spans.
+2025-12-05 11:27:17,688 - INFO - 
+🔁 Processing ring: R2
+2025-12-05 11:27:17,696 - INFO - ✅ Completed ring R2 with 9 spans.
+2025-12-05 11:27:17,696 - INFO - 
+🔁 Processing ring: R2-C1
+2025-12-05 11:27:17,699 - INFO - ✅ Completed ring R2-C1 with 3 spans.
+2025-12-05 11:27:17,700 - INFO - 
+🔁 Processing ring: R4
+2025-12-05 11:27:17,710 - INFO - ✅ Completed ring R4 with 10 spans.
+2025-12-05 11:27:17,710 - INFO - 
+🔁 Processing ring: R4-C1
+2025-12-05 11:27:17,713 - INFO - ✅ Completed ring R4-C1 with 2 spans.
+2025-12-05 11:27:17,713 - INFO - 
+🔁 Processing ring: R5
+2025-12-05 11:27:17,720 - INFO - ✅ Completed ring R5 with 6 spans.
+2025-12-05 11:27:17,720 - INFO - 
+🔁 Processing ring: R5-C1
+2025-12-05 11:27:17,723 - INFO - ✅ Completed ring R5-C1 with 1 spans.
+2025-12-05 11:27:17,806 - INFO - Created 2,238 records
+2025-12-05 11:27:17,814 - INFO - Created 75 records
+2025-12-05 11:27:17,814 - INFO - ✅ All rings processed. Span sequence updated and saved.

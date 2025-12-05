@@ -1,0 +1,346 @@
+[
+  {
+    "x": 75.40134505500004,
+    "y": 22.478960737000023,
+    "crs": "EPSG:4326",
+    "label": "Sharp_AALI TO TALAVADA_20_23",
+    "type": "sharp_edge",
+    "span": "AALI TO TALAVADA"
+  },
+  {
+    "x": 75.33431503500003,
+    "y": 22.428969572000028,
+    "crs": "EPSG:4326",
+    "label": "Sharp_AAMKHO TO KACHHAL_33_40",
+    "type": "sharp_edge",
+    "span": "AAMKHO TO KACHHAL"
+  },
+  {
+    "x": 75.54799811400005,
+    "y": 22.58821967800003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_ACHANA TO RAYAN_55_56",
+    "type": "sharp_edge",
+    "span": "ACHANA TO RAYAN"
+  },
+  {
+    "x": 75.54568521500005,
+    "y": 22.588660704000063,
+    "crs": "EPSG:4326",
+    "label": "Sharp_ACHANA TO RAYAN_60_61",
+    "type": "sharp_edge",
+    "span": "ACHANA TO RAYAN"
+  },
+  {
+    "x": 75.52045400000003,
+    "y": 22.571448000000032,
+    "crs": "EPSG:4326",
+    "label": "Sharp_ACHANA TO RAYAN_77_78",
+    "type": "sharp_edge",
+    "span": "ACHANA TO RAYAN"
+  },
+  {
+    "x": 75.58101200000004,
+    "y": 22.556486000000064,
+    "crs": "EPSG:4326",
+    "label": "Sharp_ASUKHEDI TO JALWAY_116_117",
+    "type": "sharp_edge",
+    "span": "ASUKHEDI TO JALWAY"
+  },
+  {
+    "x": 75.51467400000007,
+    "y": 22.629255000000057,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BAKSANA TO SULAVAD_243_248",
+    "type": "sharp_edge",
+    "span": "BAKSANA TO SULAVAD"
+  },
+  {
+    "x": 75.44363070400004,
+    "y": 22.455703232000076,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BHILKUNDA TO BAKANKHEDA_355_368",
+    "type": "sharp_edge",
+    "span": "BHILKUNDA TO BAKANKHEDA"
+  },
+  {
+    "x": 75.54655774900004,
+    "y": 22.51137196800005,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BILLOD TO NAIBARODA_384_387",
+    "type": "sharp_edge",
+    "span": "BILLOD TO NAIBARODA"
+  },
+  {
+    "x": 75.42153237000008,
+    "y": 22.457571676000043,
+    "crs": "EPSG:4326",
+    "label": "Sharp_BILLODA KHURD TO LUNHERA_414_417",
+    "type": "sharp_edge",
+    "span": "BILLODA KHURD TO LUNHERA"
+  },
+  {
+    "x": 75.57719922600006,
+    "y": 22.586957303000077,
+    "crs": "EPSG:4326",
+    "label": "Sharp_CHANDAN KHEDI TO KHANDWA_517_525",
+    "type": "sharp_edge",
+    "span": "CHANDAN KHEDI TO KHANDWA"
+  },
+  {
+    "x": 75.49751418700004,
+    "y": 22.480931532000056,
+    "crs": "EPSG:4326",
+    "label": "Sharp_CHORBAWADIPURA TO KURADIYA_540_621",
+    "type": "sharp_edge",
+    "span": "CHORBAWADIPURA TO KURADIYA"
+  },
+  {
+    "x": 75.42187811600007,
+    "y": 22.45663010100003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_CHORBAWADIPURA TO KURADIYA_585_590",
+    "type": "sharp_edge",
+    "span": "CHORBAWADIPURA TO KURADIYA"
+  },
+  {
+    "x": 75.37166611600003,
+    "y": 22.471910267000055,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DHUKANIMAFI TO MEGHAPUR_623_629",
+    "type": "sharp_edge",
+    "span": "DHUKANIMAFI TO MEGHAPUR"
+  },
+  {
+    "x": 75.45788841900008,
+    "y": 22.550006018000033,
+    "crs": "EPSG:4326",
+    "label": "Sharp_DIGLAY TO RATWA_653_654",
+    "type": "sharp_edge",
+    "span": "DIGLAY TO RATWA"
+  },
+  {
+    "x": 75.43979890700007,
+    "y": 22.546266952000053,
+    "crs": "EPSG:4326",
+    "label": "Sharp_GULVA TO DIGLAY_744_754",
+    "type": "sharp_edge",
+    "span": "GULVA TO DIGLAY"
+  },
+  {
+    "x": 75.43652875500004,
+    "y": 22.54552303500003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_GULVA TO DIGLAY_764_765",
+    "type": "sharp_edge",
+    "span": "GULVA TO DIGLAY"
+  },
+  {
+    "x": 75.51660161500007,
+    "y": 22.40995073700003,
+    "crs": "EPSG:4326",
+    "label": "Sharp_IMALIPURA TO MEWAS JAMNIYA_808_822",
+    "type": "sharp_edge",
+    "span": "IMALIPURA TO MEWAS JAMNIYA"
+  },
+  {
+    "x": 75.54500689100007,
+    "y": 22.400303158000042,
+    "crs": "EPSG:4326",
+    "label": "Sharp_IMALIPURA TO MEWAS JAMNIYA_820_821",
+    "type": "sharp_edge",
+    "span": "IMALIPURA TO MEWAS JAMNIYA"
+  },
+  {
+    "x": 75.40867571000007,
+    "y": 22.449655504000077,
+    "crs": "EPSG:4326",
+    "label": "Sharp_JIRAPURA TO AALI_898_899",
+    "type": "sharp_edge",
+    "span": "JIRAPURA TO AALI"
+  },
+  {
+    "x": 75.40668306300006,
+    "y": 22.417194881000057,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KAKALPURA TO NALCHHA OLT_963_969",
+    "type": "sharp_edge",
+    "span": "KAKALPURA TO NALCHHA OLT"
+  },
+  {
+    "x": 75.39244400000007,
+    "y": 22.42564200000004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KAKALPURA TO NALCHHA OLT_971_972",
+    "type": "sharp_edge",
+    "span": "KAKALPURA TO NALCHHA OLT"
+  },
+  {
+    "x": 75.43235617200008,
+    "y": 22.519741716000055,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KATHODIYA TO GULVA_1017_1022",
+    "type": "sharp_edge",
+    "span": "KATHODIYA TO GULVA"
+  },
+  {
+    "x": 75.64851413000008,
+    "y": 22.565948436000042,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KHANDWA TO ASUKHEDI_1027_1028",
+    "type": "sharp_edge",
+    "span": "KHANDWA TO ASUKHEDI"
+  },
+  {
+    "x": 75.37112089900006,
+    "y": 22.405225506000022,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KOTHI SODPUR TO SODPUR_1061_1063",
+    "type": "sharp_edge",
+    "span": "KOTHI SODPUR TO SODPUR"
+  },
+  {
+    "x": 75.37490367400005,
+    "y": 22.395626269000047,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KOTHI SODPUR TO SODPUR_1069_1078",
+    "type": "sharp_edge",
+    "span": "KOTHI SODPUR TO SODPUR"
+  },
+  {
+    "x": 75.40986825600004,
+    "y": 22.416724816000055,
+    "crs": "EPSG:4326",
+    "label": "Sharp_KURADIYA TO NALCHHA OLT_1116_1124",
+    "type": "sharp_edge",
+    "span": "KURADIYA TO NALCHHA OLT"
+  },
+  {
+    "x": 75.40987424600007,
+    "y": 22.41672102700005,
+    "crs": "EPSG:4326",
+    "label": "Sharp_LUNHERA TO NALCHHA OLT_1144_1192",
+    "type": "sharp_edge",
+    "span": "LUNHERA TO NALCHHA OLT"
+  },
+  {
+    "x": 75.49798008900007,
+    "y": 22.54328636300005,
+    "crs": "EPSG:4326",
+    "label": "Sharp_MAHARAJ KHEDI TO T-POINT BILLODA KHURD_1200_1202",
+    "type": "sharp_edge",
+    "span": "MAHARAJ KHEDI TO T-POINT BILLODA KHURD"
+  },
+  {
+    "x": 75.39060694200003,
+    "y": 22.38875471600005,
+    "crs": "EPSG:4326",
+    "label": "Sharp_PANALA TO KOTHI SODPUR_1534_1537",
+    "type": "sharp_edge",
+    "span": "PANALA TO KOTHI SODPUR"
+  },
+  {
+    "x": 75.45788036900007,
+    "y": 22.54976995900006,
+    "crs": "EPSG:4326",
+    "label": "Sharp_RATWA TO BILLODA KHURD_1592_1593",
+    "type": "sharp_edge",
+    "span": "RATWA TO BILLODA KHURD"
+  },
+  {
+    "x": 75.46188939600006,
+    "y": 22.549050064000028,
+    "crs": "EPSG:4326",
+    "label": "Sharp_RATWA TO BILLODA KHURD_1596_1597",
+    "type": "sharp_edge",
+    "span": "RATWA TO BILLODA KHURD"
+  },
+  {
+    "x": 75.49803102900006,
+    "y": 22.543289079000033,
+    "crs": "EPSG:4326",
+    "label": "Sharp_RAYAN TO MAHARAJ KHEDI_1615_1616",
+    "type": "sharp_edge",
+    "span": "RAYAN TO MAHARAJ KHEDI"
+  },
+  {
+    "x": 75.49146416300005,
+    "y": 22.506795261000036,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SAGADI TO SILOTIYA_1621_1622",
+    "type": "sharp_edge",
+    "span": "SAGADI TO SILOTIYA"
+  },
+  {
+    "x": 75.49066455200006,
+    "y": 22.49700275500004,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SAGADI TO SILOTIYA_1635_1638",
+    "type": "sharp_edge",
+    "span": "SAGADI TO SILOTIYA"
+  },
+  {
+    "x": 75.44330968000008,
+    "y": 22.438307853000026,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SARAY TO NALCHHA OLT_1683_1686",
+    "type": "sharp_edge",
+    "span": "SARAY TO NALCHHA OLT"
+  },
+  {
+    "x": 75.48942665100003,
+    "y": 22.41699801900006,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SARAY TO NALCHHA OLT_1700_1701",
+    "type": "sharp_edge",
+    "span": "SARAY TO NALCHHA OLT"
+  },
+  {
+    "x": 75.37426923600003,
+    "y": 22.448544345000073,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SHIKHARPURA TO DHUKANIMAFI_1727_1748",
+    "type": "sharp_edge",
+    "span": "SHIKHARPURA TO DHUKANIMAFI"
+  },
+  {
+    "x": 75.39584414100005,
+    "y": 22.362046433000046,
+    "crs": "EPSG:4326",
+    "label": "Sharp_SULI BARDI TO MALIPURA_1809_1816",
+    "type": "sharp_edge",
+    "span": "SULI BARDI TO MALIPURA"
+  },
+  {
+    "x": 75.39139631800003,
+    "y": 22.483708867000075,
+    "crs": "EPSG:4326",
+    "label": "Sharp_T-POINT AALI TO MIYAPUR_1825_1834",
+    "type": "sharp_edge",
+    "span": "T-POINT AALI TO MIYAPUR"
+  },
+  {
+    "x": 75.56479328300003,
+    "y": 22.550816698000062,
+    "crs": "EPSG:4326",
+    "label": "Sharp_T-POINT BILLOD TO KUNVARSI_1962_1963",
+    "type": "sharp_edge",
+    "span": "T-POINT BILLOD TO KUNVARSI"
+  },
+  {
+    "x": 75.46150356900006,
+    "y": 22.575909762000038,
+    "crs": "EPSG:4326",
+    "label": "Sharp_T-POINT RATWA TO UJJAINI_2139_2142",
+    "type": "sharp_edge",
+    "span": "T-POINT RATWA TO UJJAINI"
+  },
+  {
+    "x": 75.46264806600004,
+    "y": 22.553622051000048,
+    "crs": "EPSG:4326",
+    "label": "Sharp_T-POINT RATWA TO UJJAINI_2145_2146",
+    "type": "sharp_edge",
+    "span": "T-POINT RATWA TO UJJAINI"
+  }
+]
