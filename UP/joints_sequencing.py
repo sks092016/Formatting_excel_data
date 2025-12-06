@@ -25,7 +25,7 @@ import os
 # ----------------------------------------------------------
 
 POINTS_FP = "References/input/joints.shp"          # your point file
-LINES_FP  = "References/input/ofc_cs.shp"          # your line file
+LINES_FP  = "References/input/ofc_rings.shp"          # your line file
 
 POINT_RING_FIELD = "ring_2"       # ring field in point layer
 LINE_RING_FIELD  = "ring"         # ring field in line layer
@@ -104,6 +104,7 @@ def main():
         for idx in pts_subset_idx:
             p = pts.loc[idx].geometry
             d = merged_line.project(p)
+
             distances.append((idx, d))
 
         # Sort the index list by distance
