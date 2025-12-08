@@ -1,0 +1,26 @@
+2025-12-08 23:56:05,253 - INFO - Created 829 records
+2025-12-08 23:56:05,262 - INFO - Created 56 records
+2025-12-08 23:56:05,262 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-12-08 23:56:05,266 - INFO - Created 0 records
+2025-12-08 23:56:05,293 - INFO - 🔄 Found 6 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R2-C2', 'R3']
+2025-12-08 23:56:05,293 - INFO - 
+🔁 Processing ring: R1
+2025-12-08 23:56:05,298 - INFO - ✅ Completed ring R1 with 9 spans.
+2025-12-08 23:56:05,298 - INFO - 
+🔁 Processing ring: R1-C1
+2025-12-08 23:56:05,300 - INFO - ✅ Completed ring R1-C1 with 4 spans.
+2025-12-08 23:56:05,300 - INFO - 
+🔁 Processing ring: R2
+2025-12-08 23:56:05,304 - INFO - ✅ Completed ring R2 with 5 spans.
+2025-12-08 23:56:05,304 - INFO - 
+🔁 Processing ring: R2-C1
+2025-12-08 23:56:05,307 - INFO - ✅ Completed ring R2-C1 with 7 spans.
+2025-12-08 23:56:05,307 - INFO - 
+🔁 Processing ring: R2-C2
+2025-12-08 23:56:05,309 - INFO - ✅ Completed ring R2-C2 with 5 spans.
+2025-12-08 23:56:05,309 - INFO - 
+🔁 Processing ring: R3
+2025-12-08 23:56:05,314 - INFO - ✅ Completed ring R3 with 11 spans.
+2025-12-08 23:56:05,339 - INFO - Created 829 records
+2025-12-08 23:56:05,347 - INFO - Created 56 records
+2025-12-08 23:56:05,347 - INFO - ✅ All rings processed. Span sequence updated and saved.
