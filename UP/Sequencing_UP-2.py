@@ -91,6 +91,7 @@ def main():
                 )[0]
 
                 start_pos = [x[0] for x in projected].index(nearest_idx)
+                print(start_pos)
                 if ring == "C06.1":
                     print(start_pos)
                 projected = projected[start_pos:] + projected[:start_pos]

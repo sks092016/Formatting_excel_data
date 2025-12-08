@@ -1,0 +1,44 @@
+2025-11-27 14:29:08,516 - INFO - Created 2,331 records
+2025-11-27 14:29:08,527 - INFO - Created 95 records
+2025-11-27 14:29:08,528 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-11-27 14:29:08,553 - INFO - Created 0 records
+2025-11-27 14:29:08,712 - INFO - \U0001f504 Found 12 rings: ['R1', 'R1-C1', 'R2', 'R2-C1', 'R3', 'R3-C1', 'R3-C2', 'R4', 'R4-C1', 'R5', 'R5-C1', 'R6']
+2025-11-27 14:29:08,712 - INFO - 
+\U0001f501 Processing ring: R1
+2025-11-27 14:29:08,721 - INFO - \u2705 Completed ring R1 with 10 spans.
+2025-11-27 14:29:08,722 - INFO - 
+\U0001f501 Processing ring: R1-C1
+2025-11-27 14:29:08,728 - INFO - \u2705 Completed ring R1-C1 with 7 spans.
+2025-11-27 14:29:08,728 - INFO - 
+\U0001f501 Processing ring: R2
+2025-11-27 14:29:08,737 - INFO - \u2705 Completed ring R2 with 9 spans.
+2025-11-27 14:29:08,737 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-11-27 14:29:08,742 - INFO - \u2705 Completed ring R2-C1 with 4 spans.
+2025-11-27 14:29:08,742 - INFO - 
+\U0001f501 Processing ring: R3
+2025-11-27 14:29:08,754 - INFO - \u2705 Completed ring R3 with 11 spans.
+2025-11-27 14:29:08,754 - INFO - 
+\U0001f501 Processing ring: R3-C1
+2025-11-27 14:29:08,764 - INFO - \u2705 Completed ring R3-C1 with 8 spans.
+2025-11-27 14:29:08,764 - INFO - 
+\U0001f501 Processing ring: R3-C2
+2025-11-27 14:29:08,770 - INFO - \u2705 Completed ring R3-C2 with 4 spans.
+2025-11-27 14:29:08,770 - INFO - 
+\U0001f501 Processing ring: R4
+2025-11-27 14:29:08,782 - INFO - \u2705 Completed ring R4 with 11 spans.
+2025-11-27 14:29:08,782 - INFO - 
+\U0001f501 Processing ring: R4-C1
+2025-11-27 14:29:08,790 - INFO - \u2705 Completed ring R4-C1 with 9 spans.
+2025-11-27 14:29:08,790 - INFO - 
+\U0001f501 Processing ring: R5
+2025-11-27 14:29:08,800 - INFO - \u2705 Completed ring R5 with 9 spans.
+2025-11-27 14:29:08,800 - INFO - 
+\U0001f501 Processing ring: R5-C1
+2025-11-27 14:29:08,805 - INFO - \u2705 Completed ring R5-C1 with 4 spans.
+2025-11-27 14:29:08,805 - INFO - 
+\U0001f501 Processing ring: R6
+2025-11-27 14:29:08,815 - INFO - \u2705 Completed ring R6 with 7 spans.
+2025-11-27 14:29:08,960 - INFO - Created 2,331 records
+2025-11-27 14:29:08,977 - INFO - Created 95 records
+2025-11-27 14:29:08,978 - INFO - \u2705 All rings processed. Span sequence updated and saved.

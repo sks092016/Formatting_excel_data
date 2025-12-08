@@ -32,7 +32,7 @@ import numpy as np
 
 POINTS_FILE = "References/input/joints.shp"
 LINES_FILE  = "References/input/ofc_rings.shp"
-OUTPUT_FILE = "sequenced_output.shp"
+OUTPUT_FILE = "sequenced_output-4.shp"
 
 # tolerance for distance (meters)
 DIST_TOLERANCE = 8.0
@@ -50,6 +50,9 @@ START_POINTS = {
     "C05.1": [(81.93172211,27.48183326)],
     "C06.1": [(81.86725713,27.44332136)],
 }
+MULTI_LINE = {
+    "R05": Point(81.90167876,27.36530648)
+}
 
 # Field names
 RING_FIELD_POINTS = "ring_2"   # field in point layer
@@ -59,15 +62,65 @@ SEQ_FIELD = "seq"
 # ---------------------------------------------------------------------
 # UTILITIES
 # ---------------------------------------------------------------------
+def endpoint_distance(line: LineString, point: Point):
+    """Compute minimum distance between line endpoints and a point."""
+    p0, p1 = Point(line.coords[0]), Point(line.coords[-1])
+    return min(p0.distance(point), p1.distance(point))
 
-def merge_lines_geoms(geoms):
+
+def reorder_and_merge_shapely(multiline: MultiLineString, guide_point):
+    """
+    multiline: Shapely MultiLineString
+    guide_points: list of Shapely Points (2 or more)
+
+    Returns: Ordered, direction-corrected LINESTRING
+    """
+
+    # Extract individual LineStrings
+    parts = list(multiline.geoms)
+
+    # 1. Sort parts based on proximity to guide points
+    parts_sorted = sorted(
+        parts,
+        key=lambda seg: seg.distance(guide_point)
+    )
+
+    # 2. Start with the first segment
+    d1 = Point(parts_sorted[0].coords[0]).distance(guide_point)
+    d2 = Point(parts_sorted[0].coords[-1]).distance(guide_point)
+
+    if d1 < d2 :
+        parts_sorted[0] = parts_sorted[0].coords[::-1]
+
+    final_coords = list(LineString(parts_sorted[0]).coords)
+    last_point = Point(final_coords[-1])
+
+    # 3. For each next segment, connect intelligently
+    for seg in parts_sorted[1:]:
+        start_pt = Point(seg.coords[0])
+        end_pt = Point(seg.coords[-1])
+
+        # Compare distances to determine correct direction
+        d_start = last_point.distance(start_pt)
+        d_end = last_point.distance(end_pt)
+
+        if d_end < d_start:
+            seg = LineString(seg.coords[::-1])  # reverse
+
+        # Merge coordinates, avoiding duplication
+        final_coords.extend(seg.coords[1:])
+        last_point = Point(final_coords[-1])
+
+    # Return as LINESTRING
+    return LineString(final_coords)
+
+def merge_lines_geoms(geoms, ring_id):
     """Safely merge multiple LineStrings or MultiLineStrings into a single LineString."""
     merged = linemerge(list(geoms))
 
     # If merged gives MultiLineString (disconnected), choose the longest
     if isinstance(merged, shapely.geometry.MultiLineString):
-        longest = max(list(merged), key=lambda l: l.length)
-        return longest
+        merged = reorder_and_merge_shapely(merged,MULTI_LINE[ring_id])
     return merged
 
 
@@ -79,8 +132,10 @@ def orient_line_by_startpoint(line, start_points):
     sp = Point(start_points[0])
 
     d1 = sp.distance(Point(line.coords[0]))
+    print(Point(line.coords[0]))
     d2 = sp.distance(Point(line.coords[-1]))
-
+    print(Point(line.coords[-1]))
+    print(d1, d2)
     if d2 < d1:
         # Reverse line
         return LineString(list(line.coords)[::-1])
@@ -120,14 +175,13 @@ def sequence_ring(points_gdf, lines_gdf, ring_id):
         return pts
 
     # 1. Merge line segments
-    merged_line = merge_lines_geoms(ls.geometry)
-    print(merged_line)
+    merged_line = merge_lines_geoms(ls.geometry,ring_id)
     # 2. Re-orient toward FIRST start point
     start_pts = START_POINTS.get(ring_id, [])
     merged_line = orient_line_by_startpoint(merged_line, start_pts)
 
     # 3. Force clockwise direction
-    merged_line = force_clockwise(merged_line)
+    # merged_line = force_clockwise(merged_line)
 
     # 4. Compute projections
     projections = []
@@ -145,11 +199,11 @@ def sequence_ring(points_gdf, lines_gdf, ring_id):
             # Save separately — sorted later
             far_points.append((idx, proj_dist, off_dist))
         else:
-            projections.append((idx, proj_dist))
+            projections.append((idx, proj_dist, row.OBJECTID))
 
     # 5. Sort near-line points by projected distance
     projections.sort(key=lambda x: x[1])
-
+    print(projections)
     # 6. Sort far points by projected distance (but appended last)
     far_points.sort(key=lambda x: x[1])
 
@@ -162,28 +216,30 @@ def sequence_ring(points_gdf, lines_gdf, ring_id):
 
         for sp in start_point_objs:
             closest_idx = min(pts.index, key=lambda i: pts.loc[i].geometry.distance(sp))
-            if closest_idx in [x for x, _ in projections]:  # must be a near-line point
+            if closest_idx in [x for x, _, _ in projections]:  # must be a near-line point
                 if closest_idx not in ordered_ids:
                     ordered_ids.append(closest_idx)
 
+        start_pos = [x[0] for x in projections].index(closest_idx)
+        projections = projections[start_pos:] + projections[:start_pos]
         # Move start indices to front of projections in correct given order
-        new_proj = []
-        for sid in ordered_ids:
-            for x in projections:
-                if x[0] == sid:
-                    new_proj.append(x)
-
-        # add all remaining
-        for x in projections:
-            if x[0] not in ordered_ids:
-                new_proj.append(x)
-
-        projections = new_proj
+        # new_proj = []
+        # for sid in ordered_ids:
+        #     for x in projections:
+        #         if x[0] == sid:
+        #             new_proj.append(x)
+        #
+        # # add all remaining
+        # for x in projections:
+        #     if x[0] not in ordered_ids:
+        #         new_proj.append(x)
+        #
+        # projections = new_proj
 
     # 8. Assign sequence
     seq_num = 1
 
-    for idx, dist in projections:
+    for idx, dist, _ in projections:
         pts.at[idx, SEQ_FIELD] = seq_num
         seq_num += 1
 
