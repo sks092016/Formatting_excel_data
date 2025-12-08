@@ -1,13 +1,14 @@
 from qgis.core import QgsProject, edit
 
 # --- SETTINGS ---
-layer_name = "OFC_NEW"  # Name of the layer in QGIS
-check_field = "span_name"
-update_field = "span_name"
+layer_name = "OFC_New_Sasner-1_Seg_Span_Seq"  # Name of the layer in QGIS
+check_field = "ofc_laying"
+update_field = "ofc_laying"
 
 
 replacement_map = {
-'T-POINT SARAY TO UMARPURA':'T-POINT NALCHA TO UMARPURA'
+'Brown feild data':'Brown Field Data',
+'Brown Feild data':'Brown Field Data'
 }
 count = 0
 
