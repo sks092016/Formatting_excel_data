@@ -222,19 +222,6 @@ def sequence_ring(points_gdf, lines_gdf, ring_id):
 
         start_pos = [x[0] for x in projections].index(closest_idx)
         projections = projections[start_pos:] + projections[:start_pos]
-        # Move start indices to front of projections in correct given order
-        # new_proj = []
-        # for sid in ordered_ids:
-        #     for x in projections:
-        #         if x[0] == sid:
-        #             new_proj.append(x)
-        #
-        # # add all remaining
-        # for x in projections:
-        #     if x[0] not in ordered_ids:
-        #         new_proj.append(x)
-        #
-        # projections = new_proj
 
     # 8. Assign sequence
     seq_num = 1
