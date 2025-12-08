@@ -32,7 +32,7 @@ import numpy as np
 
 POINTS_FILE = "References/input/joints.shp"
 LINES_FILE  = "References/input/ofc_rings.shp"
-OUTPUT_FILE = "sequenced_output-4.shp"
+OUTPUT_FILE = "sequenced_output-5.shp"
 
 # tolerance for distance (meters)
 DIST_TOLERANCE = 8.0
@@ -162,7 +162,7 @@ def force_clockwise(line):
 # MAIN SEQUENCING LOGIC
 # ---------------------------------------------------------------------
 
-def sequence_ring(points_gdf, lines_gdf, ring_id):
+def sequence_ring(points_gdf, lines_gdf, ring_id, seq_num):
     """Sequence all points of one ring."""
 
     pts = points_gdf[points_gdf[RING_FIELD_POINTS] == ring_id].copy()
@@ -224,7 +224,6 @@ def sequence_ring(points_gdf, lines_gdf, ring_id):
         projections = projections[start_pos:] + projections[:start_pos]
 
     # 8. Assign sequence
-    seq_num = 1
 
     for idx, dist, _ in projections:
         pts.at[idx, SEQ_FIELD] = seq_num
@@ -235,7 +234,7 @@ def sequence_ring(points_gdf, lines_gdf, ring_id):
         pts.at[idx, SEQ_FIELD] = seq_num
         seq_num += 1
 
-    return pts
+    return pts, seq_num
 
 
 # ---------------------------------------------------------------------
@@ -254,13 +253,13 @@ def main():
 
     # output
     out = []
-
+    seq_num = 1
     # unique rings
     rings = sorted(pts[RING_FIELD_POINTS].dropna().unique())
-
+    rings = ['R01', 'R02', 'R03', 'R04', 'R05','C05.1','R06','C06.1']
     for r in rings:
         print(f"\nProcessing ring {r} ...")
-        res = sequence_ring(pts, ls, r)
+        res, seq_num = sequence_ring(pts, ls, r, seq_num)
         out.append(res)
 
     final = gpd.GeoDataFrame(pd.concat(out), crs=pts.crs)
