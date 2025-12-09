@@ -1,0 +1,55 @@
+2025-12-09 17:12:22,778 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'DHARAKHEDI TO MULLAKHEDI'.
+2025-12-09 17:12:22,779 - WARNING - \u26a0\ufe0f The Span DHARAKHEDI TO MULLAKHEDI is disconnected at this point (76.30380600900008, 23.370756131000064)
+2025-12-09 17:12:23,628 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (76.50036072400007, 23.281025579000072) & ending at (76.50041914500008, 23.281027578000078)
+2025-12-09 17:12:23,630 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (76.50036072400007, 23.281025579000072) & ending at (76.50041914500008, 23.281027578000078)
+2025-12-09 17:12:23,638 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'MAKODI TO SAKHEDI'.
+2025-12-09 17:12:23,638 - WARNING - \u26a0\ufe0f The Span MAKODI TO SAKHEDI is disconnected at this point (76.50364211000004, 23.28112825200003)
+2025-12-09 17:12:24,381 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'RIGNIKHEDA - SHAJAPUR BLOCK'.
+2025-12-09 17:12:24,382 - WARNING - \u26a0\ufe0f The Span RIGNIKHEDA - SHAJAPUR BLOCK is disconnected at this point (76.35908797200005, 23.37541210300003)
+2025-12-09 17:12:24,447 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'RIGNIKHEDA TO SHAJAPUR BLOCK'.
+2025-12-09 17:12:24,447 - WARNING - \u26a0\ufe0f The Span RIGNIKHEDA TO SHAJAPUR BLOCK is disconnected at this point (76.35976834600007, 23.375512281000056)
+2025-12-09 17:12:25,271 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'SHAJAPUR BLOCK TO BAMORI'.
+2025-12-09 17:12:25,272 - WARNING - \u26a0\ufe0f The Span SHAJAPUR BLOCK TO BAMORI is disconnected at this point (76.35477990000004, 23.428386300000057)
+2025-12-09 17:12:26,187 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'T-POINT PADLI TO CHOSLA MUSLMAN'.
+2025-12-09 17:12:26,188 - WARNING - \u26a0\ufe0f The Span T-POINT PADLI TO CHOSLA MUSLMAN is disconnected at this point (76.43541359900007, 23.340548053000077)
+2025-12-09 17:12:26,699 - INFO - Created 2,367 records
+2025-12-09 17:12:26,709 - INFO - Created 105 records
+2025-12-09 17:12:26,710 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-12-09 17:12:26,714 - INFO - Created 6 records
+2025-12-09 17:12:26,880 - INFO - \U0001f504 Found 11 rings: ['R1', 'R2', 'R2-C1', 'R3', 'R4', 'R4-C1', 'R5', 'R6', 'R6-C1', 'R7', 'R7-C1']
+2025-12-09 17:12:26,880 - INFO - 
+\U0001f501 Processing ring: R1
+2025-12-09 17:12:26,884 - INFO - \u2705 Completed ring R1 with 3 spans.
+2025-12-09 17:12:26,884 - INFO - 
+\U0001f501 Processing ring: R2
+2025-12-09 17:12:26,891 - INFO - \u2705 Completed ring R2 with 8 spans.
+2025-12-09 17:12:26,891 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-12-09 17:12:26,897 - INFO - \u2705 Completed ring R2-C1 with 7 spans.
+2025-12-09 17:12:26,897 - INFO - 
+\U0001f501 Processing ring: R3
+2025-12-09 17:12:26,903 - INFO - \u2705 Completed ring R3 with 8 spans.
+2025-12-09 17:12:26,903 - INFO - 
+\U0001f501 Processing ring: R4
+2025-12-09 17:12:26,910 - INFO - \u2705 Completed ring R4 with 5 spans.
+2025-12-09 17:12:26,910 - INFO - 
+\U0001f501 Processing ring: R4-C1
+2025-12-09 17:12:26,918 - INFO - \u2705 Completed ring R4-C1 with 8 spans.
+2025-12-09 17:12:26,919 - INFO - 
+\U0001f501 Processing ring: R5
+2025-12-09 17:12:26,929 - INFO - \u2705 Completed ring R5 with 9 spans.
+2025-12-09 17:12:26,929 - INFO - 
+\U0001f501 Processing ring: R6
+2025-12-09 17:12:26,939 - INFO - \u2705 Completed ring R6 with 9 spans.
+2025-12-09 17:12:26,939 - INFO - 
+\U0001f501 Processing ring: R6-C1
+2025-12-09 17:12:26,949 - INFO - \u2705 Completed ring R6-C1 with 8 spans.
+2025-12-09 17:12:26,949 - INFO - 
+\U0001f501 Processing ring: R7
+2025-12-09 17:12:26,962 - INFO - \u2705 Completed ring R7 with 11 spans.
+2025-12-09 17:12:26,962 - INFO - 
+\U0001f501 Processing ring: R7-C1
+2025-12-09 17:12:26,969 - INFO - \u2705 Completed ring R7-C1 with 4 spans.
+2025-12-09 17:12:27,128 - INFO - Created 2,367 records
+2025-12-09 17:12:27,142 - INFO - Created 105 records
+2025-12-09 17:12:27,143 - INFO - \u2705 All rings processed. Span sequence updated and saved.

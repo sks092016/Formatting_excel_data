@@ -1,0 +1,12 @@
+2025-12-09 17:09:35,216 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BERCHA TO T-POINT MALIKHEDI'.
+2025-12-09 17:09:35,216 - WARNING - \u26a0\ufe0f The Span BERCHA TO T-POINT MALIKHEDI is disconnected at this point (76.33263803800008, 23.287990698000044)
+2025-12-09 17:09:35,486 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'DHARAKHEDI TO MULLAKHEDI'.
+2025-12-09 17:09:35,486 - WARNING - \u26a0\ufe0f The Span DHARAKHEDI TO MULLAKHEDI is disconnected at this point (76.30380600900008, 23.370756131000064)
+2025-12-09 17:09:36,337 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (76.50036072400007, 23.281025579000072) & ending at (76.50041914500008, 23.281027578000078)
+2025-12-09 17:09:36,339 - WARNING -  \u26a0\ufe0f The Geometry is multiline string starting at (76.50036072400007, 23.281025579000072) & ending at (76.50041914500008, 23.281027578000078)
+2025-12-09 17:09:36,349 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'MAKODI TO SAKHEDI'.
+2025-12-09 17:09:36,349 - WARNING - \u26a0\ufe0f The Span MAKODI TO SAKHEDI is disconnected at this point (76.50364211000004, 23.28112825200003)
+2025-12-09 17:09:37,093 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'RIGNIKHEDA - SHAJAPUR BLOCK'.
+2025-12-09 17:09:37,093 - WARNING - \u26a0\ufe0f The Span RIGNIKHEDA - SHAJAPUR BLOCK is disconnected at this point (76.35908797200005, 23.37541210300003)
+2025-12-09 17:09:37,157 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'RIGNIKHEDA TO SHAJAPUR BLOCK'.
+2025-12-09 17:09:37,157 - WARNING - \u26a0\ufe0f The Span RIGNIKHEDA TO SHAJAPUR BLOCK is disconnected at this point (76.35976834600007, 23.375512281000056)
