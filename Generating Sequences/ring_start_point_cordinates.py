@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Shajapur"
+blockName = "Karhal"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,36 +32,31 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Shajapur/gps.shp"
-segments_shape_file = "References/Shajapur/OFC_NEW-2.shp"
+gps_shape_file = "References/Karhal/gps.shp"
+segments_shape_file = "References/Karhal/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '76.26797878 23.41551490'
+BHQ_CORDINATE = '77.06058091 25.49686555'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
-    'R4': BHQ_CORDINATE,
-    'R5': BHQ_CORDINATE,
-    'R6': BHQ_CORDINATE,
-    'R7': BHQ_CORDINATE,
-    'R2-C1':'76.26749650 23.30146720',
-    'R4-C1':'76.29744069 23.48364316',
-    'R6-C1':'76.35351007 23.29582615',
-    'R7-C1':'76.42179000 23.32000000',
+    'R2-C1':'77.06015600 25.61104490',
+    'R3-C1':'76.77987160 25.49833810',
 }
 t_point_ring_spans = {
-'T-POINT ALLAUMRODE':(76.31520580,23.38489040),
-'T-POINT BARDIYAGUJAR':(76.41341740,23.23424350),
-'T-POINT BARDIYASON':(76.24408129,23.25589235),
-'T-POINT BHADONI':(76.22693536,23.45045724),
-'T-POINT CHOSLAKULMI':(76.26749650,23.30146720),
-'T-POINT HIRPURBAJJA':(76.29744069,23.48364316),
-'T-POINT PADLI':(76.42360842,23.33737352),
-'T-POINT RANTHBHAWAR':(76.35351007,23.29582615),
-'T-POINT RICHODA':(76.40250283,23.42202122),
-'T-POINT SUNDARSI':(76.44109524,23.27075493),
+'T-POINT BANDHALI':(76.76944158,25.52903186),
+'T-POINT BARDHAKHURD':(76.77987160,25.49833810),
+'T-POINT DHONDPUR':(76.74173167,25.57522201),
+'T-POINT GADLA':(76.99422956,25.70686005),
+'T-POINT JAKHDA':(77.06015600,25.61104490),
+'T-POINT JHIRINYA':(76.86753720,25.37628000),
+'T-POINT KARIYADEH':(77.01794976,25.32525169),
+'T-POINT LEHRONI':(77.10595355,25.52091551),
+'T-POINT PAHELA':(76.88295910,25.42306891),
+'T-POINT PIPRANI':(76.99422956,25.70686005),
+'T-POINT SESAIPURA':(77.17382826,25.54035444),
 }

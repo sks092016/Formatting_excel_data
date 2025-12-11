@@ -1,0 +1,27 @@
+2025-12-11 23:23:07,045 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-11 23:23:07,046 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-11 23:23:07,050 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'T-POINT JAKHDA TO GOTHARA'.
+2025-12-11 23:23:07,050 - WARNING - ⚠️ The Span T-POINT JAKHDA TO GOTHARA is disconnected at this point (77.06015600000006, 25.611044900000024)
+2025-12-11 23:23:07,217 - INFO - Created 471 records
+2025-12-11 23:23:07,221 - INFO - Created 48 records
+2025-12-11 23:23:07,222 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-12-11 23:23:07,223 - INFO - Created 1 records
+2025-12-11 23:23:07,241 - INFO - 🔄 Found 5 rings: ['R1', 'R2', 'R2-C1', 'R3', 'R3-C1']
+2025-12-11 23:23:07,241 - INFO - 
+🔁 Processing ring: R1
+2025-12-11 23:23:07,246 - INFO - ✅ Completed ring R1 with 8 spans.
+2025-12-11 23:23:07,246 - INFO - 
+🔁 Processing ring: R2
+2025-12-11 23:23:07,250 - INFO - ✅ Completed ring R2 with 8 spans.
+2025-12-11 23:23:07,250 - INFO - 
+🔁 Processing ring: R2-C1
+2025-12-11 23:23:07,251 - INFO - ✅ Completed ring R2-C1 with 0 spans.
+2025-12-11 23:23:07,251 - INFO - 
+🔁 Processing ring: R3
+2025-12-11 23:23:07,255 - INFO - ✅ Completed ring R3 with 9 spans.
+2025-12-11 23:23:07,255 - INFO - 
+🔁 Processing ring: R3-C1
+2025-12-11 23:23:07,256 - INFO - ✅ Completed ring R3-C1 with 0 spans.
+2025-12-11 23:23:07,272 - INFO - Created 471 records
+2025-12-11 23:23:07,279 - INFO - Created 48 records
+2025-12-11 23:23:07,279 - INFO - ✅ All rings processed. Span sequence updated and saved.

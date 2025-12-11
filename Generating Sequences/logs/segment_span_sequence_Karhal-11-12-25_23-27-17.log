@@ -1,0 +1,2 @@
+2025-12-11 23:27:19,191 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-11 23:27:19,192 - ERROR - ❌ Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>

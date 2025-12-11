@@ -1,0 +1,25 @@
+2025-12-11 23:30:04,938 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'T-POINT KARIYADEH TO LUHARI'.
+2025-12-11 23:30:04,938 - WARNING - ⚠️ The Span T-POINT KARIYADEH TO LUHARI is disconnected at this point (76.94646982500007, 25.320192270000064)
+2025-12-11 23:30:05,047 - INFO - Created 470 records
+2025-12-11 23:30:05,055 - INFO - Created 48 records
+2025-12-11 23:30:05,055 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-12-11 23:30:05,058 - INFO - Created 1 records
+2025-12-11 23:30:05,077 - INFO - 🔄 Found 5 rings: ['R1', 'R2', 'R2-C1', 'R3', 'R3-C1']
+2025-12-11 23:30:05,077 - INFO - 
+🔁 Processing ring: R1
+2025-12-11 23:30:05,081 - INFO - ✅ Completed ring R1 with 8 spans.
+2025-12-11 23:30:05,081 - INFO - 
+🔁 Processing ring: R2
+2025-12-11 23:30:05,085 - INFO - ✅ Completed ring R2 with 8 spans.
+2025-12-11 23:30:05,085 - INFO - 
+🔁 Processing ring: R2-C1
+2025-12-11 23:30:05,088 - INFO - ✅ Completed ring R2-C1 with 4 spans.
+2025-12-11 23:30:05,088 - INFO - 
+🔁 Processing ring: R3
+2025-12-11 23:30:05,092 - INFO - ✅ Completed ring R3 with 9 spans.
+2025-12-11 23:30:05,092 - INFO - 
+🔁 Processing ring: R3-C1
+2025-12-11 23:30:05,096 - INFO - ✅ Completed ring R3-C1 with 8 spans.
+2025-12-11 23:30:05,113 - INFO - Created 470 records
+2025-12-11 23:30:05,120 - INFO - Created 48 records
+2025-12-11 23:30:05,120 - INFO - ✅ All rings processed. Span sequence updated and saved.
