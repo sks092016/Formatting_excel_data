@@ -1,14 +1,13 @@
 from qgis.core import QgsProject, edit
 
 # --- SETTINGS ---
-layer_name = "OFC_New_Sasner-1_Seg_Span_Seq"  # Name of the layer in QGIS
+layer_name = "OFC_New_Shajapur-1_Seg_Span_Seq"  # Name of the layer in QGIS
 check_field = "ofc_laying"
 update_field = "ofc_laying"
 
 
 replacement_map = {
-'Brown feild data':'Brown Field Data',
-'Brown Feild data':'Brown Field Data'
+'Brown Filed Data':'Brown Field Data'
 }
 count = 0
 

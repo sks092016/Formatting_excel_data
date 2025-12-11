@@ -1,0 +1,47 @@
+2025-12-09 17:20:03,232 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'RIGNIKHEDA TO SHAJAPUR BLOCK'.
+2025-12-09 17:20:03,232 - WARNING - \u26a0\ufe0f The Span RIGNIKHEDA TO SHAJAPUR BLOCK is disconnected at this point (76.26897160700008, 23.414920046000077)
+2025-12-09 17:20:04,018 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'SHAJAPUR BLOCK TO BAMORI'.
+2025-12-09 17:20:04,018 - WARNING - \u26a0\ufe0f The Span SHAJAPUR BLOCK TO BAMORI is disconnected at this point (76.35477990000004, 23.428386300000057)
+2025-12-09 17:20:04,942 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'T-POINT PADLI TO CHOSLA MUSLMAN'.
+2025-12-09 17:20:04,942 - WARNING - \u26a0\ufe0f The Span T-POINT PADLI TO CHOSLA MUSLMAN is disconnected at this point (76.43541359900007, 23.340548053000077)
+2025-12-09 17:20:05,393 - INFO - Created 2,368 records
+2025-12-09 17:20:05,402 - INFO - Created 105 records
+2025-12-09 17:20:05,403 - INFO - \u2705 Sequence assigned and saved with original index preserved.
+2025-12-09 17:20:05,408 - INFO - Created 3 records
+2025-12-09 17:20:05,561 - INFO - \U0001f504 Found 11 rings: ['R1', 'R2', 'R2-C1', 'R3', 'R4', 'R4-C1', 'R5', 'R6', 'R6-C1', 'R7', 'R7-C1']
+2025-12-09 17:20:05,561 - INFO - 
+\U0001f501 Processing ring: R1
+2025-12-09 17:20:05,569 - INFO - \u2705 Completed ring R1 with 9 spans.
+2025-12-09 17:20:05,569 - INFO - 
+\U0001f501 Processing ring: R2
+2025-12-09 17:20:05,576 - INFO - \u2705 Completed ring R2 with 8 spans.
+2025-12-09 17:20:05,576 - INFO - 
+\U0001f501 Processing ring: R2-C1
+2025-12-09 17:20:05,582 - INFO - \u2705 Completed ring R2-C1 with 7 spans.
+2025-12-09 17:20:05,582 - INFO - 
+\U0001f501 Processing ring: R3
+2025-12-09 17:20:05,588 - INFO - \u2705 Completed ring R3 with 8 spans.
+2025-12-09 17:20:05,588 - INFO - 
+\U0001f501 Processing ring: R4
+2025-12-09 17:20:05,594 - INFO - \u2705 Completed ring R4 with 5 spans.
+2025-12-09 17:20:05,594 - INFO - 
+\U0001f501 Processing ring: R4-C1
+2025-12-09 17:20:05,601 - INFO - \u2705 Completed ring R4-C1 with 8 spans.
+2025-12-09 17:20:05,601 - INFO - 
+\U0001f501 Processing ring: R5
+2025-12-09 17:20:05,611 - INFO - \u2705 Completed ring R5 with 9 spans.
+2025-12-09 17:20:05,612 - INFO - 
+\U0001f501 Processing ring: R6
+2025-12-09 17:20:05,625 - INFO - \u2705 Completed ring R6 with 9 spans.
+2025-12-09 17:20:05,625 - INFO - 
+\U0001f501 Processing ring: R6-C1
+2025-12-09 17:20:05,635 - INFO - \u2705 Completed ring R6-C1 with 8 spans.
+2025-12-09 17:20:05,636 - INFO - 
+\U0001f501 Processing ring: R7
+2025-12-09 17:20:05,648 - INFO - \u2705 Completed ring R7 with 11 spans.
+2025-12-09 17:20:05,648 - INFO - 
+\U0001f501 Processing ring: R7-C1
+2025-12-09 17:20:05,659 - INFO - \u2705 Completed ring R7-C1 with 9 spans.
+2025-12-09 17:20:05,826 - INFO - Created 2,368 records
+2025-12-09 17:20:05,841 - INFO - Created 105 records
+2025-12-09 17:20:05,843 - INFO - \u2705 All rings processed. Span sequence updated and saved.

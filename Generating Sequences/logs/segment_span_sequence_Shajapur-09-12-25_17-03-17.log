@@ -1,0 +1,20 @@
+2025-12-09 17:03:18,279 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-09 17:03:18,279 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-09 17:03:18,280 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-09 17:03:18,280 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-09 17:03:18,281 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-09 17:03:18,282 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-09 17:03:18,282 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-09 17:03:18,282 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-09 17:03:18,412 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BARWALL TO SHAJAPUR BLOCK'.
+2025-12-09 17:03:18,412 - WARNING - \u26a0\ufe0f The Span BARWALL TO SHAJAPUR BLOCK is disconnected at this point (76.26797877700005, 23.41551490100005)
+2025-12-09 17:03:18,497 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'BERCHA TO T-POINT MALIKHEDI'.
+2025-12-09 17:03:18,497 - WARNING - \u26a0\ufe0f The Span BERCHA TO T-POINT MALIKHEDI is disconnected at this point (76.33263803800008, 23.287990698000044)
+2025-12-09 17:03:18,764 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'DHARAKHEDI TO MULLAKHEDI'.
+2025-12-09 17:03:18,764 - WARNING - \u26a0\ufe0f The Span DHARAKHEDI TO MULLAKHEDI is disconnected at this point (76.30380600900008, 23.370756131000064)
+2025-12-09 17:03:18,943 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-09 17:03:18,945 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-09 17:03:18,962 - WARNING - \u26a0\ufe0f Warning: Disconnected segment remains in span 'GIRVAR TO SHAJAPUR BLOCK'.
+2025-12-09 17:03:18,963 - WARNING - \u26a0\ufe0f The Span GIRVAR TO SHAJAPUR BLOCK is disconnected at this point (76.26797877700005, 23.41551490100005)
+2025-12-09 17:03:19,025 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
+2025-12-09 17:03:19,026 - ERROR - \u274c Error in get_start_end_coords: Unsupported geometry type: <class 'NoneType'>
