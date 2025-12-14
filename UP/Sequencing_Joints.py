@@ -32,7 +32,7 @@ import numpy as np
 
 POINTS_FILE = "References/input/joints.shp"
 LINES_FILE  = "References/input/ofc_rings.shp"
-OUTPUT_FILE = "sequenced_output-5.shp"
+OUTPUT_FILE = "References/output/sequenced_output.shp"
 
 # tolerance for distance (meters)
 DIST_TOLERANCE = 8.0
