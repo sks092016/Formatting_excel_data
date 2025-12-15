@@ -1,0 +1,25 @@
+2025-12-15 22:20:41,999 - WARNING - ⚠️ Warning: Disconnected segment remains in span 'T-POINT YENKHEDA TO PUSALI'.
+2025-12-15 22:20:41,999 - WARNING - ⚠️ The Span T-POINT YENKHEDA TO PUSALI is disconnected at this point (77.96809670000005, 21.632095500000048)
+2025-12-15 22:20:42,147 - INFO - Created 919 records
+2025-12-15 22:20:42,152 - INFO - Created 48 records
+2025-12-15 22:20:42,152 - INFO - ✅ Sequence assigned and saved with original index preserved.
+2025-12-15 22:20:42,154 - INFO - Created 1 records
+2025-12-15 22:20:42,182 - INFO - 🔄 Found 5 rings: ['R1', 'R2', 'R3', 'R3-C1', 'R3-C2']
+2025-12-15 22:20:42,182 - INFO - 
+🔁 Processing ring: R1
+2025-12-15 22:20:42,186 - INFO - ✅ Completed ring R1 with 9 spans.
+2025-12-15 22:20:42,186 - INFO - 
+🔁 Processing ring: R2
+2025-12-15 22:20:42,189 - INFO - ✅ Completed ring R2 with 8 spans.
+2025-12-15 22:20:42,189 - INFO - 
+🔁 Processing ring: R3
+2025-12-15 22:20:42,193 - INFO - ✅ Completed ring R3 with 7 spans.
+2025-12-15 22:20:42,193 - INFO - 
+🔁 Processing ring: R3-C1
+2025-12-15 22:20:42,196 - INFO - ✅ Completed ring R3-C1 with 5 spans.
+2025-12-15 22:20:42,196 - INFO - 
+🔁 Processing ring: R3-C2
+2025-12-15 22:20:42,199 - INFO - ✅ Completed ring R3-C2 with 7 spans.
+2025-12-15 22:20:42,232 - INFO - Created 919 records
+2025-12-15 22:20:42,236 - INFO - Created 48 records
+2025-12-15 22:20:42,237 - INFO - ✅ All rings processed. Span sequence updated and saved.
