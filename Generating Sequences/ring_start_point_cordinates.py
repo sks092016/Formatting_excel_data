@@ -7,7 +7,7 @@ from datetime import datetime
 log_dir = Path("logs")
 log_dir.mkdir(exist_ok=True)
 
-blockName = "Karhal"
+blockName = "Athner"
 
 now = datetime.now()
 formatted = now.strftime("%d-%m-%y_%H-%M-%S")
@@ -32,31 +32,32 @@ logging.getLogger('').addHandler(console)
 #### Checking the CRS of the shape file
 
 # input file names
-gps_shape_file = "References/Karhal/gps.shp"
-segments_shape_file = "References/Karhal/OFC_NEW.shp"
+gps_shape_file = ("References/Athner/gps.shp")
+segments_shape_file = "References/Athner/OFC_NEW.shp"
 
 version = f"{blockName}-1"
 
 ## The Start cordinate for main Rings is BHQ ##
-BHQ_CORDINATE = '77.06058091 25.49686555'
+BHQ_CORDINATE = '77.92717814 21.62109233'
 
 rings = {
     'R1': BHQ_CORDINATE,
     'R2': BHQ_CORDINATE,
     'R3': BHQ_CORDINATE,
-    'R2-C1':'77.06015600 25.61104490',
-    'R3-C1':'76.77987160 25.49833810',
+    "R3-C1": "77.91191389 21.50487777",
+    "R3-C2": "77.82978931 21.54587488"
 }
 t_point_ring_spans = {
-'T-POINT BANDHALI':(76.76944158,25.52903186),
-'T-POINT BARDHAKHURD':(76.77987160,25.49833810),
-'T-POINT DHONDPUR':(76.74173167,25.57522201),
-'T-POINT GADLA':(76.99422956,25.70686005),
-'T-POINT JAKHDA':(77.06015600,25.61104490),
-'T-POINT JHIRINYA':(76.86753720,25.37628000),
-'T-POINT KARIYADEH':(77.01794976,25.32525169),
-'T-POINT LEHRONI':(77.10595355,25.52091551),
-'T-POINT PAHELA':(76.88295910,25.42306891),
-'T-POINT PIPRANI':(76.99422956,25.70686005),
-'T-POINT SESAIPURA':(77.17382826,25.54035444),
+"T-POINT AMBADA": (77.74941463,21.52845884),
+"T-POINT ANDERBAWADI": (77.77765408,21.41780904),
+"T-POINT BELKUND": (77.77765408,21.41780904),
+"T-POINT DEHGHUD": (77.83019154,21.66058921),
+"T-POINT GARGUD RYT": (77.8446446,21.4624054),
+"T-POINT HIDALI": (77.93555099,21.51839058),
+"T-POINT KAWALA RYT": (77.83828086,21.45995175),
+"T-POINT KELBEHARA": (77.8213334,21.418207),
+"T-POINT PANBEHARA": (77.91191389,21.50487777),
+"T-POINT PUSALI": (77.98454,21.63048),
+"T-POINT WADALI": (77.82978931,21.54587488),
+"T-POINT YENKHEDA": (77.96809670,21.63209550)
 }

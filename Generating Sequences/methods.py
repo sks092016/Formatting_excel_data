@@ -122,6 +122,7 @@ def dfs_order(G, start_node):
 
     dfs(start_node)
     return span_indices
+
 def smart_split2(s):
     if " TO " in s.upper():  # case-insensitive
         return s.upper().split(" TO ")
@@ -131,6 +132,7 @@ def smart_split2(s):
         return s.split(" ")
     else:
         return s.strip()
+
 def clean_name(name: str) -> str:
     # Remove extra spaces, uppercase everything
     s = name.strip().upper()

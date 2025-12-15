@@ -1,0 +1,61 @@
+{
+  "block_name": "Athner",
+  "bhq_coordinate": "77.92717814 21.62109233",
+  "ring_coordinates": {
+    "R1": "77.92717814 21.62109233",
+    "R2": "77.92717814 21.62109233",
+    "R3": "77.92717814 21.62109233",
+    "R3-C1": "77.91191389 21.50487777",
+    "R3-C2": "77.82978931 21.54587488"
+  },
+  "t_points": {
+    "T-POINT AMBADA TO DAYAWANI": [
+      77.74941463,
+      21.52845884
+    ],
+    "T-POINT ANDERBAWADI TO DHABONA": [
+      77.77765408,
+      21.41780904
+    ],
+    "T-POINT BELKUND TO ANDERBAWADI": [
+      77.77765408,
+      21.41780904
+    ],
+    "T-POINT DEHGHUD TO HIWARA": [
+      77.83019154,
+      21.66058921
+    ],
+    "T-POINT GARGUD RYT TO KAWALA RYT": [
+      77.8446446,
+      21.4624054
+    ],
+    "T-POINT HIDALI TO ASTI": [
+      77.93555099,
+      21.51839058
+    ],
+    "T-POINT KAWALA RYT TO SATALKUND": [
+      77.83828086,
+      21.45995175
+    ],
+    "T-POINT KELBEHARA TO BELKUND": [
+      77.8213334,
+      21.418207
+    ],
+    "T-POINT PANBEHARA TO MORUDHANA": [
+      77.91191389,
+      21.50487777
+    ],
+    "T-POINT PUSALI TO TEMURANI": [
+      77.98454,
+      21.63048
+    ],
+    "T-POINT WADALI TO TEMNI": [
+      77.82978931,
+      21.54587488
+    ],
+    "T-POINT YENKHEDA TO PUSALI": [
+      77.98454,
+      21.63048
+    ]
+  }
+}
