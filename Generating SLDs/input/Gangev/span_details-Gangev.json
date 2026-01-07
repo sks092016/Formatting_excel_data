@@ -1,0 +1,565 @@
+{
+    "GARH TO TENDUA": {
+        "NH-30": 4742.309357526122,
+        "PMGSY": 750.7173972396309,
+        "Ring": "R6-C3",
+        "Span_id": "008"
+    },
+    "AKAURI UNMOONAL TO PAHARKHA": {
+        "PMGSY": 4054.7619325983296,
+        "Ring": "R4",
+        "Span_id": "009"
+    },
+    "BAANS TO RAKSHA MAJAN": {
+        "GRAM PANCHYAT": 1833.2032669455698,
+        "PMGSY": 2128.6441200731297,
+        "Ring": "R6-C2",
+        "Span_id": "003"
+    },
+    "BABUPUR TO T-POINT DAGARDUA": {
+        "PMGSY": 2032.3993268837332,
+        "Ring": "R6-C2",
+        "Span_id": "005"
+    },
+    "BADOKHAR TO LALGAON": {
+        "PMGSY": 4980.559778817799,
+        "Ring": "R6",
+        "Span_id": "003"
+    },
+    "BASAULI TO SATHINI": {
+        "GRAM PANCHYAT": 844.8229797452191,
+        "PMGSY": 6096.080506123693,
+        "Ring": "R1",
+        "Span_id": "002"
+    },
+    "BASEDA TO BELWAPAIKAN": {
+        "NH-30": 3989.725669964769,
+        "PMGSY": 6482.2711795648,
+        "Ring": "R5",
+        "Span_id": "002"
+    },
+    "BELA TO BADOKHAR": {
+        "PMGSY": 16938.17770258563,
+        "Ring": "R6",
+        "Span_id": "002"
+    },
+    "BELWA BADGAIYAN TO BELWA KURMIYAN": {
+        "PMGSY": 2698.676483611025,
+        "Ring": "R4",
+        "Span_id": "007"
+    },
+    "BELWA KURMIYAN TO AKAURI UNMOONAL": {
+        "PMGSY": 2314.630733955946,
+        "Ring": "R4",
+        "Span_id": "008"
+    },
+    "BELWAPAIKAN TO KATHERI": {
+        "GRAM PANCHYAT": 896.8243055684329,
+        "NH-30": 1358.141851549432,
+        "PMGSY": 3585.572631656614,
+        "Ring": "R5",
+        "Span_id": "003"
+    },
+    "BHAUKHARI KHURD TO SISWA": {
+        "PMGSY": 3246.2287589848697,
+        "Ring": "R6-C1",
+        "Span_id": "004"
+    },
+    "CHANDEH TO JARAHA": {
+        "NH-135": 2886.3063958302237,
+        "PMGSY": 1470.0273012157393,
+        "Ring": "R1",
+        "Span_id": "007"
+    },
+    "CHAURI TO T-POINT DEWAS": {
+        "GRAM PANCHYAT": 2865.1733802463327,
+        "MDR": 2430.203608604308,
+        "PMGSY": 1775.3063013486092,
+        "Ring": "R4-C1",
+        "Span_id": "005"
+    },
+    "CHHIWALA TO SALAIYA": {
+        "GRAM PANCHYAT": 4309.326278128221,
+        "Ring": "R5-C1",
+        "Span_id": "003"
+    },
+    "DADAR KOTHAR TO CHAURI": {
+        "MDR": 54.512329758916515,
+        "PMGSY": 1418.6513958917078,
+        "Ring": "R4-C1",
+        "Span_id": "004"
+    },
+    "DAGARDUA TO PARASI": {
+        "NH-30": 1352.2248656088111,
+        "PMGSY": 5238.559095230173,
+        "Ring": "R6",
+        "Span_id": "006"
+    },
+    "DEVAHATA TO T-POINT GODARI 27": {
+        "GRAM PANCHYAT": 1832.3141155625317,
+        "Ring": "R6-C1",
+        "Span_id": "007"
+    },
+    "DEWARA TO T-POINT DUBAHAI KHURD": {
+        "PMGSY": 3086.6574807893926,
+        "Ring": "R2-C1",
+        "Span_id": "008"
+    },
+    "DEWAS TO BELWA BADGAIYAN": {
+        "PMGSY": 1991.343369020672,
+        "PWD": 2417.787738656294,
+        "Ring": "R4",
+        "Span_id": "006"
+    },
+    "DHUDHKI TO RAMPUR": {
+        "MDR": 3062.4662073614945,
+        "PMGSY": 4087.702115520961,
+        "Ring": "R5-C1",
+        "Span_id": "006"
+    },
+    "DUBAHAI KHURD TO JORAUT": {
+        "PMGSY": 4508.4091717944475,
+        "Ring": "R2",
+        "Span_id": "004"
+    },
+    "DUWAGAWAN TO CHANDEH": {
+        "NH-135": 723.4903271872854,
+        "PMGSY": 1119.1360453880684,
+        "Ring": "R1",
+        "Span_id": "006"
+    },
+    "GANGEV BLOCK TO BASAULI": {
+        "PMGSY": 3811.9797015493687,
+        "Ring": "R1",
+        "Span_id": "001"
+    },
+    "GANGEV BLOCK TO BASEDA": {
+        "NH-30": 2514.977506231293,
+        "PMGSY": 5835.871640095343,
+        "Ring": "R5",
+        "Span_id": "001"
+    },
+    "GANGEV BLOCK TO BELA": {
+        "NH-30": 670.2749061903968,
+        "PMGSY": 4826.818015205646,
+        "Ring": "R6",
+        "Span_id": "001"
+    },
+    "GANGEV BLOCK TO KATAHA": {
+        "GRAM PANCHYAT": 203.20254541180975,
+        "NH-30": 1380.5266912847587,
+        "PMGSY": 5805.783656272553,
+        "Ring": "R4",
+        "Span_id": "001"
+    },
+    "GANGEV BLOCK TO PURWA 310": {
+        "PMGSY": 140.02644432527347,
+        "Ring": "R2",
+        "Span_id": "001"
+    },
+    "GANGEV TO GANGEV BLOCK": {
+        "NH-30": 1398.56787982037,
+        "PMGSY": 1013.8124640909847,
+        "Ring": "R2",
+        "Span_id": "007"
+    },
+    "GARH TO AGADAL": {
+        "MDR": 1389.5082736538577,
+        "NH-30": 1643.4402887674528,
+        "PMGSY": 372.44758038141276,
+        "Ring": "R6-C3",
+        "Span_id": "007"
+    },
+    "GHOPI TO GANGEV": {
+        "PMGSY": 3512.298219409572,
+        "Ring": "R2",
+        "Span_id": "006"
+    },
+    "GODARI 27 TO DAGARDUA": {
+        "PMGSY": 6022.648870270456,
+        "Ring": "R6",
+        "Span_id": "005"
+    },
+    "GUDHAWA TO RAMPURAVA": {
+        "GRAM PANCHYAT": 155.0551809479523,
+        "PMGSY": 1672.3047192058298,
+        "Ring": "R4",
+        "Span_id": "003"
+    },
+    "HINAUTI TO SENDAHA": {
+        "GRAM PANCHYAT": 552.1282576395059,
+        "MDR": 398.5271426100047,
+        "Ring": "R6-C3",
+        "Span_id": "004"
+    },
+    "JARAHA TO MARHI KALAN": {
+        "NH-135": 2019.147217189517,
+        "NH-30": 6123.931046350384,
+        "PMGSY": 32.137237075498305,
+        "Ring": "R1",
+        "Span_id": "008"
+    },
+    "JORAUT TO GHOPI": {
+        "PMGSY": 4874.7473697028345,
+        "Ring": "R2",
+        "Span_id": "005"
+    },
+    "JUDAURI TO CHHIWALA": {
+        "GRAM PANCHYAT": 2242.1034616843144,
+        "Ring": "R5-C1",
+        "Span_id": "002"
+    },
+    "KADAILA TO DHUDHKI": {
+        "GRAM PANCHYAT": 2157.6610355453827,
+        "Ring": "R5-C1",
+        "Span_id": "005"
+    },
+    "KAITHAL TO GARH": {
+        "PMGSY": 7243.687823901096,
+        "Ring": "R6-C3",
+        "Span_id": "006"
+    },
+    "KATAHA TO GUDHAWA": {
+        "GRAM PANCHYAT": 192.0395610332484,
+        "PMGSY": 4818.721493313318,
+        "Ring": "R4",
+        "Span_id": "002"
+    },
+    "KATHERI TO JUDAURI": {
+        "GRAM PANCHYAT": 4175.264190231174,
+        "Ring": "R5-C1",
+        "Span_id": "001"
+    },
+    "KATHERI TO TIWANI": {
+        "GRAM PANCHYAT": 8658.431645671728,
+        "PMGSY": 2182.556040387852,
+        "Ring": "R5",
+        "Span_id": "004"
+    },
+    "KEOTI TO DADAR KOTHAR": {
+        "MDR": 220.1774304149577,
+        "PMGSY": 4462.978974908882,
+        "Ring": "R4-C1",
+        "Span_id": "003"
+    },
+    "KHAIRAHA TO KEOTI": {
+        "GRAM PANCHYAT": 668.9305629930401,
+        "MDR": 1589.929803759993,
+        "PMGSY": 6803.818860398164,
+        "Ring": "R4-C1",
+        "Span_id": "002"
+    },
+    "KOLHAI TO SARAI KALA": {
+        "PMGSY": 6180.545677845145,
+        "Ring": "R6-C1",
+        "Span_id": "002"
+    },
+    "LALGAON TO GODARI 27": {
+        "PMGSY": 3692.5399573854274,
+        "Ring": "R6",
+        "Span_id": "004"
+    },
+    "LOTANI TO HINAUTI": {
+        "GRAM PANCHYAT": 991.4297851117929,
+        "MDR": 28.571833301502192,
+        "PMGSY": 2234.055406680979,
+        "Ring": "R6-C3",
+        "Span_id": "003"
+    },
+    "MADARI TO BAANS": {
+        "GRAM PANCHYAT": 3451.7773301617185,
+        "MDR": 1987.2281399235567,
+        "Ring": "R6-C2",
+        "Span_id": "002"
+    },
+    "MAHAMUDPUR TO PIPARWAR": {
+        "PMGSY": 4284.165047268847,
+        "Ring": "R2-C1",
+        "Span_id": "003"
+    },
+    "MARHI KALAN TO MARHI KHURD": {
+        "GRAM PANCHYAT": 1243.7549984602101,
+        "NH-30": 103.67169270808172,
+        "PMGSY": 28.27238242876265,
+        "Ring": "R1",
+        "Span_id": "009"
+    },
+    "MARHI KHURD TO GANGEV BLOCK": {
+        "GRAM PANCHYAT": 1247.4674374436865,
+        "NH-30": 1883.1731877947584,
+        "PMGSY": 2306.9073388061506,
+        "Ring": "R1",
+        "Span_id": "010"
+    },
+    "PACHAPHARA TO GANGEV BLOCK": {
+        "GRAM PANCHYAT": 2770.520155605835,
+        "NH-30": 2435.375891252943,
+        "PMGSY": 9421.873755886088,
+        "Ring": "R5",
+        "Span_id": "006"
+    },
+    "PAHARKHA TO SAR NO.1": {
+        "PMGSY": 4231.296472150135,
+        "Ring": "R4",
+        "Span_id": "010"
+    },
+    "PANGADI KALA TO LOTANI": {
+        "GRAM PANCHYAT": 2921.2667206336982,
+        "PMGSY": 3238.994023457194,
+        "Ring": "R6-C3",
+        "Span_id": "002"
+    },
+    "PARASI TO GANGEV BLOCK": {
+        "NH-30": 4618.264750183592,
+        "PMGSY": 392.924559975066,
+        "Ring": "R6",
+        "Span_id": "007"
+    },
+    "PATANA TO PHOOL": {
+        "PMGSY": 7598.697155766835,
+        "Ring": "R2-C1",
+        "Span_id": "005"
+    },
+    "PHOOL TO SANSARPUR": {
+        "PMGSY": 1686.5268198652266,
+        "Ring": "R2-C1",
+        "Span_id": "006"
+    },
+    "PIPARWAR TO PATANA": {
+        "PMGSY": 5283.040240715202,
+        "Ring": "R2-C1",
+        "Span_id": "004"
+    },
+    "PURWA 310 TO SIRSA": {
+        "NH-30": 515.1065340110732,
+        "PMGSY": 6051.166378341733,
+        "Ring": "R2",
+        "Span_id": "002"
+    },
+    "RAGHUNATHGANJ TO TIKURI 37": {
+        "GRAM PANCHYAT": 93.46964266649819,
+        "MDR": 1880.4285424146176,
+        "NH-135": 1468.6075632997613,
+        "PMGSY": 403.18027319769277,
+        "Ring": "R1",
+        "Span_id": "004"
+    },
+    "RAKSHA MAJAN TO BABUPUR": {
+        "GRAM PANCHYAT": 2040.2111919314173,
+        "PMGSY": 3154.5227175914515,
+        "Ring": "R6-C2",
+        "Span_id": "004"
+    },
+    "RAMPUR TO SURA": {
+        "MDR": 1762.1368165581343,
+        "PMGSY": 820.6801990713443,
+        "Ring": "R5-C1",
+        "Span_id": "007"
+    },
+    "RAMPURAVA TO RAURA": {
+        "GRAM PANCHYAT": 772.3947104125066,
+        "PMGSY": 2359.2070157663275,
+        "PWD": 899.597529487793,
+        "Ring": "R4",
+        "Span_id": "004"
+    },
+    "RAURA TO DEWAS": {
+        "GRAM PANCHYAT": 720.80462357762,
+        "PWD": 5655.0580122558185,
+        "Ring": "R4",
+        "Span_id": "005"
+    },
+    "SAHEBA TO MAHAMUDPUR": {
+        "PMGSY": 4914.959790486718,
+        "Ring": "R2-C1",
+        "Span_id": "002"
+    },
+    "SALAIYA TO KADAILA": {
+        "GRAM PANCHYAT": 11314.209050356107,
+        "MDR": 2375.382118997719,
+        "Ring": "R5-C1",
+        "Span_id": "004"
+    },
+    "SANSARPUR TO DEWARA": {
+        "PMGSY": 5316.6244167052355,
+        "Ring": "R2-C1",
+        "Span_id": "007"
+    },
+    "SAR NO.1 TO GANGEV BLOCK": {
+        "NH-30": 447.3543029854137,
+        "PMGSY": 2342.17576276592,
+        "Ring": "R4",
+        "Span_id": "011"
+    },
+    "SARAI KALA TO BHAUKHARI KHURD": {
+        "GRAM PANCHYAT": 6105.7603292783815,
+        "PMGSY": 1961.869811130801,
+        "Ring": "R6-C1",
+        "Span_id": "003"
+    },
+    "SATHINI TO RAGHUNATHGANJ": {
+        "GRAM PANCHYAT": 929.9445721004685,
+        "NH-135": 29.797431660770627,
+        "PMGSY": 3812.955017809354,
+        "Ring": "R1",
+        "Span_id": "003"
+    },
+    "SENDAHA TO KAITHAL": {
+        "MDR": 689.8909350862023,
+        "PMGSY": 3763.9187516645916,
+        "Ring": "R6-C3",
+        "Span_id": "005"
+    },
+    "SIRSA TO DUBAHAI KHURD": {
+        "PMGSY": 10385.233366064562,
+        "Ring": "R2",
+        "Span_id": "003"
+    },
+    "SISWA TO TEHARA": {
+        "GRAM PANCHYAT": 276.33604565863544,
+        "NH-135BD": 198.0028436465798,
+        "PMGSY": 592.4806139534555,
+        "Ring": "R6-C1",
+        "Span_id": "005"
+    },
+    "SURA TO T-POINT ALAMGANJ": {
+        "PMGSY": 3797.9044365441005,
+        "Ring": "R5-C1",
+        "Span_id": "008"
+    },
+    "T-POINT AMAHA TO HIRUDIH": {
+        "PMGSY": 2800.50315317222,
+        "Ring": "R6",
+        "Span_id": "010"
+    },
+    "T-POINT BADOKHAR TO MAUHARIYA": {
+        "PMGSY": 772.8264721468477,
+        "Ring": "R6",
+        "Span_id": "009"
+    },
+    "T-POINT BADOKHAR TO PACHOKHAR": {
+        "PMGSY": 860.3907015905506,
+        "Ring": "R6",
+        "Span_id": "008"
+    },
+    "T-POINT CHAURI TO KHARAHARI": {
+        "MDR": 899.0204823749644,
+        "PMGSY": 682.2541955555583,
+        "Ring": "R4-C1",
+        "Span_id": "006"
+    },
+    "T-POINT DAGARDUA TO AMAHA": {
+        "PMGSY": 1250.7728050029277,
+        "Ring": "R6",
+        "Span_id": "011"
+    },
+    "T-POINT DAGARDUA TO PANGADI KALA": {
+        "MDR": 19.148609319311028,
+        "PMGSY": 1300.6337507637147,
+        "Ring": "R6-C3",
+        "Span_id": "001"
+    },
+    "T-POINT GANGEV BLOCK TO TIKURI 32": {
+        "PMGSY": 933.1134565546303,
+        "Ring": "R3",
+        "Span_id": "001"
+    },
+    "T-POINT GARH TO LAURI KHURD": {
+        "PMGSY": 798.0830600518165,
+        "Ring": "R6-C3",
+        "Span_id": "010"
+    },
+    "T-POINT GODARI 27 TO MADARI": {
+        "GRAM PANCHYAT": 2603.21225509187,
+        "Ring": "R6-C2",
+        "Span_id": "001"
+    },
+    "T-POINT KADAILA TO NADANA": {
+        "GRAM PANCHYAT": 919.3180397638812,
+        "Ring": "R5-C1",
+        "Span_id": "009"
+    },
+    "T-POINT KEOTI TO PIPARHA": {
+        "GRAM PANCHYAT": 1063.5450773765433,
+        "Ring": "R4-C1",
+        "Span_id": "007"
+    },
+    "T-POINT LALGAON TO KOLHAI": {
+        "NH-135BD": 2584.27191694358,
+        "PMGSY": 3087.6436461502703,
+        "Ring": "R6-C1",
+        "Span_id": "001"
+    },
+    "T-POINT MADARI TO PATAI": {
+        "GRAM PANCHYAT": 1308.2991624813408,
+        "NH-135BD": 376.53931627905894,
+        "Ring": "R6-C2",
+        "Span_id": "006"
+    },
+    "T-POINT MARHI KALAN TO GODARI": {
+        "NH-30": 30.343590563970707,
+        "PMGSY": 1460.804458995872,
+        "Ring": "R1",
+        "Span_id": "011"
+    },
+    "T-POINT RAKSHA MAJAN TO PADUA": {
+        "PMGSY": 1933.0520773998974,
+        "Ring": "R6-C2",
+        "Span_id": "007"
+    },
+    "T-POINT RAMPUR TO DHAWAIYA": {
+        "PMGSY": 1853.6449804077927,
+        "Ring": "R5-C1",
+        "Span_id": "010"
+    },
+    "T-POINT RAURA TO KHAIRAHA": {
+        "GRAM PANCHYAT": 659.5365928830678,
+        "PMGSY": 1736.1589174082378,
+        "Ring": "R4-C1",
+        "Span_id": "001"
+    },
+    "T-POINT SIRSA TO SAHEBA": {
+        "PMGSY": 1251.455098367066,
+        "Ring": "R2-C1",
+        "Span_id": "001"
+    },
+    "T-POINT TIKURI 32 TO GHUCHIYARI": {
+        "PMGSY": 1858.2110100024474,
+        "Ring": "R3",
+        "Span_id": "002"
+    },
+    "T-POINT TIWANI  TO BUDWA": {
+        "PMGSY": 907.1962051648176,
+        "Ring": "R5",
+        "Span_id": "008"
+    },
+    "T-POINT TIWANI TO ALAMGANJ": {
+        "GRAM PANCHYAT": 810.686841440588,
+        "Ring": "R5",
+        "Span_id": "007"
+    },
+    "TEHARA TO DEVAHATA": {
+        "GRAM PANCHYAT": 3523.593857398158,
+        "NH-135BD": 476.4087006790088,
+        "Ring": "R6-C1",
+        "Span_id": "006"
+    },
+    "TENDUA TO PARASI": {
+        "PMGSY": 11.342421599325657,
+        "Ring": "R6-C3",
+        "Span_id": "009"
+    },
+    "TIKURI 37 TO DUWAGAWAN": {
+        "GRAM PANCHYAT": 81.4368519553936,
+        "NH-135": 1171.4125362636519,
+        "PMGSY": 197.24843958151385,
+        "Ring": "R1",
+        "Span_id": "005"
+    },
+    "TIWANI TO PACHAPHARA": {
+        "GRAM PANCHYAT": 1731.829817614918,
+        "PMGSY": 2464.853906120787,
+        "Ring": "R5",
+        "Span_id": "005"
+    }
+}
