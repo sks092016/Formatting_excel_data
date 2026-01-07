@@ -190,6 +190,7 @@ for ring in unique_rings:
     table_row.setHeaderFontColor(QColor('Red'))
     content_font = QFont("Cambria", 15)
     table_row.setContentFont(content_font)
+
     frame = QgsLayoutFrame(layout, table_row)
     frame.setFixedSize(QgsLayoutSize(70, 100, QgsUnitTypes.LayoutMillimeters))
     frame.attemptResize(QgsLayoutSize(70, 100, QgsUnitTypes.LayoutMillimeters))
