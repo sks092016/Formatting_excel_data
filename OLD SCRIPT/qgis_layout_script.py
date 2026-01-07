@@ -5,7 +5,7 @@ from qgis.core import (
 )
 from qgis.core import (
     QgsLayoutItemTextTable, QgsLayoutTableColumn, QgsLayoutTable,QgsLayoutItemPicture,
-    QgsLayoutPoint, QgsLayoutSize, QgsUnitTypes, QgsLayoutFrame, QgsLayoutMeasurement, QgsLayoutItemScaleBar, Qgis,QgsLayoutItemPage
+    QgsLayoutPoint, QgsLayoutSize, QgsUnitTypes, QgsLayoutFrame, QgsLayoutMeasurement, QgsLayoutItemScaleBar, Qgis
 )
 from PyQt5.QtGui import QColor
 from PyQt5.QtCore import Qt
@@ -15,21 +15,19 @@ import os
 import json
 from pathlib import Path
 
-district_name = 'Rewa'
-block_name = 'Gangev'
+district_name = 'Ujjain'
+block_name = 'Mahidpur'
 
 # --- Settings ---
-# file_path =f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/input/{block_name}/ring_details_{block_name}.json"
-file_path = f"C:\\Users\\SubhashSoni\\PycharmProjects\\Formatting_excel_data\\Generating SLDs\\input\\{block_name}\\ring_details_{block_name}.json"
+# file_path = f"/Users/subhashsoni/Formatting_excel_data/Generating SLDs/input/{block_name}/span_details-{block_name}.json"
+file_path = f"C:\\Users\\SubhashSoni\\PycharmProjects\\Formatting_excel_data\\Generating SLDs\\input\\{block_name}\\span_details-{block_name}.json"
 with open(file_path, "r", encoding="utf-8") as f:
-    ring_dict = json.load(f)
+    span_dict = json.load(f)
 
-layer_name = f"RoW_Authorities-{block_name}"  # Name of the layer in QGIS
+layer_name = f"RoW Authorities-{block_name}"  # Name of the layer in QGIS
 # output_folder = f"/Users/subhashsoni/Documents/Bharatnet_OFC_planning/SLDs/{block_name}"
-output_folder = f"D:\\MP-B-NET\\bharat_net_data\\SLDs\\Output\\{block_name}"
-end_point_layer = f"output_points_rings-{block_name}"
-
-
+output_folder = f"D:\\bharat_net_data\slds\\{block_name}"
+end_point_layer = f"output_points-{block_name}"
 block_dir = Path(output_folder)
 block_dir.mkdir(exist_ok=True)
 
@@ -84,37 +82,40 @@ if not layer.isValid():
     raise Exception(f"❌ Layer '{layer_name}' is not valid")
 
 vertices_layer = QgsProject.instance().mapLayersByName(end_point_layer)[0]
-
 # Get unique span values
-ring_field_index = layer.fields().lookupField("ring")
-unique_rings = layer.uniqueValues(ring_field_index)
+span_field_index = layer.fields().lookupField("span_name")
+unique_spans = layer.uniqueValues(span_field_index)
 
 project = QgsProject.instance()
 manager = project.layoutManager()
 
-for ring in unique_rings:
+for span in unique_spans:
+    ring = span_dict[span]['Ring']
+    span_id = span_dict[span]['Span_id']
+    length = 0
+    for key in span_dict[span].keys():
+        if key not in ['Ring','Span_id']:
+            length += span_dict[span][key]
+
     # Filter layer to one span
-    expr = f""""ring" = '{ring}'"""
+    expr = f""""span_name" = '{span}'"""
     layer.setSubsetString(expr)
-    expr_for_end_points = f""""ring" = '{ring}'"""
-    vertices_layer.setSubsetString(expr_for_end_points)
+    vertices_layer.setSubsetString(expr)
 
     # --- Create Layout ---
     layout = QgsPrintLayout(project)
     layout.initializeDefaults()
-    layout.setName(f"Layout_{ring}")
+    layout.setName(f"Layout_{span}")
 
     # --- Page size ---
-    layout_page = layout.pageCollection().pages()[0]
-    layout_page.setPageSize(QgsLayoutSize(594, 420, QgsUnitTypes.LayoutMillimeters))
-    page = layout_page.pageSize()
+    page = layout.pageCollection().pages()[0].pageSize()
     page_width = page.width()
     page_height = page.height()
 
     # Margins (mm)
     margin = 5
-    map_width = 510 - 2 * margin
-    map_height = 415 - 2 * margin
+    map_width = 235 - 2 * margin
+    map_height = 205 - 2 * margin
     x = (page_width - map_width) / 2
     y = (page_height - map_height) / 2
 
@@ -124,20 +125,20 @@ for ring in unique_rings:
     extent = adjusted_extent(layer.extent(), map_width, map_height, buffer=0.1)
     map_item.setExtent(extent)
     map_item.setFrameEnabled(True)
-    map_item.attemptResize(QgsLayoutSize(510, 415, QgsUnitTypes.LayoutMillimeters))
-    map_item.attemptMove(QgsLayoutPoint(80,2,QgsUnitTypes.LayoutMillimeters))
-    map_item.setFrameStrokeWidth(QgsLayoutMeasurement(0.8, QgsUnitTypes.LayoutMillimeters))
+    map_item.attemptResize(QgsLayoutSize(235, 205, QgsUnitTypes.LayoutMillimeters))
+    map_item.attemptMove(QgsLayoutPoint(60,2,QgsUnitTypes.LayoutMillimeters))
+    map_item.setFrameStrokeWidth(QgsLayoutMeasurement(0.5, QgsUnitTypes.LayoutMillimeters))
     layout.addLayoutItem(map_item)
 
     # --- Title ---
     title = QgsLayoutItemLabel(layout)
-    title.setText(f"{block_name}--{ring}")
-    font = QFont("Cambria", 25, QFont.Bold)
+    title.setText(f"{span}")
+    font = QFont("Cambria", 12, QFont.Bold)
     fmt = QgsTextFormat()
     fmt.setFont(font)
-    fmt.setSize(25)
+    fmt.setSize(12)
     title.setTextFormat(fmt)
-    title.attemptMove(QgsLayoutPoint(95, 15, QgsUnitTypes.LayoutMillimeters))
+    title.attemptMove(QgsLayoutPoint(65, 5, QgsUnitTypes.LayoutMillimeters))
     # title.setHAlign(Qt.AlignHCenter)
     layout.addLayoutItem(title)
 
@@ -147,27 +148,28 @@ for ring in unique_rings:
     cols = [QgsLayoutTableColumn(), QgsLayoutTableColumn()]
     cols[0].setHeading("State")
     cols[1].setHeading("Madhya Pradesh")
-    cols[0].setWidth(20)  # in mm
-    cols[1].setWidth(50)
+    cols[0].setWidth(12)  # in mm
+    cols[1].setWidth(38)
     table.setColumns(cols)
     rows = [
         ["District", district_name],
         ["Block", block_name],
+        ["Span", span],
         ["Ring", ring],
-        ["No of Spans", str(ring_dict[ring]["meta"]["total_spans"])],
-        ["Length", str(round(ring_dict[ring]["meta"]["total_length"]))],
+        ["Span_ID", span_id],
+        ["Length", str(round(length))],
     ]
     table.setContents(rows)
     table.setWrapBehavior(True)
-    header_font = QFont("Cambria", 15)
+    header_font = QFont("Cambria", 11)
     header_font.setBold(True)
     table.setHeaderFont(header_font)
     table.setHeaderFontColor(QColor('Red'))
-    content_font = QFont("Cambria", 15)
+    content_font = QFont("Cambria", 10)
     table.setContentFont(content_font)
     frame = QgsLayoutFrame(layout, table)
-    frame.setFixedSize(QgsLayoutSize(70, 100, QgsUnitTypes.LayoutMillimeters))
-    frame.attemptResize(QgsLayoutSize(70, 100, QgsUnitTypes.LayoutMillimeters))
+    frame.setFixedSize(QgsLayoutSize(50, 55, QgsUnitTypes.LayoutMillimeters))
+    frame.attemptResize(QgsLayoutSize(50, 55, QgsUnitTypes.LayoutMillimeters))
     frame.attemptMove(QgsLayoutPoint(3, 2, QgsUnitTypes.LayoutMillimeters))
     table.addFrame(frame)
     table.update()  
@@ -178,22 +180,23 @@ for ring in unique_rings:
     cols = [QgsLayoutTableColumn(), QgsLayoutTableColumn()]
     cols[0].setHeading("Authority")
     cols[1].setHeading("Length(m)")
-    cols[0].setWidth(35)  # in mm
-    cols[1].setWidth(35)
+    cols[0].setWidth(30)  # in mm
+    cols[1].setWidth(20)
     table_row.setColumns(cols)
-    for key  in ring_dict[ring]["meta"]["row_autho"].keys():
-        table_row.addRow([str(key), str(round(ring_dict[ring]["meta"]["row_autho"][key]))])
+    for key  in span_dict[span].keys():
+        if key not in ['Ring','Span_id']:
+            table_row.addRow([str(key), str(round(span_dict[span][key]))])
     table_row.setWrapBehavior(True)
-    header_font = QFont("Cambria", 15)
+    header_font = QFont("Cambria", 9)
     header_font.setBold(True)
     table_row.setHeaderFont(header_font)
     table_row.setHeaderFontColor(QColor('Red'))
-    content_font = QFont("Cambria", 15)
+    content_font = QFont("Cambria", 8)
     table_row.setContentFont(content_font)
     frame = QgsLayoutFrame(layout, table_row)
-    frame.setFixedSize(QgsLayoutSize(70, 100, QgsUnitTypes.LayoutMillimeters))
-    frame.attemptResize(QgsLayoutSize(70, 100, QgsUnitTypes.LayoutMillimeters))
-    frame.attemptMove(QgsLayoutPoint(3,120, QgsUnitTypes.LayoutMillimeters))
+    frame.setFixedSize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
+    frame.attemptResize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
+    frame.attemptMove(QgsLayoutPoint(3,58, QgsUnitTypes.LayoutMillimeters))
     table_row.addFrame(frame)
     table_row.update()
     layout.refresh()
@@ -203,23 +206,23 @@ for ring in unique_rings:
     root = QgsLayerTree()
     root_layer = root.addLayer(layer) # Only current layer
     legend.model().setRootGroup(root)
-    title_font = QFont("Cambria", 15)
+    title_font = QFont("Cambria", 7)
     title_font.setBold(True)
-    label_font = QFont("Cambria", 15)
+    label_font = QFont("Cambria", 6)
     legend.setStyleFont(QgsLegendStyle.Title, title_font)
     legend.setStyleFont(QgsLegendStyle.Subgroup, label_font)
     legend.setStyleFont(QgsLegendStyle.SymbolLabel, label_font)
-    legend.setSymbolWidth(15)  # mm
-    legend.setSymbolHeight(5)  # mm
+    legend.setSymbolWidth(12)  # mm
+    legend.setSymbolHeight(2)  # mm
     legend.setFrameEnabled(True)  # Draw border
-    legend.setFrameStrokeWidth(QgsLayoutMeasurement(0.8, QgsUnitTypes.LayoutMillimeters))  # Thin border
+    legend.setFrameStrokeWidth(QgsLayoutMeasurement(0.5, QgsUnitTypes.LayoutMillimeters))  # Thin border
     legend.setFrameStrokeColor(QColor(50, 50, 50))  # Dark gray
     legend.setBackgroundColor(QColor(255, 255, 255, 220))  # Semi-transparent white
-    legend.setBoxSpace(5.0)  # Padding inside legend box
-    legend.setColumnSpace(5.0)  # Space between columns
-    frame.attemptResize(QgsLayoutSize(70, 100, QgsUnitTypes.LayoutMillimeters))
+    legend.setBoxSpace(2.0)  # Padding inside legend box
+    legend.setColumnSpace(3.0)  # Space between columns
+    frame.attemptResize(QgsLayoutSize(50, 50, QgsUnitTypes.LayoutMillimeters))
     # legend.adjustBoxSize()
-    legend.attemptMove(QgsLayoutPoint(3, 180, QgsUnitTypes.LayoutMillimeters))
+    legend.attemptMove(QgsLayoutPoint(3, 100, QgsUnitTypes.LayoutMillimeters))
     layout.addLayoutItem(legend)
     layout.refresh()
     # --- Scale Bar ---
@@ -229,23 +232,23 @@ for ring in unique_rings:
     scalebar.setUnits(QgsUnitTypes.DistanceMeters)
     scalebar.setNumberOfSegments(1)
     scalebar.setNumberOfSegmentsLeft(0)
-    scalebar.setUnitsPerSegment(1000)
+    scalebar.setUnitsPerSegment(200)
     scalebar.setUnitLabel('m')
-    scalebar.setFont(QFont("Cambria", 15))
-    scalebar.setHeight(15)
-    scalebar.attemptMove(QgsLayoutPoint(3, 390, QgsUnitTypes.LayoutMillimeters))
+    scalebar.setFont(QFont("Cambria", 8))
+    scalebar.setHeight(4)
+    scalebar.attemptMove(QgsLayoutPoint(3, 195, QgsUnitTypes.LayoutMillimeters))
     layout.addLayoutItem(scalebar)
 
     # --- North Arrow (as SVG Picture) ---
     picture = QgsLayoutItemPicture(layout)
-    picture.setPicturePath("C:\\Users\\SubhashSoni\\PycharmProjects\\Formatting_excel_data\\Generating SLDs\\North\\north_simple.svg")
-    # picture.setPicturePath("/Users/subhashsoni/Formatting_excel_data/Generating SLDs/North/north_simple.svg")
-    picture.setFixedSize(QgsLayoutSize(20, 20, QgsUnitTypes.LayoutMillimeters))
-    picture.attemptMove(QgsLayoutPoint(page_width-30, page_height-30, QgsUnitTypes.LayoutMillimeters))
+    # picture.setPicturePath("C:\\Users\SubhashSoni\PycharmProjects\Formatting_excel_data\Generating SLDs\\North\\north_simple.svg")
+    picture.setPicturePath("/Users/subhashsoni/Formatting_excel_data/Generating SLDs/North/north_simple.svg")
+    picture.setFixedSize(QgsLayoutSize(10, 10, QgsUnitTypes.LayoutMillimeters))
+    picture.attemptMove(QgsLayoutPoint(page_width-15, page_height-15, QgsUnitTypes.LayoutMillimeters))
     layout.addLayoutItem(picture)
 
     # --- Export PDF ---
-    ring_folder = f"{output_folder}/'Rings_SLD'"
+    ring_folder = f"{output_folder}/{ring}"
     ring_dir = Path(ring_folder)
     ring_dir.mkdir(exist_ok=True)
     
@@ -255,16 +258,15 @@ for ring in unique_rings:
     pdf_settings.rasterizeWholeImage = False  # Don't rasterize
     pdf_settings.simplifyGeometries = False  # Keep geometry intact
     pdf_settings.textRenderFormat = Qgis.TextRenderFormat.AlwaysText
-    pdf_settings.dpi = 60
+    pdf_settings.dpi = 100
 
     exporter = QgsLayoutExporter(layout)
-    pdf_path = os.path.join(ring_folder, f"{ring}-{block_name}.pdf")
+    pdf_path = os.path.join(ring_folder, f"{ring}-{span_id}-{span}.pdf")
     result = exporter.exportToPdf(pdf_path, pdf_settings)
     if result == QgsLayoutExporter.Success:
         print(f"✅ Exported {pdf_path}")
     else:
         print(f"❌ Failed to export {pdf_path}")
-# Reset filter
 layer.setSubsetString("")
 vertices_layer.setSubsetString("")
 

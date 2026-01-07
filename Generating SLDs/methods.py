@@ -288,6 +288,9 @@ def process(input_path, output_path, output_crs="EPSG:4326", work_utm="EPSG:3264
                 coords = list(geom.coords)
                 start_key = node_key_from_coord(coords[0])
                 end_key = node_key_from_coord(coords[-1])
+                if row.ring == "R4-C1":
+                    print(start_key)
+                    print(end_key)
                 # Orientation logic (unchanged)
                 if i == 0:
                     if len(ordered_indices) > 1:
@@ -339,6 +342,7 @@ def process(input_path, output_path, output_crs="EPSG:4326", work_utm="EPSG:3264
                 })
                 cumulative += seg_length
             # ✅ After the loop — add final end-point chainage for this component
+            print(row.get("span_name"))
             if last_end_point is not None:
                 out_features.append({
                     "span_name": row.get("span_name"),
